@@ -13,6 +13,7 @@ import { confirmDialog, showToast } from './dialogs.js';
 import { exportCookies, importFile, copySnippet, saveSet, restoreSet } from './transfer.js';
 import { filterCookies, countSummary, storeLabel, diffLists, describeChanges } from './view.js';
 import { loadProtected, setProtected, onProtectedChanged } from './protect.js';
+import { createCompareView, readSets } from './compare.js';
 import { cookieKey } from '../core/model.js';
 
 const isPopup = document.body.dataset.surface === 'popup';
@@ -92,6 +93,7 @@ function render() {
 
   const stores = ui.ctx?.stores ?? [];
   storeSelect.hidden = !ready || stores.length <= 1;
+  byTestId('copy-store').hidden = stores.length <= 1;
   if (!storeSelect.hidden) {
     storeSelect.replaceChildren(...stores.map((s) => h('option', { value: s.id, text: storeLabel(s) })));
     storeSelect.value = storeId();
@@ -219,16 +221,17 @@ async function toastFor(result, text) {
   showToast(label, { undo: result.undoId ? () => undo(result.undoId) : null });
 }
 
-async function undo(id) {
+/** `store`: the cookie store the entry belongs to (a copy to another store is undone there). */
+async function undo(id, store = storeId()) {
   let r;
   ui.selfUntil = Infinity;
   try {
     try {
-      r = await engine.undo(id, { storeId: storeId() });
+      r = await engine.undo(id, { storeId: store });
     } catch (e) {
       if (e?.code !== 'undo_conflict') throw e;
       if (!(await confirmDialog({ title: 'Undo anyway?', message: e.message, ok: 'Undo anyway', danger: true }))) return;
-      r = await engine.undo(id, { force: true, storeId: storeId() });
+      r = await engine.undo(id, { force: true, storeId: store });
     }
   } catch (e) {
     showToast(e?.message || String(e), { error: true });
@@ -315,6 +318,65 @@ async function bulkDelete() {
     danger: true,
   });
   if (ok) await deleteCookies(doomed);
+}
+
+/** P2-2: copy what the list shows into another cookie store (e.g. normal <-> incognito). */
+async function copyToStore() {
+  const shown = filterCookies(ui.cookies, search.value);
+  const from = ui.listedStore ?? storeId();
+  const targets = (ui.ctx?.stores ?? []).filter((s) => s.id !== from);
+  if (!shown.length || !targets.length) return;
+  const select = h('select', { testid: 'copy-target', attrs: { 'aria-label': 'Copy to' } }, targets.map((s) => h('option', { value: s.id, text: storeLabel(s) })));
+  const diskNote = h('p', { class: 'hint' });
+  const updateNote = () => {
+    diskNote.textContent = select.value === '0'
+      ? 'Cookies copied into the Default store are kept like any other cookie, on disk and after this incognito session ends.'
+      : 'Cookies copied into an incognito store end with that incognito session.';
+  };
+  select.addEventListener('change', updateNote);
+  updateNote();
+  const ok = await confirmDialog({
+    title: `Copy ${plural(shown.length, 'cookie')}`,
+    message: `From the ${storeLabel({ id: from })} store to:`,
+    body: h('div', {}, select, diskNote,
+      h('ul', { class: 'bullets scroll', testid: 'copy-list' }, shown.map((c) => h('li', { class: 'mono', text: c.name || '(empty name)' }))),
+      h('p', { class: 'hint', text: 'Cookies with the same name, domain and path there are replaced, except protected ones. You can undo the copy.' })),
+    ok: 'Copy',
+  });
+  if (!ok) return;
+  const to = select.value;
+  const label = storeLabel({ id: to });
+  try {
+    const r = await mutate((o) => engine.importDrafts(shown, { storeId: to, protect: isProtected, label: `Copied ${plural(shown.length, 'cookie')} to ${label}`, ...o }));
+    if (!r) return;
+    const kept = r.skipped.length ? ` ${plural(r.skipped.length, 'protected cookie')} there left as ${r.skipped.length === 1 ? 'it was' : 'they were'}.` : '';
+    // The header Undo and Ctrl+Z work on the store shown here; the copy lives in the target store.
+    showToast(r.undoId ? `Copied ${plural(r.written, 'cookie')} to ${label}.${kept} Undo it here, or later from the ${label} store.` : `${label} already has these cookies exactly.${kept}`, { undo: r.undoId ? () => undo(r.undoId, to) : null });
+  } catch (e) {
+    showToast(e?.message || String(e), { error: true });
+  }
+}
+
+/** P2-1: compare one set with the site's cookies now, or two sets with each other. */
+async function compareSets(files) {
+  let sets;
+  try {
+    sets = await readSets(files);
+  } catch (e) {
+    await confirmDialog({ title: 'Can\'t compare', message: e.message, ok: 'OK', cancel: null });
+    return;
+  }
+  const site = state().site;
+  const at = (s) => { const t = Date.parse(s.meta.exportedAt ?? ''); return Number.isFinite(t) ? ` (${new Date(t).toLocaleString()})` : ''; };
+  const [a, b] = sets;
+  const view = b
+    ? { before: a.drafts, after: b.drafts, beforeLabel: `"${a.name}"${at(a)}`, afterLabel: `"${b.name}"${at(b)}` }
+    : { before: a.drafts, after: ui.cookies, beforeLabel: `"${a.name}"${at(a)}`, afterLabel: `${site} now` };
+  const other = sets.find((s) => s.meta.site && s.meta.site !== site);
+  if (!b && other) view.note = `This set was saved for ${other.meta.site}, not ${site}.`;
+  const { el } = createCompareView({ ...view, close: closeOverlay });
+  showOverlay('compare', el);
+  byTestId('diff-close')?.focus();
 }
 
 function showShortcuts() {
@@ -440,6 +502,8 @@ menuAction('import', () => byTestId('import-file').click());
 menuAction('save-set', () => saveSet({ list: ui.cookies, site: state().site, storeId: storeId() }));
 menuAction('restore-set', () => byTestId('restore-file').click());
 menuAction('bulk-delete', bulkDelete);
+menuAction('compare-set', () => byTestId('compare-file').click());
+menuAction('copy-store', copyToStore);
 menuAction('open-access', openAccess);
 menuAction('shortcuts', showShortcuts);
 if (isPopup) {
@@ -471,6 +535,12 @@ byTestId('import-file').addEventListener('change', async (e) => {
       scheduleRefresh();
     },
   });
+});
+
+byTestId('compare-file').addEventListener('change', async (e) => {
+  const files = [...(e.target.files ?? [])];
+  e.target.value = '';
+  if (files.length) await compareSets(files);
 });
 
 byTestId('restore-file').addEventListener('change', async (e) => {

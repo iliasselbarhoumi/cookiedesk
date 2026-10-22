@@ -332,13 +332,13 @@ test('P1-3: a named set round-trips its label; site and set come back as display
   assert.equal(JSON.parse(text).set, 'admin');
   const r = parseImport(text, ctx);
   assert.equal(r.ok, true);
-  assert.deepEqual(r.meta, { site: 'example.com', set: 'admin' });
+  assert.deepEqual(r.meta, { site: 'example.com', set: 'admin', exportedAt: new Date(NOW).toISOString() });
   assert.equal(JSON.parse(exportJson(full, { site: 'x', now: NOW })).set, undefined);
   // Non-string or huge labels are dropped, not trusted.
   const odd = JSON.parse(text);
   odd.set = { toString: 'x' };
   odd.site = 'y'.repeat(500);
-  assert.deepEqual(parseImport(JSON.stringify(odd), ctx).meta, {});
+  assert.deepEqual(parseImport(JSON.stringify(odd), ctx).meta, { exportedAt: new Date(NOW).toISOString() });
   assert.deepEqual(parseImport(JSON.stringify([stripStore(ck())]), ctx).meta, {});
 });
 
@@ -379,4 +379,10 @@ test('P1-6: hostile cookie names cannot escape the snippet (U+2028/U+2029 end a 
   assert.equal(set.length, 1);
   assert.ok(set[0].startsWith('y\u2029globalThis.pwned=2//=v\u2028w;'), 'the cookie itself is set exactly');
   delete globalThis.pwned;
+});
+
+test('domains differing only in case are the same cookie (Chrome lowercases them)', () => {
+  const r = parseImport(JSON.stringify([stripStore(ck({ domain: '.Example.com' })), stripStore(ck())]), ctx);
+  assert.equal(r.ok, false);
+  assert.equal(r.error.code, 'duplicate');
 });

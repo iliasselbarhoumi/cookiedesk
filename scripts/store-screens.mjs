@@ -1,5 +1,6 @@
 // Chrome Web Store images, captured from the real extension UI:
-//   store/screenshots/1-5.png (1280x800) and store/promo-small.png (440x280).
+//   store/screenshots/1-5.png (1280x800), store/promo-small.png (440x280) and
+//   store/promo-marquee.png (1400x560).
 // The demo site is shop.example (a reserved, fictitious domain) served locally
 // with made-up cookie values. Dev-only, no network: npm run store-screens
 import { execFileSync } from 'node:child_process';
@@ -76,9 +77,13 @@ try {
 
   let u = await ui();
   await u.shot('list');
+  await u.close();
+
+  // The editor with "What this cookie does" open.
+  u = await ui({ surface: 'panel', width: 420, height: 760 });
   await u.openRow('auth_token');
-  await u.field('sameSite', 'no_restriction');
-  await u.field('secure', false);
+  await u.run(() => { document.querySelector('[data-testid=explain]').open = true; });
+  await u.run(() => document.activeElement?.blur());
   await u.shot('editor');
   await u.close();
 
@@ -97,10 +102,25 @@ try {
   await sleep(500);
   await u.close();
 
-  u = await ui({ surface: 'panel', width: 400, height: 640, dark: true });
-  await u.search('token');
+  // Compare: a set saved "before login" against the cookies after it, in a dark side panel.
+  const setText = await helper.run(async () => core.io.exportJson(await engine.list({ site: 'shop.example', storeId: '0' }),
+    { site: 'shop.example', storeId: '0', now: Date.now() - 20 * 60_000, setName: 'before login' }));
+  const setFile = join(certDir, 'before-login.json');
+  writeFileSync(setFile, setText);
+  await helper.run(async () => {
+    const at = Date.now() / 1000;
+    await chrome.cookies.set({ url: 'https://www.shop.example/', name: 'session_id', value: 'c41d07e2b9a84f1d8e3a5b6c7d8e9f01', secure: true, httpOnly: true, sameSite: 'lax' });
+    await chrome.cookies.set({ url: 'https://www.shop.example/', name: 'remember_me', value: 'u1042.Zk3pQ8vL', secure: true, httpOnly: true, sameSite: 'lax', expirationDate: at + 30 * 86400 });
+    await chrome.cookies.set({ url: 'https://shop.example/', domain: 'shop.example', name: 'cart_items', value: '0', secure: true, sameSite: 'lax', expirationDate: at + 30 * 86400 });
+    await chrome.cookies.remove({ url: 'https://www.shop.example/', name: '__Host-checkout' });
+  });
+  u = await ui({ surface: 'panel', width: 420, height: 680, dark: true });
+  const { root: doc } = await browser.cdp.send('DOM.getDocument', {}, u.page.sessionId);
+  const { nodeId } = await browser.cdp.send('DOM.querySelector', { nodeId: doc.nodeId, selector: '[data-testid=compare-file]' }, u.page.sessionId);
+  await browser.cdp.send('DOM.setFileInputFiles', { files: [setFile], nodeId }, u.page.sessionId);
+  for (let i = 0; i < 30 && !(await u.count('diff-view')); i++) await sleep(100);
   await u.run(() => document.activeElement?.blur());
-  await u.shot('dark');
+  await u.shot('compare');
   await u.close();
 
   // ---- compose ----------------------------------------------------------------------
@@ -116,11 +136,11 @@ try {
   }
   const font = 'system-ui,-apple-system,"Segoe UI",Roboto,sans-serif';
   const slides = [
-    ['list', 'Every cookie, partitioned ones included', 'Normal and partitioned (CHIPS) cookies in one list, with HttpOnly, Secure, session and partition badges.'],
-    ['editor', 'Mistakes are caught before Chrome sees them', 'Every field is editable. Illegal combinations are blocked and the rule is explained in plain words.'],
-    ['undo', 'Undo on every change', 'Edits, deletes and imports are journaled first and verified after. One click puts a cookie back exactly.'],
-    ['access', 'Access one site at a time', 'No "all your data on all websites" prompt at install. See every grant, revoke it in one click.'],
-    ['dark', 'Popup or side panel, light or dark', 'Live search by name, value or domain. No ads, no tracking, no network requests. Open source.'],
+    ['list', 'Every cookie, partitioned ones included', 'Normal and partitioned (CHIPS) cookies in one list, with HttpOnly, Secure, session and partition badges. Live search by name, value or domain.'],
+    ['editor', 'Every flag, explained in plain words', 'Edit any field. Illegal combinations are blocked before Chrome sees them, with the rule spelled out.'],
+    ['undo', 'Undo on every change', 'Edits, deletes, imports and set restores are journaled first and verified after. One click puts a cookie back exactly.'],
+    ['compare', 'See what a login changed', 'Save the cookies as a set, then compare: what was added, removed and changed. Popup or side panel, light or dark.'],
+    ['access', 'Access one site at a time', 'No "all your data on all websites" prompt at install. No ads, no tracking, no network requests. Open source.'],
   ];
   for (const [i, [key, title, sub]] of slides.entries()) {
     const shot = raw[key];
@@ -141,6 +161,19 @@ try {
     h1{font-size:30px;margin:0;letter-spacing:-.01em}p{margin:18px 0 0;font-size:17px;line-height:1.4;opacity:.92}
   </style><div class="row">${icon}<h1>Cookie Editor</h1></div>
   <p>View, edit &amp; delete cookies.<br>Partitioned cookies · Undo · No ads</p>`, 440, 280, 'promo-small.png');
+  // Marquee (1400x560): headline left, the real list right.
+  const list = raw.list;
+  await render(`<!doctype html><style>
+    body{margin:0;width:1400px;height:560px;box-sizing:border-box;padding:0 90px;font-family:${font};overflow:hidden;
+      background:linear-gradient(120deg,#2557c7,#1d3f8f 70%);color:#fff;display:flex;align-items:center;gap:70px}
+    .copy{flex:1}.row{display:flex;align-items:center;gap:14px;margin-bottom:26px}
+    .row svg{width:56px;height:56px;background:#fff;border-radius:14px;padding:5px}.row b{font-size:26px}
+    h1{font-size:50px;line-height:1.1;margin:0 0 18px;letter-spacing:-.02em}p{font-size:22px;line-height:1.45;margin:0;opacity:.92}
+    img{width:${list.width * 0.9}px;height:${list.height * 0.9}px;border-radius:12px;box-shadow:0 30px 70px rgb(0 0 0/.35);align-self:flex-end;margin-bottom:-40px}
+  </style><div class="copy"><div class="row">${icon}<b>CookieDesk</b></div>
+  <h1>The cookie editor that shows partitioned cookies and undoes every change</h1>
+  <p>Per-site access · No ads · No tracking · Open source</p></div>
+  <img src="data:image/png;base64,${list.data}">`, 1400, 560, 'promo-marquee.png');
 } finally {
   await browser.close();
   await ext.cleanup();

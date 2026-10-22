@@ -10,7 +10,7 @@ import { join, resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { launchChrome, loadExtension, openExtensionPage, prepareExtension, killServiceWorker, serviceWorkerTargets } from './cdp.mjs';
 import { startFixtures, CHROME_ARGS } from './fixtures.mjs';
-import { createDriver, sleep } from './driver.mjs';
+import { createDriver, enableIncognito, sleep } from './driver.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '../..');
 let fx; let browser; let ext; let id; let helper; let d; let tabA;
@@ -22,36 +22,13 @@ const jar = (storeId = '0') => helper.run(async (s) => {
   return (await chrome.cookies.getAll({ storeId: s, partitionKey: {} })).map((c) => JSON.stringify(canon(c))).sort();
 }, storeId);
 
-async function devPrivate(code) {
-  const { targetId } = await browser.cdp.send('Target.createTarget', { url: 'chrome://extensions' });
-  const { sessionId } = await browser.cdp.send('Target.attachToTarget', { targetId, flatten: true });
-  await sleep(800);
-  const r = await browser.cdp.send('Runtime.evaluate', { expression: `(async () => { try { await (${code}); return 'ok'; } catch (e) { return 'ERROR: ' + e.message; } })()`, awaitPromise: true, returnByValue: true }, sessionId);
-  await browser.cdp.send('Target.closeTarget', { targetId });
-  return r.result.value;
-}
-
 before(async () => {
   fx = await startFixtures();
   browser = await launchChrome({ args: CHROME_ARGS });
   ext = await prepareExtension(root, { hosts: ['*://*.a.test/*', '*://*.b.test/*'] });
   id = await loadExtension(browser.cdp, ext.dir);
-  // "Allow in Incognito" (test 16) — what the user toggles in chrome://extensions. It reloads the extension.
-  assert.equal(await devPrivate(`chrome.developerPrivate.updateExtensionConfiguration({ extensionId: ${JSON.stringify(id)}, incognitoAccess: true })`), 'ok');
-  // Branded Chrome disables a CDP-loaded unpacked extension when it reloads
-  // ("unsupportedDeveloperExtension"); switching it back on keeps the incognito setting.
-  await sleep(500);
-  assert.equal(await devPrivate(`chrome.management.setEnabled(${JSON.stringify(id)}, true)`), 'ok');
-  // Wait until a page from the reloaded extension sees incognito access.
-  for (let i = 0; ; i++) {
-    await sleep(500);
-    helper = await openExtensionPage(browser.cdp, `chrome-extension://${id}/e2e/harness.html`);
-    // (chrome.extension.isAllowedIncognitoAccess is gone in MV3; opening an incognito window is the real test.)
-    const ok = await helper.run(async () => { const w = await chrome.windows.create({ incognito: true, url: 'about:blank' }); await chrome.windows.remove(w.id); return true; }).catch(() => false);
-    if (ok) break;
-    await browser.cdp.send('Target.closeTarget', { targetId: helper.targetId }).catch(() => {});
-    if (i > 20) throw new Error('extension did not come back with incognito access');
-  }
+  // "Allow in Incognito" (test 16), as the user toggles it in chrome://extensions.
+  helper = await enableIncognito(browser, id);
   d = createDriver(browser, helper);
   tabA = await d.openTab(fx.url('a.test/a'));
 });

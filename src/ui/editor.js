@@ -6,6 +6,7 @@ import { h, icon } from './dom.js';
 import { validateCookie } from '../core/validate.js';
 import { isPublicSuffix } from '../core/site.js';
 import { formFromCookie, draftFromForm, byteCount, defaultExpiry } from './view.js';
+import { explainCookie } from '../core/explain.js';
 
 const MAX_BYTES = 4096;
 
@@ -53,6 +54,10 @@ export function createEditor({ cookie, host, site, https, feats, save, remove, c
       cookie && h('span', { class: 'editor-sub mono', text: cookie.name })),
     h('div', { class: 'editor-body', testid: 'editor-issues' },
       general,
+      // P2-3: what the cookie as stored does, in plain words. Read-only.
+      cookie && h('details', { class: 'explain', testid: 'explain' },
+        h('summary', { text: 'What this cookie does' }),
+        h('ul', { class: 'bullets' }, explainCookie(cookie, { site }).map((x) => h('li', { dataset: { topic: x.topic }, text: x.text })))),
       field('name', 'Name', nameIn),
       field('value', 'Value', valueIn, bytes),
       h('div', { class: 'grid2' },

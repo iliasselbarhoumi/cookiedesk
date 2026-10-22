@@ -34,6 +34,8 @@
       <hr>
       <button type="button" role="menuitem" data-testid="save-set" data-needs="ready">Save cookie set…</button>
       <button type="button" role="menuitem" data-testid="restore-set" data-needs="ready">Restore cookie set…</button>
+      <button type="button" role="menuitem" data-testid="compare-set" data-needs="ready">Compare with a set…</button>
+      <button type="button" role="menuitem" data-testid="copy-store" data-needs="ready" hidden>Copy shown cookies to another store…</button>
       <hr>
       <button type="button" role="menuitem" data-testid="bulk-delete" data-needs="ready" class="danger">Delete shown cookies…</button>
       <hr>
@@ -43,6 +45,7 @@
     </div>
     <input type="file" data-testid="import-file" accept=".json,.txt,application/json,text/plain" hidden>
     <input type="file" data-testid="restore-file" accept=".json,application/json" hidden>
+    <input type="file" data-testid="compare-file" accept=".json,application/json" multiple hidden>
   </header>
   <div class="tools">
     <label class="search">

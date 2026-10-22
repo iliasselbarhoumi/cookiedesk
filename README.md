@@ -79,7 +79,7 @@ CookieDesk does not trust the version in the user agent. `probeFeatures()` in `s
 
 ## Undo model
 
-The goal in spec §13: no sequence of actions destroys a cookie without an undo. The engine is `src/core/cookies.js`; the interface is in `docs/core-contract.md` ("Transaction model"); the Chrome behaviour it is built on is in `phase0/FINDINGS.md` §3 and §6.
+The goal: no sequence of actions destroys a cookie without an undo. The engine is `src/core/cookies.js`; the interface is in `docs/core-contract.md` ("Transaction model"); the Chrome behaviour it is built on is in `phase0/FINDINGS.md` §3 and §6.
 
 How a write works:
 
@@ -103,13 +103,16 @@ Limits, stated plainly:
 - Journal entries contain cookie values. They are deleted when Chrome closes, when the incognito session they belong to ends, or after 10 minutes once CookieDesk next runs.
 - There is no timer, because the extension has no `alarms` permission. With no CookieDesk page open, expired copies can sit in memory until the next wake-up or until the browser closes.
 
-## Features beyond the basics (spec P1)
+## Features beyond the basics
 
 - **Protected cookies.** The shield on a row (or `p`) protects a cookie: bulk delete, import and set restore leave it exactly as it is, and deleting it on its own asks first. Protection is stored in `chrome.storage.local` as the cookie's identity (store, partition, domain, path, name), never its value.
 - **Bulk delete within the site.** "Delete shown cookies…" in the ⋯ menu deletes what the list currently shows (narrow it with search first), lists every cookie it will delete, keeps protected ones, and is one undo step. It is deliberately not a prominent button.
 - **Cookie sets, kept as files.** "Save cookie set…" downloads the site's cookies as a named file (with the export warning); CookieDesk keeps no copy. "Restore cookie set…" makes the site's cookies match the file: it shows exactly what it will write, delete and leave alone (a dry run of the real transaction), then does it as one undo step. A set only restores on the site it was saved for, and never writes to other sites.
 - **Keyboard first.** `/` search, `↓ ↑ Home End` move, `Enter` edit, `c` copy value, `p` protect, `Del` delete, `n` add, `⌘Z`/`Ctrl+Z` undo, `Esc` back, `?` the full list.
 - **Live view.** When the site sets, changes or removes cookies while CookieDesk is open, the rows are highlighted and a line names what changed. CookieDesk's own edits are not reported as the site's.
+- **Compare cookie sets.** "Compare with a set…" shows what changed between a saved set and the site's cookies now (for example before and after logging in), or between two set files (older first): added, removed, changed with which attributes and the old and new value, and, folded away, cookies whose only change is a refreshed expiry.
+- **Copy to another cookie store.** With "Allow in Incognito" turned on for CookieDesk and an incognito window open, "Copy shown cookies to another store…" copies the listed cookies between the Default and Incognito stores. Protected cookies in the target are left alone, and the copy is one undo step in the target store.
+- **What this cookie does.** The editor explains the cookie as stored: who it's sent to, over what, with which cross-site rules, until when, in which partition, how much of the 4096-byte limit it uses, and whether its value looks like a JSON Web Token (with that token's own expiry).
 - **Export formats.** CookieDesk JSON, Netscape `cookies.txt`, and "Copy as document.cookie…": a snippet for the DevTools console, copied to the clipboard after the same credential warning. HttpOnly cookies can't be set from JavaScript, so they are left out and named in the snippet.
 
 ## Security and privacy
@@ -141,12 +144,12 @@ To check it yourself:
 | Command | What it does |
 |---|---|
 | `npm test` | Unit tests (`node --test test/unit/`), including the no-network guard. No browser needed. |
-| `npm run test:e2e` | Engine, UI, robustness and P1 feature suites in real Chrome. Needs Chrome installed. Uses HTTPS fixtures on `*.test` hosts mapped with `--host-resolver-rules`, in a throwaway profile. |
+| `npm run test:e2e` | Engine, UI, robustness, P1 and P2 feature suites in real Chrome. Needs Chrome installed. Uses HTTPS fixtures on `*.test` hosts mapped with `--host-resolver-rules`, in a throwaway profile. |
 | `npm run test:permissions` | Interactive. A visible Chrome opens and you click Allow on the real permission prompts. |
 | `npm run get-old-chrome` then `npm run test:old-chrome` | Downloads Chrome for Testing 116, 119 and 131 (dev only), then runs acceptance test 5 on them. |
 | `npm run icons` / `npm run build` | Render `assets/icon.svg` to `icons/`; zip the extension into `dist/`. |
 
-`test/manual-checklist.md` maps all 21 acceptance tests from the spec to how each is covered and its status, including the ones that are only partly automated.
+`test/manual-checklist.md` maps all 21 acceptance tests, plus the P1 and P2 features, to how each is covered and its status, including the ones that are only partly automated.
 
 ## Project layout
 
@@ -167,7 +170,8 @@ src/
     perms.js          optional host permission request, list, revoke
 icons/                toolbar and store icons (from assets/icon.svg)
 scripts/              dev only: build-psl (downloads the PSL), build-icons, build, get-old-chrome
-store/listing.md      Chrome Web Store listing copy
+store/listing.md      every Chrome Web Store dashboard field, ready to paste
+CHANGELOG.md          release notes
 test/                 unit, e2e, manual-checklist.md
 docs/core-contract.md module interfaces
 phase0/               measured Chrome behaviour (FINDINGS.md) and probe

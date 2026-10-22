@@ -85,3 +85,36 @@ export function createDriver(browser, helper) {
 
   return { openTab, openUi, clickToolbar };
 }
+
+/** Run code in a chrome://extensions page (developerPrivate / management live there). */
+export async function inExtensionsPage(browser, code) {
+  const { targetId } = await browser.cdp.send('Target.createTarget', { url: 'chrome://extensions' });
+  const { sessionId } = await browser.cdp.send('Target.attachToTarget', { targetId, flatten: true });
+  await sleep(800);
+  const r = await browser.cdp.send('Runtime.evaluate', { expression: `(async () => { try { await (${code}); return 'ok'; } catch (e) { return 'ERROR: ' + e.message; } })()`, awaitPromise: true, returnByValue: true }, sessionId);
+  await browser.cdp.send('Target.closeTarget', { targetId });
+  return r.result.value;
+}
+
+/**
+ * Turn on "Allow in Incognito" as a user would in chrome://extensions. That reloads
+ * the extension, and branded Chrome then disables a CDP-loaded unpacked one
+ * ("unsupportedDeveloperExtension"), so switch it back on. Returns a fresh helper
+ * page once an incognito window can really be opened (chrome.extension's
+ * isAllowedIncognitoAccess is gone in MV3).
+ */
+export async function enableIncognito(browser, id) {
+  const ok = await inExtensionsPage(browser, `chrome.developerPrivate.updateExtensionConfiguration({ extensionId: ${JSON.stringify(id)}, incognitoAccess: true })`);
+  if (ok !== 'ok') throw new Error(`incognito toggle: ${ok}`);
+  await sleep(500);
+  const on = await inExtensionsPage(browser, `chrome.management.setEnabled(${JSON.stringify(id)}, true)`);
+  if (on !== 'ok') throw new Error(`re-enable: ${on}`);
+  for (let i = 0; ; i++) {
+    await sleep(500);
+    const helper = await openExtensionPage(browser.cdp, `chrome-extension://${id}/e2e/harness.html`);
+    const works = await helper.run(async () => { const w = await chrome.windows.create({ incognito: true, url: 'about:blank' }); await chrome.windows.remove(w.id); return true; }).catch(() => false);
+    if (works) return helper;
+    await browser.cdp.send('Target.closeTarget', { targetId: helper.targetId }).catch(() => {});
+    if (i > 20) throw new Error('extension did not come back with incognito access');
+  }
+}

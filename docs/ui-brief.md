@@ -189,6 +189,10 @@ export-json / export-netscape / export-snippet / import / import-file (the input
 save-set / set-name (input in its dialog) / restore-set / restore-file (the input)
 restore-plan / restore-write / restore-delete / restore-skipped   (restore preview lists)
 bulk-delete / bulk-list (names in its dialog) / shortcuts / shortcut-list
+compare-set / compare-file (input, multiple) / diff-view / diff-close / diff-summary
+diff-added / diff-removed / diff-changed / diff-expiry   (each .diff-item has data-name)
+copy-store (hidden with one store) / copy-target (select in its dialog) / copy-list
+explain          editor <details>; each li has data-topic = third-party|prefix|scope|path|secure|httpOnly|sameSite|expiry|partition|jwt|size
 live-activity    "Just now: …" note naming what the site changed (P1-5)
 store-select
 editor           editor root; form fields use name= name,value,domain,hostOnly,path,session,expires,secure,httpOnly,sameSite,partitioned,topLevelSite

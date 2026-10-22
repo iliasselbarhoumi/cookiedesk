@@ -76,3 +76,11 @@ All 21 acceptance tests from the spec, grouped as in §9. Automated tests are ru
 | P1-4 | Keyboard-first operation; copy a value with one keystroke | `p1.e2e.mjs`: `/`, arrows, Home/End, `c`, `p`, Del, Ctrl+Z, `n`, Esc, `?` | PASS (automated) |
 | P1-5 | `onChanged` live view | `p1.e2e.mjs`: site changes highlighted and named; CookieDesk's own edits not announced. `view.test.mjs`: diff | PASS (automated) |
 | P1-6 | Export formats: JSON, cookies.txt, document.cookie snippet | `io.test.mjs`: snippet statements evaluated; `p1.e2e.mjs`: warning, HttpOnly left out, snippet run on the site recreates the cookies (partitioned included) | PASS (automated) |
+
+## P2 features (spec §6)
+
+| ID | Feature | How | Status |
+|---|---|---|---|
+| P2-1 | Diff two cookie sets (before/after a login flow) | `test/e2e/p2.e2e.mjs`: a set vs now after a simulated login (added, removed, changed with fields and values, expiry-only folded); two set files ordered by save time. `diff-explain.test.mjs`: identity across stores and Chrome versions | PASS (automated) |
+| P2-2 | Cross-profile (store) copy via explicit storeId selection | `p2.e2e.mjs`: Default → Incognito with a real incognito window, partitioned cookies keep their partition, undo removes the copies from the incognito store | PASS (automated) |
+| P2-3 | Read-only "explain this cookie" panel | `p2.e2e.mjs`: editor shows each attribute in words, partition explained; `diff-explain.test.mjs`: every topic, prefixes, third-party wording, JWT detection | PASS (automated) |

@@ -244,7 +244,7 @@ export function parseImport(text, ctx = {}) {
         source = 'cookiedesk';
         entries = data.cookies;
         // Display-only labels: plain strings, length-capped, never trusted for anything else.
-        for (const k of ['site', 'set']) {
+        for (const k of ['site', 'set', 'exportedAt']) {
           const v = own(data, k);
           if (typeof v === 'string' && v.length <= 200) meta[k] = v;
         }
@@ -273,7 +273,8 @@ export function parseImport(text, ctx = {}) {
         throw new ImportError(errors[0].code, `${label(i, d.name)}: ${errors[0].message}`, i);
       }
       for (const x of w) warnings.push(`${label(i, d.name)}: ${x.message}`);
-      const key = [d.name, d.domain, d.path, partitionId(d.partitionKey)].join('\u0000');
+      // Chrome stores domains lowercased, so A.test and a.test name the same cookie.
+      const key = [d.name, d.domain.toLowerCase(), d.path, partitionId(d.partitionKey)].join('\u0000');
       if (seen.has(key)) {
         throw new ImportError('duplicate', `${label(i, d.name)}: another entry has the same name, domain, path and partition.`, i);
       }

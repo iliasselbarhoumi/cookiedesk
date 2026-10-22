@@ -70,7 +70,7 @@ Certifications (check all three):
 - I do not use or transfer user data for purposes that are unrelated to my item's single purpose.
 - I do not use or transfer user data to determine creditworthiness or for lending purposes.
 
-Privacy policy URL: <REPO_URL>/blob/main/PRIVACY.md
+Privacy policy URL: https://github.com/iliasselbarhoumi/cookiedesk/blob/main/PRIVACY.md
 
 ## Screenshot captions
 

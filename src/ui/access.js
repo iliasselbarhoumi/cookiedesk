@@ -6,7 +6,7 @@ import * as perms from '../core/perms.js';
 import { showToast } from './dialogs.js';
 
 const SURFACE_KEY = 'surface'; // read by sw.js
-const SOURCE_URL = 'https://github.com/'; // placeholder until the repo is public; a link only, nothing is fetched
+const SOURCE_URL = 'https://github.com/iliasselbarhoumi/cookiedesk'; // a link only, nothing is fetched
 
 function quote(text) {
   return h('p', { class: 'prompt-quote' }, h('span', { class: 'hint', text: 'Chrome will ask: ' }), h('q', { text }));

@@ -27,4 +27,4 @@ Export, "Save cookie set" and "Copy as document.cookie" write a file to your com
 
 ## Contact
 
-Questions or concerns: open an issue at <REPO_URL>/issues.
+Questions or concerns: open an issue at https://github.com/iliasselbarhoumi/cookiedesk/issues.

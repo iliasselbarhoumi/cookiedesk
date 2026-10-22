@@ -99,6 +99,13 @@ test('test 16: an incognito window has its own cookie store; the UI shows and ed
   const inIncog = await helper.run(async (s) => (await chrome.cookies.getAll({ storeId: s, name: 'incog_only' })).length + ':' + (await chrome.cookies.getAll({ storeId: s, name: 'a_plain' }))[0].value, incog.id);
   assert.equal(inIncog, '1:edited-incognito');
 
+  // Protecting an incognito cookie keeps that fact in memory, never on disk (P1-1).
+  await ui.run(() => document.querySelector('[data-testid=cookie-row][data-name=incog_only] [data-testid=row-protect]').click());
+  for (let i = 0; i < 30 && !(await ui.count('badge-protected')); i++) await sleep(100);
+  assert.equal(await ui.count('badge-protected'), 1);
+  assert.ok(!(JSON.stringify(await helper.run(() => chrome.storage.local.get(null)))).includes('incog_only'), 'no incognito protection in storage.local');
+  assert.ok((JSON.stringify(await helper.run(() => chrome.storage.session.get('protected')))).includes('incog_only'));
+
   // Switching the selector to the normal store shows the normal value.
   await ui.run(() => { const s = document.querySelector('[data-testid=store-select]'); s.value = '0'; s.dispatchEvent(new Event('change', { bubbles: true })); });
   await sleep(500);
@@ -114,6 +121,7 @@ test('test 16: an incognito window has its own cookie store; the UI shows and ed
     leaked = (await helper.run(() => chrome.storage.session.get(null).then((all) => JSON.stringify(all)))).includes('incognito-value');
   }
   assert.ok(!leaked, 'incognito cookie values purged from the undo journal');
+  assert.ok(!(JSON.stringify(await helper.run(() => chrome.storage.session.get('protected')))).includes('incog_only'), 'incognito protections end with the session');
 });
 
 test('test 17: service worker killed mid-session — UI keeps working, grants and undo intact, settings still applied', async () => {
@@ -159,7 +167,9 @@ test('the popup closing in the middle of an import still leaves an undo that res
     drafts.unshift({ name: 'a_plain', value: 'clobbered', domain: 'a.test', hostOnly: true, path: '/', secure: true, sameSite: 'lax' });
     engine.importDrafts(drafts, { storeId: '0' });
   });
-  await sleep(150);
+  // Close it as soon as the first cookies land, so the cut is really part-way.
+  const written = async () => (await browser.cdp.send('Storage.getCookies')).cookies.filter((c) => c.name.startsWith('bulk_')).length;
+  for (let i = 0; i < 500 && (await written()) === 0; i++) await sleep(10);
   await browser.cdp.send('Target.closeTarget', { targetId: victim.targetId });
   await sleep(300);
   const midway = await helper.run(async () => (await chrome.cookies.getAll({ storeId: '0' })).filter((c) => c.name.startsWith('bulk_')).length);

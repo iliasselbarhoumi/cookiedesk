@@ -28,7 +28,11 @@ What you can do
 - Edit HttpOnly cookies. They are marked "not visible to page JavaScript".
 - Edit every field: name, value, domain, path, expiry, Secure, HttpOnly, SameSite. Illegal combinations are blocked before writing, with the rule explained.
 - Undo on every change: edit, add, delete, import. Undo works for 10 minutes; undo copies stay in memory only, never on disk, and are gone when Chrome closes.
-- Import and export cookies as JSON or cookies.txt. Export warns you that the file contains live session cookies and should be treated like a password. Imports are checked first and written all or nothing.
+- Protect important cookies so bulk delete, import and set restore leave them alone. Delete all the cookies a search shows, in one undoable step.
+- Save the site's cookies as a named set (a file on your computer) and restore it later, for example "logged in as admin".
+- Keyboard first: search, move, edit, copy a value, protect, delete and undo without the mouse.
+- Live view: see which cookies the site sets or changes while you use it.
+- Import and export cookies as JSON or cookies.txt, or copy them as a document.cookie snippet. Export warns you that the file contains live session cookies and should be treated like a password. Imports are checked first and written all or nothing.
 - Incognito and other cookie stores, selectable.
 - Honest empty states: no cookies, no access yet, or a page Chrome doesn't allow. Never a blank list without a reason.
 
@@ -47,7 +51,7 @@ CookieDesk lets you view, search, edit, add, delete, import and export the brows
 ## Permission justifications (CWS dashboard)
 
 - cookies: Required to list, edit, add, delete, import and export cookies, which is the extension's single purpose. It reads and changes cookies only on sites the user has allowed.
-- storage: Saves one setting (whether the toolbar button opens the popup or the side panel) in chrome.storage.local, and keeps in-memory undo copies in chrome.storage.session. The session copies are never written to disk, expire after 10 minutes, and are gone when Chrome closes.
+- storage: Saves settings in chrome.storage.local (whether the toolbar button opens the popup or the side panel, and which cookies the user marked as protected, by name and domain only, never values), and keeps in-memory undo copies in chrome.storage.session. The session copies are never written to disk, expire after 10 minutes, and are gone when Chrome closes.
 - activeTab: After a toolbar click, gives the popup the active tab's URL so it can name the site and ask permission for it. It grants no cookie access.
 - sidePanel: Lets the user choose a side panel instead of the popup as the place CookieDesk opens.
 - Host permissions (optional, optional_host_permissions <all_urls>): Not granted at install. Requested at runtime, per site and only when the user clicks to allow, as *://*.example.com/* so that cookies set on the site's parent domain and non-Secure cookies are included. An opt-in "Allow on all sites" also exists. The user can revoke each grant in the extension.

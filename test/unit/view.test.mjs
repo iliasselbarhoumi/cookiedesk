@@ -3,7 +3,9 @@ import assert from 'node:assert/strict';
 import {
   filterCookies, formatExpiry, byteCount, truncate, countSummary, formFromCookie, draftFromForm,
   toDatetimeLocal, fromDatetimeLocal, rowSignature, sameSiteLabel, storeLabel, exportFilename, defaultExpiry,
+  diffLists, describeChanges, setFilename,
 } from '../../src/ui/view.js';
+import { cookieKey } from '../../src/core/model.js';
 
 const c = (o) => ({ name: 'n', value: 'v', domain: 'a.test', hostOnly: true, path: '/', secure: true, httpOnly: false, sameSite: 'lax', session: true, storeId: '0', ...o });
 
@@ -110,4 +112,24 @@ test('small labels', () => {
   assert.equal(storeLabel({ id: '1' }), 'Incognito');
   assert.equal(exportFilename('a.test', 'json', new Date(2030, 0, 2, 3, 4).getTime()), 'cookies-a.test-20300102-0304.json');
   assert.equal(exportFilename('a/b', 'txt', new Date(2030, 0, 2, 3, 4).getTime()), 'cookies-a_b-20300102-0304.txt');
+});
+
+test('P1-5: diffLists finds added, changed and removed cookies by identity', () => {
+  const before = [c({ name: 'a' }), c({ name: 'b' }), c({ name: 'gone' })];
+  const after = [c({ name: 'a' }), c({ name: 'b', value: 'new' }), c({ name: 'fresh' })];
+  const d = diffLists(before, after, cookieKey);
+  assert.deepEqual(d.added.map((x) => x.name), ['fresh']);
+  assert.deepEqual(d.changed.map((x) => x.name), ['b']);
+  assert.deepEqual(d.removed.map((x) => x.name), ['gone']);
+  assert.equal(describeChanges(d), 'b changed, fresh added, gone removed');
+  assert.equal(describeChanges(diffLists([], [c({ name: '1' }), c({ name: '2' }), c({ name: '3' }), c({ name: '4' }), c({ name: '5' })], cookieKey)), '1 added, 2 added, 3 added and 2 more');
+  assert.equal(describeChanges(diffLists(after, after, cookieKey)), '');
+  // Same name on another path is a different cookie, not a change.
+  assert.deepEqual(diffLists([c({ path: '/' })], [c({ path: '/x' })], cookieKey).added.length, 1);
+});
+
+test('P1-3: setFilename is safe for any name', () => {
+  assert.equal(setFilename('logged in as admin', 'example.com'), 'cookieset-logged_in_as_admin-example.com.json');
+  assert.equal(setFilename('../../etc/passwd', 'a.test'), 'cookieset-.._.._etc_passwd-a.test.json');
+  assert.equal(setFilename('', ''), 'cookieset-set-site.json');
 });

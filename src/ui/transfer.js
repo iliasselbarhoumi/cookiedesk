@@ -2,12 +2,12 @@
 // one all-or-nothing write).
 
 import { h } from './dom.js';
-import { exportJson, exportNetscape, parseImport } from '../core/io.js';
-import { isPublicSuffix, registrableDomain } from '../core/site.js';
+import { exportJson, exportNetscape, exportDocumentCookie, parseImport } from '../core/io.js';
+import { isPublicSuffix, registrableDomain, domainMatchesSite } from '../core/site.js';
 import { isPartitioned } from '../core/partition.js';
 import * as perms from '../core/perms.js';
-import { confirmDialog, alertDialog } from './dialogs.js';
-import { exportFilename } from './view.js';
+import { confirmDialog, alertDialog, showToast } from './dialogs.js';
+import { exportFilename, setFilename } from './view.js';
 
 const EXPORT_WARNING = 'This file contains live session cookies. Anyone who has it can sign in as you on these sites. Treat it like a password and delete it when you\'re done.';
 
@@ -123,4 +123,95 @@ export async function importFile(file, { site, write }) {
   updateOk(); // disabled until the access check (and any other-sites consent) is done
   await checkAccess();
   if (await confirmed) await write(r.drafts);
+}
+
+// ---- P1-6: document.cookie snippet -------------------------------------------------------
+
+/** Copy a document.cookie snippet for `list` to the clipboard, after the credential warning. */
+export async function copySnippet({ list, site }) {
+  const { text, skipped } = exportDocumentCookie(list, { site });
+  const n = list.length - skipped.length;
+  const ok = await confirmDialog({
+    title: `Copy ${plural(n, 'cookie')} as document.cookie`,
+    message: 'The snippet contains live session cookies. Anyone who has it can sign in as you on this site. Treat it like a password.',
+    body: h('div', {},
+      h('p', { class: 'hint', text: `Paste it into the DevTools console on ${site} to set these cookies there.` }),
+      skipped.length ? h('p', { class: 'hint', text: `${plural(skipped.length, 'HttpOnly cookie')} left out: page JavaScript can't set them.` }) : null),
+    ok: 'Copy',
+  });
+  if (!ok) return;
+  try {
+    await navigator.clipboard.writeText(text);
+    showToast(`Copied ${plural(n, 'cookie')} as document.cookie.`);
+  } catch {
+    showToast('Couldn\'t copy: the clipboard is not available here.', { error: true });
+  }
+}
+
+// ---- P1-3: cookie sets, kept as files (nothing is stored in the extension) ------------------
+
+/** Save the site's cookies as a named set file, after the credential warning. */
+export async function saveSet({ list, site, storeId }) {
+  const name = h('input', { type: 'text', class: 'set-name', testid: 'set-name', maxLength: 60, placeholder: 'e.g. logged in as admin', attrs: { 'aria-label': 'Set name' } });
+  const ok = await confirmDialog({
+    title: `Save ${plural(list.length, 'cookie')} as a set`,
+    message: EXPORT_WARNING,
+    body: h('div', {},
+      h('label', { class: 'hint', text: 'Name' }), name,
+      h('p', { class: 'hint', text: `The set is a file on your computer; CookieDesk keeps no copy. Restore it later with "Restore cookie set…" on ${site}.` })),
+    ok: 'Save set',
+  });
+  if (!ok) return;
+  const setName = name.value.trim() || 'Cookie set';
+  download(exportJson(list, { site, storeId, now: Date.now(), setName }), setFilename(setName, site), 'application/json');
+}
+
+/** A cookie belongs to `site` if its domain is on it, or it is partitioned under it. */
+function onSite(d, site) {
+  if (domainMatchesSite(d.domain, site)) return true;
+  try { return registrableDomain(new URL(d.partitionKey?.topLevelSite ?? '').hostname) === site; } catch { return false; }
+}
+
+/**
+ * Restore a set file: the site's cookies become the set's. Shows exactly what will be
+ * written, deleted and left alone (a dry run of the real transaction) before asking.
+ * `plan(drafts, { dryRun })` runs engine.importDrafts with remove + protect.
+ */
+export async function restoreSet(file, { site, plan, write }) {
+  if (file.size > MAX_FILE_BYTES) return alertDialog('This file is too large to be a cookie set.', 'Can\'t restore this set. Nothing was changed.');
+  let text;
+  try { text = await file.text(); } catch { return alertDialog('The file could not be read.', 'Can\'t restore this set'); }
+  const r = parseImport(text, { now: Date.now(), isPublicSuffix, pageSite: site });
+  if (!r.ok) return alertDialog(r.error.message, 'Can\'t restore this set. Nothing was changed.');
+  if (r.meta.site && r.meta.site !== site) {
+    return alertDialog(`This set was saved for ${r.meta.site}. Open ${r.meta.site} and restore it there.`, 'Wrong site. Nothing was changed.');
+  }
+  const foreign = r.drafts.filter((d) => !onSite(d, site));
+  if (foreign.length) {
+    return alertDialog(`${plural(foreign.length, 'cookie')} in this file belong to other sites (${[...new Set(foreign.map((d) => d.domain.replace(/^\./, '')))].slice(0, 3).join(', ')}). Restoring a set only changes ${site}; use Import… for other sites.`, 'Can\'t restore this set. Nothing was changed.');
+  }
+
+  let preview;
+  try {
+    preview = await plan(r.drafts, { dryRun: true });
+  } catch (e) {
+    return alertDialog(e?.message || String(e), 'Can\'t restore this set. Nothing was changed.');
+  }
+  const setName = r.meta.set || file.name.replace(/\.json$/i, '');
+  const section = (title, names, testid) => (names.length ? [h('p', { class: 'plan-head', text: `${title} (${names.length})` }), h('ul', { class: 'bullets scroll', testid }, names.map((n) => h('li', { class: 'mono', text: n || '(empty name)' })))] : []);
+  const nothing = !preview.plan.write.length && !preview.plan.delete.length;
+  const ok = await confirmDialog({
+    title: `Restore "${setName}"`,
+    message: nothing
+      ? `${site} already matches this set. Nothing to change.`
+      : `${site}'s cookies will be replaced by the ${plural(r.drafts.length, 'cookie')} in this set. You can undo the whole restore.`,
+    body: h('div', { testid: 'restore-plan' },
+      ...section('Write', preview.plan.write, 'restore-write'),
+      ...section('Delete', preview.plan.delete, 'restore-delete'),
+      ...section('Protected, left as they are', preview.skipped, 'restore-skipped')),
+    ok: nothing ? 'OK' : 'Restore',
+    cancel: nothing ? null : 'Cancel',
+    danger: preview.plan.delete.length > 0,
+  });
+  if (ok && !nothing) await write(r.drafts, setName);
 }

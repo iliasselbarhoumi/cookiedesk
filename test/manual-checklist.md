@@ -65,3 +65,14 @@ All 21 acceptance tests from the spec, grouped as in §9. Automated tests are ru
 - **An import that writes to other sites** lists every site, never truncated, and Import stays disabled until you tick "Also write cookies for N other sites".
 - **A full jar** renders and searches quickly. Chrome keeps about 180 cookies per site; the test uses 1 KB values plus a partitioned third party.
 - **Undo is scoped to its cookie store:** an incognito change is never shown or undone from a regular window.
+
+## Phase 5: P1 features (spec §6)
+
+| ID | Feature | How | Status |
+|---|---|---|---|
+| P1-1 | Protect / pin a cookie so bulk operations skip it | `test/e2e/p1.e2e.mjs`: protect via row and `p`; bulk delete, import and set restore leave it alone; single delete asks first; storage holds names, never values | PASS (automated) |
+| P1-2 | Bulk delete within the current site, with a confirm listing what dies | `p1.e2e.mjs`: deletes the shown (searched) cookies, lists each, keeps protected ones, one undo restores all | PASS (automated) |
+| P1-3 | Named cookie sets, saved and restored | File-based by decision (no values stored in the extension). `p1.e2e.mjs`: save, change, restore exactly with a previewed plan, undo the restore; a set from another site is refused. `engine.test.mjs`: dry run, protect, one-step undo | PASS (automated) |
+| P1-4 | Keyboard-first operation; copy a value with one keystroke | `p1.e2e.mjs`: `/`, arrows, Home/End, `c`, `p`, Del, Ctrl+Z, `n`, Esc, `?` | PASS (automated) |
+| P1-5 | `onChanged` live view | `p1.e2e.mjs`: site changes highlighted and named; CookieDesk's own edits not announced. `view.test.mjs`: diff | PASS (automated) |
+| P1-6 | Export formats: JSON, cookies.txt, document.cookie snippet | `io.test.mjs`: snippet statements evaluated; `p1.e2e.mjs`: warning, HttpOnly left out, snippet run on the site recreates the cookies (partitioned included) | PASS (automated) |

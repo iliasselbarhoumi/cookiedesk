@@ -103,6 +103,15 @@ Limits, stated plainly:
 - Journal entries contain cookie values. They are deleted when Chrome closes, when the incognito session they belong to ends, or after 10 minutes once CookieDesk next runs.
 - There is no timer, because the extension has no `alarms` permission. With no CookieDesk page open, expired copies can sit in memory until the next wake-up or until the browser closes.
 
+## Features beyond the basics (spec P1)
+
+- **Protected cookies.** The shield on a row (or `p`) protects a cookie: bulk delete, import and set restore leave it exactly as it is, and deleting it on its own asks first. Protection is stored in `chrome.storage.local` as the cookie's identity (store, partition, domain, path, name), never its value.
+- **Bulk delete within the site.** "Delete shown cookies…" in the ⋯ menu deletes what the list currently shows (narrow it with search first), lists every cookie it will delete, keeps protected ones, and is one undo step. It is deliberately not a prominent button.
+- **Cookie sets, kept as files.** "Save cookie set…" downloads the site's cookies as a named file (with the export warning); CookieDesk keeps no copy. "Restore cookie set…" makes the site's cookies match the file: it shows exactly what it will write, delete and leave alone (a dry run of the real transaction), then does it as one undo step. A set only restores on the site it was saved for, and never writes to other sites.
+- **Keyboard first.** `/` search, `↓ ↑ Home End` move, `Enter` edit, `c` copy value, `p` protect, `Del` delete, `n` add, `⌘Z`/`Ctrl+Z` undo, `Esc` back, `?` the full list.
+- **Live view.** When the site sets, changes or removes cookies while CookieDesk is open, the rows are highlighted and a line names what changed. CookieDesk's own edits are not reported as the site's.
+- **Export formats.** CookieDesk JSON, Netscape `cookies.txt`, and "Copy as document.cookie…": a snippet for the DevTools console, copied to the clipboard after the same credential warning. HttpOnly cookies can't be set from JavaScript, so they are left out and named in the snippet.
+
 ## Security and privacy
 
 - No cookie value is logged, persisted (apart from the in-memory journal above) or transmitted. `test/unit/no-network.test.mjs` also fails the build on any `console.log/info/debug` under `src/`.
@@ -132,7 +141,7 @@ To check it yourself:
 | Command | What it does |
 |---|---|
 | `npm test` | Unit tests (`node --test test/unit/`), including the no-network guard. No browser needed. |
-| `npm run test:e2e` | Engine, UI and robustness suites in real Chrome. Needs Chrome installed. Uses HTTPS fixtures on `*.test` hosts mapped with `--host-resolver-rules`, in a throwaway profile. |
+| `npm run test:e2e` | Engine, UI, robustness and P1 feature suites in real Chrome. Needs Chrome installed. Uses HTTPS fixtures on `*.test` hosts mapped with `--host-resolver-rules`, in a throwaway profile. |
 | `npm run test:permissions` | Interactive. A visible Chrome opens and you click Allow on the real permission prompts. |
 | `npm run get-old-chrome` then `npm run test:old-chrome` | Downloads Chrome for Testing 116, 119 and 131 (dev only), then runs acceptance test 5 on them. |
 | `npm run icons` / `npm run build` | Render `assets/icon.svg` to `icons/`; zip the extension into `dist/`. |

@@ -26,7 +26,14 @@ chrome.storage.onChanged.addListener((changes, area) => {
 async function pruneDeadStores() {
   const incognitoOpen = (await chrome.windows.getAll()).some((w) => w.incognito);
   const stores = (await chrome.cookies.getAllCookieStores()).map((s) => s.id);
-  await createEngine().pruneJournal({ liveStores: incognitoOpen ? stores : stores.filter((id) => id === '0') });
+  const live = incognitoOpen ? stores : stores.filter((id) => id === '0');
+  await createEngine().pruneJournal({ liveStores: live });
+  // Protections of incognito cookies (src/ui/protect.js) go with the session too.
+  await navigator.locks.request('cookiedesk-protect', async () => {
+    const { protected: keys = [] } = await chrome.storage.session.get('protected');
+    const kept = keys.filter((k) => live.includes(k.split('|')[0]));
+    if (kept.length !== keys.length) await chrome.storage.session.set({ protected: kept });
+  });
 }
 chrome.windows.onRemoved.addListener(pruneDeadStores);
 // Any wake-up is a chance to drop expired undo copies (there is no timer without the alarms permission).

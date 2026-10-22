@@ -220,6 +220,8 @@ export function createEngine({
   }
 
   const isExpired = (c) => !c.session && c.expirationDate * 1000 <= now();
+  // A cookie Chrome stored under older rules (e.g. SameSite=None without Secure) can't be set again as it is.
+  const restorable = (c) => validateCookie(c, { now: now(), isPublicSuffix }).errors.length === 0;
 
   // ---- transactions ---------------------------------------------------------------------
 
@@ -249,6 +251,11 @@ export function createEngine({
    * Caller holds the lock and has read `before` inside it.
    */
   async function transact(label, plan, opts = {}) {
+    // Replacing a cookie Chrome would no longer accept as it is would leave nothing for undo to write back.
+    const lost = opts.checkRestorable === false ? [] : plan.filter((p) => p.before && p.after && !restorable(p.before)).map((p) => p.before.name);
+    if (lost.length && !opts.allowIrreversible) {
+      throw new CookieError('irreversible', `Chrome no longer accepts ${listNames(lost)} as ${lost.length === 1 ? 'it is' : 'they are'} stored, so once replaced ${lost.length === 1 ? 'it' : 'they'} could not be put back. Continue without undo for ${lost.length === 1 ? 'it' : 'them'}?`, { cookies: lost });
+    }
     const stored = [];
     const steps = plan.map(({ before, after }) => step(before, after, opts, stored));
     const entry = {
@@ -336,8 +343,16 @@ export function createEngine({
     });
   }
 
-  /** Write imported drafts. Validates everything before the first write; all-or-nothing. */
-  function importDrafts(drafts, { storeId, ...opts } = {}) {
+  /**
+   * Write imported drafts. Validates everything before the first write; all-or-nothing.
+   * `remove`: cookies to delete in the same transaction unless a draft takes their
+   *   place (restoring a cookie set makes the site match the set).
+   * `protect(cookie)`: true leaves that cookie alone, neither overwritten nor
+   *   deleted. Asked about Chrome's own copy, so it matches exactly.
+   * `dryRun`: return what would happen, and write nothing.
+   * Returns { undoId, written, deleted, skipped, plan: { write, delete } } (names only).
+   */
+  function importDrafts(drafts, { storeId, remove: removals = [], protect = () => false, label, dryRun = false, ...opts } = {}) {
     return exclusive(async () => {
       const next = drafts.map((d) => normalize(d, storeId));
       for (const c of next) assertValid(c);
@@ -347,14 +362,28 @@ export function createEngine({
         if (keys.has(k)) throw new CookieError('duplicate', `The file contains "${c.name}" twice for the same domain and path.`, { cookie: c.name });
         keys.add(k);
       }
-      const plan = [];
+      const writes = [];
+      const deletes = [];
+      const skipped = [];
+      const kept = new Set(); // Chrome's keys that a draft takes over
       for (const c of next) {
         const displaced = await findExact(c);
-        if (isExpired(c)) { if (displaced) plan.push({ before: displaced, after: null }); } else if (!sameCookie(displaced, { ...c, storeId: displaced?.storeId })) plan.push({ before: displaced, after: c });
+        if (displaced) kept.add(keyInStore(displaced));
+        if (displaced && protect(displaced)) { skipped.push(displaced.name); continue; }
+        if (isExpired(c)) { if (displaced) deletes.push({ before: displaced, after: null }); } else if (!sameCookie(displaced, { ...c, storeId: displaced?.storeId })) writes.push({ before: displaced, after: c });
       }
-      if (!plan.length) return { undoId: null, written: 0 };
-      const undoId = await transact(`Imported ${plan.length} cookie${plan.length === 1 ? '' : 's'}`, plan, opts);
-      return { undoId, written: plan.length };
+      for (const r of removals) {
+        const current = await findExact(r);
+        if (!current || kept.has(keyInStore(current))) continue;
+        if (protect(current)) { skipped.push(current.name); continue; }
+        deletes.push({ before: current, after: null });
+      }
+      const summary = { written: writes.length, deleted: deletes.length, skipped, plan: { write: writes.map((p) => p.after.name), delete: deletes.map((p) => p.before.name) } };
+      const plan = [...deletes, ...writes];
+      if (dryRun || !plan.length) return { undoId: null, ...summary };
+      const n = (k, w) => `${k} ${w}${k === 1 ? '' : 's'}`;
+      const undoId = await transact(label ?? `Imported ${n(writes.length, 'cookie')}`, plan, opts);
+      return { undoId, ...summary };
     });
   }
 
@@ -429,6 +458,7 @@ export function createEngine({
       const plan = [];
       const conflicts = [];
       const skipped = [];
+      const refused = [];
       for (const { expected, restore } of targets.values()) {
         const probe = restore ?? expected;
         const current = await findExact(probe);
@@ -442,14 +472,18 @@ export function createEngine({
           if (current && expected) plan.push({ before: current, after: null });
           continue;
         }
+        if (restore && !restorable(restore)) {
+          refused.push(restore.name); // the user agreed to lose its undo; leave what is there now
+          continue;
+        }
         if (restore ? !sameCookie(current, restore) : current) plan.push({ before: current, after: restore });
       }
       if (conflicts.length && !force) {
         throw new CookieError('undo_conflict', `${listNames(conflicts)} changed after "${entry.label}". Undoing now would overwrite the newer value. Undo anyway?`, { cookies: conflicts });
       }
-      if (plan.length) await transact(`Undid: ${entry.label}`, plan);
+      if (plan.length) await transact(`Undid: ${entry.label}`, plan, { checkRestorable: false });
       await dropEntry(entry.id);
-      return { label: entry.label, skipped };
+      return { label: entry.label, skipped, refused };
     });
   }
 

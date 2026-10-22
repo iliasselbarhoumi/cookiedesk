@@ -29,13 +29,23 @@ export function confirmDialog({ title = '', message, body = null, ok = 'OK', can
   dialog.showModal();
   (danger ? cancelBtn : okBtn).focus();
   return new Promise((resolve) => {
+    const form = dialog.querySelector('form');
+    let settled = false;
     const done = (v) => {
+      if (settled) return;
+      settled = true;
       pending = null;
+      form.removeEventListener('submit', onSubmit);
       dialog.removeEventListener('close', onClose);
       resolve(v);
     };
+    // The submit event fires inside the click itself. 'close' is queued as a task,
+    // which Chrome can hold back while the page is in the background, so it is
+    // only the fallback (Escape, or a close from code).
+    const onSubmit = (e) => done(e.submitter?.value === 'ok');
     const onClose = () => done(dialog.returnValue === 'ok');
-    pending = (v) => { dialog.close(); done(v); };
+    pending = (v) => { done(v); dialog.close(); };
+    form.addEventListener('submit', onSubmit);
     dialog.addEventListener('close', onClose);
   });
 }

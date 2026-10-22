@@ -384,3 +384,66 @@ test('an engine without injected flags corrects the version estimate before its 
   assert.equal(engine.feats.hasCrossSiteAncestor, false);
   assert.ok(seen.every((d) => !d.partitionKey || !('hasCrossSiteAncestor' in d.partitionKey)));
 });
+
+test('P1-3: restoring a set writes, deletes and protects in one undoable step; dryRun writes nothing', async () => {
+  const { fake, engine } = setup();
+  const seeded = seedSite(fake);
+  const before = await engine.list({ site: 'a.test', storeId: '0' });
+  const set = [
+    { name: 'plain', value: 'from-set', domain: 'a.test', hostOnly: true, path: '/', secure: true, sameSite: 'lax' },
+    { name: 'sid', value: 'other-session', domain: 'a.test', hostOnly: true, path: '/', secure: true, httpOnly: true, sameSite: 'strict' },
+    { name: 'fresh', value: 'n', domain: 'a.test', hostOnly: true, path: '/', secure: true },
+  ];
+  const isProtected = (c) => c.name === 'dom';
+  const opts = { storeId: '0', remove: before, protect: isProtected, label: 'Restored set "admin"' };
+
+  const dry = await engine.importDrafts(set, { ...opts, dryRun: true });
+  assert.equal(dry.undoId, null);
+  assert.deepEqual(dry.plan.write.sort(), ['fresh', 'plain', 'sid']);
+  assert.deepEqual(dry.plan.delete.sort(), ['part', 'tp']); // not plain/sid (replaced), not dom (protected)
+  assert.deepEqual(dry.skipped, ['dom']);
+  assert.deepEqual((await engine.list({ site: 'a.test', storeId: '0' })).map((c) => c.value).sort(), before.map((c) => c.value).sort(), 'dry run changed nothing');
+
+  const r = await engine.importDrafts(set, opts);
+  const after = await engine.list({ site: 'a.test', storeId: '0' });
+  assert.deepEqual(after.map((c) => `${c.name}=${c.value}`).sort(), ['dom=d', 'fresh=n', 'plain=from-set', 'sid=other-session']);
+  assert.equal((await engine.undoList())[0].label, 'Restored set "admin"');
+
+  await engine.undo(r.undoId);
+  const restored = await engine.list({ site: 'a.test', storeId: '0' });
+  for (const c of before) assert.ok(restored.some((x) => sameCookie(x, c)), `${c.name} back exactly`);
+  assert.equal(restored.length, before.length);
+  assert.ok(seeded.other && fake.all().some((c) => c.name === 'other'), 'other sites untouched');
+});
+
+test('P1-1: import never overwrites a protected cookie, and says which it skipped', async () => {
+  const { fake, engine } = setup();
+  seedSite(fake);
+  const r = await engine.importDrafts([
+    { name: 'sid', value: 'attacker', domain: 'a.test', hostOnly: true, path: '/', secure: true, httpOnly: true, sameSite: 'strict' },
+    { name: 'plain', value: 'two', domain: 'a.test', hostOnly: true, path: '/', secure: true, sameSite: 'lax' },
+  ], { storeId: '0', protect: (c) => c.name === 'sid' });
+  assert.deepEqual(r.skipped, ['sid']);
+  assert.equal(r.written, 1);
+  assert.equal(fake.all().find((c) => c.name === 'sid').value, 'secret');
+  assert.equal(fake.all().find((c) => c.name === 'plain').value, 'two');
+});
+
+test('overwriting a legacy cookie Chrome would no longer accept asks first; undo then skips it and says so', async () => {
+  const { fake, engine } = setup();
+  seedSite(fake);
+  // Stored under older rules: SameSite=None without Secure. Chrome refuses to set this today.
+  fake.seed({ url: 'http://a.test/', name: 'legacy', value: 'old', sameSite: 'no_restriction' });
+  const set = [
+    { name: 'legacy', value: 'new', domain: 'a.test', hostOnly: true, path: '/', secure: true, sameSite: 'no_restriction' },
+    { name: 'plain', value: 'two', domain: 'a.test', hostOnly: true, path: '/', secure: true, sameSite: 'lax' },
+  ];
+  await assert.rejects(engine.importDrafts(set, { storeId: '0' }), (e) => e.code === 'irreversible' && /legacy/.test(e.message));
+  assert.equal(fake.all().find((c) => c.name === 'legacy').value, 'old', 'nothing written before the user agrees');
+
+  const r = await engine.importDrafts(set, { storeId: '0', allowIrreversible: true });
+  assert.equal(fake.all().find((c) => c.name === 'legacy').value, 'new');
+  const u = await engine.undo(r.undoId);
+  assert.deepEqual(u.refused, ['legacy']);
+  assert.equal(fake.all().find((c) => c.name === 'plain').value, 'one', 'the rest of the undo still happened');
+});

@@ -263,7 +263,8 @@ test('an import that writes to other sites lists every one of them and needs exp
   await ui.click('confirm-ok');
   const planted = () => helper.run(async () => (await chrome.cookies.getAll({ domain: 'b.test', name: 'planted' })).length);
   for (let i = 0; i < 80 && !(await planted()); i++) await sleep(100);
-  assert.equal(await planted(), 1);
+  const why = await ui.run(() => ({ toast: document.querySelector('[data-testid=toast]')?.textContent ?? null, dialogOpen: document.querySelector('[data-testid=confirm]').open, msg: document.querySelector('[data-testid=confirm-message]').textContent, visible: document.visibilityState, focus: document.hasFocus() }));
+  assert.equal(await planted(), 1, JSON.stringify(why));
   await ui.close();
 });
 

@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { exportJson, parseImport, exportNetscape, EXPORT_WARNING } from '../../src/core/io.js';
+import { exportJson, parseImport, exportNetscape, exportDocumentCookie, EXPORT_WARNING } from '../../src/core/io.js';
 
 const NOW = 1_700_000_000_000;
 const SEC = NOW / 1000;
@@ -325,4 +325,58 @@ test('no error or warning message contains the cookie value', () => {
   const nets = ['example.com\tFALSE\t/\tFALSE\tx\ta\t' + secret, 'example.com\tFALSE\t/\tMAYBE\t0\ta\t' + secret];
   for (const n of nets) assert.ok(!parseImport(n, ctx).error.message.includes(secret));
   assert.ok(!parseImport('{"x":"' + secret + '"', ctx).error.message.includes(secret));
+});
+
+test('P1-3: a named set round-trips its label; site and set come back as display-only meta', () => {
+  const text = exportJson(full, { site: 'example.com', storeId: '0', now: NOW, setName: 'admin' });
+  assert.equal(JSON.parse(text).set, 'admin');
+  const r = parseImport(text, ctx);
+  assert.equal(r.ok, true);
+  assert.deepEqual(r.meta, { site: 'example.com', set: 'admin' });
+  assert.equal(JSON.parse(exportJson(full, { site: 'x', now: NOW })).set, undefined);
+  // Non-string or huge labels are dropped, not trusted.
+  const odd = JSON.parse(text);
+  odd.set = { toString: 'x' };
+  odd.site = 'y'.repeat(500);
+  assert.deepEqual(parseImport(JSON.stringify(odd), ctx).meta, {});
+  assert.deepEqual(parseImport(JSON.stringify([stripStore(ck())]), ctx).meta, {});
+});
+
+test('P1-6: document.cookie snippet sets every attribute, leaves HttpOnly out by name', () => {
+  const { text, skipped } = exportDocumentCookie([
+    ck({ httpOnly: false, name: 'a', value: 'x"y\\z', hostOnly: true, domain: 'www.example.com', expirationDate: SEC + 60 }),
+    ck({ httpOnly: false, name: 'b', session: true, expirationDate: undefined, sameSite: 'no_restriction', partitionKey: { topLevelSite: 'https://example.com' } }),
+    ck({ httpOnly: false, name: 'c', secure: false, sameSite: 'unspecified', path: '/app' }),
+    ck({ name: 'secret_session' }),
+  ], { site: 'example.com' });
+  assert.deepEqual(skipped, ['secret_session']);
+  const lines = text.trim().split('\n');
+  assert.match(lines[0], /for example\.com/);
+  assert.match(text, /treat it like a password/);
+  assert.match(text, /Left out \(HttpOnly.*\): "secret_session"/);
+  assert.ok(!/secret_session=/.test(text), 'the HttpOnly cookie is not set by the snippet');
+  const stmts = lines.filter((l) => l.startsWith('document.cookie'));
+  assert.equal(stmts.length, 3);
+  // Each statement is valid JavaScript whose string is the cookie we meant.
+  const set = [];
+  for (const l of stmts) new Function('document', l)({ set cookie(v) { set.push(v); } });
+  assert.equal(set[0], `a=x"y\\z; Path=/; Expires=${new Date((SEC + 60) * 1000).toUTCString()}; Secure; SameSite=Lax`);
+  assert.equal(set[1], 'b=v1; Path=/; Domain=example.com; Secure; SameSite=None; Partitioned');
+  assert.equal(set[2], `c=v1; Path=/app; Domain=example.com; Expires=${new Date((SEC + 1000.123456) * 1000).toUTCString()}`);
+});
+
+test('P1-6: hostile cookie names cannot escape the snippet (U+2028/U+2029 end a // comment)', () => {
+  const evil = 'x\u2028globalThis.pwned=1//';
+  const { text } = exportDocumentCookie([
+    ck({ name: evil }), // HttpOnly: named in the comment
+    ck({ httpOnly: false, name: 'y\u2029globalThis.pwned=2//', value: 'v\u2028w' }),
+  ], { site: 'example.com' });
+  assert.ok(!/[\u2028\u2029]/.test(text), 'no raw line separators anywhere');
+  globalThis.pwned = 0;
+  const set = [];
+  new Function('document', text)({ set cookie(v) { set.push(v); } });
+  assert.equal(globalThis.pwned, 0, 'nothing injected ran');
+  assert.equal(set.length, 1);
+  assert.ok(set[0].startsWith('y\u2029globalThis.pwned=2//=v\u2028w;'), 'the cookie itself is set exactly');
+  delete globalThis.pwned;
 });

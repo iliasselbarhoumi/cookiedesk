@@ -191,6 +191,8 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .menu button:hover:not(:disabled), .menu button:focus-visible { background: var(--bg-hover); outline: none; }
 .menu button:disabled { color: var(--fg-3); cursor: default; }
 .menu hr { border: 0; border-top: 1px solid var(--line); margin: 4px 2px; }
+.menu button.danger:not(:disabled) { color: var(--danger); }
+.menu kbd { float: right; color: var(--fg-3); font: 11px var(--mono); }
 
 /* ---- tools ---- */
 
@@ -337,7 +339,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .row.copied::after {
   content: "Copied";
   position: absolute;
-  right: 66px;
+  right: 94px;
   bottom: 8px;
   padding: 1px 6px;
   border-radius: 4px;
@@ -507,3 +509,24 @@ button, input, select, textarea { font: inherit; color: inherit; }
 
 /* Cookie text is attacker-controlled: bidi controls (U+202E…) must not reorder the surrounding UI. */
 .name, .value, .domain, .path, .mono { unicode-bidi: isolate; }
+
+/* ---- Phase 5 ---- */
+
+/* P1-1: protected cookies. The shield in the row actions shows its state; the badge says it at rest. */
+.badge.protected { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+.actions .icon-btn.on { color: var(--accent); }
+.actions .icon-btn.on .icon { fill: var(--accent-soft); }
+
+/* P1-5: a row the site just added or changed. Reduced motion keeps a static mark for the same time. */
+@keyframes fresh-fade { from { background: var(--accent-soft); } to { background: transparent; } }
+.row.fresh { animation: fresh-fade 3s ease-out; box-shadow: inset 3px 0 0 var(--accent); }
+.note.live { color: var(--accent); background: var(--accent-soft); }
+
+/* Keyboard shortcut list. */
+.keys { display: grid; grid-template-columns: max-content 1fr; gap: 4px 12px; margin: 0; font-size: 12.5px; }
+.keys dt { text-align: right; }
+.keys kbd { display: inline-block; min-width: 18px; padding: 1px 5px; border: 1px solid var(--line-2); border-radius: 4px; background: var(--bg-2); font: 11.5px var(--mono); text-align: center; }
+
+.set-name { width: 100%; box-sizing: border-box; height: 30px; margin: 4px 0 8px; padding: 0 8px; border: 1px solid var(--line-2); border-radius: var(--radius); background: var(--bg); }
+.set-name:focus { outline: none; border-color: var(--focus); box-shadow: 0 0 0 2px color-mix(in srgb, var(--focus) 25%, transparent); }
+.plan-head { margin: 8px 0 2px; font-size: 12px; font-weight: 600; }

@@ -43,6 +43,8 @@ const ICONS = {
   check: ['M5 12.5l4.5 4.5L19 7'],
   search: ['M11 18a7 7 0 1 0 0-14 7 7 0 0 0 0 14z', 'M20 20l-4-4'],
   lock: ['M6 11h12v9H6z', 'M9 11V8a3 3 0 0 1 6 0v3'],
+  shield: ['M12 3l7 3v5c0 4.5-3 8.5-7 10-4-1.5-7-5.5-7-10V6z'],
+  keyboard: ['M3 7h18v10H3z', 'M7 11h.01', 'M11 11h.01', 'M15 11h.01', 'M8 14h8'],
 };
 
 export function icon(name, cls = 'icon') {

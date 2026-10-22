@@ -10,8 +10,10 @@ import { renderRows } from './list.js';
 import { createEditor } from './editor.js';
 import { createAccessView } from './access.js';
 import { confirmDialog, showToast } from './dialogs.js';
-import { exportCookies, importFile } from './transfer.js';
-import { filterCookies, countSummary, storeLabel } from './view.js';
+import { exportCookies, importFile, copySnippet, saveSet, restoreSet } from './transfer.js';
+import { filterCookies, countSummary, storeLabel, diffLists, describeChanges } from './view.js';
+import { loadProtected, setProtected, onProtectedChanged } from './protect.js';
+import { cookieKey } from '../core/model.js';
 
 const isPopup = document.body.dataset.surface === 'popup';
 const engine = createEngine();
@@ -31,7 +33,14 @@ const ui = {
   overlay: null, // the editor or access view element
   access: null,
   listScroll: 0,
+  protected: new Set(), // P1-1: cookie keys (never values)
+  fresh: new Map(), // P1-5: key -> 'added' | 'changed', consumed by the next render
+  live: null, // P1-5: { text } describing what the site just changed
+  selfUntil: 0, // changes before this time are CookieDesk's own, not the site's
 };
+
+const isProtected = (c) => ui.protected.has(cookieKey(c));
+const plural = (n, w) => `${n} ${w}${n === 1 ? '' : 's'}`;
 
 // ---- the main view: a state message, or the list -------------------------------------
 
@@ -102,9 +111,11 @@ function render() {
 
   const shown = filterCookies(ui.cookies, search.value);
   byTestId('count').textContent = countSummary(ui.cookies, shown.length);
-  renderRows(rowsEl, shown, { site: st.site, actions: rowActions });
+  renderRows(rowsEl, shown, { site: st.site, actions: rowActions, isProtected, fresh: ui.fresh });
+  ui.fresh = new Map();
 
   const notes = [];
+  if (ui.live) notes.push(h('p', { class: 'note live', testid: 'live-activity', attrs: { role: 'status' }, text: `Just now: ${ui.live.text}` }));
   if (st.via === 'site') notes.push(h('p', { class: 'note', testid: 'note', dataset: { note: 'third-party' }, text: 'Cookies set by other sites embedded in this page are only shown for sites you\'ve allowed.' }));
   if (!engine.feats.partitionKey) notes.push(h('p', { class: 'note warn', testid: 'note', dataset: { note: 'no-partitions' }, text: 'Your version of Chrome can\'t show partitioned cookies, so this list may be incomplete.' }));
   const notesEl = $('.notes', listSection);
@@ -132,10 +143,12 @@ async function refresh() {
     // tab's store everywhere, not just for listing, so Add/Import never target it.
     if (ui.storeId && !ctx.stores.some((s) => s.id === ui.storeId)) ui.storeId = null;
     let cookies = [];
+    const listStore = ui.storeId ?? ctx.storeId;
     if (ctx.state.kind === 'ready') {
-      cookies = await engine.list({ site: ctx.state.site, storeId: ui.storeId ?? ctx.storeId });
+      cookies = await engine.list({ site: ctx.state.site, storeId: listStore });
     }
     if (mine !== seq) return;
+    noteChanges(ctx, cookies, listStore);
     ui.ctx = ctx;
     ui.cookies = cookies;
     ui.error = null;
@@ -145,6 +158,25 @@ async function refresh() {
   }
   render();
   refreshUndo();
+}
+
+// P1-5: compare with the previous listing of the same site and store, mark what
+// changed, and say so when it wasn't CookieDesk's own doing.
+let liveTimer = null;
+function noteChanges(ctx, cookies, listStore) {
+  const prev = ui.ctx;
+  const same = prev?.state.kind === 'ready' && ctx.state.kind === 'ready' && prev.state.site === ctx.state.site
+    && prev.tab?.id === ctx.tab?.id && ui.listedStore === listStore;
+  ui.listedStore = listStore; // the store ui.cookies comes from
+  if (!same) { ui.live = null; return; }
+  const d = diffLists(ui.cookies, cookies, cookieKey);
+  for (const c of d.added) ui.fresh.set(cookieKey(c), 'added');
+  for (const c of d.changed) ui.fresh.set(cookieKey(c), 'changed');
+  const text = describeChanges(d);
+  if (!text || Date.now() < ui.selfUntil) return;
+  ui.live = { text };
+  clearTimeout(liveTimer);
+  liveTimer = setTimeout(() => { ui.live = null; render(); }, 10_000);
 }
 
 let timer = null;
@@ -170,12 +202,13 @@ async function refreshUndo() {
 
 /** Run a write; on irreversible / too_large_to_undo ask, then retry with allowIrreversible. */
 async function mutate(fn) {
+  const mine = (o) => { ui.selfUntil = Infinity; return fn(o).finally(() => { ui.selfUntil = Date.now() + 1500; }); };
   try {
-    return await fn({});
+    return await mine({});
   } catch (e) {
     if (e?.code !== 'irreversible' && e?.code !== 'too_large_to_undo') throw e;
     const ok = await confirmDialog({ title: 'This can\'t be undone', message: e.message, ok: 'Continue without undo', danger: true });
-    return ok ? fn({ allowIrreversible: true }) : null;
+    return ok ? mine({ allowIrreversible: true }) : null;
   }
 }
 
@@ -188,6 +221,7 @@ async function toastFor(result, text) {
 
 async function undo(id) {
   let r;
+  ui.selfUntil = Infinity;
   try {
     try {
       r = await engine.undo(id, { storeId: storeId() });
@@ -200,9 +234,12 @@ async function undo(id) {
     showToast(e?.message || String(e), { error: true });
     refreshUndo();
     return;
+  } finally {
+    ui.selfUntil = Date.now() + 1500;
   }
   const skipped = r.skipped.length ? ` Some cookies had already expired and weren't restored: ${r.skipped.join(', ')}.` : '';
-  showToast(`Undone: ${r.label}.${skipped}`);
+  const refused = r.refused?.length ? ` Chrome no longer accepts these as they were, so they weren't restored: ${r.refused.join(', ')}.` : '';
+  showToast(`Undone: ${r.label}.${skipped}${refused}`);
   scheduleRefresh();
 }
 
@@ -232,16 +269,68 @@ async function copyValue(c, button) {
   row._copiedTimer = setTimeout(() => row.classList.remove('copied'), 1200);
 }
 
+async function toggleProtected(c, on) {
+  try {
+    await setProtected(c, on);
+  } catch (e) {
+    showToast(e?.message || String(e), { error: true });
+    return;
+  }
+  ui.protected = await loadProtected();
+  render();
+  showToast(on ? `Protected "${c.name}": bulk delete, import and set restore will leave it alone.` : `"${c.name}" is no longer protected.`);
+}
+
 const rowActions = {
   open: (c) => openEditor(c),
   copy: copyValue,
-  remove: (c) => {
+  protect: toggleProtected,
+  remove: async (c) => {
+    // Protection guards bulk operations; deleting one on purpose just asks first.
+    if (isProtected(c) && !(await confirmDialog({ title: `Delete "${c.name}"?`, message: 'This cookie is protected. Delete it anyway? You can undo this.', ok: 'Delete', danger: true }))) return;
     // Keep keyboard focus in the list when the focused row goes away.
     const row = document.activeElement?.closest?.('.row');
     if (row?._cookie === c) (row.nextElementSibling ?? row.previousElementSibling)?.focus();
     deleteCookies([c]);
   },
 };
+
+/** P1-2: delete what the list shows (the search narrows it), never protected cookies. */
+async function bulkDelete() {
+  const shown = filterCookies(ui.cookies, search.value);
+  const doomed = shown.filter((c) => !isProtected(c));
+  const kept = shown.length - doomed.length;
+  if (!doomed.length) {
+    await confirmDialog({ title: 'Nothing to delete', message: kept ? `All ${plural(kept, 'shown cookie')} are protected.` : 'No cookies are shown.', ok: 'OK', cancel: null });
+    return;
+  }
+  const q = search.value.trim();
+  const ok = await confirmDialog({
+    title: `Delete ${plural(doomed.length, 'cookie')}?`,
+    message: q ? `These cookies match "${q}" on ${state().site}. You can undo this.` : `Every cookie listed for ${state().site}. You can undo this.`,
+    body: h('div', {},
+      h('ul', { class: 'bullets scroll', testid: 'bulk-list' }, doomed.map((c) => h('li', {}, h('span', { class: 'mono', text: c.name || '(empty name)' }), h('span', { class: 'hint', text: ` · ${c.domain}${c.path}` })))),
+      kept ? h('p', { class: 'hint', text: `${plural(kept, 'protected cookie')} will be kept.` }) : null),
+    ok: `Delete ${plural(doomed.length, 'cookie')}`,
+    danger: true,
+  });
+  if (ok) await deleteCookies(doomed);
+}
+
+function showShortcuts() {
+  const keys = [
+    ['/', 'Search'], ['↓ ↑', 'Move through the list'], ['Home End', 'First / last cookie'], ['Enter', 'Edit'],
+    ['c', 'Copy value'], ['p', 'Protect / unprotect'], ['Del', 'Delete (undoable)'], ['n', 'Add a cookie'],
+    ['⌘Z / Ctrl+Z', 'Undo'], ['Esc', 'Back, or clear the search'], ['?', 'This list'],
+  ];
+  confirmDialog({
+    title: 'Keyboard shortcuts',
+    message: '',
+    body: h('dl', { class: 'keys', testid: 'shortcut-list' }, keys.flatMap(([k, what]) => [h('dt', {}, ...k.split(' ').map((x) => h('kbd', { text: x }))), h('dd', { text: what })])),
+    ok: 'Close',
+    cancel: null,
+  });
+}
 
 rowsEl.addEventListener('keydown', (e) => {
   const row = e.target.closest('.row');
@@ -250,8 +339,11 @@ rowsEl.addEventListener('keydown', (e) => {
   if (e.key === 'Enter') openEditor(c);
   else if (e.key === 'Delete' || e.key === 'Backspace') rowActions.remove(c);
   else if (e.key === 'c') copyValue(c, row.querySelector('[data-testid=row-copy]'));
+  else if (e.key === 'p') toggleProtected(c, !isProtected(c));
   else if (e.key === 'ArrowDown') row.nextElementSibling?.focus();
   else if (e.key === 'ArrowUp') (row.previousElementSibling ?? search).focus();
+  else if (e.key === 'Home') rowsEl.firstElementChild?.focus();
+  else if (e.key === 'End') rowsEl.lastElementChild?.focus();
   else return;
   e.preventDefault();
 });
@@ -343,8 +435,13 @@ function menuAction(testid, fn) {
 }
 menuAction('export-json', () => exportCookies('json', { list: ui.cookies, site: state().site, storeId: storeId() }));
 menuAction('export-netscape', () => exportCookies('netscape', { list: ui.cookies, site: state().site, storeId: storeId() }));
+menuAction('export-snippet', () => copySnippet({ list: ui.cookies, site: state().site }));
 menuAction('import', () => byTestId('import-file').click());
+menuAction('save-set', () => saveSet({ list: ui.cookies, site: state().site, storeId: storeId() }));
+menuAction('restore-set', () => byTestId('restore-file').click());
+menuAction('bulk-delete', bulkDelete);
 menuAction('open-access', openAccess);
+menuAction('shortcuts', showShortcuts);
 if (isPopup) {
   menuAction('open-sidepanel', () => {
     // sidePanel.open needs the click's user gesture, so it is the first call. The
@@ -364,9 +461,31 @@ byTestId('import-file').addEventListener('change', async (e) => {
     site: state().site,
     write: async (drafts) => {
       try {
-        const r = await mutate((o) => engine.importDrafts(drafts, { storeId: storeId(), ...o }));
-        if (r && !r.written) showToast('Nothing to import: every cookie in the file is already set exactly like that.');
-        else await toastFor(r);
+        const r = await mutate((o) => engine.importDrafts(drafts, { storeId: storeId(), protect: isProtected, ...o }));
+        const kept = r?.skipped.length ? ` ${plural(r.skipped.length, 'protected cookie')} left as ${r.skipped.length === 1 ? 'it was' : 'they were'}: ${r.skipped.join(', ')}.` : '';
+        if (r && !r.undoId) showToast(`Nothing to import: every cookie in the file is already set exactly like that.${kept}`);
+        else if (r) showToast(`Imported ${plural(r.written, 'cookie')}.${kept}`, { undo: r.undoId ? () => undo(r.undoId) : null });
+      } catch (err) {
+        showToast(err?.message || String(err), { error: true });
+      }
+      scheduleRefresh();
+    },
+  });
+});
+
+byTestId('restore-file').addEventListener('change', async (e) => {
+  const file = e.target.files?.[0];
+  e.target.value = '';
+  if (!file) return;
+  // The store the list was read from, so deletes (from that list) and writes never straddle a store switch.
+  const opts = { storeId: ui.listedStore ?? storeId(), remove: ui.cookies, protect: isProtected };
+  await restoreSet(file, {
+    site: state().site,
+    plan: (drafts, o) => engine.importDrafts(drafts, { ...opts, ...o }),
+    write: async (drafts, name) => {
+      try {
+        const r = await mutate((o) => engine.importDrafts(drafts, { ...opts, label: `Restored set "${name}"`, ...o }));
+        if (r) showToast(`Restored "${name}": ${plural(r.written, 'cookie')} written, ${r.deleted} deleted.`, { undo: r.undoId ? () => undo(r.undoId) : null });
       } catch (err) {
         showToast(err?.message || String(err), { error: true });
       }
@@ -378,7 +497,17 @@ byTestId('import-file').addEventListener('change', async (e) => {
 document.addEventListener('keydown', (e) => {
   if (byTestId('confirm').open) return; // the dialog handles its own keys
   const typing = e.target.closest?.('input, textarea, select, [contenteditable]');
-  if (e.key === 'Escape') {
+  const plain = !e.altKey && !e.ctrlKey && !e.metaKey;
+  if ((e.key === 'z' || e.key === 'Z') && (e.metaKey || e.ctrlKey) && !e.shiftKey && !typing && ui.view === 'main' && !undoBtn.disabled) {
+    e.preventDefault();
+    undo();
+  } else if (e.key === '?' && !typing && ui.view === 'main') {
+    e.preventDefault();
+    showShortcuts();
+  } else if (e.key === 'n' && plain && !typing && ui.view === 'main' && state().kind === 'ready') {
+    e.preventDefault();
+    openEditor(null);
+  } else if (e.key === 'Escape') {
     if (ui.view !== 'main') { e.preventDefault(); closeOverlay(); }
     else if (e.target === search && search.value) { search.value = ''; render(); e.preventDefault(); }
   } else if (e.key === '/' && !typing && ui.view === 'main' && !search.disabled) {
@@ -394,6 +523,7 @@ document.addEventListener('keydown', (e) => {
 // ---- events --------------------------------------------------------------------------------------
 
 engine.onChange(scheduleRefresh);
+onProtectedChanged(async () => { ui.protected = await loadProtected(); render(); });
 perms.onGrantsChanged(() => { scheduleRefresh(); ui.access?.refresh(); });
 chrome.storage.onChanged.addListener((changes, area) => { if (area === 'session') refreshUndo(); });
 // Undo entries expire after 10 minutes; drop them (and their values) on time.
@@ -431,4 +561,4 @@ if (isPopup) {
 }
 
 search.focus();
-refresh().then(() => { if (!search.disabled) search.focus(); });
+loadProtected().then((p) => { ui.protected = p; }, () => {}).finally(() => refresh().then(() => { if (!search.disabled) search.focus(); }));

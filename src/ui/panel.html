@@ -29,12 +29,20 @@
     <div id="menu" class="menu" popover role="menu" aria-label="More actions">
       <button type="button" role="menuitem" data-testid="export-json" data-needs="ready">Export JSON…</button>
       <button type="button" role="menuitem" data-testid="export-netscape" data-needs="ready">Export cookies.txt…</button>
+      <button type="button" role="menuitem" data-testid="export-snippet" data-needs="ready">Copy as document.cookie…</button>
       <button type="button" role="menuitem" data-testid="import" data-needs="ready">Import…</button>
       <hr>
+      <button type="button" role="menuitem" data-testid="save-set" data-needs="ready">Save cookie set…</button>
+      <button type="button" role="menuitem" data-testid="restore-set" data-needs="ready">Restore cookie set…</button>
+      <hr>
+      <button type="button" role="menuitem" data-testid="bulk-delete" data-needs="ready" class="danger">Delete shown cookies…</button>
+      <hr>
       <button type="button" role="menuitem" data-testid="open-access">Access &amp; settings</button>
+      <button type="button" role="menuitem" data-testid="shortcuts">Keyboard shortcuts <kbd>?</kbd></button>
       <button type="button" role="menuitem" data-testid="open-sidepanel" class="popup-only">Open in side panel</button>
     </div>
     <input type="file" data-testid="import-file" accept=".json,.txt,application/json,text/plain" hidden>
+    <input type="file" data-testid="restore-file" accept=".json,application/json" hidden>
   </header>
   <div class="tools">
     <label class="search">

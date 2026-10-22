@@ -152,10 +152,47 @@ export function draftFromForm(f, original = null) {
   return draft;
 }
 
+// ---- live view (P1-5) ----
+
+/**
+ * What changed between two listings of the same site and store, by cookie key.
+ * `keyOf` is model.cookieKey (passed in to keep this module free of imports it doesn't need).
+ * Returns { added: Cookie[], changed: Cookie[], removed: Cookie[] }.
+ */
+export function diffLists(before, after, keyOf) {
+  const old = new Map(before.map((c) => [keyOf(c), c]));
+  const added = [];
+  const changed = [];
+  for (const c of after) {
+    const prev = old.get(keyOf(c));
+    if (!prev) added.push(c);
+    else if (rowSignature(prev, '') !== rowSignature(c, '')) changed.push(c);
+    old.delete(keyOf(c));
+  }
+  return { added, changed, removed: [...old.values()] };
+}
+
+/** "sid changed, theme added, 2 more" for the live line, or '' when nothing changed. */
+export function describeChanges({ added, changed, removed }, max = 3) {
+  const parts = [
+    ...changed.map((c) => `${c.name || '(empty name)'} changed`),
+    ...added.map((c) => `${c.name || '(empty name)'} added`),
+    ...removed.map((c) => `${c.name || '(empty name)'} removed`),
+  ];
+  if (parts.length <= max) return parts.join(', ');
+  return `${parts.slice(0, max).join(', ')} and ${parts.length - max} more`;
+}
+
 // ---- misc ----
 
 export function storeLabel(store) {
   return store.id === '0' ? 'Default' : store.id === '1' ? 'Incognito' : `Store ${store.id}`;
+}
+
+/** cookieset-<name>-<site>.json, for a saved cookie set (P1-3). */
+export function setFilename(name, site) {
+  const safe = (x) => String(x || '').trim().replace(/[^a-z0-9.-]+/gi, '_').replace(/^_+|_+$/g, '').slice(0, 60);
+  return `cookieset-${safe(name) || 'set'}-${safe(site) || 'site'}.json`;
 }
 
 /** cookies-<site>-<YYYYMMDD-HHmm>.<ext>, local time. */

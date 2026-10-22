@@ -16,14 +16,14 @@ With your per-site permission, CookieDesk reads and changes the cookies of the s
 
 ## What is stored on your device
 
-- **Settings** in `chrome.storage.local`: your choice of what the toolbar button opens (popup or side panel). Your granted sites are kept by Chrome as the extension's site permissions, and you can remove them on the CookieDesk Access screen or at `chrome://extensions`.
+- **Settings** in `chrome.storage.local`: your choice of what the toolbar button opens (popup or side panel), and the cookies you mark as protected, recorded by name, domain, path and partition only (never their values). Your granted sites are kept by Chrome as the extension's site permissions, and you can remove them on the CookieDesk Access screen or at `chrome://extensions`.
 - **Undo copies** in `chrome.storage.session`: copies of the cookies you just changed or deleted, including their values, so undo can restore them. This storage is in memory only and is never written to disk. It keeps at most the last 20 actions for 10 minutes. Copies are deleted when Chrome closes, when the incognito session they belong to ends, or after 10 minutes once CookieDesk next runs. CookieDesk has no background timer, so with no CookieDesk page open, expired copies can remain in memory until the next wake-up or until Chrome closes.
 
 Nothing else is stored.
 
 ## Exports
 
-Export writes a file to your computer only when you ask. The file contains live cookie values, so treat it like a password. CookieDesk warns you before exporting. It never uploads the file.
+Export, "Save cookie set" and "Copy as document.cookie" write a file to your computer, or text to your clipboard, only when you ask. The file contains live cookie values, so treat it like a password. CookieDesk warns you before exporting. It never uploads the file.
 
 ## Contact
 

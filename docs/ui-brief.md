@@ -180,11 +180,16 @@ grant-site       "Allow on <site>" button (no-access state)
 note             each note, with data-note = third-party|no-partitions
 search           search input
 count            countSummary text
-cookie-row       each row; data-name, data-domain, data-path, data-partitioned="true|false"
-badge-httponly / badge-secure / badge-session / badge-partitioned / badge-samesite   inside rows
-row-copy / row-delete                                         inside rows
+cookie-row       each row; data-name, data-domain, data-path, data-partitioned="true|false", data-protected="true|false";
+                 class "fresh" + data-change=added|changed for 3 s after the site changes it (P1-5)
+badge-httponly / badge-secure / badge-session / badge-partitioned / badge-samesite / badge-protected   inside rows
+row-protect (aria-pressed) / row-copy / row-delete             inside rows
 add-cookie / undo-last / menu (button opening the menu)
-export-json / export-netscape / import / import-file (the input) / open-access / open-sidepanel
+export-json / export-netscape / export-snippet / import / import-file (the input) / open-access / open-sidepanel
+save-set / set-name (input in its dialog) / restore-set / restore-file (the input)
+restore-plan / restore-write / restore-delete / restore-skipped   (restore preview lists)
+bulk-delete / bulk-list (names in its dialog) / shortcuts / shortcut-list
+live-activity    "Just now: …" note naming what the site changed (P1-5)
 store-select
 editor           editor root; form fields use name= name,value,domain,hostOnly,path,session,expires,secure,httpOnly,sameSite,partitioned,topLevelSite
 editor-issues    container; each issue element has data-code and data-severity=error|warning

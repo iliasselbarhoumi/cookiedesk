@@ -23,13 +23,15 @@ function exportCookie(c) {
   return out;
 }
 
-export function exportJson(cookies, { site, storeId, now } = {}) {
+/** `setName` marks the file as a named cookie set (P1-3); it is otherwise a plain export. */
+export function exportJson(cookies, { site, storeId, now, setName } = {}) {
   return JSON.stringify({
     format: 'cookiedesk',
     version: 1,
     exportedAt: new Date(now ?? Date.now()).toISOString(),
     site,
     storeId,
+    ...(setName ? { set: setName } : {}),
     warning: EXPORT_WARNING,
     cookies: cookies.map(exportCookie),
   }, null, 2);
@@ -48,6 +50,39 @@ export function exportNetscape(cookies) {
   }
   if (skipped) lines.splice(2, 0, `# ${skipped} partitioned cookie(s) were not exported: this format cannot represent them.`);
   return lines.join('\n') + '\n';
+}
+
+const SNIPPET_SAME_SITE = { no_restriction: 'None', lax: 'Lax', strict: 'Strict' };
+
+// A JS string literal. JSON.stringify leaves U+2028/U+2029 raw: legal in strings
+// since ES2019, but they end a // comment, so escape them wherever text goes.
+const jsString = (s) => JSON.stringify(String(s)).replace(/[\u2028\u2029]/g, (c) => `\\u${c.charCodeAt(0).toString(16)}`);
+
+/**
+ * A document.cookie snippet to paste into the DevTools console on the site.
+ * HttpOnly cookies can't be set from JavaScript, so they are left out and named
+ * in a comment (names only). Returns { text, skipped: names[] }.
+ */
+export function exportDocumentCookie(cookies, { site } = {}) {
+  const lines = [
+    `// document.cookie snippet${site ? ` for ${site}` : ''}, made by CookieDesk. Run it in the DevTools console on that site.`,
+    '// It contains live cookie values: treat it like a password.',
+  ];
+  const skipped = [];
+  for (const c of cookies) {
+    if (c.httpOnly) { skipped.push(c.name); continue; }
+    const attrs = [`${c.name}=${c.value}`, `Path=${c.path}`];
+    if (!c.hostOnly) attrs.push(`Domain=${c.domain.replace(/^\./, '')}`);
+    if (!c.session && c.expirationDate !== undefined) attrs.push(`Expires=${new Date(c.expirationDate * 1000).toUTCString()}`);
+    if (c.secure) attrs.push('Secure');
+    if (SNIPPET_SAME_SITE[c.sameSite]) attrs.push(`SameSite=${SNIPPET_SAME_SITE[c.sameSite]}`);
+    if (c.partitionKey?.topLevelSite) attrs.push('Partitioned');
+    // JSON string syntax is valid JavaScript, and escapes quotes, backslashes and line separators.
+    lines.push(`document.cookie = ${jsString(attrs.join('; '))};`);
+  }
+  // Cookie names are attacker-controlled: quoted and escaped, never raw in a comment.
+  if (skipped.length) lines.splice(2, 0, `// Left out (HttpOnly, not settable from JavaScript): ${skipped.map(jsString).join(', ')}`);
+  return { text: lines.join('\n') + '\n', skipped };
 }
 
 // --- parsing ---
@@ -191,6 +226,7 @@ export function parseImport(text, ctx = {}) {
 
     let source;
     let entries;
+    const meta = {};
     const first = text.trimStart()[0];
     if (first === '{' || first === '[') {
       let data;
@@ -207,6 +243,11 @@ export function parseImport(text, ctx = {}) {
         if (!Array.isArray(own(data, 'cookies'))) throw new ImportError('bad_envelope', 'The CookieDesk file has no "cookies" list.');
         source = 'cookiedesk';
         entries = data.cookies;
+        // Display-only labels: plain strings, length-capped, never trusted for anything else.
+        for (const k of ['site', 'set']) {
+          const v = own(data, k);
+          if (typeof v === 'string' && v.length <= 200) meta[k] = v;
+        }
       } else {
         throw new ImportError('unknown_format', 'This JSON is neither a CookieDesk export nor a list of cookies.');
       }
@@ -240,7 +281,7 @@ export function parseImport(text, ctx = {}) {
       domains.add(d.domain.replace(/^\./, ''));
       drafts.push(d);
     }
-    return { ok: true, drafts, domains: [...domains].sort(), source, warnings };
+    return { ok: true, drafts, domains: [...domains].sort(), source, warnings, meta };
   } catch (e) {
     if (e instanceof ImportError) {
       const error = { code: e.code, message: e.message };

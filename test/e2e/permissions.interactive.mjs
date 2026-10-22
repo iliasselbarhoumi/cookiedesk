@@ -29,10 +29,20 @@ try {
   const helper = await openExtensionPage(browser.cdp, `chrome-extension://${id}/e2e/harness.html`);
   const tab = await helper.run(async (u) => (await chrome.tabs.create({ url: u })).id, fx.url('a.test/a'));
   await sleep(1500);
+  // Press the toolbar button on that tab, as a user would. Without it (no `tabs`
+  // permission) CookieDesk can't see the tab's URL and only says "click the toolbar button".
+  const { targetInfos } = await browser.cdp.send('Target.getTargets', { filter: [{ type: 'tab' }] });
+  const siteTarget = targetInfos.find((t) => t.url.startsWith(fx.url('a.test/a')));
+  await browser.cdp.send('Extensions.triggerAction', { id, targetId: siteTarget.targetId });
+  await sleep(800);
+  for (const t of (await browser.cdp.send('Target.getTargets')).targetInfos.filter((x) => x.url.includes(`${id}/src/popup/popup.html`))) {
+    await browser.cdp.send('Target.closeTarget', { targetId: t.targetId }).catch(() => {});
+  }
   const page = await openExtensionPage(browser.cdp, `chrome-extension://${id}/src/ui/panel.html?tab=${tab}`);
   const { windowId } = await browser.cdp.send('Browser.getWindowForTarget', { targetId: page.targetId });
   await browser.cdp.send('Browser.setWindowBounds', { windowId, bounds: { left: 60, top: 60, width: 900, height: 760, windowState: 'normal' } });
   await browser.cdp.send('Target.activateTarget', { targetId: page.targetId });
+  await browser.cdp.send('Page.bringToFront', {}, page.sessionId);
   const run = page.run.bind(page);
   const state = () => run(() => document.querySelector('[data-testid=state]')?.dataset.state);
   async function waitState(kind, ms) {
@@ -51,7 +61,11 @@ try {
   }
 
   // ---- test 13: grant one site --------------------------------------------------------
-  assert.ok(await waitState('no-access', 8000), 'starts in no-access');
+  if (!(await waitState('no-access', 8000))) {
+    const msg = await run(() => document.querySelector('[data-testid=state-message]')?.textContent ?? '');
+    throw new Error(`CookieDesk should offer "Allow on a.test" but is in state "${await state()}": ${msg}`);
+  }
+  say('Starting test 13. A Chrome permission prompt will appear in the CookieDesk window in a moment.');
   await realClick('[data-testid=grant-site]');
   await sleep(1200);
   shot('prompt-site.png');

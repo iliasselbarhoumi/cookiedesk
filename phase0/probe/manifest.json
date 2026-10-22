@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "CookieDesk Phase 0 probe",
+  "version": "0.0.1",
+  "description": "Throwaway probe for BUILD_SPEC_COOKIE.md Phase 0. Not shipped.",
+  "permissions": ["cookies", "storage", "webNavigation", "activeTab"],
+  "optional_host_permissions": ["<all_urls>"],
+  "action": {},
+  "background": { "service_worker": "sw.js", "type": "module" }
+}

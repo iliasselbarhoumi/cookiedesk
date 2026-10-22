@@ -1,0 +1,526 @@
+{
+  "chrome": "Chrome/150.0.7871.125",
+  "fixture truth (Storage.getCookies, all)": [
+    "a_http@a.test",
+    "a_part@a.test [part {\"topLevelSite\":\"https://a.test\",\"hasCrossSiteAncestor\":false}]",
+    "a_plain@a.test",
+    "a_session@a.test",
+    "b_3p@b.test",
+    "b_part@b.test [part {\"topLevelSite\":\"https://a.test\",\"hasCrossSiteAncestor\":true}]",
+    "parent_dom@.a.test",
+    "www_only@www.a.test"
+  ],
+  "E0 warnings": {
+    "install: cookies+storage+optional <all_urls>": [],
+    "install: + activeTab + sidePanel": [],
+    "host https://example.com/*": [
+      "Read and change your data on example.com"
+    ],
+    "host http+https example.com": [
+      "Read and change your data on example.com"
+    ],
+    "host *://*.example.com/*": [
+      "Read and change your data on all example.com sites"
+    ],
+    "host <all_urls>": [
+      "Read and change all your data on all websites"
+    ],
+    "tabs (comparison)": [
+      "Read your browsing history"
+    ]
+  },
+  "E1.0 permissions.getAll at install": {
+    "origins": [],
+    "permissions": [
+      "activeTab",
+      "cookies",
+      "storage",
+      "webNavigation"
+    ]
+  },
+  "E1.1 listings, no host grant": {
+    "getAll({})": [],
+    "getAll({partitionKey:{}})": [],
+    "getAll({url:'https://a.test/'})": [],
+    "getAll({url:'https://a.test/', partitionKey:{}})": [],
+    "getAll({partitionKey:{topLevelSite:'https://a.test'}})": [],
+    "getAll({partitionKey:{topLevelSite:'https://a.test', hasCrossSiteAncestor:false}})": [],
+    "getAll({partitionKey:{topLevelSite:'https://a.test', hasCrossSiteAncestor:true}})": [],
+    "getAll({domain:'b.test', partitionKey:{}})": []
+  },
+  "E1.2 tabs.get without grant (no tabs permission)": {
+    "url": null,
+    "title": null
+  },
+  "E1.3 set on a.test without grant": "ERROR: No host permissions for cookies at url: \"https://a.test/\".",
+  "E1.4 getPartitionKey availability + no-grant call": {
+    "typeof": "function",
+    "top": "ERROR: No host permissions for cookies at url: \"https://a.test/\"."
+  },
+  "E1.5 permissions.request without gesture": "ERROR: This function must be called during a user gesture",
+  "E1.6 activeTab after toolbar click (Extensions.triggerAction) on c.test": {
+    "clickedTabUrl": "https://c.test:52078/c",
+    "tabsGetUrlAfterClick": "https://c.test:52078/c",
+    "cookiesGetAll": [],
+    "cookiesSet": "ERROR: No host permissions for cookies at url: \"https://c.test/\"."
+  },
+  "E2.0 permissions.getAll (a.test granted)": {
+    "origins": [
+      "https://a.test/*"
+    ],
+    "permissions": [
+      "activeTab",
+      "cookies",
+      "storage",
+      "webNavigation"
+    ]
+  },
+  "E2.1 listings with only a.test granted": {
+    "getAll({})": [
+      "a_http@a.test",
+      "a_plain@a.test",
+      "parent_dom@.a.test"
+    ],
+    "getAll({partitionKey:{}})": [
+      "a_http@a.test",
+      "a_part@a.test [part {\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://a.test\"}]",
+      "a_plain@a.test",
+      "parent_dom@.a.test"
+    ],
+    "getAll({url:'https://a.test/'})": [
+      "a_http@a.test",
+      "a_plain@a.test",
+      "parent_dom@.a.test"
+    ],
+    "getAll({url:'https://a.test/', partitionKey:{}})": [
+      "a_http@a.test",
+      "a_part@a.test [part {\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://a.test\"}]",
+      "a_plain@a.test",
+      "parent_dom@.a.test"
+    ],
+    "getAll({partitionKey:{topLevelSite:'https://a.test'}})": [
+      "a_part@a.test [part {\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://a.test\"}]"
+    ],
+    "getAll({partitionKey:{topLevelSite:'https://a.test', hasCrossSiteAncestor:false}})": [
+      "a_part@a.test [part {\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://a.test\"}]"
+    ],
+    "getAll({partitionKey:{topLevelSite:'https://a.test', hasCrossSiteAncestor:true}})": [],
+    "getAll({domain:'b.test', partitionKey:{}})": []
+  },
+  "E2.2 getPartitionKey per frame (a.test granted, b.test not)": {
+    "frame 0 a.test:52078": {
+      "partitionKey": {
+        "hasCrossSiteAncestor": false,
+        "topLevelSite": "https://a.test"
+      }
+    },
+    "frame 5 b.test:52078": "ERROR: No host permissions for cookies at url: \"https://b.test:52078/frame\"."
+  },
+  "E2.3 tabs.get url with a.test granted": "https://a.test:52078/a",
+  "E2.4 set/remove on b.test while only a.test granted": {
+    "set": "ERROR: No host permissions for cookies at url: \"https://b.test/\".",
+    "remove": "ERROR: No host permissions for cookies at url: \"https://b.test/\"."
+  },
+  "E2.5 set/remove on a.test (granted)": {
+    "set": true,
+    "remove": {
+      "name": "granted_set",
+      "storeId": "0",
+      "url": "https://a.test/"
+    },
+    "goneAfter": true
+  },
+  "E2.5b grant pattern vs visible cookies": {
+    "*://a.test/*": {
+      "getAll({partitionKey:{}})": [
+        "a_http@a.test",
+        "a_part@a.test [part]",
+        "a_plain@a.test",
+        "a_session@a.test",
+        "parent_dom@.a.test"
+      ],
+      "getAll({domain:'a.test', partitionKey:{}})": [
+        "a_http@a.test",
+        "a_part@a.test [part]",
+        "a_plain@a.test",
+        "a_session@a.test",
+        "parent_dom@.a.test"
+      ],
+      "getAll({url:'https://www.a.test/'})": [
+        "parent_dom@.a.test"
+      ]
+    },
+    "*://www.a.test/*": {
+      "getAll({partitionKey:{}})": [
+        "www_only@www.a.test"
+      ],
+      "getAll({domain:'a.test', partitionKey:{}})": [
+        "www_only@www.a.test"
+      ],
+      "getAll({url:'https://www.a.test/'})": [
+        "www_only@www.a.test"
+      ]
+    },
+    "*://*.a.test/*": {
+      "getAll({partitionKey:{}})": [
+        "a_http@a.test",
+        "a_part@a.test [part]",
+        "a_plain@a.test",
+        "a_session@a.test",
+        "parent_dom@.a.test",
+        "www_only@www.a.test"
+      ],
+      "getAll({domain:'a.test', partitionKey:{}})": [
+        "a_http@a.test",
+        "a_part@a.test [part]",
+        "a_plain@a.test",
+        "a_session@a.test",
+        "parent_dom@.a.test",
+        "www_only@www.a.test"
+      ],
+      "getAll({url:'https://www.a.test/'})": [
+        "parent_dom@.a.test",
+        "www_only@www.a.test"
+      ]
+    }
+  },
+  "E2.6 listings with a.test + b.test granted": {
+    "getAll({})": [
+      "a_http@a.test",
+      "a_plain@a.test",
+      "a_session@a.test",
+      "b_3p@b.test",
+      "parent_dom@.a.test",
+      "www_only@www.a.test"
+    ],
+    "getAll({partitionKey:{}})": [
+      "a_http@a.test",
+      "a_part@a.test [part {\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://a.test\"}]",
+      "a_plain@a.test",
+      "a_session@a.test",
+      "b_3p@b.test",
+      "b_part@b.test [part {\"hasCrossSiteAncestor\":true,\"topLevelSite\":\"https://a.test\"}]",
+      "parent_dom@.a.test",
+      "www_only@www.a.test"
+    ],
+    "getAll({url:'https://a.test/'})": [
+      "a_http@a.test",
+      "a_plain@a.test",
+      "a_session@a.test",
+      "parent_dom@.a.test"
+    ],
+    "getAll({url:'https://a.test/', partitionKey:{}})": [
+      "a_http@a.test",
+      "a_part@a.test [part {\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://a.test\"}]",
+      "a_plain@a.test",
+      "a_session@a.test",
+      "parent_dom@.a.test"
+    ],
+    "getAll({partitionKey:{topLevelSite:'https://a.test'}})": [
+      "a_part@a.test [part {\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://a.test\"}]",
+      "b_part@b.test [part {\"hasCrossSiteAncestor\":true,\"topLevelSite\":\"https://a.test\"}]"
+    ],
+    "getAll({partitionKey:{topLevelSite:'https://a.test', hasCrossSiteAncestor:false}})": [
+      "a_part@a.test [part {\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://a.test\"}]"
+    ],
+    "getAll({partitionKey:{topLevelSite:'https://a.test', hasCrossSiteAncestor:true}})": [
+      "b_part@b.test [part {\"hasCrossSiteAncestor\":true,\"topLevelSite\":\"https://a.test\"}]"
+    ],
+    "getAll({domain:'b.test', partitionKey:{}})": [
+      "b_3p@b.test",
+      "b_part@b.test [part {\"hasCrossSiteAncestor\":true,\"topLevelSite\":\"https://a.test\"}]"
+    ]
+  },
+  "E2.7 getPartitionKey per frame (both granted)": {
+    "frame 0 a.test:52078": {
+      "partitionKey": {
+        "hasCrossSiteAncestor": false,
+        "topLevelSite": "https://a.test"
+      }
+    },
+    "frame 5 b.test:52078": {
+      "partitionKey": {
+        "hasCrossSiteAncestor": true,
+        "topLevelSite": "https://a.test"
+      }
+    }
+  },
+  "E3 partitioned set via API": {
+    "a.test under a.test (hasCrossSiteAncestor omitted)": "api_part@a.test {\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://a.test\"}",
+    "a.test under a.test, hasCrossSiteAncestor:true": "api_part_x@a.test {\"hasCrossSiteAncestor\":true,\"topLevelSite\":\"https://a.test\"}",
+    "b.test under a.test, hasCrossSiteAncestor omitted": "api_b_omit@b.test {\"hasCrossSiteAncestor\":true,\"topLevelSite\":\"https://a.test\"}",
+    "b.test under a.test, hasCrossSiteAncestor:false": "ERROR: partitionKey has a first party value for hasCrossSiteAncestor when the url and the topLevelSite are not first party.",
+    "b.test under a.test, hasCrossSiteAncestor:true": "api_b_true@b.test {\"hasCrossSiteAncestor\":true,\"topLevelSite\":\"https://a.test\"}",
+    "partitioned but secure:false": "ERROR: Failed to parse or set cookie named \"api_part_insecure\".",
+    "visibleWithoutPartitionKey": 0,
+    "visibleWithEmptyPartitionKey": 1,
+    "visibleWithItsPartitionKey": 1,
+    "getWithoutPartitionKey": null,
+    "getWithPartitionKey": "api_part@a.test {\"hasCrossSiteAncestor\":false,\"topLevelSite\":\"https://a.test\"}",
+    "removeWithoutPartitionKey": {
+      "name": "api_part",
+      "storeId": "0",
+      "url": "https://a.test/"
+    },
+    "stillThereAfterUnpartitionedRemove": true
+  },
+  "E4 value edit via set() on the same key": {
+    "ret": {
+      "valueLength": 3
+    },
+    "events": [
+      {
+        "removed": true,
+        "cause": "overwrite",
+        "name": "a_plain",
+        "domain": "a.test",
+        "path": "/",
+        "valueLength": 3
+      },
+      {
+        "removed": false,
+        "cause": "explicit",
+        "name": "a_plain",
+        "domain": "a.test",
+        "path": "/",
+        "valueLength": 3
+      }
+    ]
+  },
+  "E4 flag edit via set(): httpOnly false→true": {
+    "ret": {
+      "httpOnly": true
+    },
+    "events": [
+      {
+        "removed": true,
+        "cause": "overwrite",
+        "name": "a_plain",
+        "domain": "a.test",
+        "path": "/",
+        "valueLength": 3
+      },
+      {
+        "removed": false,
+        "cause": "explicit",
+        "name": "a_plain",
+        "domain": "a.test",
+        "path": "/",
+        "valueLength": 3
+      }
+    ]
+  },
+  "E4 illegal set (secure:false + no_restriction) over existing a_plain": {
+    "ret": {
+      "err": "Failed to parse or set cookie named \"a_plain\".",
+      "originalStillThere": true,
+      "valueLength": 3
+    },
+    "events": []
+  },
+  "E4 illegal set: secure:true on http:// url over existing a_session": {
+    "ret": {
+      "err": "Failed to parse or set cookie named \"a_session\".",
+      "originalStillThere": true,
+      "valueLength": 1,
+      "secure": false
+    },
+    "events": []
+  },
+  "E4 remove() then set() (the spec's order, same key)": {
+    "ret": true,
+    "events": [
+      {
+        "removed": true,
+        "cause": "explicit",
+        "name": "a_plain",
+        "domain": "a.test",
+        "path": "/",
+        "valueLength": 3
+      },
+      {
+        "removed": false,
+        "cause": "explicit",
+        "name": "a_plain",
+        "domain": "a.test",
+        "path": "/",
+        "valueLength": 4
+      }
+    ]
+  },
+  "E4 rename (key change): set new first, then remove old": {
+    "ret": {
+      "name": "a_plain",
+      "storeId": "0",
+      "url": "https://a.test/"
+    },
+    "events": [
+      {
+        "removed": false,
+        "cause": "explicit",
+        "name": "a_renamed",
+        "domain": "a.test",
+        "path": "/",
+        "valueLength": 4
+      },
+      {
+        "removed": true,
+        "cause": "explicit",
+        "name": "a_plain",
+        "domain": "a.test",
+        "path": "/",
+        "valueLength": 4
+      }
+    ]
+  },
+  "E4 expiry in the past via set()": {
+    "ret": null,
+    "events": [
+      {
+        "removed": true,
+        "cause": "expired_overwrite",
+        "name": "a_renamed",
+        "domain": "a.test",
+        "path": "/",
+        "valueLength": 4
+      }
+    ]
+  },
+  "E4 remove() a cookie that does not exist": {
+    "ret": {
+      "name": "nope",
+      "storeId": "0",
+      "url": "https://a.test/"
+    },
+    "events": []
+  },
+  "E4 set() invalid __Host- (domain given)": {
+    "ret": "ERROR: Failed to parse or set cookie named \"__Host-x\".",
+    "events": []
+  },
+  "E4 set() valid __Host- (host-only, path /, secure)": {
+    "ret": true,
+    "events": [
+      {
+        "removed": false,
+        "cause": "explicit",
+        "name": "__Host-y",
+        "domain": "a.test",
+        "path": "/",
+        "valueLength": 1
+      }
+    ]
+  },
+  "E4 set() __Secure- without secure": {
+    "ret": "ERROR: Failed to parse or set cookie named \"__Secure-z\".",
+    "events": []
+  },
+  "E4 set() 4096-byte value; then 5000-byte value": {
+    "ret": {
+      "v4096": 4093,
+      "v5000": "ERROR: Failed to parse or set cookie named \"big2\"."
+    },
+    "events": [
+      {
+        "removed": false,
+        "cause": "explicit",
+        "name": "big",
+        "domain": "a.test",
+        "path": "/",
+        "valueLength": 4093
+      }
+    ]
+  },
+  "E5 round trips (remove, then re-set from the captured cookie)": {
+    "dom@.a.test/x": {
+      "removed": true,
+      "identical": true
+    },
+    "a_http@a.test/": {
+      "removed": true,
+      "identical": true
+    },
+    "a_session@a.test/": {
+      "removed": true,
+      "identical": true
+    },
+    "a_part@a.test/ (partitioned)": {
+      "removed": true,
+      "identical": true
+    },
+    "b_part@b.test/ (partitioned)": {
+      "removed": true,
+      "identical": true
+    },
+    "b_3p@b.test/": {
+      "removed": true,
+      "identical": true
+    },
+    "www_only@www.a.test/": {
+      "removed": true,
+      "identical": true
+    },
+    "parent_dom@.a.test/": {
+      "removed": true,
+      "identical": true
+    },
+    "api_part@a.test/ (partitioned)": {
+      "removed": true,
+      "identical": true
+    },
+    "api_part_x@a.test/ (partitioned)": {
+      "removed": true,
+      "identical": true
+    },
+    "api_b_omit@b.test/ (partitioned)": {
+      "removed": true,
+      "identical": true
+    },
+    "api_b_true@b.test/ (partitioned)": {
+      "removed": true,
+      "identical": true
+    },
+    "api_part_port@a.test/ (partitioned)": {
+      "removed": true,
+      "identical": true
+    },
+    "__Host-y@a.test/": {
+      "removed": true,
+      "identical": true
+    },
+    "big@a.test/": {
+      "removed": true,
+      "identical": true
+    },
+    "insecure_unspec@a.test/": {
+      "removed": true,
+      "identical": true
+    }
+  },
+  "E5.1 remove() return shape (names only)": {
+    "name": "shape",
+    "partitionKey": {
+      "topLevelSite": "https://a.test"
+    },
+    "storeId": "0",
+    "url": "https://a.test/"
+  },
+  "E7 cookie stores": [
+    {
+      "id": "0",
+      "tabIds": [
+        648736012,
+        648736014,
+        648736015,
+        648736016,
+        648736017,
+        648736019,
+        648736021,
+        648736023,
+        648736025,
+        648736027
+      ]
+    }
+  ],
+  "E8 permissions.remove of a required host (stand-in caveat)": "ERROR: You cannot remove required permissions."
+}

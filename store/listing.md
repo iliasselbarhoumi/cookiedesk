@@ -125,7 +125,7 @@ All screenshots are taken from the real extension (`npm run store-screens`) on `
 | Field | Value |
 |---|---|
 | Official URL | Leave empty (it needs a site verified in Search Console). |
-| Homepage URL | `https://github.com/iliasselbarhoumi/cookiedesk` |
+| Homepage URL | `https://www.extensionshop.store/extension/cookiedesk` |
 | Support URL | `https://github.com/iliasselbarhoumi/cookiedesk/issues` |
 | Mature content | Off |
 
@@ -197,8 +197,10 @@ Certify all three:
 ### Privacy policy URL
 
 ```
-https://github.com/iliasselbarhoumi/cookiedesk/blob/main/PRIVACY.md
+https://www.extensionshop.store/extension/cookiedesk/privacy
 ```
+
+The same policy is in the repo as `PRIVACY.md`.
 
 ## 4. Distribution tab
 

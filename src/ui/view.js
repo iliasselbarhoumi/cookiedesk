@@ -3,6 +3,7 @@
 
 import { utf8Bytes } from '../core/validate.js';
 import { isPartitioned } from '../core/partition.js';
+import { t, tn, uiLanguage } from '../lib/i18n.js';
 
 const SAME_SITE_LABELS = { no_restriction: 'None', lax: 'Lax', strict: 'Strict', unspecified: '' };
 
@@ -15,28 +16,26 @@ export function filterCookies(list, query) {
     || c.domain.toLowerCase().includes(q));
 }
 
-function plural(n, unit) {
-  return `${n} ${unit}${n === 1 ? '' : 's'}`;
-}
-
-/** "Session", "Expired", or a coarse relative time like "in 3 days". `now` in ms. */
+let rtf;
+/** "Session", "Expired", or a coarse relative time like "in 3 days" (in the UI language). `now` in ms. */
 export function formatExpiry(cookie, now = Date.now()) {
-  if (cookie.session || cookie.expirationDate === undefined) return 'Session';
+  if (cookie.session || cookie.expirationDate === undefined) return t('session');
   const s = cookie.expirationDate - now / 1000;
-  if (s <= 0) return 'Expired';
+  if (s <= 0) return t('expired');
   const min = 60; const hour = 60 * min; const day = 24 * hour;
-  if (s < min) return 'in <1 min';
-  if (s < hour) return `in ${plural(Math.floor(s / min), 'min')}`.replace(/mins$/, 'min');
-  if (s < 2 * day) return `in ${plural(Math.floor(s / hour), 'hour')}`;
-  if (s < 60 * day) return `in ${plural(Math.floor(s / day), 'day')}`;
-  if (s < 730 * day) return `in ${plural(Math.floor(s / (30 * day)), 'month')}`;
-  return `in ${plural(Math.floor(s / (365 * day)), 'year')}`;
+  if (s < min) return t('expiry_under_minute');
+  rtf ??= new Intl.RelativeTimeFormat(uiLanguage(), { numeric: 'always' });
+  if (s < hour) return rtf.format(Math.floor(s / min), 'minute');
+  if (s < 2 * day) return rtf.format(Math.floor(s / hour), 'hour');
+  if (s < 60 * day) return rtf.format(Math.floor(s / day), 'day');
+  if (s < 730 * day) return rtf.format(Math.floor(s / (30 * day)), 'month');
+  return rtf.format(Math.floor(s / (365 * day)), 'year');
 }
 
 /** Absolute expiry for tooltips, in the user's locale. */
 export function formatExpiryDate(cookie) {
-  if (cookie.session || cookie.expirationDate === undefined) return 'Deleted when the browser closes';
-  return `Expires ${new Date(cookie.expirationDate * 1000).toLocaleString()}`;
+  if (cookie.session || cookie.expirationDate === undefined) return t('expiry_on_close');
+  return t('expires_at', new Date(cookie.expirationDate * 1000).toLocaleString(uiLanguage()));
 }
 
 /** UTF-8 bytes of all parts together (Chrome's 4096 limit is on name + value). */
@@ -57,9 +56,9 @@ export function truncate(str, max) {
 /** "23 cookies · 2 partitioned"; with `shown`, "5 of 23 cookies · …" while filtering. */
 export function countSummary(list, shown) {
   const total = list.length;
-  const parts = [shown !== undefined && shown !== total ? `${shown} of ${plural(total, 'cookie')}` : plural(total, 'cookie')];
+  const parts = [shown !== undefined && shown !== total ? tn('count_filtered', total, shown) : tn('count_cookies', total)];
   const partitioned = list.filter(isPartitioned).length;
-  if (partitioned) parts.push(`${partitioned} partitioned`);
+  if (partitioned) parts.push(t('count_partitioned', partitioned));
   return parts.join(' · ');
 }
 
@@ -175,18 +174,18 @@ export function diffLists(before, after, keyOf) {
 /** "sid changed, theme added, 2 more" for the live line, or '' when nothing changed. */
 export function describeChanges({ added, changed, removed }, max = 3) {
   const parts = [
-    ...changed.map((c) => `${c.name || '(empty name)'} changed`),
-    ...added.map((c) => `${c.name || '(empty name)'} added`),
-    ...removed.map((c) => `${c.name || '(empty name)'} removed`),
+    ...changed.map((c) => t('change_changed', c.name || t('empty_name'))),
+    ...added.map((c) => t('change_added', c.name || t('empty_name'))),
+    ...removed.map((c) => t('change_removed', c.name || t('empty_name'))),
   ];
   if (parts.length <= max) return parts.join(', ');
-  return `${parts.slice(0, max).join(', ')} and ${parts.length - max} more`;
+  return t('names_more', parts.slice(0, max).join(', '), parts.length - max);
 }
 
 // ---- misc ----
 
 export function storeLabel(store) {
-  return store.id === '0' ? 'Default' : store.id === '1' ? 'Incognito' : `Store ${store.id}`;
+  return store.id === '0' ? t('store_default') : store.id === '1' ? t('store_incognito') : t('store_n', store.id);
 }
 
 /** cookieset-<name>-<site>.json, for a saved cookie set (P1-3). */

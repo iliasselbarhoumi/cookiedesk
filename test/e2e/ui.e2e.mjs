@@ -173,10 +173,12 @@ test('test 10 (UI): delete from the row, undo from the toast — the cookie come
   const ui = await openUi(gId, tabA);
   await ui.waitState('ready');
   await ui.click('row-delete', '[data-testid=cookie-row][data-name=a_http]');
-  await sleep(500);
+  for (let i = 0; i < 50 && !(await ui.count('toast-undo')); i++) await sleep(100);
+  // The toast can show a moment before the list refresh removes the row.
+  for (let i = 0; i < 50 && (await ui.rows()).includes('a_http'); i++) await sleep(100);
   assert.ok(!(await ui.rows()).includes('a_http'));
   await ui.click('toast-undo');
-  await sleep(600);
+  for (let i = 0; i < 50 && !(await ui.rows()).includes('a_http'); i++) await sleep(100);
   assert.ok((await ui.rows()).includes('a_http'));
   const after_ = await helper.run(async () => (await chrome.cookies.getAll({ name: 'a_http' }))[0]);
   assert.deepEqual(after_, before);
@@ -193,7 +195,7 @@ test('undo is still available after the popup closes and reopens', async () => {
   await ui.waitState('ready');
   assert.ok(!(await ui.run(() => document.querySelector('[data-testid=undo-last]').disabled)));
   await ui.click('undo-last');
-  await sleep(600);
+  for (let i = 0; i < 50 && !(await ui.rows()).includes('a_session'); i++) await sleep(100);
   assert.ok((await ui.rows()).includes('a_session'));
   await ui.close();
 });

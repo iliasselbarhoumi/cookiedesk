@@ -1,0 +1,2215 @@
+{
+  "extension_name": {
+    "message": "ಕುಕೀ ಎಡಿಟರ್: ಕುಕೀಗಳನ್ನು ನೋಡಿ, ಎಡಿಟ್ ಮಾಡಿ, ಅಳಿಸಿ | CookieDesk"
+  },
+  "extension_description": {
+    "message": "ಪ್ರತಿ ಸೈಟ್‌ನ ಕುಕೀಗಳನ್ನು ನೋಡಿ, ಎಡಿಟ್ ಮಾಡಿ, ಸೇರಿಸಿ, ಅಳಿಸಿ. ಹುಡುಕಾಟ, ಆಮದು/ರಫ್ತು, ಪಾರ್ಟಿಷನ್ಡ್ ಕುಕೀ. ಜಾಹೀರಾತು, ಟ್ರ್ಯಾಕಿಂಗ್ ಇಲ್ಲ."
+  },
+  "btn_ok": {
+    "message": "ಸರಿ"
+  },
+  "btn_cancel": {
+    "message": "ರದ್ದುಗೊಳಿಸಿ"
+  },
+  "btn_close": {
+    "message": "ಮುಚ್ಚಿ"
+  },
+  "btn_delete": {
+    "message": "ಅಳಿಸಿ"
+  },
+  "btn_copy": {
+    "message": "ನಕಲಿಸಿ"
+  },
+  "btn_save": {
+    "message": "ಉಳಿಸಿ"
+  },
+  "btn_export": {
+    "message": "ರಫ್ತು ಮಾಡಿ"
+  },
+  "btn_later": {
+    "message": "ನಂತರ"
+  },
+  "dismiss": {
+    "message": "ಮುಚ್ಚಿ"
+  },
+  "back": {
+    "message": "ಹಿಂದೆ"
+  },
+  "back_esc": {
+    "message": "ಹಿಂದೆ (Esc)"
+  },
+  "back_to_list": {
+    "message": "ಪಟ್ಟಿಗೆ ಹಿಂತಿರುಗಿ"
+  },
+  "title_count": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "empty_name": {
+    "message": "(ಹೆಸರಿಲ್ಲ)"
+  },
+  "empty_value": {
+    "message": "(ಮೌಲ್ಯವಿಲ್ಲ)"
+  },
+  "empty_short": {
+    "message": "(ಖಾಲಿ)"
+  },
+  "names_more": {
+    "message": "$P1$ ಮತ್ತು ಇನ್ನೂ $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "done": {
+    "message": "ಮುಗಿಯಿತು"
+  },
+  "undo": {
+    "message": "ರದ್ದುಮಾಡಿ"
+  },
+  "undo_nothing": {
+    "message": "ರದ್ದುಮಾಡಲು ಏನೂ ಇಲ್ಲ"
+  },
+  "undo_entry": {
+    "message": "ರದ್ದು: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_interrupted": {
+    "message": "ರದ್ದುಮಾಡುವಿಕೆ ಅಡಚಣೆಯಾಯಿತು: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "redo_entry": {
+    "message": "ಮತ್ತೆ ಮಾಡಿ: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "support_title": {
+    "message": "Ko-fi ನಲ್ಲಿ CookieDesk ಅನ್ನು ಬೆಂಬಲಿಸಿ"
+  },
+  "supporter_title": {
+    "message": "CookieDesk ಅನ್ನು ಬೆಂಬಲಿಸಿದ್ದಕ್ಕೆ ಧನ್ಯವಾದ!"
+  },
+  "add_cookie": {
+    "message": "ಕುಕೀ ಸೇರಿಸಿ"
+  },
+  "add_cookie_title": {
+    "message": "ಕುಕೀ ಸೇರಿಸಿ (n)"
+  },
+  "more_actions": {
+    "message": "ಇನ್ನಷ್ಟು ಕ್ರಿಯೆಗಳು"
+  },
+  "menu_group_transfer": {
+    "message": "ರಫ್ತು ಮತ್ತು ಆಮದು"
+  },
+  "menu_group_sets": {
+    "message": "ಕುಕೀ ಸೆಟ್‌ಗಳು"
+  },
+  "export_json_title": {
+    "message": "JSON ಆಗಿ ರಫ್ತು ಮಾಡಿ"
+  },
+  "export_txt_title": {
+    "message": "Netscape cookies.txt ಆಗಿ ರಫ್ತು ಮಾಡಿ"
+  },
+  "tile_snippet": {
+    "message": "ಸ್ನಿಪ್ಪೆಟ್"
+  },
+  "tile_snippet_title": {
+    "message": "document.cookie ಸ್ನಿಪ್ಪೆಟ್ ಆಗಿ ನಕಲಿಸಿ"
+  },
+  "tile_import": {
+    "message": "ಆಮದು"
+  },
+  "tile_import_title": {
+    "message": "JSON ಅಥವಾ cookies.txt ಆಮದು ಮಾಡಿ"
+  },
+  "tile_save_set": {
+    "message": "ಸೆಟ್ ಉಳಿಸಿ"
+  },
+  "tile_save_set_title": {
+    "message": "ಈ ಕುಕೀಗಳನ್ನು ಹೆಸರಿಟ್ಟ ಸೆಟ್ ಫೈಲ್ ಆಗಿ ಉಳಿಸಿ"
+  },
+  "tile_restore": {
+    "message": "ಮರುಸ್ಥಾಪಿಸಿ"
+  },
+  "tile_restore_title": {
+    "message": "ಉಳಿಸಿದ ಸೆಟ್ ಮರುಸ್ಥಾಪಿಸಿ (ಮೊದಲು ಮುನ್ನೋಟ)"
+  },
+  "tile_compare": {
+    "message": "ಹೋಲಿಸಿ"
+  },
+  "tile_compare_title": {
+    "message": "ಉಳಿಸಿದ ಸೆಟ್ ಅನ್ನು ಈಗಿನ ಸ್ಥಿತಿಯೊಂದಿಗೆ, ಅಥವಾ ಎರಡು ಸೆಟ್‌ಗಳನ್ನು ಹೋಲಿಸಿ"
+  },
+  "tile_copy_to": {
+    "message": "ಇಲ್ಲಿಗೆ ನಕಲಿಸಿ…"
+  },
+  "tile_copy_to_title": {
+    "message": "ತೋರಿಸಿದ ಕುಕೀಗಳನ್ನು ಮತ್ತೊಂದು ಸ್ಟೋರ್‌ಗೆ ನಕಲಿಸಿ (ಸಾಮಾನ್ಯ ↔ ಇನ್‌ಕಾಗ್ನಿಟೊ)"
+  },
+  "menu_bulk_delete": {
+    "message": "ತೋರಿಸಿದ ಕುಕೀಗಳನ್ನು ಅಳಿಸಿ…"
+  },
+  "menu_access": {
+    "message": "ಪ್ರವೇಶ ಮತ್ತು ಸೆಟ್ಟಿಂಗ್‌ಗಳು"
+  },
+  "menu_shortcuts": {
+    "message": "ಶಾರ್ಟ್‌ಕಟ್‌ಗಳು"
+  },
+  "menu_sidepanel": {
+    "message": "ಸೈಡ್ ಪ್ಯಾನೆಲ್‌ನಲ್ಲಿ ತೆರೆಯಿರಿ"
+  },
+  "menu_rate": {
+    "message": "CookieDesk ಗೆ ರೇಟಿಂಗ್ ನೀಡಿ"
+  },
+  "menu_support": {
+    "message": "Ko-fi ನಲ್ಲಿ ಬೆಂಬಲಿಸಿ"
+  },
+  "search_placeholder": {
+    "message": "ಕುಕೀಗಳನ್ನು ಹುಡುಕಿ"
+  },
+  "search_label": {
+    "message": "ಹೆಸರು, ಮೌಲ್ಯ ಅಥವಾ ಡೊಮೇನ್ ಮೂಲಕ ಕುಕೀಗಳನ್ನು ಫಿಲ್ಟರ್ ಮಾಡಿ"
+  },
+  "search_title": {
+    "message": "ಹೆಸರು, ಮೌಲ್ಯ ಅಥವಾ ಡೊಮೇನ್ ಮೂಲಕ ಫಿಲ್ಟರ್ ಮಾಡಿ"
+  },
+  "cookie_store": {
+    "message": "ಕುಕೀ ಸ್ಟೋರ್"
+  },
+  "cookies_list": {
+    "message": "ಕುಕೀಗಳು"
+  },
+  "restricted_page": {
+    "message": "ನಿರ್ಬಂಧಿತ ಪುಟ"
+  },
+  "loading": {
+    "message": "ಲೋಡ್ ಆಗುತ್ತಿದೆ…"
+  },
+  "state_unknown": {
+    "message": "ಈ ಟ್ಯಾಬ್‌ನ ಕುಕೀಗಳನ್ನು ತೋರಿಸಲು ಟೂಲ್‌ಬಾರ್‌ನಲ್ಲಿರುವ CookieDesk ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ."
+  },
+  "state_unknown_hint": {
+    "message": "ಆ ಕ್ಲಿಕ್ ನಂತರ ಮಾತ್ರ, ಅಥವಾ ನೀವು ಅನುಮತಿಸಿದ ಸೈಟ್‌ಗಳಿಗೆ ಮಾತ್ರ Chrome ಟ್ಯಾಬ್‌ನ ವಿಳಾಸವನ್ನು ಹಂಚಿಕೊಳ್ಳುತ್ತದೆ."
+  },
+  "state_error": {
+    "message": "ಏನೋ ತಪ್ಪಾಯಿತು: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "state_no_access": {
+    "message": "CookieDesk ಗೆ ಇನ್ನೂ $P1$ ಗೆ ಪ್ರವೇಶವಿಲ್ಲ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "grant_site": {
+    "message": "$P1$ ನಲ್ಲಿ ಅನುಮತಿಸಿ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "chrome_will_ask": {
+    "message": "Chrome ಕೇಳುತ್ತದೆ:"
+  },
+  "prompt_site": {
+    "message": "ಎಲ್ಲಾ $P1$ ಸೈಟ್‌ಗಳಲ್ಲಿ ನಿಮ್ಮ ಡೇಟಾವನ್ನು ಓದಿ ಮತ್ತು ಬದಲಾಯಿಸಿ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "prompt_all": {
+    "message": "ಎಲ್ಲಾ ವೆಬ್‌ಸೈಟ್‌ಗಳಲ್ಲಿ ನಿಮ್ಮ ಎಲ್ಲಾ ಡೇಟಾವನ್ನು ಓದಿ ಮತ್ತು ಬದಲಾಯಿಸಿ"
+  },
+  "only_this_site": {
+    "message": "ಈ ಸೈಟ್‌ನ ಕುಕೀಗಳು ಮಾತ್ರ, ಬೇರೇನೂ ಇಲ್ಲ."
+  },
+  "allow_all_instead": {
+    "message": "ಬದಲಿಗೆ ಎಲ್ಲಾ ಸೈಟ್‌ಗಳನ್ನು ಅನುಮತಿಸಿ"
+  },
+  "restricted_browser": {
+    "message": "ಇದು Chrome ಪುಟ. ಇಲ್ಲಿನ ಕುಕೀಗಳನ್ನು ಓದಲು ಅಥವಾ ಬದಲಾಯಿಸಲು Chrome ಯಾವುದೇ ವಿಸ್ತರಣೆಗೆ ಅವಕಾಶ ಕೊಡುವುದಿಲ್ಲ."
+  },
+  "restricted_webstore": {
+    "message": "ಇದು Chrome Web Store. Chrome ಎಲ್ಲಾ ವಿಸ್ತರಣೆಗಳನ್ನು ಇಲ್ಲಿ ತಡೆಯುತ್ತದೆ, ಆದ್ದರಿಂದ ಇದರ ಕುಕೀಗಳನ್ನು ತೋರಿಸಲಾಗದು."
+  },
+  "restricted_extension": {
+    "message": "ಇದು ವಿಸ್ತರಣೆಯ ಸ್ವಂತ ಪುಟ. ಇದರ ಸಂಗ್ರಹಣೆ ವೆಬ್‌ಸೈಟ್‌ನ ಕುಕೀಗಳಲ್ಲ, ಆದ್ದರಿಂದ ತೋರಿಸಲು ಏನೂ ಇಲ್ಲ."
+  },
+  "restricted_file": {
+    "message": "ಇದು ಸ್ಥಳೀಯ ಫೈಲ್. ಡಿಸ್ಕ್‌ನಿಂದ ತೆರೆದ ಫೈಲ್‌ಗಳಿಗೆ ಕುಕೀಗಳಿರುವುದಿಲ್ಲ."
+  },
+  "restricted_other": {
+    "message": "ಈ ಪುಟ ವೆಬ್‌ಸೈಟ್ ಅಲ್ಲ (ಉದಾಹರಣೆಗೆ ಖಾಲಿ ಅಥವಾ data: ಪುಟ), ಆದ್ದರಿಂದ ಇದಕ್ಕೆ ಕುಕೀಗಳಿಲ್ಲ."
+  },
+  "live_just_now": {
+    "message": "ಈಗಷ್ಟೇ: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "note_third_party": {
+    "message": "ಎಂಬೆಡ್ ಮಾಡಿದ ಸೈಟ್‌ಗಳ ಕುಕೀಗಳು ನೀವು ಅನುಮತಿಸಿದ ಸೈಟ್‌ಗಳಿಗೆ ಮಾತ್ರ ಕಾಣಿಸುತ್ತವೆ."
+  },
+  "note_no_partitions": {
+    "message": "ನಿಮ್ಮ Chrome ಆವೃತ್ತಿ ಪಾರ್ಟಿಷನ್ಡ್ ಕುಕೀಗಳನ್ನು ತೋರಿಸಲಾರದು, ಆದ್ದರಿಂದ ಈ ಪಟ್ಟಿ ಅಪೂರ್ಣವಾಗಿರಬಹುದು."
+  },
+  "empty_no_match": {
+    "message": "“$P1$” ಗೆ ಹೊಂದುವ ಕುಕೀಗಳಿಲ್ಲ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "empty_none": {
+    "message": "$P1$ ಗೆ ಕುಕೀಗಳಿಲ್ಲ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clear_search": {
+    "message": "ಹುಡುಕಾಟ ತೆರವುಗೊಳಿಸಿ"
+  },
+  "change_changed": {
+    "message": "$P1$ ಬದಲಾಯಿತು",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_added": {
+    "message": "$P1$ ಸೇರಿಸಲಾಯಿತು",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_removed": {
+    "message": "$P1$ ತೆಗೆಯಲಾಯಿತು",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_one": {
+    "message": "$P1$ ಕುಕೀ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_other": {
+    "message": "$P1$ ಕುಕೀಗಳು",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_filtered_one": {
+    "message": "$P1$ ಕುಕೀಯಲ್ಲಿ $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_filtered_other": {
+    "message": "$P1$ ಕುಕೀಗಳಲ್ಲಿ $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_partitioned": {
+    "message": "$P1$ ಪಾರ್ಟಿಷನ್ಡ್",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "store_default": {
+    "message": "ಡಿಫಾಲ್ಟ್"
+  },
+  "store_incognito": {
+    "message": "ಇನ್‌ಕಾಗ್ನಿಟೊ"
+  },
+  "store_n": {
+    "message": "ಸ್ಟೋರ್ $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "session": {
+    "message": "ಸೆಷನ್"
+  },
+  "expired": {
+    "message": "ಅವಧಿ ಮುಗಿದಿದೆ"
+  },
+  "expiry_under_minute": {
+    "message": "ಒಂದು ನಿಮಿಷದೊಳಗೆ"
+  },
+  "expiry_on_close": {
+    "message": "ಬ್ರೌಸರ್ ಮುಚ್ಚಿದಾಗ ಅಳಿಸಲಾಗುತ್ತದೆ"
+  },
+  "expires_at": {
+    "message": "ಅವಧಿ ಮುಕ್ತಾಯ: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "badge_protected": {
+    "message": "ರಕ್ಷಿತ: ಬಲ್ಕ್ ಅಳಿಸುವಿಕೆ, ಆಮದು ಮತ್ತು ಸೆಟ್ ಮರುಸ್ಥಾಪನೆ ಇದನ್ನು ಮುಟ್ಟುವುದಿಲ್ಲ (p)"
+  },
+  "hint_httponly": {
+    "message": "HttpOnly: ಪುಟದ JavaScript ಗೆ ಕಾಣಿಸುವುದಿಲ್ಲ (document.cookie ಇದನ್ನು ಓದಲಾರದು)"
+  },
+  "hint_secure": {
+    "message": "Secure: HTTPS ಮೂಲಕ ಮಾತ್ರ ಕಳುಹಿಸಲಾಗುತ್ತದೆ"
+  },
+  "hint_samesite_none": {
+    "message": "SameSite=None: ಕ್ರಾಸ್-ಸೈಟ್ ವಿನಂತಿಗಳೊಂದಿಗೂ ಕಳುಹಿಸಲಾಗುತ್ತದೆ"
+  },
+  "hint_samesite_lax": {
+    "message": "SameSite=Lax: ಟಾಪ್-ಲೆವೆಲ್ ನ್ಯಾವಿಗೇಶನ್‌ಗಳಲ್ಲಿ ಕಳುಹಿಸಲಾಗುತ್ತದೆ, ಕ್ರಾಸ್-ಸೈಟ್ ಉಪ-ವಿನಂತಿಗಳಲ್ಲಿ ಅಲ್ಲ"
+  },
+  "hint_samesite_strict": {
+    "message": "SameSite=Strict: ಅದೇ ಸೈಟ್‌ನ ವಿನಂತಿಗಳೊಂದಿಗೆ ಮಾತ್ರ ಕಳುಹಿಸಲಾಗುತ್ತದೆ"
+  },
+  "badge_partitioned": {
+    "message": "ಪಾರ್ಟಿಷನ್ಡ್"
+  },
+  "partitioned_under": {
+    "message": "$P1$ ಅಡಿಯಲ್ಲಿ ಪಾರ್ಟಿಷನ್ಡ್",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partition_this_site": {
+    "message": "ಈ ಸೈಟ್"
+  },
+  "partition_cross_site": {
+    "message": "$P1$, ಕ್ರಾಸ್-ಸೈಟ್ ಸಂದರ್ಭ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "row_protected": {
+    "message": "ರಕ್ಷಿತ"
+  },
+  "row_unprotect_title": {
+    "message": "ರಕ್ಷಣೆ ತೆಗೆಯಿರಿ (p)"
+  },
+  "row_protect_title": {
+    "message": "ಬಲ್ಕ್ ಅಳಿಸುವಿಕೆ, ಆಮದು ಮತ್ತು ಸೆಟ್ ಮರುಸ್ಥಾಪನೆಯಿಂದ ರಕ್ಷಿಸಿ (p)"
+  },
+  "copy_value": {
+    "message": "ಮೌಲ್ಯ ನಕಲಿಸಿ"
+  },
+  "copied": {
+    "message": "ನಕಲಿಸಲಾಗಿದೆ"
+  },
+  "copy_value_title": {
+    "message": "ಮೌಲ್ಯ ನಕಲಿಸಿ (c)"
+  },
+  "row_delete_title": {
+    "message": "ಅಳಿಸಿ (Del) — ರದ್ದುಮಾಡಬಹುದು"
+  },
+  "irreversible_title": {
+    "message": "ಇದನ್ನು ರದ್ದುಮಾಡಲಾಗದು"
+  },
+  "continue_no_undo": {
+    "message": "ರದ್ದುಮಾಡದೆ ಮುಂದುವರಿಸಿ"
+  },
+  "undo_anyway_title": {
+    "message": "ಆದರೂ ರದ್ದುಮಾಡಬೇಕೆ?"
+  },
+  "undo_anyway": {
+    "message": "ಆದರೂ ರದ್ದುಮಾಡಿ"
+  },
+  "undone": {
+    "message": "ರದ್ದುಮಾಡಲಾಗಿದೆ: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_skipped": {
+    "message": "ಕೆಲವು ಕುಕೀಗಳ ಅವಧಿ ಈಗಾಗಲೇ ಮುಗಿದಿದ್ದರಿಂದ ಅವುಗಳನ್ನು ಮರುಸ್ಥಾಪಿಸಲಿಲ್ಲ: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_refused": {
+    "message": "ಇವನ್ನು ಇದ್ದಂತೆ Chrome ಇನ್ನು ಸ್ವೀಕರಿಸುವುದಿಲ್ಲ, ಆದ್ದರಿಂದ ಮರುಸ್ಥಾಪಿಸಲಿಲ್ಲ: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clipboard_failed": {
+    "message": "ನಕಲಿಸಲಾಗಲಿಲ್ಲ: ಇಲ್ಲಿ ಕ್ಲಿಪ್‌ಬೋರ್ಡ್ ಲಭ್ಯವಿಲ್ಲ."
+  },
+  "protected_on": {
+    "message": "\"$P1$\" ರಕ್ಷಿಸಲಾಗಿದೆ: ಬಲ್ಕ್ ಅಳಿಸುವಿಕೆ, ಆಮದು ಮತ್ತು ಸೆಟ್ ಮರುಸ್ಥಾಪನೆ ಇದನ್ನು ಮುಟ್ಟುವುದಿಲ್ಲ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_off": {
+    "message": "\"$P1$\" ಇನ್ನು ರಕ್ಷಿತವಲ್ಲ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protect_limit": {
+    "message": "ನೀವು ಗರಿಷ್ಠ $P1$ ಕುಕೀಗಳನ್ನು ರಕ್ಷಿಸಬಹುದು. ಮೊದಲು ಕೆಲವರ ರಕ್ಷಣೆ ತೆಗೆಯಿರಿ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_named": {
+    "message": "\"$P1$\" ಅಳಿಸಬೇಕೆ?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_protected_message": {
+    "message": "ಈ ಕುಕೀ ರಕ್ಷಿತವಾಗಿದೆ. ಆದರೂ ಅಳಿಸಬೇಕೆ? ಇದನ್ನು ರದ್ದುಮಾಡಬಹುದು."
+  },
+  "nothing_to_delete": {
+    "message": "ಅಳಿಸಲು ಏನೂ ಇಲ್ಲ"
+  },
+  "all_shown_protected_one": {
+    "message": "ತೋರಿಸಿದ ಕುಕೀ ರಕ್ಷಿತವಾಗಿದೆ."
+  },
+  "all_shown_protected_other": {
+    "message": "ತೋರಿಸಿದ ಎಲ್ಲಾ $P1$ ಕುಕೀಗಳು ರಕ್ಷಿತವಾಗಿವೆ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "no_cookies_shown": {
+    "message": "ಯಾವುದೇ ಕುಕೀ ತೋರಿಸಿಲ್ಲ."
+  },
+  "bulk_title_one": {
+    "message": "$P1$ ಕುಕೀ ಅಳಿಸಬೇಕೆ?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_title_other": {
+    "message": "$P1$ ಕುಕೀಗಳನ್ನು ಅಳಿಸಬೇಕೆ?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_match": {
+    "message": "ಈ ಕುಕೀಗಳು $P2$ ನಲ್ಲಿ \"$P1$\" ಗೆ ಹೊಂದುತ್ತವೆ. ಇದನ್ನು ರದ್ದುಮಾಡಬಹುದು.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "bulk_all": {
+    "message": "$P1$ ಗೆ ಪಟ್ಟಿ ಮಾಡಿದ ಪ್ರತಿ ಕುಕೀ. ಇದನ್ನು ರದ್ದುಮಾಡಬಹುದು.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_one": {
+    "message": "$P1$ ರಕ್ಷಿತ ಕುಕೀಯನ್ನು ಉಳಿಸಲಾಗುತ್ತದೆ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_other": {
+    "message": "$P1$ ರಕ್ಷಿತ ಕುಕೀಗಳನ್ನು ಉಳಿಸಲಾಗುತ್ತದೆ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_one": {
+    "message": "$P1$ ಕುಕೀ ಅಳಿಸಿ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_other": {
+    "message": "$P1$ ಕುಕೀಗಳನ್ನು ಅಳಿಸಿ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_to": {
+    "message": "ಇಲ್ಲಿಗೆ ನಕಲಿಸಿ"
+  },
+  "copy_to_default_note": {
+    "message": "ಡಿಫಾಲ್ಟ್ ಸ್ಟೋರ್‌ಗೆ ನಕಲಿಸಿದ ಕುಕೀಗಳು ಇತರ ಕುಕೀಗಳಂತೆ ಡಿಸ್ಕ್‌ನಲ್ಲಿ ಉಳಿಯುತ್ತವೆ, ಈ ಇನ್‌ಕಾಗ್ನಿಟೊ ಸೆಷನ್ ಮುಗಿದ ನಂತರವೂ."
+  },
+  "copy_to_incognito_note": {
+    "message": "ಇನ್‌ಕಾಗ್ನಿಟೊ ಸ್ಟೋರ್‌ಗೆ ನಕಲಿಸಿದ ಕುಕೀಗಳು ಆ ಇನ್‌ಕಾಗ್ನಿಟೊ ಸೆಷನ್‌ನೊಂದಿಗೆ ಕೊನೆಗೊಳ್ಳುತ್ತವೆ."
+  },
+  "copy_title_one": {
+    "message": "$P1$ ಕುಕೀ ನಕಲಿಸಿ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_title_other": {
+    "message": "$P1$ ಕುಕೀಗಳನ್ನು ನಕಲಿಸಿ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_from": {
+    "message": "$P1$ ಸ್ಟೋರ್‌ನಿಂದ, ಇಲ್ಲಿಗೆ:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_replace_note": {
+    "message": "ಅಲ್ಲಿ ಅದೇ ಹೆಸರು, ಡೊಮೇನ್ ಮತ್ತು ಪಾತ್ ಇರುವ ಕುಕೀಗಳು ಬದಲಾಗುತ್ತವೆ, ರಕ್ಷಿತವಾದವು ಹೊರತು. ನಕಲನ್ನು ರದ್ದುಮಾಡಬಹುದು."
+  },
+  "label_copied_one": {
+    "message": "$P1$ ಕುಕೀಯನ್ನು $P2$ ಗೆ ನಕಲಿಸಲಾಯಿತು",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_copied_other": {
+    "message": "$P1$ ಕುಕೀಗಳನ್ನು $P2$ ಗೆ ನಕಲಿಸಲಾಯಿತು",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_kept_one": {
+    "message": "ಅಲ್ಲಿನ $P1$ ರಕ್ಷಿತ ಕುಕೀಯನ್ನು ಇದ್ದಂತೆಯೇ ಬಿಡಲಾಯಿತು.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_kept_other": {
+    "message": "ಅಲ್ಲಿನ $P1$ ರಕ್ಷಿತ ಕುಕೀಗಳನ್ನು ಇದ್ದಂತೆಯೇ ಬಿಡಲಾಯಿತು.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_done_one": {
+    "message": "$P1$ ಕುಕೀಯನ್ನು $P2$ ಗೆ ನಕಲಿಸಲಾಯಿತು.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_done_other": {
+    "message": "$P1$ ಕುಕೀಗಳನ್ನು $P2$ ಗೆ ನಕಲಿಸಲಾಯಿತು.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_undo_hint": {
+    "message": "ಇಲ್ಲೇ, ಅಥವಾ ನಂತರ $P1$ ಸ್ಟೋರ್‌ನಿಂದ ರದ್ದುಮಾಡಿ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_nothing": {
+    "message": "$P1$ ನಲ್ಲಿ ಈ ಕುಕೀಗಳು ಈಗಾಗಲೇ ಹಾಗೆಯೇ ಇವೆ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_cant": {
+    "message": "ಹೋಲಿಸಲಾಗದು"
+  },
+  "compare_now": {
+    "message": "$P1$ ಈಗ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_other_site": {
+    "message": "ಈ ಸೆಟ್ ಅನ್ನು $P2$ ಗೆ ಅಲ್ಲ, $P1$ ಗೆ ಉಳಿಸಲಾಗಿತ್ತು.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "compare_too_many": {
+    "message": "ಈಗಿನ ಸ್ಥಿತಿಯೊಂದಿಗೆ ಹೋಲಿಸಲು ಒಂದು ಸೆಟ್, ಅಥವಾ ಪರಸ್ಪರ ಹೋಲಿಸಲು ಎರಡು ಸೆಟ್‌ಗಳನ್ನು ಆರಿಸಿ."
+  },
+  "set_file_too_large": {
+    "message": "$P1$ ಕುಕೀ ಸೆಟ್ ಆಗಲು ತುಂಬಾ ದೊಡ್ಡದಾಗಿದೆ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_aria": {
+    "message": "ಕುಕೀ ಸೆಟ್‌ಗಳನ್ನು ಹೋಲಿಸಿ"
+  },
+  "compare_changed_fields": {
+    "message": "ಬದಲಾದವು: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_one": {
+    "message": "ವ್ಯತ್ಯಾಸವಿಲ್ಲ: $P1$ ಕುಕೀ ಒಂದೇ ರೀತಿ ಇದೆ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_other": {
+    "message": "ವ್ಯತ್ಯಾಸವಿಲ್ಲ: $P1$ ಕುಕೀಗಳು ಒಂದೇ ರೀತಿ ಇವೆ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_summary": {
+    "message": "$P1$ ಸೇರಿಸಲಾಯಿತು, $P2$ ತೆಗೆಯಲಾಯಿತು, $P3$ ಬದಲಾಯಿತು, $P4$ ಬದಲಾಗಲಿಲ್ಲ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      },
+      "p4": {
+        "content": "$4"
+      }
+    }
+  },
+  "diff_added": {
+    "message": "ಸೇರಿಸಲಾಗಿದೆ"
+  },
+  "diff_removed": {
+    "message": "ತೆಗೆಯಲಾಗಿದೆ"
+  },
+  "diff_changed": {
+    "message": "ಬದಲಾಗಿದೆ"
+  },
+  "diff_expiry_only": {
+    "message": "ಅವಧಿ ಮುಕ್ತಾಯ ಮಾತ್ರ ಬದಲಾಯಿತು ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "shortcuts_title": {
+    "message": "ಕೀಬೋರ್ಡ್ ಶಾರ್ಟ್‌ಕಟ್‌ಗಳು"
+  },
+  "key_search": {
+    "message": "ಹುಡುಕಿ"
+  },
+  "key_move": {
+    "message": "ಪಟ್ಟಿಯಲ್ಲಿ ಚಲಿಸಿ"
+  },
+  "key_first_last": {
+    "message": "ಮೊದಲ / ಕೊನೆಯ ಕುಕೀ"
+  },
+  "key_edit": {
+    "message": "ಎಡಿಟ್ ಮಾಡಿ"
+  },
+  "key_copy": {
+    "message": "ಮೌಲ್ಯ ನಕಲಿಸಿ"
+  },
+  "key_protect": {
+    "message": "ರಕ್ಷಿಸಿ / ರಕ್ಷಣೆ ತೆಗೆಯಿರಿ"
+  },
+  "key_delete": {
+    "message": "ಅಳಿಸಿ (ರದ್ದುಮಾಡಬಹುದು)"
+  },
+  "key_back": {
+    "message": "ಹಿಂದೆ, ಅಥವಾ ಹುಡುಕಾಟ ತೆರವುಗೊಳಿಸಿ"
+  },
+  "key_help": {
+    "message": "ಈ ಪಟ್ಟಿ"
+  },
+  "import_kept_one": {
+    "message": "$P1$ ರಕ್ಷಿತ ಕುಕೀಯನ್ನು ಇದ್ದಂತೆಯೇ ಬಿಡಲಾಯಿತು: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_kept_other": {
+    "message": "$P1$ ರಕ್ಷಿತ ಕುಕೀಗಳನ್ನು ಇದ್ದಂತೆಯೇ ಬಿಡಲಾಯಿತು: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_nothing": {
+    "message": "ಆಮದು ಮಾಡಲು ಏನೂ ಇಲ್ಲ: ಫೈಲ್‌ನ ಪ್ರತಿ ಕುಕೀ ಈಗಾಗಲೇ ಹಾಗೆಯೇ ಹೊಂದಿಸಲಾಗಿದೆ."
+  },
+  "imported_one": {
+    "message": "$P1$ ಕುಕೀ ಆಮದು ಮಾಡಲಾಯಿತು.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "imported_other": {
+    "message": "$P1$ ಕುಕೀಗಳನ್ನು ಆಮದು ಮಾಡಲಾಯಿತು.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_restored": {
+    "message": "ಸೆಟ್ \"$P1$\" ಮರುಸ್ಥಾಪಿಸಲಾಯಿತು",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restored_one": {
+    "message": "\"$P2$\" ಮರುಸ್ಥಾಪಿಸಲಾಯಿತು: $P1$ ಕುಕೀ ಬರೆಯಲಾಯಿತು, $P3$ ಅಳಿಸಲಾಯಿತು.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "restored_other": {
+    "message": "\"$P2$\" ಮರುಸ್ಥಾಪಿಸಲಾಯಿತು: $P1$ ಕುಕೀಗಳನ್ನು ಬರೆಯಲಾಯಿತು, $P3$ ಅಳಿಸಲಾಯಿತು.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "rate_title": {
+    "message": "CookieDesk ಇಷ್ಟವಾಯಿತೇ?"
+  },
+  "rate_text": {
+    "message": "ಒಂದು ಸಣ್ಣ ರೇಟಿಂಗ್ ಇತರರಿಗೆ ಇದನ್ನು ಕಂಡುಹಿಡಿಯಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ."
+  },
+  "rate_group": {
+    "message": "ಸ್ಟೋರ್‌ನಲ್ಲಿ ರೇಟಿಂಗ್ ನೀಡಿ"
+  },
+  "rate_stars_one": {
+    "message": "$P1$ ನಕ್ಷತ್ರ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "rate_stars_other": {
+    "message": "$P1$ ನಕ್ಷತ್ರಗಳು",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_confirm_title": {
+    "message": "ನೀವು ನನಗೆ ಕಾಫಿ ಕೊಡಿಸಿದಿರಾ?"
+  },
+  "kofi_confirm_text": {
+    "message": "ಧನ್ಯವಾದ, ಇದರಿಂದಲೇ CookieDesk ಮುಂದುವರಿಯುತ್ತದೆ."
+  },
+  "kofi_yes": {
+    "message": "ಹೌದು, ಕೊಡಿಸಿದೆ"
+  },
+  "kofi_not_yet": {
+    "message": "ಇನ್ನೂ ಇಲ್ಲ"
+  },
+  "kofi_milestone_one": {
+    "message": "CookieDesk ನೊಂದಿಗೆ $P1$ ಬದಲಾವಣೆ ಮಾಡಿದ್ದೀರಿ!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_milestone_other": {
+    "message": "CookieDesk ನೊಂದಿಗೆ $P1$ ಬದಲಾವಣೆಗಳನ್ನು ಮಾಡಿದ್ದೀರಿ!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_free": {
+    "message": "ಇದು ಉಚಿತ ಮತ್ತು ಒಬ್ಬ ಡೆವಲಪರ್ ಮಾಡಿದ್ದು."
+  },
+  "buy_coffee": {
+    "message": "ನನಗೆ ಕಾಫಿ ಕೊಡಿಸಿ"
+  },
+  "edit_cookie": {
+    "message": "ಕುಕೀ ಎಡಿಟ್ ಮಾಡಿ"
+  },
+  "add_cookie_short": {
+    "message": "ಕುಕೀ ಸೇರಿಸಿ"
+  },
+  "explain_title": {
+    "message": "ಈ ಕುಕೀ ಏನು ಮಾಡುತ್ತದೆ"
+  },
+  "field_name": {
+    "message": "ಹೆಸರು"
+  },
+  "field_value": {
+    "message": "ಮೌಲ್ಯ"
+  },
+  "field_domain": {
+    "message": "ಡೊಮೇನ್"
+  },
+  "field_path": {
+    "message": "ಪಾತ್"
+  },
+  "field_expiry": {
+    "message": "ಅವಧಿ ಮುಕ್ತಾಯ"
+  },
+  "field_expires": {
+    "message": "ಅವಧಿ ಮುಕ್ತಾಯ"
+  },
+  "field_attributes": {
+    "message": "ಗುಣಲಕ್ಷಣಗಳು"
+  },
+  "field_partition": {
+    "message": "ಪಾರ್ಟಿಷನ್"
+  },
+  "host_only": {
+    "message": "ಹೋಸ್ಟ್ ಮಾತ್ರ"
+  },
+  "host_only_title": {
+    "message": "ಹೋಸ್ಟ್ ಮಾತ್ರ: Domain ಗುಣಲಕ್ಷಣವಿಲ್ಲ, ಆದ್ದರಿಂದ ಉಪಡೊಮೇನ್‌ಗಳಿಗೆ ಸಿಗುವುದಿಲ್ಲ"
+  },
+  "session_title": {
+    "message": "ಸೆಷನ್ ಕುಕೀ: ಬ್ರೌಸರ್ ಮುಚ್ಚಿದಾಗ ಹೋಗುತ್ತದೆ"
+  },
+  "httponly_title": {
+    "message": "HttpOnly: ಪುಟದ JavaScript ಗೆ ಕಾಣಿಸುವುದಿಲ್ಲ"
+  },
+  "samesite_unspecified": {
+    "message": "ನಿರ್ದಿಷ್ಟಪಡಿಸಿಲ್ಲ"
+  },
+  "partitioned_chips": {
+    "message": "ಪಾರ್ಟಿಷನ್ಡ್ (CHIPS)"
+  },
+  "top_level_site": {
+    "message": "ಟಾಪ್-ಲೆವೆಲ್ ಸೈಟ್"
+  },
+  "no_partition_write": {
+    "message": "Chrome ನ ಈ ಆವೃತ್ತಿ ಪಾರ್ಟಿಷನ್ಡ್ ಕುಕೀಗಳನ್ನು ಬರೆಯಲಾರದು."
+  },
+  "editor_delete_title": {
+    "message": "ಅಳಿಸಿ (ರದ್ದುಮಾಡಬಹುದು)"
+  },
+  "bytes_of": {
+    "message": "$P1$ / $P2$ ಬೈಟ್‌ಗಳು",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "access_aria": {
+    "message": "ಪ್ರವೇಶ ಮತ್ತು ಸೆಟ್ಟಿಂಗ್‌ಗಳು"
+  },
+  "all_sites_on": {
+    "message": "ಎಲ್ಲಾ ಸೈಟ್‌ಗಳು: ಆನ್"
+  },
+  "all_sites_on_text": {
+    "message": "ಎಂಬೆಡ್ ಮಾಡಿದವು ಸೇರಿದಂತೆ ಪ್ರತಿ ಸೈಟ್‌ನಲ್ಲಿ CookieDesk ಕುಕೀಗಳನ್ನು ಓದಬಹುದು ಮತ್ತು ಬದಲಾಯಿಸಬಹುದು."
+  },
+  "turn_off": {
+    "message": "ಆಫ್ ಮಾಡಿ"
+  },
+  "all_sites": {
+    "message": "ಎಲ್ಲಾ ಸೈಟ್‌ಗಳು"
+  },
+  "all_sites_text": {
+    "message": "ಐಚ್ಛಿಕ. ಸೈಟ್ ಪ್ರಕಾರ ಕೇಳುವುದಿಲ್ಲ, ಎಂಬೆಡ್ ಮಾಡಿದ ಸೈಟ್‌ಗಳ (ಜಾಹೀರಾತು, ವಿಜೆಟ್, ಸೈನ್-ಇನ್ ಫ್ರೇಮ್) ಕುಕೀಗಳು ಎಲ್ಲೆಡೆ ಕಾಣಿಸುತ್ತವೆ."
+  },
+  "allow_all_sites": {
+    "message": "ಎಲ್ಲಾ ಸೈಟ್‌ಗಳಲ್ಲಿ ಅನುಮತಿಸಿ"
+  },
+  "remove_access": {
+    "message": "$P1$ ಗೆ ಪ್ರವೇಶ ತೆಗೆಯಿರಿ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "access_lead": {
+    "message": "ನೀವು ಸೈಟ್ ಅನ್ನು ಅನುಮತಿಸಿದ ನಂತರವೇ CookieDesk ಅದರ ಕುಕೀಗಳನ್ನು ನೋಡುತ್ತದೆ, ಬೇರೇನೂ ಇಲ್ಲ: ಪುಟದ ವಿಷಯವಿಲ್ಲ, ಇತಿಹಾಸವಿಲ್ಲ."
+  },
+  "allowed_sites": {
+    "message": "ಅನುಮತಿಸಿದ ಸೈಟ್‌ಗಳು"
+  },
+  "allowed_sites_count": {
+    "message": "ಅನುಮತಿಸಿದ ಸೈಟ್‌ಗಳು · $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "all_sites_overrides": {
+    "message": "ಎಲ್ಲಾ ಸೈಟ್‌ಗಳ ಪ್ರವೇಶ ಆನ್ ಆಗಿದೆ, ಆದ್ದರಿಂದ ಅದು ಆನ್ ಇರುವವರೆಗೆ ಇವು ಮುಖ್ಯವಲ್ಲ."
+  },
+  "none_yet": {
+    "message": "ಇನ್ನೂ ಯಾವುದೂ ಇಲ್ಲ."
+  },
+  "toolbar_opens": {
+    "message": "ಟೂಲ್‌ಬಾರ್ ಬಟನ್ ತೆರೆಯುವುದು"
+  },
+  "surface_popup": {
+    "message": "ಪಾಪ್‌ಅಪ್"
+  },
+  "surface_sidepanel": {
+    "message": "ಸೈಡ್ ಪ್ಯಾನೆಲ್"
+  },
+  "support_feedback": {
+    "message": "ಬೆಂಬಲ ಮತ್ತು ಪ್ರತಿಕ್ರಿಯೆ"
+  },
+  "thanks_supporting": {
+    "message": "ಬೆಂಬಲಿಸಿದ್ದಕ್ಕೆ ಧನ್ಯವಾದ!"
+  },
+  "report_problem": {
+    "message": "ಸಮಸ್ಯೆ ವರದಿ ಮಾಡಿ"
+  },
+  "source_code": {
+    "message": "ಸೋರ್ಸ್ ಕೋಡ್"
+  },
+  "privacy_line": {
+    "message": "ನೆಟ್‌ವರ್ಕ್ ವಿನಂತಿಗಳಿಲ್ಲ, ಡಿಸ್ಕ್‌ನಲ್ಲಿ ಕುಕೀ ಮೌಲ್ಯಗಳಿಲ್ಲ. ರದ್ದುಮಾಡುವಿಕೆ 10 ನಿಮಿಷ ಕೆಲಸ ಮಾಡುತ್ತದೆ; ಅದರ ಪ್ರತಿಗಳು ಮೆಮೊರಿಯಲ್ಲಿರುತ್ತವೆ, Chrome ಮುಚ್ಚಿದಾಗ ಅಥವಾ ಇನ್‌ಕಾಗ್ನಿಟೊ ಸೆಷನ್ ಮುಗಿದಾಗ ಹೋಗುತ್ತವೆ."
+  },
+  "export_warning": {
+    "message": "ಈ ಫೈಲ್‌ನಲ್ಲಿ ಚಾಲ್ತಿಯಲ್ಲಿರುವ ಸೆಷನ್ ಕುಕೀಗಳಿವೆ. ಇದು ಯಾರ ಬಳಿ ಇದ್ದರೂ ಈ ಸೈಟ್‌ಗಳಲ್ಲಿ ನಿಮ್ಮಂತೆ ಸೈನ್ ಇನ್ ಮಾಡಬಹುದು. ಪಾಸ್‌ವರ್ಡ್‌ನಂತೆ ಪರಿಗಣಿಸಿ, ಕೆಲಸ ಮುಗಿದ ಮೇಲೆ ಅಳಿಸಿ."
+  },
+  "export_json_one": {
+    "message": "$P1$ ಕುಕೀಯನ್ನು JSON ಆಗಿ ರಫ್ತು ಮಾಡಿ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_json_other": {
+    "message": "$P1$ ಕುಕೀಗಳನ್ನು JSON ಆಗಿ ರಫ್ತು ಮಾಡಿ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_one": {
+    "message": "$P1$ ಕುಕೀಯನ್ನು cookies.txt ಆಗಿ ರಫ್ತು ಮಾಡಿ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_other": {
+    "message": "$P1$ ಕುಕೀಗಳನ್ನು cookies.txt ಆಗಿ ರಫ್ತು ಮಾಡಿ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_all_one": {
+    "message": "$P2$ ಗೆ ಪಟ್ಟಿ ಮಾಡಿದ ಕುಕೀ, HttpOnly ಆಗಿದ್ದರೂ, ಫೈಲ್‌ಗೆ ಹೋಗುತ್ತದೆ.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_all_other": {
+    "message": "$P2$ ಗೆ ಪಟ್ಟಿ ಮಾಡಿದ ಎಲ್ಲಾ $P1$ ಕುಕೀಗಳು, HttpOnly ಸೇರಿದಂತೆ, ಫೈಲ್‌ಗೆ ಹೋಗುತ್ತವೆ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_partitioned_left_one": {
+    "message": "$P1$ ಪಾರ್ಟಿಷನ್ಡ್ ಕುಕೀಯನ್ನು ಬಿಡಲಾಯಿತು: cookies.txt ಪಾರ್ಟಿಷನ್‌ಗಳನ್ನು ದಾಖಲಿಸಲಾರದು. ಅದನ್ನು ಉಳಿಸಲು JSON ಬಳಸಿ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_partitioned_left_other": {
+    "message": "$P1$ ಪಾರ್ಟಿಷನ್ಡ್ ಕುಕೀಗಳನ್ನು ಬಿಡಲಾಯಿತು: cookies.txt ಪಾರ್ಟಿಷನ್‌ಗಳನ್ನು ದಾಖಲಿಸಲಾರದು. ಅವನ್ನು ಉಳಿಸಲು JSON ಬಳಸಿ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_too_big": {
+    "message": "ಈ ಫೈಲ್ $P1$ MB ಇದೆ. ಕುಕೀ ರಫ್ತುಗಳು ಇದಕ್ಕಿಂತ ಬಹಳ ಚಿಕ್ಕವು; CookieDesk 5 MB ವರೆಗಿನ ಫೈಲ್‌ಗಳನ್ನು ಓದುತ್ತದೆ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "cant_import_unchanged": {
+    "message": "ಈ ಫೈಲ್ ಆಮದು ಮಾಡಲಾಗದು. ಏನೂ ಬದಲಾಗಿಲ್ಲ."
+  },
+  "cant_import": {
+    "message": "ಈ ಫೈಲ್ ಆಮದು ಮಾಡಲಾಗದು"
+  },
+  "file_unreadable": {
+    "message": "ಫೈಲ್ ಓದಲಾಗಲಿಲ್ಲ."
+  },
+  "needs_access_one": {
+    "message": "ಈ ಕುಕೀಗಳನ್ನು ಬರೆಯುವ ಮೊದಲು CookieDesk ಗೆ ಇನ್ನೂ $P1$ ಸೈಟ್‌ಗೆ ಪ್ರವೇಶ ಬೇಕು:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "needs_access_other": {
+    "message": "ಈ ಕುಕೀಗಳನ್ನು ಬರೆಯುವ ಮೊದಲು CookieDesk ಗೆ ಇನ್ನೂ $P1$ ಸೈಟ್‌ಗಳಿಗೆ ಪ್ರವೇಶ ಬೇಕು:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_allow_all_hint": {
+    "message": "ಅಥವಾ ಪ್ರವೇಶ ಮತ್ತು ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಎಲ್ಲಾ ಸೈಟ್‌ಗಳನ್ನು ಅನುಮತಿಸಿ."
+  },
+  "other_sites": {
+    "message": "ಇತರ ಸೈಟ್‌ಗಳು ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "other_sites_warning": {
+    "message": "ಈ ಫೈಲ್ $P1$ ಅಲ್ಲದ ಸೈಟ್‌ಗಳಿಗೂ ಕುಕೀಗಳನ್ನು ಬರೆಯುತ್ತದೆ. ಬೇರೆ ಸೈಟ್‌ನಲ್ಲಿ ಇಟ್ಟ ಕುಕೀ ನಿಮ್ಮನ್ನು ಅಲ್ಲಿ ತಪ್ಪು ಖಾತೆಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿಸಬಹುದು. ಈ ಸೈಟ್‌ಗಳನ್ನು ನಿರೀಕ್ಷಿಸಿದ್ದರೆ ಮಾತ್ರ ಮುಂದುವರಿಸಿ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_one": {
+    "message": "ಇನ್ನೂ $P1$ ಸೈಟ್‌ಗೂ ಕುಕೀಗಳನ್ನು ಬರೆಯಿರಿ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_other": {
+    "message": "ಇನ್ನೂ $P1$ ಸೈಟ್‌ಗಳಿಗೂ ಕುಕೀಗಳನ್ನು ಬರೆಯಿರಿ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partitioned_under_list": {
+    "message": "ಇವುಗಳ ಅಡಿಯಲ್ಲಿ ಪಾರ್ಟಿಷನ್ಡ್: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "warnings_count": {
+    "message": "ಎಚ್ಚರಿಕೆಗಳು ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_title": {
+    "message": "ಕುಕೀಗಳನ್ನು ಆಮದು ಮಾಡಿ"
+  },
+  "import_message_one": {
+    "message": "$P1$ ಕುಕೀ ಆಮದು ಮಾಡಬೇಕೆ? ಅದೇ ಹೆಸರು, ಡೊಮೇನ್ ಮತ್ತು ಪಾತ್ ಇರುವ ಕುಕೀಗಳು ಬದಲಾಗುತ್ತವೆ. ಇಡೀ ಆಮದನ್ನು ರದ್ದುಮಾಡಬಹುದು.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_message_other": {
+    "message": "$P1$ ಕುಕೀಗಳನ್ನು ಆಮದು ಮಾಡಬೇಕೆ? ಅದೇ ಹೆಸರು, ಡೊಮೇನ್ ಮತ್ತು ಪಾತ್ ಇರುವ ಕುಕೀಗಳು ಬದಲಾಗುತ್ತವೆ. ಇಡೀ ಆಮದನ್ನು ರದ್ದುಮಾಡಬಹುದು.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_one": {
+    "message": "$P1$ ಕುಕೀಯನ್ನು document.cookie ಆಗಿ ನಕಲಿಸಿ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_other": {
+    "message": "$P1$ ಕುಕೀಗಳನ್ನು document.cookie ಆಗಿ ನಕಲಿಸಿ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_warning": {
+    "message": "ಸ್ನಿಪ್ಪೆಟ್‌ನಲ್ಲಿ ಚಾಲ್ತಿಯಲ್ಲಿರುವ ಸೆಷನ್ ಕುಕೀಗಳಿವೆ. ಇದು ಯಾರ ಬಳಿ ಇದ್ದರೂ ಈ ಸೈಟ್‌ನಲ್ಲಿ ನಿಮ್ಮಂತೆ ಸೈನ್ ಇನ್ ಮಾಡಬಹುದು. ಪಾಸ್‌ವರ್ಡ್‌ನಂತೆ ಪರಿಗಣಿಸಿ."
+  },
+  "snippet_paste": {
+    "message": "ಈ ಕುಕೀಗಳನ್ನು ಅಲ್ಲಿ ಹೊಂದಿಸಲು $P1$ ನ DevTools ಕನ್ಸೋಲ್‌ಗೆ ಅಂಟಿಸಿ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_one": {
+    "message": "$P1$ HttpOnly ಕುಕೀಯನ್ನು ಬಿಡಲಾಯಿತು: ಪುಟದ JavaScript ಅದನ್ನು ಹೊಂದಿಸಲಾರದು.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_other": {
+    "message": "$P1$ HttpOnly ಕುಕೀಗಳನ್ನು ಬಿಡಲಾಯಿತು: ಪುಟದ JavaScript ಅವನ್ನು ಹೊಂದಿಸಲಾರದು.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_one": {
+    "message": "$P1$ ಕುಕೀಯನ್ನು document.cookie ಆಗಿ ನಕಲಿಸಲಾಯಿತು.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_other": {
+    "message": "$P1$ ಕುಕೀಗಳನ್ನು document.cookie ಆಗಿ ನಕಲಿಸಲಾಯಿತು.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_name": {
+    "message": "ಸೆಟ್ ಹೆಸರು"
+  },
+  "set_name_placeholder": {
+    "message": "ಉದಾ. ಅಡ್ಮಿನ್ ಆಗಿ ಲಾಗಿನ್ ಆದದ್ದು"
+  },
+  "save_set_title_one": {
+    "message": "$P1$ ಕುಕೀಯನ್ನು ಸೆಟ್ ಆಗಿ ಉಳಿಸಿ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "save_set_title_other": {
+    "message": "$P1$ ಕುಕೀಗಳನ್ನು ಸೆಟ್ ಆಗಿ ಉಳಿಸಿ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_file_note": {
+    "message": "ಸೆಟ್ ನಿಮ್ಮ ಕಂಪ್ಯೂಟರ್‌ನಲ್ಲಿರುವ ಫೈಲ್; CookieDesk ಅದರ ಪ್ರತಿಯನ್ನು ಇಟ್ಟುಕೊಳ್ಳುವುದಿಲ್ಲ. ನಂತರ $P1$ ನ ಮೆನುವಿನಿಂದ ಮರುಸ್ಥಾಪಿಸಿ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "default_set_name": {
+    "message": "ಕುಕೀ ಸೆಟ್"
+  },
+  "set_too_large": {
+    "message": "ಈ ಫೈಲ್ ಕುಕೀ ಸೆಟ್ ಆಗಲು ತುಂಬಾ ದೊಡ್ಡದಾಗಿದೆ."
+  },
+  "cant_restore_unchanged": {
+    "message": "ಈ ಸೆಟ್ ಮರುಸ್ಥಾಪಿಸಲಾಗದು. ಏನೂ ಬದಲಾಗಿಲ್ಲ."
+  },
+  "cant_restore": {
+    "message": "ಈ ಸೆಟ್ ಮರುಸ್ಥಾಪಿಸಲಾಗದು"
+  },
+  "wrong_site_message": {
+    "message": "ಈ ಸೆಟ್ ಅನ್ನು $P1$ ಗೆ ಉಳಿಸಲಾಗಿತ್ತು. $P1$ ತೆರೆದು ಅಲ್ಲಿ ಮರುಸ್ಥಾಪಿಸಿ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "wrong_site_title": {
+    "message": "ತಪ್ಪು ಸೈಟ್. ಏನೂ ಬದಲಾಗಿಲ್ಲ."
+  },
+  "foreign_cookies_one": {
+    "message": "ಈ ಫೈಲ್‌ನ $P1$ ಕುಕೀ ಬೇರೆ ಸೈಟ್‌ಗೆ ಸೇರಿದೆ ($P2$). ಸೆಟ್ ಮರುಸ್ಥಾಪನೆ $P3$ ಅನ್ನು ಮಾತ್ರ ಬದಲಾಯಿಸುತ್ತದೆ; ಇತರ ಸೈಟ್‌ಗಳಿಗೆ ಆಮದು ಬಳಸಿ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "foreign_cookies_other": {
+    "message": "ಈ ಫೈಲ್‌ನ $P1$ ಕುಕೀಗಳು ಇತರ ಸೈಟ್‌ಗಳಿಗೆ ಸೇರಿವೆ ($P2$). ಸೆಟ್ ಮರುಸ್ಥಾಪನೆ $P3$ ಅನ್ನು ಮಾತ್ರ ಬದಲಾಯಿಸುತ್ತದೆ; ಇತರ ಸೈಟ್‌ಗಳಿಗೆ ಆಮದು ಬಳಸಿ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "plan_write": {
+    "message": "ಬರೆಯಿರಿ"
+  },
+  "plan_delete": {
+    "message": "ಅಳಿಸಿ"
+  },
+  "plan_protected": {
+    "message": "ರಕ್ಷಿತ, ಇದ್ದಂತೆಯೇ ಬಿಡಲಾಗುತ್ತದೆ"
+  },
+  "restore_title": {
+    "message": "\"$P1$\" ಮರುಸ್ಥಾಪಿಸಿ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_nothing": {
+    "message": "$P1$ ಈಗಾಗಲೇ ಈ ಸೆಟ್‌ಗೆ ಹೊಂದುತ್ತದೆ. ಬದಲಾಯಿಸಲು ಏನೂ ಇಲ್ಲ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_message_one": {
+    "message": "$P2$ ನ ಕುಕೀಗಳು ಈ ಸೆಟ್‌ನ $P1$ ಕುಕೀಯಿಂದ ಬದಲಾಗುತ್ತವೆ. ಇಡೀ ಮರುಸ್ಥಾಪನೆಯನ್ನು ರದ್ದುಮಾಡಬಹುದು.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "restore_message_other": {
+    "message": "$P2$ ನ ಕುಕೀಗಳು ಈ ಸೆಟ್‌ನ $P1$ ಕುಕೀಗಳಿಂದ ಬದಲಾಗುತ್ತವೆ. ಇಡೀ ಮರುಸ್ಥಾಪನೆಯನ್ನು ರದ್ದುಮಾಡಬಹುದು.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_partition_unsupported": {
+    "message": "\"$P1$\" ಪಾರ್ಟಿಷನ್ಡ್ ಕುಕೀ, ಇದನ್ನು Chrome ನ ಈ ಆವೃತ್ತಿ ಬರೆಯಲಾರದು. Chrome 119 ಅಥವಾ ನಂತರದ ಆವೃತ್ತಿಗೆ ಅಪ್‌ಡೇಟ್ ಮಾಡಿ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_gone": {
+    "message": "\"$P1$\" ಇನ್ನು ಇಲ್ಲ — ಅದರ ಅವಧಿ ಮುಗಿದಿರಬಹುದು ಅಥವಾ ಸೈಟ್ ಬದಲಾಯಿಸಿರಬಹುದು. ಪಟ್ಟಿಯನ್ನು ಮತ್ತೆ ಲೋಡ್ ಮಾಡಿ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_stored": {
+    "message": "Chrome \"$P1$\" ಅನ್ನು ಸ್ವೀಕರಿಸಿತು ಆದರೆ ಸಂಗ್ರಹಿಸಲಿಲ್ಲ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_imprecise_delete_one": {
+    "message": "Chrome \"$P2$\" ಅನ್ನು ಅದೇ ಹೆಸರಿನ ಇನ್ನೂ $P1$ ಕುಕೀಯೊಂದಿಗೆ ಮಾತ್ರ ಅಳಿಸಬಲ್ಲದು, ಆದ್ದರಿಂದ CookieDesk ಇದನ್ನು ಅಳಿಸುವುದಿಲ್ಲ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_imprecise_delete_other": {
+    "message": "Chrome \"$P2$\" ಅನ್ನು ಅದೇ ಹೆಸರಿನ ಇನ್ನೂ $P1$ ಕುಕೀಗಳೊಂದಿಗೆ ಮಾತ್ರ ಅಳಿಸಬಲ್ಲದು, ಆದ್ದರಿಂದ CookieDesk ಇದನ್ನು ಅಳಿಸುವುದಿಲ್ಲ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_delete": {
+    "message": "\"$P1$\" ಅನ್ನು ಸಂಗ್ರಹಿಸಿರುವಂತೆ Chrome ಇನ್ನು ಸ್ವೀಕರಿಸುವುದಿಲ್ಲ, ಆದ್ದರಿಂದ ಒಮ್ಮೆ ಅಳಿಸಿದರೆ ಮರಳಿ ಇಡಲಾಗದು. ರದ್ದುಮಾಡುವ ಆಯ್ಕೆಯಿಲ್ಲದೆ ಅಳಿಸಬೇಕೆ?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_removed": {
+    "message": "\"$P1$\" ಅನ್ನು ಅಳಿಸಲಾಗಲಿಲ್ಲ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_no_permission": {
+    "message": "CookieDesk ಗೆ $P1$ ಗೆ ಪ್ರವೇಶವಿಲ್ಲ. ಮೊದಲು ಈ ಸೈಟ್‌ಗೆ ಪ್ರವೇಶ ನೀಡಿ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_secure_shadow": {
+    "message": "$P2$ ಗೆ \"$P1$\" ಹೆಸರಿನ Secure ಕುಕೀ ಈಗಾಗಲೇ ಇದೆ. ಅದೇ ಹೆಸರಿನ non-Secure ಕುಕೀ ಅದನ್ನು ಬದಲಾಯಿಸಲು ಅಥವಾ ಅದರ ಪಕ್ಕ ಇರಲು Chrome ಬಿಡುವುದಿಲ್ಲ. Secure ಆನ್ ಮಾಡಿ, ಅಥವಾ ಬೇರೆ ಹೆಸರು ಬಳಸಿ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_rejected": {
+    "message": "Chrome ಕಾರಣ ಹೇಳದೆ \"$P1$\" ಅನ್ನು ತಿರಸ್ಕರಿಸಿತು. ಏನೂ ಬದಲಾಗಿಲ್ಲ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_irreversible_replace_one": {
+    "message": "$P2$ ಅನ್ನು ಸಂಗ್ರಹಿಸಿರುವಂತೆ Chrome ಇನ್ನು ಸ್ವೀಕರಿಸುವುದಿಲ್ಲ, ಆದ್ದರಿಂದ ಒಮ್ಮೆ ಬದಲಾಯಿಸಿದರೆ ಮರಳಿ ಇಡಲಾಗದು. ಇದಕ್ಕೆ ರದ್ದುಮಾಡುವ ಆಯ್ಕೆಯಿಲ್ಲದೆ ಮುಂದುವರಿಸಬೇಕೆ?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_replace_other": {
+    "message": "$P2$ ಅನ್ನು ಸಂಗ್ರಹಿಸಿರುವಂತೆ Chrome ಇನ್ನು ಸ್ವೀಕರಿಸುವುದಿಲ್ಲ, ಆದ್ದರಿಂದ ಒಮ್ಮೆ ಬದಲಾಯಿಸಿದರೆ ಮರಳಿ ಇಡಲಾಗದು. ಇವಕ್ಕೆ ರದ್ದುಮಾಡುವ ಆಯ್ಕೆಯಿಲ್ಲದೆ ಮುಂದುವರಿಸಬೇಕೆ?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_too_large_to_undo": {
+    "message": "ಈ ಬದಲಾವಣೆ ರದ್ದುಮಾಡುವ ಪ್ರತಿಯನ್ನು ಇಡಲಾಗದಷ್ಟು ಹೆಚ್ಚು ಡೇಟಾವನ್ನು ($P1$ KB) ಮುಟ್ಟುತ್ತದೆ. ರದ್ದುಮಾಡುವ ಆಯ್ಕೆಯಿಲ್ಲದೆ ಮುಂದುವರಿಸಬೇಕೆ?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_duplicate_in_file": {
+    "message": "ಫೈಲ್‌ನಲ್ಲಿ ಅದೇ ಡೊಮೇನ್ ಮತ್ತು ಪಾತ್‌ಗೆ \"$P1$\" ಎರಡು ಬಾರಿ ಇದೆ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_undo_expired": {
+    "message": "ರದ್ದುಮಾಡಲು ಏನೂ ಇಲ್ಲ — ರದ್ದುಮಾಡುವಿಕೆ 10 ನಿಮಿಷ ಮಾತ್ರ ಇರುತ್ತದೆ."
+  },
+  "err_undo_conflict": {
+    "message": "\"$P2$\" ನಂತರ $P1$ ಬದಲಾಗಿದೆ. ಈಗ ರದ್ದುಮಾಡಿದರೆ ಹೊಸ ಮೌಲ್ಯ ಅಳಿಸಿಹೋಗುತ್ತದೆ. ಆದರೂ ರದ್ದುಮಾಡಬೇಕೆ?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_incomplete": {
+    "message": "ಅಪೂರ್ಣ: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_added": {
+    "message": "\"$P1$\" ಸೇರಿಸಲಾಯಿತು",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_edited": {
+    "message": "\"$P1$\" ಎಡಿಟ್ ಮಾಡಲಾಯಿತು",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted": {
+    "message": "\"$P1$\" ಅಳಿಸಲಾಯಿತು",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_expired": {
+    "message": "\"$P1$\" ಅಳಿಸಲಾಯಿತು (ಅವಧಿ ಹಿಂದೆಯೇ ಮುಗಿದಿತ್ತು)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_one": {
+    "message": "$P1$ ಕುಕೀ ಅಳಿಸಲಾಯಿತು",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_other": {
+    "message": "$P1$ ಕುಕೀಗಳನ್ನು ಅಳಿಸಲಾಯಿತು",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_one": {
+    "message": "$P1$ ಕುಕೀ ಆಮದು ಮಾಡಲಾಯಿತು",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_other": {
+    "message": "$P1$ ಕುಕೀಗಳನ್ನು ಆಮದು ಮಾಡಲಾಯಿತು",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_undid": {
+    "message": "ರದ್ದುಮಾಡಲಾಯಿತು: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_saved": {
+    "message": "\"$P1$\" ಉಳಿಸಲಾಯಿತು",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_draft": {
+    "message": "ಕುಕೀ ಹೆಸರು, ಮೌಲ್ಯ, ಡೊಮೇನ್ ಮತ್ತು ಪಾತ್ ಇರುವ ಆಬ್ಜೆಕ್ಟ್ ಆಗಿರಬೇಕು."
+  },
+  "v_name_type": {
+    "message": "ಕುಕೀ ಹೆಸರು ಪಠ್ಯವಾಗಿರಬೇಕು."
+  },
+  "v_value_type": {
+    "message": "ಕುಕೀ ಮೌಲ್ಯ ಪಠ್ಯವಾಗಿರಬೇಕು."
+  },
+  "v_domain_type": {
+    "message": "ಡೊಮೇನ್ ಪಠ್ಯವಾಗಿರಬೇಕು."
+  },
+  "v_path_type": {
+    "message": "ಪಾತ್ ಪಠ್ಯವಾಗಿರಬೇಕು."
+  },
+  "v_flag_type": {
+    "message": "$P1$ true ಅಥವಾ false ಆಗಿರಬೇಕು.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_samesite": {
+    "message": "SameSite ಇವುಗಳಲ್ಲಿ ಒಂದಾಗಿರಬೇಕು: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_name_control": {
+    "message": "ಹೆಸರಿನಲ್ಲಿ ನಿಯಂತ್ರಣ ಅಕ್ಷರಗಳಿವೆ (ಹೊಸ ಸಾಲು ಅಥವಾ ಟ್ಯಾಬ್‌ನಂತೆ), ಕುಕೀಗಳಲ್ಲಿ ಇವನ್ನು ಇಡಲಾಗದು."
+  },
+  "v_name_semicolon": {
+    "message": "ಹೆಸರಿನಲ್ಲಿ \";\" ಇದೆ, ಇದು ಕುಕೀಯನ್ನು ಬೇಗನೆ ಮುಗಿಸಿಬಿಡುತ್ತದೆ."
+  },
+  "v_name_equals": {
+    "message": "ಹೆಸರಿನಲ್ಲಿ \"=\" ಇದೆ, ಇದು ಕುಕೀಯಲ್ಲಿ ಹೆಸರನ್ನು ಮೌಲ್ಯದಿಂದ ಬೇರ್ಪಡಿಸುತ್ತದೆ."
+  },
+  "v_value_control": {
+    "message": "ಮೌಲ್ಯದಲ್ಲಿ ನಿಯಂತ್ರಣ ಅಕ್ಷರಗಳಿವೆ (ಹೊಸ ಸಾಲು ಅಥವಾ ಟ್ಯಾಬ್‌ನಂತೆ), ಕುಕೀಗಳಲ್ಲಿ ಇವನ್ನು ಇಡಲಾಗದು."
+  },
+  "v_value_semicolon": {
+    "message": "ಮೌಲ್ಯದಲ್ಲಿ \";\" ಇದೆ, ಇದು ಕುಕೀಯನ್ನು ಬೇಗನೆ ಮುಗಿಸಿಬಿಡುತ್ತದೆ. ಅದನ್ನು ಎನ್‌ಕೋಡ್ ಮಾಡಿ (ಉದಾಹರಣೆಗೆ encodeURIComponent ಮೂಲಕ)."
+  },
+  "v_empty_cookie": {
+    "message": "ಕುಕೀಗೆ ಹೆಸರು ಅಥವಾ ಮೌಲ್ಯ ಬೇಕು; ಎರಡೂ ಖಾಲಿಯಾಗಿವೆ."
+  },
+  "v_empty_name": {
+    "message": "ಈ ಕುಕೀಯ ಹೆಸರು ಖಾಲಿಯಾಗಿದೆ. ಕೆಲವು ಸೈಟ್‌ಗಳು ಮತ್ತು ಟೂಲ್‌ಗಳು ಹೆಸರಿಲ್ಲದ ಕುಕೀಗಳನ್ನು ಸರಿಯಾಗಿ ನಿಭಾಯಿಸುವುದಿಲ್ಲ."
+  },
+  "v_too_large": {
+    "message": "ಹೆಸರು ಮತ್ತು ಮೌಲ್ಯ ಸೇರಿ $P1$ ಬೈಟ್‌ಗಳು (UTF-8); Chrome ಗರಿಷ್ಠ $P2$ ಅನುಮತಿಸುತ್ತದೆ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "v_path_slash": {
+    "message": "ಪಾತ್ \"/\" ನಿಂದ ಪ್ರಾರಂಭವಾಗಬೇಕು."
+  },
+  "v_path_too_long": {
+    "message": "ಪಾತ್ $P1$ ಬೈಟ್‌ಗಳಿಗಿಂತ ಉದ್ದವಾಗಿದೆ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_path_chars": {
+    "message": "ಪಾತ್‌ನಲ್ಲಿ ನಿಯಂತ್ರಣ ಅಕ್ಷರಗಳು ಅಥವಾ \";\" ಇವೆ, ಕುಕೀಗಳಲ್ಲಿ ಇವನ್ನು ಇಡಲಾಗದು."
+  },
+  "v_domain_empty": {
+    "message": "ಡೊಮೇನ್ ಖಾಲಿಯಾಗಿದೆ. ಕುಕೀ ಸೇರಿದ ಸೈಟ್ ಅನ್ನು ನಮೂದಿಸಿ, ಉದಾಹರಣೆಗೆ example.com."
+  },
+  "v_domain_too_long": {
+    "message": "ಡೊಮೇನ್ $P1$ ಬೈಟ್‌ಗಳಿಗಿಂತ ಉದ್ದವಾಗಿದೆ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_domain_invalid": {
+    "message": "ಡೊಮೇನ್ ಮಾನ್ಯ ಹೋಸ್ಟ್ ಹೆಸರಲ್ಲ. ಚುಕ್ಕೆಗಳಿಂದ ಬೇರ್ಪಡಿಸಿದ ಅಕ್ಷರಗಳು, ಅಂಕೆಗಳು ಮತ್ತು ಹೈಫನ್‌ಗಳನ್ನು ಬಳಸಿ (ಅಂತರರಾಷ್ಟ್ರೀಯ ಹೆಸರುಗಳು punycode ನಲ್ಲಿರಬೇಕು, xn--... ನಂತೆ)."
+  },
+  "v_domain_leading_dot": {
+    "message": "ಹೋಸ್ಟ್-ಮಾತ್ರ ಕುಕೀಯ ಡೊಮೇನ್‌ನ ಆರಂಭದಲ್ಲಿ ಚುಕ್ಕೆ ಇರಬಾರದು; ಚುಕ್ಕೆ ಎಂದರೆ ಕುಕೀ ಉಪಡೊಮೇನ್‌ಗಳಿಗೂ ಅನ್ವಯಿಸುತ್ತದೆ."
+  },
+  "v_domain_public_suffix": {
+    "message": "\"$P1$\" ಒಂದು ಸಾರ್ವಜನಿಕ ಪ್ರತ್ಯಯ (.com ಅಥವಾ .co.uk ನಂತಹ ರಿಜಿಸ್ಟ್ರಿ-ನಿಯಂತ್ರಿತ ಡೊಮೇನ್), ಆದ್ದರಿಂದ ಅದರ ಎಲ್ಲದಕ್ಕೂ ಅನ್ವಯಿಸುವ ಕುಕೀಗಳನ್ನು ಬ್ರೌಸರ್‌ಗಳು ತಿರಸ್ಕರಿಸುತ್ತವೆ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_samesite_none_insecure": {
+    "message": "SameSite=None ಕುಕೀಗಳು Secure ಆಗಿರಬೇಕು — ಇಲ್ಲದಿದ್ದರೆ Chrome ತಿರಸ್ಕರಿಸುತ್ತದೆ. Secure ಆನ್ ಮಾಡಿ ಅಥವಾ ಬೇರೆ SameSite ಆರಿಸಿ."
+  },
+  "v_partitioned_insecure": {
+    "message": "ಪಾರ್ಟಿಷನ್ಡ್ ಕುಕೀಗಳು Secure ಆಗಿರಬೇಕು — ಇಲ್ಲದಿದ್ದರೆ Chrome ತಿರಸ್ಕರಿಸುತ್ತದೆ. Secure ಆನ್ ಮಾಡಿ ಅಥವಾ ಪಾರ್ಟಿಷನ್ ತೆಗೆಯಿರಿ."
+  },
+  "v_prefix_secure": {
+    "message": "\"$P1$...\" ಹೆಸರಿನ ಕುಕೀಗಳು Secure ಆಗಿರಬೇಕು. Secure ಆನ್ ಮಾಡಿ ಅಥವಾ ಕುಕೀಯ ಹೆಸರು ಬದಲಾಯಿಸಿ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_host_prefix_domain": {
+    "message": "\"__Host-...\" ಹೆಸರಿನ ಕುಕೀಗಳು ಹೋಸ್ಟ್-ಮಾತ್ರ ಆಗಿರಬೇಕು (Domain ಗುಣಲಕ್ಷಣವಿಲ್ಲ, ಆದ್ದರಿಂದ ಉಪಡೊಮೇನ್ ಹಂಚಿಕೆಯಿಲ್ಲ). ಹೋಸ್ಟ್-ಮಾತ್ರ ಆನ್ ಮಾಡಿ ಅಥವಾ ಕುಕೀಯ ಹೆಸರು ಬದಲಾಯಿಸಿ."
+  },
+  "v_host_prefix_path": {
+    "message": "\"__Host-...\" ಹೆಸರಿನ ಕುಕೀಗಳ ಪಾತ್ \"/\" ಆಗಿರಬೇಕು."
+  },
+  "v_bad_expiration": {
+    "message": "ಅವಧಿ ಮುಕ್ತಾಯ 1970 ರಿಂದ ಲೆಕ್ಕಿಸಿದ ಸೀಮಿತ ಸೆಕೆಂಡ್‌ಗಳ ಸಂಖ್ಯೆಯಾಗಿರಬೇಕು."
+  },
+  "v_expired_deletes": {
+    "message": "ಹಿಂದಿನ ಅವಧಿ ಮುಕ್ತಾಯದೊಂದಿಗೆ ಉಳಿಸಿದರೆ ಈ ಕುಕೀ ಅಳಿಸಲ್ಪಡುತ್ತದೆ."
+  },
+  "v_clamped": {
+    "message": "Chrome ಕುಕೀಯ ಜೀವಿತಾವಧಿಯನ್ನು $P1$ ದಿನಗಳಿಗೆ ಮಿತಿಗೊಳಿಸುತ್ತದೆ; ಅದಕ್ಕಿಂತ ನಂತರದ ಅವಧಿ ಉಳಿಸುವಾಗ ಕಡಿಮೆ ಮಾಡಲಾಗುತ್ತದೆ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_expiration_missing": {
+    "message": "ಸೆಷನ್ ಅಲ್ಲದ ಕುಕೀಗೆ ಅವಧಿ ಮುಕ್ತಾಯ ದಿನಾಂಕ ಬೇಕು. ಒಂದನ್ನು ಆರಿಸಿ ಅಥವಾ ಕುಕೀಯನ್ನು ಸೆಷನ್ ಕುಕೀ ಎಂದು ಗುರುತಿಸಿ."
+  },
+  "v_partition_type": {
+    "message": "ಪಾರ್ಟಿಷನ್ ಕೀ topLevelSite ಇರುವ ಆಬ್ಜೆಕ್ಟ್ ಆಗಿರಬೇಕು."
+  },
+  "v_partition_site_type": {
+    "message": "ಪಾರ್ಟಿಷನ್‌ನ ಟಾಪ್-ಲೆವೆಲ್ ಸೈಟ್ https://example.com ನಂತಹ ಪಠ್ಯವಾಗಿರಬೇಕು."
+  },
+  "v_partition_site_form": {
+    "message": "ಪಾರ್ಟಿಷನ್‌ನ ಟಾಪ್-ಲೆವೆಲ್ ಸೈಟ್ https://example.com ನಂತೆ ಕಾಣಬೇಕು (https, ಪಾತ್ ಅಥವಾ ಪೋರ್ಟ್ ಇಲ್ಲದೆ)."
+  },
+  "v_partition_flag": {
+    "message": "ಪಾರ್ಟಿಷನ್‌ನ hasCrossSiteAncestor true ಅಥವಾ false ಆಗಿರಬೇಕು."
+  },
+  "v_partition_cross_site": {
+    "message": "ಕುಕೀಯ ಡೊಮೇನ್ $P1$ ರ ಅದೇ ಸೈಟ್‌ನಲ್ಲಿಲ್ಲ, ಆದ್ದರಿಂದ ಇದಕ್ಕೆ hasCrossSiteAncestor true ಆಗಿರಬೇಕೆಂದು Chrome ಬಯಸುತ್ತದೆ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_other_site": {
+    "message": "ಈ ಕುಕೀಯ ಡೊಮೇನ್ ($P1$) ಪ್ರಸ್ತುತ ಸೈಟ್‌ನ ($P2$) ಹೊರಗಿದೆ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_entry": {
+    "message": "ನಮೂದು $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_entry_named": {
+    "message": "ನಮೂದು $P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_bad_samesite": {
+    "message": "$P1$: sameSite no_restriction, lax, strict, unspecified ಇವುಗಳಲ್ಲಿ ಒಂದಲ್ಲ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bool": {
+    "message": "$P1$: \"$P2$\" true ಅಥವಾ false ಆಗಿರಬೇಕು.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_text": {
+    "message": "$P1$: \"$P2$\" ಪಠ್ಯವಾಗಿರಬೇಕು.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_not_object": {
+    "message": "$P1$ ಕುಕೀ ಆಬ್ಜೆಕ್ಟ್ ಅಲ್ಲ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_expiration_type": {
+    "message": "$P1$: \"expirationDate\" ಸಂಖ್ಯೆಯಾಗಿರಬೇಕು.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_key": {
+    "message": "$P1$: partitionKey ಪಠ್ಯ topLevelSite ಇರುವ ಆಬ್ಜೆಕ್ಟ್ ಆಗಿರಬೇಕು.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_flag": {
+    "message": "$P1$: partitionKey.hasCrossSiteAncestor true ಅಥವಾ false ಆಗಿರಬೇಕು.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_line": {
+    "message": "ಸಾಲು $P1$ cookies.txt ನಮೂದು ಅಲ್ಲ (ಟ್ಯಾಬ್‌ನಿಂದ ಬೇರ್ಪಡಿಸಿದ 7 ಕ್ಷೇತ್ರಗಳನ್ನು ನಿರೀಕ್ಷಿಸಲಾಗಿತ್ತು, $P2$ ಸಿಕ್ಕಿವೆ).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_line_flag_subdomains": {
+    "message": "ಸಾಲು $P1$: ಉಪಡೊಮೇನ್ ಫ್ಲ್ಯಾಗ್ TRUE ಅಥವಾ FALSE ಆಗಿರಬೇಕು.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_flag_secure": {
+    "message": "ಸಾಲು $P1$: secure ಫ್ಲ್ಯಾಗ್ TRUE ಅಥವಾ FALSE ಆಗಿರಬೇಕು.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_expiry": {
+    "message": "ಸಾಲು $P1$: ಅವಧಿ ಮುಕ್ತಾಯ ಪೂರ್ಣ ಸಂಖ್ಯೆಯ ಸೆಕೆಂಡ್‌ಗಳಾಗಿರಬೇಕು.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_not_text": {
+    "message": "ಫೈಲ್ ಅನ್ನು ಪಠ್ಯವಾಗಿ ಓದಲಾಗಲಿಲ್ಲ."
+  },
+  "io_too_large": {
+    "message": "ಫೈಲ್ $P1$-ಬೈಟ್ ಆಮದು ಮಿತಿಗಿಂತ ದೊಡ್ಡದಾಗಿದೆ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_json": {
+    "message": "ಫೈಲ್ JSON ನಂತೆ ಕಾಣುತ್ತದೆ ಆದರೆ ಪಾರ್ಸ್ ಮಾಡಲಾಗಲಿಲ್ಲ."
+  },
+  "io_bad_version": {
+    "message": "ಈ CookieDesk ಫೈಲ್‌ನ ಆವೃತ್ತಿಗೆ ಬೆಂಬಲವಿಲ್ಲ."
+  },
+  "io_no_cookie_list": {
+    "message": "CookieDesk ಫೈಲ್‌ನಲ್ಲಿ \"cookies\" ಪಟ್ಟಿ ಇಲ್ಲ."
+  },
+  "io_unknown_format": {
+    "message": "ಈ JSON CookieDesk ರಫ್ತೂ ಅಲ್ಲ, ಕುಕೀಗಳ ಪಟ್ಟಿಯೂ ಅಲ್ಲ."
+  },
+  "io_no_cookies": {
+    "message": "ಫೈಲ್‌ನಲ್ಲಿ ಕುಕೀಗಳಿಲ್ಲ."
+  },
+  "io_too_many": {
+    "message": "ಫೈಲ್‌ನಲ್ಲಿ $P1$ ಕುಕೀಗಳಿವೆ; ಮಿತಿ $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_issue": {
+    "message": "$P1$: $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_duplicate": {
+    "message": "$P1$: ಇನ್ನೊಂದು ನಮೂದಿಗೂ ಅದೇ ಹೆಸರು, ಡೊಮೇನ್, ಪಾತ್ ಮತ್ತು ಪಾರ್ಟಿಷನ್ ಇವೆ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "when": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "when_passed": {
+    "message": "ಈಗಾಗಲೇ ಕಳೆದುಹೋಗಿದೆ"
+  },
+  "when_under_day": {
+    "message": "ಒಂದು ದಿನದೊಳಗೆ"
+  },
+  "explain_third_party": {
+    "message": "$P2$ ಗಿಂತ ಬೇರೆ ಸೈಟ್ ಆದ $P1$ ಹೊಂದಿಸಿದೆ: ಮೂರನೇ ವ್ಯಕ್ತಿಯ ಕುಕೀ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_third_party_partitioned": {
+    "message": "$P2$ ಗಿಂತ ಬೇರೆ ಸೈಟ್ ಆದ $P1$ ಹೊಂದಿಸಿದೆ: ಮೂರನೇ ವ್ಯಕ್ತಿಯ ಕುಕೀ, $P2$ ರ ಪಾರ್ಟಿಷನ್‌ನಲ್ಲಿ ಇಡಲಾಗಿದೆ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_host_prefix": {
+    "message": "__Host- ಪೂರ್ವಪ್ರತ್ಯಯದಿಂದ Chrome Secure, Domain ಗುಣಲಕ್ಷಣ ಇಲ್ಲದಿರುವುದು ಮತ್ತು Path=/ ಕಡ್ಡಾಯಗೊಳಿಸುತ್ತದೆ, ಆದ್ದರಿಂದ ಯಾವ ಉಪಡೊಮೇನ್ ಕೂಡ ಇದನ್ನು ಹೊಂದಿಸಲಾರದು ಅಥವಾ ಬದಲಾಯಿಸಲಾರದು."
+  },
+  "explain_secure_prefix": {
+    "message": "__Secure- ಪೂರ್ವಪ್ರತ್ಯಯದಿಂದ Chrome ಇದನ್ನು Secure ಫ್ಲ್ಯಾಗ್‌ನೊಂದಿಗೆ ಮಾತ್ರ ಸ್ವೀಕರಿಸುತ್ತದೆ."
+  },
+  "explain_scope_host": {
+    "message": "$P1$ ಗೆ ಮಾತ್ರ ಕಳುಹಿಸಲಾಗುತ್ತದೆ, ಅದರ ಉಪಡೊಮೇನ್‌ಗಳಿಗೆ ಅಲ್ಲ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_scope_domain": {
+    "message": "$P1$ ಮತ್ತು ಅದರ ಪ್ರತಿ ಉಪಡೊಮೇನ್‌ಗೆ (www.$P1$ ನಂತೆ) ಕಳುಹಿಸಲಾಗುತ್ತದೆ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_path_all": {
+    "message": "ಆ ಹೋಸ್ಟ್‌ನ ಪ್ರತಿ ಪಾತ್‌ನ ವಿನಂತಿಗಳೊಂದಿಗೆ ಕಳುಹಿಸಲಾಗುತ್ತದೆ."
+  },
+  "explain_path_under": {
+    "message": "$P1$ ಅಡಿಯ ಪಾತ್‌ಗಳ ವಿನಂತಿಗಳೊಂದಿಗೆ ಮಾತ್ರ ಕಳುಹಿಸಲಾಗುತ್ತದೆ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_secure": {
+    "message": "Secure: HTTPS ಮೂಲಕ ಮಾತ್ರ ಕಳುಹಿಸಲಾಗುತ್ತದೆ."
+  },
+  "explain_not_secure": {
+    "message": "Secure ಅಲ್ಲ: ಸಾಮಾನ್ಯ HTTP ಮೂಲಕವೂ ಕಳುಹಿಸಲಾಗುತ್ತದೆ, ಅಲ್ಲಿ ನೆಟ್‌ವರ್ಕ್‌ನಲ್ಲಿರುವ ಯಾರಾದರೂ ಇದನ್ನು ಓದಬಹುದು."
+  },
+  "explain_httponly": {
+    "message": "HttpOnly: ಪುಟದ JavaScript ಗೆ ಕಾಣಿಸುವುದಿಲ್ಲ (document.cookie ಇದನ್ನು ಓದಲಾರದು), ಇದು ಇಂಜೆಕ್ಟ್ ಮಾಡಿದ ಸ್ಕ್ರಿಪ್ಟ್‌ಗಳಿಂದ ಇದನ್ನು ದೂರವಿಡುತ್ತದೆ."
+  },
+  "explain_script_readable": {
+    "message": "ಪುಟದಲ್ಲಿ ಚಲಿಸುವ ಯಾವುದೇ ಸ್ಕ್ರಿಪ್ಟ್ ಇದನ್ನು ಓದಬಹುದು ಮತ್ತು ಬದಲಾಯಿಸಬಹುದು."
+  },
+  "explain_samesite_none": {
+    "message": "SameSite=None: ಕ್ರಾಸ್-ಸೈಟ್ ವಿನಂತಿಗಳೊಂದಿಗೂ (ಎಂಬೆಡ್ ಮಾಡಿದ ಫ್ರೇಮ್‌ಗಳು, ಚಿತ್ರಗಳು, ಇತರ ಸೈಟ್‌ಗಳ ವಿನಂತಿಗಳು) ಕಳುಹಿಸಬಹುದು, Chrome ಮೂರನೇ ವ್ಯಕ್ತಿಯ ಕುಕೀಗಳನ್ನು ಅನುಮತಿಸುವಲ್ಲಿ (ಇನ್‌ಕಾಗ್ನಿಟೊ ಅವನ್ನು ಡಿಫಾಲ್ಟ್ ಆಗಿ ತಡೆಯುತ್ತದೆ). ಅದಕ್ಕಾಗಿಯೇ ಇದು Secure ಆಗಿರಬೇಕು."
+  },
+  "explain_samesite_lax": {
+    "message": "SameSite=Lax: ನೀವು ಸೈಟ್‌ಗೆ ಹೋದಾಗ ಕಳುಹಿಸಲಾಗುತ್ತದೆ, ಬೇರೆ ಸೈಟ್‌ನ ಲಿಂಕ್‌ನಿಂದ ಬಂದರೂ ಸರಿ, ಆದರೆ ಇತರ ಸೈಟ್‌ಗಳ ಪುಟಗಳು ಹಿನ್ನೆಲೆಯಲ್ಲಿ ಮಾಡುವ ವಿನಂತಿಗಳೊಂದಿಗೆ ಅಲ್ಲ."
+  },
+  "explain_samesite_strict": {
+    "message": "SameSite=Strict: ನೀವು ಈಗಾಗಲೇ ಅದೇ ಸೈಟ್‌ನಲ್ಲಿರುವಾಗ ಮಾತ್ರ ಕಳುಹಿಸಲಾಗುತ್ತದೆ. ಬೇರೆ ಸೈಟ್‌ನ ಲಿಂಕ್‌ನಿಂದ ಬಂದಾಗ, ಮೊದಲ ವಿನಂತಿ ಇದಿಲ್ಲದೆ ಹೋಗುತ್ತದೆ."
+  },
+  "explain_samesite_unset": {
+    "message": "SameSite ಗುಣಲಕ್ಷಣವಿಲ್ಲ: Chrome ಇದನ್ನು Lax ಎಂದು ಪರಿಗಣಿಸುತ್ತದೆ."
+  },
+  "explain_session": {
+    "message": "ಸೆಷನ್ ಕುಕೀ: ಬ್ರೌಸರ್ ಮುಚ್ಚಿದಾಗ ಅಳಿಸಲಾಗುತ್ತದೆ (ಪ್ರಾರಂಭದಲ್ಲಿ Chrome ನಿಮ್ಮ ಹಿಂದಿನ ಸೆಷನ್ ಅನ್ನು ಮರುಸ್ಥಾಪಿಸಿದರೆ ಹೊರತು)."
+  },
+  "explain_expires": {
+    "message": "ಅವಧಿ ಮುಕ್ತಾಯ: $P1$. ಕುಕೀಯನ್ನು ಕೊನೆಯ ಬಾರಿ ಹೊಂದಿಸಿದ ಸಮಯದಿಂದ ಯಾವುದೇ ಅವಧಿಯನ್ನು Chrome 400 ದಿನಗಳಿಗೆ ಮಿತಿಗೊಳಿಸುತ್ತದೆ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition": {
+    "message": "ಪಾರ್ಟಿಷನ್ಡ್ (CHIPS): ಪ್ರತಿ ಟಾಪ್-ಲೆವೆಲ್ ಸೈಟ್‌ಗೆ ಪ್ರತ್ಯೇಕವಾಗಿ ಸಂಗ್ರಹಿಸಲಾಗುತ್ತದೆ. ವಿಳಾಸ ಪಟ್ಟಿಯಲ್ಲಿ $P1$ ಇರುವಾಗ ಮಾತ್ರ ಈ ಪ್ರತಿಯನ್ನು ಕಳುಹಿಸಲಾಗುತ್ತದೆ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition_cross": {
+    "message": "ಇದು ಆ ಪಾರ್ಟಿಷನ್‌ನ ಕ್ರಾಸ್-ಸೈಟ್ ಭಾಗದಲ್ಲಿದೆ (ಪುಟ ಮತ್ತು ಈ ಕುಕೀಯ ಸೈಟ್ ನಡುವೆ ಇನ್ನೊಂದು ಸೈಟ್ ಇರುವಲ್ಲಿ ಬಳಸಲಾಗುತ್ತದೆ), ಅದೇ-ಸೈಟ್ ಭಾಗದಿಂದ ಪ್ರತ್ಯೇಕವಾಗಿ ಇಡಲಾಗುತ್ತದೆ."
+  },
+  "explain_partition_same": {
+    "message": "ಇದು ಆ ಪಾರ್ಟಿಷನ್‌ನ ಅದೇ-ಸೈಟ್ ಭಾಗದಲ್ಲಿದೆ, ಕ್ರಾಸ್-ಸೈಟ್ ಭಾಗದಿಂದ ಪ್ರತ್ಯೇಕವಾಗಿ ಇಡಲಾಗುತ್ತದೆ."
+  },
+  "explain_partition_other": {
+    "message": "ಬೇರೆ ಸೈಟ್‌ನ ಅಡಿಯಲ್ಲಿರುವ ಅದೇ ಕುಕೀ ಹೆಸರು ಬೇರೆಯೇ ಕುಕೀ."
+  },
+  "explain_jwt": {
+    "message": "ಈ ಮೌಲ್ಯ JSON Web Token ನಂತೆ ಕಾಣುತ್ತದೆ."
+  },
+  "explain_jwt_exp": {
+    "message": "ಈ ಮೌಲ್ಯ JSON Web Token ನಂತೆ ಕಾಣುತ್ತದೆ; ಟೋಕನ್ ಸ್ವತಃ $P1$ ರಂದು ಅವಧಿ ಮುಗಿಯುತ್ತದೆ ಎಂದು ಹೇಳುತ್ತದೆ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_size": {
+    "message": "ಹೆಸರು ಮತ್ತು ಮೌಲ್ಯ ಸೇರಿ Chrome ಅನುಮತಿಸುವ 4096 ಬೈಟ್‌ಗಳಲ್ಲಿ $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

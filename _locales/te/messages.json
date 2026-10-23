@@ -1,0 +1,2215 @@
+{
+  "extension_name": {
+    "message": "కుకీ ఎడిటర్: కుకీలను చూడండి, మార్చండి, తొలగించండి | CookieDesk"
+  },
+  "extension_description": {
+    "message": "ప్రతి సైట్ కుకీలను చూడండి, మార్చండి, జోడించండి, తొలగించండి. శోధన, ఇంపోర్ట్/ఎక్స్‌పోర్ట్, పార్టిషన్డ్ కుకీలు. ప్రకటనలు లేవు."
+  },
+  "btn_ok": {
+    "message": "సరే"
+  },
+  "btn_cancel": {
+    "message": "రద్దు చేయి"
+  },
+  "btn_close": {
+    "message": "మూసివేయి"
+  },
+  "btn_delete": {
+    "message": "తొలగించు"
+  },
+  "btn_copy": {
+    "message": "కాపీ చేయి"
+  },
+  "btn_save": {
+    "message": "సేవ్ చేయి"
+  },
+  "btn_export": {
+    "message": "ఎక్స్‌పోర్ట్ చేయి"
+  },
+  "btn_later": {
+    "message": "తర్వాత"
+  },
+  "dismiss": {
+    "message": "తీసివేయి"
+  },
+  "back": {
+    "message": "వెనుకకు"
+  },
+  "back_esc": {
+    "message": "వెనుకకు (Esc)"
+  },
+  "back_to_list": {
+    "message": "జాబితాకు తిరిగి వెళ్లు"
+  },
+  "title_count": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "empty_name": {
+    "message": "(పేరు లేదు)"
+  },
+  "empty_value": {
+    "message": "(విలువ లేదు)"
+  },
+  "empty_short": {
+    "message": "(ఖాళీ)"
+  },
+  "names_more": {
+    "message": "$P1$ మరియు మరో $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "done": {
+    "message": "పూర్తయింది"
+  },
+  "undo": {
+    "message": "చర్య రద్దు"
+  },
+  "undo_nothing": {
+    "message": "రద్దు చేయడానికి ఏమీ లేదు"
+  },
+  "undo_entry": {
+    "message": "రద్దు: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_interrupted": {
+    "message": "రద్దు ఆగిపోయింది: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "redo_entry": {
+    "message": "మళ్లీ చేయి: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "support_title": {
+    "message": "Ko-fiలో CookieDeskకు మద్దతివ్వండి"
+  },
+  "supporter_title": {
+    "message": "CookieDeskకు మద్దతిచ్చినందుకు ధన్యవాదాలు!"
+  },
+  "add_cookie": {
+    "message": "కుకీని జోడించు"
+  },
+  "add_cookie_title": {
+    "message": "కుకీని జోడించు (n)"
+  },
+  "more_actions": {
+    "message": "మరిన్ని చర్యలు"
+  },
+  "menu_group_transfer": {
+    "message": "ఎక్స్‌పోర్ట్ మరియు ఇంపోర్ట్"
+  },
+  "menu_group_sets": {
+    "message": "కుకీ సెట్‌లు"
+  },
+  "export_json_title": {
+    "message": "JSONగా ఎక్స్‌పోర్ట్ చేయి"
+  },
+  "export_txt_title": {
+    "message": "Netscape cookies.txtగా ఎక్స్‌పోర్ట్ చేయి"
+  },
+  "tile_snippet": {
+    "message": "స్నిప్పెట్"
+  },
+  "tile_snippet_title": {
+    "message": "document.cookie స్నిప్పెట్‌గా కాపీ చేయి"
+  },
+  "tile_import": {
+    "message": "ఇంపోర్ట్"
+  },
+  "tile_import_title": {
+    "message": "JSON లేదా cookies.txt ఇంపోర్ట్ చేయి"
+  },
+  "tile_save_set": {
+    "message": "సెట్ సేవ్"
+  },
+  "tile_save_set_title": {
+    "message": "ఈ కుకీలను పేరున్న సెట్ ఫైల్‌గా సేవ్ చేయి"
+  },
+  "tile_restore": {
+    "message": "పునరుద్ధరించు"
+  },
+  "tile_restore_title": {
+    "message": "సేవ్ చేసిన సెట్‌ను పునరుద్ధరించు (ముందు ప్రివ్యూ)"
+  },
+  "tile_compare": {
+    "message": "పోల్చు"
+  },
+  "tile_compare_title": {
+    "message": "సేవ్ చేసిన సెట్‌ను ఇప్పటి స్థితితో, లేదా రెండు సెట్‌లను పోల్చు"
+  },
+  "tile_copy_to": {
+    "message": "ఇక్కడికి కాపీ చేయి…"
+  },
+  "tile_copy_to_title": {
+    "message": "చూపిన కుకీలను మరో స్టోర్‌కు కాపీ చేయి (సాధారణ ↔ ఇన్‌కాగ్నిటో)"
+  },
+  "menu_bulk_delete": {
+    "message": "చూపిన కుకీలను తొలగించు…"
+  },
+  "menu_access": {
+    "message": "యాక్సెస్ మరియు సెట్టింగ్‌లు"
+  },
+  "menu_shortcuts": {
+    "message": "షార్ట్‌కట్‌లు"
+  },
+  "menu_sidepanel": {
+    "message": "సైడ్ ప్యానెల్‌లో తెరువు"
+  },
+  "menu_rate": {
+    "message": "CookieDeskకు రేటింగ్ ఇవ్వండి"
+  },
+  "menu_support": {
+    "message": "Ko-fiలో మద్దతివ్వండి"
+  },
+  "search_placeholder": {
+    "message": "కుకీలను శోధించు"
+  },
+  "search_label": {
+    "message": "పేరు, విలువ లేదా డొమైన్ ద్వారా కుకీలను ఫిల్టర్ చేయి"
+  },
+  "search_title": {
+    "message": "పేరు, విలువ లేదా డొమైన్ ద్వారా ఫిల్టర్ చేయి"
+  },
+  "cookie_store": {
+    "message": "కుకీ స్టోర్"
+  },
+  "cookies_list": {
+    "message": "కుకీలు"
+  },
+  "restricted_page": {
+    "message": "పరిమితం చేసిన పేజీ"
+  },
+  "loading": {
+    "message": "లోడ్ అవుతోంది…"
+  },
+  "state_unknown": {
+    "message": "ఈ ట్యాబ్ కుకీలను చూపడానికి టూల్‌బార్‌లోని CookieDesk బటన్‌ను క్లిక్ చేయండి."
+  },
+  "state_unknown_hint": {
+    "message": "ఆ క్లిక్ తర్వాత మాత్రమే, లేదా మీరు అనుమతించిన సైట్‌ల కోసం మాత్రమే Chrome ట్యాబ్ చిరునామాను షేర్ చేస్తుంది."
+  },
+  "state_error": {
+    "message": "ఏదో తప్పు జరిగింది: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "state_no_access": {
+    "message": "CookieDeskకు ఇంకా $P1$కి యాక్సెస్ లేదు.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "grant_site": {
+    "message": "$P1$లో అనుమతించు",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "chrome_will_ask": {
+    "message": "Chrome అడుగుతుంది:"
+  },
+  "prompt_site": {
+    "message": "అన్ని $P1$ సైట్‌లలో మీ డేటాను చదవండి మరియు మార్చండి",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "prompt_all": {
+    "message": "అన్ని వెబ్‌సైట్‌లలో మీ డేటా మొత్తాన్ని చదవండి మరియు మార్చండి"
+  },
+  "only_this_site": {
+    "message": "ఈ సైట్ కుకీలు మాత్రమే, మరేమీ కాదు."
+  },
+  "allow_all_instead": {
+    "message": "బదులుగా అన్ని సైట్‌లను అనుమతించు"
+  },
+  "restricted_browser": {
+    "message": "ఇది Chrome పేజీ. ఇక్కడి కుకీలను చదవడానికి లేదా మార్చడానికి Chrome ఏ ఎక్స్‌టెన్షన్‌నూ అనుమతించదు."
+  },
+  "restricted_webstore": {
+    "message": "ఇది Chrome Web Store. Chrome అన్ని ఎక్స్‌టెన్షన్‌లను దీని నుండి నిరోధిస్తుంది, కాబట్టి దీని కుకీలను చూపలేము."
+  },
+  "restricted_extension": {
+    "message": "ఇది ఒక ఎక్స్‌టెన్షన్ స్వంత పేజీ. దీని స్టోరేజ్ వెబ్‌సైట్ కుకీలు కాదు, కాబట్టి చూపడానికి ఏమీ లేదు."
+  },
+  "restricted_file": {
+    "message": "ఇది స్థానిక ఫైల్. డిస్క్ నుండి తెరిచిన ఫైళ్లకు కుకీలు ఉండవు."
+  },
+  "restricted_other": {
+    "message": "ఈ పేజీ వెబ్‌సైట్ కాదు (ఉదాహరణకు ఖాళీ లేదా data: పేజీ), కాబట్టి దీనికి కుకీలు లేవు."
+  },
+  "live_just_now": {
+    "message": "ఇప్పుడే: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "note_third_party": {
+    "message": "ఎంబెడ్ చేసిన సైట్‌ల కుకీలు మీరు అనుమతించిన సైట్‌లకు మాత్రమే కనిపిస్తాయి."
+  },
+  "note_no_partitions": {
+    "message": "మీ Chrome వెర్షన్ పార్టిషన్డ్ కుకీలను చూపలేదు, కాబట్టి ఈ జాబితా అసంపూర్ణంగా ఉండవచ్చు."
+  },
+  "empty_no_match": {
+    "message": "“$P1$”కు సరిపోలే కుకీలు లేవు.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "empty_none": {
+    "message": "$P1$కి కుకీలు లేవు.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clear_search": {
+    "message": "శోధనను తీసివేయి"
+  },
+  "change_changed": {
+    "message": "$P1$ మారింది",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_added": {
+    "message": "$P1$ జోడించబడింది",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_removed": {
+    "message": "$P1$ తొలగించబడింది",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_one": {
+    "message": "$P1$ కుకీ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_other": {
+    "message": "$P1$ కుకీలు",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_filtered_one": {
+    "message": "$P1$ కుకీలో $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_filtered_other": {
+    "message": "$P1$ కుకీలలో $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_partitioned": {
+    "message": "$P1$ పార్టిషన్డ్",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "store_default": {
+    "message": "డిఫాల్ట్"
+  },
+  "store_incognito": {
+    "message": "ఇన్‌కాగ్నిటో"
+  },
+  "store_n": {
+    "message": "స్టోర్ $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "session": {
+    "message": "సెషన్"
+  },
+  "expired": {
+    "message": "గడువు ముగిసింది"
+  },
+  "expiry_under_minute": {
+    "message": "ఒక నిమిషం లోపు"
+  },
+  "expiry_on_close": {
+    "message": "బ్రౌజర్ మూసివేసినప్పుడు తొలగించబడుతుంది"
+  },
+  "expires_at": {
+    "message": "గడువు: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "badge_protected": {
+    "message": "రక్షితం: బల్క్ డిలీట్, ఇంపోర్ట్, సెట్ పునరుద్ధరణ దీనిని తాకవు (p)"
+  },
+  "hint_httponly": {
+    "message": "HttpOnly: పేజీ JavaScriptకు కనిపించదు (document.cookie దీన్ని చదవలేదు)"
+  },
+  "hint_secure": {
+    "message": "Secure: HTTPS ద్వారా మాత్రమే పంపబడుతుంది"
+  },
+  "hint_samesite_none": {
+    "message": "SameSite=None: క్రాస్-సైట్ అభ్యర్థనలతో కూడా పంపబడుతుంది"
+  },
+  "hint_samesite_lax": {
+    "message": "SameSite=Lax: టాప్-లెవల్ నావిగేషన్‌లలో పంపబడుతుంది, క్రాస్-సైట్ సబ్‌రిక్వెస్ట్‌లలో కాదు"
+  },
+  "hint_samesite_strict": {
+    "message": "SameSite=Strict: అదే సైట్ అభ్యర్థనలతో మాత్రమే పంపబడుతుంది"
+  },
+  "badge_partitioned": {
+    "message": "పార్టిషన్డ్"
+  },
+  "partitioned_under": {
+    "message": "$P1$ కింద పార్టిషన్డ్",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partition_this_site": {
+    "message": "ఈ సైట్"
+  },
+  "partition_cross_site": {
+    "message": "$P1$, క్రాస్-సైట్ సందర్భం",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "row_protected": {
+    "message": "రక్షితం"
+  },
+  "row_unprotect_title": {
+    "message": "రక్షణ తొలగించు (p)"
+  },
+  "row_protect_title": {
+    "message": "బల్క్ డిలీట్, ఇంపోర్ట్, సెట్ పునరుద్ధరణ నుండి రక్షించు (p)"
+  },
+  "copy_value": {
+    "message": "విలువను కాపీ చేయి"
+  },
+  "copied": {
+    "message": "కాపీ అయింది"
+  },
+  "copy_value_title": {
+    "message": "విలువను కాపీ చేయి (c)"
+  },
+  "row_delete_title": {
+    "message": "తొలగించు (Del) — రద్దు చేయవచ్చు"
+  },
+  "irreversible_title": {
+    "message": "దీన్ని రద్దు చేయలేరు"
+  },
+  "continue_no_undo": {
+    "message": "రద్దు లేకుండా కొనసాగించు"
+  },
+  "undo_anyway_title": {
+    "message": "అయినా రద్దు చేయాలా?"
+  },
+  "undo_anyway": {
+    "message": "అయినా రద్దు చేయి"
+  },
+  "undone": {
+    "message": "రద్దు చేయబడింది: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_skipped": {
+    "message": "కొన్ని కుకీల గడువు ఇప్పటికే ముగిసింది, అందుకే అవి పునరుద్ధరించబడలేదు: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_refused": {
+    "message": "వీటిని ఉన్నట్లుగా Chrome ఇక అంగీకరించదు, అందుకే పునరుద్ధరించబడలేదు: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clipboard_failed": {
+    "message": "కాపీ చేయడం కుదరలేదు: ఇక్కడ క్లిప్‌బోర్డ్ అందుబాటులో లేదు."
+  },
+  "protected_on": {
+    "message": "\"$P1$\" రక్షించబడింది: బల్క్ డిలీట్, ఇంపోర్ట్, సెట్ పునరుద్ధరణ దీనిని తాకవు.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_off": {
+    "message": "\"$P1$\" ఇక రక్షితం కాదు.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protect_limit": {
+    "message": "మీరు గరిష్ఠంగా $P1$ కుకీలను రక్షించవచ్చు. ముందు కొన్నింటి రక్షణ తొలగించండి.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_named": {
+    "message": "\"$P1$\" తొలగించాలా?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_protected_message": {
+    "message": "ఈ కుకీ రక్షితమైనది. అయినా తొలగించాలా? దీన్ని రద్దు చేయవచ్చు."
+  },
+  "nothing_to_delete": {
+    "message": "తొలగించడానికి ఏమీ లేదు"
+  },
+  "all_shown_protected_one": {
+    "message": "చూపిన కుకీ రక్షితమైనది."
+  },
+  "all_shown_protected_other": {
+    "message": "చూపిన మొత్తం $P1$ కుకీలు రక్షితమైనవి.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "no_cookies_shown": {
+    "message": "కుకీలు ఏవీ చూపబడలేదు."
+  },
+  "bulk_title_one": {
+    "message": "$P1$ కుకీని తొలగించాలా?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_title_other": {
+    "message": "$P1$ కుకీలను తొలగించాలా?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_match": {
+    "message": "ఈ కుకీలు $P2$లో \"$P1$\"కు సరిపోలుతున్నాయి. దీన్ని రద్దు చేయవచ్చు.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "bulk_all": {
+    "message": "$P1$కి జాబితా చేసిన ప్రతి కుకీ. దీన్ని రద్దు చేయవచ్చు.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_one": {
+    "message": "$P1$ రక్షిత కుకీ ఉంచబడుతుంది.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_other": {
+    "message": "$P1$ రక్షిత కుకీలు ఉంచబడతాయి.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_one": {
+    "message": "$P1$ కుకీని తొలగించు",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_other": {
+    "message": "$P1$ కుకీలను తొలగించు",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_to": {
+    "message": "ఇక్కడికి కాపీ చేయి"
+  },
+  "copy_to_default_note": {
+    "message": "డిఫాల్ట్ స్టోర్‌కు కాపీ చేసిన కుకీలు ఏ ఇతర కుకీ లాగే డిస్క్‌లో ఉంటాయి, ఈ ఇన్‌కాగ్నిటో సెషన్ ముగిసిన తర్వాత కూడా."
+  },
+  "copy_to_incognito_note": {
+    "message": "ఇన్‌కాగ్నిటో స్టోర్‌కు కాపీ చేసిన కుకీలు ఆ ఇన్‌కాగ్నిటో సెషన్‌తో ముగుస్తాయి."
+  },
+  "copy_title_one": {
+    "message": "$P1$ కుకీని కాపీ చేయి",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_title_other": {
+    "message": "$P1$ కుకీలను కాపీ చేయి",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_from": {
+    "message": "$P1$ స్టోర్ నుండి, ఇక్కడికి:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_replace_note": {
+    "message": "అక్కడ అదే పేరు, డొమైన్, పాత్ ఉన్న కుకీలు భర్తీ చేయబడతాయి, రక్షితమైనవి తప్ప. కాపీని రద్దు చేయవచ్చు."
+  },
+  "label_copied_one": {
+    "message": "$P1$ కుకీని $P2$కు కాపీ చేశారు",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_copied_other": {
+    "message": "$P1$ కుకీలను $P2$కు కాపీ చేశారు",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_kept_one": {
+    "message": "అక్కడి $P1$ రక్షిత కుకీ ఉన్నట్లే వదిలేశారు.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_kept_other": {
+    "message": "అక్కడి $P1$ రక్షిత కుకీలు ఉన్నట్లే వదిలేశారు.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_done_one": {
+    "message": "$P1$ కుకీని $P2$కు కాపీ చేశారు.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_done_other": {
+    "message": "$P1$ కుకీలను $P2$కు కాపీ చేశారు.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_undo_hint": {
+    "message": "ఇక్కడే, లేదా తర్వాత $P1$ స్టోర్ నుండి రద్దు చేయండి.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_nothing": {
+    "message": "$P1$లో ఈ కుకీలు ఇప్పటికే సరిగ్గా అలాగే ఉన్నాయి.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_cant": {
+    "message": "పోల్చలేరు"
+  },
+  "compare_now": {
+    "message": "$P1$ ఇప్పుడు",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_other_site": {
+    "message": "ఈ సెట్ $P2$కు కాదు, $P1$కు సేవ్ చేయబడింది.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "compare_too_many": {
+    "message": "ఇప్పటి స్థితితో పోల్చడానికి ఒక సెట్‌ను, లేదా ఒకదానితో ఒకటి పోల్చడానికి రెండు సెట్‌లను ఎంచుకోండి."
+  },
+  "set_file_too_large": {
+    "message": "$P1$ కుకీ సెట్ కావడానికి చాలా పెద్దది.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_aria": {
+    "message": "కుకీ సెట్‌లను పోల్చు"
+  },
+  "compare_changed_fields": {
+    "message": "మారినవి: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_one": {
+    "message": "తేడాలు లేవు: $P1$ కుకీ ఒకేలా ఉంది.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_other": {
+    "message": "తేడాలు లేవు: $P1$ కుకీలు ఒకేలా ఉన్నాయి.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_summary": {
+    "message": "$P1$ జోడించబడ్డాయి, $P2$ తొలగించబడ్డాయి, $P3$ మారాయి, $P4$ మారలేదు.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      },
+      "p4": {
+        "content": "$4"
+      }
+    }
+  },
+  "diff_added": {
+    "message": "జోడించబడింది"
+  },
+  "diff_removed": {
+    "message": "తొలగించబడింది"
+  },
+  "diff_changed": {
+    "message": "మారింది"
+  },
+  "diff_expiry_only": {
+    "message": "గడువు మాత్రమే మారింది ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "shortcuts_title": {
+    "message": "కీబోర్డ్ షార్ట్‌కట్‌లు"
+  },
+  "key_search": {
+    "message": "శోధన"
+  },
+  "key_move": {
+    "message": "జాబితాలో కదలండి"
+  },
+  "key_first_last": {
+    "message": "మొదటి / చివరి కుకీ"
+  },
+  "key_edit": {
+    "message": "సవరించు"
+  },
+  "key_copy": {
+    "message": "విలువను కాపీ చేయి"
+  },
+  "key_protect": {
+    "message": "రక్షించు / రక్షణ తొలగించు"
+  },
+  "key_delete": {
+    "message": "తొలగించు (రద్దు చేయవచ్చు)"
+  },
+  "key_back": {
+    "message": "వెనుకకు, లేదా శోధనను తీసివేయి"
+  },
+  "key_help": {
+    "message": "ఈ జాబితా"
+  },
+  "import_kept_one": {
+    "message": "$P1$ రక్షిత కుకీ ఉన్నట్లే వదిలేశారు: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_kept_other": {
+    "message": "$P1$ రక్షిత కుకీలు ఉన్నట్లే వదిలేశారు: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_nothing": {
+    "message": "ఇంపోర్ట్ చేయడానికి ఏమీ లేదు: ఫైల్‌లోని ప్రతి కుకీ ఇప్పటికే సరిగ్గా అలాగే సెట్ చేయబడింది."
+  },
+  "imported_one": {
+    "message": "$P1$ కుకీ ఇంపోర్ట్ చేయబడింది.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "imported_other": {
+    "message": "$P1$ కుకీలు ఇంపోర్ట్ చేయబడ్డాయి.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_restored": {
+    "message": "సెట్ \"$P1$\" పునరుద్ధరించబడింది",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restored_one": {
+    "message": "\"$P2$\" పునరుద్ధరించబడింది: $P1$ కుకీ రాయబడింది, $P3$ తొలగించబడ్డాయి.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "restored_other": {
+    "message": "\"$P2$\" పునరుద్ధరించబడింది: $P1$ కుకీలు రాయబడ్డాయి, $P3$ తొలగించబడ్డాయి.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "rate_title": {
+    "message": "CookieDesk నచ్చిందా?"
+  },
+  "rate_text": {
+    "message": "ఒక చిన్న రేటింగ్ ఇతరులు దీన్ని కనుగొనడానికి సహాయపడుతుంది."
+  },
+  "rate_group": {
+    "message": "స్టోర్‌లో రేటింగ్ ఇవ్వండి"
+  },
+  "rate_stars_one": {
+    "message": "$P1$ నక్షత్రం",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "rate_stars_other": {
+    "message": "$P1$ నక్షత్రాలు",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_confirm_title": {
+    "message": "మీరు నాకు కాఫీ కొనిపెట్టారా?"
+  },
+  "kofi_confirm_text": {
+    "message": "ధన్యవాదాలు, దీనివల్లే CookieDesk నడుస్తోంది."
+  },
+  "kofi_yes": {
+    "message": "అవును, కొనిపెట్టాను"
+  },
+  "kofi_not_yet": {
+    "message": "ఇంకా లేదు"
+  },
+  "kofi_milestone_one": {
+    "message": "CookieDeskతో $P1$ మార్పు చేశారు!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_milestone_other": {
+    "message": "CookieDeskతో $P1$ మార్పులు చేశారు!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_free": {
+    "message": "ఇది ఉచితం, ఒకే డెవలపర్ రూపొందించారు."
+  },
+  "buy_coffee": {
+    "message": "నాకు కాఫీ కొనిపెట్టండి"
+  },
+  "edit_cookie": {
+    "message": "కుకీని సవరించు"
+  },
+  "add_cookie_short": {
+    "message": "కుకీని జోడించు"
+  },
+  "explain_title": {
+    "message": "ఈ కుకీ ఏం చేస్తుంది"
+  },
+  "field_name": {
+    "message": "పేరు"
+  },
+  "field_value": {
+    "message": "విలువ"
+  },
+  "field_domain": {
+    "message": "డొమైన్"
+  },
+  "field_path": {
+    "message": "పాత్"
+  },
+  "field_expiry": {
+    "message": "గడువు"
+  },
+  "field_expires": {
+    "message": "గడువు"
+  },
+  "field_attributes": {
+    "message": "అట్రిబ్యూట్‌లు"
+  },
+  "field_partition": {
+    "message": "పార్టిషన్"
+  },
+  "host_only": {
+    "message": "హోస్ట్ మాత్రమే"
+  },
+  "host_only_title": {
+    "message": "హోస్ట్ మాత్రమే: Domain అట్రిబ్యూట్ లేదు, కాబట్టి సబ్‌డొమైన్‌లకు అందదు"
+  },
+  "session_title": {
+    "message": "సెషన్ కుకీ: బ్రౌజర్ మూసివేయగానే పోతుంది"
+  },
+  "httponly_title": {
+    "message": "HttpOnly: పేజీ JavaScriptకు కనిపించదు"
+  },
+  "samesite_unspecified": {
+    "message": "పేర్కొనలేదు"
+  },
+  "partitioned_chips": {
+    "message": "పార్టిషన్డ్ (CHIPS)"
+  },
+  "top_level_site": {
+    "message": "టాప్-లెవల్ సైట్"
+  },
+  "no_partition_write": {
+    "message": "Chrome ఈ వెర్షన్ పార్టిషన్డ్ కుకీలను రాయలేదు."
+  },
+  "editor_delete_title": {
+    "message": "తొలగించు (రద్దు చేయవచ్చు)"
+  },
+  "bytes_of": {
+    "message": "$P1$ / $P2$ బైట్‌లు",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "access_aria": {
+    "message": "యాక్సెస్ మరియు సెట్టింగ్‌లు"
+  },
+  "all_sites_on": {
+    "message": "అన్ని సైట్‌లు: ఆన్"
+  },
+  "all_sites_on_text": {
+    "message": "ఎంబెడ్ చేసినవి సహా ప్రతి సైట్‌లో కుకీలను CookieDesk చదవగలదు, మార్చగలదు."
+  },
+  "turn_off": {
+    "message": "ఆఫ్ చేయి"
+  },
+  "all_sites": {
+    "message": "అన్ని సైట్‌లు"
+  },
+  "all_sites_text": {
+    "message": "ఐచ్ఛికం. ప్రతి సైట్‌కు ప్రాంప్ట్‌లు ఉండవు, ఎంబెడ్ చేసిన సైట్‌ల (ప్రకటనలు, విడ్జెట్‌లు, సైన్-ఇన్ ఫ్రేమ్‌లు) కుకీలు అన్ని చోట్లా కనిపిస్తాయి."
+  },
+  "allow_all_sites": {
+    "message": "అన్ని సైట్‌లలో అనుమతించు"
+  },
+  "remove_access": {
+    "message": "$P1$కి యాక్సెస్ తొలగించు",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "access_lead": {
+    "message": "మీరు ఒక సైట్‌ను అనుమతించిన తర్వాతే CookieDesk ఆ సైట్ కుకీలను చూస్తుంది, మరేమీ కాదు: పేజీ కంటెంట్ లేదు, హిస్టరీ లేదు."
+  },
+  "allowed_sites": {
+    "message": "అనుమతించిన సైట్‌లు"
+  },
+  "allowed_sites_count": {
+    "message": "అనుమతించిన సైట్‌లు · $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "all_sites_overrides": {
+    "message": "అన్ని సైట్‌ల యాక్సెస్ ఆన్‌లో ఉంది, కాబట్టి అది ఆన్‌లో ఉన్నంత వరకు ఇవి అవసరం లేదు."
+  },
+  "none_yet": {
+    "message": "ఇంకా ఏవీ లేవు."
+  },
+  "toolbar_opens": {
+    "message": "టూల్‌బార్ బటన్ తెరిచేది"
+  },
+  "surface_popup": {
+    "message": "పాపప్"
+  },
+  "surface_sidepanel": {
+    "message": "సైడ్ ప్యానెల్"
+  },
+  "support_feedback": {
+    "message": "మద్దతు మరియు అభిప్రాయం"
+  },
+  "thanks_supporting": {
+    "message": "మద్దతిచ్చినందుకు ధన్యవాదాలు!"
+  },
+  "report_problem": {
+    "message": "సమస్యను నివేదించండి"
+  },
+  "source_code": {
+    "message": "సోర్స్ కోడ్"
+  },
+  "privacy_line": {
+    "message": "నెట్‌వర్క్ అభ్యర్థనలు లేవు, కుకీ విలువలు డిస్క్‌లో ఉండవు. రద్దు 10 నిమిషాలు పని చేస్తుంది; దాని కాపీలు మెమరీలో ఉంటాయి, Chrome మూసివేసినప్పుడు లేదా ఇన్‌కాగ్నిటో సెషన్ ముగిసినప్పుడు పోతాయి."
+  },
+  "export_warning": {
+    "message": "ఈ ఫైల్‌లో ప్రస్తుత సెషన్ కుకీలు ఉన్నాయి. ఇది ఉన్న ఎవరైనా ఈ సైట్‌లలో మీలా సైన్ ఇన్ చేయవచ్చు. దీన్ని పాస్‌వర్డ్‌లా చూడండి, పని అయ్యాక తొలగించండి."
+  },
+  "export_json_one": {
+    "message": "$P1$ కుకీని JSONగా ఎక్స్‌పోర్ట్ చేయి",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_json_other": {
+    "message": "$P1$ కుకీలను JSONగా ఎక్స్‌పోర్ట్ చేయి",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_one": {
+    "message": "$P1$ కుకీని cookies.txtగా ఎక్స్‌పోర్ట్ చేయి",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_other": {
+    "message": "$P1$ కుకీలను cookies.txtగా ఎక్స్‌పోర్ట్ చేయి",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_all_one": {
+    "message": "$P2$కి జాబితా చేసిన కుకీ, HttpOnly అయినా, ఫైల్‌లోకి వెళ్తుంది.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_all_other": {
+    "message": "$P2$కి జాబితా చేసిన మొత్తం $P1$ కుకీలు, HttpOnly వాటితో సహా, ఫైల్‌లోకి వెళ్తాయి.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_partitioned_left_one": {
+    "message": "$P1$ పార్టిషన్డ్ కుకీ వదిలేశారు: cookies.txt పార్టిషన్‌లను నమోదు చేయలేదు. దాన్ని ఉంచడానికి JSON వాడండి.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_partitioned_left_other": {
+    "message": "$P1$ పార్టిషన్డ్ కుకీలు వదిలేశారు: cookies.txt పార్టిషన్‌లను నమోదు చేయలేదు. వాటిని ఉంచడానికి JSON వాడండి.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_too_big": {
+    "message": "ఈ ఫైల్ $P1$ MB. కుకీ ఎక్స్‌పోర్ట్‌లు దీని కంటే చాలా చిన్నవి; CookieDesk 5 MB వరకు ఫైళ్లను చదువుతుంది.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "cant_import_unchanged": {
+    "message": "ఈ ఫైల్‌ను ఇంపోర్ట్ చేయలేము. ఏదీ మారలేదు."
+  },
+  "cant_import": {
+    "message": "ఈ ఫైల్‌ను ఇంపోర్ట్ చేయలేము"
+  },
+  "file_unreadable": {
+    "message": "ఫైల్‌ను చదవలేకపోయాం."
+  },
+  "needs_access_one": {
+    "message": "ఈ కుకీలను రాసే ముందు CookieDeskకు మరో $P1$ సైట్‌కు యాక్సెస్ కావాలి:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "needs_access_other": {
+    "message": "ఈ కుకీలను రాసే ముందు CookieDeskకు మరో $P1$ సైట్‌లకు యాక్సెస్ కావాలి:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_allow_all_hint": {
+    "message": "లేదా యాక్సెస్ మరియు సెట్టింగ్‌లలో అన్ని సైట్‌లను అనుమతించండి."
+  },
+  "other_sites": {
+    "message": "ఇతర సైట్‌లు ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "other_sites_warning": {
+    "message": "ఈ ఫైల్ $P1$ కాకుండా ఇతర సైట్‌లకు కూడా కుకీలను రాస్తుంది. మరో సైట్‌లో ఉంచిన కుకీ మిమ్మల్ని అక్కడ తప్పు ఖాతాలోకి సైన్ ఇన్ చేయించవచ్చు. ఈ సైట్‌లను మీరు ఊహించినట్లయితేనే కొనసాగించండి.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_one": {
+    "message": "మరో $P1$ సైట్‌కు కూడా కుకీలను రాయి",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_other": {
+    "message": "మరో $P1$ సైట్‌లకు కూడా కుకీలను రాయి",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partitioned_under_list": {
+    "message": "వీటి కింద పార్టిషన్డ్: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "warnings_count": {
+    "message": "హెచ్చరికలు ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_title": {
+    "message": "కుకీలను ఇంపోర్ట్ చేయి"
+  },
+  "import_message_one": {
+    "message": "$P1$ కుకీని ఇంపోర్ట్ చేయాలా? అదే పేరు, డొమైన్, పాత్ ఉన్న కుకీలు భర్తీ చేయబడతాయి. మొత్తం ఇంపోర్ట్‌ను రద్దు చేయవచ్చు.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_message_other": {
+    "message": "$P1$ కుకీలను ఇంపోర్ట్ చేయాలా? అదే పేరు, డొమైన్, పాత్ ఉన్న కుకీలు భర్తీ చేయబడతాయి. మొత్తం ఇంపోర్ట్‌ను రద్దు చేయవచ్చు.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_one": {
+    "message": "$P1$ కుకీని document.cookieగా కాపీ చేయి",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_other": {
+    "message": "$P1$ కుకీలను document.cookieగా కాపీ చేయి",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_warning": {
+    "message": "స్నిప్పెట్‌లో ప్రస్తుత సెషన్ కుకీలు ఉన్నాయి. ఇది ఉన్న ఎవరైనా ఈ సైట్‌లో మీలా సైన్ ఇన్ చేయవచ్చు. దీన్ని పాస్‌వర్డ్‌లా చూడండి."
+  },
+  "snippet_paste": {
+    "message": "ఈ కుకీలను అక్కడ సెట్ చేయడానికి $P1$లోని DevTools కన్సోల్‌లో పేస్ట్ చేయండి.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_one": {
+    "message": "$P1$ HttpOnly కుకీ వదిలేశారు: పేజీ JavaScript దాన్ని సెట్ చేయలేదు.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_other": {
+    "message": "$P1$ HttpOnly కుకీలు వదిలేశారు: పేజీ JavaScript వాటిని సెట్ చేయలేదు.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_one": {
+    "message": "$P1$ కుకీని document.cookieగా కాపీ చేశారు.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_other": {
+    "message": "$P1$ కుకీలను document.cookieగా కాపీ చేశారు.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_name": {
+    "message": "సెట్ పేరు"
+  },
+  "set_name_placeholder": {
+    "message": "ఉదా. అడ్మిన్‌గా లాగిన్ అయినది"
+  },
+  "save_set_title_one": {
+    "message": "$P1$ కుకీని సెట్‌గా సేవ్ చేయి",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "save_set_title_other": {
+    "message": "$P1$ కుకీలను సెట్‌గా సేవ్ చేయి",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_file_note": {
+    "message": "సెట్ మీ కంప్యూటర్‌లోని ఫైల్; CookieDesk దాని కాపీని ఉంచుకోదు. తర్వాత $P1$లోని మెనూ నుండి పునరుద్ధరించండి.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "default_set_name": {
+    "message": "కుకీ సెట్"
+  },
+  "set_too_large": {
+    "message": "ఈ ఫైల్ కుకీ సెట్ కావడానికి చాలా పెద్దది."
+  },
+  "cant_restore_unchanged": {
+    "message": "ఈ సెట్‌ను పునరుద్ధరించలేము. ఏదీ మారలేదు."
+  },
+  "cant_restore": {
+    "message": "ఈ సెట్‌ను పునరుద్ధరించలేము"
+  },
+  "wrong_site_message": {
+    "message": "ఈ సెట్ $P1$కి సేవ్ చేయబడింది. $P1$ని తెరిచి అక్కడ పునరుద్ధరించండి.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "wrong_site_title": {
+    "message": "తప్పు సైట్. ఏదీ మారలేదు."
+  },
+  "foreign_cookies_one": {
+    "message": "ఈ ఫైల్‌లోని $P1$ కుకీ మరో సైట్‌కు చెందినది ($P2$). సెట్ పునరుద్ధరణ $P3$ని మాత్రమే మారుస్తుంది; ఇతర సైట్‌ల కోసం ఇంపోర్ట్ వాడండి.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "foreign_cookies_other": {
+    "message": "ఈ ఫైల్‌లోని $P1$ కుకీలు ఇతర సైట్‌లకు చెందినవి ($P2$). సెట్ పునరుద్ధరణ $P3$ని మాత్రమే మారుస్తుంది; ఇతర సైట్‌ల కోసం ఇంపోర్ట్ వాడండి.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "plan_write": {
+    "message": "రాయి"
+  },
+  "plan_delete": {
+    "message": "తొలగించు"
+  },
+  "plan_protected": {
+    "message": "రక్షితం, ఉన్నట్లే వదిలేస్తారు"
+  },
+  "restore_title": {
+    "message": "\"$P1$\" పునరుద్ధరించు",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_nothing": {
+    "message": "$P1$ ఇప్పటికే ఈ సెట్‌కు సరిపోలుతోంది. మార్చడానికి ఏమీ లేదు.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_message_one": {
+    "message": "$P2$ కుకీలు ఈ సెట్‌లోని $P1$ కుకీతో భర్తీ చేయబడతాయి. మొత్తం పునరుద్ధరణను రద్దు చేయవచ్చు.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "restore_message_other": {
+    "message": "$P2$ కుకీలు ఈ సెట్‌లోని $P1$ కుకీలతో భర్తీ చేయబడతాయి. మొత్తం పునరుద్ధరణను రద్దు చేయవచ్చు.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_partition_unsupported": {
+    "message": "\"$P1$\" పార్టిషన్డ్ కుకీ, దీన్ని Chrome ఈ వెర్షన్ రాయలేదు. Chrome 119 లేదా తర్వాతి వెర్షన్‌కు అప్‌డేట్ చేయండి.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_gone": {
+    "message": "\"$P1$\" ఇక లేదు — దాని గడువు ముగిసి ఉండవచ్చు లేదా సైట్ మార్చి ఉండవచ్చు. జాబితాను మళ్లీ లోడ్ చేయండి.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_stored": {
+    "message": "Chrome \"$P1$\"ను అంగీకరించింది కానీ నిల్వ చేయలేదు.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_imprecise_delete_one": {
+    "message": "Chrome \"$P2$\"ను అదే పేరున్న మరో $P1$ కుకీతో కలిపి మాత్రమే తొలగించగలదు, కాబట్టి CookieDesk దీన్ని తొలగించదు.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_imprecise_delete_other": {
+    "message": "Chrome \"$P2$\"ను అదే పేరున్న మరో $P1$ కుకీలతో కలిపి మాత్రమే తొలగించగలదు, కాబట్టి CookieDesk దీన్ని తొలగించదు.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_delete": {
+    "message": "\"$P1$\"ను నిల్వ ఉన్నట్లుగా Chrome ఇక అంగీకరించదు, కాబట్టి తొలగిస్తే తిరిగి పెట్టలేము. రద్దు లేకుండా తొలగించాలా?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_removed": {
+    "message": "\"$P1$\"ను తొలగించలేకపోయాం.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_no_permission": {
+    "message": "CookieDeskకు $P1$కి యాక్సెస్ లేదు. ముందు ఈ సైట్‌కు యాక్సెస్ ఇవ్వండి.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_secure_shadow": {
+    "message": "$P2$కి \"$P1$\" అనే Secure కుకీ ఇప్పటికే ఉంది. అదే పేరున్న non-Secure కుకీ దాన్ని భర్తీ చేయడానికి లేదా దాని పక్కన ఉండటానికి Chrome అనుమతించదు. Secure ఆన్ చేయండి, లేదా వేరే పేరు వాడండి.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_rejected": {
+    "message": "Chrome కారణం చెప్పకుండా \"$P1$\"ను తిరస్కరించింది. ఏదీ మారలేదు.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_irreversible_replace_one": {
+    "message": "$P2$ను నిల్వ ఉన్నట్లుగా Chrome ఇక అంగీకరించదు, కాబట్టి భర్తీ చేస్తే తిరిగి పెట్టలేము. దీనికి రద్దు లేకుండా కొనసాగించాలా?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_replace_other": {
+    "message": "$P2$ను నిల్వ ఉన్నట్లుగా Chrome ఇక అంగీకరించదు, కాబట్టి భర్తీ చేస్తే తిరిగి పెట్టలేము. వీటికి రద్దు లేకుండా కొనసాగించాలా?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_too_large_to_undo": {
+    "message": "ఈ మార్పు రద్దు కాపీ ఉంచలేనంత ఎక్కువ డేటాను ($P1$ KB) తాకుతుంది. రద్దు లేకుండా కొనసాగించాలా?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_duplicate_in_file": {
+    "message": "ఫైల్‌లో ఒకే డొమైన్, పాత్‌కు \"$P1$\" రెండుసార్లు ఉంది.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_undo_expired": {
+    "message": "రద్దు చేయడానికి ఏమీ లేదు — రద్దు 10 నిమిషాలు మాత్రమే ఉంటుంది."
+  },
+  "err_undo_conflict": {
+    "message": "\"$P2$\" తర్వాత $P1$ మారింది. ఇప్పుడు రద్దు చేస్తే కొత్త విలువ చెరిగిపోతుంది. అయినా రద్దు చేయాలా?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_incomplete": {
+    "message": "అసంపూర్ణం: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_added": {
+    "message": "\"$P1$\" జోడించబడింది",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_edited": {
+    "message": "\"$P1$\" సవరించబడింది",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted": {
+    "message": "\"$P1$\" తొలగించబడింది",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_expired": {
+    "message": "\"$P1$\" తొలగించబడింది (గడువు గతంలో)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_one": {
+    "message": "$P1$ కుకీ తొలగించబడింది",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_other": {
+    "message": "$P1$ కుకీలు తొలగించబడ్డాయి",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_one": {
+    "message": "$P1$ కుకీ ఇంపోర్ట్ చేయబడింది",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_other": {
+    "message": "$P1$ కుకీలు ఇంపోర్ట్ చేయబడ్డాయి",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_undid": {
+    "message": "రద్దు చేశారు: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_saved": {
+    "message": "\"$P1$\" సేవ్ చేయబడింది",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_draft": {
+    "message": "కుకీ పేరు, విలువ, డొమైన్, పాత్ ఉన్న ఆబ్జెక్ట్ అయి ఉండాలి."
+  },
+  "v_name_type": {
+    "message": "కుకీ పేరు టెక్స్ట్ అయి ఉండాలి."
+  },
+  "v_value_type": {
+    "message": "కుకీ విలువ టెక్స్ట్ అయి ఉండాలి."
+  },
+  "v_domain_type": {
+    "message": "డొమైన్ టెక్స్ట్ అయి ఉండాలి."
+  },
+  "v_path_type": {
+    "message": "పాత్ టెక్స్ట్ అయి ఉండాలి."
+  },
+  "v_flag_type": {
+    "message": "$P1$ true లేదా false అయి ఉండాలి.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_samesite": {
+    "message": "SameSite వీటిలో ఒకటి అయి ఉండాలి: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_name_control": {
+    "message": "పేరులో కంట్రోల్ అక్షరాలు (కొత్త లైన్ లేదా ట్యాబ్ వంటివి) ఉన్నాయి, కుకీలు వాటిని ఉంచలేవు."
+  },
+  "v_name_semicolon": {
+    "message": "పేరులో \";\" ఉంది, ఇది కుకీని ముందుగానే ముగించేస్తుంది."
+  },
+  "v_name_equals": {
+    "message": "పేరులో \"=\" ఉంది, ఇది కుకీలో పేరును విలువ నుండి వేరు చేస్తుంది."
+  },
+  "v_value_control": {
+    "message": "విలువలో కంట్రోల్ అక్షరాలు (కొత్త లైన్ లేదా ట్యాబ్ వంటివి) ఉన్నాయి, కుకీలు వాటిని ఉంచలేవు."
+  },
+  "v_value_semicolon": {
+    "message": "విలువలో \";\" ఉంది, ఇది కుకీని ముందుగానే ముగించేస్తుంది. దాన్ని ఎన్‌కోడ్ చేయండి (ఉదాహరణకు encodeURIComponent తో)."
+  },
+  "v_empty_cookie": {
+    "message": "కుకీకి పేరు లేదా విలువ కావాలి; రెండూ ఖాళీగా ఉన్నాయి."
+  },
+  "v_empty_name": {
+    "message": "ఈ కుకీ పేరు ఖాళీగా ఉంది. కొన్ని సైట్‌లు, టూల్స్ పేరు లేని కుకీలను సరిగ్గా నిర్వహించవు."
+  },
+  "v_too_large": {
+    "message": "పేరు, విలువ కలిపి $P1$ బైట్‌లు (UTF-8); Chrome గరిష్ఠంగా $P2$ అనుమతిస్తుంది.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "v_path_slash": {
+    "message": "పాత్ \"/\"తో మొదలవ్వాలి."
+  },
+  "v_path_too_long": {
+    "message": "పాత్ $P1$ బైట్‌ల కంటే పొడవుగా ఉంది.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_path_chars": {
+    "message": "పాత్‌లో కంట్రోల్ అక్షరాలు లేదా \";\" ఉన్నాయి, కుకీలు వాటిని ఉంచలేవు."
+  },
+  "v_domain_empty": {
+    "message": "డొమైన్ ఖాళీగా ఉంది. కుకీ చెందిన సైట్‌ను నమోదు చేయండి, ఉదాహరణకు example.com."
+  },
+  "v_domain_too_long": {
+    "message": "డొమైన్ $P1$ బైట్‌ల కంటే పొడవుగా ఉంది.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_domain_invalid": {
+    "message": "డొమైన్ సరైన హోస్ట్ పేరు కాదు. చుక్కలతో వేరు చేసిన అక్షరాలు, అంకెలు, హైఫన్‌లు వాడండి (అంతర్జాతీయ పేర్లు punycodeలో ఉండాలి, xn--... లాగా)."
+  },
+  "v_domain_leading_dot": {
+    "message": "హోస్ట్-మాత్రమే కుకీ డొమైన్ ముందు చుక్క ఉండకూడదు; ఆ చుక్క అంటే కుకీ సబ్‌డొమైన్‌లకు కూడా వర్తిస్తుందని అర్థం."
+  },
+  "v_domain_public_suffix": {
+    "message": "\"$P1$\" ఒక పబ్లిక్ సఫిక్స్ (.com లేదా .co.uk వంటి రిజిస్ట్రీ నియంత్రిత డొమైన్), కాబట్టి దాని మొత్తానికి వర్తించే కుకీలను బ్రౌజర్‌లు తిరస్కరిస్తాయి.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_samesite_none_insecure": {
+    "message": "SameSite=None కుకీలు Secure అయి ఉండాలి — లేకపోతే Chrome తిరస్కరిస్తుంది. Secure ఆన్ చేయండి లేదా వేరే SameSite ఎంచుకోండి."
+  },
+  "v_partitioned_insecure": {
+    "message": "పార్టిషన్డ్ కుకీలు Secure అయి ఉండాలి — లేకపోతే Chrome తిరస్కరిస్తుంది. Secure ఆన్ చేయండి లేదా పార్టిషన్ తొలగించండి."
+  },
+  "v_prefix_secure": {
+    "message": "\"$P1$...\" అనే పేరున్న కుకీలు Secure అయి ఉండాలి. Secure ఆన్ చేయండి లేదా కుకీ పేరు మార్చండి.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_host_prefix_domain": {
+    "message": "\"__Host-...\" అనే పేరున్న కుకీలు హోస్ట్-మాత్రమే అయి ఉండాలి (Domain అట్రిబ్యూట్ లేదు, కాబట్టి సబ్‌డొమైన్ షేరింగ్ లేదు). హోస్ట్-మాత్రమే ఆన్ చేయండి లేదా కుకీ పేరు మార్చండి."
+  },
+  "v_host_prefix_path": {
+    "message": "\"__Host-...\" అనే పేరున్న కుకీల పాత్ \"/\" అయి ఉండాలి."
+  },
+  "v_bad_expiration": {
+    "message": "గడువు 1970 నుండి పరిమిత సంఖ్యలో సెకన్లు అయి ఉండాలి."
+  },
+  "v_expired_deletes": {
+    "message": "గతంలోని గడువుతో సేవ్ చేస్తే ఈ కుకీ తొలగించబడుతుంది."
+  },
+  "v_clamped": {
+    "message": "Chrome కుకీ జీవితకాలాన్ని $P1$ రోజులకు పరిమితం చేస్తుంది; ఆ తర్వాతి గడువు సేవ్ చేసేటప్పుడు తగ్గించబడుతుంది.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_expiration_missing": {
+    "message": "సెషన్ కాని కుకీకి గడువు తేదీ కావాలి. ఒకటి ఎంచుకోండి లేదా కుకీని సెషన్ కుకీగా గుర్తించండి."
+  },
+  "v_partition_type": {
+    "message": "పార్టిషన్ కీ topLevelSite ఉన్న ఆబ్జెక్ట్ అయి ఉండాలి."
+  },
+  "v_partition_site_type": {
+    "message": "పార్టిషన్ టాప్-లెవల్ సైట్ https://example.com లాంటి టెక్స్ట్ అయి ఉండాలి."
+  },
+  "v_partition_site_form": {
+    "message": "పార్టిషన్ టాప్-లెవల్ సైట్ https://example.com లాగా ఉండాలి (https, పాత్ లేదా పోర్ట్ లేకుండా)."
+  },
+  "v_partition_flag": {
+    "message": "పార్టిషన్ hasCrossSiteAncestor true లేదా false అయి ఉండాలి."
+  },
+  "v_partition_cross_site": {
+    "message": "కుకీ డొమైన్ $P1$ లాంటి అదే సైట్‌లో లేదు, కాబట్టి దీనికి hasCrossSiteAncestor true అయి ఉండాలని Chrome కోరుతుంది.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_other_site": {
+    "message": "ఈ కుకీ డొమైన్ ($P1$) ప్రస్తుత సైట్ ($P2$) వెలుపల ఉంది.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_entry": {
+    "message": "ఎంట్రీ $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_entry_named": {
+    "message": "ఎంట్రీ $P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_bad_samesite": {
+    "message": "$P1$: sameSite అనేది no_restriction, lax, strict, unspecified లో ఒకటి కాదు.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bool": {
+    "message": "$P1$: \"$P2$\" true లేదా false అయి ఉండాలి.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_text": {
+    "message": "$P1$: \"$P2$\" టెక్స్ట్ అయి ఉండాలి.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_not_object": {
+    "message": "$P1$ కుకీ ఆబ్జెక్ట్ కాదు.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_expiration_type": {
+    "message": "$P1$: \"expirationDate\" సంఖ్య అయి ఉండాలి.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_key": {
+    "message": "$P1$: partitionKey టెక్స్ట్ topLevelSite ఉన్న ఆబ్జెక్ట్ అయి ఉండాలి.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_flag": {
+    "message": "$P1$: partitionKey.hasCrossSiteAncestor true లేదా false అయి ఉండాలి.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_line": {
+    "message": "లైన్ $P1$ cookies.txt ఎంట్రీ కాదు (ట్యాబ్‌తో వేరు చేసిన 7 ఫీల్డ్‌లు ఆశించగా, $P2$ దొరికాయి).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_line_flag_subdomains": {
+    "message": "లైన్ $P1$: సబ్‌డొమైన్స్ ఫ్లాగ్ TRUE లేదా FALSE అయి ఉండాలి.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_flag_secure": {
+    "message": "లైన్ $P1$: secure ఫ్లాగ్ TRUE లేదా FALSE అయి ఉండాలి.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_expiry": {
+    "message": "లైన్ $P1$: గడువు పూర్ణ సంఖ్య సెకన్లు అయి ఉండాలి.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_not_text": {
+    "message": "ఫైల్‌ను టెక్స్ట్‌గా చదవలేకపోయాం."
+  },
+  "io_too_large": {
+    "message": "ఫైల్ $P1$-బైట్ ఇంపోర్ట్ పరిమితి కంటే పెద్దది.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_json": {
+    "message": "ఫైల్ JSON లాగా ఉంది కానీ పార్స్ చేయలేకపోయాం."
+  },
+  "io_bad_version": {
+    "message": "ఈ CookieDesk ఫైల్ వెర్షన్‌కు మద్దతు లేదు."
+  },
+  "io_no_cookie_list": {
+    "message": "CookieDesk ఫైల్‌లో \"cookies\" జాబితా లేదు."
+  },
+  "io_unknown_format": {
+    "message": "ఈ JSON CookieDesk ఎక్స్‌పోర్ట్ కాదు, కుకీల జాబితా కూడా కాదు."
+  },
+  "io_no_cookies": {
+    "message": "ఫైల్‌లో కుకీలు లేవు."
+  },
+  "io_too_many": {
+    "message": "ఫైల్‌లో $P1$ కుకీలు ఉన్నాయి; పరిమితి $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_issue": {
+    "message": "$P1$: $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_duplicate": {
+    "message": "$P1$: మరో ఎంట్రీకి అదే పేరు, డొమైన్, పాత్, పార్టిషన్ ఉన్నాయి.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "when": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "when_passed": {
+    "message": "ఇప్పటికే గడిచిపోయింది"
+  },
+  "when_under_day": {
+    "message": "ఒక రోజు లోపు"
+  },
+  "explain_third_party": {
+    "message": "$P2$ కంటే భిన్నమైన సైట్ $P1$ సెట్ చేసింది: థర్డ్-పార్టీ కుకీ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_third_party_partitioned": {
+    "message": "$P2$ కంటే భిన్నమైన సైట్ $P1$ సెట్ చేసింది: థర్డ్-పార్టీ కుకీ, $P2$ పార్టిషన్‌లో ఉంచబడింది.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_host_prefix": {
+    "message": "__Host- ప్రిఫిక్స్ వల్ల Chrome Secure, Domain అట్రిబ్యూట్ లేకపోవడం, Path=/ తప్పనిసరి చేస్తుంది, కాబట్టి ఏ సబ్‌డొమైన్ దీన్ని సెట్ చేయలేదు, భర్తీ చేయలేదు."
+  },
+  "explain_secure_prefix": {
+    "message": "__Secure- ప్రిఫిక్స్ వల్ల Chrome దీన్ని Secure ఫ్లాగ్‌తో మాత్రమే అంగీకరిస్తుంది."
+  },
+  "explain_scope_host": {
+    "message": "$P1$కి మాత్రమే పంపబడుతుంది, దాని సబ్‌డొమైన్‌లకు కాదు.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_scope_domain": {
+    "message": "$P1$కి మరియు దాని ప్రతి సబ్‌డొమైన్‌కి (www.$P1$ లాంటివి) పంపబడుతుంది.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_path_all": {
+    "message": "ఆ హోస్ట్‌లోని ప్రతి పాత్‌కు చేసే అభ్యర్థనలతో పంపబడుతుంది."
+  },
+  "explain_path_under": {
+    "message": "$P1$ కింది పాత్‌లకు చేసే అభ్యర్థనలతో మాత్రమే పంపబడుతుంది.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_secure": {
+    "message": "Secure: HTTPS ద్వారా మాత్రమే పంపబడుతుంది."
+  },
+  "explain_not_secure": {
+    "message": "Secure కాదు: సాధారణ HTTP ద్వారా కూడా పంపబడుతుంది, అక్కడ నెట్‌వర్క్‌లోని ఎవరైనా దీన్ని చదవవచ్చు."
+  },
+  "explain_httponly": {
+    "message": "HttpOnly: పేజీ JavaScriptకు కనిపించదు (document.cookie దీన్ని చదవలేదు), ఇది ఇంజెక్ట్ చేసిన స్క్రిప్ట్‌ల నుండి దీన్ని దూరంగా ఉంచుతుంది."
+  },
+  "explain_script_readable": {
+    "message": "పేజీలో నడిచే ఏ స్క్రిప్ట్ అయినా దీన్ని చదవగలదు, మార్చగలదు."
+  },
+  "explain_samesite_none": {
+    "message": "SameSite=None: క్రాస్-సైట్ అభ్యర్థనలతో (ఎంబెడ్ చేసిన ఫ్రేమ్‌లు, చిత్రాలు, ఇతర సైట్‌ల అభ్యర్థనలు) కూడా పంపబడవచ్చు, Chrome థర్డ్-పార్టీ కుకీలను అనుమతించే చోట (ఇన్‌కాగ్నిటో వాటిని డిఫాల్ట్‌గా నిరోధిస్తుంది). అందుకే ఇది Secure అయి ఉండాలి."
+  },
+  "explain_samesite_lax": {
+    "message": "SameSite=Lax: మీరు సైట్‌కు వెళ్లినప్పుడు పంపబడుతుంది, మరో సైట్‌లోని లింక్ నుండి వచ్చినా సరే, కానీ ఇతర సైట్‌ల పేజీలు బ్యాక్‌గ్రౌండ్‌లో చేసే అభ్యర్థనలతో కాదు."
+  },
+  "explain_samesite_strict": {
+    "message": "SameSite=Strict: మీరు ఇప్పటికే అదే సైట్‌లో ఉన్నప్పుడు మాత్రమే పంపబడుతుంది. మరో సైట్‌లోని లింక్ నుండి వస్తే, మొదటి అభ్యర్థన ఇది లేకుండానే వెళ్తుంది."
+  },
+  "explain_samesite_unset": {
+    "message": "SameSite అట్రిబ్యూట్ లేదు: Chrome దీన్ని Laxగా పరిగణిస్తుంది."
+  },
+  "explain_session": {
+    "message": "సెషన్ కుకీ: బ్రౌజర్ మూసివేసినప్పుడు తొలగించబడుతుంది (ప్రారంభంలో Chrome మీ మునుపటి సెషన్‌ను పునరుద్ధరిస్తే తప్ప)."
+  },
+  "explain_expires": {
+    "message": "గడువు: $P1$. కుకీ చివరిసారి సెట్ అయినప్పటి నుండి ఏ గడువునైనా Chrome 400 రోజులకు పరిమితం చేస్తుంది.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition": {
+    "message": "పార్టిషన్డ్ (CHIPS): ప్రతి టాప్-లెవల్ సైట్‌కు విడిగా నిల్వ చేయబడుతుంది. అడ్రస్ బార్‌లో $P1$ ఉన్నప్పుడు మాత్రమే ఈ కాపీ పంపబడుతుంది.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition_cross": {
+    "message": "ఇది ఆ పార్టిషన్‌లోని క్రాస్-సైట్ భాగంలో ఉంది (పేజీకి, ఈ కుకీ సైట్‌కు మధ్య మరో సైట్ ఉన్నప్పుడు వాడతారు), అదే-సైట్ భాగం నుండి వేరుగా ఉంచబడుతుంది."
+  },
+  "explain_partition_same": {
+    "message": "ఇది ఆ పార్టిషన్‌లోని అదే-సైట్ భాగంలో ఉంది, క్రాస్-సైట్ భాగం నుండి వేరుగా ఉంచబడుతుంది."
+  },
+  "explain_partition_other": {
+    "message": "మరో సైట్ కింద ఉన్న అదే కుకీ పేరు వేరే కుకీ."
+  },
+  "explain_jwt": {
+    "message": "ఈ విలువ JSON Web Token లాగా ఉంది."
+  },
+  "explain_jwt_exp": {
+    "message": "ఈ విలువ JSON Web Token లాగా ఉంది; టోకెన్ స్వయంగా $P1$న గడువు ముగుస్తుందని చెబుతోంది.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_size": {
+    "message": "పేరు, విలువ కలిపి Chrome అనుమతించే 4096 బైట్‌లలో $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

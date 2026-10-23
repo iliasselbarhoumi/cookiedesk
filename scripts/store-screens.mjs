@@ -68,7 +68,7 @@ try {
     await browser.cdp.send('Emulation.setEmulatedMedia', { features: [{ name: 'prefers-color-scheme', value: dark ? 'dark' : 'light' }] }, u.page.sessionId);
     await u.waitState('ready');
     u.shot = async (name) => {
-      await sleep(300);
+      await sleep(1000); // let the entrance animations finish
       const { data } = await browser.cdp.send('Page.captureScreenshot', { format: 'png' }, u.page.sessionId);
       raw[name] = { data, width, height };
     };

@@ -1,0 +1,2215 @@
+{
+  "extension_name": {
+    "message": "Cookie-editor: se, rediger og slet cookies | CookieDesk"
+  },
+  "extension_description": {
+    "message": "Se, rediger, tilføj og slet cookies pr. websted. Søg, importér/eksportér, understøtter partitionerede cookies. Ingen reklamer."
+  },
+  "btn_ok": {
+    "message": "OK"
+  },
+  "btn_cancel": {
+    "message": "Annullér"
+  },
+  "btn_close": {
+    "message": "Luk"
+  },
+  "btn_delete": {
+    "message": "Slet"
+  },
+  "btn_copy": {
+    "message": "Kopiér"
+  },
+  "btn_save": {
+    "message": "Gem"
+  },
+  "btn_export": {
+    "message": "Eksportér"
+  },
+  "btn_later": {
+    "message": "Senere"
+  },
+  "dismiss": {
+    "message": "Afvis"
+  },
+  "back": {
+    "message": "Tilbage"
+  },
+  "back_esc": {
+    "message": "Tilbage (Esc)"
+  },
+  "back_to_list": {
+    "message": "Tilbage til listen"
+  },
+  "title_count": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "empty_name": {
+    "message": "(tomt navn)"
+  },
+  "empty_value": {
+    "message": "(tom værdi)"
+  },
+  "empty_short": {
+    "message": "(tom)"
+  },
+  "names_more": {
+    "message": "$P1$ og $P2$ mere",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "done": {
+    "message": "Færdig"
+  },
+  "undo": {
+    "message": "Fortryd"
+  },
+  "undo_nothing": {
+    "message": "Intet at fortryde"
+  },
+  "undo_entry": {
+    "message": "Fortryd: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_interrupted": {
+    "message": "Fortryd blev afbrudt: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "redo_entry": {
+    "message": "Gentag: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "support_title": {
+    "message": "Støt CookieDesk på Ko-fi"
+  },
+  "supporter_title": {
+    "message": "Tak, fordi du støtter CookieDesk!"
+  },
+  "add_cookie": {
+    "message": "Tilføj en cookie"
+  },
+  "add_cookie_title": {
+    "message": "Tilføj en cookie (n)"
+  },
+  "more_actions": {
+    "message": "Flere handlinger"
+  },
+  "menu_group_transfer": {
+    "message": "Eksportér og importér"
+  },
+  "menu_group_sets": {
+    "message": "Cookiesæt"
+  },
+  "export_json_title": {
+    "message": "Eksportér som JSON"
+  },
+  "export_txt_title": {
+    "message": "Eksportér som Netscape cookies.txt"
+  },
+  "tile_snippet": {
+    "message": "Kodestump"
+  },
+  "tile_snippet_title": {
+    "message": "Kopiér som en document.cookie-kodestump"
+  },
+  "tile_import": {
+    "message": "Importér"
+  },
+  "tile_import_title": {
+    "message": "Importér JSON eller cookies.txt"
+  },
+  "tile_save_set": {
+    "message": "Gem sæt"
+  },
+  "tile_save_set_title": {
+    "message": "Gem disse cookies som en navngivet sætfil"
+  },
+  "tile_restore": {
+    "message": "Gendan"
+  },
+  "tile_restore_title": {
+    "message": "Gendan et gemt sæt (med forhåndsvisning)"
+  },
+  "tile_compare": {
+    "message": "Sammenlign"
+  },
+  "tile_compare_title": {
+    "message": "Sammenlign et gemt sæt med nu, eller to sæt"
+  },
+  "tile_copy_to": {
+    "message": "Kopiér til…"
+  },
+  "tile_copy_to_title": {
+    "message": "Kopiér de viste cookies til et andet lager (normal ↔ inkognito)"
+  },
+  "menu_bulk_delete": {
+    "message": "Slet viste cookies…"
+  },
+  "menu_access": {
+    "message": "Adgang og indstillinger"
+  },
+  "menu_shortcuts": {
+    "message": "Genveje"
+  },
+  "menu_sidepanel": {
+    "message": "Åbn i sidepanel"
+  },
+  "menu_rate": {
+    "message": "Bedøm CookieDesk"
+  },
+  "menu_support": {
+    "message": "Støt på Ko-fi"
+  },
+  "search_placeholder": {
+    "message": "Søg i cookies"
+  },
+  "search_label": {
+    "message": "Filtrér cookies efter navn, værdi eller domæne"
+  },
+  "search_title": {
+    "message": "Filtrér efter navn, værdi eller domæne"
+  },
+  "cookie_store": {
+    "message": "Cookielager"
+  },
+  "cookies_list": {
+    "message": "Cookies"
+  },
+  "restricted_page": {
+    "message": "Begrænset side"
+  },
+  "loading": {
+    "message": "Indlæser…"
+  },
+  "state_unknown": {
+    "message": "Klik på CookieDesk-knappen på værktøjslinjen for at se denne fanes cookies."
+  },
+  "state_unknown_hint": {
+    "message": "Chrome deler en fanes adresse først efter det klik, eller for websteder, du har tilladt."
+  },
+  "state_error": {
+    "message": "Noget gik galt: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "state_no_access": {
+    "message": "CookieDesk har endnu ikke adgang til $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "grant_site": {
+    "message": "Tillad på $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "chrome_will_ask": {
+    "message": "Chrome spørger:"
+  },
+  "prompt_site": {
+    "message": "Læse og ændre dine data på alle $P1$-websteder",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "prompt_all": {
+    "message": "Læse og ændre alle dine data på alle websteder"
+  },
+  "only_this_site": {
+    "message": "Kun dette websteds cookies, ikke andet."
+  },
+  "allow_all_instead": {
+    "message": "Tillad alle websteder i stedet"
+  },
+  "restricted_browser": {
+    "message": "Dette er en Chrome-side. Chrome lader ingen udvidelser læse eller ændre cookies her."
+  },
+  "restricted_webstore": {
+    "message": "Dette er Chrome Web Store. Chrome blokerer alle udvidelser her, så cookies kan ikke vises."
+  },
+  "restricted_extension": {
+    "message": "Dette er en udvidelses egen side. Dens lager er ikke et websteds cookies, så der er intet at vise."
+  },
+  "restricted_file": {
+    "message": "Dette er en lokal fil. Filer, der åbnes fra disken, har ingen cookies."
+  },
+  "restricted_other": {
+    "message": "Denne side er ikke et websted (for eksempel en tom side eller en data:-side), så den har ingen cookies."
+  },
+  "live_just_now": {
+    "message": "Lige nu: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "note_third_party": {
+    "message": "Indlejrede websteders cookies vises kun for websteder, du har tilladt."
+  },
+  "note_no_partitions": {
+    "message": "Din version af Chrome kan ikke vise partitionerede cookies, så listen kan være ufuldstændig."
+  },
+  "empty_no_match": {
+    "message": "Ingen cookies matcher “$P1$”.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "empty_none": {
+    "message": "Ingen cookies for $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clear_search": {
+    "message": "Ryd søgningen"
+  },
+  "change_changed": {
+    "message": "$P1$ blev ændret",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_added": {
+    "message": "$P1$ blev tilføjet",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_removed": {
+    "message": "$P1$ blev fjernet",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_one": {
+    "message": "$P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_other": {
+    "message": "$P1$ cookies",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_filtered_one": {
+    "message": "$P2$ af $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_filtered_other": {
+    "message": "$P2$ af $P1$ cookies",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_partitioned": {
+    "message": "$P1$ partitionerede",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "store_default": {
+    "message": "Standard"
+  },
+  "store_incognito": {
+    "message": "Inkognito"
+  },
+  "store_n": {
+    "message": "Lager $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "session": {
+    "message": "Session"
+  },
+  "expired": {
+    "message": "Udløbet"
+  },
+  "expiry_under_minute": {
+    "message": "om under et minut"
+  },
+  "expiry_on_close": {
+    "message": "Slettes, når browseren lukkes"
+  },
+  "expires_at": {
+    "message": "Udløber $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "badge_protected": {
+    "message": "Beskyttet: masseletning, import og gendannelse af sæt lader den være (p)"
+  },
+  "hint_httponly": {
+    "message": "HttpOnly: kan ikke ses af sidens JavaScript (document.cookie kan ikke læse den)"
+  },
+  "hint_secure": {
+    "message": "Secure: sendes kun over HTTPS"
+  },
+  "hint_samesite_none": {
+    "message": "SameSite=None: sendes også ved anmodninger mellem websteder"
+  },
+  "hint_samesite_lax": {
+    "message": "SameSite=Lax: sendes ved navigation på øverste niveau, ikke ved underanmodninger mellem websteder"
+  },
+  "hint_samesite_strict": {
+    "message": "SameSite=Strict: sendes kun ved anmodninger inden for samme websted"
+  },
+  "badge_partitioned": {
+    "message": "Partitioneret"
+  },
+  "partitioned_under": {
+    "message": "Partitioneret under $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partition_this_site": {
+    "message": "dette websted"
+  },
+  "partition_cross_site": {
+    "message": "$P1$, kontekst mellem websteder",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "row_protected": {
+    "message": "Beskyttet"
+  },
+  "row_unprotect_title": {
+    "message": "Fjern beskyttelse (p)"
+  },
+  "row_protect_title": {
+    "message": "Beskyt mod masseletning, import og gendannelse af sæt (p)"
+  },
+  "copy_value": {
+    "message": "Kopiér værdi"
+  },
+  "copied": {
+    "message": "Kopieret"
+  },
+  "copy_value_title": {
+    "message": "Kopiér værdi (c)"
+  },
+  "row_delete_title": {
+    "message": "Slet (Del) – kan fortrydes"
+  },
+  "irreversible_title": {
+    "message": "Det kan ikke fortrydes"
+  },
+  "continue_no_undo": {
+    "message": "Fortsæt uden fortryd"
+  },
+  "undo_anyway_title": {
+    "message": "Fortryd alligevel?"
+  },
+  "undo_anyway": {
+    "message": "Fortryd alligevel"
+  },
+  "undone": {
+    "message": "Fortrudt: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_skipped": {
+    "message": "Nogle cookies var allerede udløbet og blev ikke gendannet: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_refused": {
+    "message": "Chrome accepterer ikke længere disse, som de var, så de blev ikke gendannet: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clipboard_failed": {
+    "message": "Kunne ikke kopiere: udklipsholderen er ikke tilgængelig her."
+  },
+  "protected_on": {
+    "message": "Beskyttede “$P1$”: masseletning, import og gendannelse af sæt lader den være.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_off": {
+    "message": "“$P1$” er ikke længere beskyttet.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protect_limit": {
+    "message": "Du kan beskytte op til $P1$ cookies. Fjern først beskyttelsen fra nogle.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_named": {
+    "message": "Slet “$P1$”?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_protected_message": {
+    "message": "Denne cookie er beskyttet. Slet den alligevel? Du kan fortryde det."
+  },
+  "nothing_to_delete": {
+    "message": "Intet at slette"
+  },
+  "all_shown_protected_one": {
+    "message": "Den viste cookie er beskyttet."
+  },
+  "all_shown_protected_other": {
+    "message": "Alle $P1$ viste cookies er beskyttede.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "no_cookies_shown": {
+    "message": "Ingen cookies vises."
+  },
+  "bulk_title_one": {
+    "message": "Slet $P1$ cookie?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_title_other": {
+    "message": "Slet $P1$ cookies?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_match": {
+    "message": "Disse cookies matcher “$P1$” på $P2$. Du kan fortryde det.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "bulk_all": {
+    "message": "Alle cookies, der vises for $P1$. Du kan fortryde det.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_one": {
+    "message": "$P1$ beskyttet cookie beholdes.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_other": {
+    "message": "$P1$ beskyttede cookies beholdes.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_one": {
+    "message": "Slet $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_other": {
+    "message": "Slet $P1$ cookies",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_to": {
+    "message": "Kopiér til"
+  },
+  "copy_to_default_note": {
+    "message": "Cookies, der kopieres til standardlageret, beholdes som alle andre cookies, på disken og efter at denne inkognitosession er slut."
+  },
+  "copy_to_incognito_note": {
+    "message": "Cookies, der kopieres til et inkognitolager, forsvinder, når inkognitosessionen slutter."
+  },
+  "copy_title_one": {
+    "message": "Kopiér $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_title_other": {
+    "message": "Kopiér $P1$ cookies",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_from": {
+    "message": "Fra lageret $P1$ til:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_replace_note": {
+    "message": "Cookies med samme navn, domæne og sti dér erstattes, undtagen beskyttede. Du kan fortryde kopieringen."
+  },
+  "label_copied_one": {
+    "message": "Kopierede $P1$ cookie til $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_copied_other": {
+    "message": "Kopierede $P1$ cookies til $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_kept_one": {
+    "message": "$P1$ beskyttet cookie dér blev ladt, som den var.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_kept_other": {
+    "message": "$P1$ beskyttede cookies dér blev ladt, som de var.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_done_one": {
+    "message": "Kopierede $P1$ cookie til $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_done_other": {
+    "message": "Kopierede $P1$ cookies til $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_undo_hint": {
+    "message": "Fortryd her, eller senere fra lageret $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_nothing": {
+    "message": "$P1$ har allerede præcis disse cookies.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_cant": {
+    "message": "Kan ikke sammenligne"
+  },
+  "compare_now": {
+    "message": "$P1$ nu",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_other_site": {
+    "message": "Dette sæt blev gemt til $P1$, ikke $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "compare_too_many": {
+    "message": "Vælg ét sæt at sammenligne med nu, eller to sæt at sammenligne med hinanden."
+  },
+  "set_file_too_large": {
+    "message": "$P1$ er for stor til at være et cookiesæt.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_aria": {
+    "message": "Sammenlign cookiesæt"
+  },
+  "compare_changed_fields": {
+    "message": "Ændret: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_one": {
+    "message": "Ingen forskelle: $P1$ cookie er identisk.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_other": {
+    "message": "Ingen forskelle: $P1$ cookies er identiske.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_summary": {
+    "message": "$P1$ tilføjet, $P2$ fjernet, $P3$ ændret, $P4$ uændret.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      },
+      "p4": {
+        "content": "$4"
+      }
+    }
+  },
+  "diff_added": {
+    "message": "Tilføjet"
+  },
+  "diff_removed": {
+    "message": "Fjernet"
+  },
+  "diff_changed": {
+    "message": "Ændret"
+  },
+  "diff_expiry_only": {
+    "message": "Kun udløbstiden er ændret ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "shortcuts_title": {
+    "message": "Tastaturgenveje"
+  },
+  "key_search": {
+    "message": "Søg"
+  },
+  "key_move": {
+    "message": "Flyt rundt i listen"
+  },
+  "key_first_last": {
+    "message": "Første / sidste cookie"
+  },
+  "key_edit": {
+    "message": "Rediger"
+  },
+  "key_copy": {
+    "message": "Kopiér værdi"
+  },
+  "key_protect": {
+    "message": "Beskyt / fjern beskyttelse"
+  },
+  "key_delete": {
+    "message": "Slet (kan fortrydes)"
+  },
+  "key_back": {
+    "message": "Tilbage, eller ryd søgningen"
+  },
+  "key_help": {
+    "message": "Denne liste"
+  },
+  "import_kept_one": {
+    "message": "$P1$ beskyttet cookie blev ladt, som den var: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_kept_other": {
+    "message": "$P1$ beskyttede cookies blev ladt, som de var: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_nothing": {
+    "message": "Intet at importere: alle cookies i filen er allerede sat præcis sådan."
+  },
+  "imported_one": {
+    "message": "Importerede $P1$ cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "imported_other": {
+    "message": "Importerede $P1$ cookies.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_restored": {
+    "message": "Gendannede sættet “$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restored_one": {
+    "message": "Gendannede “$P2$”: $P1$ cookie skrevet, $P3$ slettet.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "restored_other": {
+    "message": "Gendannede “$P2$”: $P1$ cookies skrevet, $P3$ slettet.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "rate_title": {
+    "message": "Kan du lide CookieDesk?"
+  },
+  "rate_text": {
+    "message": "En hurtig bedømmelse hjælper andre med at finde den."
+  },
+  "rate_group": {
+    "message": "Bedøm i butikken"
+  },
+  "rate_stars_one": {
+    "message": "$P1$ stjerne",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "rate_stars_other": {
+    "message": "$P1$ stjerner",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_confirm_title": {
+    "message": "Gav du mig en kop kaffe?"
+  },
+  "kofi_confirm_text": {
+    "message": "Tak, det holder CookieDesk i gang."
+  },
+  "kofi_yes": {
+    "message": "Ja, det gjorde jeg"
+  },
+  "kofi_not_yet": {
+    "message": "Ikke endnu"
+  },
+  "kofi_milestone_one": {
+    "message": "$P1$ ændring lavet med CookieDesk!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_milestone_other": {
+    "message": "$P1$ ændringer lavet med CookieDesk!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_free": {
+    "message": "Den er gratis og lavet af én udvikler."
+  },
+  "buy_coffee": {
+    "message": "Giv mig en kop kaffe"
+  },
+  "edit_cookie": {
+    "message": "Rediger cookie"
+  },
+  "add_cookie_short": {
+    "message": "Tilføj cookie"
+  },
+  "explain_title": {
+    "message": "Hvad denne cookie gør"
+  },
+  "field_name": {
+    "message": "Navn"
+  },
+  "field_value": {
+    "message": "Værdi"
+  },
+  "field_domain": {
+    "message": "Domæne"
+  },
+  "field_path": {
+    "message": "Sti"
+  },
+  "field_expiry": {
+    "message": "Udløb"
+  },
+  "field_expires": {
+    "message": "Udløber"
+  },
+  "field_attributes": {
+    "message": "Egenskaber"
+  },
+  "field_partition": {
+    "message": "Partition"
+  },
+  "host_only": {
+    "message": "Kun værten"
+  },
+  "host_only_title": {
+    "message": "Kun værten: ingen Domain-egenskab, så underdomæner får den ikke"
+  },
+  "session_title": {
+    "message": "Sessionscookie: forsvinder, når browseren lukkes"
+  },
+  "httponly_title": {
+    "message": "HttpOnly: kan ikke ses af sidens JavaScript"
+  },
+  "samesite_unspecified": {
+    "message": "Ikke angivet"
+  },
+  "partitioned_chips": {
+    "message": "Partitioneret (CHIPS)"
+  },
+  "top_level_site": {
+    "message": "Websted på øverste niveau"
+  },
+  "no_partition_write": {
+    "message": "Denne version af Chrome kan ikke skrive partitionerede cookies."
+  },
+  "editor_delete_title": {
+    "message": "Slet (kan fortrydes)"
+  },
+  "bytes_of": {
+    "message": "$P1$ / $P2$ bytes",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "access_aria": {
+    "message": "Adgang og indstillinger"
+  },
+  "all_sites_on": {
+    "message": "Alle websteder: til"
+  },
+  "all_sites_on_text": {
+    "message": "CookieDesk kan læse og ændre cookies på alle websteder, også indlejrede."
+  },
+  "turn_off": {
+    "message": "Slå fra"
+  },
+  "all_sites": {
+    "message": "Alle websteder"
+  },
+  "all_sites_text": {
+    "message": "Valgfrit. Ikke flere spørgsmål pr. websted, og indlejrede websteders cookies (reklamer, widgets, login-rammer) vises overalt."
+  },
+  "allow_all_sites": {
+    "message": "Tillad på alle websteder"
+  },
+  "remove_access": {
+    "message": "Fjern adgang til $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "access_lead": {
+    "message": "CookieDesk ser først et websteds cookies, når du tillader det websted, og intet andet: intet sideindhold, ingen historik."
+  },
+  "allowed_sites": {
+    "message": "Tilladte websteder"
+  },
+  "allowed_sites_count": {
+    "message": "Tilladte websteder · $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "all_sites_overrides": {
+    "message": "Adgang til alle websteder er slået til, så disse har ingen betydning, så længe den er det."
+  },
+  "none_yet": {
+    "message": "Ingen endnu."
+  },
+  "toolbar_opens": {
+    "message": "Værktøjslinjeknappen åbner"
+  },
+  "surface_popup": {
+    "message": "Popup"
+  },
+  "surface_sidepanel": {
+    "message": "Sidepanel"
+  },
+  "support_feedback": {
+    "message": "Støtte og feedback"
+  },
+  "thanks_supporting": {
+    "message": "Tak for støtten!"
+  },
+  "report_problem": {
+    "message": "Rapportér et problem"
+  },
+  "source_code": {
+    "message": "Kildekode"
+  },
+  "privacy_line": {
+    "message": "Ingen netværksanmodninger, ingen cookieværdier på disken. Fortryd virker i 10 minutter; kopierne ligger i hukommelsen og forsvinder, når Chrome lukkes, eller inkognitosessionen slutter."
+  },
+  "export_warning": {
+    "message": "Denne fil indeholder aktive sessionscookies. Alle, der har den, kan logge ind som dig på disse websteder. Behandl den som en adgangskode, og slet den, når du er færdig."
+  },
+  "export_json_one": {
+    "message": "Eksportér $P1$ cookie som JSON",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_json_other": {
+    "message": "Eksportér $P1$ cookies som JSON",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_one": {
+    "message": "Eksportér $P1$ cookie som cookies.txt",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_other": {
+    "message": "Eksportér $P1$ cookies som cookies.txt",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_all_one": {
+    "message": "Cookien, der vises for $P2$, kommer med i filen, også hvis den er HttpOnly.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_all_other": {
+    "message": "Alle $P1$ cookies, der vises for $P2$, kommer med i filen, også HttpOnly-cookies.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_partitioned_left_one": {
+    "message": "$P1$ partitioneret cookie er udeladt: cookies.txt kan ikke gemme partitioner. Brug JSON for at beholde den.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_partitioned_left_other": {
+    "message": "$P1$ partitionerede cookies er udeladt: cookies.txt kan ikke gemme partitioner. Brug JSON for at beholde dem.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_too_big": {
+    "message": "Denne fil er $P1$ MB. Cookieeksporter er langt mindre; CookieDesk læser filer op til 5 MB.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "cant_import_unchanged": {
+    "message": "Kan ikke importere denne fil. Intet blev ændret."
+  },
+  "cant_import": {
+    "message": "Kan ikke importere denne fil"
+  },
+  "file_unreadable": {
+    "message": "Filen kunne ikke læses."
+  },
+  "needs_access_one": {
+    "message": "CookieDesk skal have adgang til $P1$ websted mere, før den kan skrive disse cookies:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "needs_access_other": {
+    "message": "CookieDesk skal have adgang til $P1$ websteder mere, før den kan skrive disse cookies:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_allow_all_hint": {
+    "message": "Eller tillad alle websteder under Adgang og indstillinger."
+  },
+  "other_sites": {
+    "message": "Andre websteder ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "other_sites_warning": {
+    "message": "Denne fil skriver også cookies for andre websteder end $P1$. En cookie, der er plantet på et andet websted, kan logge dig ind på den forkerte konto dér. Fortsæt kun, hvis du forventede disse websteder.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_one": {
+    "message": "Skriv også cookies for $P1$ andet websted",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_other": {
+    "message": "Skriv også cookies for $P1$ andre websteder",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partitioned_under_list": {
+    "message": "Partitioneret under: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "warnings_count": {
+    "message": "Advarsler ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_title": {
+    "message": "Importér cookies"
+  },
+  "import_message_one": {
+    "message": "Importér $P1$ cookie? Cookies med samme navn, domæne og sti erstattes. Du kan fortryde hele importen.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_message_other": {
+    "message": "Importér $P1$ cookies? Cookies med samme navn, domæne og sti erstattes. Du kan fortryde hele importen.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_one": {
+    "message": "Kopiér $P1$ cookie som document.cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_other": {
+    "message": "Kopiér $P1$ cookies som document.cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_warning": {
+    "message": "Kodestumpen indeholder aktive sessionscookies. Alle, der har den, kan logge ind som dig på dette websted. Behandl den som en adgangskode."
+  },
+  "snippet_paste": {
+    "message": "Indsæt den i DevTools-konsollen på $P1$ for at sætte disse cookies dér.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_one": {
+    "message": "$P1$ HttpOnly-cookie er udeladt: sidens JavaScript kan ikke sætte den.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_other": {
+    "message": "$P1$ HttpOnly-cookies er udeladt: sidens JavaScript kan ikke sætte dem.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_one": {
+    "message": "Kopierede $P1$ cookie som document.cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_other": {
+    "message": "Kopierede $P1$ cookies som document.cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_name": {
+    "message": "Sættets navn"
+  },
+  "set_name_placeholder": {
+    "message": "fx logget ind som admin"
+  },
+  "save_set_title_one": {
+    "message": "Gem $P1$ cookie som et sæt",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "save_set_title_other": {
+    "message": "Gem $P1$ cookies som et sæt",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_file_note": {
+    "message": "Sættet er en fil på din computer; CookieDesk beholder ingen kopi. Gendan det senere fra menuen på $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "default_set_name": {
+    "message": "Cookiesæt"
+  },
+  "set_too_large": {
+    "message": "Denne fil er for stor til at være et cookiesæt."
+  },
+  "cant_restore_unchanged": {
+    "message": "Kan ikke gendanne dette sæt. Intet blev ændret."
+  },
+  "cant_restore": {
+    "message": "Kan ikke gendanne dette sæt"
+  },
+  "wrong_site_message": {
+    "message": "Dette sæt blev gemt til $P1$. Åbn $P1$, og gendan det dér.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "wrong_site_title": {
+    "message": "Forkert websted. Intet blev ændret."
+  },
+  "foreign_cookies_one": {
+    "message": "$P1$ cookie i denne fil hører til et andet websted ($P2$). Gendannelse af et sæt ændrer kun $P3$; brug Importér til andre websteder.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "foreign_cookies_other": {
+    "message": "$P1$ cookies i denne fil hører til andre websteder ($P2$). Gendannelse af et sæt ændrer kun $P3$; brug Importér til andre websteder.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "plan_write": {
+    "message": "Skriv"
+  },
+  "plan_delete": {
+    "message": "Slet"
+  },
+  "plan_protected": {
+    "message": "Beskyttede, lades som de er"
+  },
+  "restore_title": {
+    "message": "Gendan “$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_nothing": {
+    "message": "$P1$ passer allerede til dette sæt. Intet at ændre.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_message_one": {
+    "message": "Cookies for $P2$ erstattes af $P1$ cookie i dette sæt. Du kan fortryde hele gendannelsen.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "restore_message_other": {
+    "message": "Cookies for $P2$ erstattes af $P1$ cookies i dette sæt. Du kan fortryde hele gendannelsen.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_partition_unsupported": {
+    "message": "“$P1$” er en partitioneret cookie, som denne version af Chrome ikke kan skrive. Opdatér Chrome til 119 eller nyere.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_gone": {
+    "message": "“$P1$” findes ikke længere. Den er måske udløbet eller blevet ændret af webstedet. Indlæs listen igen.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_stored": {
+    "message": "Chrome accepterede “$P1$”, men gemte den ikke.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_imprecise_delete_one": {
+    "message": "Chrome kan kun slette “$P2$” sammen med $P1$ anden cookie med samme navn, så CookieDesk sletter den ikke.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_imprecise_delete_other": {
+    "message": "Chrome kan kun slette “$P2$” sammen med $P1$ andre cookies med samme navn, så CookieDesk sletter den ikke.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_delete": {
+    "message": "Chrome accepterer ikke længere “$P1$”, som den er gemt, så når den er slettet, kan den ikke sættes tilbage. Slet den uden fortryd?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_removed": {
+    "message": "Kunne ikke slette “$P1$”.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_no_permission": {
+    "message": "CookieDesk har ikke adgang til $P1$. Giv først adgang til dette websted.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_secure_shadow": {
+    "message": "Der findes allerede en Secure-cookie med navnet “$P1$” for $P2$. Chrome lader ikke en cookie uden Secure med samme navn erstatte den eller ligge ved siden af den. Slå Secure til, eller brug et andet navn.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_rejected": {
+    "message": "Chrome afviste “$P1$” uden at give en grund. Intet blev ændret.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_irreversible_replace_one": {
+    "message": "Chrome accepterer ikke længere $P2$, som den er gemt, så når den er erstattet, kan den ikke sættes tilbage. Fortsætte uden fortryd for den?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_replace_other": {
+    "message": "Chrome accepterer ikke længere $P2$, som de er gemt, så når de er erstattet, kan de ikke sættes tilbage. Fortsætte uden fortryd for dem?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_too_large_to_undo": {
+    "message": "Denne ændring berører for mange data ($P1$ KB) til at gemme en fortrydkopi. Fortsætte uden fortryd?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_duplicate_in_file": {
+    "message": "Filen indeholder “$P1$” to gange for samme domæne og sti.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_undo_expired": {
+    "message": "Intet at fortryde – fortryd gemmes i 10 minutter."
+  },
+  "err_undo_conflict": {
+    "message": "$P1$ blev ændret efter “$P2$”. Hvis du fortryder nu, overskrives den nyere værdi. Fortryd alligevel?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_incomplete": {
+    "message": "Ufuldstændig: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_added": {
+    "message": "Tilføjede “$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_edited": {
+    "message": "Redigerede “$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted": {
+    "message": "Slettede “$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_expired": {
+    "message": "Slettede “$P1$” (udløb i fortiden)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_one": {
+    "message": "Slettede $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_other": {
+    "message": "Slettede $P1$ cookies",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_one": {
+    "message": "Importerede $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_other": {
+    "message": "Importerede $P1$ cookies",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_undid": {
+    "message": "Fortrød: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_saved": {
+    "message": "Gemte “$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_draft": {
+    "message": "Cookien skal være et objekt med name, value, domain og path."
+  },
+  "v_name_type": {
+    "message": "Cookiens navn skal være tekst."
+  },
+  "v_value_type": {
+    "message": "Cookiens værdi skal være tekst."
+  },
+  "v_domain_type": {
+    "message": "Domænet skal være tekst."
+  },
+  "v_path_type": {
+    "message": "Stien skal være tekst."
+  },
+  "v_flag_type": {
+    "message": "$P1$ skal være sand eller falsk.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_samesite": {
+    "message": "SameSite skal være en af $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_name_control": {
+    "message": "Navnet indeholder kontroltegn (som linjeskift eller tabulator), som cookies ikke kan indeholde."
+  },
+  "v_name_semicolon": {
+    "message": "Navnet indeholder “;”, som ville afslutte cookien for tidligt."
+  },
+  "v_name_equals": {
+    "message": "Navnet indeholder “=”, som i en cookie adskiller navnet fra værdien."
+  },
+  "v_value_control": {
+    "message": "Værdien indeholder kontroltegn (som linjeskift eller tabulator), som cookies ikke kan indeholde."
+  },
+  "v_value_semicolon": {
+    "message": "Værdien indeholder “;”, som ville afslutte cookien for tidligt. Kod den (for eksempel med encodeURIComponent)."
+  },
+  "v_empty_cookie": {
+    "message": "En cookie skal have et navn eller en værdi; begge er tomme."
+  },
+  "v_empty_name": {
+    "message": "Denne cookie har et tomt navn. Nogle websteder og værktøjer håndterer cookies uden navn dårligt."
+  },
+  "v_too_large": {
+    "message": "Navn og værdi er tilsammen $P1$ bytes (UTF-8); Chrome tillader højst $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "v_path_slash": {
+    "message": "Stien skal begynde med “/”."
+  },
+  "v_path_too_long": {
+    "message": "Stien er længere end $P1$ bytes.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_path_chars": {
+    "message": "Stien indeholder kontroltegn eller “;”, som cookies ikke kan indeholde."
+  },
+  "v_domain_empty": {
+    "message": "Domænet er tomt. Angiv det websted, cookien hører til, for eksempel example.com."
+  },
+  "v_domain_too_long": {
+    "message": "Domænet er længere end $P1$ bytes.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_domain_invalid": {
+    "message": "Domænet er ikke et gyldigt værtsnavn. Brug bogstaver, cifre og bindestreger adskilt af punktummer (internationale navne skal være i punycode, som xn--...)."
+  },
+  "v_domain_leading_dot": {
+    "message": "En cookie, der kun gælder værten, kan ikke have et indledende punktum i domænet; punktummet betyder, at cookien også gælder underdomæner."
+  },
+  "v_domain_public_suffix": {
+    "message": "“$P1$” er et offentligt suffiks (et domæne styret af et register, som .com eller .co.uk), så browsere afviser cookies, der gælder for hele det.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_samesite_none_insecure": {
+    "message": "SameSite=None-cookies skal være Secure, ellers afviser Chrome dem. Slå Secure til, eller vælg en anden SameSite."
+  },
+  "v_partitioned_insecure": {
+    "message": "Partitionerede cookies skal være Secure, ellers afviser Chrome dem. Slå Secure til, eller fjern partitionen."
+  },
+  "v_prefix_secure": {
+    "message": "Cookies med navne, der begynder med “$P1$...”, skal være Secure. Slå Secure til, eller omdøb cookien.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_host_prefix_domain": {
+    "message": "Cookies med navne, der begynder med “__Host-...”, skal gælde kun værten (ingen Domain-egenskab, altså ingen deling med underdomæner). Slå kun værten til, eller omdøb cookien."
+  },
+  "v_host_prefix_path": {
+    "message": "Cookies med navne, der begynder med “__Host-...”, skal have stien “/”."
+  },
+  "v_bad_expiration": {
+    "message": "Udløbstiden skal være et endeligt antal sekunder siden 1970."
+  },
+  "v_expired_deletes": {
+    "message": "Hvis du gemmer med en udløbstid i fortiden, slettes denne cookie."
+  },
+  "v_clamped": {
+    "message": "Chrome begrænser en cookies levetid til $P1$ dage; en senere udløbstid forkortes ved gemning.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_expiration_missing": {
+    "message": "En cookie, der ikke er en sessionscookie, skal have en udløbsdato. Vælg en, eller markér cookien som sessionscookie."
+  },
+  "v_partition_type": {
+    "message": "Partitionsnøglen skal være et objekt med en topLevelSite."
+  },
+  "v_partition_site_type": {
+    "message": "Partitionens websted på øverste niveau skal være tekst som https://example.com."
+  },
+  "v_partition_site_form": {
+    "message": "Partitionens websted på øverste niveau skal se ud som https://example.com (https, ingen sti eller port)."
+  },
+  "v_partition_flag": {
+    "message": "Partitionens hasCrossSiteAncestor skal være sand eller falsk."
+  },
+  "v_partition_cross_site": {
+    "message": "Cookiens domæne ligger ikke på samme websted som $P1$, så Chrome kræver, at hasCrossSiteAncestor er sand for den.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_other_site": {
+    "message": "Denne cookies domæne ($P1$) ligger uden for det aktuelle websted ($P2$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_entry": {
+    "message": "Post $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_entry_named": {
+    "message": "Post $P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_bad_samesite": {
+    "message": "$P1$: sameSite er ikke en af no_restriction, lax, strict, unspecified.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bool": {
+    "message": "$P1$: “$P2$” skal være sand eller falsk.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_text": {
+    "message": "$P1$: “$P2$” skal være tekst.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_not_object": {
+    "message": "$P1$ er ikke et cookieobjekt.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_expiration_type": {
+    "message": "$P1$: “expirationDate” skal være et tal.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_key": {
+    "message": "$P1$: partitionKey skal være et objekt med en topLevelSite i tekst.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_flag": {
+    "message": "$P1$: partitionKey.hasCrossSiteAncestor skal være sand eller falsk.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_line": {
+    "message": "Linje $P1$ er ikke en cookies.txt-post (forventede 7 tabulatoradskilte felter, fandt $P2$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_line_flag_subdomains": {
+    "message": "Linje $P1$: flaget for underdomæner skal være TRUE eller FALSE.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_flag_secure": {
+    "message": "Linje $P1$: secure-flaget skal være TRUE eller FALSE.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_expiry": {
+    "message": "Linje $P1$: udløbstiden skal være et helt antal sekunder.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_not_text": {
+    "message": "Filen kunne ikke læses som tekst."
+  },
+  "io_too_large": {
+    "message": "Filen er større end importgrænsen på $P1$ bytes.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_json": {
+    "message": "Filen ligner JSON, men kunne ikke fortolkes."
+  },
+  "io_bad_version": {
+    "message": "Denne CookieDesk-fil har en version, der ikke understøttes."
+  },
+  "io_no_cookie_list": {
+    "message": "CookieDesk-filen har ingen “cookies”-liste."
+  },
+  "io_unknown_format": {
+    "message": "Denne JSON er hverken en CookieDesk-eksport eller en liste over cookies."
+  },
+  "io_no_cookies": {
+    "message": "Filen indeholder ingen cookies."
+  },
+  "io_too_many": {
+    "message": "Filen har $P1$ cookies; grænsen er $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_issue": {
+    "message": "$P1$: $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_duplicate": {
+    "message": "$P1$: en anden post har samme navn, domæne, sti og partition.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "when": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "when_passed": {
+    "message": "allerede passeret"
+  },
+  "when_under_day": {
+    "message": "om mindre end et døgn"
+  },
+  "explain_third_party": {
+    "message": "Sat af $P1$, et andet websted end $P2$: en tredjepartscookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_third_party_partitioned": {
+    "message": "Sat af $P1$, et andet websted end $P2$: en tredjepartscookie, der ligger i partitionen for $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_host_prefix": {
+    "message": "Præfikset __Host- får Chrome til at kræve Secure, ingen Domain-egenskab og Path=/, så intet underdomæne kan sætte eller erstatte den."
+  },
+  "explain_secure_prefix": {
+    "message": "Præfikset __Secure- får Chrome til kun at acceptere den med Secure-flaget."
+  },
+  "explain_scope_host": {
+    "message": "Sendes kun til $P1$ selv, ikke til dets underdomæner.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_scope_domain": {
+    "message": "Sendes til $P1$ og alle dets underdomæner (som www.$P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_path_all": {
+    "message": "Sendes med anmodninger til alle stier på den vært."
+  },
+  "explain_path_under": {
+    "message": "Sendes kun med anmodninger til stier under $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_secure": {
+    "message": "Secure: sendes kun over HTTPS."
+  },
+  "explain_not_secure": {
+    "message": "Ikke Secure: sendes også over almindelig HTTP, hvor alle på netværket kan læse den."
+  },
+  "explain_httponly": {
+    "message": "HttpOnly: kan ikke ses af sidens JavaScript (document.cookie kan ikke læse den), hvilket holder den væk fra indsprøjtede scripts."
+  },
+  "explain_script_readable": {
+    "message": "Kan læses og ændres af ethvert script, der kører på siden."
+  },
+  "explain_samesite_none": {
+    "message": "SameSite=None: kan også sendes med anmodninger mellem websteder (indlejrede rammer, billeder, anmodninger fra andre websteder), hvor Chrome overhovedet tillader tredjepartscookies (inkognito blokerer dem som standard). Derfor skal den være Secure."
+  },
+  "explain_samesite_lax": {
+    "message": "SameSite=Lax: sendes, når du navigerer til webstedet, også fra et link på et andet websted, men ikke med anmodninger, som andre websteders sider laver i baggrunden."
+  },
+  "explain_samesite_strict": {
+    "message": "SameSite=Strict: sendes kun, når du allerede er på samme websted. Når du kommer fra et link på et andet websted, går den første anmodning uden den."
+  },
+  "explain_samesite_unset": {
+    "message": "Ingen SameSite-egenskab: Chrome behandler det som Lax."
+  },
+  "explain_session": {
+    "message": "En sessionscookie: slettes, når browseren lukkes (medmindre Chrome gendanner din forrige session ved start)."
+  },
+  "explain_expires": {
+    "message": "Udløber $P1$. Chrome begrænser enhver udløbstid til 400 dage fra den seneste gang, cookien blev sat.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition": {
+    "message": "Partitioneret (CHIPS): gemmes separat for hvert websted på øverste niveau. Denne kopi sendes kun, mens $P1$ er webstedet i adresselinjen.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition_cross": {
+    "message": "Den ligger i den del af partitionen, der gælder mellem websteder (bruges, når et andet websted sidder mellem siden og cookiens websted), adskilt fra delen for samme websted."
+  },
+  "explain_partition_same": {
+    "message": "Den ligger i den del af partitionen, der gælder samme websted, adskilt fra delen mellem websteder."
+  },
+  "explain_partition_other": {
+    "message": "Det samme cookienavn under et andet websted er en anden cookie."
+  },
+  "explain_jwt": {
+    "message": "Værdien ligner et JSON Web Token."
+  },
+  "explain_jwt_exp": {
+    "message": "Værdien ligner et JSON Web Token; selve tokenet siger, at det udløber $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_size": {
+    "message": "$P1$ af de 4096 bytes, Chrome tillader til navn og værdi tilsammen.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

@@ -115,6 +115,17 @@ Limits, stated plainly:
 - **What this cookie does.** The editor explains the cookie as stored: who it's sent to, over what, with which cross-site rules, until when, in which partition, how much of the 4096-byte limit it uses, and whether its value looks like a JSON Web Token (with that token's own expiry).
 - **Export formats.** CookieDesk JSON, Netscape `cookies.txt`, and "Copy as document.cookie…": a snippet for the DevTools console, copied to the clipboard after the same credential warning. HttpOnly cookies can't be set from JavaScript, so they are left out and named in the snippet.
 
+## Support and ratings
+
+CookieDesk is free. The heart in the header, "Support on Ko-fi" in the ⋯ menu and "Buy me a coffee" in Access & settings open [ko-fi.com/buildwithiliass](https://ko-fi.com/buildwithiliass) in a new tab. Nothing is locked behind it.
+
+CookieDesk asks at most rarely, with one card at a time at the bottom of the list:
+
+- **Tip card** (`src/ui/support.js`): after 10, 40, 120, 300, 700 and 1500 successful changes, once per milestone. "Later" waits 7, 21, 45, then 90 days, and after four "Later"s it never asks again. After a Ko-fi click it asks once, between 90 seconds and 7 days later, whether you did; "Yes, I did" ends the asking for good.
+- **Rating card** (`src/ui/rating.js`): only for copies installed from a store, only after 3 days installed, 3 active days and 5 successful changes, only within a day of a successful change and never within 3 days of an error. At most three asks ("Later" waits 3 weeks, then 2 months); any star opens the store's review page, and after that it never asks again. While a rating card is up, or for 3 days after you answered one, the tip card stays away.
+
+Both read a small usage record in `chrome.storage.local`: install time, number of successful changes, active days, and the times of the last change and the last error. No sites, no cookie data, and nothing is sent anywhere.
+
 ## Security and privacy
 
 - No cookie value is logged, persisted (apart from the in-memory journal above) or transmitted. `test/unit/no-network.test.mjs` also fails the build on any `console.log/info/debug` under `src/`.
@@ -130,7 +141,7 @@ See `PRIVACY.md` for the policy.
 
 - Nothing in `src/` calls `fetch`, `XMLHttpRequest`, `WebSocket`, `EventSource`, `sendBeacon` or `importScripts`, and there are no remote scripts, fonts, images or stylesheets. `test/unit/no-network.test.mjs` is a static guard over `manifest.json` and every `.js/.json/.html/.css` file in `src/`.
 - The manifest has no host access by default and no content scripts.
-- The Access screen has a "Source code" link to this repository. It is a plain link you can click; nothing is fetched from it.
+- The Access screen links to this repository and its issues, and the heart, "Support on Ko-fi" and "Rate CookieDesk" open Ko-fi or the store page in a new tab. All of these happen only when you click, as ordinary navigation; nothing is fetched by the extension.
 
 To check it yourself:
 
@@ -144,18 +155,26 @@ To check it yourself:
 | Command | What it does |
 |---|---|
 | `npm test` | Unit tests (`node --test test/unit/`), including the no-network guard. No browser needed. |
-| `npm run test:e2e` | Engine, UI, robustness, P1 and P2 feature suites in real Chrome. Needs Chrome installed. Uses HTTPS fixtures on `*.test` hosts mapped with `--host-resolver-rules`, in a throwaway profile. |
+| `npm run test:e2e` | Engine, UI, robustness, P1, P2 and support/rating suites in real Chrome. Needs Chrome installed. Uses HTTPS fixtures on `*.test` hosts mapped with `--host-resolver-rules`, in a throwaway profile. |
 | `npm run test:permissions` | Interactive. A visible Chrome opens and you click Allow on the real permission prompts. |
 | `npm run get-old-chrome` then `npm run test:old-chrome` | Downloads Chrome for Testing 116, 119 and 131 (dev only), then runs acceptance test 5 on them. |
-| `npm run icons` / `npm run build` | Render `assets/icon.svg` to `icons/`; zip the extension into `dist/`. |
+| `npm run icons` / `npm run build` | Render `assets/icon.svg` to `icons/`; rebuild `_locales/` and the listing paste helper, then zip the extension into `dist/`. |
+| `npm run locales` | Build `_locales/<lang>/messages.json` from `i18n/<lang>.json` and check every language against English (keys, placeholders, store length caps). |
 
 `test/manual-checklist.md` maps all 21 acceptance tests, plus the P1 and P2 features, to how each is covered and its status, including the ones that are only partly automated.
+
+## Languages
+
+CookieDesk follows Chrome's UI language, in the 51 languages the Chrome Web Store supports. Strings live in `i18n/<lang>.json` (flat key → text, `$1` placeholders, `_one` / `_other` plurals); `npm run locales` turns them into `_locales/` and writes the English fallback `src/lib/i18n-en.js`. Code reads them with `t()` and `tn()` from `src/lib/i18n.js`, and the HTML with `data-i18n` attributes. The unit tests fail if a language misses a key, changes a placeholder, or the code uses a key English doesn't have. Store descriptions are in `store-listings/<lang>.md`; `npm run paste-helper` builds `store-listings/paste-helper.html`, one page with a Copy button per language for the dashboard.
 
 ## Project layout
 
 ```
 manifest.json
+_locales/             built from i18n/ (npm run locales)
+i18n/                 UI strings per language; en.json is the source
 src/
+  lib/i18n.js         t(), tn(), localizeDom(), with a bundled English fallback
   background/sw.js    stateless service worker (toolbar behaviour, journal pruning)
   popup/popup.html    thin host for the shared UI
   ui/                 one UI, rendered in popup and side panel
@@ -171,6 +190,7 @@ src/
 icons/                toolbar and store icons (from assets/icon.svg)
 scripts/              dev only: build-psl (downloads the PSL), build-icons, build, get-old-chrome
 store/listing.md      every Chrome Web Store dashboard field, ready to paste
+store-listings/       the store description in 51 languages, plus paste-helper.html
 CHANGELOG.md          release notes
 test/                 unit, e2e, manual-checklist.md
 docs/core-contract.md module interfaces

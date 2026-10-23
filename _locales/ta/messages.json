@@ -1,0 +1,2215 @@
+{
+  "extension_name": {
+    "message": "குக்கீ எடிட்டர்: குக்கீகளைப் பார்க்க, திருத்த, நீக்க | CookieDesk"
+  },
+  "extension_description": {
+    "message": "ஒவ்வொரு தளத்தின் குக்கீகளையும் பார்க்க, திருத்த, சேர்க்க, நீக்க. தேடல், இறக்குமதி/ஏற்றுமதி, பகிர்வு குக்கீகள். விளம்பரம் இல்லை."
+  },
+  "btn_ok": {
+    "message": "சரி"
+  },
+  "btn_cancel": {
+    "message": "ரத்துசெய்"
+  },
+  "btn_close": {
+    "message": "மூடு"
+  },
+  "btn_delete": {
+    "message": "நீக்கு"
+  },
+  "btn_copy": {
+    "message": "நகலெடு"
+  },
+  "btn_save": {
+    "message": "சேமி"
+  },
+  "btn_export": {
+    "message": "ஏற்றுமதி செய்"
+  },
+  "btn_later": {
+    "message": "பிறகு"
+  },
+  "dismiss": {
+    "message": "மூடு"
+  },
+  "back": {
+    "message": "பின்செல்"
+  },
+  "back_esc": {
+    "message": "பின்செல் (Esc)"
+  },
+  "back_to_list": {
+    "message": "பட்டியலுக்குத் திரும்பு"
+  },
+  "title_count": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "empty_name": {
+    "message": "(பெயர் இல்லை)"
+  },
+  "empty_value": {
+    "message": "(மதிப்பு இல்லை)"
+  },
+  "empty_short": {
+    "message": "(காலி)"
+  },
+  "names_more": {
+    "message": "$P1$ மற்றும் மேலும் $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "done": {
+    "message": "முடிந்தது"
+  },
+  "undo": {
+    "message": "செயல்தவிர்"
+  },
+  "undo_nothing": {
+    "message": "செயல்தவிர்க்க எதுவும் இல்லை"
+  },
+  "undo_entry": {
+    "message": "செயல்தவிர்: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_interrupted": {
+    "message": "செயல்தவிர்ப்பு தடைபட்டது: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "redo_entry": {
+    "message": "மீண்டும் செய்: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "support_title": {
+    "message": "Ko-fi-யில் CookieDesk-ஐ ஆதரியுங்கள்"
+  },
+  "supporter_title": {
+    "message": "CookieDesk-ஐ ஆதரித்ததற்கு நன்றி!"
+  },
+  "add_cookie": {
+    "message": "குக்கீ சேர்"
+  },
+  "add_cookie_title": {
+    "message": "குக்கீ சேர் (n)"
+  },
+  "more_actions": {
+    "message": "மேலும் செயல்கள்"
+  },
+  "menu_group_transfer": {
+    "message": "ஏற்றுமதியும் இறக்குமதியும்"
+  },
+  "menu_group_sets": {
+    "message": "குக்கீ தொகுப்புகள்"
+  },
+  "export_json_title": {
+    "message": "JSON ஆக ஏற்றுமதி செய்"
+  },
+  "export_txt_title": {
+    "message": "Netscape cookies.txt ஆக ஏற்றுமதி செய்"
+  },
+  "tile_snippet": {
+    "message": "ஸ்னிப்பெட்"
+  },
+  "tile_snippet_title": {
+    "message": "document.cookie ஸ்னிப்பெட்டாக நகலெடு"
+  },
+  "tile_import": {
+    "message": "இறக்குமதி"
+  },
+  "tile_import_title": {
+    "message": "JSON அல்லது cookies.txt இறக்குமதி செய்"
+  },
+  "tile_save_set": {
+    "message": "தொகுப்பைச் சேமி"
+  },
+  "tile_save_set_title": {
+    "message": "இந்தக் குக்கீகளைப் பெயரிட்ட தொகுப்புக் கோப்பாகச் சேமி"
+  },
+  "tile_restore": {
+    "message": "மீட்டெடு"
+  },
+  "tile_restore_title": {
+    "message": "சேமித்த தொகுப்பை மீட்டெடு (முதலில் முன்னோட்டம்)"
+  },
+  "tile_compare": {
+    "message": "ஒப்பிடு"
+  },
+  "tile_compare_title": {
+    "message": "சேமித்த தொகுப்பை இப்போதைய நிலையுடன், அல்லது இரண்டு தொகுப்புகளை ஒப்பிடு"
+  },
+  "tile_copy_to": {
+    "message": "இதில் நகலெடு…"
+  },
+  "tile_copy_to_title": {
+    "message": "காட்டப்படும் குக்கீகளை மற்றொரு ஸ்டோரில் நகலெடு (இயல்பு ↔ மறைநிலை)"
+  },
+  "menu_bulk_delete": {
+    "message": "காட்டப்படும் குக்கீகளை நீக்கு…"
+  },
+  "menu_access": {
+    "message": "அணுகலும் அமைப்புகளும்"
+  },
+  "menu_shortcuts": {
+    "message": "குறுக்குவழிகள்"
+  },
+  "menu_sidepanel": {
+    "message": "பக்கப் பலகத்தில் திற"
+  },
+  "menu_rate": {
+    "message": "CookieDesk-க்கு மதிப்பிடு"
+  },
+  "menu_support": {
+    "message": "Ko-fi-யில் ஆதரி"
+  },
+  "search_placeholder": {
+    "message": "குக்கீகளைத் தேடு"
+  },
+  "search_label": {
+    "message": "பெயர், மதிப்பு அல்லது டொமைன் மூலம் குக்கீகளை வடிகட்டு"
+  },
+  "search_title": {
+    "message": "பெயர், மதிப்பு அல்லது டொமைன் மூலம் வடிகட்டு"
+  },
+  "cookie_store": {
+    "message": "குக்கீ ஸ்டோர்"
+  },
+  "cookies_list": {
+    "message": "குக்கீகள்"
+  },
+  "restricted_page": {
+    "message": "தடைசெய்யப்பட்ட பக்கம்"
+  },
+  "loading": {
+    "message": "ஏற்றுகிறது…"
+  },
+  "state_unknown": {
+    "message": "இந்தத் தாவலின் குக்கீகளைக் காட்ட, கருவிப்பட்டியில் உள்ள CookieDesk பொத்தானைக் கிளிக் செய்யுங்கள்."
+  },
+  "state_unknown_hint": {
+    "message": "அந்தக் கிளிக்கிற்குப் பிறகே, அல்லது நீங்கள் அனுமதித்த தளங்களுக்கே, Chrome தாவலின் முகவரியைப் பகிரும்."
+  },
+  "state_error": {
+    "message": "ஏதோ தவறு நடந்தது: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "state_no_access": {
+    "message": "$P1$ தளத்தை அணுக CookieDesk-க்கு இன்னும் அனுமதி இல்லை.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "grant_site": {
+    "message": "$P1$ தளத்தில் அனுமதி",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "chrome_will_ask": {
+    "message": "Chrome கேட்கும்:"
+  },
+  "prompt_site": {
+    "message": "எல்லா $P1$ தளங்களிலும் உள்ள உங்கள் தரவைப் படிக்கவும் மாற்றவும்",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "prompt_all": {
+    "message": "எல்லா இணையதளங்களிலும் உள்ள உங்கள் எல்லாத் தரவையும் படிக்கவும் மாற்றவும்"
+  },
+  "only_this_site": {
+    "message": "இந்தத் தளத்தின் குக்கீகள் மட்டும், வேறெதுவும் இல்லை."
+  },
+  "allow_all_instead": {
+    "message": "அதற்குப் பதிலாக எல்லாத் தளங்களையும் அனுமதி"
+  },
+  "restricted_browser": {
+    "message": "இது Chrome பக்கம். இங்குள்ள குக்கீகளைப் படிக்கவோ மாற்றவோ எந்த நீட்டிப்பையும் Chrome அனுமதிக்காது."
+  },
+  "restricted_webstore": {
+    "message": "இது Chrome Web Store. எல்லா நீட்டிப்புகளையும் Chrome இங்கே தடுக்கிறது, அதனால் இதன் குக்கீகளைக் காட்ட முடியாது."
+  },
+  "restricted_extension": {
+    "message": "இது ஒரு நீட்டிப்பின் சொந்தப் பக்கம். இதன் சேமிப்பகம் இணையதளக் குக்கீகள் அல்ல, அதனால் காட்ட எதுவும் இல்லை."
+  },
+  "restricted_file": {
+    "message": "இது உள்ளூர்க் கோப்பு. வட்டிலிருந்து திறந்த கோப்புகளில் குக்கீகள் இருக்காது."
+  },
+  "restricted_other": {
+    "message": "இந்தப் பக்கம் இணையதளம் அல்ல (எ.கா. வெற்று அல்லது data: பக்கம்), அதனால் இதில் குக்கீகள் இல்லை."
+  },
+  "live_just_now": {
+    "message": "இப்போதுதான்: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "note_third_party": {
+    "message": "உட்பொதிந்த தளங்களின் குக்கீகள், நீங்கள் அனுமதித்த தளங்களுக்கு மட்டுமே காட்டப்படும்."
+  },
+  "note_no_partitions": {
+    "message": "உங்கள் Chrome பதிப்பு பகிர்வு குக்கீகளைக் காட்ட முடியாது, அதனால் இந்தப் பட்டியல் முழுமையற்றதாக இருக்கலாம்."
+  },
+  "empty_no_match": {
+    "message": "“$P1$” உடன் பொருந்தும் குக்கீகள் இல்லை.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "empty_none": {
+    "message": "$P1$ தளத்துக்குக் குக்கீகள் இல்லை.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clear_search": {
+    "message": "தேடலை அழி"
+  },
+  "change_changed": {
+    "message": "$P1$ மாறியது",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_added": {
+    "message": "$P1$ சேர்க்கப்பட்டது",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_removed": {
+    "message": "$P1$ நீக்கப்பட்டது",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_one": {
+    "message": "$P1$ குக்கீ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_other": {
+    "message": "$P1$ குக்கீகள்",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_filtered_one": {
+    "message": "$P1$ குக்கீயில் $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_filtered_other": {
+    "message": "$P1$ குக்கீகளில் $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_partitioned": {
+    "message": "$P1$ பகிர்வு",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "store_default": {
+    "message": "இயல்பு"
+  },
+  "store_incognito": {
+    "message": "மறைநிலை"
+  },
+  "store_n": {
+    "message": "ஸ்டோர் $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "session": {
+    "message": "அமர்வு"
+  },
+  "expired": {
+    "message": "காலாவதியானது"
+  },
+  "expiry_under_minute": {
+    "message": "ஒரு நிமிடத்துக்குள்"
+  },
+  "expiry_on_close": {
+    "message": "உலாவியை மூடும்போது நீக்கப்படும்"
+  },
+  "expires_at": {
+    "message": "காலாவதி: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "badge_protected": {
+    "message": "பாதுகாக்கப்பட்டது: மொத்த நீக்கம், இறக்குமதி, தொகுப்பு மீட்பு இதைத் தொடாது (p)"
+  },
+  "hint_httponly": {
+    "message": "HttpOnly: பக்கத்தின் JavaScript-க்குத் தெரியாது (document.cookie இதைப் படிக்க முடியாது)"
+  },
+  "hint_secure": {
+    "message": "Secure: HTTPS வழியாக மட்டுமே அனுப்பப்படும்"
+  },
+  "hint_samesite_none": {
+    "message": "SameSite=None: தளங்களுக்கு இடையிலான கோரிக்கைகளுடனும் அனுப்பப்படும்"
+  },
+  "hint_samesite_lax": {
+    "message": "SameSite=Lax: மேல்நிலை வழிசெலுத்தலில் அனுப்பப்படும், தளங்களுக்கு இடையிலான துணைக் கோரிக்கைகளில் அல்ல"
+  },
+  "hint_samesite_strict": {
+    "message": "SameSite=Strict: அதே தளக் கோரிக்கைகளுடன் மட்டுமே அனுப்பப்படும்"
+  },
+  "badge_partitioned": {
+    "message": "பகிர்வு"
+  },
+  "partitioned_under": {
+    "message": "$P1$ கீழ் பகிர்வு",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partition_this_site": {
+    "message": "இந்தத் தளம்"
+  },
+  "partition_cross_site": {
+    "message": "$P1$, தளங்களுக்கு இடையிலான சூழல்",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "row_protected": {
+    "message": "பாதுகாக்கப்பட்டது"
+  },
+  "row_unprotect_title": {
+    "message": "பாதுகாப்பை நீக்கு (p)"
+  },
+  "row_protect_title": {
+    "message": "மொத்த நீக்கம், இறக்குமதி, தொகுப்பு மீட்பிலிருந்து பாதுகாக்க (p)"
+  },
+  "copy_value": {
+    "message": "மதிப்பை நகலெடு"
+  },
+  "copied": {
+    "message": "நகலெடுக்கப்பட்டது"
+  },
+  "copy_value_title": {
+    "message": "மதிப்பை நகலெடு (c)"
+  },
+  "row_delete_title": {
+    "message": "நீக்கு (Del) — செயல்தவிர்க்கலாம்"
+  },
+  "irreversible_title": {
+    "message": "இதைச் செயல்தவிர்க்க முடியாது"
+  },
+  "continue_no_undo": {
+    "message": "செயல்தவிர்ப்பு இல்லாமல் தொடர்"
+  },
+  "undo_anyway_title": {
+    "message": "ஆனாலும் செயல்தவிர்க்கவா?"
+  },
+  "undo_anyway": {
+    "message": "ஆனாலும் செயல்தவிர்"
+  },
+  "undone": {
+    "message": "செயல்தவிர்க்கப்பட்டது: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_skipped": {
+    "message": "சில குக்கீகள் ஏற்கெனவே காலாவதியாகிவிட்டதால் மீட்கப்படவில்லை: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_refused": {
+    "message": "இவற்றை முன்பிருந்தபடி Chrome இனி ஏற்காது, அதனால் மீட்கப்படவில்லை: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clipboard_failed": {
+    "message": "நகலெடுக்க முடியவில்லை: இங்கே கிளிப்போர்டு கிடைக்கவில்லை."
+  },
+  "protected_on": {
+    "message": "\"$P1$\" பாதுகாக்கப்பட்டது: மொத்த நீக்கம், இறக்குமதி, தொகுப்பு மீட்பு இதைத் தொடாது.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_off": {
+    "message": "\"$P1$\" இனி பாதுகாக்கப்படவில்லை.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protect_limit": {
+    "message": "அதிகபட்சம் $P1$ குக்கீகளைப் பாதுகாக்கலாம். முதலில் சிலவற்றின் பாதுகாப்பை நீக்குங்கள்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_named": {
+    "message": "\"$P1$\" ஐ நீக்கவா?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_protected_message": {
+    "message": "இந்தக் குக்கீ பாதுகாக்கப்பட்டது. ஆனாலும் நீக்கவா? இதைச் செயல்தவிர்க்கலாம்."
+  },
+  "nothing_to_delete": {
+    "message": "நீக்க எதுவும் இல்லை"
+  },
+  "all_shown_protected_one": {
+    "message": "காட்டப்படும் குக்கீ பாதுகாக்கப்பட்டது."
+  },
+  "all_shown_protected_other": {
+    "message": "காட்டப்படும் எல்லா $P1$ குக்கீகளும் பாதுகாக்கப்பட்டவை.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "no_cookies_shown": {
+    "message": "காட்டப்படும் குக்கீகள் இல்லை."
+  },
+  "bulk_title_one": {
+    "message": "$P1$ குக்கீயை நீக்கவா?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_title_other": {
+    "message": "$P1$ குக்கீகளை நீக்கவா?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_match": {
+    "message": "இந்தக் குக்கீகள் $P2$ தளத்தில் \"$P1$\" உடன் பொருந்துகின்றன. இதைச் செயல்தவிர்க்கலாம்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "bulk_all": {
+    "message": "$P1$ தளத்துக்குப் பட்டியலிடப்பட்ட ஒவ்வொரு குக்கீயும். இதைச் செயல்தவிர்க்கலாம்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_one": {
+    "message": "$P1$ பாதுகாக்கப்பட்ட குக்கீ வைக்கப்படும்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_other": {
+    "message": "$P1$ பாதுகாக்கப்பட்ட குக்கீகள் வைக்கப்படும்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_one": {
+    "message": "$P1$ குக்கீயை நீக்கு",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_other": {
+    "message": "$P1$ குக்கீகளை நீக்கு",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_to": {
+    "message": "இதில் நகலெடு"
+  },
+  "copy_to_default_note": {
+    "message": "இயல்பு ஸ்டோரில் நகலெடுக்கப்பட்ட குக்கீகள், மற்ற குக்கீகளைப் போலவே வட்டில் இருக்கும்; இந்த மறைநிலை அமர்வு முடிந்த பிறகும் இருக்கும்."
+  },
+  "copy_to_incognito_note": {
+    "message": "மறைநிலை ஸ்டோரில் நகலெடுக்கப்பட்ட குக்கீகள் அந்த மறைநிலை அமர்வுடன் முடிவடையும்."
+  },
+  "copy_title_one": {
+    "message": "$P1$ குக்கீயை நகலெடு",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_title_other": {
+    "message": "$P1$ குக்கீகளை நகலெடு",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_from": {
+    "message": "$P1$ ஸ்டோரிலிருந்து, இதற்கு:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_replace_note": {
+    "message": "அங்கே அதே பெயர், டொமைன், பாதை கொண்ட குக்கீகள் மாற்றப்படும், பாதுகாக்கப்பட்டவை தவிர. நகலெடுப்பைச் செயல்தவிர்க்கலாம்."
+  },
+  "label_copied_one": {
+    "message": "$P1$ குக்கீ $P2$ இல் நகலெடுக்கப்பட்டது",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_copied_other": {
+    "message": "$P1$ குக்கீகள் $P2$ இல் நகலெடுக்கப்பட்டன",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_kept_one": {
+    "message": "அங்குள்ள $P1$ பாதுகாக்கப்பட்ட குக்கீ அப்படியே விடப்பட்டது.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_kept_other": {
+    "message": "அங்குள்ள $P1$ பாதுகாக்கப்பட்ட குக்கீகள் அப்படியே விடப்பட்டன.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_done_one": {
+    "message": "$P1$ குக்கீ $P2$ இல் நகலெடுக்கப்பட்டது.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_done_other": {
+    "message": "$P1$ குக்கீகள் $P2$ இல் நகலெடுக்கப்பட்டன.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_undo_hint": {
+    "message": "இங்கே, அல்லது பிறகு $P1$ ஸ்டோரிலிருந்து செயல்தவிர்க்கலாம்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_nothing": {
+    "message": "$P1$ இல் இந்தக் குக்கீகள் ஏற்கெனவே அப்படியே உள்ளன.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_cant": {
+    "message": "ஒப்பிட முடியாது"
+  },
+  "compare_now": {
+    "message": "$P1$ இப்போது",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_other_site": {
+    "message": "இந்தத் தொகுப்பு $P2$ அல்ல, $P1$ தளத்துக்காகச் சேமிக்கப்பட்டது.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "compare_too_many": {
+    "message": "இப்போதைய நிலையுடன் ஒப்பிட ஒரு தொகுப்பை, அல்லது ஒன்றுடன் ஒன்று ஒப்பிட இரண்டு தொகுப்புகளைத் தேர்ந்தெடுங்கள்."
+  },
+  "set_file_too_large": {
+    "message": "$P1$ குக்கீ தொகுப்பாக இருக்க முடியாத அளவுக்குப் பெரியது.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_aria": {
+    "message": "குக்கீ தொகுப்புகளை ஒப்பிடு"
+  },
+  "compare_changed_fields": {
+    "message": "மாறியவை: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_one": {
+    "message": "வேறுபாடு இல்லை: $P1$ குக்கீ ஒரே மாதிரி.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_other": {
+    "message": "வேறுபாடு இல்லை: $P1$ குக்கீகள் ஒரே மாதிரி.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_summary": {
+    "message": "$P1$ சேர்க்கப்பட்டது, $P2$ நீக்கப்பட்டது, $P3$ மாறியது, $P4$ மாறவில்லை.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      },
+      "p4": {
+        "content": "$4"
+      }
+    }
+  },
+  "diff_added": {
+    "message": "சேர்க்கப்பட்டது"
+  },
+  "diff_removed": {
+    "message": "நீக்கப்பட்டது"
+  },
+  "diff_changed": {
+    "message": "மாறியது"
+  },
+  "diff_expiry_only": {
+    "message": "காலாவதி மட்டும் மாறியது ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "shortcuts_title": {
+    "message": "விசைப்பலகை குறுக்குவழிகள்"
+  },
+  "key_search": {
+    "message": "தேடு"
+  },
+  "key_move": {
+    "message": "பட்டியலில் நகர்"
+  },
+  "key_first_last": {
+    "message": "முதல் / கடைசி குக்கீ"
+  },
+  "key_edit": {
+    "message": "திருத்து"
+  },
+  "key_copy": {
+    "message": "மதிப்பை நகலெடு"
+  },
+  "key_protect": {
+    "message": "பாதுகாக்க / பாதுகாப்பை நீக்க"
+  },
+  "key_delete": {
+    "message": "நீக்கு (செயல்தவிர்க்கலாம்)"
+  },
+  "key_back": {
+    "message": "பின்செல், அல்லது தேடலை அழி"
+  },
+  "key_help": {
+    "message": "இந்தப் பட்டியல்"
+  },
+  "import_kept_one": {
+    "message": "$P1$ பாதுகாக்கப்பட்ட குக்கீ அப்படியே விடப்பட்டது: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_kept_other": {
+    "message": "$P1$ பாதுகாக்கப்பட்ட குக்கீகள் அப்படியே விடப்பட்டன: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_nothing": {
+    "message": "இறக்குமதி செய்ய எதுவும் இல்லை: கோப்பிலுள்ள ஒவ்வொரு குக்கீயும் ஏற்கெனவே அப்படியே அமைக்கப்பட்டுள்ளது."
+  },
+  "imported_one": {
+    "message": "$P1$ குக்கீ இறக்குமதி செய்யப்பட்டது.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "imported_other": {
+    "message": "$P1$ குக்கீகள் இறக்குமதி செய்யப்பட்டன.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_restored": {
+    "message": "தொகுப்பு \"$P1$\" மீட்டெடுக்கப்பட்டது",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restored_one": {
+    "message": "\"$P2$\" மீட்டெடுக்கப்பட்டது: $P1$ குக்கீ எழுதப்பட்டது, $P3$ நீக்கப்பட்டன.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "restored_other": {
+    "message": "\"$P2$\" மீட்டெடுக்கப்பட்டது: $P1$ குக்கீகள் எழுதப்பட்டன, $P3$ நீக்கப்பட்டன.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "rate_title": {
+    "message": "CookieDesk பிடித்திருக்கிறதா?"
+  },
+  "rate_text": {
+    "message": "ஒரு சிறிய மதிப்பீடு மற்றவர்கள் இதைக் கண்டறிய உதவும்."
+  },
+  "rate_group": {
+    "message": "ஸ்டோரில் மதிப்பிடு"
+  },
+  "rate_stars_one": {
+    "message": "$P1$ நட்சத்திரம்",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "rate_stars_other": {
+    "message": "$P1$ நட்சத்திரங்கள்",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_confirm_title": {
+    "message": "எனக்கு ஒரு காபி வாங்கிக் கொடுத்தீர்களா?"
+  },
+  "kofi_confirm_text": {
+    "message": "நன்றி, இதுதான் CookieDesk-ஐ இயங்க வைக்கிறது."
+  },
+  "kofi_yes": {
+    "message": "ஆம், கொடுத்தேன்"
+  },
+  "kofi_not_yet": {
+    "message": "இன்னும் இல்லை"
+  },
+  "kofi_milestone_one": {
+    "message": "CookieDesk மூலம் $P1$ மாற்றம் செய்தீர்கள்!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_milestone_other": {
+    "message": "CookieDesk மூலம் $P1$ மாற்றங்கள் செய்தீர்கள்!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_free": {
+    "message": "இது இலவசம், ஒரே ஒரு டெவலப்பரால் உருவாக்கப்பட்டது."
+  },
+  "buy_coffee": {
+    "message": "எனக்கு ஒரு காபி வாங்கிக் கொடுங்கள்"
+  },
+  "edit_cookie": {
+    "message": "குக்கீயைத் திருத்து"
+  },
+  "add_cookie_short": {
+    "message": "குக்கீ சேர்"
+  },
+  "explain_title": {
+    "message": "இந்தக் குக்கீ என்ன செய்கிறது"
+  },
+  "field_name": {
+    "message": "பெயர்"
+  },
+  "field_value": {
+    "message": "மதிப்பு"
+  },
+  "field_domain": {
+    "message": "டொமைன்"
+  },
+  "field_path": {
+    "message": "பாதை"
+  },
+  "field_expiry": {
+    "message": "காலாவதி"
+  },
+  "field_expires": {
+    "message": "காலாவதி"
+  },
+  "field_attributes": {
+    "message": "பண்புக்கூறுகள்"
+  },
+  "field_partition": {
+    "message": "பகிர்வு"
+  },
+  "host_only": {
+    "message": "ஹோஸ்ட் மட்டும்"
+  },
+  "host_only_title": {
+    "message": "ஹோஸ்ட் மட்டும்: Domain பண்புக்கூறு இல்லை, அதனால் துணை டொமைன்களுக்குக் கிடைக்காது"
+  },
+  "session_title": {
+    "message": "அமர்வுக் குக்கீ: உலாவியை மூடியதும் நீங்கும்"
+  },
+  "httponly_title": {
+    "message": "HttpOnly: பக்கத்தின் JavaScript-க்குத் தெரியாது"
+  },
+  "samesite_unspecified": {
+    "message": "குறிப்பிடப்படவில்லை"
+  },
+  "partitioned_chips": {
+    "message": "பகிர்வு (CHIPS)"
+  },
+  "top_level_site": {
+    "message": "மேல்நிலைத் தளம்"
+  },
+  "no_partition_write": {
+    "message": "Chrome-இன் இந்தப் பதிப்பால் பகிர்வு குக்கீகளை எழுத முடியாது."
+  },
+  "editor_delete_title": {
+    "message": "நீக்கு (செயல்தவிர்க்கலாம்)"
+  },
+  "bytes_of": {
+    "message": "$P1$ / $P2$ பைட்டுகள்",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "access_aria": {
+    "message": "அணுகலும் அமைப்புகளும்"
+  },
+  "all_sites_on": {
+    "message": "எல்லாத் தளங்கள்: இயக்கத்தில்"
+  },
+  "all_sites_on_text": {
+    "message": "உட்பொதிந்தவை உட்பட, எல்லாத் தளங்களிலும் குக்கீகளைப் படிக்கவும் மாற்றவும் CookieDesk-ஆல் முடியும்."
+  },
+  "turn_off": {
+    "message": "அணை"
+  },
+  "all_sites": {
+    "message": "எல்லாத் தளங்கள்"
+  },
+  "all_sites_text": {
+    "message": "விருப்பத்துக்குரியது. ஒவ்வொரு தளத்துக்கும் கேள்வி இல்லை, உட்பொதிந்த தளங்களின் (விளம்பரங்கள், விட்ஜெட்டுகள், உள்நுழைவு ஃப்ரேம்கள்) குக்கீகள் எல்லா இடத்திலும் தெரியும்."
+  },
+  "allow_all_sites": {
+    "message": "எல்லாத் தளங்களிலும் அனுமதி"
+  },
+  "remove_access": {
+    "message": "$P1$ தளத்துக்கான அணுகலை நீக்கு",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "access_lead": {
+    "message": "ஒரு தளத்தை நீங்கள் அனுமதித்த பிறகே அதன் குக்கீகளை CookieDesk பார்க்கும், வேறெதுவும் இல்லை: பக்க உள்ளடக்கம் இல்லை, வரலாறு இல்லை."
+  },
+  "allowed_sites": {
+    "message": "அனுமதித்த தளங்கள்"
+  },
+  "allowed_sites_count": {
+    "message": "அனுமதித்த தளங்கள் · $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "all_sites_overrides": {
+    "message": "எல்லாத் தளங்களுக்குமான அணுகல் இயக்கத்தில் உள்ளது, அதனால் அது இயக்கத்தில் இருக்கும்வரை இவை தேவையில்லை."
+  },
+  "none_yet": {
+    "message": "இன்னும் இல்லை."
+  },
+  "toolbar_opens": {
+    "message": "கருவிப்பட்டி பொத்தான் திறப்பது"
+  },
+  "surface_popup": {
+    "message": "பாப்அப்"
+  },
+  "surface_sidepanel": {
+    "message": "பக்கப் பலகம்"
+  },
+  "support_feedback": {
+    "message": "ஆதரவும் கருத்தும்"
+  },
+  "thanks_supporting": {
+    "message": "ஆதரவுக்கு நன்றி!"
+  },
+  "report_problem": {
+    "message": "சிக்கலைப் புகாரளி"
+  },
+  "source_code": {
+    "message": "மூலக் குறியீடு"
+  },
+  "privacy_line": {
+    "message": "பிணையக் கோரிக்கைகள் இல்லை, குக்கீ மதிப்புகள் வட்டில் சேமிக்கப்படுவதில்லை. செயல்தவிர்ப்பு 10 நிமிடங்கள் வேலை செய்யும்; அதன் நகல்கள் நினைவகத்தில் இருக்கும், Chrome மூடும்போது அல்லது மறைநிலை அமர்வு முடியும்போது நீங்கிவிடும்."
+  },
+  "export_warning": {
+    "message": "இந்தக் கோப்பில் செயலில் உள்ள அமர்வுக் குக்கீகள் உள்ளன. இது யாரிடம் இருந்தாலும் இந்தத் தளங்களில் உங்களைப் போல உள்நுழைய முடியும். கடவுச்சொல்லைப் போலக் கருதி, வேலை முடிந்ததும் நீக்கிவிடுங்கள்."
+  },
+  "export_json_one": {
+    "message": "$P1$ குக்கீயை JSON ஆக ஏற்றுமதி செய்",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_json_other": {
+    "message": "$P1$ குக்கீகளை JSON ஆக ஏற்றுமதி செய்",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_one": {
+    "message": "$P1$ குக்கீயை cookies.txt ஆக ஏற்றுமதி செய்",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_other": {
+    "message": "$P1$ குக்கீகளை cookies.txt ஆக ஏற்றுமதி செய்",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_all_one": {
+    "message": "$P2$ தளத்துக்குப் பட்டியலிடப்பட்ட குக்கீ, HttpOnly ஆக இருந்தாலும், கோப்பில் சேரும்.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_all_other": {
+    "message": "$P2$ தளத்துக்குப் பட்டியலிடப்பட்ட எல்லா $P1$ குக்கீகளும், HttpOnly உட்பட, கோப்பில் சேரும்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_partitioned_left_one": {
+    "message": "$P1$ பகிர்வு குக்கீ சேர்க்கப்படவில்லை: cookies.txt பகிர்வுகளைப் பதிவு செய்ய முடியாது. அதைத் தக்கவைக்க JSON பயன்படுத்துங்கள்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_partitioned_left_other": {
+    "message": "$P1$ பகிர்வு குக்கீகள் சேர்க்கப்படவில்லை: cookies.txt பகிர்வுகளைப் பதிவு செய்ய முடியாது. அவற்றைத் தக்கவைக்க JSON பயன்படுத்துங்கள்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_too_big": {
+    "message": "இந்தக் கோப்பு $P1$ MB. குக்கீ ஏற்றுமதிகள் இதைவிட மிகச் சிறியவை; CookieDesk 5 MB வரையிலான கோப்புகளைப் படிக்கும்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "cant_import_unchanged": {
+    "message": "இந்தக் கோப்பை இறக்குமதி செய்ய முடியவில்லை. எதுவும் மாறவில்லை."
+  },
+  "cant_import": {
+    "message": "இந்தக் கோப்பை இறக்குமதி செய்ய முடியவில்லை"
+  },
+  "file_unreadable": {
+    "message": "கோப்பைப் படிக்க முடியவில்லை."
+  },
+  "needs_access_one": {
+    "message": "இந்தக் குக்கீகளை எழுதுமுன் CookieDesk-க்கு மேலும் $P1$ தளத்துக்கு அணுகல் தேவை:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "needs_access_other": {
+    "message": "இந்தக் குக்கீகளை எழுதுமுன் CookieDesk-க்கு மேலும் $P1$ தளங்களுக்கு அணுகல் தேவை:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_allow_all_hint": {
+    "message": "அல்லது அணுகலும் அமைப்புகளும் பகுதியில் எல்லாத் தளங்களையும் அனுமதியுங்கள்."
+  },
+  "other_sites": {
+    "message": "பிற தளங்கள் ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "other_sites_warning": {
+    "message": "இந்தக் கோப்பு $P1$ அல்லாத தளங்களுக்கும் குக்கீகளை எழுதுகிறது. வேறொரு தளத்தில் வைக்கப்பட்ட குக்கீ, அங்கே உங்களைத் தவறான கணக்கில் உள்நுழைய வைக்கக்கூடும். இந்தத் தளங்களை எதிர்பார்த்தால் மட்டும் தொடருங்கள்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_one": {
+    "message": "மேலும் $P1$ தளத்துக்கும் குக்கீகளை எழுது",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_other": {
+    "message": "மேலும் $P1$ தளங்களுக்கும் குக்கீகளை எழுது",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partitioned_under_list": {
+    "message": "இவற்றின் கீழ் பகிர்வு: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "warnings_count": {
+    "message": "எச்சரிக்கைகள் ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_title": {
+    "message": "குக்கீகளை இறக்குமதி செய்"
+  },
+  "import_message_one": {
+    "message": "$P1$ குக்கீயை இறக்குமதி செய்யவா? அதே பெயர், டொமைன், பாதை கொண்ட குக்கீகள் மாற்றப்படும். முழு இறக்குமதியையும் செயல்தவிர்க்கலாம்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_message_other": {
+    "message": "$P1$ குக்கீகளை இறக்குமதி செய்யவா? அதே பெயர், டொமைன், பாதை கொண்ட குக்கீகள் மாற்றப்படும். முழு இறக்குமதியையும் செயல்தவிர்க்கலாம்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_one": {
+    "message": "$P1$ குக்கீயை document.cookie ஆக நகலெடு",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_other": {
+    "message": "$P1$ குக்கீகளை document.cookie ஆக நகலெடு",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_warning": {
+    "message": "இந்த ஸ்னிப்பெட்டில் செயலில் உள்ள அமர்வுக் குக்கீகள் உள்ளன. இது யாரிடம் இருந்தாலும் இந்தத் தளத்தில் உங்களைப் போல உள்நுழைய முடியும். கடவுச்சொல்லைப் போலக் கருதுங்கள்."
+  },
+  "snippet_paste": {
+    "message": "இந்தக் குக்கீகளை அங்கே அமைக்க, $P1$ தளத்தின் DevTools கன்சோலில் ஒட்டுங்கள்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_one": {
+    "message": "$P1$ HttpOnly குக்கீ சேர்க்கப்படவில்லை: பக்கத்தின் JavaScript-ஆல் அதை அமைக்க முடியாது.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_other": {
+    "message": "$P1$ HttpOnly குக்கீகள் சேர்க்கப்படவில்லை: பக்கத்தின் JavaScript-ஆல் அவற்றை அமைக்க முடியாது.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_one": {
+    "message": "$P1$ குக்கீ document.cookie ஆக நகலெடுக்கப்பட்டது.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_other": {
+    "message": "$P1$ குக்கீகள் document.cookie ஆக நகலெடுக்கப்பட்டன.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_name": {
+    "message": "தொகுப்பின் பெயர்"
+  },
+  "set_name_placeholder": {
+    "message": "எ.கா. நிர்வாகியாக உள்நுழைந்தது"
+  },
+  "save_set_title_one": {
+    "message": "$P1$ குக்கீயைத் தொகுப்பாகச் சேமி",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "save_set_title_other": {
+    "message": "$P1$ குக்கீகளைத் தொகுப்பாகச் சேமி",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_file_note": {
+    "message": "தொகுப்பு உங்கள் கணினியில் உள்ள ஒரு கோப்பு; CookieDesk நகல் எதையும் வைத்திருக்காது. பிறகு $P1$ தளத்தின் மெனுவிலிருந்து மீட்டெடுங்கள்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "default_set_name": {
+    "message": "குக்கீ தொகுப்பு"
+  },
+  "set_too_large": {
+    "message": "இந்தக் கோப்பு குக்கீ தொகுப்பாக இருக்க முடியாத அளவுக்குப் பெரியது."
+  },
+  "cant_restore_unchanged": {
+    "message": "இந்தத் தொகுப்பை மீட்டெடுக்க முடியவில்லை. எதுவும் மாறவில்லை."
+  },
+  "cant_restore": {
+    "message": "இந்தத் தொகுப்பை மீட்டெடுக்க முடியவில்லை"
+  },
+  "wrong_site_message": {
+    "message": "இந்தத் தொகுப்பு $P1$ தளத்துக்காகச் சேமிக்கப்பட்டது. $P1$ ஐத் திறந்து அங்கே மீட்டெடுங்கள்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "wrong_site_title": {
+    "message": "தவறான தளம். எதுவும் மாறவில்லை."
+  },
+  "foreign_cookies_one": {
+    "message": "இந்தக் கோப்பிலுள்ள $P1$ குக்கீ வேறொரு தளத்துக்குரியது ($P2$). தொகுப்பு மீட்பு $P3$ ஐ மட்டுமே மாற்றும்; பிற தளங்களுக்கு இறக்குமதியைப் பயன்படுத்துங்கள்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "foreign_cookies_other": {
+    "message": "இந்தக் கோப்பிலுள்ள $P1$ குக்கீகள் பிற தளங்களுக்குரியவை ($P2$). தொகுப்பு மீட்பு $P3$ ஐ மட்டுமே மாற்றும்; பிற தளங்களுக்கு இறக்குமதியைப் பயன்படுத்துங்கள்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "plan_write": {
+    "message": "எழுது"
+  },
+  "plan_delete": {
+    "message": "நீக்கு"
+  },
+  "plan_protected": {
+    "message": "பாதுகாக்கப்பட்டவை, அப்படியே விடப்படும்"
+  },
+  "restore_title": {
+    "message": "\"$P1$\" ஐ மீட்டெடு",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_nothing": {
+    "message": "$P1$ ஏற்கெனவே இந்தத் தொகுப்புடன் பொருந்துகிறது. மாற்ற எதுவும் இல்லை.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_message_one": {
+    "message": "$P2$ தளத்தின் குக்கீகள், இந்தத் தொகுப்பிலுள்ள $P1$ குக்கீயால் மாற்றப்படும். முழு மீட்பையும் செயல்தவிர்க்கலாம்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "restore_message_other": {
+    "message": "$P2$ தளத்தின் குக்கீகள், இந்தத் தொகுப்பிலுள்ள $P1$ குக்கீகளால் மாற்றப்படும். முழு மீட்பையும் செயல்தவிர்க்கலாம்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_partition_unsupported": {
+    "message": "\"$P1$\" ஒரு பகிர்வு குக்கீ, இந்த Chrome பதிப்பால் இதை எழுத முடியாது. Chrome 119 அல்லது அதற்குப் பிந்தையதற்குப் புதுப்பிக்கவும்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_gone": {
+    "message": "\"$P1$\" இனி இல்லை — காலாவதியாகியிருக்கலாம் அல்லது தளம் மாற்றியிருக்கலாம். பட்டியலை மீண்டும் ஏற்றவும்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_stored": {
+    "message": "Chrome \"$P1$\" ஐ ஏற்றது, ஆனால் சேமிக்கவில்லை.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_imprecise_delete_one": {
+    "message": "\"$P2$\" ஐ, அதே பெயருள்ள மேலும் $P1$ குக்கீயுடன் சேர்த்து மட்டுமே Chrome-ஆல் நீக்க முடியும், அதனால் CookieDesk இதை நீக்காது.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_imprecise_delete_other": {
+    "message": "\"$P2$\" ஐ, அதே பெயருள்ள மேலும் $P1$ குக்கீகளுடன் சேர்த்து மட்டுமே Chrome-ஆல் நீக்க முடியும், அதனால் CookieDesk இதை நீக்காது.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_delete": {
+    "message": "\"$P1$\" ஐச் சேமிக்கப்பட்ட நிலையில் Chrome இனி ஏற்காது, அதனால் நீக்கினால் மீண்டும் வைக்க முடியாது. செயல்தவிர்ப்பு இல்லாமல் நீக்கவா?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_removed": {
+    "message": "\"$P1$\" ஐ நீக்க முடியவில்லை.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_no_permission": {
+    "message": "$P1$ தளத்தை அணுக CookieDesk-க்கு அனுமதி இல்லை. முதலில் இந்தத் தளத்துக்கு அணுகல் அளியுங்கள்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_secure_shadow": {
+    "message": "$P2$ தளத்துக்கு \"$P1$\" என்ற Secure குக்கீ ஏற்கெனவே உள்ளது. அதே பெயருள்ள Secure அல்லாத குக்கீ அதை மாற்றவோ அருகில் இருக்கவோ Chrome அனுமதிக்காது. Secure ஐ இயக்குங்கள், அல்லது வேறு பெயரைப் பயன்படுத்துங்கள்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_rejected": {
+    "message": "Chrome காரணம் எதுவும் சொல்லாமல் \"$P1$\" ஐ நிராகரித்தது. எதுவும் மாறவில்லை.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_irreversible_replace_one": {
+    "message": "$P2$ ஐச் சேமிக்கப்பட்ட நிலையில் Chrome இனி ஏற்காது, அதனால் மாற்றினால் மீண்டும் வைக்க முடியாது. இதற்குச் செயல்தவிர்ப்பு இல்லாமல் தொடரவா?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_replace_other": {
+    "message": "$P2$ ஐச் சேமிக்கப்பட்ட நிலையில் Chrome இனி ஏற்காது, அதனால் மாற்றினால் மீண்டும் வைக்க முடியாது. இவற்றுக்குச் செயல்தவிர்ப்பு இல்லாமல் தொடரவா?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_too_large_to_undo": {
+    "message": "இந்த மாற்றம் செயல்தவிர்ப்பு நகலை வைத்திருக்க முடியாத அளவு அதிகத் தரவை ($P1$ KB) தொடுகிறது. செயல்தவிர்ப்பு இல்லாமல் தொடரவா?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_duplicate_in_file": {
+    "message": "கோப்பில் ஒரே டொமைன், பாதைக்கு \"$P1$\" இரண்டு முறை உள்ளது.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_undo_expired": {
+    "message": "செயல்தவிர்க்க எதுவும் இல்லை — செயல்தவிர்ப்பு 10 நிமிடங்கள் மட்டுமே இருக்கும்."
+  },
+  "err_undo_conflict": {
+    "message": "\"$P2$\" க்குப் பிறகு $P1$ மாறியுள்ளது. இப்போது செயல்தவிர்த்தால் புதிய மதிப்பு அழிந்துவிடும். ஆனாலும் செயல்தவிர்க்கவா?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_incomplete": {
+    "message": "முழுமையடையவில்லை: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_added": {
+    "message": "\"$P1$\" சேர்க்கப்பட்டது",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_edited": {
+    "message": "\"$P1$\" திருத்தப்பட்டது",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted": {
+    "message": "\"$P1$\" நீக்கப்பட்டது",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_expired": {
+    "message": "\"$P1$\" நீக்கப்பட்டது (காலாவதி கடந்த காலத்தில்)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_one": {
+    "message": "$P1$ குக்கீ நீக்கப்பட்டது",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_other": {
+    "message": "$P1$ குக்கீகள் நீக்கப்பட்டன",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_one": {
+    "message": "$P1$ குக்கீ இறக்குமதி செய்யப்பட்டது",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_other": {
+    "message": "$P1$ குக்கீகள் இறக்குமதி செய்யப்பட்டன",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_undid": {
+    "message": "செயல்தவிர்க்கப்பட்டது: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_saved": {
+    "message": "\"$P1$\" சேமிக்கப்பட்டது",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_draft": {
+    "message": "குக்கீ என்பது பெயர், மதிப்பு, டொமைன், பாதை கொண்ட ஆப்ஜெக்டாக இருக்க வேண்டும்."
+  },
+  "v_name_type": {
+    "message": "குக்கீ பெயர் உரையாக இருக்க வேண்டும்."
+  },
+  "v_value_type": {
+    "message": "குக்கீ மதிப்பு உரையாக இருக்க வேண்டும்."
+  },
+  "v_domain_type": {
+    "message": "டொமைன் உரையாக இருக்க வேண்டும்."
+  },
+  "v_path_type": {
+    "message": "பாதை உரையாக இருக்க வேண்டும்."
+  },
+  "v_flag_type": {
+    "message": "$P1$ true அல்லது false ஆக இருக்க வேண்டும்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_samesite": {
+    "message": "SameSite இவற்றில் ஒன்றாக இருக்க வேண்டும்: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_name_control": {
+    "message": "பெயரில் கட்டுப்பாட்டு எழுத்துகள் (புதிய வரி அல்லது தத்தல் போன்றவை) உள்ளன; குக்கீகளில் அவற்றை வைக்க முடியாது."
+  },
+  "v_name_semicolon": {
+    "message": "பெயரில் \";\" உள்ளது, இது குக்கீயை முன்கூட்டியே முடித்துவிடும்."
+  },
+  "v_name_equals": {
+    "message": "பெயரில் \"=\" உள்ளது, இது குக்கீயில் பெயரை மதிப்பிலிருந்து பிரிக்கிறது."
+  },
+  "v_value_control": {
+    "message": "மதிப்பில் கட்டுப்பாட்டு எழுத்துகள் (புதிய வரி அல்லது தத்தல் போன்றவை) உள்ளன; குக்கீகளில் அவற்றை வைக்க முடியாது."
+  },
+  "v_value_semicolon": {
+    "message": "மதிப்பில் \";\" உள்ளது, இது குக்கீயை முன்கூட்டியே முடித்துவிடும். அதை என்கோட் செய்யுங்கள் (எ.கா. encodeURIComponent மூலம்)."
+  },
+  "v_empty_cookie": {
+    "message": "குக்கீக்குப் பெயர் அல்லது மதிப்பு தேவை; இரண்டும் காலியாக உள்ளன."
+  },
+  "v_empty_name": {
+    "message": "இந்தக் குக்கீயின் பெயர் காலியாக உள்ளது. சில தளங்களும் கருவிகளும் பெயரில்லாத குக்கீகளைச் சரியாகக் கையாளாது."
+  },
+  "v_too_large": {
+    "message": "பெயரும் மதிப்பும் சேர்ந்து $P1$ பைட்டுகள் (UTF-8); Chrome அதிகபட்சம் $P2$ ஐ அனுமதிக்கும்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "v_path_slash": {
+    "message": "பாதை \"/\" உடன் தொடங்க வேண்டும்."
+  },
+  "v_path_too_long": {
+    "message": "பாதை $P1$ பைட்டுகளை விட நீளமாக உள்ளது.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_path_chars": {
+    "message": "பாதையில் கட்டுப்பாட்டு எழுத்துகள் அல்லது \";\" உள்ளன; குக்கீகளில் அவற்றை வைக்க முடியாது."
+  },
+  "v_domain_empty": {
+    "message": "டொமைன் காலியாக உள்ளது. குக்கீ சேர்ந்த தளத்தை உள்ளிடுங்கள், எ.கா. example.com."
+  },
+  "v_domain_too_long": {
+    "message": "டொமைன் $P1$ பைட்டுகளை விட நீளமாக உள்ளது.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_domain_invalid": {
+    "message": "டொமைன் சரியான ஹோஸ்ட் பெயர் அல்ல. புள்ளிகளால் பிரிக்கப்பட்ட எழுத்துகள், எண்கள், ஹைபன்களைப் பயன்படுத்துங்கள் (சர்வதேசப் பெயர்கள் punycode-இல் இருக்க வேண்டும், xn--... போல)."
+  },
+  "v_domain_leading_dot": {
+    "message": "ஹோஸ்ட் மட்டும் குக்கீயின் டொமைனின் தொடக்கத்தில் புள்ளி இருக்கக்கூடாது; புள்ளி என்றால் குக்கீ துணை டொமைன்களுக்கும் பொருந்தும்."
+  },
+  "v_domain_public_suffix": {
+    "message": "\"$P1$\" ஒரு பொது பின்னொட்டு (.com அல்லது .co.uk போன்ற பதிவகக் கட்டுப்பாட்டு டொமைன்), அதனால் முழுவதற்கும் பொருந்தும் குக்கீகளை உலாவிகள் நிராகரிக்கும்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_samesite_none_insecure": {
+    "message": "SameSite=None குக்கீகள் Secure ஆக இருக்க வேண்டும் — இல்லையெனில் Chrome நிராகரிக்கும். Secure ஐ இயக்குங்கள் அல்லது வேறு SameSite தேர்ந்தெடுங்கள்."
+  },
+  "v_partitioned_insecure": {
+    "message": "பகிர்வு குக்கீகள் Secure ஆக இருக்க வேண்டும் — இல்லையெனில் Chrome நிராகரிக்கும். Secure ஐ இயக்குங்கள் அல்லது பகிர்வை நீக்குங்கள்."
+  },
+  "v_prefix_secure": {
+    "message": "\"$P1$...\" என்ற பெயருள்ள குக்கீகள் Secure ஆக இருக்க வேண்டும். Secure ஐ இயக்குங்கள் அல்லது குக்கீயின் பெயரை மாற்றுங்கள்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_host_prefix_domain": {
+    "message": "\"__Host-...\" என்ற பெயருள்ள குக்கீகள் ஹோஸ்ட் மட்டும் ஆக இருக்க வேண்டும் (Domain பண்புக்கூறு இல்லை, அதனால் துணை டொமைன்களுடன் பகிர்வு இல்லை). ஹோஸ்ட் மட்டும் என்பதை இயக்குங்கள் அல்லது குக்கீயின் பெயரை மாற்றுங்கள்."
+  },
+  "v_host_prefix_path": {
+    "message": "\"__Host-...\" என்ற பெயருள்ள குக்கீகளின் பாதை \"/\" ஆக இருக்க வேண்டும்."
+  },
+  "v_bad_expiration": {
+    "message": "காலாவதி என்பது 1970 முதல் கணக்கிடப்பட்ட வரையறுக்கப்பட்ட விநாடிகளின் எண்ணாக இருக்க வேண்டும்."
+  },
+  "v_expired_deletes": {
+    "message": "கடந்த காலக் காலாவதியுடன் சேமித்தால் இந்தக் குக்கீ நீக்கப்படும்."
+  },
+  "v_clamped": {
+    "message": "Chrome குக்கீயின் ஆயுளை $P1$ நாட்களுக்குள் வரம்பிடுகிறது; அதைவிடத் தாமதமான காலாவதி சேமிக்கும்போது குறைக்கப்படும்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_expiration_missing": {
+    "message": "அமர்வு அல்லாத குக்கீக்குக் காலாவதி தேதி தேவை. ஒன்றைத் தேர்ந்தெடுங்கள் அல்லது குக்கீயை அமர்வுக் குக்கீயாகக் குறியுங்கள்."
+  },
+  "v_partition_type": {
+    "message": "பகிர்வு விசை topLevelSite உள்ள ஆப்ஜெக்டாக இருக்க வேண்டும்."
+  },
+  "v_partition_site_type": {
+    "message": "பகிர்வின் மேல்நிலைத் தளம் https://example.com போன்ற உரையாக இருக்க வேண்டும்."
+  },
+  "v_partition_site_form": {
+    "message": "பகிர்வின் மேல்நிலைத் தளம் https://example.com போலத் தெரிய வேண்டும் (https, பாதை அல்லது போர்ட் இல்லாமல்)."
+  },
+  "v_partition_flag": {
+    "message": "பகிர்வின் hasCrossSiteAncestor true அல்லது false ஆக இருக்க வேண்டும்."
+  },
+  "v_partition_cross_site": {
+    "message": "குக்கீயின் டொமைன் $P1$ போன்ற அதே தளத்தில் இல்லை, அதனால் இதற்கு hasCrossSiteAncestor true ஆக இருக்க Chrome தேவைப்படுத்துகிறது.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_other_site": {
+    "message": "இந்தக் குக்கீயின் டொமைன் ($P1$) தற்போதைய தளத்துக்கு ($P2$) வெளியே உள்ளது.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_entry": {
+    "message": "பதிவு $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_entry_named": {
+    "message": "பதிவு $P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_bad_samesite": {
+    "message": "$P1$: sameSite என்பது no_restriction, lax, strict, unspecified இல் ஒன்றல்ல.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bool": {
+    "message": "$P1$: \"$P2$\" true அல்லது false ஆக இருக்க வேண்டும்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_text": {
+    "message": "$P1$: \"$P2$\" உரையாக இருக்க வேண்டும்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_not_object": {
+    "message": "$P1$ குக்கீ ஆப்ஜெக்ட் அல்ல.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_expiration_type": {
+    "message": "$P1$: \"expirationDate\" எண்ணாக இருக்க வேண்டும்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_key": {
+    "message": "$P1$: partitionKey என்பது உரை topLevelSite உள்ள ஆப்ஜெக்டாக இருக்க வேண்டும்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_flag": {
+    "message": "$P1$: partitionKey.hasCrossSiteAncestor true அல்லது false ஆக இருக்க வேண்டும்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_line": {
+    "message": "வரி $P1$ cookies.txt பதிவு அல்ல (தத்தலால் பிரிக்கப்பட்ட 7 புலங்கள் எதிர்பார்க்கப்பட்டன, $P2$ கிடைத்தன).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_line_flag_subdomains": {
+    "message": "வரி $P1$: துணை டொமைன் கொடி TRUE அல்லது FALSE ஆக இருக்க வேண்டும்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_flag_secure": {
+    "message": "வரி $P1$: secure கொடி TRUE அல்லது FALSE ஆக இருக்க வேண்டும்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_expiry": {
+    "message": "வரி $P1$: காலாவதி என்பது முழு எண் விநாடிகளாக இருக்க வேண்டும்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_not_text": {
+    "message": "கோப்பை உரையாகப் படிக்க முடியவில்லை."
+  },
+  "io_too_large": {
+    "message": "கோப்பு $P1$-பைட் இறக்குமதி வரம்பை விடப் பெரியது.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_json": {
+    "message": "கோப்பு JSON போலத் தெரிகிறது, ஆனால் பாகுபடுத்த முடியவில்லை."
+  },
+  "io_bad_version": {
+    "message": "இந்த CookieDesk கோப்பின் பதிப்பு ஆதரிக்கப்படவில்லை."
+  },
+  "io_no_cookie_list": {
+    "message": "CookieDesk கோப்பில் \"cookies\" பட்டியல் இல்லை."
+  },
+  "io_unknown_format": {
+    "message": "இந்த JSON CookieDesk ஏற்றுமதியும் அல்ல, குக்கீகளின் பட்டியலும் அல்ல."
+  },
+  "io_no_cookies": {
+    "message": "கோப்பில் குக்கீகள் இல்லை."
+  },
+  "io_too_many": {
+    "message": "கோப்பில் $P1$ குக்கீகள் உள்ளன; வரம்பு $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_issue": {
+    "message": "$P1$: $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_duplicate": {
+    "message": "$P1$: மற்றொரு பதிவுக்கும் அதே பெயர், டொமைன், பாதை, பகிர்வு உள்ளன.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "when": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "when_passed": {
+    "message": "ஏற்கெனவே கடந்துவிட்டது"
+  },
+  "when_under_day": {
+    "message": "ஒரு நாளுக்குள்"
+  },
+  "explain_third_party": {
+    "message": "$P2$ இலிருந்து வேறுபட்ட தளமான $P1$ அமைத்தது: மூன்றாம் தரப்புக் குக்கீ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_third_party_partitioned": {
+    "message": "$P2$ இலிருந்து வேறுபட்ட தளமான $P1$ அமைத்தது: மூன்றாம் தரப்புக் குக்கீ, $P2$ இன் பகிர்வில் வைக்கப்பட்டுள்ளது.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_host_prefix": {
+    "message": "__Host- முன்னொட்டு, Secure, Domain பண்புக்கூறு இல்லாமை, Path=/ ஆகியவற்றை Chrome கட்டாயப்படுத்தும்படி செய்கிறது, அதனால் எந்தத் துணை டொமைனும் இதை அமைக்கவோ மாற்றவோ முடியாது."
+  },
+  "explain_secure_prefix": {
+    "message": "__Secure- முன்னொட்டு, Secure கொடியுடன் மட்டுமே Chrome இதை ஏற்கும்படி செய்கிறது."
+  },
+  "explain_scope_host": {
+    "message": "$P1$ தளத்துக்கு மட்டுமே அனுப்பப்படும், அதன் துணை டொமைன்களுக்கு அல்ல.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_scope_domain": {
+    "message": "$P1$ மற்றும் அதன் ஒவ்வொரு துணை டொமைனுக்கும் (www.$P1$ போல) அனுப்பப்படும்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_path_all": {
+    "message": "அந்த ஹோஸ்டின் ஒவ்வொரு பாதைக்கான கோரிக்கையுடனும் அனுப்பப்படும்."
+  },
+  "explain_path_under": {
+    "message": "$P1$ கீழுள்ள பாதைகளுக்கான கோரிக்கைகளுடன் மட்டுமே அனுப்பப்படும்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_secure": {
+    "message": "Secure: HTTPS வழியாக மட்டுமே அனுப்பப்படும்."
+  },
+  "explain_not_secure": {
+    "message": "Secure அல்ல: சாதாரண HTTP வழியாகவும் அனுப்பப்படும், அங்கே நெட்வொர்க்கில் உள்ள எவரும் இதைப் படிக்கலாம்."
+  },
+  "explain_httponly": {
+    "message": "HttpOnly: பக்கத்தின் JavaScript-க்குத் தெரியாது (document.cookie இதைப் படிக்க முடியாது), இதனால் செலுத்தப்பட்ட ஸ்கிரிப்டுகளிடமிருந்து இது விலகியிருக்கும்."
+  },
+  "explain_script_readable": {
+    "message": "பக்கத்தில் இயங்கும் எந்த ஸ்கிரிப்டும் இதைப் படிக்கவும் மாற்றவும் முடியும்."
+  },
+  "explain_samesite_none": {
+    "message": "SameSite=None: தளங்களுக்கு இடையிலான கோரிக்கைகளுடனும் (உட்பொதிந்த ஃப்ரேம்கள், படங்கள், பிற தளங்களின் கோரிக்கைகள்) அனுப்பப்படலாம், Chrome மூன்றாம் தரப்புக் குக்கீகளை அனுமதிக்கும் இடத்தில் (மறைநிலை அவற்றை இயல்பாகத் தடுக்கும்). அதனால்தான் இது Secure ஆக இருக்க வேண்டும்."
+  },
+  "explain_samesite_lax": {
+    "message": "SameSite=Lax: நீங்கள் தளத்துக்குச் செல்லும்போது அனுப்பப்படும், பிற தளத்திலுள்ள இணைப்பிலிருந்து வந்தாலும், ஆனால் பிற தளங்களின் பக்கங்கள் பின்னணியில் செய்யும் கோரிக்கைகளுடன் அல்ல."
+  },
+  "explain_samesite_strict": {
+    "message": "SameSite=Strict: நீங்கள் ஏற்கெனவே அதே தளத்தில் இருக்கும்போது மட்டுமே அனுப்பப்படும். பிற தளத்திலுள்ள இணைப்பிலிருந்து வரும்போது முதல் கோரிக்கை இது இல்லாமல் செல்லும்."
+  },
+  "explain_samesite_unset": {
+    "message": "SameSite பண்புக்கூறு இல்லை: Chrome இதை Lax ஆகக் கருதும்."
+  },
+  "explain_session": {
+    "message": "அமர்வுக் குக்கீ: உலாவியை மூடும்போது நீக்கப்படும் (தொடக்கத்தில் Chrome உங்கள் முந்தைய அமர்வை மீட்டெடுத்தால் தவிர)."
+  },
+  "explain_expires": {
+    "message": "காலாவதி: $P1$. குக்கீ கடைசியாக அமைக்கப்பட்டதிலிருந்து எந்தக் காலாவதியையும் Chrome 400 நாட்களுக்குள் வரம்பிடும்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition": {
+    "message": "பகிர்வு (CHIPS): ஒவ்வொரு மேல்நிலைத் தளத்துக்கும் தனியாகச் சேமிக்கப்படும். முகவரிப் பட்டியில் $P1$ இருக்கும்போது மட்டுமே இந்த நகல் அனுப்பப்படும்.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition_cross": {
+    "message": "இது அந்தப் பகிர்வின் தளங்களுக்கு இடையிலான பகுதியில் உள்ளது (பக்கத்துக்கும் இந்தக் குக்கீயின் தளத்துக்கும் இடையில் மற்றொரு தளம் இருக்கும் இடத்தில் பயன்படும்), அதே தளப் பகுதியிலிருந்து தனியாக வைக்கப்படும்."
+  },
+  "explain_partition_same": {
+    "message": "இது அந்தப் பகிர்வின் அதே தளப் பகுதியில் உள்ளது, தளங்களுக்கு இடையிலான பகுதியிலிருந்து தனியாக வைக்கப்படும்."
+  },
+  "explain_partition_other": {
+    "message": "வேறொரு தளத்தின் கீழுள்ள அதே குக்கீ பெயர் வேறு குக்கீ."
+  },
+  "explain_jwt": {
+    "message": "இந்த மதிப்பு JSON Web Token போலத் தெரிகிறது."
+  },
+  "explain_jwt_exp": {
+    "message": "இந்த மதிப்பு JSON Web Token போலத் தெரிகிறது; டோக்கனே தான் $P1$ அன்று காலாவதியாகும் என்று சொல்கிறது.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_size": {
+    "message": "பெயருக்கும் மதிப்புக்கும் சேர்த்து Chrome அனுமதிக்கும் 4096 பைட்டுகளில் $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

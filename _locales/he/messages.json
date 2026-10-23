@@ -1,0 +1,2081 @@
+{
+  "extension_name": {
+    "message": "עורך Cookie: הצגה, עריכה ומחיקה של קובצי Cookie | CookieDesk‏"
+  },
+  "extension_description": {
+    "message": "הצגה, עריכה, הוספה ומחיקה של קובצי Cookie לפי אתר. חיפוש, ייבוא וייצוא, תמיכה בקובצי Cookie מחולקים. בלי פרסומות ובלי מעקב."
+  },
+  "btn_ok": {
+    "message": "אישור"
+  },
+  "btn_cancel": {
+    "message": "ביטול"
+  },
+  "btn_close": {
+    "message": "סגירה"
+  },
+  "btn_delete": {
+    "message": "מחיקה"
+  },
+  "btn_copy": {
+    "message": "העתקה"
+  },
+  "btn_save": {
+    "message": "שמירה"
+  },
+  "btn_export": {
+    "message": "ייצוא"
+  },
+  "btn_later": {
+    "message": "אחר כך"
+  },
+  "dismiss": {
+    "message": "סגירת ההודעה"
+  },
+  "back": {
+    "message": "חזרה"
+  },
+  "back_esc": {
+    "message": "חזרה (Esc)"
+  },
+  "back_to_list": {
+    "message": "חזרה לרשימה"
+  },
+  "title_count": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "empty_name": {
+    "message": "(שם ריק)"
+  },
+  "empty_value": {
+    "message": "(ערך ריק)"
+  },
+  "empty_short": {
+    "message": "(ריק)"
+  },
+  "names_more": {
+    "message": "$P1$ ועוד $P2$ נוספים",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "done": {
+    "message": "בוצע"
+  },
+  "undo": {
+    "message": "ביטול פעולה"
+  },
+  "undo_nothing": {
+    "message": "אין מה לבטל"
+  },
+  "undo_entry": {
+    "message": "ביטול: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_interrupted": {
+    "message": "הביטול הופסק: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "redo_entry": {
+    "message": "ביצוע חוזר: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "support_title": {
+    "message": "תמיכה ב-CookieDesk ב-Ko-fi"
+  },
+  "supporter_title": {
+    "message": "תודה על התמיכה ב-CookieDesk!"
+  },
+  "add_cookie": {
+    "message": "הוספת Cookie"
+  },
+  "add_cookie_title": {
+    "message": "הוספת Cookie (n)"
+  },
+  "more_actions": {
+    "message": "פעולות נוספות"
+  },
+  "menu_group_transfer": {
+    "message": "ייצוא וייבוא"
+  },
+  "menu_group_sets": {
+    "message": "ערכות Cookie"
+  },
+  "export_json_title": {
+    "message": "ייצוא כ-JSON"
+  },
+  "export_txt_title": {
+    "message": "ייצוא כ-Netscape cookies.txt"
+  },
+  "tile_snippet": {
+    "message": "קטע קוד"
+  },
+  "tile_snippet_title": {
+    "message": "העתקה כקטע קוד document.cookie"
+  },
+  "tile_import": {
+    "message": "ייבוא"
+  },
+  "tile_import_title": {
+    "message": "ייבוא JSON או cookies.txt"
+  },
+  "tile_save_set": {
+    "message": "שמירת ערכה"
+  },
+  "tile_save_set_title": {
+    "message": "שמירת קובצי ה-Cookie האלה כקובץ ערכה עם שם"
+  },
+  "tile_restore": {
+    "message": "שחזור"
+  },
+  "tile_restore_title": {
+    "message": "שחזור ערכה שמורה (עם תצוגה מקדימה)"
+  },
+  "tile_compare": {
+    "message": "השוואה"
+  },
+  "tile_compare_title": {
+    "message": "השוואת ערכה שמורה למצב הנוכחי, או השוואת שתי ערכות"
+  },
+  "tile_copy_to": {
+    "message": "העתקה אל…"
+  },
+  "tile_copy_to_title": {
+    "message": "העתקת קובצי ה-Cookie המוצגים למאגר אחר (רגיל ↔ גלישה בסתר)"
+  },
+  "menu_bulk_delete": {
+    "message": "מחיקת קובצי ה-Cookie המוצגים…"
+  },
+  "menu_access": {
+    "message": "גישה והגדרות"
+  },
+  "menu_shortcuts": {
+    "message": "קיצורי דרך"
+  },
+  "menu_sidepanel": {
+    "message": "פתיחה בחלונית הצד"
+  },
+  "menu_rate": {
+    "message": "דירוג CookieDesk‏"
+  },
+  "menu_support": {
+    "message": "תמיכה ב-Ko-fi‏"
+  },
+  "search_placeholder": {
+    "message": "חיפוש קובצי Cookie"
+  },
+  "search_label": {
+    "message": "סינון קובצי Cookie לפי שם, ערך או דומיין"
+  },
+  "search_title": {
+    "message": "סינון לפי שם, ערך או דומיין"
+  },
+  "cookie_store": {
+    "message": "מאגר Cookie"
+  },
+  "cookies_list": {
+    "message": "קובצי Cookie"
+  },
+  "restricted_page": {
+    "message": "דף מוגבל"
+  },
+  "loading": {
+    "message": "בטעינה…"
+  },
+  "state_unknown": {
+    "message": "לחצו על הלחצן של CookieDesk בסרגל הכלים כדי להציג את קובצי ה-Cookie של הכרטיסייה הזו."
+  },
+  "state_unknown_hint": {
+    "message": "Chrome מעביר את כתובת הכרטיסייה רק אחרי הלחיצה הזו, או באתרים שאישרתם."
+  },
+  "state_error": {
+    "message": "משהו השתבש: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "state_no_access": {
+    "message": "ל-CookieDesk אין עדיין גישה אל $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "grant_site": {
+    "message": "אישור ב-$P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "chrome_will_ask": {
+    "message": "Chrome ישאל:"
+  },
+  "prompt_site": {
+    "message": "קריאה ושינוי של הנתונים שלך בכל אתרי $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "prompt_all": {
+    "message": "קריאה ושינוי של כל הנתונים שלך בכל האתרים"
+  },
+  "only_this_site": {
+    "message": "רק קובצי ה-Cookie של האתר הזה, ושום דבר אחר."
+  },
+  "allow_all_instead": {
+    "message": "לאשר את כל האתרים במקום זאת"
+  },
+  "restricted_browser": {
+    "message": "זה דף של Chrome. Chrome לא מאפשר לאף תוסף לקרוא או לשנות כאן קובצי Cookie."
+  },
+  "restricted_webstore": {
+    "message": "זו חנות Chrome Web Store. Chrome חוסם בה את כל התוספים, ולכן אי אפשר להציג את קובצי ה-Cookie שלה."
+  },
+  "restricted_extension": {
+    "message": "זה דף של תוסף. האחסון שלו אינו קובצי Cookie של אתר, ולכן אין מה להציג."
+  },
+  "restricted_file": {
+    "message": "זה קובץ מקומי. לקבצים שנפתחים מהדיסק אין קובצי Cookie."
+  },
+  "restricted_other": {
+    "message": "הדף הזה אינו אתר (למשל דף ריק או דף data:), ולכן אין בו קובצי Cookie."
+  },
+  "live_just_now": {
+    "message": "הרגע: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "note_third_party": {
+    "message": "קובצי Cookie של אתרים משובצים מוצגים רק באתרים שאישרתם."
+  },
+  "note_no_partitions": {
+    "message": "גרסת Chrome שלכם לא יכולה להציג קובצי Cookie מחולקים, ולכן הרשימה עלולה להיות חלקית."
+  },
+  "empty_no_match": {
+    "message": "אין קובצי Cookie שמתאימים ל-“$P1$”.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "empty_none": {
+    "message": "אין קובצי Cookie ב-$P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clear_search": {
+    "message": "ניקוי החיפוש"
+  },
+  "change_changed": {
+    "message": "$P1$ שונה",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_added": {
+    "message": "$P1$ נוסף",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_removed": {
+    "message": "$P1$ הוסר",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_one": {
+    "message": "קובץ Cookie אחד"
+  },
+  "count_cookies_other": {
+    "message": "קובצי Cookie: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_filtered_one": {
+    "message": "$P2$ מתוך קובץ Cookie אחד",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_filtered_other": {
+    "message": "$P2$ מתוך $P1$ קובצי Cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_partitioned": {
+    "message": "מחולקים: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "store_default": {
+    "message": "ברירת מחדל"
+  },
+  "store_incognito": {
+    "message": "גלישה בסתר"
+  },
+  "store_n": {
+    "message": "מאגר $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "session": {
+    "message": "הפעלה"
+  },
+  "expired": {
+    "message": "פג תוקף"
+  },
+  "expiry_under_minute": {
+    "message": "בעוד פחות מדקה"
+  },
+  "expiry_on_close": {
+    "message": "נמחק כשהדפדפן נסגר"
+  },
+  "expires_at": {
+    "message": "תפוגה: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "badge_protected": {
+    "message": "מוגן: מחיקה מרוכזת, ייבוא ושחזור ערכה לא נוגעים בו (p)"
+  },
+  "hint_httponly": {
+    "message": "HttpOnly: לא גלוי ל-JavaScript של הדף (document.cookie לא יכול לקרוא אותו)"
+  },
+  "hint_secure": {
+    "message": "Secure: נשלח רק דרך HTTPS"
+  },
+  "hint_samesite_none": {
+    "message": "SameSite=None: נשלח גם בבקשות בין אתרים"
+  },
+  "hint_samesite_lax": {
+    "message": "SameSite=Lax: נשלח בניווט ברמה העליונה, לא בבקשות משנה בין אתרים"
+  },
+  "hint_samesite_strict": {
+    "message": "SameSite=Strict: נשלח רק בבקשות באותו אתר"
+  },
+  "badge_partitioned": {
+    "message": "מחולק"
+  },
+  "partitioned_under": {
+    "message": "מחולק תחת $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partition_this_site": {
+    "message": "האתר הזה"
+  },
+  "partition_cross_site": {
+    "message": "$P1$, הקשר בין אתרים",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "row_protected": {
+    "message": "מוגן"
+  },
+  "row_unprotect_title": {
+    "message": "ביטול הגנה (p)"
+  },
+  "row_protect_title": {
+    "message": "הגנה מפני מחיקה מרוכזת, ייבוא ושחזור ערכה (p)"
+  },
+  "copy_value": {
+    "message": "העתקת הערך"
+  },
+  "copied": {
+    "message": "הועתק"
+  },
+  "copy_value_title": {
+    "message": "העתקת הערך (c)"
+  },
+  "row_delete_title": {
+    "message": "מחיקה (Del), אפשר לבטל"
+  },
+  "irreversible_title": {
+    "message": "אי אפשר לבטל את זה"
+  },
+  "continue_no_undo": {
+    "message": "להמשיך בלי אפשרות ביטול"
+  },
+  "undo_anyway_title": {
+    "message": "לבטל בכל זאת?"
+  },
+  "undo_anyway": {
+    "message": "לבטל בכל זאת"
+  },
+  "undone": {
+    "message": "בוטל: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_skipped": {
+    "message": "חלק מקובצי ה-Cookie כבר פג תוקפם ולא שוחזרו: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_refused": {
+    "message": "Chrome כבר לא מקבל אותם כפי שהיו, ולכן הם לא שוחזרו: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clipboard_failed": {
+    "message": "לא ניתן להעתיק: הלוח לא זמין כאן."
+  },
+  "protected_on": {
+    "message": "\"$P1$\" מוגן: מחיקה מרוכזת, ייבוא ושחזור ערכה לא ייגעו בו.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_off": {
+    "message": "\"$P1$\" כבר לא מוגן.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protect_limit": {
+    "message": "אפשר להגן על עד $P1$ קובצי Cookie. קודם בטלו הגנה על כמה מהם.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_named": {
+    "message": "למחוק את \"$P1$\"?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_protected_message": {
+    "message": "קובץ ה-Cookie הזה מוגן. למחוק בכל זאת? אפשר לבטל."
+  },
+  "nothing_to_delete": {
+    "message": "אין מה למחוק"
+  },
+  "all_shown_protected_one": {
+    "message": "קובץ ה-Cookie המוצג מוגן."
+  },
+  "all_shown_protected_other": {
+    "message": "כל $P1$ קובצי ה-Cookie המוצגים מוגנים.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "no_cookies_shown": {
+    "message": "לא מוצגים קובצי Cookie."
+  },
+  "bulk_title_one": {
+    "message": "למחוק קובץ Cookie אחד?"
+  },
+  "bulk_title_other": {
+    "message": "למחוק $P1$ קובצי Cookie?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_match": {
+    "message": "קובצי ה-Cookie האלה תואמים ל-\"$P1$\" ב-$P2$. אפשר לבטל.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "bulk_all": {
+    "message": "כל קובצי ה-Cookie שמופיעים ב-$P1$. אפשר לבטל.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_one": {
+    "message": "קובץ Cookie מוגן אחד יישמר."
+  },
+  "protected_kept_other": {
+    "message": "$P1$ קובצי Cookie מוגנים יישמרו.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_one": {
+    "message": "מחיקת קובץ Cookie אחד"
+  },
+  "bulk_ok_other": {
+    "message": "מחיקת $P1$ קובצי Cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_to": {
+    "message": "העתקה אל"
+  },
+  "copy_to_default_note": {
+    "message": "קובצי Cookie שמועתקים למאגר ברירת המחדל נשמרים כמו כל קובץ Cookie אחר, בדיסק, וגם אחרי שהגלישה בסתר מסתיימת."
+  },
+  "copy_to_incognito_note": {
+    "message": "קובצי Cookie שמועתקים למאגר של גלישה בסתר נעלמים עם סיום אותה גלישה."
+  },
+  "copy_title_one": {
+    "message": "העתקת קובץ Cookie אחד"
+  },
+  "copy_title_other": {
+    "message": "העתקת $P1$ קובצי Cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_from": {
+    "message": "מהמאגר $P1$ אל:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_replace_note": {
+    "message": "קובצי Cookie עם אותו שם, דומיין ונתיב ביעד יוחלפו, מלבד מוגנים. אפשר לבטל את ההעתקה."
+  },
+  "label_copied_one": {
+    "message": "הועתק קובץ Cookie אחד אל $P2$‏",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_copied_other": {
+    "message": "הועתקו $P1$ קובצי Cookie אל $P2$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_kept_one": {
+    "message": "קובץ Cookie מוגן אחד ביעד נשאר כפי שהיה."
+  },
+  "copy_kept_other": {
+    "message": "$P1$ קובצי Cookie מוגנים ביעד נשארו כפי שהיו.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_done_one": {
+    "message": "הועתק קובץ Cookie אחד אל $P2$.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_done_other": {
+    "message": "הועתקו $P1$ קובצי Cookie אל $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_undo_hint": {
+    "message": "אפשר לבטל כאן, או מאוחר יותר מהמאגר $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_nothing": {
+    "message": "ב-$P1$ כבר יש בדיוק את קובצי ה-Cookie האלה.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_cant": {
+    "message": "אי אפשר להשוות"
+  },
+  "compare_now": {
+    "message": "$P1$ עכשיו",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_other_site": {
+    "message": "הערכה הזו נשמרה עבור $P1$, לא עבור $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "compare_too_many": {
+    "message": "בחרו ערכה אחת להשוואה למצב הנוכחי, או שתי ערכות להשוואה ביניהן."
+  },
+  "set_file_too_large": {
+    "message": "$P1$ גדול מדי מכדי להיות ערכת Cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_aria": {
+    "message": "השוואת ערכות Cookie"
+  },
+  "compare_changed_fields": {
+    "message": "שונו: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_one": {
+    "message": "אין הבדלים: קובץ Cookie אחד זהה."
+  },
+  "diff_none_other": {
+    "message": "אין הבדלים: $P1$ קובצי Cookie זהים.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_summary": {
+    "message": "נוספו $P1$, הוסרו $P2$, שונו $P3$, ללא שינוי $P4$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      },
+      "p4": {
+        "content": "$4"
+      }
+    }
+  },
+  "diff_added": {
+    "message": "נוסף"
+  },
+  "diff_removed": {
+    "message": "הוסר"
+  },
+  "diff_changed": {
+    "message": "שונה"
+  },
+  "diff_expiry_only": {
+    "message": "רק התפוגה השתנתה ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "shortcuts_title": {
+    "message": "קיצורי מקלדת"
+  },
+  "key_search": {
+    "message": "חיפוש"
+  },
+  "key_move": {
+    "message": "מעבר ברשימה"
+  },
+  "key_first_last": {
+    "message": "קובץ ה-Cookie הראשון / האחרון"
+  },
+  "key_edit": {
+    "message": "עריכה"
+  },
+  "key_copy": {
+    "message": "העתקת הערך"
+  },
+  "key_protect": {
+    "message": "הגנה / ביטול הגנה"
+  },
+  "key_delete": {
+    "message": "מחיקה (אפשר לבטל)"
+  },
+  "key_back": {
+    "message": "חזרה, או ניקוי החיפוש"
+  },
+  "key_help": {
+    "message": "הרשימה הזו"
+  },
+  "import_kept_one": {
+    "message": "קובץ Cookie מוגן אחד נשאר כפי שהיה: $P2$‏",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_kept_other": {
+    "message": "$P1$ קובצי Cookie מוגנים נשארו כפי שהיו: $P2$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_nothing": {
+    "message": "אין מה לייבא: כל קובצי ה-Cookie בקובץ כבר מוגדרים בדיוק כך."
+  },
+  "imported_one": {
+    "message": "יובא קובץ Cookie אחד."
+  },
+  "imported_other": {
+    "message": "יובאו $P1$ קובצי Cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_restored": {
+    "message": "הערכה \"$P1$\" שוחזרה",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restored_one": {
+    "message": "\"$P2$\" שוחזרה: נכתב קובץ Cookie אחד, נמחקו $P3$.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "restored_other": {
+    "message": "\"$P2$\" שוחזרה: נכתבו $P1$ קובצי Cookie, נמחקו $P3$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "rate_title": {
+    "message": "נהנים מ-CookieDesk?"
+  },
+  "rate_text": {
+    "message": "דירוג קצר עוזר לאחרים למצוא אותו."
+  },
+  "rate_group": {
+    "message": "דירוג בחנות"
+  },
+  "rate_stars_one": {
+    "message": "כוכב אחד"
+  },
+  "rate_stars_other": {
+    "message": "$P1$ כוכבים",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_confirm_title": {
+    "message": "קניתם לי קפה?"
+  },
+  "kofi_confirm_text": {
+    "message": "תודה, זה מה שמחזיק את CookieDesk."
+  },
+  "kofi_yes": {
+    "message": "כן, קניתי"
+  },
+  "kofi_not_yet": {
+    "message": "עוד לא"
+  },
+  "kofi_milestone_one": {
+    "message": "שינוי אחד נעשה עם CookieDesk!"
+  },
+  "kofi_milestone_other": {
+    "message": "$P1$ שינויים נעשו עם CookieDesk!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_free": {
+    "message": "זה בחינם, ונעשה בידי מפתח אחד."
+  },
+  "buy_coffee": {
+    "message": "לקנות לי קפה"
+  },
+  "edit_cookie": {
+    "message": "עריכת Cookie"
+  },
+  "add_cookie_short": {
+    "message": "הוספת Cookie"
+  },
+  "explain_title": {
+    "message": "מה קובץ ה-Cookie הזה עושה"
+  },
+  "field_name": {
+    "message": "שם"
+  },
+  "field_value": {
+    "message": "ערך"
+  },
+  "field_domain": {
+    "message": "Domain‏"
+  },
+  "field_path": {
+    "message": "נתיב"
+  },
+  "field_expiry": {
+    "message": "תוקף"
+  },
+  "field_expires": {
+    "message": "תפוגה"
+  },
+  "field_attributes": {
+    "message": "מאפיינים"
+  },
+  "field_partition": {
+    "message": "חלוקה"
+  },
+  "host_only": {
+    "message": "מארח בלבד"
+  },
+  "host_only_title": {
+    "message": "מארח בלבד: אין מאפיין Domain, ולכן תת-דומיינים לא מקבלים אותו"
+  },
+  "session_title": {
+    "message": "Cookie של הפעלה: נעלם כשהדפדפן נסגר"
+  },
+  "httponly_title": {
+    "message": "HttpOnly: לא גלוי ל-JavaScript של הדף"
+  },
+  "samesite_unspecified": {
+    "message": "לא צוין"
+  },
+  "partitioned_chips": {
+    "message": "מחולק (CHIPS)"
+  },
+  "top_level_site": {
+    "message": "אתר ברמה העליונה"
+  },
+  "no_partition_write": {
+    "message": "הגרסה הזו של Chrome לא יכולה לכתוב קובצי Cookie מחולקים."
+  },
+  "editor_delete_title": {
+    "message": "מחיקה (אפשר לבטל)"
+  },
+  "bytes_of": {
+    "message": "$P1$ / $P2$ בייטים",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "access_aria": {
+    "message": "גישה והגדרות"
+  },
+  "all_sites_on": {
+    "message": "כל האתרים: פועל"
+  },
+  "all_sites_on_text": {
+    "message": "CookieDesk יכול לקרוא ולשנות קובצי Cookie בכל אתר, כולל אתרים משובצים."
+  },
+  "turn_off": {
+    "message": "כיבוי"
+  },
+  "all_sites": {
+    "message": "כל האתרים"
+  },
+  "all_sites_text": {
+    "message": "אופציונלי. בלי בקשות אישור נפרדות לכל אתר, וקובצי Cookie של אתרים משובצים (פרסומות, ווידג'טים, מסגרות התחברות) מוצגים בכל מקום."
+  },
+  "allow_all_sites": {
+    "message": "אישור בכל האתרים"
+  },
+  "remove_access": {
+    "message": "הסרת הגישה אל $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "access_lead": {
+    "message": "CookieDesk רואה את קובצי ה-Cookie של אתר רק אחרי שאישרתם אותו, ושום דבר מעבר לכך: לא תוכן דפים ולא היסטוריה."
+  },
+  "allowed_sites": {
+    "message": "אתרים מאושרים"
+  },
+  "allowed_sites_count": {
+    "message": "אתרים מאושרים · $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "all_sites_overrides": {
+    "message": "הגישה לכל האתרים פועלת, ולכן ההגדרות האלה לא משנות כל עוד היא פועלת."
+  },
+  "none_yet": {
+    "message": "אין עדיין."
+  },
+  "toolbar_opens": {
+    "message": "הלחצן בסרגל הכלים פותח"
+  },
+  "surface_popup": {
+    "message": "חלון קופץ"
+  },
+  "surface_sidepanel": {
+    "message": "חלונית צד"
+  },
+  "support_feedback": {
+    "message": "תמיכה ומשוב"
+  },
+  "thanks_supporting": {
+    "message": "תודה על התמיכה!"
+  },
+  "report_problem": {
+    "message": "דיווח על בעיה"
+  },
+  "source_code": {
+    "message": "קוד מקור"
+  },
+  "privacy_line": {
+    "message": "בלי בקשות רשת, ובלי ערכי Cookie בדיסק. אפשר לבטל פעולות במשך 10 דקות; העותקים נשמרים בזיכרון ונעלמים כש-Chrome נסגר או כשהגלישה בסתר מסתיימת."
+  },
+  "export_warning": {
+    "message": "הקובץ הזה מכיל קובצי Cookie פעילים של הפעלות. מי שמחזיק בו יכול להתחבר כמוכם לאתרים האלה. התייחסו אליו כמו אל סיסמה ומחקו אותו בסיום."
+  },
+  "export_json_one": {
+    "message": "ייצוא קובץ Cookie אחד כ-JSON"
+  },
+  "export_json_other": {
+    "message": "ייצוא $P1$ קובצי Cookie כ-JSON",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_one": {
+    "message": "ייצוא קובץ Cookie אחד כ-cookies.txt"
+  },
+  "export_txt_other": {
+    "message": "ייצוא $P1$ קובצי Cookie כ-cookies.txt",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_all_one": {
+    "message": "קובץ ה-Cookie שמופיע ב-$P2$ ייכנס לקובץ, גם אם הוא HttpOnly.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_all_other": {
+    "message": "כל $P1$ קובצי ה-Cookie שמופיעים ב-$P2$ ייכנסו לקובץ, כולל קובצי HttpOnly.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_partitioned_left_one": {
+    "message": "קובץ Cookie מחולק אחד לא נכלל: cookies.txt לא יכול לתעד חלוקה. השתמשו ב-JSON כדי לשמור אותו."
+  },
+  "export_partitioned_left_other": {
+    "message": "$P1$ קובצי Cookie מחולקים לא נכללו: cookies.txt לא יכול לתעד חלוקה. השתמשו ב-JSON כדי לשמור אותם.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_too_big": {
+    "message": "הקובץ הזה בגודל $P1$ MB. ייצוא של קובצי Cookie קטן בהרבה; CookieDesk קורא קבצים עד 5 MB.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "cant_import_unchanged": {
+    "message": "אי אפשר לייבא את הקובץ הזה. שום דבר לא השתנה."
+  },
+  "cant_import": {
+    "message": "אי אפשר לייבא את הקובץ הזה"
+  },
+  "file_unreadable": {
+    "message": "לא ניתן לקרוא את הקובץ."
+  },
+  "needs_access_one": {
+    "message": "CookieDesk צריך גישה לאתר נוסף אחד לפני שיוכל לכתוב את קובצי ה-Cookie האלה:"
+  },
+  "needs_access_other": {
+    "message": "CookieDesk צריך גישה ל-$P1$ אתרים נוספים לפני שיוכל לכתוב את קובצי ה-Cookie האלה:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_allow_all_hint": {
+    "message": "או לאשר את כל האתרים תחת \"גישה והגדרות\"."
+  },
+  "other_sites": {
+    "message": "אתרים אחרים ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "other_sites_warning": {
+    "message": "הקובץ הזה כותב קובצי Cookie גם לאתרים שאינם $P1$. קובץ Cookie שהושתל באתר אחר עלול לחבר אתכם לחשבון הלא נכון שם. המשיכו רק אם ציפיתם לאתרים האלה.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_one": {
+    "message": "לכתוב קובצי Cookie גם לאתר אחר אחד"
+  },
+  "also_write_other": {
+    "message": "לכתוב קובצי Cookie גם ל-$P1$ אתרים אחרים",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partitioned_under_list": {
+    "message": "מחולק תחת: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "warnings_count": {
+    "message": "אזהרות ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_title": {
+    "message": "ייבוא קובצי Cookie"
+  },
+  "import_message_one": {
+    "message": "לייבא קובץ Cookie אחד? קובצי Cookie עם אותו שם, דומיין ונתיב יוחלפו. אפשר לבטל את הייבוא כולו."
+  },
+  "import_message_other": {
+    "message": "לייבא $P1$ קובצי Cookie? קובצי Cookie עם אותו שם, דומיין ונתיב יוחלפו. אפשר לבטל את הייבוא כולו.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_one": {
+    "message": "העתקת קובץ Cookie אחד כ-document.cookie"
+  },
+  "snippet_title_other": {
+    "message": "העתקת $P1$ קובצי Cookie כ-document.cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_warning": {
+    "message": "קטע הקוד מכיל קובצי Cookie פעילים של הפעלות. מי שמחזיק בו יכול להתחבר כמוכם לאתר הזה. התייחסו אליו כמו אל סיסמה."
+  },
+  "snippet_paste": {
+    "message": "הדביקו אותו בקונסולת DevTools ב-$P1$ כדי להגדיר שם את קובצי ה-Cookie האלה.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_one": {
+    "message": "קובץ HttpOnly Cookie אחד לא נכלל: JavaScript של הדף לא יכול להגדיר אותו."
+  },
+  "snippet_httponly_left_other": {
+    "message": "$P1$ קובצי HttpOnly Cookie לא נכללו: JavaScript של הדף לא יכול להגדיר אותם.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_one": {
+    "message": "קובץ Cookie אחד הועתק כ-document.cookie."
+  },
+  "snippet_copied_other": {
+    "message": "$P1$ קובצי Cookie הועתקו כ-document.cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_name": {
+    "message": "שם הערכה"
+  },
+  "set_name_placeholder": {
+    "message": "למשל: מחובר כמנהל"
+  },
+  "save_set_title_one": {
+    "message": "שמירת קובץ Cookie אחד כערכה"
+  },
+  "save_set_title_other": {
+    "message": "שמירת $P1$ קובצי Cookie כערכה",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_file_note": {
+    "message": "הערכה היא קובץ במחשב שלכם; CookieDesk לא שומר עותק. אפשר לשחזר אותה מאוחר יותר מהתפריט ב-$P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "default_set_name": {
+    "message": "ערכת Cookie"
+  },
+  "set_too_large": {
+    "message": "הקובץ הזה גדול מדי מכדי להיות ערכת Cookie."
+  },
+  "cant_restore_unchanged": {
+    "message": "אי אפשר לשחזר את הערכה הזו. שום דבר לא השתנה."
+  },
+  "cant_restore": {
+    "message": "אי אפשר לשחזר את הערכה הזו"
+  },
+  "wrong_site_message": {
+    "message": "הערכה הזו נשמרה עבור $P1$. פתחו את $P1$ ושחזרו אותה שם.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "wrong_site_title": {
+    "message": "אתר שגוי. שום דבר לא השתנה."
+  },
+  "foreign_cookies_one": {
+    "message": "קובץ Cookie אחד בקובץ הזה שייך לאתר אחר ($P2$). שחזור ערכה משנה רק את $P3$; לאתרים אחרים השתמשו בייבוא.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "foreign_cookies_other": {
+    "message": "$P1$ קובצי Cookie בקובץ הזה שייכים לאתרים אחרים ($P2$). שחזור ערכה משנה רק את $P3$; לאתרים אחרים השתמשו בייבוא.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "plan_write": {
+    "message": "כתיבה"
+  },
+  "plan_delete": {
+    "message": "מחיקה"
+  },
+  "plan_protected": {
+    "message": "מוגנים, נשארים כפי שהם"
+  },
+  "restore_title": {
+    "message": "שחזור \"$P1$\"",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_nothing": {
+    "message": "$P1$ כבר תואם לערכה הזו. אין מה לשנות.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_message_one": {
+    "message": "קובצי ה-Cookie של $P2$ יוחלפו בקובץ ה-Cookie האחד שבערכה הזו. אפשר לבטל את השחזור כולו.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "restore_message_other": {
+    "message": "קובצי ה-Cookie של $P2$ יוחלפו ב-$P1$ קובצי ה-Cookie שבערכה הזו. אפשר לבטל את השחזור כולו.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_partition_unsupported": {
+    "message": "\"$P1$\" הוא קובץ Cookie מחולק, ש-Chrome בגרסה הזו לא יכול לכתוב. עדכנו את Chrome לגרסה 119 ומעלה.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_gone": {
+    "message": "\"$P1$\" כבר לא קיים: ייתכן שפג תוקפו או שהאתר שינה אותו. טענו מחדש את הרשימה.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_stored": {
+    "message": "Chrome קיבל את \"$P1$\" אבל לא שמר אותו.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_imprecise_delete_one": {
+    "message": "Chrome יכול למחוק את \"$P2$\" רק יחד עם קובץ Cookie אחר אחד באותו שם, ולכן CookieDesk לא ימחק אותו.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_imprecise_delete_other": {
+    "message": "Chrome יכול למחוק את \"$P2$\" רק יחד עם $P1$ קובצי Cookie אחרים באותו שם, ולכן CookieDesk לא ימחק אותו.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_delete": {
+    "message": "Chrome כבר לא מקבל את \"$P1$\" כפי שהוא שמור, ולכן אחרי המחיקה אי אפשר יהיה להחזיר אותו. למחוק בלי אפשרות ביטול?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_removed": {
+    "message": "לא ניתן למחוק את \"$P1$\".",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_no_permission": {
+    "message": "ל-CookieDesk אין גישה אל $P1$. קודם אשרו גישה לאתר הזה.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_secure_shadow": {
+    "message": "כבר קיים קובץ Cookie מסוג Secure בשם \"$P1$\" עבור $P2$. Chrome לא מאפשר לקובץ Cookie ללא Secure באותו שם להחליף אותו או להיות לצדו. הפעילו Secure או בחרו שם אחר.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_rejected": {
+    "message": "Chrome דחה את \"$P1$\" בלי לציין סיבה. שום דבר לא השתנה.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_irreversible_replace_one": {
+    "message": "Chrome כבר לא מקבל את $P2$ כפי שהוא שמור, ולכן אחרי ההחלפה אי אפשר יהיה להחזיר אותו. להמשיך בלי אפשרות ביטול?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_replace_other": {
+    "message": "Chrome כבר לא מקבל את $P2$ כפי שהם שמורים, ולכן אחרי ההחלפה אי אפשר יהיה להחזיר אותם. להמשיך בלי אפשרות ביטול?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_too_large_to_undo": {
+    "message": "השינוי הזה נוגע בכמות נתונים גדולה מדי ($P1$ KB) כדי לשמור עותק לביטול. להמשיך בלי אפשרות ביטול?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_duplicate_in_file": {
+    "message": "הקובץ מכיל את \"$P1$\" פעמיים עבור אותו דומיין ונתיב.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_undo_expired": {
+    "message": "אין מה לבטל: אפשר לבטל פעולות במשך 10 דקות."
+  },
+  "err_undo_conflict": {
+    "message": "$P1$ השתנה אחרי \"$P2$\". ביטול עכשיו ידרוס את הערך החדש יותר. לבטל בכל זאת?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_incomplete": {
+    "message": "לא הושלם: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_added": {
+    "message": "נוסף \"$P1$\"",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_edited": {
+    "message": "נערך \"$P1$\"",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted": {
+    "message": "נמחק \"$P1$\"",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_expired": {
+    "message": "נמחק \"$P1$\" (התפוגה בעבר)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_one": {
+    "message": "נמחק קובץ Cookie אחד"
+  },
+  "label_deleted_many_other": {
+    "message": "נמחקו $P1$ קובצי Cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_one": {
+    "message": "יובא קובץ Cookie אחד"
+  },
+  "label_imported_other": {
+    "message": "יובאו $P1$ קובצי Cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_undid": {
+    "message": "בוטל: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_saved": {
+    "message": "נשמר \"$P1$\"",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_draft": {
+    "message": "קובץ ה-Cookie חייב להיות אובייקט עם name, value, domain ו-path."
+  },
+  "v_name_type": {
+    "message": "שם קובץ ה-Cookie חייב להיות טקסט."
+  },
+  "v_value_type": {
+    "message": "ערך קובץ ה-Cookie חייב להיות טקסט."
+  },
+  "v_domain_type": {
+    "message": "הדומיין חייב להיות טקסט."
+  },
+  "v_path_type": {
+    "message": "הנתיב חייב להיות טקסט."
+  },
+  "v_flag_type": {
+    "message": "$P1$ חייב להיות true או false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_samesite": {
+    "message": "SameSite חייב להיות אחד מ-$P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_name_control": {
+    "message": "השם מכיל תווי בקרה (כמו ירידת שורה או טאב), שקובץ Cookie לא יכול להכיל."
+  },
+  "v_name_semicolon": {
+    "message": "השם מכיל \";\", שיסיים את קובץ ה-Cookie מוקדם מדי."
+  },
+  "v_name_equals": {
+    "message": "השם מכיל \"=\", שמפריד בקובץ Cookie בין השם לערך."
+  },
+  "v_value_control": {
+    "message": "הערך מכיל תווי בקרה (כמו ירידת שורה או טאב), שקובץ Cookie לא יכול להכיל."
+  },
+  "v_value_semicolon": {
+    "message": "הערך מכיל \";\", שיסיים את קובץ ה-Cookie מוקדם מדי. קודדו אותו (למשל עם encodeURIComponent)."
+  },
+  "v_empty_cookie": {
+    "message": "קובץ Cookie צריך שם או ערך; שניהם ריקים."
+  },
+  "v_empty_name": {
+    "message": "לקובץ ה-Cookie הזה אין שם. חלק מהאתרים והכלים מטפלים רע בקובצי Cookie ללא שם."
+  },
+  "v_too_large": {
+    "message": "השם והערך יחד הם $P1$ בייטים (UTF-8); Chrome מאפשר לכל היותר $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "v_path_slash": {
+    "message": "הנתיב חייב להתחיל ב-\"/\"."
+  },
+  "v_path_too_long": {
+    "message": "הנתיב ארוך מ-$P1$ בייטים.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_path_chars": {
+    "message": "הנתיב מכיל תווי בקרה או \";\", שקובץ Cookie לא יכול להכיל."
+  },
+  "v_domain_empty": {
+    "message": "הדומיין ריק. הזינו את האתר שאליו שייך קובץ ה-Cookie, למשל example.com."
+  },
+  "v_domain_too_long": {
+    "message": "הדומיין ארוך מ-$P1$ בייטים.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_domain_invalid": {
+    "message": "הדומיין אינו שם מארח תקין. השתמשו באותיות, ספרות ומקפים מופרדים בנקודות (שמות בינלאומיים חייבים להיות ב-punycode, כמו xn--...)."
+  },
+  "v_domain_leading_dot": {
+    "message": "בקובץ Cookie של מארח בלבד אסור שיהיה בדומיין נקודה בהתחלה; הנקודה אומרת שהוא חל גם על תת-דומיינים."
+  },
+  "v_domain_public_suffix": {
+    "message": "\"$P1$\" הוא סיומת ציבורית (דומיין בשליטת רשם, כמו .com או .co.uk), ולכן דפדפנים דוחים קובצי Cookie שחלים על כולו.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_samesite_none_insecure": {
+    "message": "קובצי Cookie עם SameSite=None חייבים להיות Secure, אחרת Chrome דוחה אותם. הפעילו Secure או בחרו SameSite אחר."
+  },
+  "v_partitioned_insecure": {
+    "message": "קובצי Cookie מחולקים חייבים להיות Secure, אחרת Chrome דוחה אותם. הפעילו Secure או הסירו את החלוקה."
+  },
+  "v_prefix_secure": {
+    "message": "קובצי Cookie ששמם \"$P1$...\" חייבים להיות Secure. הפעילו Secure או שנו את שם הקובץ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_host_prefix_domain": {
+    "message": "קובצי Cookie ששמם \"__Host-...\" חייבים להיות מארח בלבד (בלי מאפיין Domain, כלומר בלי שיתוף עם תת-דומיינים). הפעילו מארח בלבד או שנו את השם."
+  },
+  "v_host_prefix_path": {
+    "message": "לקובצי Cookie ששמם \"__Host-...\" חייב להיות הנתיב \"/\"."
+  },
+  "v_bad_expiration": {
+    "message": "התפוגה חייבת להיות מספר סופי של שניות מאז 1970."
+  },
+  "v_expired_deletes": {
+    "message": "שמירה עם תפוגה בעבר מוחקת את קובץ ה-Cookie הזה."
+  },
+  "v_clamped": {
+    "message": "Chrome מגביל את אורך החיים של קובץ Cookie ל-$P1$ ימים; תפוגה מאוחרת יותר מקוצרת בעת השמירה.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_expiration_missing": {
+    "message": "קובץ Cookie שאינו של הפעלה צריך תאריך תפוגה. בחרו תאריך או סמנו אותו כקובץ Cookie של הפעלה."
+  },
+  "v_partition_type": {
+    "message": "מפתח החלוקה חייב להיות אובייקט עם topLevelSite."
+  },
+  "v_partition_site_type": {
+    "message": "האתר ברמה העליונה של החלוקה חייב להיות טקסט כמו https://example.com."
+  },
+  "v_partition_site_form": {
+    "message": "האתר ברמה העליונה של החלוקה חייב להיראות כמו https://example.com (https, בלי נתיב או יציאה)."
+  },
+  "v_partition_flag": {
+    "message": "הערך hasCrossSiteAncestor של החלוקה חייב להיות true או false."
+  },
+  "v_partition_cross_site": {
+    "message": "הדומיין של קובץ ה-Cookie אינו באותו אתר כמו $P1$, ולכן Chrome דורש ש-hasCrossSiteAncestor יהיה true.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_other_site": {
+    "message": "הדומיין של קובץ ה-Cookie הזה ($P1$) נמצא מחוץ לאתר הנוכחי ($P2$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_entry": {
+    "message": "רשומה $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_entry_named": {
+    "message": "רשומה $P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_bad_samesite": {
+    "message": "$P1$: הערך sameSite אינו אחד מ-no_restriction, lax, strict, unspecified.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bool": {
+    "message": "$P1$: \"$P2$\" חייב להיות true או false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_text": {
+    "message": "$P1$: \"$P2$\" חייב להיות טקסט.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_not_object": {
+    "message": "$P1$ אינו אובייקט Cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_expiration_type": {
+    "message": "$P1$: \"expirationDate\" חייב להיות מספר.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_key": {
+    "message": "$P1$: partitionKey חייב להיות אובייקט עם topLevelSite מסוג טקסט.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_flag": {
+    "message": "$P1$: partitionKey.hasCrossSiteAncestor חייב להיות true או false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_line": {
+    "message": "שורה $P1$ אינה רשומת cookies.txt (נדרשים 7 שדות המופרדים בטאב, נמצאו $P2$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_line_flag_subdomains": {
+    "message": "שורה $P1$: דגל תת-הדומיינים חייב להיות TRUE או FALSE.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_flag_secure": {
+    "message": "שורה $P1$: דגל secure חייב להיות TRUE או FALSE.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_expiry": {
+    "message": "שורה $P1$: התפוגה חייבת להיות מספר שלם של שניות.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_not_text": {
+    "message": "לא ניתן לקרוא את הקובץ כטקסט."
+  },
+  "io_too_large": {
+    "message": "הקובץ גדול ממגבלת הייבוא של $P1$ בייטים.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_json": {
+    "message": "הקובץ נראה כמו JSON אבל לא ניתן לנתח אותו."
+  },
+  "io_bad_version": {
+    "message": "לקובץ CookieDesk הזה יש גרסה שאינה נתמכת."
+  },
+  "io_no_cookie_list": {
+    "message": "בקובץ CookieDesk אין רשימת \"cookies\"."
+  },
+  "io_unknown_format": {
+    "message": "ה-JSON הזה אינו ייצוא של CookieDesk וגם לא רשימת קובצי Cookie."
+  },
+  "io_no_cookies": {
+    "message": "הקובץ לא מכיל קובצי Cookie."
+  },
+  "io_too_many": {
+    "message": "בקובץ יש $P1$ קובצי Cookie; המגבלה היא $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_issue": {
+    "message": "$P1$: $P2$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_duplicate": {
+    "message": "$P1$: ברשומה אחרת יש אותו שם, דומיין, נתיב וחלוקה.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "when": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "when_passed": {
+    "message": "כבר עבר"
+  },
+  "when_under_day": {
+    "message": "בעוד פחות מיום"
+  },
+  "explain_third_party": {
+    "message": "הוגדר בידי $P1$, אתר שונה מ-$P2$: קובץ Cookie של צד שלישי.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_third_party_partitioned": {
+    "message": "הוגדר בידי $P1$, אתר שונה מ-$P2$: קובץ Cookie של צד שלישי, שנשמר בחלוקה של $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_host_prefix": {
+    "message": "הקידומת __Host- גורמת ל-Chrome לדרוש Secure, בלי מאפיין Domain ועם Path=/, כך שאף תת-דומיין לא יכול להגדיר אותו או להחליף אותו."
+  },
+  "explain_secure_prefix": {
+    "message": "הקידומת __Secure- גורמת ל-Chrome לקבל אותו רק עם הדגל Secure."
+  },
+  "explain_scope_host": {
+    "message": "נשלח רק אל $P1$ עצמו, לא אל תת-הדומיינים שלו.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_scope_domain": {
+    "message": "נשלח אל $P1$ ואל כל תת-דומיין שלו (כמו www.$P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_path_all": {
+    "message": "נשלח עם בקשות לכל נתיב במארח הזה."
+  },
+  "explain_path_under": {
+    "message": "נשלח רק עם בקשות לנתיבים תחת $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_secure": {
+    "message": "Secure: נשלח רק דרך HTTPS."
+  },
+  "explain_not_secure": {
+    "message": "לא Secure: נשלח גם דרך HTTP רגיל, שבו כל מי שברשת יכול לקרוא אותו."
+  },
+  "explain_httponly": {
+    "message": "HttpOnly: לא גלוי ל-JavaScript של הדף (document.cookie לא יכול לקרוא אותו), וכך הוא מוגן מסקריפטים שהוזרקו."
+  },
+  "explain_script_readable": {
+    "message": "כל סקריפט שרץ בדף יכול לקרוא אותו ולשנות אותו."
+  },
+  "explain_samesite_none": {
+    "message": "SameSite=None: עשוי להישלח גם בבקשות בין אתרים (מסגרות משובצות, תמונות, בקשות מאתרים אחרים), כאשר Chrome מתיר קובצי Cookie של צד שלישי (גלישה בסתר חוסמת אותם כברירת מחדל). לכן הוא חייב להיות Secure."
+  },
+  "explain_samesite_lax": {
+    "message": "SameSite=Lax: נשלח כשמנווטים אל האתר, גם מקישור באתר אחר, אבל לא עם בקשות שדפים של אתרים אחרים שולחים ברקע."
+  },
+  "explain_samesite_strict": {
+    "message": "SameSite=Strict: נשלח רק כשאתם כבר באותו אתר. כשמגיעים מקישור באתר אחר, הבקשה הראשונה נשלחת בלעדיו."
+  },
+  "explain_samesite_unset": {
+    "message": "אין מאפיין SameSite: Chrome מתייחס אליו כ-Lax."
+  },
+  "explain_session": {
+    "message": "Cookie של הפעלה: נמחק כשהדפדפן נסגר (אלא אם Chrome משחזר את ההפעלה הקודמת בעת ההפעלה)."
+  },
+  "explain_expires": {
+    "message": "תפוגה: $P1$. Chrome מגביל כל תפוגה ל-400 יום מהפעם האחרונה שהוגדר קובץ ה-Cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition": {
+    "message": "מחולק (CHIPS): נשמר בנפרד לכל אתר ברמה העליונה. העותק הזה נשלח רק כש-$P1$ הוא האתר בשורת הכתובת.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition_cross": {
+    "message": "הוא נמצא בחלק של הבין-אתרים בחלוקה הזו (משמש כשיש אתר אחר בין הדף לאתר של קובץ ה-Cookie), בנפרד מהחלק של אותו אתר."
+  },
+  "explain_partition_same": {
+    "message": "הוא נמצא בחלק של אותו אתר בחלוקה הזו, בנפרד מהחלק של הבין-אתרים."
+  },
+  "explain_partition_other": {
+    "message": "קובץ Cookie באותו שם תחת אתר אחר הוא קובץ Cookie אחר."
+  },
+  "explain_jwt": {
+    "message": "הערך נראה כמו JSON Web Token."
+  },
+  "explain_jwt_exp": {
+    "message": "הערך נראה כמו JSON Web Token; האסימון עצמו מציין שהוא פג ב-$P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_size": {
+    "message": "נוצלו $P1$ מתוך 4096 הבייטים ש-Chrome מאפשר לשם ולערך יחד.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

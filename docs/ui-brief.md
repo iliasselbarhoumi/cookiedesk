@@ -200,5 +200,11 @@ editor-issues    container; each issue element has data-code and data-severity=e
 editor-save / editor-cancel / editor-delete / byte-count
 toast / toast-undo
 confirm / confirm-message / confirm-ok / confirm-cancel
-access-view / access-close / grant-all / revoke-all / grant-row (data-site) / revoke (inside grant-row) / setting-surface (select)
+access-view / access-close / grant-all / revoke-all / grant-row (data-site) / revoke (inside grant-row) / setting-surface (segmented buttons, data-value=popup|sidepanel)
+empty            the empty-list message (no cookies, or no search match)
+support-heart    header heart: opens Ko-fi; class "supporter" once the user said they supported
+menu-support / menu-rate (hidden for builds not installed from a store)
+ask-support / ask-rate   the one support or rating card at the bottom of the list
+ask-kofi / ask-yes / ask-later   buttons inside those cards
+access-kofi / access-rate        Support & feedback buttons in Access & settings
 ```

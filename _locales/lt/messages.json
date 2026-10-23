@@ -1,0 +1,2215 @@
+{
+  "extension_name": {
+    "message": "Slapukų redaktorius: peržiūra, keitimas, trynimas | CookieDesk"
+  },
+  "extension_description": {
+    "message": "Peržiūrėkite, keiskite, pridėkite ir trinkite slapukus pagal svetainę. Paieška, importas ir eksportas. Be reklamų ir sekimo."
+  },
+  "btn_ok": {
+    "message": "Gerai"
+  },
+  "btn_cancel": {
+    "message": "Atšaukti"
+  },
+  "btn_close": {
+    "message": "Uždaryti"
+  },
+  "btn_delete": {
+    "message": "Ištrinti"
+  },
+  "btn_copy": {
+    "message": "Kopijuoti"
+  },
+  "btn_save": {
+    "message": "Išsaugoti"
+  },
+  "btn_export": {
+    "message": "Eksportuoti"
+  },
+  "btn_later": {
+    "message": "Vėliau"
+  },
+  "dismiss": {
+    "message": "Paslėpti"
+  },
+  "back": {
+    "message": "Atgal"
+  },
+  "back_esc": {
+    "message": "Atgal (Esc)"
+  },
+  "back_to_list": {
+    "message": "Atgal į sąrašą"
+  },
+  "title_count": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "empty_name": {
+    "message": "(tuščias pavadinimas)"
+  },
+  "empty_value": {
+    "message": "(tuščia reikšmė)"
+  },
+  "empty_short": {
+    "message": "(tuščia)"
+  },
+  "names_more": {
+    "message": "$P1$ ir dar $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "done": {
+    "message": "Atlikta"
+  },
+  "undo": {
+    "message": "Anuliuoti"
+  },
+  "undo_nothing": {
+    "message": "Nėra ką anuliuoti"
+  },
+  "undo_entry": {
+    "message": "Anuliuoti: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_interrupted": {
+    "message": "Anuliavimas nutrauktas: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "redo_entry": {
+    "message": "Kartoti: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "support_title": {
+    "message": "Paremti CookieDesk platformoje Ko-fi"
+  },
+  "supporter_title": {
+    "message": "Ačiū, kad remiate CookieDesk!"
+  },
+  "add_cookie": {
+    "message": "Pridėti slapuką"
+  },
+  "add_cookie_title": {
+    "message": "Pridėti slapuką (n)"
+  },
+  "more_actions": {
+    "message": "Daugiau veiksmų"
+  },
+  "menu_group_transfer": {
+    "message": "Eksportas ir importas"
+  },
+  "menu_group_sets": {
+    "message": "Slapukų rinkiniai"
+  },
+  "export_json_title": {
+    "message": "Eksportuoti kaip JSON"
+  },
+  "export_txt_title": {
+    "message": "Eksportuoti kaip Netscape cookies.txt"
+  },
+  "tile_snippet": {
+    "message": "Kodas"
+  },
+  "tile_snippet_title": {
+    "message": "Kopijuoti kaip document.cookie kodą"
+  },
+  "tile_import": {
+    "message": "Importuoti"
+  },
+  "tile_import_title": {
+    "message": "Importuoti JSON arba cookies.txt"
+  },
+  "tile_save_set": {
+    "message": "Išsaugoti rinkinį"
+  },
+  "tile_save_set_title": {
+    "message": "Išsaugoti šiuos slapukus kaip pavadintą rinkinio failą"
+  },
+  "tile_restore": {
+    "message": "Atkurti"
+  },
+  "tile_restore_title": {
+    "message": "Atkurti išsaugotą rinkinį (pirma peržiūra)"
+  },
+  "tile_compare": {
+    "message": "Palyginti"
+  },
+  "tile_compare_title": {
+    "message": "Palyginti išsaugotą rinkinį su dabartiniu arba du rinkinius"
+  },
+  "tile_copy_to": {
+    "message": "Kopijuoti į…"
+  },
+  "tile_copy_to_title": {
+    "message": "Kopijuoti rodomus slapukus į kitą saugyklą (įprasta ↔ inkognito)"
+  },
+  "menu_bulk_delete": {
+    "message": "Ištrinti rodomus slapukus…"
+  },
+  "menu_access": {
+    "message": "Prieiga ir nustatymai"
+  },
+  "menu_shortcuts": {
+    "message": "Spartieji klavišai"
+  },
+  "menu_sidepanel": {
+    "message": "Atidaryti šoninėje juostoje"
+  },
+  "menu_rate": {
+    "message": "Įvertinti CookieDesk"
+  },
+  "menu_support": {
+    "message": "Paremti platformoje Ko-fi"
+  },
+  "search_placeholder": {
+    "message": "Ieškoti slapukų"
+  },
+  "search_label": {
+    "message": "Filtruoti slapukus pagal pavadinimą, reikšmę ar domeną"
+  },
+  "search_title": {
+    "message": "Filtruoti pagal pavadinimą, reikšmę ar domeną"
+  },
+  "cookie_store": {
+    "message": "Slapukų saugykla"
+  },
+  "cookies_list": {
+    "message": "Slapukai"
+  },
+  "restricted_page": {
+    "message": "Ribotas puslapis"
+  },
+  "loading": {
+    "message": "Įkeliama…"
+  },
+  "state_unknown": {
+    "message": "Spustelėkite CookieDesk mygtuką įrankių juostoje, kad pamatytumėte šios kortelės slapukus."
+  },
+  "state_unknown_hint": {
+    "message": "Chrome pateikia kortelės adresą tik po šio paspaudimo arba svetainėms, kurioms leidote."
+  },
+  "state_error": {
+    "message": "Kažkas nepavyko: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "state_no_access": {
+    "message": "CookieDesk dar neturi prieigos prie $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "grant_site": {
+    "message": "Leisti svetainėje $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "chrome_will_ask": {
+    "message": "Chrome paklaus:"
+  },
+  "prompt_site": {
+    "message": "Skaityti ir keisti jūsų duomenis visose $P1$ svetainėse",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "prompt_all": {
+    "message": "Skaityti ir keisti visus jūsų duomenis visose svetainėse"
+  },
+  "only_this_site": {
+    "message": "Tik šios svetainės slapukai, nieko daugiau."
+  },
+  "allow_all_instead": {
+    "message": "Verčiau leisti visas svetaines"
+  },
+  "restricted_browser": {
+    "message": "Tai Chrome puslapis. Chrome neleidžia plėtiniams čia skaityti ar keisti slapukų."
+  },
+  "restricted_webstore": {
+    "message": "Tai Chrome Web Store. Chrome blokuoja visus plėtinius šioje svetainėje, todėl jos slapukų parodyti negalima."
+  },
+  "restricted_extension": {
+    "message": "Tai paties plėtinio puslapis. Jo saugykla nėra svetainės slapukai, todėl nėra ką rodyti."
+  },
+  "restricted_file": {
+    "message": "Tai vietinis failas. Iš disko atidaryti failai neturi slapukų."
+  },
+  "restricted_other": {
+    "message": "Šis puslapis nėra svetainė (pavyzdžiui, tuščias ar data: puslapis), todėl slapukų neturi."
+  },
+  "live_just_now": {
+    "message": "Ką tik: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "note_third_party": {
+    "message": "Įterptų svetainių slapukai rodomi tik svetainėms, kurioms leidote."
+  },
+  "note_no_partitions": {
+    "message": "Jūsų Chrome versija negali rodyti padalintų slapukų, todėl šis sąrašas gali būti neišsamus."
+  },
+  "empty_no_match": {
+    "message": "Nėra slapukų, atitinkančių „$P1$“.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "empty_none": {
+    "message": "Nėra slapukų svetainei $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clear_search": {
+    "message": "Išvalyti paiešką"
+  },
+  "change_changed": {
+    "message": "Pakeista: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_added": {
+    "message": "Pridėta: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_removed": {
+    "message": "Pašalinta: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_one": {
+    "message": "$P1$ slapukas",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_other": {
+    "message": "Slapukai: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_filtered_one": {
+    "message": "$P2$ iš $P1$ slapuko",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_filtered_other": {
+    "message": "Slapukai: $P2$ iš $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_partitioned": {
+    "message": "Padalinti: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "store_default": {
+    "message": "Numatytoji"
+  },
+  "store_incognito": {
+    "message": "Inkognito"
+  },
+  "store_n": {
+    "message": "Saugykla $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "session": {
+    "message": "Sesijos"
+  },
+  "expired": {
+    "message": "Nebegalioja"
+  },
+  "expiry_under_minute": {
+    "message": "per mažiau nei minutę"
+  },
+  "expiry_on_close": {
+    "message": "Ištrinamas uždarius naršyklę"
+  },
+  "expires_at": {
+    "message": "Galioja iki $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "badge_protected": {
+    "message": "Apsaugotas: masinis trynimas, importas ir rinkinio atkūrimas jo neliečia (p)"
+  },
+  "hint_httponly": {
+    "message": "HttpOnly: puslapio JavaScript jo nemato (document.cookie jo neperskaito)"
+  },
+  "hint_secure": {
+    "message": "Secure: siunčiamas tik per HTTPS"
+  },
+  "hint_samesite_none": {
+    "message": "SameSite=None: siunčiamas ir tarpsvetainėms užklausoms"
+  },
+  "hint_samesite_lax": {
+    "message": "SameSite=Lax: siunčiamas aukščiausio lygio naršymui, bet ne tarpsvetainėms antrinėms užklausoms"
+  },
+  "hint_samesite_strict": {
+    "message": "SameSite=Strict: siunčiamas tik tos pačios svetainės užklausoms"
+  },
+  "badge_partitioned": {
+    "message": "Padalintas"
+  },
+  "partitioned_under": {
+    "message": "Padalintas pagal $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partition_this_site": {
+    "message": "ši svetainė"
+  },
+  "partition_cross_site": {
+    "message": "$P1$, tarpsvetainis kontekstas",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "row_protected": {
+    "message": "Apsaugotas"
+  },
+  "row_unprotect_title": {
+    "message": "Panaikinti apsaugą (p)"
+  },
+  "row_protect_title": {
+    "message": "Apsaugoti nuo masinio trynimo, importo ir rinkinio atkūrimo (p)"
+  },
+  "copy_value": {
+    "message": "Kopijuoti reikšmę"
+  },
+  "copied": {
+    "message": "Nukopijuota"
+  },
+  "copy_value_title": {
+    "message": "Kopijuoti reikšmę (c)"
+  },
+  "row_delete_title": {
+    "message": "Ištrinti (Del) — galima anuliuoti"
+  },
+  "irreversible_title": {
+    "message": "To atšaukti negalima"
+  },
+  "continue_no_undo": {
+    "message": "Tęsti be anuliavimo"
+  },
+  "undo_anyway_title": {
+    "message": "Vis tiek anuliuoti?"
+  },
+  "undo_anyway": {
+    "message": "Vis tiek anuliuoti"
+  },
+  "undone": {
+    "message": "Anuliuota: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_skipped": {
+    "message": "Kai kurių slapukų galiojimas jau baigėsi, todėl jie neatkurti: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_refused": {
+    "message": "Chrome šių slapukų nebepriima tokių, kokie buvo, todėl jie neatkurti: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clipboard_failed": {
+    "message": "Nepavyko nukopijuoti: iškarpinė čia nepasiekiama."
+  },
+  "protected_on": {
+    "message": "„$P1$“ apsaugotas: masinis trynimas, importas ir rinkinio atkūrimas jo neliesti.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_off": {
+    "message": "„$P1$“ nebėra apsaugotas.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protect_limit": {
+    "message": "Galite apsaugoti iki $P1$ slapukų. Pirma panaikinkite kai kurių apsaugą.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_named": {
+    "message": "Ištrinti „$P1$“?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_protected_message": {
+    "message": "Šis slapukas apsaugotas. Vis tiek ištrinti? Galėsite anuliuoti."
+  },
+  "nothing_to_delete": {
+    "message": "Nėra ką trinti"
+  },
+  "all_shown_protected_one": {
+    "message": "Rodomas slapukas apsaugotas."
+  },
+  "all_shown_protected_other": {
+    "message": "Visi rodomi slapukai ($P1$) apsaugoti.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "no_cookies_shown": {
+    "message": "Slapukų nerodoma."
+  },
+  "bulk_title_one": {
+    "message": "Ištrinti $P1$ slapuką?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_title_other": {
+    "message": "Ištrinti slapukus: $P1$?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_match": {
+    "message": "Šie slapukai atitinka „$P1$“ svetainėje $P2$. Galėsite anuliuoti.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "bulk_all": {
+    "message": "Visi svetainės $P1$ slapukai sąraše. Galėsite anuliuoti.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_one": {
+    "message": "$P1$ apsaugotas slapukas bus paliktas.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_other": {
+    "message": "Apsaugoti slapukai, kurie bus palikti: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_one": {
+    "message": "Ištrinti $P1$ slapuką",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_other": {
+    "message": "Ištrinti slapukus: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_to": {
+    "message": "Kopijuoti į"
+  },
+  "copy_to_default_note": {
+    "message": "Į numatytąją saugyklą nukopijuoti slapukai saugomi kaip ir bet kurie kiti, diske ir pasibaigus šiai inkognito sesijai."
+  },
+  "copy_to_incognito_note": {
+    "message": "Į inkognito saugyklą nukopijuoti slapukai dingsta pasibaigus šiai inkognito sesijai."
+  },
+  "copy_title_one": {
+    "message": "Kopijuoti $P1$ slapuką",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_title_other": {
+    "message": "Kopijuoti slapukus: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_from": {
+    "message": "Iš saugyklos „$P1$“ į:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_replace_note": {
+    "message": "Ten esantys slapukai su tuo pačiu pavadinimu, domenu ir keliu bus pakeisti, išskyrus apsaugotus. Kopijavimą galėsite anuliuoti."
+  },
+  "label_copied_one": {
+    "message": "Nukopijuotas $P1$ slapukas į $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_copied_other": {
+    "message": "Nukopijuota slapukų: $P1$ į $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_kept_one": {
+    "message": "$P1$ ten esantis apsaugotas slapukas paliktas nepakeistas.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_kept_other": {
+    "message": "Ten esantys apsaugoti slapukai palikti nepakeisti: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_done_one": {
+    "message": "Nukopijuotas $P1$ slapukas į $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_done_other": {
+    "message": "Nukopijuota slapukų: $P1$ į $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_undo_hint": {
+    "message": "Anuliuokite čia arba vėliau iš saugyklos „$P1$“.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_nothing": {
+    "message": "$P1$ jau turi būtent šiuos slapukus.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_cant": {
+    "message": "Palyginti nepavyksta"
+  },
+  "compare_now": {
+    "message": "$P1$ dabar",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_other_site": {
+    "message": "Šis rinkinys išsaugotas svetainei $P1$, o ne $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "compare_too_many": {
+    "message": "Pasirinkite vieną rinkinį palyginti su dabartiniu arba du rinkinius palyginti tarpusavyje."
+  },
+  "set_file_too_large": {
+    "message": "$P1$ per didelis, kad būtų slapukų rinkinys.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_aria": {
+    "message": "Palyginti slapukų rinkinius"
+  },
+  "compare_changed_fields": {
+    "message": "Pakeista: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_one": {
+    "message": "Skirtumų nėra: $P1$ slapukas vienodas.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_other": {
+    "message": "Skirtumų nėra, vienodų slapukų: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_summary": {
+    "message": "Pridėta: $P1$, pašalinta: $P2$, pakeista: $P3$, nepakeista: $P4$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      },
+      "p4": {
+        "content": "$4"
+      }
+    }
+  },
+  "diff_added": {
+    "message": "Pridėta"
+  },
+  "diff_removed": {
+    "message": "Pašalinta"
+  },
+  "diff_changed": {
+    "message": "Pakeista"
+  },
+  "diff_expiry_only": {
+    "message": "Pasikeitė tik galiojimo laikas ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "shortcuts_title": {
+    "message": "Spartieji klavišai"
+  },
+  "key_search": {
+    "message": "Paieška"
+  },
+  "key_move": {
+    "message": "Judėti sąraše"
+  },
+  "key_first_last": {
+    "message": "Pirmas / paskutinis slapukas"
+  },
+  "key_edit": {
+    "message": "Keisti"
+  },
+  "key_copy": {
+    "message": "Kopijuoti reikšmę"
+  },
+  "key_protect": {
+    "message": "Apsaugoti / panaikinti apsaugą"
+  },
+  "key_delete": {
+    "message": "Ištrinti (galima anuliuoti)"
+  },
+  "key_back": {
+    "message": "Atgal arba išvalyti paiešką"
+  },
+  "key_help": {
+    "message": "Šis sąrašas"
+  },
+  "import_kept_one": {
+    "message": "$P1$ apsaugotas slapukas paliktas nepakeistas: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_kept_other": {
+    "message": "Apsaugoti slapukai palikti nepakeisti ($P1$): $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_nothing": {
+    "message": "Nėra ką importuoti: visi failo slapukai jau nustatyti būtent taip."
+  },
+  "imported_one": {
+    "message": "Importuotas $P1$ slapukas.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "imported_other": {
+    "message": "Importuota slapukų: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_restored": {
+    "message": "Atkurtas rinkinys „$P1$“",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restored_one": {
+    "message": "Atkurta „$P2$“: įrašytas $P1$ slapukas, ištrinta: $P3$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "restored_other": {
+    "message": "Atkurta „$P2$“: įrašyta slapukų: $P1$, ištrinta: $P3$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "rate_title": {
+    "message": "Patinka CookieDesk?"
+  },
+  "rate_text": {
+    "message": "Trumpas įvertinimas padeda kitiems jį rasti."
+  },
+  "rate_group": {
+    "message": "Įvertinti parduotuvėje"
+  },
+  "rate_stars_one": {
+    "message": "$P1$ žvaigždutė",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "rate_stars_other": {
+    "message": "Žvaigždučių: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_confirm_title": {
+    "message": "Ar nupirkote man kavos?"
+  },
+  "kofi_confirm_text": {
+    "message": "Ačiū, tai padeda CookieDesk tobulėti."
+  },
+  "kofi_yes": {
+    "message": "Taip, nupirkau"
+  },
+  "kofi_not_yet": {
+    "message": "Dar ne"
+  },
+  "kofi_milestone_one": {
+    "message": "$P1$ pakeitimas atliktas su CookieDesk!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_milestone_other": {
+    "message": "Pakeitimų su CookieDesk: $P1$!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_free": {
+    "message": "Nemokamas ir sukurtas vieno kūrėjo."
+  },
+  "buy_coffee": {
+    "message": "Nupirkti kavos"
+  },
+  "edit_cookie": {
+    "message": "Keisti slapuką"
+  },
+  "add_cookie_short": {
+    "message": "Pridėti slapuką"
+  },
+  "explain_title": {
+    "message": "Ką šis slapukas daro"
+  },
+  "field_name": {
+    "message": "Pavadinimas"
+  },
+  "field_value": {
+    "message": "Reikšmė"
+  },
+  "field_domain": {
+    "message": "Domenas"
+  },
+  "field_path": {
+    "message": "Kelias"
+  },
+  "field_expiry": {
+    "message": "Galiojimas"
+  },
+  "field_expires": {
+    "message": "Galioja iki"
+  },
+  "field_attributes": {
+    "message": "Atributai"
+  },
+  "field_partition": {
+    "message": "Skaidinys"
+  },
+  "host_only": {
+    "message": "Tik šeimininkas"
+  },
+  "host_only_title": {
+    "message": "Tik šeimininkas: be Domain atributo, todėl subdomenai jo negauna"
+  },
+  "session_title": {
+    "message": "Sesijos slapukas: dingsta uždarius naršyklę"
+  },
+  "httponly_title": {
+    "message": "HttpOnly: puslapio JavaScript jo nemato"
+  },
+  "samesite_unspecified": {
+    "message": "Nenurodyta"
+  },
+  "partitioned_chips": {
+    "message": "Padalintas (CHIPS)"
+  },
+  "top_level_site": {
+    "message": "Aukščiausio lygio svetainė"
+  },
+  "no_partition_write": {
+    "message": "Ši Chrome versija negali įrašyti padalintų slapukų."
+  },
+  "editor_delete_title": {
+    "message": "Ištrinti (galima anuliuoti)"
+  },
+  "bytes_of": {
+    "message": "$P1$ / $P2$ baitų",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "access_aria": {
+    "message": "Prieiga ir nustatymai"
+  },
+  "all_sites_on": {
+    "message": "Visos svetainės: įjungta"
+  },
+  "all_sites_on_text": {
+    "message": "CookieDesk gali skaityti ir keisti slapukus visose svetainėse, įskaitant įterptąsias."
+  },
+  "turn_off": {
+    "message": "Išjungti"
+  },
+  "all_sites": {
+    "message": "Visos svetainės"
+  },
+  "all_sites_text": {
+    "message": "Neprivaloma. Nebereikia klausimų dėl kiekvienos svetainės, o įterptųjų svetainių (reklamų, valdiklių, prisijungimo rėmelių) slapukai rodomi visur."
+  },
+  "allow_all_sites": {
+    "message": "Leisti visose svetainėse"
+  },
+  "remove_access": {
+    "message": "Pašalinti prieigą prie $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "access_lead": {
+    "message": "CookieDesk mato svetainės slapukus tik jums ją leidus ir nieko daugiau: nei puslapio turinio, nei istorijos."
+  },
+  "allowed_sites": {
+    "message": "Leistos svetainės"
+  },
+  "allowed_sites_count": {
+    "message": "Leistos svetainės · $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "all_sites_overrides": {
+    "message": "Prieiga prie visų svetainių įjungta, todėl šie nustatymai neturi reikšmės, kol ji įjungta."
+  },
+  "none_yet": {
+    "message": "Kol kas nėra."
+  },
+  "toolbar_opens": {
+    "message": "Įrankių juostos mygtukas atidaro"
+  },
+  "surface_popup": {
+    "message": "Iššokantį langą"
+  },
+  "surface_sidepanel": {
+    "message": "Šoninę juostą"
+  },
+  "support_feedback": {
+    "message": "Parama ir atsiliepimai"
+  },
+  "thanks_supporting": {
+    "message": "Ačiū už paramą!"
+  },
+  "report_problem": {
+    "message": "Pranešti apie problemą"
+  },
+  "source_code": {
+    "message": "Šaltinio kodas"
+  },
+  "privacy_line": {
+    "message": "Jokių tinklo užklausų, jokių slapukų reikšmių diske. Anuliavimas veikia 10 minučių; jo kopijos laikomos atmintyje ir dingsta uždarius Chrome ar pasibaigus inkognito sesijai."
+  },
+  "export_warning": {
+    "message": "Šiame faile yra veikiantys sesijos slapukai. Kas jį turi, gali prisijungti kaip jūs šiose svetainėse. Elkitės su juo kaip su slaptažodžiu ir ištrinkite baigę."
+  },
+  "export_json_one": {
+    "message": "Eksportuoti $P1$ slapuką kaip JSON",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_json_other": {
+    "message": "Eksportuoti slapukus kaip JSON: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_one": {
+    "message": "Eksportuoti $P1$ slapuką kaip cookies.txt",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_other": {
+    "message": "Eksportuoti slapukus kaip cookies.txt: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_all_one": {
+    "message": "Svetainės $P2$ slapukas sąraše pateks į failą, net jei jis HttpOnly.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_all_other": {
+    "message": "Visi svetainės $P2$ slapukai sąraše ($P1$) pateks į failą, įskaitant HttpOnly.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_partitioned_left_one": {
+    "message": "$P1$ padalintas slapukas praleistas: cookies.txt negali įrašyti skaidinių. Norėdami jį išsaugoti, naudokite JSON.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_partitioned_left_other": {
+    "message": "Padalinti slapukai praleisti ($P1$): cookies.txt negali įrašyti skaidinių. Norėdami juos išsaugoti, naudokite JSON.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_too_big": {
+    "message": "Šis failas yra $P1$ MB. Slapukų eksportai gerokai mažesni; CookieDesk skaito failus iki 5 MB.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "cant_import_unchanged": {
+    "message": "Šio failo importuoti nepavyksta. Nieko nepakeista."
+  },
+  "cant_import": {
+    "message": "Šio failo importuoti nepavyksta"
+  },
+  "file_unreadable": {
+    "message": "Failo nepavyko perskaityti."
+  },
+  "needs_access_one": {
+    "message": "CookieDesk reikia prieigos dar prie $P1$ svetainės, kad galėtų įrašyti šiuos slapukus:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "needs_access_other": {
+    "message": "CookieDesk reikia prieigos prie daugiau svetainių ($P1$), kad galėtų įrašyti šiuos slapukus:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_allow_all_hint": {
+    "message": "Arba leiskite visas svetaines skiltyje Prieiga ir nustatymai."
+  },
+  "other_sites": {
+    "message": "Kitos svetainės ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "other_sites_warning": {
+    "message": "Šis failas įrašo slapukus ir kitoms svetainėms nei $P1$. Kitoje svetainėje pasodintas slapukas gali prijungti jus prie netinkamos paskyros. Tęskite tik jei tikėjotės šių svetainių.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_one": {
+    "message": "Įrašyti slapukus ir $P1$ kitai svetainei",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_other": {
+    "message": "Įrašyti slapukus ir kitoms svetainėms: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partitioned_under_list": {
+    "message": "Padalinti pagal: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "warnings_count": {
+    "message": "Įspėjimai ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_title": {
+    "message": "Importuoti slapukus"
+  },
+  "import_message_one": {
+    "message": "Importuoti $P1$ slapuką? Slapukai su tuo pačiu pavadinimu, domenu ir keliu bus pakeisti. Visą importą galėsite anuliuoti.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_message_other": {
+    "message": "Importuoti slapukus: $P1$? Slapukai su tuo pačiu pavadinimu, domenu ir keliu bus pakeisti. Visą importą galėsite anuliuoti.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_one": {
+    "message": "Kopijuoti $P1$ slapuką kaip document.cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_other": {
+    "message": "Kopijuoti slapukus kaip document.cookie: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_warning": {
+    "message": "Kode yra veikiantys sesijos slapukai. Kas jį turi, gali prisijungti kaip jūs šioje svetainėje. Elkitės su juo kaip su slaptažodžiu."
+  },
+  "snippet_paste": {
+    "message": "Įklijuokite jį į DevTools konsolę svetainėje $P1$, kad ten nustatytumėte šiuos slapukus.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_one": {
+    "message": "$P1$ HttpOnly slapukas praleistas: puslapio JavaScript jo nustatyti negali.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_other": {
+    "message": "HttpOnly slapukai praleisti ($P1$): puslapio JavaScript jų nustatyti negali.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_one": {
+    "message": "Nukopijuotas $P1$ slapukas kaip document.cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_other": {
+    "message": "Nukopijuota slapukų kaip document.cookie: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_name": {
+    "message": "Rinkinio pavadinimas"
+  },
+  "set_name_placeholder": {
+    "message": "pvz., prisijungta kaip administratorius"
+  },
+  "save_set_title_one": {
+    "message": "Išsaugoti $P1$ slapuką kaip rinkinį",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "save_set_title_other": {
+    "message": "Išsaugoti slapukus kaip rinkinį: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_file_note": {
+    "message": "Rinkinys yra failas jūsų kompiuteryje; CookieDesk kopijos nelaiko. Vėliau atkurkite jį iš meniu svetainėje $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "default_set_name": {
+    "message": "Slapukų rinkinys"
+  },
+  "set_too_large": {
+    "message": "Šis failas per didelis, kad būtų slapukų rinkinys."
+  },
+  "cant_restore_unchanged": {
+    "message": "Šio rinkinio atkurti nepavyksta. Nieko nepakeista."
+  },
+  "cant_restore": {
+    "message": "Šio rinkinio atkurti nepavyksta"
+  },
+  "wrong_site_message": {
+    "message": "Šis rinkinys išsaugotas svetainei $P1$. Atidarykite $P1$ ir atkurkite jį ten.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "wrong_site_title": {
+    "message": "Netinkama svetainė. Nieko nepakeista."
+  },
+  "foreign_cookies_one": {
+    "message": "$P1$ šio failo slapukas priklauso kitai svetainei ($P2$). Atkuriant rinkinį keičiama tik $P3$; kitoms svetainėms naudokite importą.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "foreign_cookies_other": {
+    "message": "Šio failo slapukai, priklausantys kitoms svetainėms ($P2$): $P1$. Atkuriant rinkinį keičiama tik $P3$; kitoms svetainėms naudokite importą.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "plan_write": {
+    "message": "Įrašyti"
+  },
+  "plan_delete": {
+    "message": "Ištrinti"
+  },
+  "plan_protected": {
+    "message": "Apsaugoti, paliekami kaip yra"
+  },
+  "restore_title": {
+    "message": "Atkurti „$P1$“",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_nothing": {
+    "message": "$P1$ jau atitinka šį rinkinį. Nėra ką keisti.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_message_one": {
+    "message": "Svetainės $P2$ slapukai bus pakeisti šio rinkinio $P1$ slapuku. Visą atkūrimą galėsite anuliuoti.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "restore_message_other": {
+    "message": "Svetainės $P2$ slapukai bus pakeisti šio rinkinio slapukais ($P1$). Visą atkūrimą galėsite anuliuoti.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_partition_unsupported": {
+    "message": "„$P1$“ yra padalintas slapukas, kurio ši Chrome versija įrašyti negali. Atnaujinkite Chrome į 119 ar naujesnę versiją.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_gone": {
+    "message": "„$P1$“ nebeegzistuoja — galbūt baigėsi jo galiojimas arba svetainė jį pakeitė. Įkelkite sąrašą iš naujo.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_stored": {
+    "message": "Chrome priėmė „$P1$“, bet jo neišsaugojo.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_imprecise_delete_one": {
+    "message": "Chrome gali ištrinti „$P2$“ tik kartu su $P1$ kitu to paties pavadinimo slapuku, todėl CookieDesk jo netrins.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_imprecise_delete_other": {
+    "message": "Chrome gali ištrinti „$P2$“ tik kartu su kitais to paties pavadinimo slapukais ($P1$), todėl CookieDesk jo netrins.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_delete": {
+    "message": "Chrome „$P1$“ nebepriima tokio, koks saugomas, todėl ištrinto jo nebūtų galima grąžinti. Ištrinti be anuliavimo?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_removed": {
+    "message": "Nepavyko ištrinti „$P1$“.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_no_permission": {
+    "message": "CookieDesk neturi prieigos prie $P1$. Pirma suteikite prieigą šiai svetainei.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_secure_shadow": {
+    "message": "Svetainei $P2$ jau yra Secure slapukas pavadinimu „$P1$“. Chrome neleidžia ne Secure slapukui su tuo pačiu pavadinimu jo pakeisti ar būti šalia. Įjunkite Secure arba naudokite kitą pavadinimą.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_rejected": {
+    "message": "Chrome atmetė „$P1$“ nenurodęs priežasties. Nieko nepakeista.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_irreversible_replace_one": {
+    "message": "Chrome $P2$ nebepriima tokio, koks saugomas, todėl pakeisto jo nebūtų galima grąžinti. Tęsti be anuliavimo?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_replace_other": {
+    "message": "Chrome nebepriima tokių, kokie saugomi, todėl pakeistų jų nebūtų galima grąžinti: $P2$. Tęsti be anuliavimo?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_too_large_to_undo": {
+    "message": "Šis pakeitimas paliečia per daug duomenų ($P1$ KB), kad būtų galima saugoti anuliavimo kopiją. Tęsti be anuliavimo?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_duplicate_in_file": {
+    "message": "Faile „$P1$“ yra du kartus to paties domeno ir kelio.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_undo_expired": {
+    "message": "Nėra ką anuliuoti — anuliavimas galioja 10 minučių."
+  },
+  "err_undo_conflict": {
+    "message": "$P1$ pasikeitė po „$P2$“. Anuliavus dabar bus perrašyta naujesnė reikšmė. Vis tiek anuliuoti?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_incomplete": {
+    "message": "Nebaigta: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_added": {
+    "message": "Pridėta „$P1$“",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_edited": {
+    "message": "Pakeista „$P1$“",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted": {
+    "message": "Ištrinta „$P1$“",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_expired": {
+    "message": "Ištrinta „$P1$“ (galiojimas praeityje)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_one": {
+    "message": "Ištrintas $P1$ slapukas",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_other": {
+    "message": "Ištrinta slapukų: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_one": {
+    "message": "Importuotas $P1$ slapukas",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_other": {
+    "message": "Importuota slapukų: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_undid": {
+    "message": "Anuliuota: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_saved": {
+    "message": "Išsaugota „$P1$“",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_draft": {
+    "message": "Slapukas turi būti objektas su pavadinimu, reikšme, domenu ir keliu."
+  },
+  "v_name_type": {
+    "message": "Slapuko pavadinimas turi būti tekstas."
+  },
+  "v_value_type": {
+    "message": "Slapuko reikšmė turi būti tekstas."
+  },
+  "v_domain_type": {
+    "message": "Domenas turi būti tekstas."
+  },
+  "v_path_type": {
+    "message": "Kelias turi būti tekstas."
+  },
+  "v_flag_type": {
+    "message": "$P1$ turi būti true arba false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_samesite": {
+    "message": "SameSite turi būti viena iš reikšmių: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_name_control": {
+    "message": "Pavadinime yra valdymo simbolių (pavyzdžiui, naujos eilutės ar tabuliacijos), kurių slapukai negali turėti."
+  },
+  "v_name_semicolon": {
+    "message": "Pavadinime yra „;“, kuris per anksti užbaigtų slapuką."
+  },
+  "v_name_equals": {
+    "message": "Pavadinime yra „=“, kuris slapuke skiria pavadinimą nuo reikšmės."
+  },
+  "v_value_control": {
+    "message": "Reikšmėje yra valdymo simbolių (pavyzdžiui, naujos eilutės ar tabuliacijos), kurių slapukai negali turėti."
+  },
+  "v_value_semicolon": {
+    "message": "Reikšmėje yra „;“, kuris per anksti užbaigtų slapuką. Užkoduokite ją (pavyzdžiui, naudodami encodeURIComponent)."
+  },
+  "v_empty_cookie": {
+    "message": "Slapukui reikia pavadinimo arba reikšmės; abu tušti."
+  },
+  "v_empty_name": {
+    "message": "Šio slapuko pavadinimas tuščias. Kai kurios svetainės ir įrankiai tvarko slapukus be pavadinimo prastai."
+  },
+  "v_too_large": {
+    "message": "Pavadinimas ir reikšmė kartu užima $P1$ baitų (UTF-8); Chrome leidžia daugiausia $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "v_path_slash": {
+    "message": "Kelias turi prasidėti „/“."
+  },
+  "v_path_too_long": {
+    "message": "Kelias ilgesnis nei $P1$ baitų.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_path_chars": {
+    "message": "Kelyje yra valdymo simbolių arba „;“, kurių slapukai negali turėti."
+  },
+  "v_domain_empty": {
+    "message": "Domenas tuščias. Įveskite svetainę, kuriai slapukas priklauso, pavyzdžiui, example.com."
+  },
+  "v_domain_too_long": {
+    "message": "Domenas ilgesnis nei $P1$ baitų.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_domain_invalid": {
+    "message": "Domenas nėra tinkamas pagrindinio kompiuterio vardas. Naudokite raides, skaitmenis ir brūkšnelius, atskirtus taškais (tarptautiniai vardai turi būti punycode formatu, pavyzdžiui, xn--...)."
+  },
+  "v_domain_leading_dot": {
+    "message": "Tik šeimininko slapuko domenas negali prasidėti tašku; taškas reiškia, kad slapukas taikomas ir subdomenams."
+  },
+  "v_domain_public_suffix": {
+    "message": "„$P1$“ yra viešoji priesaga (registro valdomas domenas, pavyzdžiui, .com ar .co.uk), todėl naršyklės atmeta slapukus, taikomus visam jam.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_samesite_none_insecure": {
+    "message": "SameSite=None slapukai turi būti Secure, kitaip Chrome juos atmeta. Įjunkite Secure arba pasirinkite kitą SameSite."
+  },
+  "v_partitioned_insecure": {
+    "message": "Padalinti slapukai turi būti Secure, kitaip Chrome juos atmeta. Įjunkite Secure arba pašalinkite skaidinį."
+  },
+  "v_prefix_secure": {
+    "message": "Slapukai, kurių pavadinimas prasideda „$P1$“, turi būti Secure. Įjunkite Secure arba pervardykite slapuką.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_host_prefix_domain": {
+    "message": "Slapukai, kurių pavadinimas prasideda „__Host-“, turi būti tik šeimininko (be Domain atributo, todėl nesidalijama su subdomenais). Įjunkite „tik šeimininkas“ arba pervardykite slapuką."
+  },
+  "v_host_prefix_path": {
+    "message": "Slapukai, kurių pavadinimas prasideda „__Host-“, turi turėti kelią „/“."
+  },
+  "v_bad_expiration": {
+    "message": "Galiojimo pabaiga turi būti baigtinis sekundžių skaičius nuo 1970 m."
+  },
+  "v_expired_deletes": {
+    "message": "Išsaugojus su galiojimu praeityje šis slapukas bus ištrintas."
+  },
+  "v_clamped": {
+    "message": "Chrome riboja slapuko gyvavimą iki $P1$ dienų; vėlesnis galiojimas išsaugant sutrumpinamas.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_expiration_missing": {
+    "message": "Ne sesijos slapukui reikia galiojimo datos. Pasirinkite ją arba pažymėkite slapuką kaip sesijos slapuką."
+  },
+  "v_partition_type": {
+    "message": "Skaidinio raktas turi būti objektas su topLevelSite."
+  },
+  "v_partition_site_type": {
+    "message": "Skaidinio aukščiausio lygio svetainė turi būti tekstas, pavyzdžiui, https://example.com."
+  },
+  "v_partition_site_form": {
+    "message": "Skaidinio aukščiausio lygio svetainė turi atrodyti kaip https://example.com (https, be kelio ar prievado)."
+  },
+  "v_partition_flag": {
+    "message": "Skaidinio hasCrossSiteAncestor turi būti true arba false."
+  },
+  "v_partition_cross_site": {
+    "message": "Slapuko domenas nėra toje pačioje svetainėje kaip $P1$, todėl Chrome reikalauja, kad hasCrossSiteAncestor būtų true.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_other_site": {
+    "message": "Šio slapuko domenas ($P1$) nepatenka į dabartinę svetainę ($P2$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_entry": {
+    "message": "Įrašas $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_entry_named": {
+    "message": "Įrašas $P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_bad_samesite": {
+    "message": "$P1$: sameSite nėra viena iš reikšmių no_restriction, lax, strict, unspecified.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bool": {
+    "message": "$P1$: „$P2$“ turi būti true arba false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_text": {
+    "message": "$P1$: „$P2$“ turi būti tekstas.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_not_object": {
+    "message": "$P1$ nėra slapuko objektas.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_expiration_type": {
+    "message": "$P1$: „expirationDate“ turi būti skaičius.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_key": {
+    "message": "$P1$: partitionKey turi būti objektas su tekstiniu topLevelSite.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_flag": {
+    "message": "$P1$: partitionKey.hasCrossSiteAncestor turi būti true arba false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_line": {
+    "message": "Eilutė $P1$ nėra cookies.txt įrašas (tikėtasi 7 laukų, atskirtų tabuliacija, rasta $P2$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_line_flag_subdomains": {
+    "message": "Eilutė $P1$: subdomenų žymė turi būti TRUE arba FALSE.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_flag_secure": {
+    "message": "Eilutė $P1$: secure žymė turi būti TRUE arba FALSE.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_expiry": {
+    "message": "Eilutė $P1$: galiojimas turi būti sveikas sekundžių skaičius.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_not_text": {
+    "message": "Failo nepavyko perskaityti kaip teksto."
+  },
+  "io_too_large": {
+    "message": "Failas didesnis nei $P1$ baitų importo riba.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_json": {
+    "message": "Failas panašus į JSON, bet jo nepavyko išanalizuoti."
+  },
+  "io_bad_version": {
+    "message": "Šio CookieDesk failo versija nepalaikoma."
+  },
+  "io_no_cookie_list": {
+    "message": "CookieDesk faile nėra „cookies“ sąrašo."
+  },
+  "io_unknown_format": {
+    "message": "Šis JSON nėra nei CookieDesk eksportas, nei slapukų sąrašas."
+  },
+  "io_no_cookies": {
+    "message": "Faile nėra slapukų."
+  },
+  "io_too_many": {
+    "message": "Faile yra $P1$ slapukų; riba yra $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_issue": {
+    "message": "$P1$: $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_duplicate": {
+    "message": "$P1$: kitas įrašas turi tą patį pavadinimą, domeną, kelią ir skaidinį.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "when": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "when_passed": {
+    "message": "jau praėjo"
+  },
+  "when_under_day": {
+    "message": "per mažiau nei dieną"
+  },
+  "explain_third_party": {
+    "message": "Nustatė $P1$, kita svetainė nei $P2$: trečiosios šalies slapukas.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_third_party_partitioned": {
+    "message": "Nustatė $P1$, kita svetainė nei $P2$: trečiosios šalies slapukas, laikomas $P2$ skaidinyje.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_host_prefix": {
+    "message": "Priedėlis __Host- verčia Chrome reikalauti Secure, be Domain atributo ir Path=/, todėl joks subdomenas negali jo nustatyti ar pakeisti."
+  },
+  "explain_secure_prefix": {
+    "message": "Priedėlis __Secure- verčia Chrome priimti jį tik su Secure žyma."
+  },
+  "explain_scope_host": {
+    "message": "Siunčiamas tik pačiai svetainei $P1$, ne jos subdomenams.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_scope_domain": {
+    "message": "Siunčiamas svetainei $P1$ ir visiems jos subdomenams (pavyzdžiui, www.$P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_path_all": {
+    "message": "Siunčiamas su užklausomis į visus to serverio kelius."
+  },
+  "explain_path_under": {
+    "message": "Siunčiamas tik su užklausomis į kelius po $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_secure": {
+    "message": "Secure: siunčiamas tik per HTTPS."
+  },
+  "explain_not_secure": {
+    "message": "Ne Secure: siunčiamas ir per paprastą HTTP, kur jį gali perskaityti bet kas tinkle."
+  },
+  "explain_httponly": {
+    "message": "HttpOnly: puslapio JavaScript jo nemato (document.cookie jo neperskaito), todėl jis apsaugotas nuo įterptų scenarijų."
+  },
+  "explain_script_readable": {
+    "message": "Bet kuris puslapyje veikiantis scenarijus gali jį skaityti ir keisti."
+  },
+  "explain_samesite_none": {
+    "message": "SameSite=None: gali būti siunčiamas ir su tarpsvetainėmis užklausomis (įterptais rėmeliais, paveikslėliais, kitų svetainių užklausomis), kai Chrome apskritai leidžia trečiųjų šalių slapukus (inkognito juos blokuoja pagal numatytuosius nustatymus). Todėl jis turi būti Secure."
+  },
+  "explain_samesite_lax": {
+    "message": "SameSite=Lax: siunčiamas jums pereinant į svetainę, taip pat iš nuorodos kitoje svetainėje, bet ne su užklausomis, kurias kitų svetainių puslapiai siunčia fone."
+  },
+  "explain_samesite_strict": {
+    "message": "SameSite=Strict: siunčiamas tik jums jau esant toje pačioje svetainėje. Atėjus iš nuorodos kitoje svetainėje, pirmoji užklausa išeina be jo."
+  },
+  "explain_samesite_unset": {
+    "message": "Nėra SameSite atributo: Chrome jį traktuoja kaip Lax."
+  },
+  "explain_session": {
+    "message": "Sesijos slapukas: ištrinamas uždarius naršyklę (nebent paleidžiant Chrome atkuriama ankstesnė sesija)."
+  },
+  "explain_expires": {
+    "message": "Galioja iki $P1$. Chrome riboja bet kokį galiojimą iki 400 dienų nuo paskutinio slapuko nustatymo.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition": {
+    "message": "Padalintas (CHIPS): saugomas atskirai kiekvienai aukščiausio lygio svetainei. Ši kopija siunčiama tik kai adreso juostoje yra $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition_cross": {
+    "message": "Jis yra to skaidinio tarpsvetainėje dalyje (naudojama, kai tarp puslapio ir šio slapuko svetainės yra kita svetainė), atskirtoje nuo tos pačios svetainės dalies."
+  },
+  "explain_partition_same": {
+    "message": "Jis yra to skaidinio tos pačios svetainės dalyje, atskirtoje nuo tarpsvetainės dalies."
+  },
+  "explain_partition_other": {
+    "message": "Tas pats slapuko pavadinimas kitoje svetainėje yra kitas slapukas."
+  },
+  "explain_jwt": {
+    "message": "Reikšmė atrodo kaip JSON Web Token."
+  },
+  "explain_jwt_exp": {
+    "message": "Reikšmė atrodo kaip JSON Web Token; pats žetonas nurodo, kad galioja iki $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_size": {
+    "message": "$P1$ iš 4096 baitų, kuriuos Chrome leidžia pavadinimui ir reikšmei kartu.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

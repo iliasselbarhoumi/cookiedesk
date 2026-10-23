@@ -1,5 +1,25 @@
 # Changelog
 
+## 1.1.0 (2026-10-23)
+
+**A redesigned popup and side panel**
+- Icons instead of words where an icon is clear: the header (undo, add, menu), cookie badges (lock for Secure, a crossed eye for HttpOnly, a split box for partitioned, a shield for protected) and the expiry clock. Every icon has a tooltip and an accessible name.
+- The ⋯ menu leads with icon tiles for export, import and cookie sets; the rest is a short icon list.
+- The editor turns flags into toggle chips, shows the value's size as a bar against Chrome's 4096-byte limit, and gives each line of "What this cookie does" its own icon.
+- Access & settings: sites listed with a remove button each, a Popup / Side panel switch, and a Support & feedback section.
+- Clearer state screens (no access, restricted page, empty list, search with no match) with one action each, and placeholder rows while loading.
+- Motion that explains what happened: rows slide in when a list appears and fold away when deleted, views slide in and back, menus and dialogs scale in, the toast shows its remaining time and pauses on hover, the undo arrow kicks when there is something new to undo. Reduced-motion settings turn all of it off.
+
+**51 languages**
+- The whole interface, every error message and "What this cookie does" are translated into the 51 languages the Chrome Web Store offers, and follow Chrome's own language. Arabic, Persian and Hebrew lay out right to left.
+- Dates and relative times ("in 3 days") use your language's own format.
+- The store listing has a description in each language too.
+
+**Support and ratings**
+- A heart in the header, "Support on Ko-fi" in the menu and "Buy me a coffee" in Access & settings open ko-fi.com/buildwithiliass. Nothing is locked behind it.
+- A rare tip card after milestones of successful changes, and, for store installs only, a rare rating card right after CookieDesk worked for you and never soon after an error. One card at a time; "Later" backs off; both stop for good once answered. Timing rules are in the README.
+- To time these, CookieDesk keeps a small usage record on your device (install time, number of successful changes, active days, last change and last error). No sites, no cookie data, nothing sent.
+
 ## 1.0.0 (2026-10-22)
 
 First public release.

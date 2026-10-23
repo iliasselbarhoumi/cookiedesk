@@ -1,0 +1,2215 @@
+{
+  "extension_name": {
+    "message": "Editor de cookie-uri: vezi, editează și șterge cookie-uri | CookieDesk"
+  },
+  "extension_description": {
+    "message": "Vezi, editează, adaugă și șterge cookie-uri pe site. Căutare, import/export, cookie-uri partiționate. Fără reclame, fără urmărire."
+  },
+  "btn_ok": {
+    "message": "OK"
+  },
+  "btn_cancel": {
+    "message": "Anulează"
+  },
+  "btn_close": {
+    "message": "Închide"
+  },
+  "btn_delete": {
+    "message": "Șterge"
+  },
+  "btn_copy": {
+    "message": "Copiază"
+  },
+  "btn_save": {
+    "message": "Salvează"
+  },
+  "btn_export": {
+    "message": "Exportă"
+  },
+  "btn_later": {
+    "message": "Mai târziu"
+  },
+  "dismiss": {
+    "message": "Ascunde"
+  },
+  "back": {
+    "message": "Înapoi"
+  },
+  "back_esc": {
+    "message": "Înapoi (Esc)"
+  },
+  "back_to_list": {
+    "message": "Înapoi la listă"
+  },
+  "title_count": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "empty_name": {
+    "message": "(nume gol)"
+  },
+  "empty_value": {
+    "message": "(valoare goală)"
+  },
+  "empty_short": {
+    "message": "(gol)"
+  },
+  "names_more": {
+    "message": "$P1$ și încă $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "done": {
+    "message": "Gata"
+  },
+  "undo": {
+    "message": "Anulează acțiunea"
+  },
+  "undo_nothing": {
+    "message": "Nimic de anulat"
+  },
+  "undo_entry": {
+    "message": "Anulează: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_interrupted": {
+    "message": "Anulare întreruptă: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "redo_entry": {
+    "message": "Refă: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "support_title": {
+    "message": "Susține CookieDesk pe Ko-fi"
+  },
+  "supporter_title": {
+    "message": "Mulțumim că susții CookieDesk!"
+  },
+  "add_cookie": {
+    "message": "Adaugă un cookie"
+  },
+  "add_cookie_title": {
+    "message": "Adaugă un cookie (n)"
+  },
+  "more_actions": {
+    "message": "Mai multe acțiuni"
+  },
+  "menu_group_transfer": {
+    "message": "Export și import"
+  },
+  "menu_group_sets": {
+    "message": "Seturi de cookie-uri"
+  },
+  "export_json_title": {
+    "message": "Exportă ca JSON"
+  },
+  "export_txt_title": {
+    "message": "Exportă ca cookies.txt Netscape"
+  },
+  "tile_snippet": {
+    "message": "Fragment"
+  },
+  "tile_snippet_title": {
+    "message": "Copiază ca fragment document.cookie"
+  },
+  "tile_import": {
+    "message": "Importă"
+  },
+  "tile_import_title": {
+    "message": "Importă JSON sau cookies.txt"
+  },
+  "tile_save_set": {
+    "message": "Salvează setul"
+  },
+  "tile_save_set_title": {
+    "message": "Salvează aceste cookie-uri ca fișier de set cu nume"
+  },
+  "tile_restore": {
+    "message": "Restaurează"
+  },
+  "tile_restore_title": {
+    "message": "Restaurează un set salvat (cu previzualizare)"
+  },
+  "tile_compare": {
+    "message": "Compară"
+  },
+  "tile_compare_title": {
+    "message": "Compară un set salvat cu starea de acum, sau două seturi"
+  },
+  "tile_copy_to": {
+    "message": "Copiază în…"
+  },
+  "tile_copy_to_title": {
+    "message": "Copiază cookie-urile afișate în alt spațiu de stocare (normal ↔ incognito)"
+  },
+  "menu_bulk_delete": {
+    "message": "Șterge cookie-urile afișate…"
+  },
+  "menu_access": {
+    "message": "Acces și setări"
+  },
+  "menu_shortcuts": {
+    "message": "Comenzi rapide"
+  },
+  "menu_sidepanel": {
+    "message": "Deschide în panoul lateral"
+  },
+  "menu_rate": {
+    "message": "Evaluează CookieDesk"
+  },
+  "menu_support": {
+    "message": "Susține pe Ko-fi"
+  },
+  "search_placeholder": {
+    "message": "Caută cookie-uri"
+  },
+  "search_label": {
+    "message": "Filtrează cookie-urile după nume, valoare sau domeniu"
+  },
+  "search_title": {
+    "message": "Filtrează după nume, valoare sau domeniu"
+  },
+  "cookie_store": {
+    "message": "Spațiu de stocare cookie-uri"
+  },
+  "cookies_list": {
+    "message": "Cookie-uri"
+  },
+  "restricted_page": {
+    "message": "Pagină restricționată"
+  },
+  "loading": {
+    "message": "Se încarcă…"
+  },
+  "state_unknown": {
+    "message": "Apasă butonul CookieDesk din bara de instrumente ca să vezi cookie-urile acestei file."
+  },
+  "state_unknown_hint": {
+    "message": "Chrome partajează adresa unei file doar după acea apăsare, sau pentru site-urile permise de tine."
+  },
+  "state_error": {
+    "message": "Ceva nu a mers: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "state_no_access": {
+    "message": "CookieDesk nu are încă acces la $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "grant_site": {
+    "message": "Permite pe $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "chrome_will_ask": {
+    "message": "Chrome va întreba:"
+  },
+  "prompt_site": {
+    "message": "Citiți și modificați datele dvs. de pe toate site-urile $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "prompt_all": {
+    "message": "Citiți și modificați toate datele dvs. de pe toate site-urile web"
+  },
+  "only_this_site": {
+    "message": "Doar cookie-urile acestui site, nimic altceva."
+  },
+  "allow_all_instead": {
+    "message": "Permite toate site-urile"
+  },
+  "restricted_browser": {
+    "message": "Aceasta este o pagină Chrome. Chrome nu permite nicio extensie să citească sau să modifice cookie-uri aici."
+  },
+  "restricted_webstore": {
+    "message": "Acesta este Chrome Web Store. Chrome blochează toate extensiile aici, deci cookie-urile lui nu pot fi afișate."
+  },
+  "restricted_extension": {
+    "message": "Aceasta este pagina unei extensii. Stocarea ei nu înseamnă cookie-urile unui site, deci nu e nimic de afișat."
+  },
+  "restricted_file": {
+    "message": "Acesta este un fișier local. Fișierele deschise de pe disc nu au cookie-uri."
+  },
+  "restricted_other": {
+    "message": "Această pagină nu este un site (de exemplu o pagină goală sau data:), deci nu are cookie-uri."
+  },
+  "live_just_now": {
+    "message": "Chiar acum: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "note_third_party": {
+    "message": "Cookie-urile site-urilor încorporate apar doar pentru site-urile permise de tine."
+  },
+  "note_no_partitions": {
+    "message": "Versiunea ta de Chrome nu poate afișa cookie-uri partiționate, deci lista ar putea fi incompletă."
+  },
+  "empty_no_match": {
+    "message": "Niciun cookie nu se potrivește cu „$P1$”.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "empty_none": {
+    "message": "Niciun cookie pentru $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clear_search": {
+    "message": "Șterge căutarea"
+  },
+  "change_changed": {
+    "message": "$P1$ modificat",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_added": {
+    "message": "$P1$ adăugat",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_removed": {
+    "message": "$P1$ eliminat",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_one": {
+    "message": "$P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_other": {
+    "message": "Cookie-uri: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_filtered_one": {
+    "message": "$P2$ din $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_filtered_other": {
+    "message": "Afișate: $P2$ din $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_partitioned": {
+    "message": "Partiționate: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "store_default": {
+    "message": "Implicit"
+  },
+  "store_incognito": {
+    "message": "Incognito"
+  },
+  "store_n": {
+    "message": "Spațiul $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "session": {
+    "message": "Sesiune"
+  },
+  "expired": {
+    "message": "Expirat"
+  },
+  "expiry_under_minute": {
+    "message": "în mai puțin de un minut"
+  },
+  "expiry_on_close": {
+    "message": "Se șterge la închiderea browserului"
+  },
+  "expires_at": {
+    "message": "Expiră: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "badge_protected": {
+    "message": "Protejat: ștergerea în masă, importul și restaurarea setului nu îl ating (p)"
+  },
+  "hint_httponly": {
+    "message": "HttpOnly: invizibil pentru JavaScript-ul paginii (document.cookie nu îl poate citi)"
+  },
+  "hint_secure": {
+    "message": "Secure: se trimite doar prin HTTPS"
+  },
+  "hint_samesite_none": {
+    "message": "SameSite=None: se trimite și în cereri între site-uri"
+  },
+  "hint_samesite_lax": {
+    "message": "SameSite=Lax: se trimite la navigări de nivel superior, nu la subcereri între site-uri"
+  },
+  "hint_samesite_strict": {
+    "message": "SameSite=Strict: se trimite doar în cereri din același site"
+  },
+  "badge_partitioned": {
+    "message": "Partiționat"
+  },
+  "partitioned_under": {
+    "message": "Partiționat sub $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partition_this_site": {
+    "message": "acest site"
+  },
+  "partition_cross_site": {
+    "message": "$P1$, context între site-uri",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "row_protected": {
+    "message": "Protejat"
+  },
+  "row_unprotect_title": {
+    "message": "Elimină protecția (p)"
+  },
+  "row_protect_title": {
+    "message": "Protejează de ștergerea în masă, import și restaurarea setului (p)"
+  },
+  "copy_value": {
+    "message": "Copiază valoarea"
+  },
+  "copied": {
+    "message": "Copiat"
+  },
+  "copy_value_title": {
+    "message": "Copiază valoarea (c)"
+  },
+  "row_delete_title": {
+    "message": "Șterge (Del), poate fi anulat"
+  },
+  "irreversible_title": {
+    "message": "Asta nu se poate anula"
+  },
+  "continue_no_undo": {
+    "message": "Continuă fără anulare"
+  },
+  "undo_anyway_title": {
+    "message": "Anulezi oricum?"
+  },
+  "undo_anyway": {
+    "message": "Anulează oricum"
+  },
+  "undone": {
+    "message": "Anulat: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_skipped": {
+    "message": "Unele cookie-uri expiraseră deja și nu au fost restaurate: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_refused": {
+    "message": "Chrome nu mai acceptă aceste cookie-uri așa cum erau, deci nu au fost restaurate: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clipboard_failed": {
+    "message": "Nu s-a putut copia: clipboardul nu este disponibil aici."
+  },
+  "protected_on": {
+    "message": "„$P1$” protejat: ștergerea în masă, importul și restaurarea setului nu îl vor atinge.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_off": {
+    "message": "„$P1$” nu mai este protejat.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protect_limit": {
+    "message": "Poți proteja cel mult $P1$ cookie-uri. Elimină mai întâi protecția unora.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_named": {
+    "message": "Ștergi „$P1$”?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_protected_message": {
+    "message": "Acest cookie este protejat. Îl ștergi oricum? Poți anula."
+  },
+  "nothing_to_delete": {
+    "message": "Nimic de șters"
+  },
+  "all_shown_protected_one": {
+    "message": "Cookie-ul afișat este protejat."
+  },
+  "all_shown_protected_other": {
+    "message": "Toate cookie-urile afișate sunt protejate ($P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "no_cookies_shown": {
+    "message": "Nu este afișat niciun cookie."
+  },
+  "bulk_title_one": {
+    "message": "Ștergi $P1$ cookie?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_title_other": {
+    "message": "Ștergi cookie-uri: $P1$?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_match": {
+    "message": "Aceste cookie-uri se potrivesc cu „$P1$” pe $P2$. Poți anula.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "bulk_all": {
+    "message": "Toate cookie-urile listate pentru $P1$. Poți anula.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_one": {
+    "message": "$P1$ cookie protejat va fi păstrat.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_other": {
+    "message": "Cookie-uri protejate păstrate: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_one": {
+    "message": "Șterge $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_other": {
+    "message": "Șterge cookie-uri: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_to": {
+    "message": "Copiază în"
+  },
+  "copy_to_default_note": {
+    "message": "Cookie-urile copiate în spațiul Implicit se păstrează ca orice alt cookie, pe disc și după încheierea acestei sesiuni incognito."
+  },
+  "copy_to_incognito_note": {
+    "message": "Cookie-urile copiate într-un spațiu incognito se încheie odată cu acea sesiune incognito."
+  },
+  "copy_title_one": {
+    "message": "Copiază $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_title_other": {
+    "message": "Copiază cookie-uri: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_from": {
+    "message": "Din spațiul $P1$ în:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_replace_note": {
+    "message": "Cookie-urile cu același nume, domeniu și cale de acolo sunt înlocuite, cu excepția celor protejate. Poți anula copierea."
+  },
+  "label_copied_one": {
+    "message": "$P1$ cookie copiat în $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_copied_other": {
+    "message": "Cookie-uri copiate în $P2$: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_kept_one": {
+    "message": "$P1$ cookie protejat de acolo a rămas cum era.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_kept_other": {
+    "message": "Cookie-uri protejate de acolo, lăsate cum erau: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_done_one": {
+    "message": "$P1$ cookie copiat în $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_done_other": {
+    "message": "Cookie-uri copiate în $P2$: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_undo_hint": {
+    "message": "Anulează aici, sau mai târziu din spațiul $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_nothing": {
+    "message": "$P1$ are deja exact aceste cookie-uri.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_cant": {
+    "message": "Nu se poate compara"
+  },
+  "compare_now": {
+    "message": "$P1$ acum",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_other_site": {
+    "message": "Acest set a fost salvat pentru $P1$, nu pentru $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "compare_too_many": {
+    "message": "Alege un set de comparat cu starea de acum, sau două seturi de comparat între ele."
+  },
+  "set_file_too_large": {
+    "message": "$P1$ este prea mare pentru a fi un set de cookie-uri.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_aria": {
+    "message": "Compară seturi de cookie-uri"
+  },
+  "compare_changed_fields": {
+    "message": "Modificat: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_one": {
+    "message": "Nicio diferență: $P1$ cookie identic.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_other": {
+    "message": "Nicio diferență: cookie-uri identice: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_summary": {
+    "message": "Adăugate: $P1$, eliminate: $P2$, modificate: $P3$, neschimbate: $P4$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      },
+      "p4": {
+        "content": "$4"
+      }
+    }
+  },
+  "diff_added": {
+    "message": "Adăugat"
+  },
+  "diff_removed": {
+    "message": "Eliminat"
+  },
+  "diff_changed": {
+    "message": "Modificat"
+  },
+  "diff_expiry_only": {
+    "message": "S-a schimbat doar expirarea ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "shortcuts_title": {
+    "message": "Comenzi rapide de la tastatură"
+  },
+  "key_search": {
+    "message": "Caută"
+  },
+  "key_move": {
+    "message": "Parcurge lista"
+  },
+  "key_first_last": {
+    "message": "Primul / ultimul cookie"
+  },
+  "key_edit": {
+    "message": "Editează"
+  },
+  "key_copy": {
+    "message": "Copiază valoarea"
+  },
+  "key_protect": {
+    "message": "Protejează / elimină protecția"
+  },
+  "key_delete": {
+    "message": "Șterge (poate fi anulat)"
+  },
+  "key_back": {
+    "message": "Înapoi, sau șterge căutarea"
+  },
+  "key_help": {
+    "message": "Această listă"
+  },
+  "import_kept_one": {
+    "message": "$P1$ cookie protejat a rămas cum era: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_kept_other": {
+    "message": "Cookie-uri protejate lăsate cum erau ($P1$): $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_nothing": {
+    "message": "Nimic de importat: fiecare cookie din fișier este deja setat exact așa."
+  },
+  "imported_one": {
+    "message": "$P1$ cookie importat.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "imported_other": {
+    "message": "Cookie-uri importate: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_restored": {
+    "message": "Set „$P1$” restaurat",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restored_one": {
+    "message": "„$P2$” restaurat: $P1$ cookie scris, $P3$ șterse.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "restored_other": {
+    "message": "„$P2$” restaurat: cookie-uri scrise: $P1$, șterse: $P3$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "rate_title": {
+    "message": "Îți place CookieDesk?"
+  },
+  "rate_text": {
+    "message": "O evaluare rapidă îi ajută pe alții să îl găsească."
+  },
+  "rate_group": {
+    "message": "Evaluează în magazin"
+  },
+  "rate_stars_one": {
+    "message": "$P1$ stea",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "rate_stars_other": {
+    "message": "Stele: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_confirm_title": {
+    "message": "Mi-ai cumpărat o cafea?"
+  },
+  "kofi_confirm_text": {
+    "message": "Mulțumesc, așa merge CookieDesk mai departe."
+  },
+  "kofi_yes": {
+    "message": "Da, am cumpărat"
+  },
+  "kofi_not_yet": {
+    "message": "Încă nu"
+  },
+  "kofi_milestone_one": {
+    "message": "$P1$ modificare făcută cu CookieDesk!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_milestone_other": {
+    "message": "Modificări făcute cu CookieDesk: $P1$!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_free": {
+    "message": "Este gratuit și făcut de un singur dezvoltator."
+  },
+  "buy_coffee": {
+    "message": "Cumpără-mi o cafea"
+  },
+  "edit_cookie": {
+    "message": "Editează cookie-ul"
+  },
+  "add_cookie_short": {
+    "message": "Adaugă cookie"
+  },
+  "explain_title": {
+    "message": "Ce face acest cookie"
+  },
+  "field_name": {
+    "message": "Nume"
+  },
+  "field_value": {
+    "message": "Valoare"
+  },
+  "field_domain": {
+    "message": "Domeniu"
+  },
+  "field_path": {
+    "message": "Cale"
+  },
+  "field_expiry": {
+    "message": "Expirare"
+  },
+  "field_expires": {
+    "message": "Expiră"
+  },
+  "field_attributes": {
+    "message": "Atribute"
+  },
+  "field_partition": {
+    "message": "Partiție"
+  },
+  "host_only": {
+    "message": "Doar gazdă"
+  },
+  "host_only_title": {
+    "message": "Doar gazdă: fără atributul Domain, deci subdomeniile nu îl primesc"
+  },
+  "session_title": {
+    "message": "Cookie de sesiune: dispare când se închide browserul"
+  },
+  "httponly_title": {
+    "message": "HttpOnly: invizibil pentru JavaScript-ul paginii"
+  },
+  "samesite_unspecified": {
+    "message": "Nespecificat"
+  },
+  "partitioned_chips": {
+    "message": "Partiționat (CHIPS)"
+  },
+  "top_level_site": {
+    "message": "Site de nivel superior"
+  },
+  "no_partition_write": {
+    "message": "Această versiune de Chrome nu poate scrie cookie-uri partiționate."
+  },
+  "editor_delete_title": {
+    "message": "Șterge (poate fi anulat)"
+  },
+  "bytes_of": {
+    "message": "$P1$ / $P2$ octeți",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "access_aria": {
+    "message": "Acces și setări"
+  },
+  "all_sites_on": {
+    "message": "Toate site-urile: activat"
+  },
+  "all_sites_on_text": {
+    "message": "CookieDesk poate citi și modifica cookie-uri pe orice site, inclusiv pe cele încorporate."
+  },
+  "turn_off": {
+    "message": "Dezactivează"
+  },
+  "all_sites": {
+    "message": "Toate site-urile"
+  },
+  "all_sites_text": {
+    "message": "Opțional. Fără cereri pentru fiecare site, iar cookie-urile site-urilor încorporate (reclame, widgeturi, cadre de autentificare) apar peste tot."
+  },
+  "allow_all_sites": {
+    "message": "Permite pe toate site-urile"
+  },
+  "remove_access": {
+    "message": "Elimină accesul la $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "access_lead": {
+    "message": "CookieDesk vede cookie-urile unui site doar după ce permiți site-ul respectiv, și nimic altceva: nici conținutul paginilor, nici istoricul."
+  },
+  "allowed_sites": {
+    "message": "Site-uri permise"
+  },
+  "allowed_sites_count": {
+    "message": "Site-uri permise · $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "all_sites_overrides": {
+    "message": "Accesul pe toate site-urile este activ, deci acestea nu contează cât timp rămâne activ."
+  },
+  "none_yet": {
+    "message": "Niciunul încă."
+  },
+  "toolbar_opens": {
+    "message": "Butonul din bara de instrumente deschide"
+  },
+  "surface_popup": {
+    "message": "Fereastră pop-up"
+  },
+  "surface_sidepanel": {
+    "message": "Panou lateral"
+  },
+  "support_feedback": {
+    "message": "Suport și feedback"
+  },
+  "thanks_supporting": {
+    "message": "Mulțumim pentru susținere!"
+  },
+  "report_problem": {
+    "message": "Raportează o problemă"
+  },
+  "source_code": {
+    "message": "Cod sursă"
+  },
+  "privacy_line": {
+    "message": "Fără cereri de rețea, fără valori de cookie pe disc. Anularea funcționează 10 minute; copiile stau în memorie și dispar când se închide Chrome sau se încheie sesiunea incognito."
+  },
+  "export_warning": {
+    "message": "Acest fișier conține cookie-uri de sesiune active. Oricine îl are se poate autentifica drept tine pe aceste site-uri. Tratează-l ca pe o parolă și șterge-l când termini."
+  },
+  "export_json_one": {
+    "message": "Exportă $P1$ cookie ca JSON",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_json_other": {
+    "message": "Exportă cookie-uri ca JSON ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_one": {
+    "message": "Exportă $P1$ cookie ca cookies.txt",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_other": {
+    "message": "Exportă cookie-uri ca cookies.txt ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_all_one": {
+    "message": "Cookie-ul listat pentru $P2$ intră în fișier, chiar dacă este HttpOnly.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_all_other": {
+    "message": "Cookie-urile listate pentru $P2$ ($P1$) intră în fișier, inclusiv cele HttpOnly.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_partitioned_left_one": {
+    "message": "$P1$ cookie partiționat a fost omis: cookies.txt nu poate reține partiții. Folosește JSON ca să îl păstrezi.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_partitioned_left_other": {
+    "message": "Cookie-uri partiționate omise ($P1$): cookies.txt nu poate reține partiții. Folosește JSON ca să le păstrezi.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_too_big": {
+    "message": "Acest fișier are $P1$ MB. Exporturile de cookie-uri sunt mult mai mici; CookieDesk citește fișiere de până la 5 MB.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "cant_import_unchanged": {
+    "message": "Fișierul nu poate fi importat. Nu s-a schimbat nimic."
+  },
+  "cant_import": {
+    "message": "Fișierul nu poate fi importat"
+  },
+  "file_unreadable": {
+    "message": "Fișierul nu a putut fi citit."
+  },
+  "needs_access_one": {
+    "message": "CookieDesk are nevoie de acces la încă $P1$ site înainte să poată scrie aceste cookie-uri:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "needs_access_other": {
+    "message": "CookieDesk are nevoie de acces la alte site-uri ($P1$) înainte să poată scrie aceste cookie-uri:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_allow_all_hint": {
+    "message": "Sau permite toate site-urile la Acces și setări."
+  },
+  "other_sites": {
+    "message": "Alte site-uri ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "other_sites_warning": {
+    "message": "Acest fișier scrie cookie-uri și pentru alte site-uri decât $P1$. Un cookie plantat pe alt site te poate autentifica în contul greșit acolo. Continuă doar dacă te așteptai la aceste site-uri.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_one": {
+    "message": "Scrie și cookie-uri pentru încă $P1$ site",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_other": {
+    "message": "Scrie și cookie-uri pentru alte site-uri ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partitioned_under_list": {
+    "message": "Partiționat sub: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "warnings_count": {
+    "message": "Avertismente ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_title": {
+    "message": "Importă cookie-uri"
+  },
+  "import_message_one": {
+    "message": "Imporți $P1$ cookie? Cookie-urile cu același nume, domeniu și cale sunt înlocuite. Poți anula întregul import.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_message_other": {
+    "message": "Imporți cookie-uri ($P1$)? Cookie-urile cu același nume, domeniu și cale sunt înlocuite. Poți anula întregul import.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_one": {
+    "message": "Copiază $P1$ cookie ca document.cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_other": {
+    "message": "Copiază cookie-uri ca document.cookie ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_warning": {
+    "message": "Fragmentul conține cookie-uri de sesiune active. Oricine îl are se poate autentifica drept tine pe acest site. Tratează-l ca pe o parolă."
+  },
+  "snippet_paste": {
+    "message": "Lipește-l în consola DevTools de pe $P1$ ca să setezi acolo aceste cookie-uri.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_one": {
+    "message": "$P1$ cookie HttpOnly a fost omis: JavaScript-ul paginii nu îl poate seta.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_other": {
+    "message": "Cookie-uri HttpOnly omise ($P1$): JavaScript-ul paginii nu le poate seta.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_one": {
+    "message": "$P1$ cookie copiat ca document.cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_other": {
+    "message": "Cookie-uri copiate ca document.cookie: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_name": {
+    "message": "Numele setului"
+  },
+  "set_name_placeholder": {
+    "message": "de ex. autentificat ca admin"
+  },
+  "save_set_title_one": {
+    "message": "Salvează $P1$ cookie ca set",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "save_set_title_other": {
+    "message": "Salvează cookie-uri ca set ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_file_note": {
+    "message": "Setul este un fișier pe computerul tău; CookieDesk nu păstrează nicio copie. Restaurează-l mai târziu din meniul de pe $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "default_set_name": {
+    "message": "Set de cookie-uri"
+  },
+  "set_too_large": {
+    "message": "Acest fișier este prea mare pentru a fi un set de cookie-uri."
+  },
+  "cant_restore_unchanged": {
+    "message": "Setul nu poate fi restaurat. Nu s-a schimbat nimic."
+  },
+  "cant_restore": {
+    "message": "Setul nu poate fi restaurat"
+  },
+  "wrong_site_message": {
+    "message": "Acest set a fost salvat pentru $P1$. Deschide $P1$ și restaurează-l acolo.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "wrong_site_title": {
+    "message": "Site greșit. Nu s-a schimbat nimic."
+  },
+  "foreign_cookies_one": {
+    "message": "$P1$ cookie din acest fișier aparține altui site ($P2$). Restaurarea unui set modifică doar $P3$; folosește Importă pentru alte site-uri.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "foreign_cookies_other": {
+    "message": "Cookie-uri din acest fișier care aparțin altor site-uri ($P2$): $P1$. Restaurarea unui set modifică doar $P3$; folosește Importă pentru alte site-uri.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "plan_write": {
+    "message": "Scrie"
+  },
+  "plan_delete": {
+    "message": "Șterge"
+  },
+  "plan_protected": {
+    "message": "Protejate, lăsate cum sunt"
+  },
+  "restore_title": {
+    "message": "Restaurează „$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_nothing": {
+    "message": "$P1$ se potrivește deja cu acest set. Nimic de schimbat.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_message_one": {
+    "message": "Cookie-urile de pe $P2$ vor fi înlocuite cu cele $P1$ cookie din acest set. Poți anula întreaga restaurare.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "restore_message_other": {
+    "message": "Cookie-urile de pe $P2$ vor fi înlocuite cu cookie-urile din acest set (în total $P1$). Poți anula întreaga restaurare.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_partition_unsupported": {
+    "message": "„$P1$” este un cookie partiționat, pe care această versiune de Chrome nu îl poate scrie. Actualizează Chrome la versiunea 119 sau mai nouă.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_gone": {
+    "message": "„$P1$” nu mai există: poate a expirat sau a fost modificat de site. Reîncarcă lista.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_stored": {
+    "message": "Chrome a acceptat „$P1$”, dar nu l-a stocat.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_imprecise_delete_one": {
+    "message": "Chrome poate șterge „$P2$” doar împreună cu încă $P1$ cookie cu același nume, deci CookieDesk nu îl va șterge.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_imprecise_delete_other": {
+    "message": "Chrome poate șterge „$P2$” doar împreună cu alte cookie-uri cu același nume ($P1$), deci CookieDesk nu îl va șterge.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_delete": {
+    "message": "Chrome nu mai acceptă „$P1$” așa cum este stocat, deci odată șters nu ar mai putea fi pus la loc. Îl ștergi fără anulare?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_removed": {
+    "message": "„$P1$” nu a putut fi șters.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_no_permission": {
+    "message": "CookieDesk nu are acces la $P1$. Acordă mai întâi acces pentru acest site.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_secure_shadow": {
+    "message": "Există deja un cookie Secure numit „$P1$” pentru $P2$. Chrome nu permite ca un cookie fără Secure cu același nume să îl înlocuiască sau să existe lângă el. Activează Secure sau folosește alt nume.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_rejected": {
+    "message": "Chrome a respins „$P1$” fără să dea un motiv. Nu s-a schimbat nimic.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_irreversible_replace_one": {
+    "message": "Chrome nu mai acceptă $P2$ așa cum este stocat, deci odată înlocuit nu ar mai putea fi pus la loc. Continui fără anulare pentru el?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_replace_other": {
+    "message": "Chrome nu mai acceptă $P2$ așa cum sunt stocate, deci odată înlocuite nu ar mai putea fi puse la loc. Continui fără anulare pentru ele?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_too_large_to_undo": {
+    "message": "Această modificare atinge prea multe date ($P1$ KB) ca să păstrăm o copie pentru anulare. Continui fără anulare?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_duplicate_in_file": {
+    "message": "Fișierul conține „$P1$” de două ori pentru același domeniu și aceeași cale.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_undo_expired": {
+    "message": "Nimic de anulat: anularea se păstrează 10 minute."
+  },
+  "err_undo_conflict": {
+    "message": "$P1$ s-a schimbat după „$P2$”. Anularea acum ar suprascrie valoarea mai nouă. Anulezi oricum?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_incomplete": {
+    "message": "Incomplet: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_added": {
+    "message": "„$P1$” adăugat",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_edited": {
+    "message": "„$P1$” editat",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted": {
+    "message": "„$P1$” șters",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_expired": {
+    "message": "„$P1$” șters (expirare în trecut)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_one": {
+    "message": "$P1$ cookie șters",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_other": {
+    "message": "Cookie-uri șterse: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_one": {
+    "message": "$P1$ cookie importat",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_other": {
+    "message": "Cookie-uri importate: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_undid": {
+    "message": "Anulat: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_saved": {
+    "message": "„$P1$” salvat",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_draft": {
+    "message": "Cookie-ul trebuie să fie un obiect cu nume, valoare, domeniu și cale."
+  },
+  "v_name_type": {
+    "message": "Numele cookie-ului trebuie să fie text."
+  },
+  "v_value_type": {
+    "message": "Valoarea cookie-ului trebuie să fie text."
+  },
+  "v_domain_type": {
+    "message": "Domeniul trebuie să fie text."
+  },
+  "v_path_type": {
+    "message": "Calea trebuie să fie text."
+  },
+  "v_flag_type": {
+    "message": "$P1$ trebuie să fie true sau false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_samesite": {
+    "message": "SameSite trebuie să fie una dintre: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_name_control": {
+    "message": "Numele conține caractere de control (cum ar fi un rând nou sau o tabulare), pe care cookie-urile nu le pot avea."
+  },
+  "v_name_semicolon": {
+    "message": "Numele conține „;”, care ar încheia cookie-ul prea devreme."
+  },
+  "v_name_equals": {
+    "message": "Numele conține „=”, care într-un cookie separă numele de valoare."
+  },
+  "v_value_control": {
+    "message": "Valoarea conține caractere de control (cum ar fi un rând nou sau o tabulare), pe care cookie-urile nu le pot avea."
+  },
+  "v_value_semicolon": {
+    "message": "Valoarea conține „;”, care ar încheia cookie-ul prea devreme. Codeaz-o (de exemplu cu encodeURIComponent)."
+  },
+  "v_empty_cookie": {
+    "message": "Un cookie are nevoie de un nume sau de o valoare; ambele sunt goale."
+  },
+  "v_empty_name": {
+    "message": "Acest cookie are numele gol. Unele site-uri și instrumente se descurcă prost cu cookie-urile fără nume."
+  },
+  "v_too_large": {
+    "message": "Numele și valoarea împreună au $P1$ octeți (UTF-8); Chrome permite cel mult $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "v_path_slash": {
+    "message": "Calea trebuie să înceapă cu „/”."
+  },
+  "v_path_too_long": {
+    "message": "Calea are mai mult de $P1$ octeți.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_path_chars": {
+    "message": "Calea conține caractere de control sau „;”, pe care cookie-urile nu le pot avea."
+  },
+  "v_domain_empty": {
+    "message": "Domeniul este gol. Introdu site-ul căruia îi aparține cookie-ul, de exemplu example.com."
+  },
+  "v_domain_too_long": {
+    "message": "Domeniul are mai mult de $P1$ octeți.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_domain_invalid": {
+    "message": "Domeniul nu este un nume de gazdă valid. Folosește litere, cifre și cratime separate prin puncte (numele internaționalizate trebuie să fie în punycode, ca xn--...)."
+  },
+  "v_domain_leading_dot": {
+    "message": "Un cookie doar gazdă nu poate avea punct la începutul domeniului; punctul înseamnă că cookie-ul se aplică și subdomeniilor."
+  },
+  "v_domain_public_suffix": {
+    "message": "„$P1$” este un sufix public (un domeniu controlat de un registru, cum ar fi .com sau .co.uk), deci browserele resping cookie-urile care s-ar aplica întregului sufix.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_samesite_none_insecure": {
+    "message": "Cookie-urile SameSite=None trebuie să fie Secure, altfel Chrome le respinge. Activează Secure sau alege alt SameSite."
+  },
+  "v_partitioned_insecure": {
+    "message": "Cookie-urile partiționate trebuie să fie Secure, altfel Chrome le respinge. Activează Secure sau elimină partiția."
+  },
+  "v_prefix_secure": {
+    "message": "Cookie-urile numite „$P1$...” trebuie să fie Secure. Activează Secure sau redenumește cookie-ul.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_host_prefix_domain": {
+    "message": "Cookie-urile numite „__Host-...” trebuie să fie doar gazdă (fără atributul Domain, deci fără partajare cu subdomeniile). Activează doar gazdă sau redenumește cookie-ul."
+  },
+  "v_host_prefix_path": {
+    "message": "Cookie-urile numite „__Host-...” trebuie să aibă calea „/”."
+  },
+  "v_bad_expiration": {
+    "message": "Expirarea trebuie să fie un număr finit de secunde de la 1970."
+  },
+  "v_expired_deletes": {
+    "message": "Salvarea cu o expirare în trecut șterge acest cookie."
+  },
+  "v_clamped": {
+    "message": "Chrome limitează durata de viață a cookie-urilor la $P1$ zile; o expirare mai târzie este scurtată la salvare.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_expiration_missing": {
+    "message": "Un cookie care nu este de sesiune are nevoie de o dată de expirare. Alege una sau marchează cookie-ul ca fiind de sesiune."
+  },
+  "v_partition_type": {
+    "message": "Cheia de partiție trebuie să fie un obiect cu un topLevelSite."
+  },
+  "v_partition_site_type": {
+    "message": "Site-ul de nivel superior al partiției trebuie să fie text precum https://example.com."
+  },
+  "v_partition_site_form": {
+    "message": "Site-ul de nivel superior al partiției trebuie să arate ca https://example.com (https, fără cale sau port)."
+  },
+  "v_partition_flag": {
+    "message": "hasCrossSiteAncestor al partiției trebuie să fie true sau false."
+  },
+  "v_partition_cross_site": {
+    "message": "Domeniul cookie-ului nu se află pe același site cu $P1$, deci Chrome cere ca hasCrossSiteAncestor să fie true pentru el.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_other_site": {
+    "message": "Domeniul acestui cookie ($P1$) este în afara site-ului curent ($P2$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_entry": {
+    "message": "Intrarea $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_entry_named": {
+    "message": "Intrarea $P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_bad_samesite": {
+    "message": "$P1$: sameSite nu este una dintre no_restriction, lax, strict, unspecified.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bool": {
+    "message": "$P1$: „$P2$” trebuie să fie true sau false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_text": {
+    "message": "$P1$: „$P2$” trebuie să fie text.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_not_object": {
+    "message": "$P1$ nu este un obiect cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_expiration_type": {
+    "message": "$P1$: „expirationDate” trebuie să fie un număr.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_key": {
+    "message": "$P1$: partitionKey trebuie să fie un obiect cu un topLevelSite de tip text.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_flag": {
+    "message": "$P1$: partitionKey.hasCrossSiteAncestor trebuie să fie true sau false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_line": {
+    "message": "Linia $P1$ nu este o intrare cookies.txt (se așteptau 7 câmpuri separate prin tabulare, s-au găsit $P2$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_line_flag_subdomains": {
+    "message": "Linia $P1$: indicatorul de subdomenii trebuie să fie TRUE sau FALSE.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_flag_secure": {
+    "message": "Linia $P1$: indicatorul secure trebuie să fie TRUE sau FALSE.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_expiry": {
+    "message": "Linia $P1$: expirarea trebuie să fie un număr întreg de secunde.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_not_text": {
+    "message": "Fișierul nu a putut fi citit ca text."
+  },
+  "io_too_large": {
+    "message": "Fișierul depășește limita de import de $P1$ octeți.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_json": {
+    "message": "Fișierul pare JSON, dar nu a putut fi analizat."
+  },
+  "io_bad_version": {
+    "message": "Acest fișier CookieDesk are o versiune neacceptată."
+  },
+  "io_no_cookie_list": {
+    "message": "Fișierul CookieDesk nu are o listă „cookies”."
+  },
+  "io_unknown_format": {
+    "message": "Acest JSON nu este nici un export CookieDesk, nici o listă de cookie-uri."
+  },
+  "io_no_cookies": {
+    "message": "Fișierul nu conține cookie-uri."
+  },
+  "io_too_many": {
+    "message": "Fișierul are $P1$ cookie-uri; limita este $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_issue": {
+    "message": "$P1$: $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_duplicate": {
+    "message": "$P1$: o altă intrare are același nume, domeniu, cale și aceeași partiție.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "when": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "when_passed": {
+    "message": "a trecut deja"
+  },
+  "when_under_day": {
+    "message": "în mai puțin de o zi"
+  },
+  "explain_third_party": {
+    "message": "Setat de $P1$, un site diferit de $P2$: un cookie terț.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_third_party_partitioned": {
+    "message": "Setat de $P1$, un site diferit de $P2$: un cookie terț, păstrat în partiția lui $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_host_prefix": {
+    "message": "Prefixul __Host- face ca Chrome să ceară Secure, niciun atribut Domain și Path=/, deci niciun subdomeniu nu îl poate seta sau înlocui."
+  },
+  "explain_secure_prefix": {
+    "message": "Prefixul __Secure- face ca Chrome să îl accepte doar cu indicatorul Secure."
+  },
+  "explain_scope_host": {
+    "message": "Se trimite doar către $P1$ însuși, nu și către subdomeniile lui.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_scope_domain": {
+    "message": "Se trimite către $P1$ și toate subdomeniile lui (cum ar fi www.$P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_path_all": {
+    "message": "Se trimite cu cererile pentru orice cale de pe acea gazdă."
+  },
+  "explain_path_under": {
+    "message": "Se trimite doar cu cererile pentru căile de sub $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_secure": {
+    "message": "Secure: se trimite doar prin HTTPS."
+  },
+  "explain_not_secure": {
+    "message": "Fără Secure: se trimite și prin HTTP simplu, unde oricine din rețea îl poate citi."
+  },
+  "explain_httponly": {
+    "message": "HttpOnly: invizibil pentru JavaScript-ul paginii (document.cookie nu îl poate citi), ceea ce îl ține departe de scripturile injectate."
+  },
+  "explain_script_readable": {
+    "message": "Poate fi citit și modificat de orice script care rulează pe pagină."
+  },
+  "explain_samesite_none": {
+    "message": "SameSite=None: poate fi trimis și cu cereri între site-uri (cadre încorporate, imagini, cereri de la alte site-uri), acolo unde Chrome permite cookie-uri terțe (incognito le blochează implicit). De aceea trebuie să fie Secure."
+  },
+  "explain_samesite_lax": {
+    "message": "SameSite=Lax: se trimite când navighezi la site, inclusiv dintr-un link de pe alt site, dar nu cu cererile pe care paginile altor site-uri le fac în fundal."
+  },
+  "explain_samesite_strict": {
+    "message": "SameSite=Strict: se trimite doar când ești deja pe același site. Dacă ajungi dintr-un link de pe alt site, prima cerere pleacă fără el."
+  },
+  "explain_samesite_unset": {
+    "message": "Fără atributul SameSite: Chrome îl tratează ca Lax."
+  },
+  "explain_session": {
+    "message": "Un cookie de sesiune: se șterge când se închide browserul (dacă Chrome nu îți restaurează sesiunea anterioară la pornire)."
+  },
+  "explain_expires": {
+    "message": "Expiră: $P1$. Chrome limitează orice expirare la 400 de zile de la ultima setare a cookie-ului.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition": {
+    "message": "Partiționat (CHIPS): stocat separat pentru fiecare site de nivel superior. Această copie se trimite doar cât timp $P1$ este site-ul din bara de adrese.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition_cross": {
+    "message": "Se află în partea între site-uri a acelei partiții (folosită când un alt site se află între pagină și site-ul acestui cookie), separată de partea de pe același site."
+  },
+  "explain_partition_same": {
+    "message": "Se află în partea de pe același site a acelei partiții, separată de partea între site-uri."
+  },
+  "explain_partition_other": {
+    "message": "Același nume de cookie sub alt site este un cookie diferit."
+  },
+  "explain_jwt": {
+    "message": "Valoarea arată ca un JSON Web Token."
+  },
+  "explain_jwt_exp": {
+    "message": "Valoarea arată ca un JSON Web Token; tokenul însuși spune că expiră: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_size": {
+    "message": "$P1$ din cei 4096 de octeți pe care Chrome îi permite pentru nume și valoare împreună.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

@@ -1,4 +1,4 @@
-# CookieDesk 1.0.0: Chrome Web Store submission
+# CookieDesk 1.1.0: Chrome Web Store submission
 
 Everything the Chrome Web Store developer dashboard asks for, in the order of its
 tabs, ready to paste. Character counts are checked by `npm run listing-check`.
@@ -17,10 +17,10 @@ Limits marked *(verify)* come from the docs as of 2026-10-22; the live dashboard
 
 | Item | Value |
 |---|---|
-| File to upload | `dist/cookiedesk-1.0.0.zip` (`npm run build`) |
-| Contents | `manifest.json`, `src/`, `icons/` only. No tests, docs or dev scripts. |
+| File to upload | `dist/cookiedesk-1.1.0.zip` (`npm run build`) |
+| Contents | `manifest.json`, `_locales/`, `src/`, `icons/` only. No tests, docs or dev scripts. |
 | Manifest version | 3 |
-| Version | 1.0.0 |
+| Version | 1.1.0 |
 | Minimum Chrome | 119 (`minimum_chrome_version`) |
 | Install-time warnings | None (`chrome.management.getPermissionWarningsByManifest` returns `[]`; covered by acceptance test 12) |
 
@@ -82,7 +82,9 @@ A COOKIE MANAGER FOR REAL WORKFLOWS
 
 PRIVACY
 
-CookieDesk collects nothing and sends nothing anywhere. No analytics, no accounts, no sync, no remote code. CookieDesk keeps no cookie values on disk of its own: undo copies live in memory and are gone when Chrome closes. (Cookies you copy into your normal store are, like any cookie there, saved by Chrome.) Settings are stored locally. The source code is public under the MIT licence.
+CookieDesk collects nothing and sends nothing anywhere. No analytics, no accounts, no sync, no remote code. CookieDesk keeps no cookie values on disk of its own: undo copies live in memory and are gone when Chrome closes. (Cookies you copy into your normal store are, like any cookie there, saved by Chrome.) Settings and usage counts are stored locally. The source code is public under the MIT licence.
+
+Available in 51 languages.
 
 Requires Chrome 119 or later.
 
@@ -96,7 +98,7 @@ Developer Tools
 
 ### Language
 
-English (United States)
+Default: English (United States). The extension ships 51 locales, so the dashboard offers a listing per language: open `store-listings/paste-helper.html` (built by `npm run paste-helper`) and paste each language's description with its Copy button. Title and summary come from each locale's `extension_name` and `extension_description` automatically.
 
 ### Graphic assets
 
@@ -144,7 +146,7 @@ Required to list, edit, add, delete, import and export cookies, which is the ext
 
 **storage**
 ```
-Saves settings in chrome.storage.local (whether the toolbar button opens the popup or the side panel, and which cookies the user marked as protected, by name, domain, path and partition only, never values; protections of incognito cookies stay in memory), and keeps in-memory undo copies in chrome.storage.session. The session copies are never written to disk, expire after 10 minutes, and are gone when Chrome closes.
+Saves settings in chrome.storage.local (whether the toolbar button opens the popup or the side panel, and which cookies the user marked as protected, by name, domain, path and partition only, never values; protections of incognito cookies stay in memory), plus usage counts used to time a rating or tip request (install time, number of successful changes, active days; numbers and times only, no sites or cookie data), and keeps in-memory undo copies in chrome.storage.session. The session copies are never written to disk, expire after 10 minutes, and are gone when Chrome closes.
 ```
 
 **activeTab**
@@ -214,8 +216,9 @@ No account or credentials are needed.
 1. Open any site that sets cookies, for example https://www.wikipedia.org/.
 2. Click the CookieDesk toolbar button. The popup says it has no access yet: click "Allow on wikipedia.org" and accept Chrome's prompt ("Read and change your data on all wikipedia.org sites").
 3. The site's cookies are listed. Click one to edit it; "What this cookie does" explains it. Delete one with the trash icon, then click Undo in the toast.
-4. ⋯ menu > Access & settings lists the allowed site; "Remove" revokes it and the list returns to "no access".
-5. Optional: DevTools on the popup (right-click > Inspect) > Network shows no requests during all of the above.
+4. ⋯ menu > Access & settings lists the allowed site; its × button revokes it and the list returns to "no access".
+5. The heart icon and "Support on Ko-fi" open ko-fi.com in a new tab when clicked; they are optional tips and unlock nothing.
+6. Optional: DevTools on the popup (right-click > Inspect) > Network shows no requests during all of the above.
 
 The extension makes no network requests and has no remote code. Source: https://github.com/iliasselbarhoumi/cookiedesk
 ```
@@ -229,5 +232,5 @@ The extension makes no network requests and has no remote code. Source: https://
 
 ## 7. After submitting
 
-- [ ] Tag the release: `v1.0.0` on GitHub, with the zip attached (done for this version).
+- [ ] Tag the release: `v1.1.0` on GitHub, with the zip attached.
 - [ ] When the item is live, add its Web Store link to the README.

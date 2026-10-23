@@ -2,19 +2,25 @@
 // Every view state comes from resolveContext(); every write goes through the
 // engine, which journals it for undo before touching Chrome.
 
-import { h, $, byTestId } from './dom.js';
+import { h, icon, $, byTestId } from './dom.js';
 import { resolveContext, restrictedMessage } from './context.js';
 import { createEngine } from '../core/cookies.js';
 import * as perms from '../core/perms.js';
 import { renderRows } from './list.js';
 import { createEditor } from './editor.js';
 import { createAccessView } from './access.js';
-import { confirmDialog, showToast } from './dialogs.js';
+import { confirmDialog, showToast, onErrorToast } from './dialogs.js';
 import { exportCookies, importFile, copySnippet, saveSet, restoreSet } from './transfer.js';
 import { filterCookies, countSummary, storeLabel, diffLists, describeChanges } from './view.js';
 import { loadProtected, setProtected, onProtectedChanged } from './protect.js';
 import { createCompareView, readSets } from './compare.js';
 import { cookieKey } from '../core/model.js';
+import { noteInstalled, noteOutcome, ratingPrompt, rateLater, openReviews, storePage } from './rating.js';
+import { supportPrompt, getSupport, openKofi, dismissPrompt, markSupporter } from './support.js';
+import { t, tn, localizeDom } from '../lib/i18n.js';
+
+// First, so the static text is in the UI language before icons are added to it.
+localizeDom();
 
 const isPopup = document.body.dataset.surface === 'popup';
 const engine = createEngine();
@@ -24,6 +30,7 @@ const search = byTestId('search');
 const storeSelect = byTestId('store-select');
 const undoBtn = byTestId('undo-last');
 const menu = $('#menu');
+for (const b of menu.querySelectorAll('[data-icon]')) b.prepend(icon(b.dataset.icon));
 
 const ui = {
   ctx: null,
@@ -41,14 +48,13 @@ const ui = {
 };
 
 const isProtected = (c) => ui.protected.has(cookieKey(c));
-const plural = (n, w) => `${n} ${w}${n === 1 ? '' : 's'}`;
 
 // ---- the main view: a state message, or the list -------------------------------------
 
 const listSection = h('section', { class: 'list-view' },
   h('div', { class: 'notes' }),
-  h('ul', { class: 'rows', attrs: { 'aria-label': 'Cookies' } }),
-  h('p', { class: 'empty', hidden: true }));
+  h('ul', { class: 'rows', attrs: { 'aria-label': t('cookies_list') } }),
+  h('div', { class: 'empty', testid: 'empty', hidden: true }));
 const rowsEl = $('.rows', listSection);
 const messageSection = h('section', { class: 'message-view' });
 main.append(messageSection, listSection);
@@ -58,26 +64,40 @@ const state = () => (ui.error ? { kind: 'error' } : ui.ctx?.state ?? { kind: 'lo
 
 function siteTitle(st) {
   if (st.site) return st.site;
-  if (st.kind === 'restricted') return 'Restricted page';
+  if (st.kind === 'restricted') return t('restricted_page');
   return 'CookieDesk';
+}
+
+/** A state screen: a round glyph, one line that says it, and at most one action. */
+function stateArt(name, kind = '') {
+  return h('span', { class: `state-art ${kind}`, attrs: { 'aria-hidden': 'true' } }, icon(name));
+}
+
+function skeleton() {
+  return h('div', { class: 'skeleton', attrs: { 'aria-hidden': 'true' } },
+    Array.from({ length: 5 }, (_, i) => h('div', { class: 'sk-row', style: `--i:${i}` }, h('span', { class: 'sk sk-name' }), h('span', { class: 'sk sk-value' }), h('span', { class: 'sk sk-meta' }))));
 }
 
 function messageFor(st) {
   const msg = (...parts) => h('p', { class: 'state-message', testid: 'state-message' }, ...parts);
   switch (st.kind) {
-    case 'loading': return [msg('Loading…')];
-    case 'unknown': return [msg('Click the CookieDesk button in the toolbar to show this tab\'s cookies.'),
-      h('p', { class: 'hint', text: 'Chrome only tells CookieDesk which site a tab shows after you click its button, or for sites you\'ve allowed.' })];
-    case 'restricted': return [msg(restrictedMessage(st.reason))];
-    case 'error': return [msg('Something went wrong: ', ui.error)];
-    case 'no-access': return [
-      msg('CookieDesk doesn\'t have access to ', h('strong', { class: 'mono', text: st.site }), ' yet.'),
-      // requestSite must be the first call in the handler: the prompt needs the click's user gesture.
-      h('button', { type: 'button', class: 'btn primary grant', testid: 'grant-site', text: `Allow on ${st.site}`, onclick: () => perms.requestSite(st.site).then(scheduleRefresh, scheduleRefresh) }),
-      h('p', { class: 'prompt-quote' }, h('span', { class: 'hint', text: 'Chrome will ask: ' }), h('q', { text: `Read and change your data on all ${st.site} sites` })),
-      h('p', { class: 'hint', text: 'That lets CookieDesk read and edit this site\'s cookies, including its subdomains, and nothing else.' }),
-      h('p', { class: 'hint' }, 'Rather not be asked per site? ', h('button', { type: 'button', class: 'link', text: 'Allow all sites in Access & settings', onclick: openAccess })),
-    ];
+    case 'loading': return [skeleton(), h('p', { class: 'sr-only', testid: 'state-message', text: t('loading') })];
+    case 'unknown': return [stateArt('pointer'), msg(t('state_unknown')),
+      h('p', { class: 'hint', text: t('state_unknown_hint') })];
+    case 'restricted': return [stateArt('ban'), msg(restrictedMessage(st.reason))];
+    case 'error': return [stateArt('alert', 'danger'), msg(t('state_error', ui.error))];
+    case 'no-access': {
+      // The site name sits inside the sentence, wherever the language puts it.
+      const [before, after = ''] = t('state_no_access', '\u2063').split('\u2063');
+      return [
+        stateArt('lock', 'accent'),
+        msg(before, h('strong', { class: 'mono', text: st.site }), after),
+        // requestSite must be the first call in the handler: the prompt needs the click's user gesture.
+        h('button', { type: 'button', class: 'btn primary grant', testid: 'grant-site', onclick: () => perms.requestSite(st.site).then(scheduleRefresh, scheduleRefresh) }, icon('key'), t('grant_site', st.site)),
+        h('p', { class: 'prompt-quote' }, h('span', { class: 'hint', text: `${t('chrome_will_ask')} ` }), h('q', { text: t('prompt_site', st.site) })),
+        h('p', { class: 'hint fine' }, `${t('only_this_site')} `, h('button', { type: 'button', class: 'link', text: t('allow_all_instead'), onclick: openAccess })),
+      ];
+    }
     default: return [];
   }
 }
@@ -93,6 +113,7 @@ function render() {
 
   const stores = ui.ctx?.stores ?? [];
   storeSelect.hidden = !ready || stores.length <= 1;
+  storeSelect.parentElement.hidden = storeSelect.hidden;
   byTestId('copy-store').hidden = stores.length <= 1;
   if (!storeSelect.hidden) {
     storeSelect.replaceChildren(...stores.map((s) => h('option', { value: s.id, text: storeLabel(s) })));
@@ -117,15 +138,27 @@ function render() {
   ui.fresh = new Map();
 
   const notes = [];
-  if (ui.live) notes.push(h('p', { class: 'note live', testid: 'live-activity', attrs: { role: 'status' }, text: `Just now: ${ui.live.text}` }));
-  if (st.via === 'site') notes.push(h('p', { class: 'note', testid: 'note', dataset: { note: 'third-party' }, text: 'Cookies set by other sites embedded in this page are only shown for sites you\'ve allowed.' }));
-  if (!engine.feats.partitionKey) notes.push(h('p', { class: 'note warn', testid: 'note', dataset: { note: 'no-partitions' }, text: 'Your version of Chrome can\'t show partitioned cookies, so this list may be incomplete.' }));
+  const note = (props, glyph, text) => h('p', props, icon(glyph, 'icon note-icon'), h('span', { text }));
+  if (ui.live) notes.push(note({ class: 'note live', testid: 'live-activity', attrs: { role: 'status' } }, 'zap', t('live_just_now', ui.live.text)));
+  if (st.via === 'site') notes.push(note({ class: 'note', testid: 'note', dataset: { note: 'third-party' } }, 'users', t('note_third_party')));
+  if (!engine.feats.partitionKey) notes.push(note({ class: 'note warn', testid: 'note', dataset: { note: 'no-partitions' } }, 'alert', t('note_no_partitions')));
   const notesEl = $('.notes', listSection);
   if (notesEl.textContent !== notes.map((n) => n.textContent).join('')) notesEl.replaceChildren(...notes);
 
   const empty = $('.empty', listSection);
   empty.hidden = shown.length > 0;
-  empty.textContent = ui.cookies.length ? `No cookies match “${search.value.trim()}”.` : `No cookies for ${st.site}.`;
+  const emptyText = ui.cookies.length ? t('empty_no_match', search.value.trim()) : t('empty_none', st.site);
+  if (!empty.hidden && empty.dataset.text !== emptyText) {
+    empty.dataset.text = emptyText;
+    empty.replaceChildren(
+      stateArt(ui.cookies.length ? 'search' : 'cookie'),
+      h('span', { class: 'empty-text', text: emptyText }),
+      ui.cookies.length
+        ? h('button', { type: 'button', class: 'btn small', onclick: () => { search.value = ''; render(); search.focus(); } }, icon('x'), t('clear_search'))
+        : h('button', { type: 'button', class: 'btn small', onclick: () => openEditor(null) }, icon('plus'), t('add_cookie')));
+  }
+  if (empty.hidden) delete empty.dataset.text;
+  if (!asked) maybeAsk();
 }
 
 // ---- refreshing: follow the tab, the grants and the cookie store ------------------------
@@ -192,11 +225,12 @@ async function refreshUndo() {
   try { entries = await engine.undoList({ storeId: storeId() }); } catch { /* storage unavailable: leave disabled */ }
   const latest = entries[0];
   undoBtn.disabled = !latest;
+  if (latest && latest.id !== undoBtn._latest) pop(undoBtn);
+  undoBtn._latest = latest?.id;
   // Undoing an "Undid: X" entry re-applies X, so call it what it is.
-  const redo = latest?.label.startsWith('Undid: ');
   // An entry left pending means the page closed mid-change: undo puts back what had been written.
-  const text = !latest ? 'Undo' : redo ? `Redo: ${latest.label.slice(7)}` : `Undo${latest.interrupted ? ' interrupted' : ''}: ${latest.label}`;
-  undoBtn.title = latest ? text : 'Nothing to undo';
+  const text = !latest ? t('undo') : latest.undid ? t('redo_entry', latest.undid) : t(latest.interrupted ? 'undo_interrupted' : 'undo_entry', latest.label);
+  undoBtn.title = latest ? text : t('undo_nothing');
   $('.undo-label', undoBtn).textContent = text;
 }
 
@@ -204,12 +238,16 @@ async function refreshUndo() {
 
 /** Run a write; on irreversible / too_large_to_undo ask, then retry with allowIrreversible. */
 async function mutate(fn) {
-  const mine = (o) => { ui.selfUntil = Infinity; return fn(o).finally(() => { ui.selfUntil = Date.now() + 1500; }); };
+  const mine = (o) => {
+    ui.selfUntil = Infinity;
+    return fn(o).then((r) => { if (r) noteOutcome('win').catch(() => {}); return r; })
+      .finally(() => { ui.selfUntil = Date.now() + 1500; });
+  };
   try {
     return await mine({});
   } catch (e) {
     if (e?.code !== 'irreversible' && e?.code !== 'too_large_to_undo') throw e;
-    const ok = await confirmDialog({ title: 'This can\'t be undone', message: e.message, ok: 'Continue without undo', danger: true });
+    const ok = await confirmDialog({ title: t('irreversible_title'), message: e.message, ok: t('continue_no_undo'), danger: true });
     return ok ? mine({ allowIrreversible: true }) : null;
   }
 }
@@ -217,7 +255,7 @@ async function mutate(fn) {
 async function toastFor(result, text) {
   if (!result) return;
   let label = text;
-  if (!label) label = (await engine.undoList({ storeId: storeId() })).find((x) => x.id === result.undoId)?.label ?? 'Done';
+  if (!label) label = (await engine.undoList({ storeId: storeId() })).find((x) => x.id === result.undoId)?.label ?? t('done');
   showToast(label, { undo: result.undoId ? () => undo(result.undoId) : null });
 }
 
@@ -230,7 +268,7 @@ async function undo(id, store = storeId()) {
       r = await engine.undo(id, { storeId: store });
     } catch (e) {
       if (e?.code !== 'undo_conflict') throw e;
-      if (!(await confirmDialog({ title: 'Undo anyway?', message: e.message, ok: 'Undo anyway', danger: true }))) return;
+      if (!(await confirmDialog({ title: t('undo_anyway_title'), message: e.message, ok: t('undo_anyway'), danger: true }))) return;
       r = await engine.undo(id, { force: true, storeId: store });
     }
   } catch (e) {
@@ -240,9 +278,9 @@ async function undo(id, store = storeId()) {
   } finally {
     ui.selfUntil = Date.now() + 1500;
   }
-  const skipped = r.skipped.length ? ` Some cookies had already expired and weren't restored: ${r.skipped.join(', ')}.` : '';
-  const refused = r.refused?.length ? ` Chrome no longer accepts these as they were, so they weren't restored: ${r.refused.join(', ')}.` : '';
-  showToast(`Undone: ${r.label}.${skipped}${refused}`);
+  const skipped = r.skipped.length ? t('undo_skipped', r.skipped.join(', ')) : '';
+  const refused = r.refused?.length ? t('undo_refused', r.refused.join(', ')) : '';
+  showToast([t('undone', r.label), skipped, refused].filter(Boolean).join(' '));
   scheduleRefresh();
 }
 
@@ -262,7 +300,7 @@ async function copyValue(c, button) {
   try {
     await navigator.clipboard.writeText(c.value);
   } catch {
-    showToast('Couldn\'t copy: the clipboard is not available here.', { error: true });
+    showToast(t('clipboard_failed'), { error: true });
     return;
   }
   const row = button?.closest('.row') ?? rowsEl.querySelector(':focus');
@@ -281,7 +319,7 @@ async function toggleProtected(c, on) {
   }
   ui.protected = await loadProtected();
   render();
-  showToast(on ? `Protected "${c.name}": bulk delete, import and set restore will leave it alone.` : `"${c.name}" is no longer protected.`);
+  showToast(on ? t('protected_on', c.name) : t('protected_off', c.name));
 }
 
 const rowActions = {
@@ -290,7 +328,7 @@ const rowActions = {
   protect: toggleProtected,
   remove: async (c) => {
     // Protection guards bulk operations; deleting one on purpose just asks first.
-    if (isProtected(c) && !(await confirmDialog({ title: `Delete "${c.name}"?`, message: 'This cookie is protected. Delete it anyway? You can undo this.', ok: 'Delete', danger: true }))) return;
+    if (isProtected(c) && !(await confirmDialog({ title: t('delete_named', c.name), message: t('delete_protected_message'), ok: t('btn_delete'), danger: true, glyph: 'shield' }))) return;
     // Keep keyboard focus in the list when the focused row goes away.
     const row = document.activeElement?.closest?.('.row');
     if (row?._cookie === c) (row.nextElementSibling ?? row.previousElementSibling)?.focus();
@@ -304,17 +342,18 @@ async function bulkDelete() {
   const doomed = shown.filter((c) => !isProtected(c));
   const kept = shown.length - doomed.length;
   if (!doomed.length) {
-    await confirmDialog({ title: 'Nothing to delete', message: kept ? `All ${plural(kept, 'shown cookie')} are protected.` : 'No cookies are shown.', ok: 'OK', cancel: null });
+    await confirmDialog({ title: t('nothing_to_delete'), message: kept ? tn('all_shown_protected', kept) : t('no_cookies_shown'), ok: t('btn_ok'), cancel: null });
     return;
   }
   const q = search.value.trim();
   const ok = await confirmDialog({
-    title: `Delete ${plural(doomed.length, 'cookie')}?`,
-    message: q ? `These cookies match "${q}" on ${state().site}. You can undo this.` : `Every cookie listed for ${state().site}. You can undo this.`,
+    glyph: 'trash',
+    title: tn('bulk_title', doomed.length),
+    message: q ? t('bulk_match', q, state().site) : t('bulk_all', state().site),
     body: h('div', {},
-      h('ul', { class: 'bullets scroll', testid: 'bulk-list' }, doomed.map((c) => h('li', {}, h('span', { class: 'mono', text: c.name || '(empty name)' }), h('span', { class: 'hint', text: ` · ${c.domain}${c.path}` })))),
-      kept ? h('p', { class: 'hint', text: `${plural(kept, 'protected cookie')} will be kept.` }) : null),
-    ok: `Delete ${plural(doomed.length, 'cookie')}`,
+      h('ul', { class: 'bullets scroll', testid: 'bulk-list' }, doomed.map((c) => h('li', {}, h('span', { class: 'mono', text: c.name || t('empty_name') }), h('span', { class: 'hint', text: ` · ${c.domain}${c.path}` })))),
+      kept ? h('p', { class: 'hint', text: tn('protected_kept', kept) }) : null),
+    ok: tn('bulk_ok', doomed.length),
     danger: true,
   });
   if (ok) await deleteCookies(doomed);
@@ -326,32 +365,34 @@ async function copyToStore() {
   const from = ui.listedStore ?? storeId();
   const targets = (ui.ctx?.stores ?? []).filter((s) => s.id !== from);
   if (!shown.length || !targets.length) return;
-  const select = h('select', { testid: 'copy-target', attrs: { 'aria-label': 'Copy to' } }, targets.map((s) => h('option', { value: s.id, text: storeLabel(s) })));
+  const select = h('select', { testid: 'copy-target', attrs: { 'aria-label': t('copy_to') } }, targets.map((s) => h('option', { value: s.id, text: storeLabel(s) })));
   const diskNote = h('p', { class: 'hint' });
   const updateNote = () => {
     diskNote.textContent = select.value === '0'
-      ? 'Cookies copied into the Default store are kept like any other cookie, on disk and after this incognito session ends.'
-      : 'Cookies copied into an incognito store end with that incognito session.';
+      ? t('copy_to_default_note')
+      : t('copy_to_incognito_note');
   };
   select.addEventListener('change', updateNote);
   updateNote();
   const ok = await confirmDialog({
-    title: `Copy ${plural(shown.length, 'cookie')}`,
-    message: `From the ${storeLabel({ id: from })} store to:`,
+    glyph: 'layers',
+    title: tn('copy_title', shown.length),
+    message: t('copy_from', storeLabel({ id: from })),
     body: h('div', {}, select, diskNote,
-      h('ul', { class: 'bullets scroll', testid: 'copy-list' }, shown.map((c) => h('li', { class: 'mono', text: c.name || '(empty name)' }))),
-      h('p', { class: 'hint', text: 'Cookies with the same name, domain and path there are replaced, except protected ones. You can undo the copy.' })),
-    ok: 'Copy',
+      h('ul', { class: 'bullets scroll', testid: 'copy-list' }, shown.map((c) => h('li', { class: 'mono', text: c.name || t('empty_name') }))),
+      h('p', { class: 'hint', text: t('copy_replace_note') })),
+    ok: t('btn_copy'),
   });
   if (!ok) return;
   const to = select.value;
   const label = storeLabel({ id: to });
   try {
-    const r = await mutate((o) => engine.importDrafts(shown, { storeId: to, protect: isProtected, label: `Copied ${plural(shown.length, 'cookie')} to ${label}`, ...o }));
+    const r = await mutate((o) => engine.importDrafts(shown, { storeId: to, protect: isProtected, label: tn('label_copied', shown.length, label), ...o }));
     if (!r) return;
-    const kept = r.skipped.length ? ` ${plural(r.skipped.length, 'protected cookie')} there left as ${r.skipped.length === 1 ? 'it was' : 'they were'}.` : '';
+    const kept = r.skipped.length ? tn('copy_kept', r.skipped.length) : '';
     // The header Undo and Ctrl+Z work on the store shown here; the copy lives in the target store.
-    showToast(r.undoId ? `Copied ${plural(r.written, 'cookie')} to ${label}.${kept} Undo it here, or later from the ${label} store.` : `${label} already has these cookies exactly.${kept}`, { undo: r.undoId ? () => undo(r.undoId, to) : null });
+    const parts = r.undoId ? [tn('copy_done', r.written, label), kept, t('copy_undo_hint', label)] : [t('copy_nothing', label), kept];
+    showToast(parts.filter(Boolean).join(' '), { undo: r.undoId ? () => undo(r.undoId, to) : null });
   } catch (e) {
     showToast(e?.message || String(e), { error: true });
   }
@@ -363,17 +404,17 @@ async function compareSets(files) {
   try {
     sets = await readSets(files);
   } catch (e) {
-    await confirmDialog({ title: 'Can\'t compare', message: e.message, ok: 'OK', cancel: null });
+    await confirmDialog({ title: t('compare_cant'), message: e.message, ok: t('btn_ok'), cancel: null });
     return;
   }
   const site = state().site;
-  const at = (s) => { const t = Date.parse(s.meta.exportedAt ?? ''); return Number.isFinite(t) ? ` (${new Date(t).toLocaleString()})` : ''; };
+  const at = (s) => { const ms = Date.parse(s.meta.exportedAt ?? ''); return Number.isFinite(ms) ? ` (${new Date(ms).toLocaleString()})` : ''; };
   const [a, b] = sets;
   const view = b
     ? { before: a.drafts, after: b.drafts, beforeLabel: `"${a.name}"${at(a)}`, afterLabel: `"${b.name}"${at(b)}` }
-    : { before: a.drafts, after: ui.cookies, beforeLabel: `"${a.name}"${at(a)}`, afterLabel: `${site} now` };
+    : { before: a.drafts, after: ui.cookies, beforeLabel: `"${a.name}"${at(a)}`, afterLabel: t('compare_now', site) };
   const other = sets.find((s) => s.meta.site && s.meta.site !== site);
-  if (!b && other) view.note = `This set was saved for ${other.meta.site}, not ${site}.`;
+  if (!b && other) view.note = t('compare_other_site', other.meta.site, site);
   const { el } = createCompareView({ ...view, close: closeOverlay });
   showOverlay('compare', el);
   byTestId('diff-close')?.focus();
@@ -381,15 +422,16 @@ async function compareSets(files) {
 
 function showShortcuts() {
   const keys = [
-    ['/', 'Search'], ['↓ ↑', 'Move through the list'], ['Home End', 'First / last cookie'], ['Enter', 'Edit'],
-    ['c', 'Copy value'], ['p', 'Protect / unprotect'], ['Del', 'Delete (undoable)'], ['n', 'Add a cookie'],
-    ['⌘Z / Ctrl+Z', 'Undo'], ['Esc', 'Back, or clear the search'], ['?', 'This list'],
+    ['/', t('key_search')], ['↓ ↑', t('key_move')], ['Home End', t('key_first_last')], ['Enter', t('key_edit')],
+    ['c', t('key_copy')], ['p', t('key_protect')], ['Del', t('key_delete')], ['n', t('add_cookie')],
+    ['⌘Z / Ctrl+Z', t('undo')], ['Esc', t('key_back')], ['?', t('key_help')],
   ];
   confirmDialog({
-    title: 'Keyboard shortcuts',
+    glyph: 'keyboard',
+    title: t('shortcuts_title'),
     message: '',
     body: h('dl', { class: 'keys', testid: 'shortcut-list' }, keys.flatMap(([k, what]) => [h('dt', {}, ...k.split(' ').map((x) => h('kbd', { text: x }))), h('dd', { text: what })])),
-    ok: 'Close',
+    ok: t('btn_close'),
     cancel: null,
   });
 }
@@ -432,6 +474,7 @@ function closeOverlay() {
   app.dataset.view = 'main';
   render();
   main.scrollTop = ui.listScroll;
+  for (const el of [listSection, messageSection]) pop(el, 'back-in');
 }
 
 function openEditor(cookie) {
@@ -454,7 +497,7 @@ function openEditor(cookie) {
       const r = await mutate((o) => engine.save(original, original ? draft : { ...draft, storeId: storeId() }, o));
       if (!r) return;
       back();
-      const text = original && r.cookie ? `Saved "${draft.name}"` : null;
+      const text = original && r.cookie ? t('label_saved', draft.name) : null;
       await toastFor(r.undoId ? r : null, text);
       scheduleRefresh();
     },
@@ -486,7 +529,9 @@ menu.addEventListener('toggle', (e) => {
   if (e.newState !== 'open') return;
   const r = byTestId('menu').getBoundingClientRect();
   menu.style.top = `${r.bottom + 4}px`;
-  menu.style.right = `${Math.max(8, document.documentElement.clientWidth - r.right)}px`;
+  // The menu hangs from the ⋯ button's outer edge: the right in LTR, the left in RTL.
+  if (document.documentElement.dir === 'rtl') menu.style.left = `${Math.max(8, r.left)}px`;
+  else menu.style.right = `${Math.max(8, document.documentElement.clientWidth - r.right)}px`;
   menu.querySelector('button:not(:disabled)')?.focus();
 });
 function menuAction(testid, fn) {
@@ -526,9 +571,9 @@ byTestId('import-file').addEventListener('change', async (e) => {
     write: async (drafts) => {
       try {
         const r = await mutate((o) => engine.importDrafts(drafts, { storeId: storeId(), protect: isProtected, ...o }));
-        const kept = r?.skipped.length ? ` ${plural(r.skipped.length, 'protected cookie')} left as ${r.skipped.length === 1 ? 'it was' : 'they were'}: ${r.skipped.join(', ')}.` : '';
-        if (r && !r.undoId) showToast(`Nothing to import: every cookie in the file is already set exactly like that.${kept}`);
-        else if (r) showToast(`Imported ${plural(r.written, 'cookie')}.${kept}`, { undo: r.undoId ? () => undo(r.undoId) : null });
+        const kept = r?.skipped.length ? tn('import_kept', r.skipped.length, r.skipped.join(', ')) : '';
+        if (r && !r.undoId) showToast([t('import_nothing'), kept].filter(Boolean).join(' '));
+        else if (r) showToast([tn('imported', r.written), kept].filter(Boolean).join(' '), { undo: r.undoId ? () => undo(r.undoId) : null });
       } catch (err) {
         showToast(err?.message || String(err), { error: true });
       }
@@ -554,8 +599,8 @@ byTestId('restore-file').addEventListener('change', async (e) => {
     plan: (drafts, o) => engine.importDrafts(drafts, { ...opts, ...o }),
     write: async (drafts, name) => {
       try {
-        const r = await mutate((o) => engine.importDrafts(drafts, { ...opts, label: `Restored set "${name}"`, ...o }));
-        if (r) showToast(`Restored "${name}": ${plural(r.written, 'cookie')} written, ${r.deleted} deleted.`, { undo: r.undoId ? () => undo(r.undoId) : null });
+        const r = await mutate((o) => engine.importDrafts(drafts, { ...opts, label: t('label_restored', name), ...o }));
+        if (r) showToast(tn('restored', r.written, name, r.deleted), { undo: r.undoId ? () => undo(r.undoId) : null });
       } catch (err) {
         showToast(err?.message || String(err), { error: true });
       }
@@ -589,6 +634,93 @@ document.addEventListener('keydown', (e) => {
     rowsEl.firstElementChild?.focus();
   }
 });
+
+// ---- support & rating -------------------------------------------------------------------------
+// One gentle card at a time, at the bottom of the list, only after real use (rating.js, support.js).
+
+/** Replay a one-shot animation class. */
+function pop(el, cls = 'pop') {
+  if (!el) return;
+  el.classList.remove(cls);
+  void el.offsetWidth;
+  el.classList.add(cls);
+  el.addEventListener('animationend', () => el.classList.remove(cls), { once: true });
+}
+
+const heart = byTestId('support-heart');
+const rateItem = byTestId('menu-rate');
+rateItem.hidden = !storePage();
+
+function showSupporter(on) {
+  heart.classList.toggle('supporter', on);
+  heart.title = on ? t('supporter_title') : t('support_title');
+}
+
+function hideAsk(card) {
+  if (!card?.isConnected) return;
+  card.classList.add('leaving');
+  delete card.dataset.testid;
+  setTimeout(() => card.remove(), 200);
+}
+
+function askCard(testid, cls, glyph, text, actions) {
+  const card = h('aside', { class: `ask ${cls}`, testid, attrs: { 'aria-label': text[0] } },
+    glyph,
+    h('p', { class: 'ask-text' }, h('strong', { text: text[0] }), text[1] ? h('span', { text: ` ${text[1]}` }) : null),
+    h('div', { class: 'ask-actions' }, actions(() => hideAsk(card))));
+  return card;
+}
+
+function rateCard() {
+  const rate = (close) => () => { close(); openReviews().catch(() => {}); };
+  return askCard('ask-rate', 'rate', null, [t('rate_title'), t('rate_text')], (close) => [
+    h('span', { class: 'stars', attrs: { role: 'group', 'aria-label': t('rate_group') } },
+      [1, 2, 3, 4, 5].map((n) => h('button', { type: 'button', class: 'star', title: t('menu_rate'), attrs: { 'aria-label': tn('rate_stars', n) }, onclick: rate(close) }, icon('star')))),
+    h('span', { class: 'spacer' }),
+    h('button', { type: 'button', class: 'btn small ghost', testid: 'ask-later', text: t('btn_later'), onclick: () => { close(); rateLater().catch(() => {}); } }),
+  ]);
+}
+
+function supportCard(prompt) {
+  const glyph = h('span', { class: 'ask-glyph' }, icon('coffee'));
+  if (prompt.kind === 'confirm') {
+    return askCard('ask-support', 'kofi', glyph, [t('kofi_confirm_title'), t('kofi_confirm_text')], (close) => [
+      h('button', { type: 'button', class: 'btn small kofi-btn', testid: 'ask-yes', onclick: () => {
+        markSupporter().catch(() => {});
+        showSupporter(true);
+        pop(heart, 'burst');
+        close();
+      } }, icon('heart'), t('kofi_yes')),
+      h('button', { type: 'button', class: 'btn small ghost', testid: 'ask-later', text: t('kofi_not_yet'), onclick: () => { close(); dismissPrompt(prompt).catch(() => {}); } }),
+    ]);
+  }
+  return askCard('ask-support', 'kofi', glyph, [tn('kofi_milestone', prompt.milestone), t('kofi_free')], (close) => [
+    h('button', { type: 'button', class: 'btn small kofi-btn', testid: 'ask-kofi', onclick: () => { close(); openKofi(prompt).catch(() => {}); } }, icon('coffee'), t('buy_coffee')),
+    h('button', { type: 'button', class: 'btn small ghost', testid: 'ask-later', text: t('btn_later'), onclick: () => { close(); dismissPrompt(prompt).catch(() => {}); } }),
+  ]);
+}
+
+let asked = false;
+/** Once per opening, after the list first shows: the rating card wins over the support card. */
+async function maybeAsk() {
+  asked = true;
+  try {
+    const r = await ratingPrompt();
+    let card = r.show ? rateCard() : null;
+    if (!card && !r.supportQuiet) {
+      const { prompt } = await supportPrompt(r.wins);
+      if (prompt) card = supportCard(prompt);
+    }
+    if (card && ui.view === 'main' && state().kind === 'ready') listSection.append(card);
+  } catch { /* storage unavailable: no card */ }
+}
+
+heart.addEventListener('click', () => { pop(heart, 'burst'); openKofi().catch(() => {}); });
+menuAction('menu-support', () => openKofi().catch(() => {}));
+menuAction('menu-rate', () => openReviews().catch(() => {}));
+getSupport().then((s) => showSupporter(s.supporter), () => {});
+noteInstalled().catch(() => {});
+onErrorToast(() => { noteOutcome('trouble').catch(() => {}); });
 
 // ---- events --------------------------------------------------------------------------------------
 

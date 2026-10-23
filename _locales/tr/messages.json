@@ -1,0 +1,2215 @@
+{
+  "extension_name": {
+    "message": "Çerez Düzenleyici: Çerezleri Görüntüle, Düzenle, Sil | CookieDesk"
+  },
+  "extension_description": {
+    "message": "Çerezleri siteye göre görüntüleyin, düzenleyin, ekleyin ve silin. Arama, içe/dışa aktarma, bölümlenmiş çerez. Reklamsız, izlemesiz."
+  },
+  "btn_ok": {
+    "message": "Tamam"
+  },
+  "btn_cancel": {
+    "message": "İptal"
+  },
+  "btn_close": {
+    "message": "Kapat"
+  },
+  "btn_delete": {
+    "message": "Sil"
+  },
+  "btn_copy": {
+    "message": "Kopyala"
+  },
+  "btn_save": {
+    "message": "Kaydet"
+  },
+  "btn_export": {
+    "message": "Dışa aktar"
+  },
+  "btn_later": {
+    "message": "Sonra"
+  },
+  "dismiss": {
+    "message": "Kapat"
+  },
+  "back": {
+    "message": "Geri"
+  },
+  "back_esc": {
+    "message": "Geri (Esc)"
+  },
+  "back_to_list": {
+    "message": "Listeye dön"
+  },
+  "title_count": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "empty_name": {
+    "message": "(boş ad)"
+  },
+  "empty_value": {
+    "message": "(boş değer)"
+  },
+  "empty_short": {
+    "message": "(boş)"
+  },
+  "names_more": {
+    "message": "$P1$ ve $P2$ tane daha",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "done": {
+    "message": "Bitti"
+  },
+  "undo": {
+    "message": "Geri al"
+  },
+  "undo_nothing": {
+    "message": "Geri alınacak bir şey yok"
+  },
+  "undo_entry": {
+    "message": "Geri al: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_interrupted": {
+    "message": "Geri alma yarıda kaldı: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "redo_entry": {
+    "message": "Yinele: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "support_title": {
+    "message": "CookieDesk'e Ko-fi'de destek ol"
+  },
+  "supporter_title": {
+    "message": "CookieDesk'e destek olduğunuz için teşekkürler!"
+  },
+  "add_cookie": {
+    "message": "Çerez ekle"
+  },
+  "add_cookie_title": {
+    "message": "Çerez ekle (n)"
+  },
+  "more_actions": {
+    "message": "Diğer işlemler"
+  },
+  "menu_group_transfer": {
+    "message": "Dışa ve içe aktarma"
+  },
+  "menu_group_sets": {
+    "message": "Çerez setleri"
+  },
+  "export_json_title": {
+    "message": "JSON olarak dışa aktar"
+  },
+  "export_txt_title": {
+    "message": "Netscape cookies.txt olarak dışa aktar"
+  },
+  "tile_snippet": {
+    "message": "Kod"
+  },
+  "tile_snippet_title": {
+    "message": "document.cookie kodu olarak kopyala"
+  },
+  "tile_import": {
+    "message": "İçe aktar"
+  },
+  "tile_import_title": {
+    "message": "JSON veya cookies.txt içe aktar"
+  },
+  "tile_save_set": {
+    "message": "Seti kaydet"
+  },
+  "tile_save_set_title": {
+    "message": "Bu çerezleri adlandırılmış bir set dosyası olarak kaydet"
+  },
+  "tile_restore": {
+    "message": "Geri yükle"
+  },
+  "tile_restore_title": {
+    "message": "Kayıtlı bir seti geri yükle (önce önizleme)"
+  },
+  "tile_compare": {
+    "message": "Karşılaştır"
+  },
+  "tile_compare_title": {
+    "message": "Kayıtlı bir seti şimdikiyle veya iki seti birbiriyle karşılaştır"
+  },
+  "tile_copy_to": {
+    "message": "Şuraya kopyala…"
+  },
+  "tile_copy_to_title": {
+    "message": "Gösterilen çerezleri başka bir depoya kopyala (normal ↔ gizli)"
+  },
+  "menu_bulk_delete": {
+    "message": "Gösterilen çerezleri sil…"
+  },
+  "menu_access": {
+    "message": "Erişim ve ayarlar"
+  },
+  "menu_shortcuts": {
+    "message": "Kısayollar"
+  },
+  "menu_sidepanel": {
+    "message": "Yan panelde aç"
+  },
+  "menu_rate": {
+    "message": "CookieDesk'i değerlendir"
+  },
+  "menu_support": {
+    "message": "Ko-fi'de destek ol"
+  },
+  "search_placeholder": {
+    "message": "Çerezlerde ara"
+  },
+  "search_label": {
+    "message": "Çerezleri ada, değere veya alan adına göre filtrele"
+  },
+  "search_title": {
+    "message": "Ada, değere veya alan adına göre filtrele"
+  },
+  "cookie_store": {
+    "message": "Çerez deposu"
+  },
+  "cookies_list": {
+    "message": "Çerezler"
+  },
+  "restricted_page": {
+    "message": "Kısıtlı sayfa"
+  },
+  "loading": {
+    "message": "Yükleniyor…"
+  },
+  "state_unknown": {
+    "message": "Bu sekmenin çerezlerini görmek için araç çubuğundaki CookieDesk düğmesine tıklayın."
+  },
+  "state_unknown_hint": {
+    "message": "Chrome, bir sekmenin adresini yalnızca bu tıklamadan sonra veya izin verdiğiniz siteler için paylaşır."
+  },
+  "state_error": {
+    "message": "Bir şeyler ters gitti: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "state_no_access": {
+    "message": "CookieDesk'in henüz $P1$ sitesine erişimi yok.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "grant_site": {
+    "message": "$P1$ için izin ver",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "chrome_will_ask": {
+    "message": "Chrome şunu soracak:"
+  },
+  "prompt_site": {
+    "message": "Tüm $P1$ sitelerindeki verilerinizi okuma ve değiştirme",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "prompt_all": {
+    "message": "Tüm web sitelerindeki tüm verilerinizi okuma ve değiştirme"
+  },
+  "only_this_site": {
+    "message": "Yalnızca bu sitenin çerezleri, başka bir şey değil."
+  },
+  "allow_all_instead": {
+    "message": "Bunun yerine tüm sitelere izin ver"
+  },
+  "restricted_browser": {
+    "message": "Bu bir Chrome sayfası. Chrome, hiçbir uzantının burada çerezleri okumasına veya değiştirmesine izin vermez."
+  },
+  "restricted_webstore": {
+    "message": "Burası Chrome Web Store. Chrome tüm uzantıları buradan engeller, bu yüzden çerezleri gösterilemez."
+  },
+  "restricted_extension": {
+    "message": "Bu, bir uzantının kendi sayfası. Depolama alanı bir sitenin çerezi olmadığından gösterilecek bir şey yok."
+  },
+  "restricted_file": {
+    "message": "Bu yerel bir dosya. Diskten açılan dosyaların çerezi olmaz."
+  },
+  "restricted_other": {
+    "message": "Bu sayfa bir web sitesi değil (örneğin boş veya data: sayfası), bu yüzden çerezi yok."
+  },
+  "live_just_now": {
+    "message": "Az önce: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "note_third_party": {
+    "message": "Gömülü sitelerin çerezleri yalnızca izin verdiğiniz siteler için gösterilir."
+  },
+  "note_no_partitions": {
+    "message": "Chrome sürümünüz bölümlenmiş çerezleri gösteremiyor, bu yüzden bu liste eksik olabilir."
+  },
+  "empty_no_match": {
+    "message": "“$P1$” ile eşleşen çerez yok.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "empty_none": {
+    "message": "$P1$ için çerez yok.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clear_search": {
+    "message": "Aramayı temizle"
+  },
+  "change_changed": {
+    "message": "$P1$ değişti",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_added": {
+    "message": "$P1$ eklendi",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_removed": {
+    "message": "$P1$ kaldırıldı",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_one": {
+    "message": "$P1$ çerez",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_other": {
+    "message": "$P1$ çerez",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_filtered_one": {
+    "message": "$P1$ çerezden $P2$ tanesi",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_filtered_other": {
+    "message": "$P1$ çerezden $P2$ tanesi",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_partitioned": {
+    "message": "$P1$ bölümlenmiş",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "store_default": {
+    "message": "Varsayılan"
+  },
+  "store_incognito": {
+    "message": "Gizli"
+  },
+  "store_n": {
+    "message": "Depo $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "session": {
+    "message": "Oturum"
+  },
+  "expired": {
+    "message": "Süresi doldu"
+  },
+  "expiry_under_minute": {
+    "message": "bir dakikadan kısa sürede"
+  },
+  "expiry_on_close": {
+    "message": "Tarayıcı kapanınca silinir"
+  },
+  "expires_at": {
+    "message": "Bitiş: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "badge_protected": {
+    "message": "Korumalı: toplu silme, içe aktarma ve set geri yükleme buna dokunmaz (p)"
+  },
+  "hint_httponly": {
+    "message": "HttpOnly: sayfa JavaScript'i göremez (document.cookie okuyamaz)"
+  },
+  "hint_secure": {
+    "message": "Secure: yalnızca HTTPS üzerinden gönderilir"
+  },
+  "hint_samesite_none": {
+    "message": "SameSite=None: siteler arası isteklerde de gönderilir"
+  },
+  "hint_samesite_lax": {
+    "message": "SameSite=Lax: üst düzey gezinmelerde gönderilir, siteler arası alt isteklerde gönderilmez"
+  },
+  "hint_samesite_strict": {
+    "message": "SameSite=Strict: yalnızca aynı site isteklerinde gönderilir"
+  },
+  "badge_partitioned": {
+    "message": "Bölümlenmiş"
+  },
+  "partitioned_under": {
+    "message": "$P1$ altında bölümlenmiş",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partition_this_site": {
+    "message": "bu site"
+  },
+  "partition_cross_site": {
+    "message": "$P1$, siteler arası bağlam",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "row_protected": {
+    "message": "Korumalı"
+  },
+  "row_unprotect_title": {
+    "message": "Korumayı kaldır (p)"
+  },
+  "row_protect_title": {
+    "message": "Toplu silme, içe aktarma ve set geri yüklemeden koru (p)"
+  },
+  "copy_value": {
+    "message": "Değeri kopyala"
+  },
+  "copied": {
+    "message": "Kopyalandı"
+  },
+  "copy_value_title": {
+    "message": "Değeri kopyala (c)"
+  },
+  "row_delete_title": {
+    "message": "Sil (Del) — geri alınabilir"
+  },
+  "irreversible_title": {
+    "message": "Bu geri alınamaz"
+  },
+  "continue_no_undo": {
+    "message": "Geri almadan devam et"
+  },
+  "undo_anyway_title": {
+    "message": "Yine de geri alınsın mı?"
+  },
+  "undo_anyway": {
+    "message": "Yine de geri al"
+  },
+  "undone": {
+    "message": "Geri alındı: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_skipped": {
+    "message": "Bazı çerezlerin süresi zaten dolmuştu ve geri yüklenmedi: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_refused": {
+    "message": "Chrome bunları artık olduğu gibi kabul etmiyor, bu yüzden geri yüklenmediler: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clipboard_failed": {
+    "message": "Kopyalanamadı: pano burada kullanılamıyor."
+  },
+  "protected_on": {
+    "message": "“$P1$” korumaya alındı: toplu silme, içe aktarma ve set geri yükleme buna dokunmaz.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_off": {
+    "message": "“$P1$” artık korumalı değil.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protect_limit": {
+    "message": "En fazla $P1$ çerezi koruyabilirsiniz. Önce bazılarının korumasını kaldırın.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_named": {
+    "message": "“$P1$” silinsin mi?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_protected_message": {
+    "message": "Bu çerez korumalı. Yine de silinsin mi? Geri alabilirsiniz."
+  },
+  "nothing_to_delete": {
+    "message": "Silinecek bir şey yok"
+  },
+  "all_shown_protected_one": {
+    "message": "Gösterilen çerez korumalı."
+  },
+  "all_shown_protected_other": {
+    "message": "Gösterilen $P1$ çerezin hepsi korumalı.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "no_cookies_shown": {
+    "message": "Gösterilen çerez yok."
+  },
+  "bulk_title_one": {
+    "message": "$P1$ çerez silinsin mi?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_title_other": {
+    "message": "$P1$ çerez silinsin mi?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_match": {
+    "message": "Bu çerezler $P2$ sitesinde “$P1$” ile eşleşiyor. Geri alabilirsiniz.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "bulk_all": {
+    "message": "$P1$ için listelenen tüm çerezler. Geri alabilirsiniz.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_one": {
+    "message": "$P1$ korumalı çerez korunacak.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_other": {
+    "message": "$P1$ korumalı çerez korunacak.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_one": {
+    "message": "$P1$ çerezi sil",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_other": {
+    "message": "$P1$ çerezi sil",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_to": {
+    "message": "Şuraya kopyala"
+  },
+  "copy_to_default_note": {
+    "message": "Varsayılan depoya kopyalanan çerezler diğerleri gibi diskte tutulur ve bu gizli oturum bittikten sonra da kalır."
+  },
+  "copy_to_incognito_note": {
+    "message": "Gizli depoya kopyalanan çerezler o gizli oturumla birlikte biter."
+  },
+  "copy_title_one": {
+    "message": "$P1$ çerezi kopyala",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_title_other": {
+    "message": "$P1$ çerezi kopyala",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_from": {
+    "message": "$P1$ deposundan şuraya:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_replace_note": {
+    "message": "Oradaki aynı ad, alan adı ve yola sahip çerezlerin yerine yenileri yazılır, korumalı olanlar hariç. Kopyalamayı geri alabilirsiniz."
+  },
+  "label_copied_one": {
+    "message": "$P1$ çerez $P2$ deposuna kopyalandı",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_copied_other": {
+    "message": "$P1$ çerez $P2$ deposuna kopyalandı",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_kept_one": {
+    "message": "Oradaki $P1$ korumalı çereze dokunulmadı.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_kept_other": {
+    "message": "Oradaki $P1$ korumalı çereze dokunulmadı.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_done_one": {
+    "message": "$P1$ çerez $P2$ deposuna kopyalandı.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_done_other": {
+    "message": "$P1$ çerez $P2$ deposuna kopyalandı.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_undo_hint": {
+    "message": "Burada veya daha sonra $P1$ deposundan geri alabilirsiniz.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_nothing": {
+    "message": "$P1$ zaten tam olarak bu çerezlere sahip.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_cant": {
+    "message": "Karşılaştırılamıyor"
+  },
+  "compare_now": {
+    "message": "$P1$ şimdi",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_other_site": {
+    "message": "Bu set $P2$ için değil, $P1$ için kaydedilmiş.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "compare_too_many": {
+    "message": "Şimdikiyle karşılaştırmak için bir set veya birbiriyle karşılaştırmak için iki set seçin."
+  },
+  "set_file_too_large": {
+    "message": "$P1$ çerez seti olamayacak kadar büyük.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_aria": {
+    "message": "Çerez setlerini karşılaştır"
+  },
+  "compare_changed_fields": {
+    "message": "Değişen: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_one": {
+    "message": "Fark yok: $P1$ çerez aynı.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_other": {
+    "message": "Fark yok: $P1$ çerez aynı.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_summary": {
+    "message": "$P1$ eklendi, $P2$ kaldırıldı, $P3$ değişti, $P4$ aynı kaldı.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      },
+      "p4": {
+        "content": "$4"
+      }
+    }
+  },
+  "diff_added": {
+    "message": "Eklendi"
+  },
+  "diff_removed": {
+    "message": "Kaldırıldı"
+  },
+  "diff_changed": {
+    "message": "Değişti"
+  },
+  "diff_expiry_only": {
+    "message": "Yalnızca bitiş süresi değişti ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "shortcuts_title": {
+    "message": "Klavye kısayolları"
+  },
+  "key_search": {
+    "message": "Ara"
+  },
+  "key_move": {
+    "message": "Listede gez"
+  },
+  "key_first_last": {
+    "message": "İlk / son çerez"
+  },
+  "key_edit": {
+    "message": "Düzenle"
+  },
+  "key_copy": {
+    "message": "Değeri kopyala"
+  },
+  "key_protect": {
+    "message": "Koru / korumayı kaldır"
+  },
+  "key_delete": {
+    "message": "Sil (geri alınabilir)"
+  },
+  "key_back": {
+    "message": "Geri dön veya aramayı temizle"
+  },
+  "key_help": {
+    "message": "Bu liste"
+  },
+  "import_kept_one": {
+    "message": "$P1$ korumalı çereze dokunulmadı: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_kept_other": {
+    "message": "$P1$ korumalı çereze dokunulmadı: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_nothing": {
+    "message": "İçe aktarılacak bir şey yok: dosyadaki her çerez zaten tam olarak böyle ayarlanmış."
+  },
+  "imported_one": {
+    "message": "$P1$ çerez içe aktarıldı.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "imported_other": {
+    "message": "$P1$ çerez içe aktarıldı.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_restored": {
+    "message": "“$P1$” seti geri yüklendi",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restored_one": {
+    "message": "“$P2$” geri yüklendi: $P1$ çerez yazıldı, $P3$ silindi.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "restored_other": {
+    "message": "“$P2$” geri yüklendi: $P1$ çerez yazıldı, $P3$ silindi.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "rate_title": {
+    "message": "CookieDesk'i beğendiniz mi?"
+  },
+  "rate_text": {
+    "message": "Kısa bir puan, başkalarının onu bulmasına yardımcı olur."
+  },
+  "rate_group": {
+    "message": "Mağazada puan ver"
+  },
+  "rate_stars_one": {
+    "message": "$P1$ yıldız",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "rate_stars_other": {
+    "message": "$P1$ yıldız",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_confirm_title": {
+    "message": "Bana bir kahve ısmarladınız mı?"
+  },
+  "kofi_confirm_text": {
+    "message": "Teşekkürler, CookieDesk'in yaşamasını sağlıyor."
+  },
+  "kofi_yes": {
+    "message": "Evet, ısmarladım"
+  },
+  "kofi_not_yet": {
+    "message": "Henüz değil"
+  },
+  "kofi_milestone_one": {
+    "message": "CookieDesk ile $P1$ değişiklik yapıldı!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_milestone_other": {
+    "message": "CookieDesk ile $P1$ değişiklik yapıldı!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_free": {
+    "message": "Ücretsiz ve tek bir geliştirici tarafından yapıldı."
+  },
+  "buy_coffee": {
+    "message": "Bana kahve ısmarla"
+  },
+  "edit_cookie": {
+    "message": "Çerezi düzenle"
+  },
+  "add_cookie_short": {
+    "message": "Çerez ekle"
+  },
+  "explain_title": {
+    "message": "Bu çerez ne işe yarar"
+  },
+  "field_name": {
+    "message": "Ad"
+  },
+  "field_value": {
+    "message": "Değer"
+  },
+  "field_domain": {
+    "message": "Alan adı"
+  },
+  "field_path": {
+    "message": "Path"
+  },
+  "field_expiry": {
+    "message": "Bitiş"
+  },
+  "field_expires": {
+    "message": "Bitiş"
+  },
+  "field_attributes": {
+    "message": "Özellikler"
+  },
+  "field_partition": {
+    "message": "Bölüm"
+  },
+  "host_only": {
+    "message": "Yalnızca ana makine"
+  },
+  "host_only_title": {
+    "message": "Yalnızca ana makine: Domain özelliği yok, bu yüzden alt alan adları almaz"
+  },
+  "session_title": {
+    "message": "Oturum çerezi: tarayıcı kapanınca kaybolur"
+  },
+  "httponly_title": {
+    "message": "HttpOnly: sayfa JavaScript'i göremez"
+  },
+  "samesite_unspecified": {
+    "message": "Belirtilmemiş"
+  },
+  "partitioned_chips": {
+    "message": "Bölümlenmiş (CHIPS)"
+  },
+  "top_level_site": {
+    "message": "Üst düzey site"
+  },
+  "no_partition_write": {
+    "message": "Bu Chrome sürümü bölümlenmiş çerez yazamaz."
+  },
+  "editor_delete_title": {
+    "message": "Sil (geri alınabilir)"
+  },
+  "bytes_of": {
+    "message": "$P1$ / $P2$ bayt",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "access_aria": {
+    "message": "Erişim ve ayarlar"
+  },
+  "all_sites_on": {
+    "message": "Tüm siteler: açık"
+  },
+  "all_sites_on_text": {
+    "message": "CookieDesk, gömülü olanlar dahil her sitedeki çerezleri okuyabilir ve değiştirebilir."
+  },
+  "turn_off": {
+    "message": "Kapat"
+  },
+  "all_sites": {
+    "message": "Tüm siteler"
+  },
+  "all_sites_text": {
+    "message": "İsteğe bağlı. Site başına izin istemi kalmaz ve gömülü sitelerin (reklamlar, widget'lar, giriş çerçeveleri) çerezleri her yerde görünür."
+  },
+  "allow_all_sites": {
+    "message": "Tüm sitelerde izin ver"
+  },
+  "remove_access": {
+    "message": "$P1$ erişimini kaldır",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "access_lead": {
+    "message": "CookieDesk, bir sitenin çerezlerini yalnızca o siteye izin verdikten sonra görür ve başka hiçbir şey görmez: sayfa içeriği yok, geçmiş yok."
+  },
+  "allowed_sites": {
+    "message": "İzin verilen siteler"
+  },
+  "allowed_sites_count": {
+    "message": "İzin verilen siteler · $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "all_sites_overrides": {
+    "message": "Tüm sitelere erişim açık, bu yüzden bunlar açık kaldığı sürece önemli değil."
+  },
+  "none_yet": {
+    "message": "Henüz yok."
+  },
+  "toolbar_opens": {
+    "message": "Araç çubuğu düğmesi şunu açar"
+  },
+  "surface_popup": {
+    "message": "Açılır pencere"
+  },
+  "surface_sidepanel": {
+    "message": "Yan panel"
+  },
+  "support_feedback": {
+    "message": "Destek ve geri bildirim"
+  },
+  "thanks_supporting": {
+    "message": "Destekleriniz için teşekkürler!"
+  },
+  "report_problem": {
+    "message": "Sorun bildir"
+  },
+  "source_code": {
+    "message": "Kaynak kodu"
+  },
+  "privacy_line": {
+    "message": "Ağ isteği yok, diskte çerez değeri yok. Geri alma 10 dakika çalışır; kopyalar bellekte tutulur ve Chrome kapanınca veya gizli oturum bitince silinir."
+  },
+  "export_warning": {
+    "message": "Bu dosya geçerli oturum çerezleri içeriyor. Dosyaya sahip olan herkes bu sitelerde sizin adınıza oturum açabilir. Parola gibi davranın ve işiniz bitince silin."
+  },
+  "export_json_one": {
+    "message": "$P1$ çerezi JSON olarak dışa aktar",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_json_other": {
+    "message": "$P1$ çerezi JSON olarak dışa aktar",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_one": {
+    "message": "$P1$ çerezi cookies.txt olarak dışa aktar",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_other": {
+    "message": "$P1$ çerezi cookies.txt olarak dışa aktar",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_all_one": {
+    "message": "$P2$ için listelenen çerez, HttpOnly olsa bile dosyaya girer.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_all_other": {
+    "message": "$P2$ için listelenen $P1$ çerezin hepsi, HttpOnly olanlar dahil dosyaya girer.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_partitioned_left_one": {
+    "message": "$P1$ bölümlenmiş çerez dışarıda bırakıldı: cookies.txt bölümleri kaydedemez. Saklamak için JSON kullanın.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_partitioned_left_other": {
+    "message": "$P1$ bölümlenmiş çerez dışarıda bırakıldı: cookies.txt bölümleri kaydedemez. Saklamak için JSON kullanın.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_too_big": {
+    "message": "Bu dosya $P1$ MB. Çerez dışa aktarımları çok daha küçüktür; CookieDesk 5 MB'a kadar dosyaları okur.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "cant_import_unchanged": {
+    "message": "Bu dosya içe aktarılamıyor. Hiçbir şey değişmedi."
+  },
+  "cant_import": {
+    "message": "Bu dosya içe aktarılamıyor"
+  },
+  "file_unreadable": {
+    "message": "Dosya okunamadı."
+  },
+  "needs_access_one": {
+    "message": "Bu çerezleri yazabilmek için CookieDesk'in $P1$ site daha erişmesi gerekiyor:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "needs_access_other": {
+    "message": "Bu çerezleri yazabilmek için CookieDesk'in $P1$ site daha erişmesi gerekiyor:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_allow_all_hint": {
+    "message": "Veya Erişim ve ayarlar bölümünden tüm sitelere izin verin."
+  },
+  "other_sites": {
+    "message": "Diğer siteler ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "other_sites_warning": {
+    "message": "Bu dosya $P1$ dışındaki siteler için de çerez yazıyor. Başka bir siteye yerleştirilen çerez, orada sizi yanlış hesapla oturum açtırabilir. Yalnızca bu siteleri bekliyorsanız devam edin.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_one": {
+    "message": "Diğer $P1$ site için de çerez yaz",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_other": {
+    "message": "Diğer $P1$ site için de çerez yaz",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partitioned_under_list": {
+    "message": "Şunların altında bölümlenmiş: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "warnings_count": {
+    "message": "Uyarılar ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_title": {
+    "message": "Çerezleri içe aktar"
+  },
+  "import_message_one": {
+    "message": "$P1$ çerez içe aktarılsın mı? Aynı ad, alan adı ve yola sahip çerezlerin yerine yenileri yazılır. İçe aktarmanın tamamını geri alabilirsiniz.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_message_other": {
+    "message": "$P1$ çerez içe aktarılsın mı? Aynı ad, alan adı ve yola sahip çerezlerin yerine yenileri yazılır. İçe aktarmanın tamamını geri alabilirsiniz.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_one": {
+    "message": "$P1$ çerezi document.cookie olarak kopyala",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_other": {
+    "message": "$P1$ çerezi document.cookie olarak kopyala",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_warning": {
+    "message": "Kod, geçerli oturum çerezleri içeriyor. Koda sahip olan herkes bu sitede sizin adınıza oturum açabilir. Parola gibi davranın."
+  },
+  "snippet_paste": {
+    "message": "Bu çerezleri orada ayarlamak için $P1$ sitesindeki DevTools konsoluna yapıştırın.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_one": {
+    "message": "$P1$ HttpOnly çerez dışarıda bırakıldı: sayfa JavaScript'i bunu ayarlayamaz.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_other": {
+    "message": "$P1$ HttpOnly çerez dışarıda bırakıldı: sayfa JavaScript'i bunları ayarlayamaz.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_one": {
+    "message": "$P1$ çerez document.cookie olarak kopyalandı.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_other": {
+    "message": "$P1$ çerez document.cookie olarak kopyalandı.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_name": {
+    "message": "Set adı"
+  },
+  "set_name_placeholder": {
+    "message": "örn. yönetici olarak giriş yapıldı"
+  },
+  "save_set_title_one": {
+    "message": "$P1$ çerezi set olarak kaydet",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "save_set_title_other": {
+    "message": "$P1$ çerezi set olarak kaydet",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_file_note": {
+    "message": "Set, bilgisayarınızdaki bir dosyadır; CookieDesk kopya tutmaz. Daha sonra $P1$ sitesindeki menüden geri yükleyin.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "default_set_name": {
+    "message": "Çerez seti"
+  },
+  "set_too_large": {
+    "message": "Bu dosya çerez seti olamayacak kadar büyük."
+  },
+  "cant_restore_unchanged": {
+    "message": "Bu set geri yüklenemiyor. Hiçbir şey değişmedi."
+  },
+  "cant_restore": {
+    "message": "Bu set geri yüklenemiyor"
+  },
+  "wrong_site_message": {
+    "message": "Bu set $P1$ için kaydedilmiş. $P1$ sitesini açın ve orada geri yükleyin.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "wrong_site_title": {
+    "message": "Yanlış site. Hiçbir şey değişmedi."
+  },
+  "foreign_cookies_one": {
+    "message": "Bu dosyadaki $P1$ çerez başka bir siteye ait ($P2$). Set geri yükleme yalnızca $P3$ sitesini değiştirir; diğer siteler için İçe aktar'ı kullanın.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "foreign_cookies_other": {
+    "message": "Bu dosyadaki $P1$ çerez başka sitelere ait ($P2$). Set geri yükleme yalnızca $P3$ sitesini değiştirir; diğer siteler için İçe aktar'ı kullanın.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "plan_write": {
+    "message": "Yaz"
+  },
+  "plan_delete": {
+    "message": "Sil"
+  },
+  "plan_protected": {
+    "message": "Korumalı, olduğu gibi bırakılır"
+  },
+  "restore_title": {
+    "message": "“$P1$” geri yüklensin mi?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_nothing": {
+    "message": "$P1$ zaten bu sete uyuyor. Değiştirilecek bir şey yok.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_message_one": {
+    "message": "$P2$ çerezlerinin yerine bu setteki $P1$ çerez yazılacak. Geri yüklemenin tamamını geri alabilirsiniz.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "restore_message_other": {
+    "message": "$P2$ çerezlerinin yerine bu setteki $P1$ çerez yazılacak. Geri yüklemenin tamamını geri alabilirsiniz.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_partition_unsupported": {
+    "message": "“$P1$” bölümlenmiş bir çerez ve bu Chrome sürümü bunu yazamaz. Chrome'u 119 veya üzeri sürüme güncelleyin.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_gone": {
+    "message": "“$P1$” artık yok — süresi dolmuş veya site tarafından değiştirilmiş olabilir. Listeyi yeniden yükleyin.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_stored": {
+    "message": "Chrome “$P1$” çerezini kabul etti ama saklamadı.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_imprecise_delete_one": {
+    "message": "Chrome “$P2$” çerezini yalnızca aynı adlı $P1$ başka çerezle birlikte silebilir, bu yüzden CookieDesk silmeyecek.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_imprecise_delete_other": {
+    "message": "Chrome “$P2$” çerezini yalnızca aynı adlı $P1$ başka çerezle birlikte silebilir, bu yüzden CookieDesk silmeyecek.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_delete": {
+    "message": "Chrome “$P1$” çerezini saklandığı haliyle artık kabul etmiyor, bu yüzden silinirse geri konamaz. Geri almadan silinsin mi?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_removed": {
+    "message": "“$P1$” silinemedi.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_no_permission": {
+    "message": "CookieDesk'in $P1$ sitesine erişimi yok. Önce bu siteye erişim verin.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_secure_shadow": {
+    "message": "$P2$ için “$P1$” adlı bir Secure çerez zaten var. Chrome, aynı adlı Secure olmayan bir çerezin onun yerini almasına veya yanında durmasına izin vermez. Secure'u açın veya farklı bir ad kullanın.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_rejected": {
+    "message": "Chrome “$P1$” çerezini neden belirtmeden reddetti. Hiçbir şey değişmedi.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_irreversible_replace_one": {
+    "message": "Chrome $P2$ çerezini saklandığı haliyle artık kabul etmiyor, bu yüzden değiştirilirse geri konamaz. Bunun için geri almadan devam edilsin mi?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_replace_other": {
+    "message": "Chrome $P2$ çerezlerini saklandıkları haliyle artık kabul etmiyor, bu yüzden değiştirilirlerse geri konamaz. Bunlar için geri almadan devam edilsin mi?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_too_large_to_undo": {
+    "message": "Bu değişiklik, geri alma kopyası tutmak için çok fazla veriye ($P1$ KB) dokunuyor. Geri almadan devam edilsin mi?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_duplicate_in_file": {
+    "message": "Dosyada aynı alan adı ve yol için “$P1$” iki kez var.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_undo_expired": {
+    "message": "Geri alınacak bir şey yok — geri alma 10 dakika saklanır."
+  },
+  "err_undo_conflict": {
+    "message": "$P1$, “$P2$” işleminden sonra değişti. Şimdi geri almak daha yeni değerin üzerine yazar. Yine de geri alınsın mı?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_incomplete": {
+    "message": "Tamamlanmadı: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_added": {
+    "message": "“$P1$” eklendi",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_edited": {
+    "message": "“$P1$” düzenlendi",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted": {
+    "message": "“$P1$” silindi",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_expired": {
+    "message": "“$P1$” silindi (bitiş geçmişte)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_one": {
+    "message": "$P1$ çerez silindi",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_other": {
+    "message": "$P1$ çerez silindi",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_one": {
+    "message": "$P1$ çerez içe aktarıldı",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_other": {
+    "message": "$P1$ çerez içe aktarıldı",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_undid": {
+    "message": "Geri alındı: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_saved": {
+    "message": "“$P1$” kaydedildi",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_draft": {
+    "message": "Çerez; ad, değer, alan adı ve yol içeren bir nesne olmalı."
+  },
+  "v_name_type": {
+    "message": "Çerez adı metin olmalı."
+  },
+  "v_value_type": {
+    "message": "Çerez değeri metin olmalı."
+  },
+  "v_domain_type": {
+    "message": "Alan adı metin olmalı."
+  },
+  "v_path_type": {
+    "message": "Yol metin olmalı."
+  },
+  "v_flag_type": {
+    "message": "$P1$ true veya false olmalı.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_samesite": {
+    "message": "SameSite şunlardan biri olmalı: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_name_control": {
+    "message": "Ad, çerezlerin içeremeyeceği denetim karakterleri (yeni satır veya sekme gibi) içeriyor."
+  },
+  "v_name_semicolon": {
+    "message": "Ad, çerezi erken bitirecek bir \";\" içeriyor."
+  },
+  "v_name_equals": {
+    "message": "Ad, çerezde adı değerden ayıran bir \"=\" içeriyor."
+  },
+  "v_value_control": {
+    "message": "Değer, çerezlerin içeremeyeceği denetim karakterleri (yeni satır veya sekme gibi) içeriyor."
+  },
+  "v_value_semicolon": {
+    "message": "Değer, çerezi erken bitirecek bir \";\" içeriyor. Kodlayın (örneğin encodeURIComponent ile)."
+  },
+  "v_empty_cookie": {
+    "message": "Bir çerezin adı veya değeri olmalı; ikisi de boş."
+  },
+  "v_empty_name": {
+    "message": "Bu çerezin adı boş. Bazı siteler ve araçlar adsız çerezleri kötü işler."
+  },
+  "v_too_large": {
+    "message": "Ad ve değer birlikte $P1$ bayt (UTF-8); Chrome en fazla $P2$ bayta izin verir.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "v_path_slash": {
+    "message": "Yol \"/\" ile başlamalı."
+  },
+  "v_path_too_long": {
+    "message": "Yol $P1$ bayttan uzun.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_path_chars": {
+    "message": "Yol, çerezlerin içeremeyeceği denetim karakterleri veya \";\" içeriyor."
+  },
+  "v_domain_empty": {
+    "message": "Alan adı boş. Çerezin ait olduğu siteyi girin, örneğin example.com."
+  },
+  "v_domain_too_long": {
+    "message": "Alan adı $P1$ bayttan uzun.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_domain_invalid": {
+    "message": "Alan adı geçerli bir ana makine adı değil. Noktalarla ayrılmış harf, rakam ve tire kullanın (uluslararası adlar punycode olmalı, örneğin xn--...)."
+  },
+  "v_domain_leading_dot": {
+    "message": "Yalnızca ana makine çerezinin alan adı noktayla başlayamaz; nokta, çerezin alt alan adlarına da uygulandığı anlamına gelir."
+  },
+  "v_domain_public_suffix": {
+    "message": "“$P1$” bir genel sonektir (.com veya .co.uk gibi kayıt kuruluşunca yönetilen bir alan adı), bu yüzden tarayıcılar tamamına uygulanan çerezleri reddeder.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_samesite_none_insecure": {
+    "message": "SameSite=None çerezleri Secure olmalı — aksi halde Chrome reddeder. Secure'u açın veya başka bir SameSite seçin."
+  },
+  "v_partitioned_insecure": {
+    "message": "Bölümlenmiş çerezler Secure olmalı — aksi halde Chrome reddeder. Secure'u açın veya bölümü kaldırın."
+  },
+  "v_prefix_secure": {
+    "message": "“$P1$...” adlı çerezler Secure olmalı. Secure'u açın veya çerezi yeniden adlandırın.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_host_prefix_domain": {
+    "message": "“__Host-...” adlı çerezler yalnızca ana makineye ait olmalı (Domain özelliği yok, yani alt alan adlarıyla paylaşım yok). Yalnızca ana makine seçeneğini açın veya çerezi yeniden adlandırın."
+  },
+  "v_host_prefix_path": {
+    "message": "“__Host-...” adlı çerezlerin yolu \"/\" olmalı."
+  },
+  "v_bad_expiration": {
+    "message": "Bitiş zamanı, 1970'ten beri geçen sınırlı bir saniye sayısı olmalı."
+  },
+  "v_expired_deletes": {
+    "message": "Bitişi geçmişte olacak şekilde kaydetmek bu çerezi siler."
+  },
+  "v_clamped": {
+    "message": "Chrome çerez ömrünü $P1$ günle sınırlar; daha geç bir bitiş kaydedilirken kısaltılır.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_expiration_missing": {
+    "message": "Oturum dışı bir çerezin bitiş tarihi olmalı. Bir tarih seçin veya çerezi oturum çerezi olarak işaretleyin."
+  },
+  "v_partition_type": {
+    "message": "Bölüm anahtarı, topLevelSite içeren bir nesne olmalı."
+  },
+  "v_partition_site_type": {
+    "message": "Bölümün üst düzey sitesi, https://example.com gibi metin olmalı."
+  },
+  "v_partition_site_form": {
+    "message": "Bölümün üst düzey sitesi https://example.com gibi görünmeli (https, yol veya bağlantı noktası olmadan)."
+  },
+  "v_partition_flag": {
+    "message": "Bölümün hasCrossSiteAncestor değeri true veya false olmalı."
+  },
+  "v_partition_cross_site": {
+    "message": "Çerezin alan adı $P1$ ile aynı sitede değil, bu yüzden Chrome hasCrossSiteAncestor değerinin true olmasını gerektirir.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_other_site": {
+    "message": "Bu çerezin alan adı ($P1$) geçerli sitenin ($P2$) dışında.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_entry": {
+    "message": "Girdi $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_entry_named": {
+    "message": "Girdi $P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_bad_samesite": {
+    "message": "$P1$: sameSite, no_restriction, lax, strict, unspecified değerlerinden biri değil.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bool": {
+    "message": "$P1$: \"$P2$\" true veya false olmalı.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_text": {
+    "message": "$P1$: \"$P2$\" metin olmalı.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_not_object": {
+    "message": "$P1$ bir çerez nesnesi değil.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_expiration_type": {
+    "message": "$P1$: \"expirationDate\" bir sayı olmalı.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_key": {
+    "message": "$P1$: partitionKey, metin olan bir topLevelSite içeren nesne olmalı.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_flag": {
+    "message": "$P1$: partitionKey.hasCrossSiteAncestor true veya false olmalı.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_line": {
+    "message": "$P1$. satır bir cookies.txt girdisi değil (sekmeyle ayrılmış 7 alan beklendi, $P2$ bulundu).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_line_flag_subdomains": {
+    "message": "$P1$. satır: alt alan adları bayrağı TRUE veya FALSE olmalı.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_flag_secure": {
+    "message": "$P1$. satır: secure bayrağı TRUE veya FALSE olmalı.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_expiry": {
+    "message": "$P1$. satır: bitiş, tam sayı olarak saniye olmalı.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_not_text": {
+    "message": "Dosya metin olarak okunamadı."
+  },
+  "io_too_large": {
+    "message": "Dosya $P1$ baytlık içe aktarma sınırından büyük.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_json": {
+    "message": "Dosya JSON'a benziyor ama ayrıştırılamadı."
+  },
+  "io_bad_version": {
+    "message": "Bu CookieDesk dosyasının sürümü desteklenmiyor."
+  },
+  "io_no_cookie_list": {
+    "message": "CookieDesk dosyasında \"cookies\" listesi yok."
+  },
+  "io_unknown_format": {
+    "message": "Bu JSON ne bir CookieDesk dışa aktarımı ne de bir çerez listesi."
+  },
+  "io_no_cookies": {
+    "message": "Dosyada çerez yok."
+  },
+  "io_too_many": {
+    "message": "Dosyada $P1$ çerez var; sınır $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_issue": {
+    "message": "$P1$: $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_duplicate": {
+    "message": "$P1$: başka bir girdi aynı ada, alan adına, yola ve bölüme sahip.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "when": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "when_passed": {
+    "message": "zaten geçti"
+  },
+  "when_under_day": {
+    "message": "bir günden kısa sürede"
+  },
+  "explain_third_party": {
+    "message": "$P2$ sitesinden farklı bir site olan $P1$ tarafından ayarlandı: üçüncü taraf çerezi.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_third_party_partitioned": {
+    "message": "$P2$ sitesinden farklı bir site olan $P1$ tarafından ayarlandı: $P2$ bölümünde tutulan üçüncü taraf çerezi.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_host_prefix": {
+    "message": "__Host- öneki, Chrome'un Secure, Domain özelliği olmaması ve Path=/ şartını aramasını sağlar; böylece hiçbir alt alan adı bunu ayarlayamaz veya değiştiremez."
+  },
+  "explain_secure_prefix": {
+    "message": "__Secure- öneki, Chrome'un bunu yalnızca Secure bayrağıyla kabul etmesini sağlar."
+  },
+  "explain_scope_host": {
+    "message": "Yalnızca $P1$ sitesinin kendisine gönderilir, alt alan adlarına gönderilmez.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_scope_domain": {
+    "message": "$P1$ sitesine ve tüm alt alan adlarına (www.$P1$ gibi) gönderilir.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_path_all": {
+    "message": "O ana makinedeki her yol için yapılan isteklerle gönderilir."
+  },
+  "explain_path_under": {
+    "message": "Yalnızca $P1$ altındaki yollar için yapılan isteklerle gönderilir.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_secure": {
+    "message": "Secure: yalnızca HTTPS üzerinden gönderilir."
+  },
+  "explain_not_secure": {
+    "message": "Secure değil: ağdaki herkesin okuyabileceği düz HTTP üzerinden de gönderilir."
+  },
+  "explain_httponly": {
+    "message": "HttpOnly: sayfa JavaScript'i göremez (document.cookie okuyamaz), bu da onu enjekte edilen komut dosyalarından uzak tutar."
+  },
+  "explain_script_readable": {
+    "message": "Sayfada çalışan her komut dosyası tarafından okunabilir ve değiştirilebilir."
+  },
+  "explain_samesite_none": {
+    "message": "SameSite=None: Chrome'un üçüncü taraf çerezlerine izin verdiği yerlerde (gizli mod bunları varsayılan olarak engeller) siteler arası isteklerle de (gömülü çerçeveler, görseller, diğer sitelerden gelen istekler) gönderilebilir. Bu yüzden Secure olmalı."
+  },
+  "explain_samesite_lax": {
+    "message": "SameSite=Lax: siteye gittiğinizde, başka bir sitedeki bir bağlantıdan gelseniz bile gönderilir, ama diğer sitelerin sayfalarının arka planda yaptığı isteklerle gönderilmez."
+  },
+  "explain_samesite_strict": {
+    "message": "SameSite=Strict: yalnızca zaten aynı sitedeyken gönderilir. Başka bir sitedeki bağlantıdan geldiğinizde ilk istek onsuz gider."
+  },
+  "explain_samesite_unset": {
+    "message": "SameSite özelliği yok: Chrome bunu Lax sayar."
+  },
+  "explain_session": {
+    "message": "Bir oturum çerezi: tarayıcı kapanınca silinir (Chrome açılışta önceki oturumu geri yüklemiyorsa)."
+  },
+  "explain_expires": {
+    "message": "Bitiş: $P1$. Chrome, her bitiş süresini çerezin son ayarlanışından itibaren 400 günle sınırlar.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition": {
+    "message": "Bölümlenmiş (CHIPS): her üst düzey site için ayrı saklanır. Bu kopya yalnızca adres çubuğundaki site $P1$ iken gönderilir.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition_cross": {
+    "message": "Bu bölümün siteler arası kısmındadır (sayfa ile bu çerezin sitesi arasında başka bir site olduğunda kullanılır) ve aynı site kısmından ayrı tutulur."
+  },
+  "explain_partition_same": {
+    "message": "Bu bölümün aynı site kısmındadır ve siteler arası kısımdan ayrı tutulur."
+  },
+  "explain_partition_other": {
+    "message": "Başka bir sitedeki aynı çerez adı farklı bir çerezdir."
+  },
+  "explain_jwt": {
+    "message": "Değer bir JSON Web Token'a benziyor."
+  },
+  "explain_jwt_exp": {
+    "message": "Değer bir JSON Web Token'a benziyor; belirteç kendisinin $P1$ tarihinde sona ereceğini söylüyor.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_size": {
+    "message": "Chrome'un ad ve değer için birlikte izin verdiği 4096 baytın $P1$ kadarı.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

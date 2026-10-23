@@ -1,0 +1,2215 @@
+{
+  "extension_name": {
+    "message": "Cookie 編輯器：檢視、編輯、刪除 Cookie | CookieDesk"
+  },
+  "extension_description": {
+    "message": "依網站檢視、編輯、新增及刪除 Cookie。支援搜尋、匯入匯出與分割 Cookie。無廣告，不追蹤。"
+  },
+  "btn_ok": {
+    "message": "確定"
+  },
+  "btn_cancel": {
+    "message": "取消"
+  },
+  "btn_close": {
+    "message": "關閉"
+  },
+  "btn_delete": {
+    "message": "刪除"
+  },
+  "btn_copy": {
+    "message": "複製"
+  },
+  "btn_save": {
+    "message": "儲存"
+  },
+  "btn_export": {
+    "message": "匯出"
+  },
+  "btn_later": {
+    "message": "稍後再說"
+  },
+  "dismiss": {
+    "message": "關閉通知"
+  },
+  "back": {
+    "message": "返回"
+  },
+  "back_esc": {
+    "message": "返回 (Esc)"
+  },
+  "back_to_list": {
+    "message": "返回清單"
+  },
+  "title_count": {
+    "message": "$P1$（$P2$）",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "empty_name": {
+    "message": "（名稱為空）"
+  },
+  "empty_value": {
+    "message": "（值為空）"
+  },
+  "empty_short": {
+    "message": "（空）"
+  },
+  "names_more": {
+    "message": "$P1$ 等另外 $P2$ 個",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "done": {
+    "message": "完成"
+  },
+  "undo": {
+    "message": "復原"
+  },
+  "undo_nothing": {
+    "message": "沒有可復原的操作"
+  },
+  "undo_entry": {
+    "message": "復原：$P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_interrupted": {
+    "message": "復原已中斷：$P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "redo_entry": {
+    "message": "重做：$P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "support_title": {
+    "message": "在 Ko-fi 上支持 CookieDesk"
+  },
+  "supporter_title": {
+    "message": "感謝你支持 CookieDesk！"
+  },
+  "add_cookie": {
+    "message": "新增 Cookie"
+  },
+  "add_cookie_title": {
+    "message": "新增 Cookie (n)"
+  },
+  "more_actions": {
+    "message": "更多操作"
+  },
+  "menu_group_transfer": {
+    "message": "匯出和匯入"
+  },
+  "menu_group_sets": {
+    "message": "Cookie 組合"
+  },
+  "export_json_title": {
+    "message": "匯出為 JSON"
+  },
+  "export_txt_title": {
+    "message": "匯出為 Netscape cookies.txt"
+  },
+  "tile_snippet": {
+    "message": "程式碼片段"
+  },
+  "tile_snippet_title": {
+    "message": "複製為 document.cookie 程式碼片段"
+  },
+  "tile_import": {
+    "message": "匯入"
+  },
+  "tile_import_title": {
+    "message": "匯入 JSON 或 cookies.txt"
+  },
+  "tile_save_set": {
+    "message": "儲存組合"
+  },
+  "tile_save_set_title": {
+    "message": "將這些 Cookie 儲存為具名的組合檔案"
+  },
+  "tile_restore": {
+    "message": "還原"
+  },
+  "tile_restore_title": {
+    "message": "還原已儲存的組合（先預覽）"
+  },
+  "tile_compare": {
+    "message": "比較"
+  },
+  "tile_compare_title": {
+    "message": "將已儲存的組合與目前狀態比較，或比較兩個組合"
+  },
+  "tile_copy_to": {
+    "message": "複製到…"
+  },
+  "tile_copy_to_title": {
+    "message": "將顯示的 Cookie 複製到另一個儲存區（一般 ↔ 無痕）"
+  },
+  "menu_bulk_delete": {
+    "message": "刪除顯示的 Cookie…"
+  },
+  "menu_access": {
+    "message": "存取權與設定"
+  },
+  "menu_shortcuts": {
+    "message": "快速鍵"
+  },
+  "menu_sidepanel": {
+    "message": "在側邊面板中開啟"
+  },
+  "menu_rate": {
+    "message": "為 CookieDesk 評分"
+  },
+  "menu_support": {
+    "message": "在 Ko-fi 上支持"
+  },
+  "search_placeholder": {
+    "message": "搜尋 Cookie"
+  },
+  "search_label": {
+    "message": "依名稱、值或網域篩選 Cookie"
+  },
+  "search_title": {
+    "message": "依名稱、值或網域篩選"
+  },
+  "cookie_store": {
+    "message": "Cookie 儲存區"
+  },
+  "cookies_list": {
+    "message": "Cookie"
+  },
+  "restricted_page": {
+    "message": "受限制的頁面"
+  },
+  "loading": {
+    "message": "載入中…"
+  },
+  "state_unknown": {
+    "message": "按一下工具列上的 CookieDesk 按鈕，即可顯示這個分頁的 Cookie。"
+  },
+  "state_unknown_hint": {
+    "message": "只有在按下按鈕之後，或針對你已允許的網站，Chrome 才會提供分頁的網址。"
+  },
+  "state_error": {
+    "message": "發生錯誤：$P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "state_no_access": {
+    "message": "CookieDesk 尚未取得 $P1$ 的存取權。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "grant_site": {
+    "message": "允許存取 $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "chrome_will_ask": {
+    "message": "Chrome 會詢問："
+  },
+  "prompt_site": {
+    "message": "讀取及變更您在所有 $P1$ 網站上的資料",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "prompt_all": {
+    "message": "讀取及變更您在所有網站上的資料"
+  },
+  "only_this_site": {
+    "message": "只限這個網站的 Cookie，不涉及其他內容。"
+  },
+  "allow_all_instead": {
+    "message": "改為允許所有網站"
+  },
+  "restricted_browser": {
+    "message": "這是 Chrome 頁面。Chrome 不允許任何擴充功能讀取或變更這裡的 Cookie。"
+  },
+  "restricted_webstore": {
+    "message": "這是 Chrome Web Store。Chrome 禁止所有擴充功能存取，因此無法顯示它的 Cookie。"
+  },
+  "restricted_extension": {
+    "message": "這是擴充功能自己的頁面。它的儲存空間不是網站的 Cookie，所以沒有可顯示的內容。"
+  },
+  "restricted_file": {
+    "message": "這是本機檔案。從磁碟開啟的檔案沒有 Cookie。"
+  },
+  "restricted_other": {
+    "message": "這個頁面不是網站（例如空白頁或 data: 頁面），所以沒有 Cookie。"
+  },
+  "live_just_now": {
+    "message": "剛剛：$P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "note_third_party": {
+    "message": "嵌入網站的 Cookie 只會在你已允許的網站上顯示。"
+  },
+  "note_no_partitions": {
+    "message": "你的 Chrome 版本無法顯示分割 Cookie，因此這份清單可能不完整。"
+  },
+  "empty_no_match": {
+    "message": "沒有符合「$P1$」的 Cookie。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "empty_none": {
+    "message": "$P1$ 沒有 Cookie。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clear_search": {
+    "message": "清除搜尋"
+  },
+  "change_changed": {
+    "message": "$P1$ 已變更",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_added": {
+    "message": "$P1$ 已新增",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_removed": {
+    "message": "$P1$ 已移除",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_one": {
+    "message": "$P1$ 個 Cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_other": {
+    "message": "$P1$ 個 Cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_filtered_one": {
+    "message": "$P1$ 個 Cookie 中的 $P2$ 個",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_filtered_other": {
+    "message": "$P1$ 個 Cookie 中的 $P2$ 個",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_partitioned": {
+    "message": "$P1$ 個分割",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "store_default": {
+    "message": "預設"
+  },
+  "store_incognito": {
+    "message": "無痕"
+  },
+  "store_n": {
+    "message": "儲存區 $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "session": {
+    "message": "工作階段"
+  },
+  "expired": {
+    "message": "已過期"
+  },
+  "expiry_under_minute": {
+    "message": "不到 1 分鐘後"
+  },
+  "expiry_on_close": {
+    "message": "瀏覽器關閉時刪除"
+  },
+  "expires_at": {
+    "message": "到期時間：$P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "badge_protected": {
+    "message": "已保護：大量刪除、匯入和還原組合時不會動它 (p)"
+  },
+  "hint_httponly": {
+    "message": "HttpOnly：頁面 JavaScript 看不到（document.cookie 無法讀取）"
+  },
+  "hint_secure": {
+    "message": "Secure：僅透過 HTTPS 傳送"
+  },
+  "hint_samesite_none": {
+    "message": "SameSite=None：跨網站要求也會傳送"
+  },
+  "hint_samesite_lax": {
+    "message": "SameSite=Lax：頂層導覽時傳送，跨網站子要求不傳送"
+  },
+  "hint_samesite_strict": {
+    "message": "SameSite=Strict：僅在同網站要求中傳送"
+  },
+  "badge_partitioned": {
+    "message": "分割"
+  },
+  "partitioned_under": {
+    "message": "分割於 $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partition_this_site": {
+    "message": "這個網站"
+  },
+  "partition_cross_site": {
+    "message": "$P1$，跨網站環境",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "row_protected": {
+    "message": "已保護"
+  },
+  "row_unprotect_title": {
+    "message": "取消保護 (p)"
+  },
+  "row_protect_title": {
+    "message": "避免被大量刪除、匯入和還原組合影響 (p)"
+  },
+  "copy_value": {
+    "message": "複製值"
+  },
+  "copied": {
+    "message": "已複製"
+  },
+  "copy_value_title": {
+    "message": "複製值 (c)"
+  },
+  "row_delete_title": {
+    "message": "刪除 (Del)，可復原"
+  },
+  "irreversible_title": {
+    "message": "這項操作無法復原"
+  },
+  "continue_no_undo": {
+    "message": "繼續，不保留復原"
+  },
+  "undo_anyway_title": {
+    "message": "仍要復原？"
+  },
+  "undo_anyway": {
+    "message": "仍要復原"
+  },
+  "undone": {
+    "message": "已復原：$P1$。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_skipped": {
+    "message": "部分 Cookie 已過期，未能還原：$P1$。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_refused": {
+    "message": "Chrome 已不再接受這些維持原樣的 Cookie，因此未能還原：$P1$。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clipboard_failed": {
+    "message": "無法複製：這裡無法使用剪貼簿。"
+  },
+  "protected_on": {
+    "message": "已保護「$P1$」：大量刪除、匯入和還原組合時不會動它。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_off": {
+    "message": "「$P1$」已取消保護。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protect_limit": {
+    "message": "最多可保護 $P1$ 個 Cookie。請先取消保護一些。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_named": {
+    "message": "要刪除「$P1$」嗎？",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_protected_message": {
+    "message": "這個 Cookie 已受保護。仍要刪除嗎？你可以復原。"
+  },
+  "nothing_to_delete": {
+    "message": "沒有可刪除的內容"
+  },
+  "all_shown_protected_one": {
+    "message": "顯示的 Cookie 已受保護。"
+  },
+  "all_shown_protected_other": {
+    "message": "顯示的 $P1$ 個 Cookie 都已受保護。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "no_cookies_shown": {
+    "message": "沒有顯示任何 Cookie。"
+  },
+  "bulk_title_one": {
+    "message": "要刪除 $P1$ 個 Cookie 嗎？",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_title_other": {
+    "message": "要刪除 $P1$ 個 Cookie 嗎？",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_match": {
+    "message": "這些 Cookie 在 $P2$ 上符合「$P1$」。你可以復原。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "bulk_all": {
+    "message": "$P1$ 列出的所有 Cookie。你可以復原。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_one": {
+    "message": "將保留 $P1$ 個受保護的 Cookie。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_other": {
+    "message": "將保留 $P1$ 個受保護的 Cookie。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_one": {
+    "message": "刪除 $P1$ 個 Cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_other": {
+    "message": "刪除 $P1$ 個 Cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_to": {
+    "message": "複製到"
+  },
+  "copy_to_default_note": {
+    "message": "複製到預設儲存區的 Cookie 和其他 Cookie 一樣會保留在磁碟上，無痕工作階段結束後仍然存在。"
+  },
+  "copy_to_incognito_note": {
+    "message": "複製到無痕儲存區的 Cookie 會隨該無痕工作階段結束而消失。"
+  },
+  "copy_title_one": {
+    "message": "複製 $P1$ 個 Cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_title_other": {
+    "message": "複製 $P1$ 個 Cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_from": {
+    "message": "從 $P1$ 儲存區複製到：",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_replace_note": {
+    "message": "目標儲存區中名稱、網域和路徑相同的 Cookie 會被取代，受保護的除外。你可以復原複製。"
+  },
+  "label_copied_one": {
+    "message": "已將 $P1$ 個 Cookie 複製到 $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_copied_other": {
+    "message": "已將 $P1$ 個 Cookie 複製到 $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_kept_one": {
+    "message": "目標中有 $P1$ 個受保護的 Cookie 維持原樣。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_kept_other": {
+    "message": "目標中有 $P1$ 個受保護的 Cookie 維持原樣。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_done_one": {
+    "message": "已將 $P1$ 個 Cookie 複製到 $P2$。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_done_other": {
+    "message": "已將 $P1$ 個 Cookie 複製到 $P2$。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_undo_hint": {
+    "message": "可在此復原，也可稍後在 $P1$ 儲存區中復原。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_nothing": {
+    "message": "$P1$ 已有完全相同的 Cookie。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_cant": {
+    "message": "無法比較"
+  },
+  "compare_now": {
+    "message": "$P1$（目前）",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_other_site": {
+    "message": "這個組合儲存於 $P1$，不是 $P2$。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "compare_too_many": {
+    "message": "請選一個組合與目前狀態比較，或選兩個組合互相比較。"
+  },
+  "set_file_too_large": {
+    "message": "$P1$ 太大，不可能是 Cookie 組合。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_aria": {
+    "message": "比較 Cookie 組合"
+  },
+  "compare_changed_fields": {
+    "message": "已變更：$P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_one": {
+    "message": "沒有差異：$P1$ 個 Cookie 完全相同。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_other": {
+    "message": "沒有差異：$P1$ 個 Cookie 完全相同。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_summary": {
+    "message": "新增 $P1$、移除 $P2$、變更 $P3$、未變 $P4$。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      },
+      "p4": {
+        "content": "$4"
+      }
+    }
+  },
+  "diff_added": {
+    "message": "新增"
+  },
+  "diff_removed": {
+    "message": "移除"
+  },
+  "diff_changed": {
+    "message": "變更"
+  },
+  "diff_expiry_only": {
+    "message": "只有到期時間不同（$P1$）",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "shortcuts_title": {
+    "message": "鍵盤快速鍵"
+  },
+  "key_search": {
+    "message": "搜尋"
+  },
+  "key_move": {
+    "message": "在清單中移動"
+  },
+  "key_first_last": {
+    "message": "第一個 / 最後一個 Cookie"
+  },
+  "key_edit": {
+    "message": "編輯"
+  },
+  "key_copy": {
+    "message": "複製值"
+  },
+  "key_protect": {
+    "message": "保護 / 取消保護"
+  },
+  "key_delete": {
+    "message": "刪除（可復原）"
+  },
+  "key_back": {
+    "message": "返回，或清除搜尋"
+  },
+  "key_help": {
+    "message": "這份清單"
+  },
+  "import_kept_one": {
+    "message": "有 $P1$ 個受保護的 Cookie 維持原樣：$P2$。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_kept_other": {
+    "message": "有 $P1$ 個受保護的 Cookie 維持原樣：$P2$。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_nothing": {
+    "message": "不需要匯入：檔案中的每個 Cookie 都已是這樣設定。"
+  },
+  "imported_one": {
+    "message": "已匯入 $P1$ 個 Cookie。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "imported_other": {
+    "message": "已匯入 $P1$ 個 Cookie。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_restored": {
+    "message": "已還原組合「$P1$」",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restored_one": {
+    "message": "已還原「$P2$」：寫入 $P1$ 個 Cookie，刪除 $P3$ 個。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "restored_other": {
+    "message": "已還原「$P2$」：寫入 $P1$ 個 Cookie，刪除 $P3$ 個。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "rate_title": {
+    "message": "喜歡 CookieDesk 嗎？"
+  },
+  "rate_text": {
+    "message": "簡單評個分，能幫助更多人找到它。"
+  },
+  "rate_group": {
+    "message": "在商店評分"
+  },
+  "rate_stars_one": {
+    "message": "$P1$ 顆星",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "rate_stars_other": {
+    "message": "$P1$ 顆星",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_confirm_title": {
+    "message": "你請我喝咖啡了嗎？"
+  },
+  "kofi_confirm_text": {
+    "message": "謝謝你，這讓 CookieDesk 得以持續下去。"
+  },
+  "kofi_yes": {
+    "message": "是的，請了"
+  },
+  "kofi_not_yet": {
+    "message": "還沒有"
+  },
+  "kofi_milestone_one": {
+    "message": "已用 CookieDesk 完成 $P1$ 項變更！",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_milestone_other": {
+    "message": "已用 CookieDesk 完成 $P1$ 項變更！",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_free": {
+    "message": "它是免費的，由一位開發者製作。"
+  },
+  "buy_coffee": {
+    "message": "請我喝杯咖啡"
+  },
+  "edit_cookie": {
+    "message": "編輯 Cookie"
+  },
+  "add_cookie_short": {
+    "message": "新增 Cookie"
+  },
+  "explain_title": {
+    "message": "這個 Cookie 的作用"
+  },
+  "field_name": {
+    "message": "名稱"
+  },
+  "field_value": {
+    "message": "值"
+  },
+  "field_domain": {
+    "message": "網域"
+  },
+  "field_path": {
+    "message": "路徑"
+  },
+  "field_expiry": {
+    "message": "有效期限"
+  },
+  "field_expires": {
+    "message": "到期時間"
+  },
+  "field_attributes": {
+    "message": "屬性"
+  },
+  "field_partition": {
+    "message": "分割區"
+  },
+  "host_only": {
+    "message": "僅限主機"
+  },
+  "host_only_title": {
+    "message": "僅限主機：沒有 Domain 屬性，子網域不會收到它"
+  },
+  "session_title": {
+    "message": "工作階段 Cookie：瀏覽器關閉時消失"
+  },
+  "httponly_title": {
+    "message": "HttpOnly：頁面 JavaScript 看不到"
+  },
+  "samesite_unspecified": {
+    "message": "未指定"
+  },
+  "partitioned_chips": {
+    "message": "分割 (CHIPS)"
+  },
+  "top_level_site": {
+    "message": "頂層網站"
+  },
+  "no_partition_write": {
+    "message": "這個版本的 Chrome 無法寫入分割 Cookie。"
+  },
+  "editor_delete_title": {
+    "message": "刪除（可復原）"
+  },
+  "bytes_of": {
+    "message": "$P1$ / $P2$ 位元組",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "access_aria": {
+    "message": "存取權與設定"
+  },
+  "all_sites_on": {
+    "message": "所有網站：已開啟"
+  },
+  "all_sites_on_text": {
+    "message": "CookieDesk 可以讀取及變更每個網站的 Cookie，包括嵌入的網站。"
+  },
+  "turn_off": {
+    "message": "關閉"
+  },
+  "all_sites": {
+    "message": "所有網站"
+  },
+  "all_sites_text": {
+    "message": "選用。不再逐一網站詢問，嵌入網站（廣告、小工具、登入框架）的 Cookie 也會在所有地方顯示。"
+  },
+  "allow_all_sites": {
+    "message": "允許所有網站"
+  },
+  "remove_access": {
+    "message": "移除 $P1$ 的存取權",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "access_lead": {
+    "message": "只有在你允許某個網站後，CookieDesk 才看得到該網站的 Cookie，除此之外什麼也看不到：沒有頁面內容，沒有瀏覽記錄。"
+  },
+  "allowed_sites": {
+    "message": "已允許的網站"
+  },
+  "allowed_sites_count": {
+    "message": "已允許的網站 · $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "all_sites_overrides": {
+    "message": "已開啟所有網站的存取權，因此在它維持開啟期間，這些設定不會生效。"
+  },
+  "none_yet": {
+    "message": "尚無。"
+  },
+  "toolbar_opens": {
+    "message": "工具列按鈕開啟"
+  },
+  "surface_popup": {
+    "message": "彈出視窗"
+  },
+  "surface_sidepanel": {
+    "message": "側邊面板"
+  },
+  "support_feedback": {
+    "message": "支持與意見回饋"
+  },
+  "thanks_supporting": {
+    "message": "感謝你的支持！"
+  },
+  "report_problem": {
+    "message": "回報問題"
+  },
+  "source_code": {
+    "message": "原始碼"
+  },
+  "privacy_line": {
+    "message": "不發送網路要求，磁碟上不保存 Cookie 值。復原功能可用 10 分鐘；其副本存放在記憶體中，Chrome 關閉或無痕工作階段結束時就會消失。"
+  },
+  "export_warning": {
+    "message": "這個檔案包含有效的工作階段 Cookie。任何拿到它的人都能以你的身分登入這些網站。請像對待密碼一樣對待它，用完後刪除。"
+  },
+  "export_json_one": {
+    "message": "將 $P1$ 個 Cookie 匯出為 JSON",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_json_other": {
+    "message": "將 $P1$ 個 Cookie 匯出為 JSON",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_one": {
+    "message": "將 $P1$ 個 Cookie 匯出為 cookies.txt",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_other": {
+    "message": "將 $P1$ 個 Cookie 匯出為 cookies.txt",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_all_one": {
+    "message": "$P2$ 列出的這個 Cookie 會寫入檔案，即使它是 HttpOnly。",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_all_other": {
+    "message": "$P2$ 列出的全部 $P1$ 個 Cookie 都會寫入檔案，包括 HttpOnly 的。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_partitioned_left_one": {
+    "message": "有 $P1$ 個分割 Cookie 未匯出：cookies.txt 無法記錄分割區。請使用 JSON 保留它。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_partitioned_left_other": {
+    "message": "有 $P1$ 個分割 Cookie 未匯出：cookies.txt 無法記錄分割區。請使用 JSON 保留它們。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_too_big": {
+    "message": "這個檔案有 $P1$ MB。Cookie 匯出檔小得多；CookieDesk 最多讀取 5 MB 的檔案。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "cant_import_unchanged": {
+    "message": "無法匯入這個檔案。未做任何變更。"
+  },
+  "cant_import": {
+    "message": "無法匯入這個檔案"
+  },
+  "file_unreadable": {
+    "message": "無法讀取該檔案。"
+  },
+  "needs_access_one": {
+    "message": "CookieDesk 需要再取得 $P1$ 個網站的存取權，才能寫入這些 Cookie：",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "needs_access_other": {
+    "message": "CookieDesk 需要再取得 $P1$ 個網站的存取權，才能寫入這些 Cookie：",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_allow_all_hint": {
+    "message": "或者在「存取權與設定」下允許所有網站。"
+  },
+  "other_sites": {
+    "message": "其他網站（$P1$）",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "other_sites_warning": {
+    "message": "這個檔案還會為 $P1$ 以外的網站寫入 Cookie。植入其他網站的 Cookie 可能讓你在那裡登入錯誤的帳戶。只有在你預期會涉及這些網站時才繼續。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_one": {
+    "message": "同時為另外 $P1$ 個網站寫入 Cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_other": {
+    "message": "同時為另外 $P1$ 個網站寫入 Cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partitioned_under_list": {
+    "message": "分割於：$P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "warnings_count": {
+    "message": "警告（$P1$）",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_title": {
+    "message": "匯入 Cookie"
+  },
+  "import_message_one": {
+    "message": "要匯入 $P1$ 個 Cookie 嗎？名稱、網域和路徑相同的 Cookie 會被取代。你可以復原整個匯入。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_message_other": {
+    "message": "要匯入 $P1$ 個 Cookie 嗎？名稱、網域和路徑相同的 Cookie 會被取代。你可以復原整個匯入。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_one": {
+    "message": "將 $P1$ 個 Cookie 複製為 document.cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_other": {
+    "message": "將 $P1$ 個 Cookie 複製為 document.cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_warning": {
+    "message": "這段程式碼包含有效的工作階段 Cookie。任何拿到它的人都能以你的身分登入這個網站。請像對待密碼一樣對待它。"
+  },
+  "snippet_paste": {
+    "message": "把它貼到 $P1$ 的 DevTools 主控台中，即可在那裡設定這些 Cookie。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_one": {
+    "message": "有 $P1$ 個 HttpOnly Cookie 未包含：頁面 JavaScript 無法設定它。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_other": {
+    "message": "有 $P1$ 個 HttpOnly Cookie 未包含：頁面 JavaScript 無法設定它們。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_one": {
+    "message": "已將 $P1$ 個 Cookie 複製為 document.cookie。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_other": {
+    "message": "已將 $P1$ 個 Cookie 複製為 document.cookie。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_name": {
+    "message": "組合名稱"
+  },
+  "set_name_placeholder": {
+    "message": "例如：以管理員身分登入"
+  },
+  "save_set_title_one": {
+    "message": "將 $P1$ 個 Cookie 儲存為組合",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "save_set_title_other": {
+    "message": "將 $P1$ 個 Cookie 儲存為組合",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_file_note": {
+    "message": "組合是你電腦上的一個檔案；CookieDesk 不保留副本。之後可從 $P1$ 的選單中還原。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "default_set_name": {
+    "message": "Cookie 組合"
+  },
+  "set_too_large": {
+    "message": "這個檔案太大，不可能是 Cookie 組合。"
+  },
+  "cant_restore_unchanged": {
+    "message": "無法還原這個組合。未做任何變更。"
+  },
+  "cant_restore": {
+    "message": "無法還原這個組合"
+  },
+  "wrong_site_message": {
+    "message": "這個組合儲存於 $P1$。請開啟 $P1$ 再在那裡還原。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "wrong_site_title": {
+    "message": "網站不對。未做任何變更。"
+  },
+  "foreign_cookies_one": {
+    "message": "這個檔案中有 $P1$ 個 Cookie 屬於另一個網站（$P2$）。還原組合只會變更 $P3$；其他網站請使用匯入。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "foreign_cookies_other": {
+    "message": "這個檔案中有 $P1$ 個 Cookie 屬於其他網站（$P2$）。還原組合只會變更 $P3$；其他網站請使用匯入。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "plan_write": {
+    "message": "寫入"
+  },
+  "plan_delete": {
+    "message": "刪除"
+  },
+  "plan_protected": {
+    "message": "已保護，維持原樣"
+  },
+  "restore_title": {
+    "message": "還原「$P1$」",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_nothing": {
+    "message": "$P1$ 已與這個組合一致。不需要變更。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_message_one": {
+    "message": "$P2$ 的 Cookie 將被這個組合中的 $P1$ 個 Cookie 取代。你可以復原整個還原。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "restore_message_other": {
+    "message": "$P2$ 的 Cookie 將被這個組合中的 $P1$ 個 Cookie 取代。你可以復原整個還原。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_partition_unsupported": {
+    "message": "「$P1$」是分割 Cookie，這個版本的 Chrome 無法寫入。請將 Chrome 更新到 119 或更新版本。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_gone": {
+    "message": "「$P1$」已不存在，可能已過期或被網站變更。請重新載入清單。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_stored": {
+    "message": "Chrome 接受了「$P1$」，但沒有儲存它。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_imprecise_delete_one": {
+    "message": "Chrome 只能把「$P2$」與另外 $P1$ 個同名 Cookie 一起刪除，因此 CookieDesk 不會刪除它。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_imprecise_delete_other": {
+    "message": "Chrome 只能把「$P2$」與另外 $P1$ 個同名 Cookie 一起刪除，因此 CookieDesk 不會刪除它。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_delete": {
+    "message": "Chrome 已不再接受以目前儲存方式存放的「$P1$」，所以一旦刪除就無法放回去。不保留復原而直接刪除嗎？",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_removed": {
+    "message": "無法刪除「$P1$」。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_no_permission": {
+    "message": "CookieDesk 沒有 $P1$ 的存取權。請先授予這個網站的存取權。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_secure_shadow": {
+    "message": "$P2$ 已有名為「$P1$」的 Secure Cookie。Chrome 不允許同名的非 Secure Cookie 取代它或與它並存。請開啟 Secure，或改用其他名稱。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_rejected": {
+    "message": "Chrome 拒絕了「$P1$」，也沒有說明原因。未做任何變更。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_irreversible_replace_one": {
+    "message": "Chrome 已不再接受以目前儲存方式存放的 $P2$，所以一旦被取代就無法放回去。對它繼續而不保留復原嗎？",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_replace_other": {
+    "message": "Chrome 已不再接受以目前儲存方式存放的 $P2$，所以一旦被取代就無法放回去。對它們繼續而不保留復原嗎？",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_too_large_to_undo": {
+    "message": "這項變更涉及的資料過多（$P1$ KB），無法保留復原副本。繼續而不保留復原嗎？",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_duplicate_in_file": {
+    "message": "檔案中「$P1$」在同一網域和路徑下出現了兩次。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_undo_expired": {
+    "message": "沒有可復原的操作：復原只保留 10 分鐘。"
+  },
+  "err_undo_conflict": {
+    "message": "$P1$ 在「$P2$」之後又被變更。現在復原會覆蓋較新的值。仍要復原嗎？",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_incomplete": {
+    "message": "未完成：$P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_added": {
+    "message": "已新增「$P1$」",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_edited": {
+    "message": "已編輯「$P1$」",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted": {
+    "message": "已刪除「$P1$」",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_expired": {
+    "message": "已刪除「$P1$」（到期時間已過）",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_one": {
+    "message": "已刪除 $P1$ 個 Cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_other": {
+    "message": "已刪除 $P1$ 個 Cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_one": {
+    "message": "已匯入 $P1$ 個 Cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_other": {
+    "message": "已匯入 $P1$ 個 Cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_undid": {
+    "message": "已復原：$P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_saved": {
+    "message": "已儲存「$P1$」",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_draft": {
+    "message": "Cookie 必須是包含 name、value、domain 和 path 的物件。"
+  },
+  "v_name_type": {
+    "message": "Cookie 名稱必須是文字。"
+  },
+  "v_value_type": {
+    "message": "Cookie 值必須是文字。"
+  },
+  "v_domain_type": {
+    "message": "網域必須是文字。"
+  },
+  "v_path_type": {
+    "message": "路徑必須是文字。"
+  },
+  "v_flag_type": {
+    "message": "$P1$ 必須是 true 或 false。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_samesite": {
+    "message": "SameSite 必須是 $P1$ 其中之一。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_name_control": {
+    "message": "名稱包含控制字元（如換行或定位字元），Cookie 無法容納。"
+  },
+  "v_name_semicolon": {
+    "message": "名稱包含「;」，會讓 Cookie 提前結束。"
+  },
+  "v_name_equals": {
+    "message": "名稱包含「=」，而它在 Cookie 中用來分隔名稱和值。"
+  },
+  "v_value_control": {
+    "message": "值包含控制字元（如換行或定位字元），Cookie 無法容納。"
+  },
+  "v_value_semicolon": {
+    "message": "值包含「;」，會讓 Cookie 提前結束。請將它編碼（例如使用 encodeURIComponent）。"
+  },
+  "v_empty_cookie": {
+    "message": "Cookie 需要名稱或值，目前兩者都是空的。"
+  },
+  "v_empty_name": {
+    "message": "這個 Cookie 的名稱是空的。部分網站和工具對沒有名稱的 Cookie 處理得不好。"
+  },
+  "v_too_large": {
+    "message": "名稱和值合計 $P1$ 位元組（UTF-8）；Chrome 最多允許 $P2$。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "v_path_slash": {
+    "message": "路徑必須以「/」開頭。"
+  },
+  "v_path_too_long": {
+    "message": "路徑超過了 $P1$ 位元組。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_path_chars": {
+    "message": "路徑包含控制字元或「;」，Cookie 無法容納。"
+  },
+  "v_domain_empty": {
+    "message": "網域是空的。請輸入 Cookie 所屬的網站，例如 example.com。"
+  },
+  "v_domain_too_long": {
+    "message": "網域超過了 $P1$ 位元組。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_domain_invalid": {
+    "message": "網域不是有效的主機名稱。請使用以點分隔的字母、數字和連字號（國際化網域名稱必須使用 punycode，如 xn--...）。"
+  },
+  "v_domain_leading_dot": {
+    "message": "僅限主機的 Cookie，其網域不能以點開頭；點表示該 Cookie 也適用於子網域。"
+  },
+  "v_domain_public_suffix": {
+    "message": "「$P1$」是公用尾碼（由註冊機構控管的網域，如 .com 或 .co.uk），因此瀏覽器會拒絕適用於其全部範圍的 Cookie。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_samesite_none_insecure": {
+    "message": "SameSite=None 的 Cookie 必須是 Secure，否則 Chrome 會拒絕。請開啟 Secure，或選擇其他 SameSite。"
+  },
+  "v_partitioned_insecure": {
+    "message": "分割 Cookie 必須是 Secure，否則 Chrome 會拒絕。請開啟 Secure，或移除分割區。"
+  },
+  "v_prefix_secure": {
+    "message": "名為「$P1$...」的 Cookie 必須是 Secure。請開啟 Secure，或重新命名該 Cookie。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_host_prefix_domain": {
+    "message": "名為「__Host-...」的 Cookie 必須是僅限主機的（沒有 Domain 屬性，因此不與子網域共用）。請開啟僅限主機，或重新命名該 Cookie。"
+  },
+  "v_host_prefix_path": {
+    "message": "名為「__Host-...」的 Cookie，路徑必須是「/」。"
+  },
+  "v_bad_expiration": {
+    "message": "到期時間必須是自 1970 年起的有限秒數。"
+  },
+  "v_expired_deletes": {
+    "message": "以過去的到期時間儲存會刪除這個 Cookie。"
+  },
+  "v_clamped": {
+    "message": "Chrome 將 Cookie 的有效期限限制為 $P1$ 天；較晚的到期時間會在儲存時縮短。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_expiration_missing": {
+    "message": "非工作階段 Cookie 需要到期日期。請選擇一個，或將它標記為工作階段 Cookie。"
+  },
+  "v_partition_type": {
+    "message": "分割區金鑰必須是包含 topLevelSite 的物件。"
+  },
+  "v_partition_site_type": {
+    "message": "分割區的頂層網站必須是文字，如 https://example.com。"
+  },
+  "v_partition_site_form": {
+    "message": "分割區的頂層網站必須形如 https://example.com（https，不含路徑或連接埠）。"
+  },
+  "v_partition_flag": {
+    "message": "分割區的 hasCrossSiteAncestor 必須是 true 或 false。"
+  },
+  "v_partition_cross_site": {
+    "message": "這個 Cookie 的網域與 $P1$ 不在同一網站，因此 Chrome 要求它的 hasCrossSiteAncestor 為 true。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_other_site": {
+    "message": "這個 Cookie 的網域（$P1$）不在目前的網站（$P2$）範圍內。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_entry": {
+    "message": "項目 $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_entry_named": {
+    "message": "項目 $P1$（$P2$）",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_bad_samesite": {
+    "message": "$P1$：sameSite 不是 no_restriction、lax、strict、unspecified 其中之一。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bool": {
+    "message": "$P1$：「$P2$」必須是 true 或 false。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_text": {
+    "message": "$P1$：「$P2$」必須是文字。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_not_object": {
+    "message": "$P1$ 不是 Cookie 物件。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_expiration_type": {
+    "message": "$P1$：「expirationDate」必須是數字。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_key": {
+    "message": "$P1$：partitionKey 必須是帶有文字 topLevelSite 的物件。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_flag": {
+    "message": "$P1$：partitionKey.hasCrossSiteAncestor 必須是 true 或 false。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_line": {
+    "message": "第 $P1$ 行不是 cookies.txt 項目（應有 7 個以定位字元分隔的欄位，實際為 $P2$ 個）。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_line_flag_subdomains": {
+    "message": "第 $P1$ 行：子網域旗標必須是 TRUE 或 FALSE。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_flag_secure": {
+    "message": "第 $P1$ 行：secure 旗標必須是 TRUE 或 FALSE。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_expiry": {
+    "message": "第 $P1$ 行：到期時間必須是整數秒。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_not_text": {
+    "message": "無法將該檔案當作文字讀取。"
+  },
+  "io_too_large": {
+    "message": "檔案超過了 $P1$ 位元組的匯入上限。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_json": {
+    "message": "該檔案看起來是 JSON，但無法解析。"
+  },
+  "io_bad_version": {
+    "message": "這個 CookieDesk 檔案的版本不受支援。"
+  },
+  "io_no_cookie_list": {
+    "message": "CookieDesk 檔案中沒有「cookies」清單。"
+  },
+  "io_unknown_format": {
+    "message": "這份 JSON 既不是 CookieDesk 匯出檔，也不是 Cookie 清單。"
+  },
+  "io_no_cookies": {
+    "message": "檔案中沒有 Cookie。"
+  },
+  "io_too_many": {
+    "message": "檔案有 $P1$ 個 Cookie；上限為 $P2$。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_issue": {
+    "message": "$P1$：$P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_duplicate": {
+    "message": "$P1$：另一個項目的名稱、網域、路徑和分割區與它相同。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "when": {
+    "message": "$P1$（$P2$）",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "when_passed": {
+    "message": "已經過去"
+  },
+  "when_under_day": {
+    "message": "不到一天後"
+  },
+  "explain_third_party": {
+    "message": "由 $P1$ 設定，它與 $P2$ 是不同的網站：這是第三方 Cookie。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_third_party_partitioned": {
+    "message": "由 $P1$ 設定，它與 $P2$ 是不同的網站：這是第三方 Cookie，存放在 $P2$ 的分割區中。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_host_prefix": {
+    "message": "__Host- 前綴會讓 Chrome 強制要求 Secure、無 Domain 屬性且 Path=/，因此任何子網域都無法設定或取代它。"
+  },
+  "explain_secure_prefix": {
+    "message": "__Secure- 前綴會讓 Chrome 僅在帶有 Secure 旗標時才接受它。"
+  },
+  "explain_scope_host": {
+    "message": "只傳送給 $P1$ 本身，不傳送給它的子網域。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_scope_domain": {
+    "message": "傳送給 $P1$ 及其所有子網域（如 www.$P1$）。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_path_all": {
+    "message": "該主機上每個路徑的要求都會帶上它。"
+  },
+  "explain_path_under": {
+    "message": "只隨 $P1$ 底下路徑的要求傳送。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_secure": {
+    "message": "Secure：僅透過 HTTPS 傳送。"
+  },
+  "explain_not_secure": {
+    "message": "非 Secure：也會透過一般 HTTP 傳送，網路上的任何人都能讀取。"
+  },
+  "explain_httponly": {
+    "message": "HttpOnly：頁面 JavaScript 看不到（document.cookie 無法讀取），可避免被注入的指令碼取得。"
+  },
+  "explain_script_readable": {
+    "message": "頁面上執行的任何指令碼都可以讀取及變更它。"
+  },
+  "explain_samesite_none": {
+    "message": "SameSite=None：在 Chrome 允許第三方 Cookie 的前提下，也可能隨跨網站要求傳送（嵌入框架、圖片、來自其他網站的要求；無痕模式預設會封鎖它們）。因此它必須是 Secure。"
+  },
+  "explain_samesite_lax": {
+    "message": "SameSite=Lax：你導覽到該網站時會傳送，包括從其他網站的連結跳轉過來；但其他網站的頁面在背景發出的要求不會帶上它。"
+  },
+  "explain_samesite_strict": {
+    "message": "SameSite=Strict：僅在你已經位於同一網站時才傳送。從其他網站的連結跳轉過來時，第一個要求不會帶上它。"
+  },
+  "explain_samesite_unset": {
+    "message": "沒有 SameSite 屬性：Chrome 將它視為 Lax。"
+  },
+  "explain_session": {
+    "message": "工作階段 Cookie：瀏覽器關閉時刪除（除非 Chrome 在啟動時還原你上次的工作階段）。"
+  },
+  "explain_expires": {
+    "message": "到期時間：$P1$。Chrome 會把任何到期時間限制在該 Cookie 最後一次設定起 400 天內。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition": {
+    "message": "分割 (CHIPS)：為每個頂層網站分別儲存。只有當網址列中的網站是 $P1$ 時，才會傳送這一份。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition_cross": {
+    "message": "它位於該分割區的跨網站部分（用於頁面與這個 Cookie 所屬網站之間還隔著另一個網站的情況），與同網站部分分開存放。"
+  },
+  "explain_partition_same": {
+    "message": "它位於該分割區的同網站部分，與跨網站部分分開存放。"
+  },
+  "explain_partition_other": {
+    "message": "在另一個網站下的同名 Cookie 是另一個不同的 Cookie。"
+  },
+  "explain_jwt": {
+    "message": "這個值看起來是 JSON Web Token。"
+  },
+  "explain_jwt_exp": {
+    "message": "這個值看起來是 JSON Web Token；權杖本身聲明它在 $P1$ 到期。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_size": {
+    "message": "Chrome 允許名稱和值合計 4096 位元組，這裡用了 $P1$。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

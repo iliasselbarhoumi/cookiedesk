@@ -1,0 +1,2215 @@
+{
+  "extension_name": {
+    "message": "Sütiszerkesztő: sütik megtekintése, szerkesztése, törlése | CookieDesk"
+  },
+  "extension_description": {
+    "message": "Sütik megtekintése, szerkesztése, hozzáadása, törlése. Keresés, import és export, particionált sütik. Reklám és követés nélkül."
+  },
+  "btn_ok": {
+    "message": "OK"
+  },
+  "btn_cancel": {
+    "message": "Mégse"
+  },
+  "btn_close": {
+    "message": "Bezárás"
+  },
+  "btn_delete": {
+    "message": "Törlés"
+  },
+  "btn_copy": {
+    "message": "Másolás"
+  },
+  "btn_save": {
+    "message": "Mentés"
+  },
+  "btn_export": {
+    "message": "Exportálás"
+  },
+  "btn_later": {
+    "message": "Később"
+  },
+  "dismiss": {
+    "message": "Elvetés"
+  },
+  "back": {
+    "message": "Vissza"
+  },
+  "back_esc": {
+    "message": "Vissza (Esc)"
+  },
+  "back_to_list": {
+    "message": "Vissza a listához"
+  },
+  "title_count": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "empty_name": {
+    "message": "(üres név)"
+  },
+  "empty_value": {
+    "message": "(üres érték)"
+  },
+  "empty_short": {
+    "message": "(üres)"
+  },
+  "names_more": {
+    "message": "$P1$ és még $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "done": {
+    "message": "Kész"
+  },
+  "undo": {
+    "message": "Visszavonás"
+  },
+  "undo_nothing": {
+    "message": "Nincs mit visszavonni"
+  },
+  "undo_entry": {
+    "message": "Visszavonás: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_interrupted": {
+    "message": "A visszavonás megszakadt: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "redo_entry": {
+    "message": "Újra: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "support_title": {
+    "message": "CookieDesk támogatása a Ko-fi-n"
+  },
+  "supporter_title": {
+    "message": "Köszönjük, hogy támogatja a CookieDesket!"
+  },
+  "add_cookie": {
+    "message": "Süti hozzáadása"
+  },
+  "add_cookie_title": {
+    "message": "Süti hozzáadása (n)"
+  },
+  "more_actions": {
+    "message": "További műveletek"
+  },
+  "menu_group_transfer": {
+    "message": "Export és import"
+  },
+  "menu_group_sets": {
+    "message": "Sütikészletek"
+  },
+  "export_json_title": {
+    "message": "Exportálás JSON-ként"
+  },
+  "export_txt_title": {
+    "message": "Exportálás Netscape cookies.txt fájlként"
+  },
+  "tile_snippet": {
+    "message": "Kódrészlet"
+  },
+  "tile_snippet_title": {
+    "message": "Másolás document.cookie kódrészletként"
+  },
+  "tile_import": {
+    "message": "Importálás"
+  },
+  "tile_import_title": {
+    "message": "JSON vagy cookies.txt importálása"
+  },
+  "tile_save_set": {
+    "message": "Készlet mentése"
+  },
+  "tile_save_set_title": {
+    "message": "Ezen sütik mentése névvel ellátott készletfájlként"
+  },
+  "tile_restore": {
+    "message": "Visszaállítás"
+  },
+  "tile_restore_title": {
+    "message": "Mentett készlet visszaállítása (előbb előnézet)"
+  },
+  "tile_compare": {
+    "message": "Összehasonlítás"
+  },
+  "tile_compare_title": {
+    "message": "Mentett készlet összehasonlítása a jelenlegivel, vagy két készleté"
+  },
+  "tile_copy_to": {
+    "message": "Másolás ide…"
+  },
+  "tile_copy_to_title": {
+    "message": "A látható sütik másolása másik tárolóba (normál ↔ inkognitó)"
+  },
+  "menu_bulk_delete": {
+    "message": "A látható sütik törlése…"
+  },
+  "menu_access": {
+    "message": "Hozzáférés és beállítások"
+  },
+  "menu_shortcuts": {
+    "message": "Billentyűparancsok"
+  },
+  "menu_sidepanel": {
+    "message": "Megnyitás oldalsávban"
+  },
+  "menu_rate": {
+    "message": "CookieDesk értékelése"
+  },
+  "menu_support": {
+    "message": "Támogatás a Ko-fi-n"
+  },
+  "search_placeholder": {
+    "message": "Sütik keresése"
+  },
+  "search_label": {
+    "message": "Sütik szűrése név, érték vagy domain szerint"
+  },
+  "search_title": {
+    "message": "Szűrés név, érték vagy domain szerint"
+  },
+  "cookie_store": {
+    "message": "Süti tároló"
+  },
+  "cookies_list": {
+    "message": "Sütik"
+  },
+  "restricted_page": {
+    "message": "Korlátozott oldal"
+  },
+  "loading": {
+    "message": "Betöltés…"
+  },
+  "state_unknown": {
+    "message": "Kattintson a CookieDesk gombra az eszköztáron a lap sütijeinek megjelenítéséhez."
+  },
+  "state_unknown_hint": {
+    "message": "A Chrome csak ezen kattintás után osztja meg a lap címét, vagy az engedélyezett webhelyeknél."
+  },
+  "state_error": {
+    "message": "Hiba történt: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "state_no_access": {
+    "message": "A CookieDesknek még nincs hozzáférése ehhez: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "grant_site": {
+    "message": "Engedélyezés: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "chrome_will_ask": {
+    "message": "A Chrome ezt fogja kérdezni:"
+  },
+  "prompt_site": {
+    "message": "Az összes $P1$ webhelyen lévő adatok olvasása és módosítása",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "prompt_all": {
+    "message": "Az összes webhelyen lévő összes adat olvasása és módosítása"
+  },
+  "only_this_site": {
+    "message": "Csak ennek a webhelynek a sütijei, semmi más."
+  },
+  "allow_all_instead": {
+    "message": "Inkább minden webhely engedélyezése"
+  },
+  "restricted_browser": {
+    "message": "Ez egy Chrome-oldal. A Chrome egyetlen bővítménynek sem engedi, hogy itt sütiket olvasson vagy módosítson."
+  },
+  "restricted_webstore": {
+    "message": "Ez a Chrome Web Store. A Chrome minden bővítményt kizár belőle, ezért a sütik nem jeleníthetők meg."
+  },
+  "restricted_extension": {
+    "message": "Ez egy bővítmény saját oldala. A tárolója nem webhely-süti, ezért nincs mit megjeleníteni."
+  },
+  "restricted_file": {
+    "message": "Ez egy helyi fájl. A lemezről megnyitott fájloknak nincsenek sütijeik."
+  },
+  "restricted_other": {
+    "message": "Ez az oldal nem webhely (például üres vagy data: oldal), ezért nincsenek sütijei."
+  },
+  "live_just_now": {
+    "message": "Épp most: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "note_third_party": {
+    "message": "A beágyazott webhelyek sütijei csak az engedélyezett webhelyeknél jelennek meg."
+  },
+  "note_no_partitions": {
+    "message": "A Chrome-verziója nem tudja megjeleníteni a particionált sütiket, ezért a lista hiányos lehet."
+  },
+  "empty_no_match": {
+    "message": "Nincs a(z) „$P1$” kifejezésre illő süti.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "empty_none": {
+    "message": "Nincs süti ehhez: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clear_search": {
+    "message": "Keresés törlése"
+  },
+  "change_changed": {
+    "message": "Módosítva: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_added": {
+    "message": "Hozzáadva: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_removed": {
+    "message": "Eltávolítva: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_one": {
+    "message": "$P1$ süti",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_other": {
+    "message": "$P1$ süti",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_filtered_one": {
+    "message": "$P2$ / $P1$ süti",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_filtered_other": {
+    "message": "$P2$ / $P1$ süti",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_partitioned": {
+    "message": "$P1$ particionált",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "store_default": {
+    "message": "Alapértelmezett"
+  },
+  "store_incognito": {
+    "message": "Inkognitó"
+  },
+  "store_n": {
+    "message": "$P1$. tároló",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "session": {
+    "message": "Munkamenet"
+  },
+  "expired": {
+    "message": "Lejárt"
+  },
+  "expiry_under_minute": {
+    "message": "egy percen belül"
+  },
+  "expiry_on_close": {
+    "message": "A böngésző bezárásakor törlődik"
+  },
+  "expires_at": {
+    "message": "Lejár: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "badge_protected": {
+    "message": "Védett: a tömeges törlés, az import és a készlet-visszaállítás nem érinti (p)"
+  },
+  "hint_httponly": {
+    "message": "HttpOnly: az oldal JavaScriptje nem látja (a document.cookie nem olvashatja)"
+  },
+  "hint_secure": {
+    "message": "Secure: csak HTTPS-en keresztül kerül elküldésre"
+  },
+  "hint_samesite_none": {
+    "message": "SameSite=None: webhelyek közötti kéréseknél is elküldésre kerül"
+  },
+  "hint_samesite_lax": {
+    "message": "SameSite=Lax: legfelső szintű navigációnál elküldésre kerül, webhelyek közötti alkérésekkor nem"
+  },
+  "hint_samesite_strict": {
+    "message": "SameSite=Strict: csak ugyanazon webhelyen belüli kéréseknél kerül elküldésre"
+  },
+  "badge_partitioned": {
+    "message": "Particionált"
+  },
+  "partitioned_under": {
+    "message": "Particionálva ez alatt: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partition_this_site": {
+    "message": "ez a webhely"
+  },
+  "partition_cross_site": {
+    "message": "$P1$, webhelyek közötti környezet",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "row_protected": {
+    "message": "Védett"
+  },
+  "row_unprotect_title": {
+    "message": "Védelem feloldása (p)"
+  },
+  "row_protect_title": {
+    "message": "Védelem a tömeges törlés, az import és a készlet-visszaállítás ellen (p)"
+  },
+  "copy_value": {
+    "message": "Érték másolása"
+  },
+  "copied": {
+    "message": "Másolva"
+  },
+  "copy_value_title": {
+    "message": "Érték másolása (c)"
+  },
+  "row_delete_title": {
+    "message": "Törlés (Del) – visszavonható"
+  },
+  "irreversible_title": {
+    "message": "Ez nem vonható vissza"
+  },
+  "continue_no_undo": {
+    "message": "Folytatás visszavonás nélkül"
+  },
+  "undo_anyway_title": {
+    "message": "Visszavonja mégis?"
+  },
+  "undo_anyway": {
+    "message": "Visszavonás mégis"
+  },
+  "undone": {
+    "message": "Visszavonva: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_skipped": {
+    "message": "Néhány süti már lejárt, ezért nem lett visszaállítva: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_refused": {
+    "message": "A Chrome már nem fogadja el ezeket eredeti formájukban, ezért nem lettek visszaállítva: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clipboard_failed": {
+    "message": "A másolás nem sikerült: a vágólap itt nem érhető el."
+  },
+  "protected_on": {
+    "message": "„$P1$” védett: a tömeges törlés, az import és a készlet-visszaállítás nem érinti.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_off": {
+    "message": "„$P1$” már nem védett.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protect_limit": {
+    "message": "Legfeljebb $P1$ sütit védhet. Előbb oldja fel néhány védelmét.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_named": {
+    "message": "Törli ezt: „$P1$”?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_protected_message": {
+    "message": "Ez a süti védett. Mégis törli? Visszavonhatja."
+  },
+  "nothing_to_delete": {
+    "message": "Nincs mit törölni"
+  },
+  "all_shown_protected_one": {
+    "message": "A látható süti védett."
+  },
+  "all_shown_protected_other": {
+    "message": "Mind a(z) $P1$ látható süti védett.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "no_cookies_shown": {
+    "message": "Nincs megjeleníthető süti."
+  },
+  "bulk_title_one": {
+    "message": "Töröl $P1$ sütit?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_title_other": {
+    "message": "Töröl $P1$ sütit?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_match": {
+    "message": "Ezek a sütik illenek a(z) „$P1$” kifejezésre itt: $P2$. Visszavonhatja.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "bulk_all": {
+    "message": "Minden süti, amely ehhez szerepel: $P1$. Visszavonhatja.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_one": {
+    "message": "$P1$ védett süti megmarad.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_other": {
+    "message": "$P1$ védett süti megmarad.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_one": {
+    "message": "$P1$ süti törlése",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_other": {
+    "message": "$P1$ süti törlése",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_to": {
+    "message": "Másolás ide"
+  },
+  "copy_to_default_note": {
+    "message": "Az alapértelmezett tárolóba másolt sütik úgy maradnak meg, mint bármelyik másik: lemezen, és az inkognitómunkamenet után is."
+  },
+  "copy_to_incognito_note": {
+    "message": "Az inkognitótárolóba másolt sütik az inkognitómunkamenettel együtt megszűnnek."
+  },
+  "copy_title_one": {
+    "message": "$P1$ süti másolása",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_title_other": {
+    "message": "$P1$ süti másolása",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_from": {
+    "message": "A(z) $P1$ tárolóból ide:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_replace_note": {
+    "message": "Az ott lévő, azonos nevű, domainű és útvonalú sütik felülíródnak, a védettek kivételével. A másolás visszavonható."
+  },
+  "label_copied_one": {
+    "message": "$P1$ süti átmásolva ide: $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_copied_other": {
+    "message": "$P1$ süti átmásolva ide: $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_kept_one": {
+    "message": "$P1$ ottani védett süti változatlan maradt.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_kept_other": {
+    "message": "$P1$ ottani védett süti változatlan maradt.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_done_one": {
+    "message": "$P1$ süti átmásolva ide: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_done_other": {
+    "message": "$P1$ süti átmásolva ide: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_undo_hint": {
+    "message": "Itt vonhatja vissza, vagy később a(z) $P1$ tárolóból.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_nothing": {
+    "message": "A(z) $P1$ már pontosan így tartalmazza ezeket a sütiket.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_cant": {
+    "message": "Az összehasonlítás nem lehetséges"
+  },
+  "compare_now": {
+    "message": "$P1$ most",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_other_site": {
+    "message": "Ez a készlet ehhez készült: $P1$, nem ehhez: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "compare_too_many": {
+    "message": "Válasszon egy készletet a jelenlegivel való összehasonlításhoz, vagy két készletet egymással."
+  },
+  "set_file_too_large": {
+    "message": "A(z) $P1$ túl nagy ahhoz, hogy sütikészlet legyen.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_aria": {
+    "message": "Sütikészletek összehasonlítása"
+  },
+  "compare_changed_fields": {
+    "message": "Módosult: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_one": {
+    "message": "Nincs eltérés: $P1$ süti azonos.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_other": {
+    "message": "Nincs eltérés: $P1$ süti azonos.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_summary": {
+    "message": "$P1$ hozzáadva, $P2$ eltávolítva, $P3$ módosítva, $P4$ változatlan.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      },
+      "p4": {
+        "content": "$4"
+      }
+    }
+  },
+  "diff_added": {
+    "message": "Hozzáadva"
+  },
+  "diff_removed": {
+    "message": "Eltávolítva"
+  },
+  "diff_changed": {
+    "message": "Módosítva"
+  },
+  "diff_expiry_only": {
+    "message": "Csak a lejárat változott ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "shortcuts_title": {
+    "message": "Billentyűparancsok"
+  },
+  "key_search": {
+    "message": "Keresés"
+  },
+  "key_move": {
+    "message": "Mozgás a listában"
+  },
+  "key_first_last": {
+    "message": "Első / utolsó süti"
+  },
+  "key_edit": {
+    "message": "Szerkesztés"
+  },
+  "key_copy": {
+    "message": "Érték másolása"
+  },
+  "key_protect": {
+    "message": "Védelem be / ki"
+  },
+  "key_delete": {
+    "message": "Törlés (visszavonható)"
+  },
+  "key_back": {
+    "message": "Vissza, vagy a keresés törlése"
+  },
+  "key_help": {
+    "message": "Ez a lista"
+  },
+  "import_kept_one": {
+    "message": "$P1$ védett süti változatlan maradt: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_kept_other": {
+    "message": "$P1$ védett süti változatlan maradt: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_nothing": {
+    "message": "Nincs mit importálni: a fájl minden sütije már pontosan így van beállítva."
+  },
+  "imported_one": {
+    "message": "$P1$ süti importálva.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "imported_other": {
+    "message": "$P1$ süti importálva.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_restored": {
+    "message": "Visszaállított készlet: „$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restored_one": {
+    "message": "Visszaállítva: „$P2$”, $P1$ süti megírva, $P3$ törölve.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "restored_other": {
+    "message": "Visszaállítva: „$P2$”, $P1$ süti megírva, $P3$ törölve.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "rate_title": {
+    "message": "Tetszik a CookieDesk?"
+  },
+  "rate_text": {
+    "message": "Egy gyors értékelés segít másoknak megtalálni."
+  },
+  "rate_group": {
+    "message": "Értékelés az áruházban"
+  },
+  "rate_stars_one": {
+    "message": "$P1$ csillag",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "rate_stars_other": {
+    "message": "$P1$ csillag",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_confirm_title": {
+    "message": "Vett nekem egy kávét?"
+  },
+  "kofi_confirm_text": {
+    "message": "Köszönöm, ettől működik tovább a CookieDesk."
+  },
+  "kofi_yes": {
+    "message": "Igen, vettem"
+  },
+  "kofi_not_yet": {
+    "message": "Még nem"
+  },
+  "kofi_milestone_one": {
+    "message": "$P1$ módosítás a CookieDesk segítségével!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_milestone_other": {
+    "message": "$P1$ módosítás a CookieDesk segítségével!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_free": {
+    "message": "Ingyenes, és egyetlen fejlesztő készíti."
+  },
+  "buy_coffee": {
+    "message": "Vegyen egy kávét"
+  },
+  "edit_cookie": {
+    "message": "Süti szerkesztése"
+  },
+  "add_cookie_short": {
+    "message": "Süti hozzáadása"
+  },
+  "explain_title": {
+    "message": "Mit csinál ez a süti"
+  },
+  "field_name": {
+    "message": "Név"
+  },
+  "field_value": {
+    "message": "Érték"
+  },
+  "field_domain": {
+    "message": "Tartomány"
+  },
+  "field_path": {
+    "message": "Útvonal"
+  },
+  "field_expiry": {
+    "message": "Lejárat"
+  },
+  "field_expires": {
+    "message": "Lejár"
+  },
+  "field_attributes": {
+    "message": "Attribútumok"
+  },
+  "field_partition": {
+    "message": "Partíció"
+  },
+  "host_only": {
+    "message": "Csak gazdagép"
+  },
+  "host_only_title": {
+    "message": "Csak gazdagép: nincs Domain attribútum, ezért az aldomainek nem kapják meg"
+  },
+  "session_title": {
+    "message": "Munkamenet-süti: a böngésző bezárásakor eltűnik"
+  },
+  "httponly_title": {
+    "message": "HttpOnly: az oldal JavaScriptje nem látja"
+  },
+  "samesite_unspecified": {
+    "message": "Nincs megadva"
+  },
+  "partitioned_chips": {
+    "message": "Particionált (CHIPS)"
+  },
+  "top_level_site": {
+    "message": "Legfelső szintű webhely"
+  },
+  "no_partition_write": {
+    "message": "A Chrome ezen verziója nem tud particionált sütiket írni."
+  },
+  "editor_delete_title": {
+    "message": "Törlés (visszavonható)"
+  },
+  "bytes_of": {
+    "message": "$P1$ / $P2$ bájt",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "access_aria": {
+    "message": "Hozzáférés és beállítások"
+  },
+  "all_sites_on": {
+    "message": "Minden webhely: be"
+  },
+  "all_sites_on_text": {
+    "message": "A CookieDesk minden webhelyen olvashatja és módosíthatja a sütiket, a beágyazottakon is."
+  },
+  "turn_off": {
+    "message": "Kikapcsolás"
+  },
+  "all_sites": {
+    "message": "Minden webhely"
+  },
+  "all_sites_text": {
+    "message": "Nem kötelező. Nincs több webhelyenkénti kérdés, a beágyazott webhelyek (hirdetések, widgetek, bejelentkezési keretek) sütijei pedig mindenhol megjelennek."
+  },
+  "allow_all_sites": {
+    "message": "Engedélyezés minden webhelyen"
+  },
+  "remove_access": {
+    "message": "Hozzáférés eltávolítása: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "access_lead": {
+    "message": "A CookieDesk csak azután látja egy webhely sütijeit, hogy engedélyezte azt, és semmi mást: sem az oldal tartalmát, sem az előzményeket."
+  },
+  "allowed_sites": {
+    "message": "Engedélyezett webhelyek"
+  },
+  "allowed_sites_count": {
+    "message": "Engedélyezett webhelyek · $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "all_sites_overrides": {
+    "message": "A minden webhelyre vonatkozó hozzáférés be van kapcsolva, ezért ezek addig nem számítanak."
+  },
+  "none_yet": {
+    "message": "Még egy sincs."
+  },
+  "toolbar_opens": {
+    "message": "Az eszköztár gombja ezt nyitja meg"
+  },
+  "surface_popup": {
+    "message": "Előugró ablak"
+  },
+  "surface_sidepanel": {
+    "message": "Oldalsáv"
+  },
+  "support_feedback": {
+    "message": "Támogatás és visszajelzés"
+  },
+  "thanks_supporting": {
+    "message": "Köszönjük a támogatást!"
+  },
+  "report_problem": {
+    "message": "Hiba jelentése"
+  },
+  "source_code": {
+    "message": "Forráskód"
+  },
+  "privacy_line": {
+    "message": "Nincsenek hálózati kérések, nincsenek süti-értékek a lemezen. A visszavonás 10 percig működik; a másolatai a memóriában vannak, és a Chrome bezárásakor vagy az inkognitómunkamenet végén megszűnnek."
+  },
+  "export_warning": {
+    "message": "Ez a fájl élő munkamenet-sütiket tartalmaz. Aki birtokolja, bejelentkezhet Ön helyett ezeken a webhelyeken. Kezelje jelszóként, és törölje, ha végzett."
+  },
+  "export_json_one": {
+    "message": "$P1$ süti exportálása JSON-ként",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_json_other": {
+    "message": "$P1$ süti exportálása JSON-ként",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_one": {
+    "message": "$P1$ süti exportálása cookies.txt fájlként",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_other": {
+    "message": "$P1$ süti exportálása cookies.txt fájlként",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_all_one": {
+    "message": "A(z) $P2$ számára listázott süti bekerül a fájlba, akkor is, ha HttpOnly.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_all_other": {
+    "message": "A(z) $P2$ számára listázott mind a(z) $P1$ süti bekerül a fájlba, a HttpOnly sütik is.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_partitioned_left_one": {
+    "message": "$P1$ particionált süti kimaradt: a cookies.txt nem tud partíciókat rögzíteni. A megőrzéshez használjon JSON-t.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_partitioned_left_other": {
+    "message": "$P1$ particionált süti kimaradt: a cookies.txt nem tud partíciókat rögzíteni. A megőrzéshez használjon JSON-t.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_too_big": {
+    "message": "Ez a fájl $P1$ MB. A süti-exportok sokkal kisebbek; a CookieDesk legfeljebb 5 MB-os fájlokat olvas.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "cant_import_unchanged": {
+    "message": "Ez a fájl nem importálható. Semmi sem változott."
+  },
+  "cant_import": {
+    "message": "Ez a fájl nem importálható"
+  },
+  "file_unreadable": {
+    "message": "A fájl nem olvasható."
+  },
+  "needs_access_one": {
+    "message": "A CookieDesknek hozzáférés kell még $P1$ webhelyhez, mielőtt megírhatja ezeket a sütiket:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "needs_access_other": {
+    "message": "A CookieDesknek hozzáférés kell még $P1$ webhelyhez, mielőtt megírhatja ezeket a sütiket:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_allow_all_hint": {
+    "message": "Vagy engedélyezze az összes webhelyet a Hozzáférés és beállítások alatt."
+  },
+  "other_sites": {
+    "message": "Más webhelyek ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "other_sites_warning": {
+    "message": "Ez a fájl a(z) $P1$ mellett más webhelyekhez is ír sütiket. Egy másik webhelyre ültetett süti rossz fiókba jelentkeztetheti be ott. Csak akkor folytassa, ha számított ezekre a webhelyekre.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_one": {
+    "message": "Sütik írása további $P1$ webhelyhez is",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_other": {
+    "message": "Sütik írása további $P1$ webhelyhez is",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partitioned_under_list": {
+    "message": "Particionálva ez alatt: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "warnings_count": {
+    "message": "Figyelmeztetések ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_title": {
+    "message": "Sütik importálása"
+  },
+  "import_message_one": {
+    "message": "Importál $P1$ sütit? Az azonos nevű, domainű és útvonalú sütik felülíródnak. Az egész importálást visszavonhatja.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_message_other": {
+    "message": "Importál $P1$ sütit? Az azonos nevű, domainű és útvonalú sütik felülíródnak. Az egész importálást visszavonhatja.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_one": {
+    "message": "$P1$ süti másolása document.cookie kódrészletként",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_other": {
+    "message": "$P1$ süti másolása document.cookie kódrészletként",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_warning": {
+    "message": "A kódrészlet élő munkamenet-sütiket tartalmaz. Aki birtokolja, bejelentkezhet Ön helyett ezen a webhelyen. Kezelje jelszóként."
+  },
+  "snippet_paste": {
+    "message": "Illessze be a DevTools konzoljába itt: $P1$, és ott beállítja ezeket a sütiket.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_one": {
+    "message": "$P1$ HttpOnly süti kimaradt: az oldal JavaScriptje nem tudja beállítani.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_other": {
+    "message": "$P1$ HttpOnly süti kimaradt: az oldal JavaScriptje nem tudja beállítani őket.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_one": {
+    "message": "$P1$ süti átmásolva document.cookie kódrészletként.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_other": {
+    "message": "$P1$ süti átmásolva document.cookie kódrészletként.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_name": {
+    "message": "Készlet neve"
+  },
+  "set_name_placeholder": {
+    "message": "pl. bejelentkezve adminként"
+  },
+  "save_set_title_one": {
+    "message": "$P1$ süti mentése készletként",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "save_set_title_other": {
+    "message": "$P1$ süti mentése készletként",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_file_note": {
+    "message": "A készlet egy fájl a számítógépén; a CookieDesk nem tart meg másolatot. Később a(z) $P1$ oldalon lévő menüből állíthatja vissza.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "default_set_name": {
+    "message": "Sütikészlet"
+  },
+  "set_too_large": {
+    "message": "Ez a fájl túl nagy ahhoz, hogy sütikészlet legyen."
+  },
+  "cant_restore_unchanged": {
+    "message": "Ez a készlet nem állítható vissza. Semmi sem változott."
+  },
+  "cant_restore": {
+    "message": "Ez a készlet nem állítható vissza"
+  },
+  "wrong_site_message": {
+    "message": "Ez a készlet ehhez készült: $P1$. Nyissa meg a(z) $P1$ oldalt, és ott állítsa vissza.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "wrong_site_title": {
+    "message": "Rossz webhely. Semmi sem változott."
+  },
+  "foreign_cookies_one": {
+    "message": "A fájlban $P1$ süti másik webhelyhez tartozik ($P2$). A készlet visszaállítása csak ezt módosítja: $P3$; más webhelyekhez használja az Importálást.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "foreign_cookies_other": {
+    "message": "A fájlban $P1$ süti másik webhelyekhez tartozik ($P2$). A készlet visszaállítása csak ezt módosítja: $P3$; más webhelyekhez használja az Importálást.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "plan_write": {
+    "message": "Írás"
+  },
+  "plan_delete": {
+    "message": "Törlés"
+  },
+  "plan_protected": {
+    "message": "Védett, változatlan marad"
+  },
+  "restore_title": {
+    "message": "„$P1$” visszaállítása",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_nothing": {
+    "message": "A(z) $P1$ már megegyezik ezzel a készlettel. Nincs mit módosítani.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_message_one": {
+    "message": "A(z) $P2$ sütijeit felváltja a készlet $P1$ sütije. Az egész visszaállítást visszavonhatja.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "restore_message_other": {
+    "message": "A(z) $P2$ sütijeit felváltja a készlet $P1$ sütije. Az egész visszaállítást visszavonhatja.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_partition_unsupported": {
+    "message": "A(z) „$P1$” particionált süti, amelyet a Chrome ezen verziója nem tud írni. Frissítse a Chrome-ot 119-es vagy újabb verzióra.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_gone": {
+    "message": "A(z) „$P1$” már nem létezik, lehet, hogy lejárt, vagy a webhely módosította. Töltse újra a listát.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_stored": {
+    "message": "A Chrome elfogadta a(z) „$P1$” sütit, de nem tárolta el.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_imprecise_delete_one": {
+    "message": "A Chrome a(z) „$P2$” sütit csak $P1$ másik azonos nevű sütivel együtt tudja törölni, ezért a CookieDesk nem törli.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_imprecise_delete_other": {
+    "message": "A Chrome a(z) „$P2$” sütit csak $P1$ másik azonos nevű sütivel együtt tudja törölni, ezért a CookieDesk nem törli.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_delete": {
+    "message": "A Chrome a(z) „$P1$” sütit tárolt formájában már nem fogadja el, ezért törlés után nem lehetne visszaállítani. Törli visszavonás nélkül?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_removed": {
+    "message": "A(z) „$P1$” nem törölhető.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_no_permission": {
+    "message": "A CookieDesknek nincs hozzáférése ehhez: $P1$. Előbb engedélyezze ezt a webhelyet.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_secure_shadow": {
+    "message": "A(z) $P2$ webhelyhez már létezik „$P1$” nevű Secure süti. A Chrome nem engedi, hogy azonos nevű, nem Secure süti felülírja vagy mellette legyen. Kapcsolja be a Secure-t, vagy használjon másik nevet.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_rejected": {
+    "message": "A Chrome indoklás nélkül elutasította a(z) „$P1$” sütit. Semmi sem változott.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_irreversible_replace_one": {
+    "message": "A Chrome a(z) $P2$ sütit tárolt formájában már nem fogadja el, ezért csere után nem lehetne visszaállítani. Folytatja visszavonás nélkül?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_replace_other": {
+    "message": "A Chrome a(z) $P2$ sütiket tárolt formájukban már nem fogadja el, ezért csere után nem lehetne visszaállítani őket. Folytatja visszavonás nélkül?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_too_large_to_undo": {
+    "message": "Ez a módosítás túl sok adatot érint ($P1$ KB) ahhoz, hogy visszavonási másolat készüljön. Folytatja visszavonás nélkül?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_duplicate_in_file": {
+    "message": "A fájl kétszer tartalmazza a(z) „$P1$” sütit ugyanahhoz a domainhez és útvonalhoz.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_undo_expired": {
+    "message": "Nincs mit visszavonni: a visszavonás 10 percig érhető el."
+  },
+  "err_undo_conflict": {
+    "message": "A(z) $P1$ megváltozott a(z) „$P2$” után. A visszavonás felülírná az újabb értéket. Visszavonja mégis?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_incomplete": {
+    "message": "Hiányos: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_added": {
+    "message": "Hozzáadva: „$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_edited": {
+    "message": "Szerkesztve: „$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted": {
+    "message": "Törölve: „$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_expired": {
+    "message": "Törölve: „$P1$” (a lejárat már elmúlt)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_one": {
+    "message": "$P1$ süti törölve",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_other": {
+    "message": "$P1$ süti törölve",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_one": {
+    "message": "$P1$ süti importálva",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_other": {
+    "message": "$P1$ süti importálva",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_undid": {
+    "message": "Visszavonva: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_saved": {
+    "message": "Mentve: „$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_draft": {
+    "message": "A sütinek névvel, értékkel, domainnel és útvonallal rendelkező objektumnak kell lennie."
+  },
+  "v_name_type": {
+    "message": "A süti nevének szövegnek kell lennie."
+  },
+  "v_value_type": {
+    "message": "A süti értékének szövegnek kell lennie."
+  },
+  "v_domain_type": {
+    "message": "A domainnek szövegnek kell lennie."
+  },
+  "v_path_type": {
+    "message": "Az útvonalnak szövegnek kell lennie."
+  },
+  "v_flag_type": {
+    "message": "A(z) $P1$ értéke true vagy false lehet.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_samesite": {
+    "message": "A SameSite értéke ezek egyike lehet: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_name_control": {
+    "message": "A név vezérlőkaraktereket tartalmaz (például soremelést vagy tabulátort), amelyeket a sütik nem tárolhatnak."
+  },
+  "v_name_semicolon": {
+    "message": "A név „;” karaktert tartalmaz, amely idő előtt lezárná a sütit."
+  },
+  "v_name_equals": {
+    "message": "A név „=” karaktert tartalmaz, amely a sütiben a nevet választja el az értéktől."
+  },
+  "v_value_control": {
+    "message": "Az érték vezérlőkaraktereket tartalmaz (például soremelést vagy tabulátort), amelyeket a sütik nem tárolhatnak."
+  },
+  "v_value_semicolon": {
+    "message": "Az érték „;” karaktert tartalmaz, amely idő előtt lezárná a sütit. Kódolja (például encodeURIComponent segítségével)."
+  },
+  "v_empty_cookie": {
+    "message": "A sütinek névre vagy értékre van szüksége; mindkettő üres."
+  },
+  "v_empty_name": {
+    "message": "Ennek a sütinek üres a neve. Egyes webhelyek és eszközök rosszul kezelik a név nélküli sütiket."
+  },
+  "v_too_large": {
+    "message": "A név és az érték együtt $P1$ bájt (UTF-8); a Chrome legfeljebb $P2$ bájtot enged.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "v_path_slash": {
+    "message": "Az útvonalnak „/” karakterrel kell kezdődnie."
+  },
+  "v_path_too_long": {
+    "message": "Az útvonal hosszabb $P1$ bájtnál.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_path_chars": {
+    "message": "Az útvonal vezérlőkaraktereket vagy „;” karaktert tartalmaz, amelyeket a sütik nem tárolhatnak."
+  },
+  "v_domain_empty": {
+    "message": "A domain üres. Adja meg a webhelyet, amelyhez a süti tartozik, például example.com."
+  },
+  "v_domain_too_long": {
+    "message": "A domain hosszabb $P1$ bájtnál.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_domain_invalid": {
+    "message": "A domain nem érvényes gazdagépnév. Használjon pontokkal elválasztott betűket, számjegyeket és kötőjeleket (a nemzetközi neveknek punycode formában kell lenniük, például xn--...)."
+  },
+  "v_domain_leading_dot": {
+    "message": "A csak gazdagépre szóló süti domainje nem kezdődhet ponttal; a pont azt jelenti, hogy a süti az aldomainekre is érvényes."
+  },
+  "v_domain_public_suffix": {
+    "message": "A(z) „$P1$” nyilvános utótag (nyilvántartó által kezelt domain, például .com vagy .co.uk), ezért a böngészők elutasítják az egészére érvényes sütiket.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_samesite_none_insecure": {
+    "message": "A SameSite=None sütiknek Secure-nak kell lenniük, különben a Chrome elutasítja őket. Kapcsolja be a Secure-t, vagy válasszon másik SameSite értéket."
+  },
+  "v_partitioned_insecure": {
+    "message": "A particionált sütiknek Secure-nak kell lenniük, különben a Chrome elutasítja őket. Kapcsolja be a Secure-t, vagy távolítsa el a partíciót."
+  },
+  "v_prefix_secure": {
+    "message": "A „$P1$...” nevű sütiknek Secure-nak kell lenniük. Kapcsolja be a Secure-t, vagy nevezze át a sütit.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_host_prefix_domain": {
+    "message": "A „__Host-...” nevű sütiknek csak gazdagépre szólóknak kell lenniük (nincs Domain attribútum, tehát nincs megosztás az aldomainekkel). Kapcsolja be a csak gazdagép módot, vagy nevezze át a sütit."
+  },
+  "v_host_prefix_path": {
+    "message": "A „__Host-...” nevű sütik útvonala csak „/” lehet."
+  },
+  "v_bad_expiration": {
+    "message": "A lejáratnak 1970 óta eltelt másodpercek véges számának kell lennie."
+  },
+  "v_expired_deletes": {
+    "message": "A múltbeli lejárattal való mentés törli ezt a sütit."
+  },
+  "v_clamped": {
+    "message": "A Chrome a süti élettartamát $P1$ napra korlátozza; a későbbi lejárat mentéskor rövidül.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_expiration_missing": {
+    "message": "A nem munkamenet-sütinek lejárati dátum kell. Válasszon egyet, vagy jelölje a sütit munkamenet-sütinek."
+  },
+  "v_partition_type": {
+    "message": "A partíciókulcsnak topLevelSite-ot tartalmazó objektumnak kell lennie."
+  },
+  "v_partition_site_type": {
+    "message": "A partíció legfelső szintű webhelyének szövegnek kell lennie, például https://example.com."
+  },
+  "v_partition_site_form": {
+    "message": "A partíció legfelső szintű webhelyének így kell kinéznie: https://example.com (https, útvonal és port nélkül)."
+  },
+  "v_partition_flag": {
+    "message": "A partíció hasCrossSiteAncestor értéke true vagy false lehet."
+  },
+  "v_partition_cross_site": {
+    "message": "A süti domainje nem ugyanahhoz a webhelyhez tartozik, mint $P1$, ezért a Chrome megköveteli, hogy a hasCrossSiteAncestor értéke true legyen.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_other_site": {
+    "message": "Ennek a sütinek a domainje ($P1$) kívül esik az aktuális webhelyen ($P2$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_entry": {
+    "message": "$P1$. bejegyzés",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_entry_named": {
+    "message": "$P1$. bejegyzés ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_bad_samesite": {
+    "message": "$P1$: a sameSite értéke nem no_restriction, lax, strict vagy unspecified.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bool": {
+    "message": "$P1$: a(z) „$P2$” értéke true vagy false lehet.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_text": {
+    "message": "$P1$: a(z) „$P2$” értékének szövegnek kell lennie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_not_object": {
+    "message": "A(z) $P1$ nem süti objektum.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_expiration_type": {
+    "message": "$P1$: az „expirationDate” értékének számnak kell lennie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_key": {
+    "message": "$P1$: a partitionKey-nek szöveges topLevelSite-ot tartalmazó objektumnak kell lennie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_flag": {
+    "message": "$P1$: a partitionKey.hasCrossSiteAncestor értéke true vagy false lehet.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_line": {
+    "message": "A(z) $P1$. sor nem cookies.txt bejegyzés (7 tabulátorral elválasztott mező kellene, $P2$ van).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_line_flag_subdomains": {
+    "message": "$P1$. sor: az aldomain-jelzőnek TRUE vagy FALSE értékűnek kell lennie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_flag_secure": {
+    "message": "$P1$. sor: a secure jelzőnek TRUE vagy FALSE értékűnek kell lennie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_expiry": {
+    "message": "$P1$. sor: a lejáratnak egész számú másodpercnek kell lennie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_not_text": {
+    "message": "A fájl nem olvasható szövegként."
+  },
+  "io_too_large": {
+    "message": "A fájl nagyobb, mint az importálási korlát ($P1$ bájt).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_json": {
+    "message": "A fájl JSON-nak látszik, de nem dolgozható fel."
+  },
+  "io_bad_version": {
+    "message": "Ez a CookieDesk-fájl nem támogatott verziójú."
+  },
+  "io_no_cookie_list": {
+    "message": "A CookieDesk-fájlban nincs „cookies” lista."
+  },
+  "io_unknown_format": {
+    "message": "Ez a JSON nem CookieDesk-export, és nem sütik listája."
+  },
+  "io_no_cookies": {
+    "message": "A fájl nem tartalmaz sütiket."
+  },
+  "io_too_many": {
+    "message": "A fájl $P1$ sütit tartalmaz; a korlát $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_issue": {
+    "message": "$P1$: $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_duplicate": {
+    "message": "$P1$: egy másik bejegyzésnek ugyanaz a neve, domainje, útvonala és partíciója.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "when": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "when_passed": {
+    "message": "már elmúlt"
+  },
+  "when_under_day": {
+    "message": "egy napon belül"
+  },
+  "explain_third_party": {
+    "message": "Beállította: $P1$, amely más webhely, mint $P2$: harmadik féltől származó süti.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_third_party_partitioned": {
+    "message": "Beállította: $P1$, amely más webhely, mint $P2$: harmadik féltől származó süti, a(z) $P2$ partíciójában tárolva.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_host_prefix": {
+    "message": "A __Host- előtag miatt a Chrome megköveteli a Secure-t, a Domain attribútum hiányát és a Path=/ értéket, így egyetlen aldomain sem állíthatja be vagy írhatja felül."
+  },
+  "explain_secure_prefix": {
+    "message": "A __Secure- előtag miatt a Chrome csak Secure jelzővel fogadja el."
+  },
+  "explain_scope_host": {
+    "message": "Csak ide kerül elküldésre: $P1$, az aldomainekre nem.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_scope_domain": {
+    "message": "Ide kerül elküldésre: $P1$, és minden aldomainjére (például www.$P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_path_all": {
+    "message": "A gazdagép minden útvonalára irányuló kérésekkel elküldésre kerül."
+  },
+  "explain_path_under": {
+    "message": "Csak a(z) $P1$ alatti útvonalakra irányuló kérésekkel kerül elküldésre.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_secure": {
+    "message": "Secure: csak HTTPS-en keresztül kerül elküldésre."
+  },
+  "explain_not_secure": {
+    "message": "Nem Secure: sima HTTP-n is elküldésre kerül, ahol a hálózaton bárki elolvashatja."
+  },
+  "explain_httponly": {
+    "message": "HttpOnly: az oldal JavaScriptje nem látja (a document.cookie nem olvashatja), így nem érik el a beinjektált szkriptek."
+  },
+  "explain_script_readable": {
+    "message": "Az oldalon futó bármely szkript olvashatja és módosíthatja."
+  },
+  "explain_samesite_none": {
+    "message": "SameSite=None: webhelyek közötti kérésekkel (beágyazott keretek, képek, más webhelyek kérései) is elküldhető, ha a Chrome egyáltalán engedélyezi a harmadik féltől származó sütiket (az inkognitó alapból blokkolja). Ezért kell Secure-nak lennie."
+  },
+  "explain_samesite_lax": {
+    "message": "SameSite=Lax: elküldésre kerül, amikor a webhelyre navigál, más webhelyen lévő hivatkozásról is, de a más webhelyek oldalai által a háttérben indított kérésekkel nem."
+  },
+  "explain_samesite_strict": {
+    "message": "SameSite=Strict: csak akkor kerül elküldésre, ha már ugyanazon a webhelyen van. Más webhelyről érkezve az első kérés nélküle megy el."
+  },
+  "explain_samesite_unset": {
+    "message": "Nincs SameSite attribútum: a Chrome Lax-ként kezeli."
+  },
+  "explain_session": {
+    "message": "Munkamenet-süti: a böngésző bezárásakor törlődik (hacsak a Chrome induláskor vissza nem állítja az előző munkamenetet)."
+  },
+  "explain_expires": {
+    "message": "Lejár: $P1$. A Chrome minden lejáratot a süti utolsó beállításától számított 400 napra korlátoz.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition": {
+    "message": "Particionált (CHIPS): legfelső szintű webhelyenként külön tárolódik. Ez a példány csak akkor kerül elküldésre, ha a címsávban $P1$ van.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition_cross": {
+    "message": "A partíció webhelyek közötti részében van (ott használatos, ahol az oldal és a süti webhelye között másik webhely áll), elkülönítve az azonos webhelyes résztől."
+  },
+  "explain_partition_same": {
+    "message": "A partíció azonos webhelyes részében van, elkülönítve a webhelyek közötti résztől."
+  },
+  "explain_partition_other": {
+    "message": "Ugyanilyen nevű süti egy másik webhely alatt más süti."
+  },
+  "explain_jwt": {
+    "message": "Az érték JSON Web Tokennek tűnik."
+  },
+  "explain_jwt_exp": {
+    "message": "Az érték JSON Web Tokennek tűnik; maga a token szerint lejár: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_size": {
+    "message": "$P1$ a Chrome által a névre és értékre együtt engedett 4096 bájtból.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

@@ -1,6 +1,6 @@
 # CookieDesk privacy policy
 
-Effective date: 2026-10-22
+Effective date: 2026-10-23
 
 CookieDesk collects nothing and transmits nothing.
 
@@ -17,9 +17,14 @@ With your per-site permission, CookieDesk reads and changes the cookies of the s
 ## What is stored on your device
 
 - **Settings** in `chrome.storage.local`: your choice of what the toolbar button opens (popup or side panel), and the cookies you mark as protected, recorded by name, domain, path and partition only (never their values). Your granted sites are kept by Chrome as the extension's site permissions, and you can remove them on the CookieDesk Access screen or at `chrome://extensions`.
+- **Usage counts** in `chrome.storage.local`, so CookieDesk can ask for a rating or a tip at a sensible moment instead of at random: when CookieDesk was installed, how many changes it has made successfully, on how many different days, and when it last made one or showed an error. These are numbers and times only, with no site names and no cookie data. The answers you give to those asks ("Later", "Yes, I did") are kept the same way.
 - **Undo copies** in `chrome.storage.session`: copies of the cookies you just changed or deleted, including their values, so undo can restore them. This storage is in memory only and is never written to disk. It keeps at most the last 20 actions for 10 minutes. Copies are deleted when Chrome closes, when the incognito session they belong to ends, or after 10 minutes once CookieDesk next runs. CookieDesk has no background timer, so with no CookieDesk page open, expired copies can remain in memory until the next wake-up or until Chrome closes.
 
 Nothing else is stored.
+
+## Links that open a web page
+
+The heart and "Buy me a coffee" open https://ko-fi.com/buildwithiliass, and "Rate CookieDesk" opens CookieDesk's page on the Chrome Web Store, each in a new tab, only when you click them. CookieDesk sends nothing to these sites; what they receive is what any visit sends.
 
 ## Exports
 

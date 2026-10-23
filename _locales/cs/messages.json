@@ -1,0 +1,2215 @@
+{
+  "extension_name": {
+    "message": "Editor cookies: zobrazení, úprava, mazání | CookieDesk"
+  },
+  "extension_description": {
+    "message": "Prohlížejte, upravujte, přidávejte a mažte cookies. Hledání, import a export, partitioned cookies. Bez reklam a sledování."
+  },
+  "btn_ok": {
+    "message": "OK"
+  },
+  "btn_cancel": {
+    "message": "Zrušit"
+  },
+  "btn_close": {
+    "message": "Zavřít"
+  },
+  "btn_delete": {
+    "message": "Smazat"
+  },
+  "btn_copy": {
+    "message": "Kopírovat"
+  },
+  "btn_save": {
+    "message": "Uložit"
+  },
+  "btn_export": {
+    "message": "Exportovat"
+  },
+  "btn_later": {
+    "message": "Později"
+  },
+  "dismiss": {
+    "message": "Zavřít"
+  },
+  "back": {
+    "message": "Zpět"
+  },
+  "back_esc": {
+    "message": "Zpět (Esc)"
+  },
+  "back_to_list": {
+    "message": "Zpět na seznam"
+  },
+  "title_count": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "empty_name": {
+    "message": "(prázdný název)"
+  },
+  "empty_value": {
+    "message": "(prázdná hodnota)"
+  },
+  "empty_short": {
+    "message": "(prázdné)"
+  },
+  "names_more": {
+    "message": "$P1$ a dalších $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "done": {
+    "message": "Hotovo"
+  },
+  "undo": {
+    "message": "Vrátit zpět"
+  },
+  "undo_nothing": {
+    "message": "Není co vracet"
+  },
+  "undo_entry": {
+    "message": "Vrátit zpět: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_interrupted": {
+    "message": "Vrácení přerušeno: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "redo_entry": {
+    "message": "Provést znovu: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "support_title": {
+    "message": "Podpořit CookieDesk na Ko-fi"
+  },
+  "supporter_title": {
+    "message": "Děkujeme, že podporujete CookieDesk!"
+  },
+  "add_cookie": {
+    "message": "Přidat cookie"
+  },
+  "add_cookie_title": {
+    "message": "Přidat cookie (n)"
+  },
+  "more_actions": {
+    "message": "Další akce"
+  },
+  "menu_group_transfer": {
+    "message": "Export a import"
+  },
+  "menu_group_sets": {
+    "message": "Sady cookies"
+  },
+  "export_json_title": {
+    "message": "Exportovat jako JSON"
+  },
+  "export_txt_title": {
+    "message": "Exportovat jako Netscape cookies.txt"
+  },
+  "tile_snippet": {
+    "message": "Úryvek"
+  },
+  "tile_snippet_title": {
+    "message": "Kopírovat jako úryvek document.cookie"
+  },
+  "tile_import": {
+    "message": "Import"
+  },
+  "tile_import_title": {
+    "message": "Importovat JSON nebo cookies.txt"
+  },
+  "tile_save_set": {
+    "message": "Uložit sadu"
+  },
+  "tile_save_set_title": {
+    "message": "Uložit tyto cookies jako pojmenovaný soubor sady"
+  },
+  "tile_restore": {
+    "message": "Obnovit"
+  },
+  "tile_restore_title": {
+    "message": "Obnovit uloženou sadu (nejdřív náhled)"
+  },
+  "tile_compare": {
+    "message": "Porovnat"
+  },
+  "tile_compare_title": {
+    "message": "Porovnat uloženou sadu se současným stavem nebo dvě sady"
+  },
+  "tile_copy_to": {
+    "message": "Kopírovat do…"
+  },
+  "tile_copy_to_title": {
+    "message": "Zkopírovat zobrazené cookies do jiného úložiště (běžné ↔ anonymní)"
+  },
+  "menu_bulk_delete": {
+    "message": "Smazat zobrazené cookies…"
+  },
+  "menu_access": {
+    "message": "Přístup a nastavení"
+  },
+  "menu_shortcuts": {
+    "message": "Zkratky"
+  },
+  "menu_sidepanel": {
+    "message": "Otevřít v bočním panelu"
+  },
+  "menu_rate": {
+    "message": "Ohodnotit CookieDesk"
+  },
+  "menu_support": {
+    "message": "Podpořit na Ko-fi"
+  },
+  "search_placeholder": {
+    "message": "Hledat cookies"
+  },
+  "search_label": {
+    "message": "Filtrovat cookies podle názvu, hodnoty nebo domény"
+  },
+  "search_title": {
+    "message": "Filtrovat podle názvu, hodnoty nebo domény"
+  },
+  "cookie_store": {
+    "message": "Úložiště cookies"
+  },
+  "cookies_list": {
+    "message": "Cookies"
+  },
+  "restricted_page": {
+    "message": "Omezená stránka"
+  },
+  "loading": {
+    "message": "Načítání…"
+  },
+  "state_unknown": {
+    "message": "Kliknutím na tlačítko CookieDesk na liště zobrazíte cookies této karty."
+  },
+  "state_unknown_hint": {
+    "message": "Chrome sdílí adresu karty až po tomto kliknutí, nebo u webů, které jste povolili."
+  },
+  "state_error": {
+    "message": "Něco se nepovedlo: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "state_no_access": {
+    "message": "CookieDesk zatím nemá přístup k webu $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "grant_site": {
+    "message": "Povolit pro $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "chrome_will_ask": {
+    "message": "Chrome se zeptá:"
+  },
+  "prompt_site": {
+    "message": "Čtení a změna vašich dat na všech webech $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "prompt_all": {
+    "message": "Čtení a změna všech vašich dat na všech webech"
+  },
+  "only_this_site": {
+    "message": "Jen cookies tohoto webu, nic dalšího."
+  },
+  "allow_all_instead": {
+    "message": "Raději povolit všechny weby"
+  },
+  "restricted_browser": {
+    "message": "Toto je stránka Chrome. Chrome nedovoluje žádnému rozšíření číst ani měnit tu cookies."
+  },
+  "restricted_webstore": {
+    "message": "Toto je Chrome Web Store. Chrome sem rozšířením přístup blokuje, takže cookies nelze zobrazit."
+  },
+  "restricted_extension": {
+    "message": "Toto je vlastní stránka rozšíření. Její úložiště nejsou cookies webu, takže není co zobrazit."
+  },
+  "restricted_file": {
+    "message": "Toto je místní soubor. Soubory otevřené z disku cookies nemají."
+  },
+  "restricted_other": {
+    "message": "Tato stránka není web (například prázdná stránka nebo stránka data:), a proto nemá cookies."
+  },
+  "live_just_now": {
+    "message": "Právě teď: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "note_third_party": {
+    "message": "Cookies vložených webů se zobrazí jen u webů, které jste povolili."
+  },
+  "note_no_partitions": {
+    "message": "Vaše verze Chrome neumí zobrazit partitioned cookies, takže seznam může být neúplný."
+  },
+  "empty_no_match": {
+    "message": "Žádné cookies neodpovídají „$P1$“.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "empty_none": {
+    "message": "Žádné cookies pro $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clear_search": {
+    "message": "Vymazat hledání"
+  },
+  "change_changed": {
+    "message": "Změněno: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_added": {
+    "message": "Přidáno: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_removed": {
+    "message": "Odstraněno: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_one": {
+    "message": "$P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_other": {
+    "message": "Cookies: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_filtered_one": {
+    "message": "$P2$ z $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_filtered_other": {
+    "message": "Cookies: $P2$ z $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_partitioned": {
+    "message": "Partitioned: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "store_default": {
+    "message": "Výchozí"
+  },
+  "store_incognito": {
+    "message": "Anonymní"
+  },
+  "store_n": {
+    "message": "Úložiště $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "session": {
+    "message": "Relace"
+  },
+  "expired": {
+    "message": "Vypršelo"
+  },
+  "expiry_under_minute": {
+    "message": "za méně než minutu"
+  },
+  "expiry_on_close": {
+    "message": "Smaže se při zavření prohlížeče"
+  },
+  "expires_at": {
+    "message": "Vyprší $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "badge_protected": {
+    "message": "Chráněno: hromadné mazání, import a obnova sady ji nechají být (p)"
+  },
+  "hint_httponly": {
+    "message": "HttpOnly: není vidět pro JavaScript stránky (document.cookie ji nepřečte)"
+  },
+  "hint_secure": {
+    "message": "Secure: odesílá se jen přes HTTPS"
+  },
+  "hint_samesite_none": {
+    "message": "SameSite=None: odesílá se i u požadavků mezi weby"
+  },
+  "hint_samesite_lax": {
+    "message": "SameSite=Lax: odesílá se při přechodu na web, ne u vedlejších požadavků mezi weby"
+  },
+  "hint_samesite_strict": {
+    "message": "SameSite=Strict: odesílá se jen u požadavků v rámci stejného webu"
+  },
+  "badge_partitioned": {
+    "message": "Partitioned"
+  },
+  "partitioned_under": {
+    "message": "Partitioned pod $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partition_this_site": {
+    "message": "tento web"
+  },
+  "partition_cross_site": {
+    "message": "$P1$, kontext mezi weby",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "row_protected": {
+    "message": "Chráněno"
+  },
+  "row_unprotect_title": {
+    "message": "Zrušit ochranu (p)"
+  },
+  "row_protect_title": {
+    "message": "Chránit před hromadným mazáním, importem a obnovou sady (p)"
+  },
+  "copy_value": {
+    "message": "Kopírovat hodnotu"
+  },
+  "copied": {
+    "message": "Zkopírováno"
+  },
+  "copy_value_title": {
+    "message": "Kopírovat hodnotu (c)"
+  },
+  "row_delete_title": {
+    "message": "Smazat (Del) – lze vrátit zpět"
+  },
+  "irreversible_title": {
+    "message": "Tohle nejde vrátit zpět"
+  },
+  "continue_no_undo": {
+    "message": "Pokračovat bez vrácení"
+  },
+  "undo_anyway_title": {
+    "message": "Přesto vrátit zpět?"
+  },
+  "undo_anyway": {
+    "message": "Přesto vrátit"
+  },
+  "undone": {
+    "message": "Vráceno zpět: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_skipped": {
+    "message": "Některé cookies už vypršely a nebyly obnoveny: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_refused": {
+    "message": "Chrome je v původní podobě už nepřijímá, a proto nebyly obnoveny: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clipboard_failed": {
+    "message": "Kopírování se nepovedlo: schránka tu není dostupná."
+  },
+  "protected_on": {
+    "message": "„$P1$“ je chráněno: hromadné mazání, import a obnova sady ho nechají být.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_off": {
+    "message": "„$P1$“ už není chráněno.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protect_limit": {
+    "message": "Chránit můžete nejvýše $P1$ cookies. Nejdřív některým zrušte ochranu.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_named": {
+    "message": "Smazat „$P1$“?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_protected_message": {
+    "message": "Tato cookie je chráněná. Přesto ji smazat? Můžete to vrátit zpět."
+  },
+  "nothing_to_delete": {
+    "message": "Není co mazat"
+  },
+  "all_shown_protected_one": {
+    "message": "Zobrazená cookie je chráněná."
+  },
+  "all_shown_protected_other": {
+    "message": "Všechny zobrazené cookies jsou chráněné: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "no_cookies_shown": {
+    "message": "Nejsou zobrazeny žádné cookies."
+  },
+  "bulk_title_one": {
+    "message": "Smazat $P1$ cookie?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_title_other": {
+    "message": "Smazat cookies: $P1$?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_match": {
+    "message": "Tyto cookies odpovídají „$P1$“ na webu $P2$. Můžete to vrátit zpět.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "bulk_all": {
+    "message": "Všechny cookies uvedené pro $P1$. Můžete to vrátit zpět.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_one": {
+    "message": "$P1$ chráněná cookie zůstane zachována.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_other": {
+    "message": "Chráněné cookies, které zůstanou: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_one": {
+    "message": "Smazat $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_other": {
+    "message": "Smazat cookies: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_to": {
+    "message": "Kopírovat do"
+  },
+  "copy_to_default_note": {
+    "message": "Cookies zkopírované do výchozího úložiště se uchovávají jako jakékoli jiné, na disku i po skončení této anonymní relace."
+  },
+  "copy_to_incognito_note": {
+    "message": "Cookies zkopírované do anonymního úložiště zaniknou spolu s touto anonymní relací."
+  },
+  "copy_title_one": {
+    "message": "Kopírovat $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_title_other": {
+    "message": "Kopírovat cookies: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_from": {
+    "message": "Z úložiště „$P1$“ do:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_replace_note": {
+    "message": "Cookies se stejným názvem, doménou a cestou se tam nahradí, kromě chráněných. Kopírování můžete vrátit zpět."
+  },
+  "label_copied_one": {
+    "message": "Zkopírována $P1$ cookie do $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_copied_other": {
+    "message": "Zkopírováno cookies: $P1$ do $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_kept_one": {
+    "message": "$P1$ chráněná cookie tam zůstala beze změny.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_kept_other": {
+    "message": "Chráněné cookies, které tam zůstaly beze změny: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_done_one": {
+    "message": "Zkopírována $P1$ cookie do $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_done_other": {
+    "message": "Zkopírováno cookies: $P1$ do $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_undo_hint": {
+    "message": "Vraťte to zpět tady, nebo později z úložiště „$P1$“.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_nothing": {
+    "message": "$P1$ už tyto cookies přesně takto obsahuje.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_cant": {
+    "message": "Nelze porovnat"
+  },
+  "compare_now": {
+    "message": "$P1$ teď",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_other_site": {
+    "message": "Tato sada byla uložena pro $P1$, ne pro $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "compare_too_many": {
+    "message": "Vyberte jednu sadu k porovnání se současným stavem, nebo dvě sady k vzájemnému porovnání."
+  },
+  "set_file_too_large": {
+    "message": "Soubor $P1$ je příliš velký na sadu cookies.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_aria": {
+    "message": "Porovnat sady cookies"
+  },
+  "compare_changed_fields": {
+    "message": "Změněno: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_one": {
+    "message": "Žádné rozdíly: $P1$ cookie je shodná.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_other": {
+    "message": "Žádné rozdíly, shodných cookies: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_summary": {
+    "message": "Přidáno $P1$, odstraněno $P2$, změněno $P3$, beze změny $P4$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      },
+      "p4": {
+        "content": "$4"
+      }
+    }
+  },
+  "diff_added": {
+    "message": "Přidáno"
+  },
+  "diff_removed": {
+    "message": "Odstraněno"
+  },
+  "diff_changed": {
+    "message": "Změněno"
+  },
+  "diff_expiry_only": {
+    "message": "Změnila se jen platnost ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "shortcuts_title": {
+    "message": "Klávesové zkratky"
+  },
+  "key_search": {
+    "message": "Hledat"
+  },
+  "key_move": {
+    "message": "Pohyb v seznamu"
+  },
+  "key_first_last": {
+    "message": "První / poslední cookie"
+  },
+  "key_edit": {
+    "message": "Upravit"
+  },
+  "key_copy": {
+    "message": "Kopírovat hodnotu"
+  },
+  "key_protect": {
+    "message": "Chránit / zrušit ochranu"
+  },
+  "key_delete": {
+    "message": "Smazat (lze vrátit zpět)"
+  },
+  "key_back": {
+    "message": "Zpět nebo vymazat hledání"
+  },
+  "key_help": {
+    "message": "Tento seznam"
+  },
+  "import_kept_one": {
+    "message": "$P1$ chráněná cookie zůstala beze změny: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_kept_other": {
+    "message": "Chráněné cookies, které zůstaly beze změny ($P1$): $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_nothing": {
+    "message": "Není co importovat: všechny cookies v souboru jsou už nastavené přesně takto."
+  },
+  "imported_one": {
+    "message": "Importována $P1$ cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "imported_other": {
+    "message": "Importováno cookies: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_restored": {
+    "message": "Obnovena sada „$P1$“",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restored_one": {
+    "message": "Obnovena sada „$P2$“: zapsána $P1$ cookie, smazáno $P3$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "restored_other": {
+    "message": "Obnovena sada „$P2$“: zapsáno cookies $P1$, smazáno $P3$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "rate_title": {
+    "message": "Líbí se vám CookieDesk?"
+  },
+  "rate_text": {
+    "message": "Rychlé hodnocení pomůže, aby ho našli i ostatní."
+  },
+  "rate_group": {
+    "message": "Ohodnotit v obchodě"
+  },
+  "rate_stars_one": {
+    "message": "$P1$ hvězdička",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "rate_stars_other": {
+    "message": "Hvězdičky: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_confirm_title": {
+    "message": "Koupili jste mi kávu?"
+  },
+  "kofi_confirm_text": {
+    "message": "Děkuji, díky tomu CookieDesk funguje dál."
+  },
+  "kofi_yes": {
+    "message": "Ano, koupil(a)"
+  },
+  "kofi_not_yet": {
+    "message": "Ještě ne"
+  },
+  "kofi_milestone_one": {
+    "message": "$P1$ změna provedená v CookieDesk!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_milestone_other": {
+    "message": "Změn provedených v CookieDesk: $P1$!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_free": {
+    "message": "Je zdarma a dělá ho jeden vývojář."
+  },
+  "buy_coffee": {
+    "message": "Koupit mi kávu"
+  },
+  "edit_cookie": {
+    "message": "Upravit cookie"
+  },
+  "add_cookie_short": {
+    "message": "Přidat cookie"
+  },
+  "explain_title": {
+    "message": "K čemu tato cookie slouží"
+  },
+  "field_name": {
+    "message": "Název"
+  },
+  "field_value": {
+    "message": "Hodnota"
+  },
+  "field_domain": {
+    "message": "Doména"
+  },
+  "field_path": {
+    "message": "Cesta"
+  },
+  "field_expiry": {
+    "message": "Platnost"
+  },
+  "field_expires": {
+    "message": "Vyprší"
+  },
+  "field_attributes": {
+    "message": "Atributy"
+  },
+  "field_partition": {
+    "message": "Oddíl"
+  },
+  "host_only": {
+    "message": "Jen hostitel"
+  },
+  "host_only_title": {
+    "message": "Jen hostitel: bez atributu Domain, takže subdomény ji nedostanou"
+  },
+  "session_title": {
+    "message": "Relační cookie: zmizí při zavření prohlížeče"
+  },
+  "httponly_title": {
+    "message": "HttpOnly: není vidět pro JavaScript stránky"
+  },
+  "samesite_unspecified": {
+    "message": "Nezadáno"
+  },
+  "partitioned_chips": {
+    "message": "Partitioned (CHIPS)"
+  },
+  "top_level_site": {
+    "message": "Web nejvyšší úrovně"
+  },
+  "no_partition_write": {
+    "message": "Tato verze Chrome neumí zapisovat partitioned cookies."
+  },
+  "editor_delete_title": {
+    "message": "Smazat (lze vrátit zpět)"
+  },
+  "bytes_of": {
+    "message": "$P1$ / $P2$ bajtů",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "access_aria": {
+    "message": "Přístup a nastavení"
+  },
+  "all_sites_on": {
+    "message": "Všechny weby: zapnuto"
+  },
+  "all_sites_on_text": {
+    "message": "CookieDesk může číst a měnit cookies na každém webu, včetně vložených."
+  },
+  "turn_off": {
+    "message": "Vypnout"
+  },
+  "all_sites": {
+    "message": "Všechny weby"
+  },
+  "all_sites_text": {
+    "message": "Volitelné. Žádné další dotazy pro jednotlivé weby a cookies vložených webů (reklamy, widgety, přihlašovací rámce) se zobrazí všude."
+  },
+  "allow_all_sites": {
+    "message": "Povolit na všech webech"
+  },
+  "remove_access": {
+    "message": "Odebrat přístup k $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "access_lead": {
+    "message": "CookieDesk vidí cookies webu až poté, co tento web povolíte, a nic jiného: žádný obsah stránek, žádnou historii."
+  },
+  "allowed_sites": {
+    "message": "Povolené weby"
+  },
+  "allowed_sites_count": {
+    "message": "Povolené weby · $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "all_sites_overrides": {
+    "message": "Přístup ke všem webům je zapnutý, takže tyto položky teď nehrají roli."
+  },
+  "none_yet": {
+    "message": "Zatím žádné."
+  },
+  "toolbar_opens": {
+    "message": "Tlačítko na liště otevře"
+  },
+  "surface_popup": {
+    "message": "Vyskakovací okno"
+  },
+  "surface_sidepanel": {
+    "message": "Boční panel"
+  },
+  "support_feedback": {
+    "message": "Podpora a zpětná vazba"
+  },
+  "thanks_supporting": {
+    "message": "Děkujeme za podporu!"
+  },
+  "report_problem": {
+    "message": "Nahlásit problém"
+  },
+  "source_code": {
+    "message": "Zdrojový kód"
+  },
+  "privacy_line": {
+    "message": "Žádné síťové požadavky, žádné hodnoty cookies na disku. Vrácení zpět funguje 10 minut; jeho kopie jsou v paměti a zmizí po zavření Chrome nebo skončení anonymní relace."
+  },
+  "export_warning": {
+    "message": "Tento soubor obsahuje aktivní relační cookies. Kdokoli ho má, může se na těchto webech přihlásit jako vy. Zacházejte s ním jako s heslem a po použití ho smažte."
+  },
+  "export_json_one": {
+    "message": "Exportovat $P1$ cookie jako JSON",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_json_other": {
+    "message": "Exportovat cookies ($P1$) jako JSON",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_one": {
+    "message": "Exportovat $P1$ cookie jako cookies.txt",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_other": {
+    "message": "Exportovat cookies ($P1$) jako cookies.txt",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_all_one": {
+    "message": "Cookie uvedená pro $P2$ se uloží do souboru, i když je HttpOnly.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_all_other": {
+    "message": "Všechny cookies uvedené pro $P2$ (celkem $P1$) se uloží do souboru, včetně HttpOnly.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_partitioned_left_one": {
+    "message": "$P1$ partitioned cookie vynechána: cookies.txt neumí zaznamenat oddíly. Pro zachování použijte JSON.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_partitioned_left_other": {
+    "message": "Vynechané partitioned cookies: $P1$. Soubor cookies.txt neumí zaznamenat oddíly. Pro zachování použijte JSON.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_too_big": {
+    "message": "Tento soubor má $P1$ MB. Exporty cookies jsou mnohem menší; CookieDesk čte soubory do 5 MB.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "cant_import_unchanged": {
+    "message": "Tento soubor nelze importovat. Nic se nezměnilo."
+  },
+  "cant_import": {
+    "message": "Tento soubor nelze importovat"
+  },
+  "file_unreadable": {
+    "message": "Soubor se nepodařilo přečíst."
+  },
+  "needs_access_one": {
+    "message": "CookieDesk potřebuje přístup ještě k $P1$ webu, než tyto cookies zapíše:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "needs_access_other": {
+    "message": "CookieDesk potřebuje přístup k dalším webům ($P1$), než tyto cookies zapíše:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_allow_all_hint": {
+    "message": "Nebo povolte všechny weby v části Přístup a nastavení."
+  },
+  "other_sites": {
+    "message": "Jiné weby ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "other_sites_warning": {
+    "message": "Tento soubor zapisuje cookies i pro jiné weby než $P1$. Cookie podstrčená jinému webu vás tam může přihlásit do špatného účtu. Pokračujte, jen pokud jste tyto weby čekali.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_one": {
+    "message": "Zapsat cookies i pro $P1$ další web",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_other": {
+    "message": "Zapsat cookies i pro další weby ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partitioned_under_list": {
+    "message": "Partitioned pod: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "warnings_count": {
+    "message": "Upozornění ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_title": {
+    "message": "Importovat cookies"
+  },
+  "import_message_one": {
+    "message": "Importovat $P1$ cookie? Cookies se stejným názvem, doménou a cestou se nahradí. Celý import můžete vrátit zpět.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_message_other": {
+    "message": "Importovat cookies: $P1$? Cookies se stejným názvem, doménou a cestou se nahradí. Celý import můžete vrátit zpět.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_one": {
+    "message": "Kopírovat $P1$ cookie jako document.cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_other": {
+    "message": "Kopírovat cookies ($P1$) jako document.cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_warning": {
+    "message": "Úryvek obsahuje aktivní relační cookies. Kdokoli ho má, může se na tomto webu přihlásit jako vy. Zacházejte s ním jako s heslem."
+  },
+  "snippet_paste": {
+    "message": "Vložte ho do konzoly DevTools na webu $P1$ a cookies se tam nastaví.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_one": {
+    "message": "$P1$ cookie HttpOnly vynechána: JavaScript stránky ji nastavit nemůže.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_other": {
+    "message": "Vynechané cookies HttpOnly: $P1$. JavaScript stránky je nastavit nemůže.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_one": {
+    "message": "Zkopírována $P1$ cookie jako document.cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_other": {
+    "message": "Zkopírováno cookies jako document.cookie: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_name": {
+    "message": "Název sady"
+  },
+  "set_name_placeholder": {
+    "message": "např. přihlášen jako admin"
+  },
+  "save_set_title_one": {
+    "message": "Uložit $P1$ cookie jako sadu",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "save_set_title_other": {
+    "message": "Uložit cookies ($P1$) jako sadu",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_file_note": {
+    "message": "Sada je soubor ve vašem počítači; CookieDesk si žádnou kopii nenechává. Obnovíte ji později z nabídky na webu $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "default_set_name": {
+    "message": "Sada cookies"
+  },
+  "set_too_large": {
+    "message": "Tento soubor je příliš velký na sadu cookies."
+  },
+  "cant_restore_unchanged": {
+    "message": "Tuto sadu nelze obnovit. Nic se nezměnilo."
+  },
+  "cant_restore": {
+    "message": "Tuto sadu nelze obnovit"
+  },
+  "wrong_site_message": {
+    "message": "Tato sada byla uložena pro $P1$. Otevřete $P1$ a obnovte ji tam.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "wrong_site_title": {
+    "message": "Jiný web. Nic se nezměnilo."
+  },
+  "foreign_cookies_one": {
+    "message": "$P1$ cookie v tomto souboru patří jinému webu ($P2$). Obnova sady mění jen $P3$; pro jiné weby použijte Import.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "foreign_cookies_other": {
+    "message": "Cookies v tomto souboru, které patří jiným webům: $P1$ ($P2$). Obnova sady mění jen $P3$; pro jiné weby použijte Import.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "plan_write": {
+    "message": "Zapsat"
+  },
+  "plan_delete": {
+    "message": "Smazat"
+  },
+  "plan_protected": {
+    "message": "Chráněné, zůstanou beze změny"
+  },
+  "restore_title": {
+    "message": "Obnovit „$P1$“",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_nothing": {
+    "message": "$P1$ už odpovídá této sadě. Není co měnit.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_message_one": {
+    "message": "Cookies webu $P2$ se nahradí $P1$ cookie z této sady. Celou obnovu můžete vrátit zpět.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "restore_message_other": {
+    "message": "Cookies webu $P2$ se nahradí cookies z této sady (celkem $P1$). Celou obnovu můžete vrátit zpět.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_partition_unsupported": {
+    "message": "„$P1$“ je partitioned cookie, kterou tato verze Chrome neumí zapsat. Aktualizujte Chrome na verzi 119 nebo novější.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_gone": {
+    "message": "„$P1$“ už neexistuje, mohla vypršet nebo ji web změnil. Načtěte seznam znovu.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_stored": {
+    "message": "Chrome přijal „$P1$“, ale neuložil ji.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_imprecise_delete_one": {
+    "message": "Chrome umí smazat „$P2$“ jen společně s $P1$ další cookie stejného názvu, a proto ji CookieDesk nesmaže.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_imprecise_delete_other": {
+    "message": "Chrome umí smazat „$P2$“ jen společně s dalšími cookies stejného názvu (celkem $P1$), a proto ji CookieDesk nesmaže.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_delete": {
+    "message": "Chrome už „$P1$“ v uložené podobě nepřijímá, takže po smazání by ji nešlo vrátit. Smazat bez možnosti vrácení?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_removed": {
+    "message": "„$P1$“ se nepodařilo smazat.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_no_permission": {
+    "message": "CookieDesk nemá přístup k webu $P1$. Nejdřív tomuto webu povolte přístup.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_secure_shadow": {
+    "message": "Cookie Secure s názvem „$P1$“ pro $P2$ už existuje. Chrome nedovolí, aby ji nahradila nebo vedle ní existovala cookie bez Secure se stejným názvem. Zapněte Secure, nebo zvolte jiný název.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_rejected": {
+    "message": "Chrome odmítl „$P1$“ bez udání důvodu. Nic se nezměnilo.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_irreversible_replace_one": {
+    "message": "Chrome už $P2$ v uložené podobě nepřijímá, takže po nahrazení by ji nešlo vrátit. Pokračovat bez možnosti vrácení?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_replace_other": {
+    "message": "Chrome už $P2$ v uložené podobě nepřijímá, takže po nahrazení by je nešlo vrátit. Pokračovat bez možnosti vrácení?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_too_large_to_undo": {
+    "message": "Tato změna se týká příliš mnoha dat ($P1$ KB), než aby šlo uchovat kopii pro vrácení. Pokračovat bez možnosti vrácení?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_duplicate_in_file": {
+    "message": "Soubor obsahuje „$P1$“ dvakrát pro stejnou doménu a cestu.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_undo_expired": {
+    "message": "Není co vracet: vrácení zpět se uchovává 10 minut."
+  },
+  "err_undo_conflict": {
+    "message": "$P1$ se změnila po akci „$P2$“. Vrácení zpět by přepsalo novější hodnotu. Přesto vrátit?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_incomplete": {
+    "message": "Nedokončeno: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_added": {
+    "message": "Přidáno „$P1$“",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_edited": {
+    "message": "Upraveno „$P1$“",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted": {
+    "message": "Smazáno „$P1$“",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_expired": {
+    "message": "Smazáno „$P1$“ (platnost už skončila)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_one": {
+    "message": "Smazána $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_other": {
+    "message": "Smazáno cookies: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_one": {
+    "message": "Importována $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_other": {
+    "message": "Importováno cookies: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_undid": {
+    "message": "Vráceno zpět: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_saved": {
+    "message": "Uloženo „$P1$“",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_draft": {
+    "message": "Cookie musí být objekt s názvem, hodnotou, doménou a cestou."
+  },
+  "v_name_type": {
+    "message": "Název cookie musí být text."
+  },
+  "v_value_type": {
+    "message": "Hodnota cookie musí být text."
+  },
+  "v_domain_type": {
+    "message": "Doména musí být text."
+  },
+  "v_path_type": {
+    "message": "Cesta musí být text."
+  },
+  "v_flag_type": {
+    "message": "$P1$ musí být true nebo false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_samesite": {
+    "message": "SameSite musí být jedna z hodnot: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_name_control": {
+    "message": "Název obsahuje řídicí znaky (například nový řádek nebo tabulátor), které cookies nemohou obsahovat."
+  },
+  "v_name_semicolon": {
+    "message": "Název obsahuje „;“, které by cookie předčasně ukončilo."
+  },
+  "v_name_equals": {
+    "message": "Název obsahuje „=“, které v cookie odděluje název od hodnoty."
+  },
+  "v_value_control": {
+    "message": "Hodnota obsahuje řídicí znaky (například nový řádek nebo tabulátor), které cookies nemohou obsahovat."
+  },
+  "v_value_semicolon": {
+    "message": "Hodnota obsahuje „;“, které by cookie předčasně ukončilo. Zakódujte ji (například pomocí encodeURIComponent)."
+  },
+  "v_empty_cookie": {
+    "message": "Cookie potřebuje název nebo hodnotu; obojí je prázdné."
+  },
+  "v_empty_name": {
+    "message": "Tato cookie má prázdný název. Některé weby a nástroje si s cookies bez názvu neporadí."
+  },
+  "v_too_large": {
+    "message": "Název a hodnota dohromady mají $P1$ bajtů (UTF-8); Chrome povoluje nejvýše $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "v_path_slash": {
+    "message": "Cesta musí začínat znakem „/“."
+  },
+  "v_path_too_long": {
+    "message": "Cesta je delší než $P1$ bajtů.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_path_chars": {
+    "message": "Cesta obsahuje řídicí znaky nebo „;“, které cookies nemohou obsahovat."
+  },
+  "v_domain_empty": {
+    "message": "Doména je prázdná. Zadejte web, ke kterému cookie patří, například example.com."
+  },
+  "v_domain_too_long": {
+    "message": "Doména je delší než $P1$ bajtů.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_domain_invalid": {
+    "message": "Doména není platný název hostitele. Použijte písmena, číslice a pomlčky oddělené tečkami (internacionalizované názvy musí být v punycode, například xn--...)."
+  },
+  "v_domain_leading_dot": {
+    "message": "Cookie jen pro hostitele nemůže mít v doméně úvodní tečku; tečka znamená, že cookie platí i pro subdomény."
+  },
+  "v_domain_public_suffix": {
+    "message": "„$P1$“ je veřejná přípona (doména spravovaná registrem, například .com nebo .co.uk), a proto prohlížeče odmítají cookies platné pro celou příponu.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_samesite_none_insecure": {
+    "message": "Cookies SameSite=None musí být Secure, jinak je Chrome odmítne. Zapněte Secure nebo zvolte jiné SameSite."
+  },
+  "v_partitioned_insecure": {
+    "message": "Partitioned cookies musí být Secure, jinak je Chrome odmítne. Zapněte Secure nebo oddíl odstraňte."
+  },
+  "v_prefix_secure": {
+    "message": "Cookies s názvem „$P1$...“ musí být Secure. Zapněte Secure nebo cookie přejmenujte.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_host_prefix_domain": {
+    "message": "Cookies s názvem „__Host-...“ musí být jen pro hostitele (bez atributu Domain, tedy bez sdílení se subdoménami). Zapněte režim jen pro hostitele nebo cookie přejmenujte."
+  },
+  "v_host_prefix_path": {
+    "message": "Cookies s názvem „__Host-...“ musí mít cestu „/“."
+  },
+  "v_bad_expiration": {
+    "message": "Platnost musí být konečný počet sekund od roku 1970."
+  },
+  "v_expired_deletes": {
+    "message": "Uložení s platností v minulosti tuto cookie smaže."
+  },
+  "v_clamped": {
+    "message": "Chrome omezuje životnost cookie na $P1$ dní; pozdější platnost se při uložení zkrátí.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_expiration_missing": {
+    "message": "Trvalá cookie potřebuje datum vypršení. Vyberte ho, nebo cookie označte jako relační."
+  },
+  "v_partition_type": {
+    "message": "Klíč oddílu musí být objekt s topLevelSite."
+  },
+  "v_partition_site_type": {
+    "message": "Web nejvyšší úrovně oddílu musí být text ve tvaru https://example.com."
+  },
+  "v_partition_site_form": {
+    "message": "Web nejvyšší úrovně oddílu musí vypadat jako https://example.com (https, bez cesty a portu)."
+  },
+  "v_partition_flag": {
+    "message": "Hodnota hasCrossSiteAncestor oddílu musí být true nebo false."
+  },
+  "v_partition_cross_site": {
+    "message": "Doména cookie není ve stejném webu jako $P1$, takže Chrome pro ni vyžaduje hasCrossSiteAncestor nastavené na true.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_other_site": {
+    "message": "Doména této cookie ($P1$) leží mimo aktuální web ($P2$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_entry": {
+    "message": "Položka $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_entry_named": {
+    "message": "Položka $P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_bad_samesite": {
+    "message": "$P1$: sameSite není žádná z hodnot no_restriction, lax, strict, unspecified.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bool": {
+    "message": "$P1$: „$P2$“ musí být true nebo false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_text": {
+    "message": "$P1$: „$P2$“ musí být text.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_not_object": {
+    "message": "$P1$ není objekt cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_expiration_type": {
+    "message": "$P1$: „expirationDate“ musí být číslo.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_key": {
+    "message": "$P1$: partitionKey musí být objekt s textovým topLevelSite.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_flag": {
+    "message": "$P1$: partitionKey.hasCrossSiteAncestor musí být true nebo false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_line": {
+    "message": "Řádek $P1$ není položka cookies.txt (očekáváno 7 polí oddělených tabulátory, nalezeno $P2$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_line_flag_subdomains": {
+    "message": "Řádek $P1$: příznak subdomén musí být TRUE nebo FALSE.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_flag_secure": {
+    "message": "Řádek $P1$: příznak secure musí být TRUE nebo FALSE.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_expiry": {
+    "message": "Řádek $P1$: platnost musí být celé číslo sekund.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_not_text": {
+    "message": "Soubor nešlo přečíst jako text."
+  },
+  "io_too_large": {
+    "message": "Soubor je větší než limit importu $P1$ bajtů.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_json": {
+    "message": "Soubor vypadá jako JSON, ale nešlo ho zpracovat."
+  },
+  "io_bad_version": {
+    "message": "Tento soubor CookieDesk má nepodporovanou verzi."
+  },
+  "io_no_cookie_list": {
+    "message": "Soubor CookieDesk neobsahuje seznam „cookies“."
+  },
+  "io_unknown_format": {
+    "message": "Tento JSON není export CookieDesk ani seznam cookies."
+  },
+  "io_no_cookies": {
+    "message": "Soubor neobsahuje žádné cookies."
+  },
+  "io_too_many": {
+    "message": "Soubor obsahuje cookies: $P1$; limit je $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_issue": {
+    "message": "$P1$: $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_duplicate": {
+    "message": "$P1$: jiná položka má stejný název, doménu, cestu a oddíl.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "when": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "when_passed": {
+    "message": "už uplynulo"
+  },
+  "when_under_day": {
+    "message": "za méně než den"
+  },
+  "explain_third_party": {
+    "message": "Nastavil ji web $P1$, který je jiný než $P2$: cookie třetí strany.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_third_party_partitioned": {
+    "message": "Nastavil ji web $P1$, který je jiný než $P2$: cookie třetí strany, uložená v oddílu webu $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_host_prefix": {
+    "message": "Předpona __Host- nutí Chrome vyžadovat Secure, žádný atribut Domain a Path=/, takže ji nemůže nastavit ani nahradit žádná subdoména."
+  },
+  "explain_secure_prefix": {
+    "message": "Předpona __Secure- způsobí, že ji Chrome přijme jen s příznakem Secure."
+  },
+  "explain_scope_host": {
+    "message": "Odesílá se jen samotnému hostiteli $P1$, ne jeho subdoménám.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_scope_domain": {
+    "message": "Odesílá se hostiteli $P1$ a všem jeho subdoménám (například www.$P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_path_all": {
+    "message": "Odesílá se s požadavky na každou cestu tohoto hostitele."
+  },
+  "explain_path_under": {
+    "message": "Odesílá se jen s požadavky na cesty pod $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_secure": {
+    "message": "Secure: odesílá se jen přes HTTPS."
+  },
+  "explain_not_secure": {
+    "message": "Bez Secure: odesílá se i přes prostý HTTP, kde ji může přečíst kdokoli v síti."
+  },
+  "explain_httponly": {
+    "message": "HttpOnly: není vidět pro JavaScript stránky (document.cookie ji nepřečte), takže je mimo dosah vložených skriptů."
+  },
+  "explain_script_readable": {
+    "message": "Může ji číst a měnit jakýkoli skript běžící na stránce."
+  },
+  "explain_samesite_none": {
+    "message": "SameSite=None: může se odesílat i s požadavky mezi weby (vložené rámce, obrázky, požadavky z jiných webů), kde Chrome cookies třetích stran vůbec povoluje (anonymní režim je ve výchozím stavu blokuje). Proto musí být Secure."
+  },
+  "explain_samesite_lax": {
+    "message": "SameSite=Lax: odesílá se, když na web přejdete, i z odkazu na jiném webu, ale ne s požadavky, které stránky jiných webů posílají na pozadí."
+  },
+  "explain_samesite_strict": {
+    "message": "SameSite=Strict: odesílá se, jen když už na tom webu jste. Při příchodu z odkazu na jiném webu se první požadavek odešle bez ní."
+  },
+  "explain_samesite_unset": {
+    "message": "Bez atributu SameSite: Chrome ji bere jako Lax."
+  },
+  "explain_session": {
+    "message": "Relační cookie: smaže se při zavření prohlížeče (pokud Chrome při spuštění neobnoví předchozí relaci)."
+  },
+  "explain_expires": {
+    "message": "Vyprší $P1$. Chrome omezuje platnost na 400 dní od posledního nastavení cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition": {
+    "message": "Partitioned (CHIPS): ukládá se zvlášť pro každý web nejvyšší úrovně. Tato kopie se odesílá, jen když je v adresním řádku $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition_cross": {
+    "message": "Je v části oddílu pro různé weby (používá se tam, kde je mezi stránkou a webem této cookie jiný web), oddělené od části pro stejný web."
+  },
+  "explain_partition_same": {
+    "message": "Je v části oddílu pro stejný web, oddělené od části pro různé weby."
+  },
+  "explain_partition_other": {
+    "message": "Stejně pojmenovaná cookie pod jiným webem je jiná cookie."
+  },
+  "explain_jwt": {
+    "message": "Hodnota vypadá jako JSON Web Token."
+  },
+  "explain_jwt_exp": {
+    "message": "Hodnota vypadá jako JSON Web Token; podle samotného tokenu vyprší $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_size": {
+    "message": "$P1$ ze 4096 bajtů, které Chrome povoluje pro název a hodnotu dohromady.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

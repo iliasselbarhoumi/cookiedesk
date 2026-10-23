@@ -1,0 +1,2215 @@
+{
+  "extension_name": {
+    "message": "የኩኪ አርታዒ — ኩኪዎችን ይመልከቱ፣ ያርትዑ እና ይሰርዙ | CookieDesk"
+  },
+  "extension_description": {
+    "message": "ኩኪዎችን በየድር ጣቢያው ይመልከቱ፣ ያርትዑ፣ ይጨምሩ እና ይሰርዙ። ፍለጋ፣ ማስመጣት/ወደ ውጭ መላክ፣ የተከፋፈሉ ኩኪዎች። ያለ ማስታወቂያ እና ክትትል።"
+  },
+  "btn_ok": {
+    "message": "እሺ"
+  },
+  "btn_cancel": {
+    "message": "ሰርዝ"
+  },
+  "btn_close": {
+    "message": "ዝጋ"
+  },
+  "btn_delete": {
+    "message": "ሰርዝ"
+  },
+  "btn_copy": {
+    "message": "ቅዳ"
+  },
+  "btn_save": {
+    "message": "አስቀምጥ"
+  },
+  "btn_export": {
+    "message": "ወደ ውጭ ላክ"
+  },
+  "btn_later": {
+    "message": "በኋላ"
+  },
+  "dismiss": {
+    "message": "አሰናብት"
+  },
+  "back": {
+    "message": "ተመለስ"
+  },
+  "back_esc": {
+    "message": "ተመለስ (Esc)"
+  },
+  "back_to_list": {
+    "message": "ወደ ዝርዝሩ ተመለስ"
+  },
+  "title_count": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "empty_name": {
+    "message": "(ባዶ ስም)"
+  },
+  "empty_value": {
+    "message": "(ባዶ እሴት)"
+  },
+  "empty_short": {
+    "message": "(ባዶ)"
+  },
+  "names_more": {
+    "message": "$P1$ እና ሌሎች $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "done": {
+    "message": "ተጠናቋል"
+  },
+  "undo": {
+    "message": "ቀልብስ"
+  },
+  "undo_nothing": {
+    "message": "የሚቀለበስ ነገር የለም"
+  },
+  "undo_entry": {
+    "message": "ቀልብስ፦ $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_interrupted": {
+    "message": "መቀልበስ ተቋርጧል፦ $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "redo_entry": {
+    "message": "ድገም፦ $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "support_title": {
+    "message": "CookieDeskን በKo-fi ይደግፉ"
+  },
+  "supporter_title": {
+    "message": "CookieDeskን ስለደገፉ እናመሰግናለን!"
+  },
+  "add_cookie": {
+    "message": "ኩኪ ጨምር"
+  },
+  "add_cookie_title": {
+    "message": "ኩኪ ጨምር (n)"
+  },
+  "more_actions": {
+    "message": "ተጨማሪ እርምጃዎች"
+  },
+  "menu_group_transfer": {
+    "message": "ወደ ውጭ መላክ እና ማስመጣት"
+  },
+  "menu_group_sets": {
+    "message": "የኩኪ ስብስቦች"
+  },
+  "export_json_title": {
+    "message": "እንደ JSON ወደ ውጭ ላክ"
+  },
+  "export_txt_title": {
+    "message": "እንደ Netscape cookies.txt ወደ ውጭ ላክ"
+  },
+  "tile_snippet": {
+    "message": "ቅንጣቢ"
+  },
+  "tile_snippet_title": {
+    "message": "እንደ document.cookie ቅንጣቢ ቅዳ"
+  },
+  "tile_import": {
+    "message": "አስመጣ"
+  },
+  "tile_import_title": {
+    "message": "JSON ወይም cookies.txt አስመጣ"
+  },
+  "tile_save_set": {
+    "message": "ስብስብ አስቀምጥ"
+  },
+  "tile_save_set_title": {
+    "message": "እነዚህን ኩኪዎች እንደ ስም ያለው የስብስብ ፋይል አስቀምጥ"
+  },
+  "tile_restore": {
+    "message": "መልስ"
+  },
+  "tile_restore_title": {
+    "message": "የተቀመጠ ስብስብ መልስ (መጀመሪያ ቅድመ እይታ)"
+  },
+  "tile_compare": {
+    "message": "አወዳድር"
+  },
+  "tile_compare_title": {
+    "message": "የተቀመጠ ስብስብን ከአሁኑ ጋር ወይም ሁለት ስብስቦችን አወዳድር"
+  },
+  "tile_copy_to": {
+    "message": "ቅዳ ወደ…"
+  },
+  "tile_copy_to_title": {
+    "message": "የሚታዩትን ኩኪዎች ወደ ሌላ ማከማቻ ቅዳ (መደበኛ ↔ ማንነት የማያሳውቅ)"
+  },
+  "menu_bulk_delete": {
+    "message": "የሚታዩትን ኩኪዎች ሰርዝ…"
+  },
+  "menu_access": {
+    "message": "መዳረሻ እና ቅንብሮች"
+  },
+  "menu_shortcuts": {
+    "message": "አቋራጮች"
+  },
+  "menu_sidepanel": {
+    "message": "በጎን ፓነል ክፈት"
+  },
+  "menu_rate": {
+    "message": "CookieDeskን ደረጃ ይስጡ"
+  },
+  "menu_support": {
+    "message": "በKo-fi ይደግፉ"
+  },
+  "search_placeholder": {
+    "message": "ኩኪዎችን ፈልግ"
+  },
+  "search_label": {
+    "message": "ኩኪዎችን በስም፣ በእሴት ወይም በጎራ አጣራ"
+  },
+  "search_title": {
+    "message": "በስም፣ በእሴት ወይም በጎራ አጣራ"
+  },
+  "cookie_store": {
+    "message": "የኩኪ ማከማቻ"
+  },
+  "cookies_list": {
+    "message": "ኩኪዎች"
+  },
+  "restricted_page": {
+    "message": "የተገደበ ገጽ"
+  },
+  "loading": {
+    "message": "በመጫን ላይ…"
+  },
+  "state_unknown": {
+    "message": "የዚህን ትር ኩኪዎች ለማሳየት በመሣሪያ አሞሌው ላይ ያለውን የCookieDesk አዝራር ጠቅ ያድርጉ።"
+  },
+  "state_unknown_hint": {
+    "message": "Chrome የትርን አድራሻ የሚያጋራው ከዚያ ጠቅታ በኋላ ወይም እርስዎ ለፈቀዱላቸው ጣቢያዎች ብቻ ነው።"
+  },
+  "state_error": {
+    "message": "የሆነ ችግር ተፈጥሯል፦ $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "state_no_access": {
+    "message": "CookieDesk እስካሁን ወደ $P1$ መዳረሻ የለውም።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "grant_site": {
+    "message": "በ$P1$ ላይ ፍቀድ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "chrome_will_ask": {
+    "message": "Chrome ይጠይቃል፦"
+  },
+  "prompt_site": {
+    "message": "በሁሉም $P1$ ጣቢያዎች ላይ ውሂብዎን ያንብቡ እና ይቀይሩ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "prompt_all": {
+    "message": "በሁሉም ድር ጣቢያዎች ላይ ሁሉንም ውሂብዎን ያንብቡ እና ይቀይሩ"
+  },
+  "only_this_site": {
+    "message": "የዚህ ጣቢያ ኩኪዎች ብቻ፣ ሌላ ምንም።"
+  },
+  "allow_all_instead": {
+    "message": "በምትኩ ሁሉንም ጣቢያዎች ፍቀድ"
+  },
+  "restricted_browser": {
+    "message": "ይህ የChrome ገጽ ነው። Chrome ማንኛውም ቅጥያ እዚህ ኩኪዎችን እንዲያነብ ወይም እንዲቀይር አይፈቅድም።"
+  },
+  "restricted_webstore": {
+    "message": "ይህ Chrome Web Store ነው። Chrome ሁሉንም ቅጥያዎች እዚህ ያግዳል፣ ስለዚህ ኩኪዎቹ ሊታዩ አይችሉም።"
+  },
+  "restricted_extension": {
+    "message": "ይህ የቅጥያ ራሱ ገጽ ነው። ማከማቻው የድር ጣቢያ ኩኪዎች አይደለም፣ ስለዚህ የሚታይ ነገር የለም።"
+  },
+  "restricted_file": {
+    "message": "ይህ የአካባቢ ፋይል ነው። ከዲስክ የተከፈቱ ፋይሎች ኩኪዎች የላቸውም።"
+  },
+  "restricted_other": {
+    "message": "ይህ ገጽ ድር ጣቢያ አይደለም (ለምሳሌ ባዶ ወይም data: ገጽ)፣ ስለዚህ ኩኪዎች የሉትም።"
+  },
+  "live_just_now": {
+    "message": "አሁን በቅርቡ፦ $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "note_third_party": {
+    "message": "የተካተቱ ጣቢያዎች ኩኪዎች የሚታዩት እርስዎ ለፈቀዱላቸው ጣቢያዎች ብቻ ነው።"
+  },
+  "note_no_partitions": {
+    "message": "የእርስዎ የChrome ስሪት የተከፋፈሉ ኩኪዎችን ማሳየት አይችልም፣ ስለዚህ ይህ ዝርዝር ያልተሟላ ሊሆን ይችላል።"
+  },
+  "empty_no_match": {
+    "message": "ከ“$P1$” ጋር የሚዛመዱ ኩኪዎች የሉም።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "empty_none": {
+    "message": "ለ$P1$ ኩኪዎች የሉም።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clear_search": {
+    "message": "ፍለጋን አጽዳ"
+  },
+  "change_changed": {
+    "message": "$P1$ ተቀይሯል",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_added": {
+    "message": "$P1$ ተጨምሯል",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_removed": {
+    "message": "$P1$ ተወግዷል",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_one": {
+    "message": "$P1$ ኩኪ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_other": {
+    "message": "ኩኪዎች፦ $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_filtered_one": {
+    "message": "$P2$ ከ$P1$ ኩኪ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_filtered_other": {
+    "message": "$P2$ ከ$P1$ ኩኪዎች",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_partitioned": {
+    "message": "$P1$ የተከፋፈሉ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "store_default": {
+    "message": "ነባሪ"
+  },
+  "store_incognito": {
+    "message": "ማንነት የማያሳውቅ"
+  },
+  "store_n": {
+    "message": "ማከማቻ $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "session": {
+    "message": "ክፍለ ጊዜ"
+  },
+  "expired": {
+    "message": "ጊዜው አልፏል"
+  },
+  "expiry_under_minute": {
+    "message": "ከአንድ ደቂቃ በታች ውስጥ"
+  },
+  "expiry_on_close": {
+    "message": "አሳሹ ሲዘጋ ይሰረዛል"
+  },
+  "expires_at": {
+    "message": "ጊዜው የሚያልፈው $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "badge_protected": {
+    "message": "የተጠበቀ፦ የጅምላ ስረዛ፣ ማስመጣት እና ስብስብ መመለስ አይነኩትም (p)"
+  },
+  "hint_httponly": {
+    "message": "HttpOnly፦ ለገጹ JavaScript አይታይም (document.cookie ሊያነበው አይችልም)"
+  },
+  "hint_secure": {
+    "message": "Secure፦ በHTTPS ብቻ ይላካል"
+  },
+  "hint_samesite_none": {
+    "message": "SameSite=None፦ በተሻጋሪ ጣቢያ ጥያቄዎችም ይላካል"
+  },
+  "hint_samesite_lax": {
+    "message": "SameSite=Lax፦ በከፍተኛ ደረጃ አሰሳ ላይ ይላካል፣ በተሻጋሪ ጣቢያ ንዑስ ጥያቄዎች ላይ አይላክም"
+  },
+  "hint_samesite_strict": {
+    "message": "SameSite=Strict፦ በተመሳሳይ ጣቢያ ጥያቄዎች ላይ ብቻ ይላካል"
+  },
+  "badge_partitioned": {
+    "message": "የተከፋፈለ"
+  },
+  "partitioned_under": {
+    "message": "በ$P1$ ስር የተከፋፈለ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partition_this_site": {
+    "message": "ይህ ጣቢያ"
+  },
+  "partition_cross_site": {
+    "message": "$P1$፣ ተሻጋሪ ጣቢያ አውድ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "row_protected": {
+    "message": "የተጠበቀ"
+  },
+  "row_unprotect_title": {
+    "message": "ጥበቃን አንሳ (p)"
+  },
+  "row_protect_title": {
+    "message": "ከጅምላ ስረዛ፣ ማስመጣት እና ስብስብ መመለስ ጠብቅ (p)"
+  },
+  "copy_value": {
+    "message": "እሴት ቅዳ"
+  },
+  "copied": {
+    "message": "ተቀድቷል"
+  },
+  "copy_value_title": {
+    "message": "እሴት ቅዳ (c)"
+  },
+  "row_delete_title": {
+    "message": "ሰርዝ (Del) — ሊቀለበስ ይችላል"
+  },
+  "irreversible_title": {
+    "message": "ይህ ሊቀለበስ አይችልም"
+  },
+  "continue_no_undo": {
+    "message": "ያለ መቀልበስ ቀጥል"
+  },
+  "undo_anyway_title": {
+    "message": "ለማንኛውም ይቀለበስ?"
+  },
+  "undo_anyway": {
+    "message": "ለማንኛውም ቀልብስ"
+  },
+  "undone": {
+    "message": "ተቀልብሷል፦ $P1$።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_skipped": {
+    "message": "አንዳንድ ኩኪዎች ጊዜያቸው አልፎ ስለነበር አልተመለሱም፦ $P1$።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_refused": {
+    "message": "Chrome እነዚህን እንደነበሩ አይቀበልም፣ ስለዚህ አልተመለሱም፦ $P1$።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clipboard_failed": {
+    "message": "መቅዳት አልተቻለም፦ ቅንጥብ ሰሌዳው እዚህ አይገኝም።"
+  },
+  "protected_on": {
+    "message": "\"$P1$\" ተጠብቋል፦ የጅምላ ስረዛ፣ ማስመጣት እና ስብስብ መመለስ አይነኩትም።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_off": {
+    "message": "\"$P1$\" ከእንግዲህ አልተጠበቀም።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protect_limit": {
+    "message": "እስከ $P1$ ኩኪዎች መጠበቅ ይችላሉ። መጀመሪያ የአንዳንዶችን ጥበቃ ያንሱ።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_named": {
+    "message": "\"$P1$\" ይሰረዝ?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_protected_message": {
+    "message": "ይህ ኩኪ ተጠብቋል። ለማንኛውም ይሰረዝ? ይህን መቀልበስ ይችላሉ።"
+  },
+  "nothing_to_delete": {
+    "message": "የሚሰረዝ ነገር የለም"
+  },
+  "all_shown_protected_one": {
+    "message": "የሚታየው ኩኪ ተጠብቋል።"
+  },
+  "all_shown_protected_other": {
+    "message": "የሚታዩት ሁሉም $P1$ ኩኪዎች ተጠብቀዋል።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "no_cookies_shown": {
+    "message": "ምንም ኩኪዎች አይታዩም።"
+  },
+  "bulk_title_one": {
+    "message": "$P1$ ኩኪ ይሰረዝ?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_title_other": {
+    "message": "$P1$ ኩኪዎች ይሰረዙ?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_match": {
+    "message": "እነዚህ ኩኪዎች በ$P2$ ላይ ከ\"$P1$\" ጋር ይዛመዳሉ። ይህን መቀልበስ ይችላሉ።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "bulk_all": {
+    "message": "ለ$P1$ የተዘረዘሩ ሁሉም ኩኪዎች። ይህን መቀልበስ ይችላሉ።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_one": {
+    "message": "$P1$ የተጠበቀ ኩኪ ይቀራል።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_other": {
+    "message": "$P1$ የተጠበቁ ኩኪዎች ይቀራሉ።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_one": {
+    "message": "$P1$ ኩኪ ሰርዝ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_other": {
+    "message": "$P1$ ኩኪዎችን ሰርዝ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_to": {
+    "message": "ቅዳ ወደ"
+  },
+  "copy_to_default_note": {
+    "message": "ወደ ነባሪ ማከማቻ የተቀዱ ኩኪዎች እንደማንኛውም ኩኪ በዲስክ ላይ ይቀመጣሉ፣ ይህ ማንነት የማያሳውቅ ክፍለ ጊዜ ካበቃም በኋላ።"
+  },
+  "copy_to_incognito_note": {
+    "message": "ወደ ማንነት የማያሳውቅ ማከማቻ የተቀዱ ኩኪዎች ከዚያ ክፍለ ጊዜ ጋር ያበቃሉ።"
+  },
+  "copy_title_one": {
+    "message": "$P1$ ኩኪ ቅዳ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_title_other": {
+    "message": "$P1$ ኩኪዎችን ቅዳ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_from": {
+    "message": "ከ$P1$ ማከማቻ ወደ፦",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_replace_note": {
+    "message": "እዚያ ያሉ ተመሳሳይ ስም፣ ጎራ እና መንገድ ያላቸው ኩኪዎች ይተካሉ፣ ከተጠበቁት በስተቀር። መቅዳቱን መቀልበስ ይችላሉ።"
+  },
+  "label_copied_one": {
+    "message": "$P1$ ኩኪ ወደ $P2$ ተቀድቷል",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_copied_other": {
+    "message": "$P1$ ኩኪዎች ወደ $P2$ ተቀድተዋል",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_kept_one": {
+    "message": "እዚያ ያለው $P1$ የተጠበቀ ኩኪ እንደነበረ ቀርቷል።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_kept_other": {
+    "message": "እዚያ ያሉት $P1$ የተጠበቁ ኩኪዎች እንደነበሩ ቀርተዋል።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_done_one": {
+    "message": "$P1$ ኩኪ ወደ $P2$ ተቀድቷል።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_done_other": {
+    "message": "$P1$ ኩኪዎች ወደ $P2$ ተቀድተዋል።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_undo_hint": {
+    "message": "እዚህ ይቀልብሱት፣ ወይም በኋላ ከ$P1$ ማከማቻ።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_nothing": {
+    "message": "$P1$ እነዚህ ኩኪዎች ልክ እንዳሉ አሉት።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_cant": {
+    "message": "ማወዳደር አይቻልም"
+  },
+  "compare_now": {
+    "message": "$P1$ አሁን",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_other_site": {
+    "message": "ይህ ስብስብ የተቀመጠው ለ$P1$ ነው፣ ለ$P2$ አይደለም።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "compare_too_many": {
+    "message": "ከአሁኑ ጋር ለማወዳደር አንድ ስብስብ፣ ወይም እርስ በርስ ለማወዳደር ሁለት ስብስቦች ይምረጡ።"
+  },
+  "set_file_too_large": {
+    "message": "$P1$ የኩኪ ስብስብ ለመሆን በጣም ትልቅ ነው።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_aria": {
+    "message": "የኩኪ ስብስቦችን አወዳድር"
+  },
+  "compare_changed_fields": {
+    "message": "የተቀየረው፦ $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_one": {
+    "message": "ልዩነት የለም፦ $P1$ ኩኪ ተመሳሳይ ነው።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_other": {
+    "message": "ልዩነት የለም፦ $P1$ ኩኪዎች ተመሳሳይ ናቸው።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_summary": {
+    "message": "$P1$ ተጨምረዋል፣ $P2$ ተወግደዋል፣ $P3$ ተቀይረዋል፣ $P4$ አልተቀየሩም።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      },
+      "p4": {
+        "content": "$4"
+      }
+    }
+  },
+  "diff_added": {
+    "message": "ተጨምሯል"
+  },
+  "diff_removed": {
+    "message": "ተወግዷል"
+  },
+  "diff_changed": {
+    "message": "ተቀይሯል"
+  },
+  "diff_expiry_only": {
+    "message": "የሚያልፍበት ጊዜ ብቻ ተቀይሯል ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "shortcuts_title": {
+    "message": "የቁልፍ ሰሌዳ አቋራጮች"
+  },
+  "key_search": {
+    "message": "ፈልግ"
+  },
+  "key_move": {
+    "message": "በዝርዝሩ ውስጥ ተንቀሳቀስ"
+  },
+  "key_first_last": {
+    "message": "የመጀመሪያ / የመጨረሻ ኩኪ"
+  },
+  "key_edit": {
+    "message": "አርትዕ"
+  },
+  "key_copy": {
+    "message": "እሴት ቅዳ"
+  },
+  "key_protect": {
+    "message": "ጠብቅ / ጥበቃ አንሳ"
+  },
+  "key_delete": {
+    "message": "ሰርዝ (ሊቀለበስ ይችላል)"
+  },
+  "key_back": {
+    "message": "ተመለስ፣ ወይም ፍለጋን አጽዳ"
+  },
+  "key_help": {
+    "message": "ይህ ዝርዝር"
+  },
+  "import_kept_one": {
+    "message": "$P1$ የተጠበቀ ኩኪ እንደነበረ ቀርቷል፦ $P2$።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_kept_other": {
+    "message": "$P1$ የተጠበቁ ኩኪዎች እንደነበሩ ቀርተዋል፦ $P2$።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_nothing": {
+    "message": "የሚመጣ ነገር የለም፦ በፋይሉ ውስጥ ያለው እያንዳንዱ ኩኪ አስቀድሞ እንደዚያው ተዘጋጅቷል።"
+  },
+  "imported_one": {
+    "message": "$P1$ ኩኪ ገብቷል።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "imported_other": {
+    "message": "$P1$ ኩኪዎች ገብተዋል።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_restored": {
+    "message": "ስብስብ \"$P1$\" ተመልሷል",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restored_one": {
+    "message": "\"$P2$\" ተመልሷል፦ $P1$ ኩኪ ተጽፏል፣ $P3$ ተሰርዘዋል።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "restored_other": {
+    "message": "\"$P2$\" ተመልሷል፦ $P1$ ኩኪዎች ተጽፈዋል፣ $P3$ ተሰርዘዋል።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "rate_title": {
+    "message": "CookieDeskን ወደውታል?"
+  },
+  "rate_text": {
+    "message": "ፈጣን ደረጃ መስጠት ሌሎች እንዲያገኙት ይረዳል።"
+  },
+  "rate_group": {
+    "message": "በመደብሩ ላይ ደረጃ ይስጡ"
+  },
+  "rate_stars_one": {
+    "message": "$P1$ ኮከብ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "rate_stars_other": {
+    "message": "$P1$ ኮከቦች",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_confirm_title": {
+    "message": "ቡና ገዝተውልኛል?"
+  },
+  "kofi_confirm_text": {
+    "message": "እናመሰግናለን፣ CookieDeskን እንዲቀጥል ያደርገዋል።"
+  },
+  "kofi_yes": {
+    "message": "አዎ፣ ገዝቻለሁ"
+  },
+  "kofi_not_yet": {
+    "message": "ገና"
+  },
+  "kofi_milestone_one": {
+    "message": "በCookieDesk $P1$ ለውጥ ተደርጓል!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_milestone_other": {
+    "message": "በCookieDesk $P1$ ለውጦች ተደርገዋል!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_free": {
+    "message": "ነፃ ነው እና በአንድ ገንቢ የተሰራ ነው።"
+  },
+  "buy_coffee": {
+    "message": "ቡና ግዙልኝ"
+  },
+  "edit_cookie": {
+    "message": "ኩኪ አርትዕ"
+  },
+  "add_cookie_short": {
+    "message": "ኩኪ ጨምር"
+  },
+  "explain_title": {
+    "message": "ይህ ኩኪ ምን ያደርጋል"
+  },
+  "field_name": {
+    "message": "ስም"
+  },
+  "field_value": {
+    "message": "እሴት"
+  },
+  "field_domain": {
+    "message": "ጎራ"
+  },
+  "field_path": {
+    "message": "መንገድ"
+  },
+  "field_expiry": {
+    "message": "የሚያልፍበት"
+  },
+  "field_expires": {
+    "message": "ጊዜው የሚያልፈው"
+  },
+  "field_attributes": {
+    "message": "ባህሪያት"
+  },
+  "field_partition": {
+    "message": "ክፍፍል"
+  },
+  "host_only": {
+    "message": "አስተናጋጅ ብቻ"
+  },
+  "host_only_title": {
+    "message": "አስተናጋጅ ብቻ፦ Domain ባህሪ የለም፣ ስለዚህ ንዑስ ጎራዎች አያገኙትም"
+  },
+  "session_title": {
+    "message": "የክፍለ ጊዜ ኩኪ፦ አሳሹ ሲዘጋ ይጠፋል"
+  },
+  "httponly_title": {
+    "message": "HttpOnly፦ ለገጹ JavaScript አይታይም"
+  },
+  "samesite_unspecified": {
+    "message": "ያልተገለጸ"
+  },
+  "partitioned_chips": {
+    "message": "የተከፋፈለ (CHIPS)"
+  },
+  "top_level_site": {
+    "message": "ከፍተኛ ደረጃ ጣቢያ"
+  },
+  "no_partition_write": {
+    "message": "ይህ የChrome ስሪት የተከፋፈሉ ኩኪዎችን መጻፍ አይችልም።"
+  },
+  "editor_delete_title": {
+    "message": "ሰርዝ (ሊቀለበስ ይችላል)"
+  },
+  "bytes_of": {
+    "message": "$P1$ / $P2$ ባይት",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "access_aria": {
+    "message": "መዳረሻ እና ቅንብሮች"
+  },
+  "all_sites_on": {
+    "message": "ሁሉም ጣቢያዎች፦ በርቷል"
+  },
+  "all_sites_on_text": {
+    "message": "CookieDesk በእያንዳንዱ ጣቢያ ላይ፣ የተካተቱትን ጨምሮ፣ ኩኪዎችን ማንበብ እና መቀየር ይችላል።"
+  },
+  "turn_off": {
+    "message": "አጥፋ"
+  },
+  "all_sites": {
+    "message": "ሁሉም ጣቢያዎች"
+  },
+  "all_sites_text": {
+    "message": "አማራጭ። በየጣቢያው ጥያቄዎች ከእንግዲህ የሉም፣ እና የተካተቱ ጣቢያዎች (ማስታወቂያዎች፣ ምግብሮች፣ የመግቢያ ፍሬሞች) ኩኪዎች በየቦታው ይታያሉ።"
+  },
+  "allow_all_sites": {
+    "message": "በሁሉም ጣቢያዎች ላይ ፍቀድ"
+  },
+  "remove_access": {
+    "message": "ወደ $P1$ መዳረሻን አስወግድ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "access_lead": {
+    "message": "CookieDesk የጣቢያን ኩኪዎች የሚያየው ያንን ጣቢያ ከፈቀዱ በኋላ ብቻ ነው፣ ሌላ ምንም የለም፦ የገጽ ይዘት የለም፣ ታሪክ የለም።"
+  },
+  "allowed_sites": {
+    "message": "የተፈቀዱ ጣቢያዎች"
+  },
+  "allowed_sites_count": {
+    "message": "የተፈቀዱ ጣቢያዎች · $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "all_sites_overrides": {
+    "message": "የሁሉም ጣቢያዎች መዳረሻ በርቷል፣ ስለዚህ እሱ እስካለ እነዚህ ምንም አይደሉም።"
+  },
+  "none_yet": {
+    "message": "እስካሁን የለም።"
+  },
+  "toolbar_opens": {
+    "message": "የመሣሪያ አሞሌ አዝራር የሚከፍተው"
+  },
+  "surface_popup": {
+    "message": "ብቅ-ባይ"
+  },
+  "surface_sidepanel": {
+    "message": "የጎን ፓነል"
+  },
+  "support_feedback": {
+    "message": "ድጋፍ እና አስተያየት"
+  },
+  "thanks_supporting": {
+    "message": "ስለደገፉ እናመሰግናለን!"
+  },
+  "report_problem": {
+    "message": "ችግር ሪፖርት አድርግ"
+  },
+  "source_code": {
+    "message": "የምንጭ ኮድ"
+  },
+  "privacy_line": {
+    "message": "የአውታረ መረብ ጥያቄዎች የሉም፣ የኩኪ እሴቶች በዲስክ ላይ አይቀመጡም። መቀልበስ ለ10 ደቂቃዎች ይሰራል፤ ቅጂዎቹ በማህደረ ትውስታ ውስጥ ናቸው እና Chrome ሲዘጋ ወይም ማንነት የማያሳውቅ ክፍለ ጊዜ ሲያበቃ ይጠፋሉ።"
+  },
+  "export_warning": {
+    "message": "ይህ ፋይል ንቁ የክፍለ ጊዜ ኩኪዎችን ይዟል። ማንም ያለው ሰው በእነዚህ ጣቢያዎች ላይ እርስዎን መስሎ መግባት ይችላል። እንደ የይለፍ ቃል ይያዙት እና ሲጨርሱ ይሰርዙት።"
+  },
+  "export_json_one": {
+    "message": "$P1$ ኩኪን እንደ JSON ወደ ውጭ ላክ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_json_other": {
+    "message": "$P1$ ኩኪዎችን እንደ JSON ወደ ውጭ ላክ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_one": {
+    "message": "$P1$ ኩኪን እንደ cookies.txt ወደ ውጭ ላክ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_other": {
+    "message": "$P1$ ኩኪዎችን እንደ cookies.txt ወደ ውጭ ላክ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_all_one": {
+    "message": "ለ$P2$ የተዘረዘረው ኩኪ HttpOnly ቢሆንም እንኳ ወደ ፋይሉ ይገባል።",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_all_other": {
+    "message": "ለ$P2$ የተዘረዘሩት ሁሉም $P1$ ኩኪዎች፣ HttpOnly የሆኑትን ጨምሮ፣ ወደ ፋይሉ ይገባሉ።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_partitioned_left_one": {
+    "message": "$P1$ የተከፋፈለ ኩኪ ተትቷል፦ cookies.txt ክፍፍሎችን መመዝገብ አይችልም። ለማቆየት JSON ይጠቀሙ።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_partitioned_left_other": {
+    "message": "$P1$ የተከፋፈሉ ኩኪዎች ተትተዋል፦ cookies.txt ክፍፍሎችን መመዝገብ አይችልም። ለማቆየት JSON ይጠቀሙ።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_too_big": {
+    "message": "ይህ ፋይል $P1$ ሜባ ነው። የኩኪ ወደ ውጭ የተላኩ ፋይሎች በጣም ያነሱ ናቸው፤ CookieDesk እስከ 5 ሜባ ፋይሎችን ያነባል።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "cant_import_unchanged": {
+    "message": "ይህን ፋይል ማስመጣት አይቻልም። ምንም አልተቀየረም።"
+  },
+  "cant_import": {
+    "message": "ይህን ፋይል ማስመጣት አይቻልም"
+  },
+  "file_unreadable": {
+    "message": "ፋይሉ ሊነበብ አልቻለም።"
+  },
+  "needs_access_one": {
+    "message": "እነዚህን ኩኪዎች ለመጻፍ CookieDesk ወደ ተጨማሪ $P1$ ጣቢያ መዳረሻ ያስፈልገዋል፦",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "needs_access_other": {
+    "message": "እነዚህን ኩኪዎች ለመጻፍ CookieDesk ወደ ተጨማሪ $P1$ ጣቢያዎች መዳረሻ ያስፈልገዋል፦",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_allow_all_hint": {
+    "message": "ወይም በመዳረሻ እና ቅንብሮች ስር ሁሉንም ጣቢያዎች ይፍቀዱ።"
+  },
+  "other_sites": {
+    "message": "ሌሎች ጣቢያዎች ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "other_sites_warning": {
+    "message": "ይህ ፋይል ከ$P1$ ሌላ ለሆኑ ጣቢያዎችም ኩኪዎችን ይጽፋል። በሌላ ጣቢያ ላይ የተተከለ ኩኪ እዚያ የተሳሳተ መለያ ውስጥ ሊያስገባዎት ይችላል። እነዚህን ጣቢያዎች ከጠበቁ ብቻ ይቀጥሉ።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_one": {
+    "message": "ለሌላ $P1$ ጣቢያም ኩኪዎችን ጻፍ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_other": {
+    "message": "ለሌሎች $P1$ ጣቢያዎችም ኩኪዎችን ጻፍ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partitioned_under_list": {
+    "message": "ስር የተከፋፈለ፦ $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "warnings_count": {
+    "message": "ማስጠንቀቂያዎች ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_title": {
+    "message": "ኩኪዎችን አስመጣ"
+  },
+  "import_message_one": {
+    "message": "$P1$ ኩኪ ይመጣ? ተመሳሳይ ስም፣ ጎራ እና መንገድ ያላቸው ኩኪዎች ይተካሉ። ሙሉውን ማስመጣት መቀልበስ ይችላሉ።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_message_other": {
+    "message": "$P1$ ኩኪዎች ይመጡ? ተመሳሳይ ስም፣ ጎራ እና መንገድ ያላቸው ኩኪዎች ይተካሉ። ሙሉውን ማስመጣት መቀልበስ ይችላሉ።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_one": {
+    "message": "$P1$ ኩኪን እንደ document.cookie ቅዳ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_other": {
+    "message": "$P1$ ኩኪዎችን እንደ document.cookie ቅዳ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_warning": {
+    "message": "ቅንጣቢው ንቁ የክፍለ ጊዜ ኩኪዎችን ይዟል። ማንም ያለው ሰው በዚህ ጣቢያ ላይ እርስዎን መስሎ መግባት ይችላል። እንደ የይለፍ ቃል ይያዙት።"
+  },
+  "snippet_paste": {
+    "message": "እነዚህን ኩኪዎች እዚያ ለማዘጋጀት በ$P1$ ላይ በDevTools ኮንሶል ውስጥ ይለጥፉት።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_one": {
+    "message": "$P1$ HttpOnly ኩኪ ተትቷል፦ የገጽ JavaScript ሊያዘጋጀው አይችልም።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_other": {
+    "message": "$P1$ HttpOnly ኩኪዎች ተትተዋል፦ የገጽ JavaScript ሊያዘጋጃቸው አይችልም።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_one": {
+    "message": "$P1$ ኩኪ እንደ document.cookie ተቀድቷል።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_other": {
+    "message": "$P1$ ኩኪዎች እንደ document.cookie ተቀድተዋል።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_name": {
+    "message": "የስብስብ ስም"
+  },
+  "set_name_placeholder": {
+    "message": "ለምሳሌ እንደ አስተዳዳሪ ገብቷል"
+  },
+  "save_set_title_one": {
+    "message": "$P1$ ኩኪን እንደ ስብስብ አስቀምጥ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "save_set_title_other": {
+    "message": "$P1$ ኩኪዎችን እንደ ስብስብ አስቀምጥ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_file_note": {
+    "message": "ስብስቡ በኮምፒውተርዎ ላይ ያለ ፋይል ነው፤ CookieDesk ቅጂ አያስቀምጥም። በኋላ በ$P1$ ላይ ካለው ምናሌ ይመልሱት።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "default_set_name": {
+    "message": "የኩኪ ስብስብ"
+  },
+  "set_too_large": {
+    "message": "ይህ ፋይል የኩኪ ስብስብ ለመሆን በጣም ትልቅ ነው።"
+  },
+  "cant_restore_unchanged": {
+    "message": "ይህን ስብስብ መመለስ አይቻልም። ምንም አልተቀየረም።"
+  },
+  "cant_restore": {
+    "message": "ይህን ስብስብ መመለስ አይቻልም"
+  },
+  "wrong_site_message": {
+    "message": "ይህ ስብስብ የተቀመጠው ለ$P1$ ነው። $P1$ን ከፍተው እዚያ ይመልሱት።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "wrong_site_title": {
+    "message": "የተሳሳተ ጣቢያ። ምንም አልተቀየረም።"
+  },
+  "foreign_cookies_one": {
+    "message": "በዚህ ፋይል ውስጥ ያለ $P1$ ኩኪ የሌላ ጣቢያ ነው ($P2$)። ስብስብ መመለስ የሚቀይረው $P3$ን ብቻ ነው፤ ለሌሎች ጣቢያዎች አስመጣን ይጠቀሙ።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "foreign_cookies_other": {
+    "message": "በዚህ ፋይል ውስጥ ያሉ $P1$ ኩኪዎች የሌሎች ጣቢያዎች ናቸው ($P2$)። ስብስብ መመለስ የሚቀይረው $P3$ን ብቻ ነው፤ ለሌሎች ጣቢያዎች አስመጣን ይጠቀሙ።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "plan_write": {
+    "message": "ጻፍ"
+  },
+  "plan_delete": {
+    "message": "ሰርዝ"
+  },
+  "plan_protected": {
+    "message": "የተጠበቁ፣ እንዳሉ የሚቀሩ"
+  },
+  "restore_title": {
+    "message": "\"$P1$\" መልስ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_nothing": {
+    "message": "$P1$ አስቀድሞ ከዚህ ስብስብ ጋር ይዛመዳል። የሚቀየር ነገር የለም።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_message_one": {
+    "message": "የ$P2$ ኩኪዎች በዚህ ስብስብ ውስጥ ባለው $P1$ ኩኪ ይተካሉ። ሙሉውን መመለስ መቀልበስ ይችላሉ።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "restore_message_other": {
+    "message": "የ$P2$ ኩኪዎች በዚህ ስብስብ ውስጥ ባሉት $P1$ ኩኪዎች ይተካሉ። ሙሉውን መመለስ መቀልበስ ይችላሉ።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_partition_unsupported": {
+    "message": "\"$P1$\" የተከፋፈለ ኩኪ ነው፣ ይህ የChrome ስሪት መጻፍ አይችልም። Chromeን ወደ 119 ወይም ከዚያ በኋላ ያዘምኑ።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_gone": {
+    "message": "\"$P1$\" ከእንግዲህ የለም — ጊዜው አልፎ ወይም በጣቢያው ተቀይሮ ሊሆን ይችላል። ዝርዝሩን እንደገና ይጫኑ።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_stored": {
+    "message": "Chrome \"$P1$\"ን ተቀብሏል ግን አላከማቸውም።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_imprecise_delete_one": {
+    "message": "Chrome \"$P2$\"ን መሰረዝ የሚችለው ተመሳሳይ ስም ካለው ሌላ $P1$ ኩኪ ጋር ብቻ ነው፣ ስለዚህ CookieDesk አይሰርዘውም።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_imprecise_delete_other": {
+    "message": "Chrome \"$P2$\"ን መሰረዝ የሚችለው ተመሳሳይ ስም ካላቸው ሌሎች $P1$ ኩኪዎች ጋር ብቻ ነው፣ ስለዚህ CookieDesk አይሰርዘውም።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_delete": {
+    "message": "Chrome \"$P1$\"ን አሁን እንደተከማቸው አይቀበለውም፣ ስለዚህ አንዴ ከተሰረዘ መልሶ ማስቀመጥ አይቻልም። ያለ መቀልበስ ይሰረዝ?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_removed": {
+    "message": "\"$P1$\"ን መሰረዝ አልተቻለም።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_no_permission": {
+    "message": "CookieDesk ወደ $P1$ መዳረሻ የለውም። መጀመሪያ ለዚህ ጣቢያ መዳረሻ ይስጡ።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_secure_shadow": {
+    "message": "\"$P1$\" የተባለ Secure ኩኪ ለ$P2$ አስቀድሞ አለ። Chrome ተመሳሳይ ስም ያለው Secure ያልሆነ ኩኪ እንዲተካው ወይም ከጎኑ እንዲቀመጥ አይፈቅድም። Secureን ያብሩ፣ ወይም የተለየ ስም ይጠቀሙ።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_rejected": {
+    "message": "Chrome \"$P1$\"ን ምክንያት ሳይሰጥ ውድቅ አድርጓል። ምንም አልተቀየረም።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_irreversible_replace_one": {
+    "message": "Chrome $P2$ን አሁን እንደተከማቸ አይቀበለውም፣ ስለዚህ አንዴ ከተተካ መልሶ ማስቀመጥ አይቻልም። ለእሱ ያለ መቀልበስ ይቀጥሉ?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_replace_other": {
+    "message": "Chrome $P2$ን አሁን እንደተከማቹ አይቀበላቸውም፣ ስለዚህ አንዴ ከተተኩ መልሶ ማስቀመጥ አይቻልም። ለእነሱ ያለ መቀልበስ ይቀጥሉ?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_too_large_to_undo": {
+    "message": "ይህ ለውጥ የመቀልበሻ ቅጂ ለማቆየት በጣም ብዙ ውሂብ ($P1$ ኪባ) ይነካል። ያለ መቀልበስ ይቀጥሉ?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_duplicate_in_file": {
+    "message": "ፋይሉ \"$P1$\"ን ለተመሳሳይ ጎራ እና መንገድ ሁለት ጊዜ ይዟል።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_undo_expired": {
+    "message": "የሚቀለበስ ነገር የለም — መቀልበስ ለ10 ደቂቃዎች ይቆያል።"
+  },
+  "err_undo_conflict": {
+    "message": "$P1$ ከ\"$P2$\" በኋላ ተቀይሯል። አሁን መቀልበስ አዲሱን እሴት ይተካዋል። ለማንኛውም ይቀለበስ?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_incomplete": {
+    "message": "ያልተሟላ፦ $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_added": {
+    "message": "\"$P1$\" ተጨምሯል",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_edited": {
+    "message": "\"$P1$\" ተስተካክሏል",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted": {
+    "message": "\"$P1$\" ተሰርዟል",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_expired": {
+    "message": "\"$P1$\" ተሰርዟል (የሚያልፍበት ጊዜ ባለፈው)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_one": {
+    "message": "$P1$ ኩኪ ተሰርዟል",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_other": {
+    "message": "$P1$ ኩኪዎች ተሰርዘዋል",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_one": {
+    "message": "$P1$ ኩኪ ገብቷል",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_other": {
+    "message": "$P1$ ኩኪዎች ገብተዋል",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_undid": {
+    "message": "ተቀልብሷል፦ $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_saved": {
+    "message": "\"$P1$\" ተቀምጧል",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_draft": {
+    "message": "ኩኪው name፣ value፣ domain እና path ያለው ነገር መሆን አለበት።"
+  },
+  "v_name_type": {
+    "message": "የኩኪ ስም ጽሑፍ መሆን አለበት።"
+  },
+  "v_value_type": {
+    "message": "የኩኪ እሴት ጽሑፍ መሆን አለበት።"
+  },
+  "v_domain_type": {
+    "message": "ጎራው ጽሑፍ መሆን አለበት።"
+  },
+  "v_path_type": {
+    "message": "መንገዱ ጽሑፍ መሆን አለበት።"
+  },
+  "v_flag_type": {
+    "message": "$P1$ true ወይም false መሆን አለበት።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_samesite": {
+    "message": "SameSite ከ$P1$ አንዱ መሆን አለበት።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_name_control": {
+    "message": "ስሙ ኩኪዎች ሊይዟቸው የማይችሉ የቁጥጥር ቁምፊዎችን (እንደ አዲስ መስመር ወይም tab) ይዟል።"
+  },
+  "v_name_semicolon": {
+    "message": "ስሙ \";\" ይዟል፣ ይህም ኩኪውን ቀድሞ ያጠናቅቀዋል።"
+  },
+  "v_name_equals": {
+    "message": "ስሙ \"=\" ይዟል፣ ይህም በኩኪ ውስጥ ስምን ከእሴት ይለያል።"
+  },
+  "v_value_control": {
+    "message": "እሴቱ ኩኪዎች ሊይዟቸው የማይችሉ የቁጥጥር ቁምፊዎችን (እንደ አዲስ መስመር ወይም tab) ይዟል።"
+  },
+  "v_value_semicolon": {
+    "message": "እሴቱ \";\" ይዟል፣ ይህም ኩኪውን ቀድሞ ያጠናቅቀዋል። ኢንኮድ ያድርጉት (ለምሳሌ በencodeURIComponent)።"
+  },
+  "v_empty_cookie": {
+    "message": "ኩኪ ስም ወይም እሴት ያስፈልገዋል፤ ሁለቱም ባዶ ናቸው።"
+  },
+  "v_empty_name": {
+    "message": "ይህ ኩኪ ባዶ ስም አለው። አንዳንድ ጣቢያዎች እና መሣሪያዎች ስም የሌላቸውን ኩኪዎች በደንብ አያስተናግዱም።"
+  },
+  "v_too_large": {
+    "message": "ስም እና እሴት አንድ ላይ $P1$ ባይት (UTF-8) ናቸው፤ Chrome ቢበዛ $P2$ ይፈቅዳል።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "v_path_slash": {
+    "message": "መንገዱ በ\"/\" መጀመር አለበት።"
+  },
+  "v_path_too_long": {
+    "message": "መንገዱ ከ$P1$ ባይት ይረዝማል።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_path_chars": {
+    "message": "መንገዱ ኩኪዎች ሊይዟቸው የማይችሉ የቁጥጥር ቁምፊዎችን ወይም \";\" ይዟል።"
+  },
+  "v_domain_empty": {
+    "message": "ጎራው ባዶ ነው። ኩኪው የሚመለከተውን ጣቢያ ያስገቡ፣ ለምሳሌ example.com።"
+  },
+  "v_domain_too_long": {
+    "message": "ጎራው ከ$P1$ ባይት ይረዝማል።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_domain_invalid": {
+    "message": "ጎራው ትክክለኛ የአስተናጋጅ ስም አይደለም። በነጥብ የተለያዩ ፊደላትን፣ አኃዞችን እና ሰረዞችን ይጠቀሙ (ዓለም አቀፍ ስሞች በpunycode መሆን አለባቸው፣ እንደ xn--...)።"
+  },
+  "v_domain_leading_dot": {
+    "message": "አስተናጋጅ-ብቻ ኩኪ በጎራው መጀመሪያ ላይ ነጥብ ሊኖረው አይችልም፤ ነጥቡ ኩኪው ለንዑስ ጎራዎችም ይሠራል ማለት ነው።"
+  },
+  "v_domain_public_suffix": {
+    "message": "\"$P1$\" ህዝባዊ ቅጥያ ነው (እንደ .com ወይም .co.uk በመዝጋቢ የሚቆጣጠር ጎራ)፣ ስለዚህ አሳሾች በሙሉ ላይ የሚሠሩ ኩኪዎችን አይቀበሉም።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_samesite_none_insecure": {
+    "message": "SameSite=None ኩኪዎች Secure መሆን አለባቸው — ካልሆነ Chrome ውድቅ ያደርጋቸዋል። Secureን ያብሩ ወይም ሌላ SameSite ይምረጡ።"
+  },
+  "v_partitioned_insecure": {
+    "message": "የተከፋፈሉ ኩኪዎች Secure መሆን አለባቸው — ካልሆነ Chrome ውድቅ ያደርጋቸዋል። Secureን ያብሩ ወይም ክፍፍሉን ያስወግዱ።"
+  },
+  "v_prefix_secure": {
+    "message": "\"$P1$...\" የተሰኙ ኩኪዎች Secure መሆን አለባቸው። Secureን ያብሩ ወይም የኩኪውን ስም ይቀይሩ።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_host_prefix_domain": {
+    "message": "\"__Host-...\" የተሰኙ ኩኪዎች አስተናጋጅ-ብቻ መሆን አለባቸው (Domain ባህሪ የለም፣ ስለዚህ ከንዑስ ጎራዎች ጋር መጋራት የለም)። አስተናጋጅ-ብቻን ያብሩ ወይም የኩኪውን ስም ይቀይሩ።"
+  },
+  "v_host_prefix_path": {
+    "message": "\"__Host-...\" የተሰኙ ኩኪዎች መንገዳቸው \"/\" መሆን አለበት።"
+  },
+  "v_bad_expiration": {
+    "message": "የሚያልፍበት ጊዜ ከ1970 ጀምሮ ያለ ውሱን የሰከንዶች ቁጥር መሆን አለበት።"
+  },
+  "v_expired_deletes": {
+    "message": "ባለፈ የሚያልፍበት ጊዜ ማስቀመጥ ይህን ኩኪ ይሰርዘዋል።"
+  },
+  "v_clamped": {
+    "message": "Chrome የኩኪ ዕድሜን በ$P1$ ቀናት ይገድባል፤ ከዚያ በኋላ ያለ ጊዜ ሲቀመጥ ያጥራል።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_expiration_missing": {
+    "message": "የክፍለ ጊዜ ያልሆነ ኩኪ የሚያልፍበት ቀን ያስፈልገዋል። አንዱን ይምረጡ ወይም ኩኪውን እንደ የክፍለ ጊዜ ኩኪ ምልክት ያድርጉ።"
+  },
+  "v_partition_type": {
+    "message": "የክፍፍል ቁልፍ topLevelSite ያለው ነገር መሆን አለበት።"
+  },
+  "v_partition_site_type": {
+    "message": "የክፍፍሉ ከፍተኛ ደረጃ ጣቢያ እንደ https://example.com ያለ ጽሑፍ መሆን አለበት።"
+  },
+  "v_partition_site_form": {
+    "message": "የክፍፍሉ ከፍተኛ ደረጃ ጣቢያ https://example.com መምሰል አለበት (https፣ ያለ መንገድ ወይም ወደብ)።"
+  },
+  "v_partition_flag": {
+    "message": "የክፍፍሉ hasCrossSiteAncestor true ወይም false መሆን አለበት።"
+  },
+  "v_partition_cross_site": {
+    "message": "የኩኪው ጎራ ከ$P1$ ጋር በተመሳሳይ ጣቢያ ላይ አይደለም፣ ስለዚህ Chrome hasCrossSiteAncestor true እንዲሆን ይጠይቃል።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_other_site": {
+    "message": "የዚህ ኩኪ ጎራ ($P1$) ከአሁኑ ጣቢያ ($P2$) ውጭ ነው።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_entry": {
+    "message": "ግቤት $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_entry_named": {
+    "message": "ግቤት $P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_bad_samesite": {
+    "message": "$P1$፦ sameSite ከno_restriction፣ lax፣ strict፣ unspecified አንዱ አይደለም።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bool": {
+    "message": "$P1$፦ \"$P2$\" true ወይም false መሆን አለበት።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_text": {
+    "message": "$P1$፦ \"$P2$\" ጽሑፍ መሆን አለበት።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_not_object": {
+    "message": "$P1$ የኩኪ ነገር አይደለም።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_expiration_type": {
+    "message": "$P1$፦ \"expirationDate\" ቁጥር መሆን አለበት።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_key": {
+    "message": "$P1$፦ partitionKey ጽሑፍ topLevelSite ያለው ነገር መሆን አለበት።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_flag": {
+    "message": "$P1$፦ partitionKey.hasCrossSiteAncestor true ወይም false መሆን አለበት።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_line": {
+    "message": "መስመር $P1$ የcookies.txt ግቤት አይደለም (በtab የተለዩ 7 መስኮች ይጠበቃሉ፣ $P2$ ተገኝተዋል)።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_line_flag_subdomains": {
+    "message": "መስመር $P1$፦ የንዑስ ጎራዎች ባንዲራ TRUE ወይም FALSE መሆን አለበት።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_flag_secure": {
+    "message": "መስመር $P1$፦ የsecure ባንዲራ TRUE ወይም FALSE መሆን አለበት።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_expiry": {
+    "message": "መስመር $P1$፦ የሚያልፍበት ጊዜ ሙሉ የሰከንዶች ቁጥር መሆን አለበት።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_not_text": {
+    "message": "ፋይሉ እንደ ጽሑፍ ሊነበብ አልቻለም።"
+  },
+  "io_too_large": {
+    "message": "ፋይሉ ከ$P1$ ባይት የማስመጣት ገደብ ይበልጣል።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_json": {
+    "message": "ፋይሉ JSON ይመስላል ግን ሊተነተን አልቻለም።"
+  },
+  "io_bad_version": {
+    "message": "ይህ የCookieDesk ፋይል የማይደገፍ ስሪት አለው።"
+  },
+  "io_no_cookie_list": {
+    "message": "የCookieDesk ፋይል የ\"cookies\" ዝርዝር የለውም።"
+  },
+  "io_unknown_format": {
+    "message": "ይህ JSON የCookieDesk ወደ ውጭ የተላከ ፋይልም የኩኪዎች ዝርዝርም አይደለም።"
+  },
+  "io_no_cookies": {
+    "message": "ፋይሉ ምንም ኩኪዎች የሉትም።"
+  },
+  "io_too_many": {
+    "message": "ፋይሉ $P1$ ኩኪዎች አሉት፤ ገደቡ $P2$ ነው።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_issue": {
+    "message": "$P1$፦ $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_duplicate": {
+    "message": "$P1$፦ ሌላ ግቤት ተመሳሳይ ስም፣ ጎራ፣ መንገድ እና ክፍፍል አለው።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "when": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "when_passed": {
+    "message": "አስቀድሞ አልፏል"
+  },
+  "when_under_day": {
+    "message": "ከአንድ ቀን በታች ውስጥ"
+  },
+  "explain_third_party": {
+    "message": "በ$P1$ የተዘጋጀ፣ ከ$P2$ የተለየ ጣቢያ፦ የሶስተኛ ወገን ኩኪ።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_third_party_partitioned": {
+    "message": "በ$P1$ የተዘጋጀ፣ ከ$P2$ የተለየ ጣቢያ፦ የሶስተኛ ወገን ኩኪ፣ በ$P2$ ክፍፍል ውስጥ የተቀመጠ።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_host_prefix": {
+    "message": "__Host- ቅድመ ቅጥያ Chrome Secure፣ Domain ባህሪ አለመኖር እና Path=/ እንዲጠይቅ ያደርጋል፣ ስለዚህ ምንም ንዑስ ጎራ ሊያዘጋጀው ወይም ሊተካው አይችልም።"
+  },
+  "explain_secure_prefix": {
+    "message": "__Secure- ቅድመ ቅጥያ Chrome በSecure ባንዲራ ብቻ እንዲቀበለው ያደርጋል።"
+  },
+  "explain_scope_host": {
+    "message": "ወደ $P1$ ራሱ ብቻ ይላካል፣ ወደ ንዑስ ጎራዎቹ አይላክም።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_scope_domain": {
+    "message": "ወደ $P1$ እና ወደ ሁሉም ንዑስ ጎራዎቹ (እንደ www.$P1$) ይላካል።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_path_all": {
+    "message": "በዚያ አስተናጋጅ ላይ ለእያንዳንዱ መንገድ ከሚደረጉ ጥያቄዎች ጋር ይላካል።"
+  },
+  "explain_path_under": {
+    "message": "በ$P1$ ስር ላሉ መንገዶች ከሚደረጉ ጥያቄዎች ጋር ብቻ ይላካል።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_secure": {
+    "message": "Secure፦ በHTTPS ብቻ ይላካል።"
+  },
+  "explain_not_secure": {
+    "message": "Secure አይደለም፦ በተራ HTTP ላይም ይላካል፣ በዚያ አውታረ መረብ ላይ ያለ ማንኛውም ሰው ሊያነበው ይችላል።"
+  },
+  "explain_httponly": {
+    "message": "HttpOnly፦ ለገጹ JavaScript አይታይም (document.cookie ሊያነበው አይችልም)፣ ይህም ከተሰገሰጉ ስክሪፕቶች ያርቀዋል።"
+  },
+  "explain_script_readable": {
+    "message": "በገጹ ላይ በሚሰራ በማንኛውም ስክሪፕት ሊነበብ እና ሊቀየር ይችላል።"
+  },
+  "explain_samesite_none": {
+    "message": "SameSite=None፦ Chrome የሶስተኛ ወገን ኩኪዎችን በሚፈቅድበት (ማንነት የማያሳውቅ በነባሪነት ያግዳቸዋል) ከተሻጋሪ ጣቢያ ጥያቄዎች (የተካተቱ ፍሬሞች፣ ምስሎች፣ ከሌሎች ጣቢያዎች የሚመጡ ጥያቄዎች) ጋርም ሊላክ ይችላል። ለዚህ ነው Secure መሆን ያለበት።"
+  },
+  "explain_samesite_lax": {
+    "message": "SameSite=Lax፦ ወደ ጣቢያው ሲሄዱ፣ በሌላ ጣቢያ ካለ አገናኝ ጨምሮ፣ ይላካል፣ ነገር ግን የሌሎች ጣቢያዎች ገጾች ከጀርባ ከሚያደርጓቸው ጥያቄዎች ጋር አይላክም።"
+  },
+  "explain_samesite_strict": {
+    "message": "SameSite=Strict፦ አስቀድመው በተመሳሳይ ጣቢያ ላይ ሲሆኑ ብቻ ይላካል። ከሌላ ጣቢያ አገናኝ ሲደርሱ የመጀመሪያው ጥያቄ ያለሱ ይሄዳል።"
+  },
+  "explain_samesite_unset": {
+    "message": "SameSite ባህሪ የለም፦ Chrome እንደ Lax ይቆጥረዋል።"
+  },
+  "explain_session": {
+    "message": "የክፍለ ጊዜ ኩኪ፦ አሳሹ ሲዘጋ ይሰረዛል (Chrome ሲጀምር የቀድሞ ክፍለ ጊዜዎን ካልመለሰ በስተቀር)።"
+  },
+  "explain_expires": {
+    "message": "ጊዜው የሚያልፈው $P1$። Chrome ማንኛውንም የሚያልፍበት ጊዜ ኩኪው ለመጨረሻ ጊዜ ከተዘጋጀበት ጀምሮ በ400 ቀናት ይገድባል።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition": {
+    "message": "የተከፋፈለ (CHIPS)፦ ለእያንዳንዱ ከፍተኛ ደረጃ ጣቢያ ለየብቻ ይከማቻል። ይህ ቅጂ የሚላከው $P1$ በአድራሻ አሞሌው ውስጥ ያለው ጣቢያ ሲሆን ብቻ ነው።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition_cross": {
+    "message": "በዚያ ክፍፍል ተሻጋሪ ጣቢያ ክፍል ውስጥ ነው (ሌላ ጣቢያ በገጹ እና በዚህ ኩኪ ጣቢያ መካከል ሲሆን የሚያገለግል)፣ ከተመሳሳይ ጣቢያ ክፍል ተለይቶ ይቀመጣል።"
+  },
+  "explain_partition_same": {
+    "message": "በዚያ ክፍፍል ተመሳሳይ ጣቢያ ክፍል ውስጥ ነው፣ ከተሻጋሪ ጣቢያ ክፍል ተለይቶ ይቀመጣል።"
+  },
+  "explain_partition_other": {
+    "message": "በሌላ ጣቢያ ስር ያለ ተመሳሳይ የኩኪ ስም የተለየ ኩኪ ነው።"
+  },
+  "explain_jwt": {
+    "message": "እሴቱ JSON Web Token ይመስላል።"
+  },
+  "explain_jwt_exp": {
+    "message": "እሴቱ JSON Web Token ይመስላል፤ ቶከኑ ራሱ ጊዜው የሚያልፈው $P1$ እንደሆነ ይናገራል።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_size": {
+    "message": "Chrome ለስም እና እሴት አንድ ላይ ከሚፈቅደው 4096 ባይት ውስጥ $P1$።",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

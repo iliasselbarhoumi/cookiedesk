@@ -26,8 +26,8 @@ test('formatExpiry: session, expired, and coarse relative times', () => {
   assert.equal(formatExpiry(at(-1), now), 'Expired');
   assert.equal(formatExpiry(at(0), now), 'Expired');
   assert.equal(formatExpiry(at(30), now), 'in <1 min');
-  assert.equal(formatExpiry(at(60), now), 'in 1 min');
-  assert.equal(formatExpiry(at(59 * 60), now), 'in 59 min');
+  assert.equal(formatExpiry(at(60), now), 'in 1 minute');
+  assert.equal(formatExpiry(at(59 * 60), now), 'in 59 minutes');
   assert.equal(formatExpiry(at(3600), now), 'in 1 hour');
   assert.equal(formatExpiry(at(5 * 3600), now), 'in 5 hours');
   assert.equal(formatExpiry(at(3.5 * 86400), now), 'in 3 days');

@@ -2,6 +2,7 @@
 // Kept isolated so a change in Chrome's partitioning model is a local edit (spec §10).
 
 import { registrableDomain } from './site.js';
+import { t } from '../lib/i18n.js';
 
 export const MIN_PARTITION_KEY = 119;
 export const MIN_CROSS_SITE_ANCESTOR = 130;
@@ -65,12 +66,16 @@ export function normalizePartitionKey(pk, cookieDomain, feats) {
   return { topLevelSite, hasCrossSiteAncestor: cross };
 }
 
-export function partitionLabel(pk, site) {
+/** Where a partitioned cookie lives: "this site", "a.com", or "a.com, cross-site context". */
+export function partitionPlace(pk, site) {
   if (!pk?.topLevelSite) return '';
   const top = hostOf(pk.topLevelSite) ?? pk.topLevelSite;
-  const where = site && top === site ? 'this site' : top;
-  const ctx = pk.hasCrossSiteAncestor === true ? ', cross-site context' : '';
-  return `Partitioned under ${where}${ctx}`;
+  const where = site && top === site ? t('partition_this_site') : top;
+  return pk.hasCrossSiteAncestor === true ? t('partition_cross_site', where) : where;
+}
+
+export function partitionLabel(pk, site) {
+  return pk?.topLevelSite ? t('partitioned_under', partitionPlace(pk, site)) : '';
 }
 
 /**

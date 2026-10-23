@@ -1,0 +1,2215 @@
+{
+  "extension_name": {
+    "message": "Уређивач колачића: преглед, измена, брисање | CookieDesk"
+  },
+  "extension_description": {
+    "message": "Прегледајте, мењајте, додајте и бришите колачиће по сајту. Претрага, увоз и извоз, подељени колачићи. Без реклама и праћења."
+  },
+  "btn_ok": {
+    "message": "OK"
+  },
+  "btn_cancel": {
+    "message": "Откажи"
+  },
+  "btn_close": {
+    "message": "Затвори"
+  },
+  "btn_delete": {
+    "message": "Обриши"
+  },
+  "btn_copy": {
+    "message": "Копирај"
+  },
+  "btn_save": {
+    "message": "Сачувај"
+  },
+  "btn_export": {
+    "message": "Извези"
+  },
+  "btn_later": {
+    "message": "Касније"
+  },
+  "dismiss": {
+    "message": "Сакриј"
+  },
+  "back": {
+    "message": "Назад"
+  },
+  "back_esc": {
+    "message": "Назад (Esc)"
+  },
+  "back_to_list": {
+    "message": "Назад на листу"
+  },
+  "title_count": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "empty_name": {
+    "message": "(празан назив)"
+  },
+  "empty_value": {
+    "message": "(празна вредност)"
+  },
+  "empty_short": {
+    "message": "(празно)"
+  },
+  "names_more": {
+    "message": "$P1$ и још $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "done": {
+    "message": "Готово"
+  },
+  "undo": {
+    "message": "Опозови"
+  },
+  "undo_nothing": {
+    "message": "Нема шта да се опозове"
+  },
+  "undo_entry": {
+    "message": "Опозови: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_interrupted": {
+    "message": "Опозив је прекинут: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "redo_entry": {
+    "message": "Понови: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "support_title": {
+    "message": "Подржите CookieDesk на Ko-fi"
+  },
+  "supporter_title": {
+    "message": "Хвала што подржавате CookieDesk!"
+  },
+  "add_cookie": {
+    "message": "Додај колачић"
+  },
+  "add_cookie_title": {
+    "message": "Додај колачић (n)"
+  },
+  "more_actions": {
+    "message": "Још радњи"
+  },
+  "menu_group_transfer": {
+    "message": "Извоз и увоз"
+  },
+  "menu_group_sets": {
+    "message": "Скупови колачића"
+  },
+  "export_json_title": {
+    "message": "Извези као JSON"
+  },
+  "export_txt_title": {
+    "message": "Извези као Netscape cookies.txt"
+  },
+  "tile_snippet": {
+    "message": "Исечак"
+  },
+  "tile_snippet_title": {
+    "message": "Копирај као исечак document.cookie"
+  },
+  "tile_import": {
+    "message": "Увоз"
+  },
+  "tile_import_title": {
+    "message": "Увези JSON или cookies.txt"
+  },
+  "tile_save_set": {
+    "message": "Сачувај скуп"
+  },
+  "tile_save_set_title": {
+    "message": "Сачувај ове колачиће као именовану датотеку скупа"
+  },
+  "tile_restore": {
+    "message": "Врати"
+  },
+  "tile_restore_title": {
+    "message": "Врати сачуван скуп (прво преглед)"
+  },
+  "tile_compare": {
+    "message": "Упореди"
+  },
+  "tile_compare_title": {
+    "message": "Упореди сачуван скуп са тренутним стањем или два скупа"
+  },
+  "tile_copy_to": {
+    "message": "Копирај у…"
+  },
+  "tile_copy_to_title": {
+    "message": "Копирај приказане колачиће у друго складиште (обично ↔ анонимно)"
+  },
+  "menu_bulk_delete": {
+    "message": "Обриши приказане колачиће…"
+  },
+  "menu_access": {
+    "message": "Приступ и подешавања"
+  },
+  "menu_shortcuts": {
+    "message": "Пречице"
+  },
+  "menu_sidepanel": {
+    "message": "Отвори у бочном панелу"
+  },
+  "menu_rate": {
+    "message": "Оцените CookieDesk"
+  },
+  "menu_support": {
+    "message": "Подршка на Ko-fi"
+  },
+  "search_placeholder": {
+    "message": "Претражи колачиће"
+  },
+  "search_label": {
+    "message": "Филтрирај колачиће по називу, вредности или домену"
+  },
+  "search_title": {
+    "message": "Филтер по називу, вредности или домену"
+  },
+  "cookie_store": {
+    "message": "Складиште колачића"
+  },
+  "cookies_list": {
+    "message": "Колачићи"
+  },
+  "restricted_page": {
+    "message": "Ограничена страница"
+  },
+  "loading": {
+    "message": "Учитавање…"
+  },
+  "state_unknown": {
+    "message": "Кликните на дугме CookieDesk на траци са алаткама да бисте приказали колачиће ове картице."
+  },
+  "state_unknown_hint": {
+    "message": "Chrome дели адресу картице тек после тог клика или за сајтове које сте дозволили."
+  },
+  "state_error": {
+    "message": "Нешто је пошло наопако: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "state_no_access": {
+    "message": "CookieDesk још нема приступ сајту $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "grant_site": {
+    "message": "Дозволи на $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "chrome_will_ask": {
+    "message": "Chrome ће питати:"
+  },
+  "prompt_site": {
+    "message": "Читање и мењање ваших података на свим сајтовима $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "prompt_all": {
+    "message": "Читање и мењање свих ваших података на свим веб-сајтовима"
+  },
+  "only_this_site": {
+    "message": "Само колачићи овог сајта, ништа друго."
+  },
+  "allow_all_instead": {
+    "message": "Дозволи све сајтове"
+  },
+  "restricted_browser": {
+    "message": "Ово је страница Chrome-а. Chrome не дозвољава ниједном проширењу да овде чита или мења колачиће."
+  },
+  "restricted_webstore": {
+    "message": "Ово је Chrome Web Store. Chrome блокира сва проширења на њему, па се његови колачићи не могу приказати."
+  },
+  "restricted_extension": {
+    "message": "Ово је страница самог проширења. Њено складиште нису колачићи сајта, па нема шта да се прикаже."
+  },
+  "restricted_file": {
+    "message": "Ово је локална датотека. Датотеке отворене са диска немају колачиће."
+  },
+  "restricted_other": {
+    "message": "Ова страница није сајт (на пример празна страница или data:), па нема колачиће."
+  },
+  "live_just_now": {
+    "message": "Малопре: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "note_third_party": {
+    "message": "Колачићи уграђених сајтова приказују се само за сајтове које сте дозволили."
+  },
+  "note_no_partitions": {
+    "message": "Ваша верзија Chrome-а не може да прикаже подељене колачиће, па листа можда није потпуна."
+  },
+  "empty_no_match": {
+    "message": "Ниједан колачић не одговара на „$P1$“.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "empty_none": {
+    "message": "Нема колачића за $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clear_search": {
+    "message": "Обриши претрагу"
+  },
+  "change_changed": {
+    "message": "Измењено: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_added": {
+    "message": "Додато: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_removed": {
+    "message": "Уклоњено: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_one": {
+    "message": "Колачићи: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_other": {
+    "message": "Колачићи: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_filtered_one": {
+    "message": "Колачићи: $P2$ од $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_filtered_other": {
+    "message": "Колачићи: $P2$ од $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_partitioned": {
+    "message": "Подељени: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "store_default": {
+    "message": "Подразумевано"
+  },
+  "store_incognito": {
+    "message": "Анонимно"
+  },
+  "store_n": {
+    "message": "Складиште $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "session": {
+    "message": "Сесија"
+  },
+  "expired": {
+    "message": "Истекао"
+  },
+  "expiry_under_minute": {
+    "message": "за мање од минута"
+  },
+  "expiry_on_close": {
+    "message": "Брише се када се прегледач затвори"
+  },
+  "expires_at": {
+    "message": "Истиче: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "badge_protected": {
+    "message": "Заштићен: групно брисање, увоз и враћање скупа га пропуштају (p)"
+  },
+  "hint_httponly": {
+    "message": "HttpOnly: није видљив JavaScript-у на страници (document.cookie не може да га прочита)"
+  },
+  "hint_secure": {
+    "message": "Secure: шаље се само преко HTTPS-а"
+  },
+  "hint_samesite_none": {
+    "message": "SameSite=None: шаље се и у захтевима између сајтова"
+  },
+  "hint_samesite_lax": {
+    "message": "SameSite=Lax: шаље се при навигацији на сајт, али не у подзахтевима између сајтова"
+  },
+  "hint_samesite_strict": {
+    "message": "SameSite=Strict: шаље се само у захтевима унутар истог сајта"
+  },
+  "badge_partitioned": {
+    "message": "Подељен"
+  },
+  "partitioned_under": {
+    "message": "Подељен под $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partition_this_site": {
+    "message": "овај сајт"
+  },
+  "partition_cross_site": {
+    "message": "$P1$, контекст између сајтова",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "row_protected": {
+    "message": "Заштићен"
+  },
+  "row_unprotect_title": {
+    "message": "Уклони заштиту (p)"
+  },
+  "row_protect_title": {
+    "message": "Заштити од групног брисања, увоза и враћања скупа (p)"
+  },
+  "copy_value": {
+    "message": "Копирај вредност"
+  },
+  "copied": {
+    "message": "Копирано"
+  },
+  "copy_value_title": {
+    "message": "Копирај вредност (c)"
+  },
+  "row_delete_title": {
+    "message": "Обриши (Del), може да се опозове"
+  },
+  "irreversible_title": {
+    "message": "Ово не може да се опозове"
+  },
+  "continue_no_undo": {
+    "message": "Настави без опозива"
+  },
+  "undo_anyway_title": {
+    "message": "Опозвати свеједно?"
+  },
+  "undo_anyway": {
+    "message": "Опозови свеједно"
+  },
+  "undone": {
+    "message": "Опозвано: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_skipped": {
+    "message": "Неки колачићи су већ истекли и нису враћени: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_refused": {
+    "message": "Chrome их више не прихвата у оваквом облику, па нису враћени: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clipboard_failed": {
+    "message": "Копирање није успело: клипборд овде није доступан."
+  },
+  "protected_on": {
+    "message": "„$P1$“ је заштићен: групно брисање, увоз и враћање скупа ће га пропуштати.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_off": {
+    "message": "„$P1$“ више није заштићен.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protect_limit": {
+    "message": "Можете да заштитите највише $P1$ колачића. Прво уклоните заштиту са неких.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_named": {
+    "message": "Обрисати „$P1$“?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_protected_message": {
+    "message": "Овај колачић је заштићен. Обрисати га свеједно? То можете да опозовете."
+  },
+  "nothing_to_delete": {
+    "message": "Нема шта да се обрише"
+  },
+  "all_shown_protected_one": {
+    "message": "Приказани колачић је заштићен."
+  },
+  "all_shown_protected_other": {
+    "message": "Сви приказани колачићи су заштићени (њих $P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "no_cookies_shown": {
+    "message": "Није приказан ниједан колачић."
+  },
+  "bulk_title_one": {
+    "message": "Обрисати колачиће: $P1$?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_title_other": {
+    "message": "Обрисати колачиће: $P1$?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_match": {
+    "message": "Ови колачићи одговарају на „$P1$“ на $P2$. То можете да опозовете.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "bulk_all": {
+    "message": "Сви колачићи са листе за $P1$. То можете да опозовете.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_one": {
+    "message": "Заштићени колачићи биће сачувани: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_other": {
+    "message": "Заштићени колачићи биће сачувани: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_one": {
+    "message": "Обриши колачиће: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_other": {
+    "message": "Обриши колачиће: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_to": {
+    "message": "Копирај у"
+  },
+  "copy_to_default_note": {
+    "message": "Колачићи копирани у подразумевано складиште чувају се као и сви остали: на диску и после краја ове анонимне сесије."
+  },
+  "copy_to_incognito_note": {
+    "message": "Колачићи копирани у анонимно складиште нестају са том анонимном сесијом."
+  },
+  "copy_title_one": {
+    "message": "Копирај колачиће: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_title_other": {
+    "message": "Копирај колачиће: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_from": {
+    "message": "Из складишта „$P1$“ у:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_replace_note": {
+    "message": "Колачићи са истим називом, доменом и путањом тамо се замењују, осим заштићених. Копирање можете да опозовете."
+  },
+  "label_copied_one": {
+    "message": "Копирано колачића: $P1$, у $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_copied_other": {
+    "message": "Копирано колачића: $P1$, у $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_kept_one": {
+    "message": "Заштићени колачићи тамо остали су какви су били: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_kept_other": {
+    "message": "Заштићени колачићи тамо остали су какви су били: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_done_one": {
+    "message": "Копирано колачића: $P1$, у $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_done_other": {
+    "message": "Копирано колачића: $P1$, у $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_undo_hint": {
+    "message": "Опозовите овде или касније из складишта „$P1$“.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_nothing": {
+    "message": "$P1$ већ има управо ове колачиће.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_cant": {
+    "message": "Поређење није могуће"
+  },
+  "compare_now": {
+    "message": "$P1$ сада",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_other_site": {
+    "message": "Овај скуп је сачуван за $P1$, а не за $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "compare_too_many": {
+    "message": "Изаберите један скуп за поређење са тренутним стањем или два скупа за међусобно поређење."
+  },
+  "set_file_too_large": {
+    "message": "$P1$ је превелик да би био скуп колачића.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_aria": {
+    "message": "Поређење скупова колачића"
+  },
+  "compare_changed_fields": {
+    "message": "Измењено: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_one": {
+    "message": "Нема разлика, истих колачића: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_other": {
+    "message": "Нема разлика, истих колачића: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_summary": {
+    "message": "Додато: $P1$, уклоњено: $P2$, измењено: $P3$, непромењено: $P4$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      },
+      "p4": {
+        "content": "$4"
+      }
+    }
+  },
+  "diff_added": {
+    "message": "Додато"
+  },
+  "diff_removed": {
+    "message": "Уклоњено"
+  },
+  "diff_changed": {
+    "message": "Измењено"
+  },
+  "diff_expiry_only": {
+    "message": "Промењен је само рок важења ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "shortcuts_title": {
+    "message": "Пречице на тастатури"
+  },
+  "key_search": {
+    "message": "Претрага"
+  },
+  "key_move": {
+    "message": "Кретање кроз листу"
+  },
+  "key_first_last": {
+    "message": "Први / последњи колачић"
+  },
+  "key_edit": {
+    "message": "Измени"
+  },
+  "key_copy": {
+    "message": "Копирај вредност"
+  },
+  "key_protect": {
+    "message": "Заштити / уклони заштиту"
+  },
+  "key_delete": {
+    "message": "Обриши (може да се опозове)"
+  },
+  "key_back": {
+    "message": "Назад или обриши претрагу"
+  },
+  "key_help": {
+    "message": "Ова листа"
+  },
+  "import_kept_one": {
+    "message": "Заштићени колачићи остали су какви су били ($P1$): $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_kept_other": {
+    "message": "Заштићени колачићи остали су какви су били ($P1$): $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_nothing": {
+    "message": "Нема шта да се увезе: сваки колачић из датотеке већ је постављен управо тако."
+  },
+  "imported_one": {
+    "message": "Увезено колачића: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "imported_other": {
+    "message": "Увезено колачића: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_restored": {
+    "message": "Враћен скуп „$P1$“",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restored_one": {
+    "message": "Враћен „$P2$“: уписано колачића $P1$, обрисано $P3$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "restored_other": {
+    "message": "Враћен „$P2$“: уписано колачића $P1$, обрисано $P3$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "rate_title": {
+    "message": "Свиђа вам се CookieDesk?"
+  },
+  "rate_text": {
+    "message": "Брза оцена помаже другима да га пронађу."
+  },
+  "rate_group": {
+    "message": "Оцените у продавници"
+  },
+  "rate_stars_one": {
+    "message": "Звездица: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "rate_stars_other": {
+    "message": "Звездица: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_confirm_title": {
+    "message": "Јесте ли ме частили кафом?"
+  },
+  "kofi_confirm_text": {
+    "message": "Хвала, то одржава CookieDesk."
+  },
+  "kofi_yes": {
+    "message": "Да, јесам"
+  },
+  "kofi_not_yet": {
+    "message": "Још нисам"
+  },
+  "kofi_milestone_one": {
+    "message": "Измена направљених у CookieDesk-у: $P1$!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_milestone_other": {
+    "message": "Измена направљених у CookieDesk-у: $P1$!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_free": {
+    "message": "Бесплатан је и направио га је један програмер."
+  },
+  "buy_coffee": {
+    "message": "Почастите ме кафом"
+  },
+  "edit_cookie": {
+    "message": "Измени колачић"
+  },
+  "add_cookie_short": {
+    "message": "Додај колачић"
+  },
+  "explain_title": {
+    "message": "Шта овај колачић ради"
+  },
+  "field_name": {
+    "message": "Назив"
+  },
+  "field_value": {
+    "message": "Вредност"
+  },
+  "field_domain": {
+    "message": "Домен"
+  },
+  "field_path": {
+    "message": "Путања"
+  },
+  "field_expiry": {
+    "message": "Рок важења"
+  },
+  "field_expires": {
+    "message": "Истиче"
+  },
+  "field_attributes": {
+    "message": "Атрибути"
+  },
+  "field_partition": {
+    "message": "Подела"
+  },
+  "host_only": {
+    "message": "Само домаћин"
+  },
+  "host_only_title": {
+    "message": "Само домаћин: нема атрибута Domain, па га поддомени не добијају"
+  },
+  "session_title": {
+    "message": "Сесијски колачић: нестаје када се прегледач затвори"
+  },
+  "httponly_title": {
+    "message": "HttpOnly: није видљив JavaScript-у на страници"
+  },
+  "samesite_unspecified": {
+    "message": "Није наведено"
+  },
+  "partitioned_chips": {
+    "message": "Подељен (CHIPS)"
+  },
+  "top_level_site": {
+    "message": "Сајт највишег нивоа"
+  },
+  "no_partition_write": {
+    "message": "Ова верзија Chrome-а не може да уписује подељене колачиће."
+  },
+  "editor_delete_title": {
+    "message": "Обриши (може да се опозове)"
+  },
+  "bytes_of": {
+    "message": "$P1$ / $P2$ бајтова",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "access_aria": {
+    "message": "Приступ и подешавања"
+  },
+  "all_sites_on": {
+    "message": "Сви сајтови: укључено"
+  },
+  "all_sites_on_text": {
+    "message": "CookieDesk може да чита и мења колачиће на сваком сајту, укључујући уграђене."
+  },
+  "turn_off": {
+    "message": "Искључи"
+  },
+  "all_sites": {
+    "message": "Сви сајтови"
+  },
+  "all_sites_text": {
+    "message": "Необавезно. Нема више питања за сваки сајт, а колачићи уграђених сајтова (реклама, виџета, оквира за пријаву) виде се свуда."
+  },
+  "allow_all_sites": {
+    "message": "Дозволи на свим сајтовима"
+  },
+  "remove_access": {
+    "message": "Уклони приступ сајту $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "access_lead": {
+    "message": "CookieDesk види колачиће сајта тек пошто тај сајт дозволите, и ништа друго: ни садржај страница, ни историју."
+  },
+  "allowed_sites": {
+    "message": "Дозвољени сајтови"
+  },
+  "allowed_sites_count": {
+    "message": "Дозвољени сајтови · $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "all_sites_overrides": {
+    "message": "Приступ свим сајтовима је укључен, па ови нису битни док је он укључен."
+  },
+  "none_yet": {
+    "message": "Још нема."
+  },
+  "toolbar_opens": {
+    "message": "Дугме на траци отвара"
+  },
+  "surface_popup": {
+    "message": "Искачући прозор"
+  },
+  "surface_sidepanel": {
+    "message": "Бочни панел"
+  },
+  "support_feedback": {
+    "message": "Подршка и повратне информације"
+  },
+  "thanks_supporting": {
+    "message": "Хвала на подршци!"
+  },
+  "report_problem": {
+    "message": "Пријави проблем"
+  },
+  "source_code": {
+    "message": "Изворни код"
+  },
+  "privacy_line": {
+    "message": "Без мрежних захтева и без вредности колачића на диску. Опозив траје 10 минута; његове копије су у меморији и нестају када се Chrome затвори или анонимна сесија заврши."
+  },
+  "export_warning": {
+    "message": "Ова датотека садржи важеће сесијске колачиће. Свако ко је има може да се пријави као ви на овим сајтовима. Чувајте је као лозинку и обришите је када завршите."
+  },
+  "export_json_one": {
+    "message": "Извези колачиће као JSON: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_json_other": {
+    "message": "Извези колачиће као JSON: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_one": {
+    "message": "Извези колачиће као cookies.txt: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_other": {
+    "message": "Извези колачиће као cookies.txt: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_all_one": {
+    "message": "Колачић приказан за $P2$ иде у датотеку, чак и ако је HttpOnly.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_all_other": {
+    "message": "Сви колачићи приказани за $P2$ (њих $P1$) иду у датотеку, укључујући HttpOnly.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_partitioned_left_one": {
+    "message": "Подељени колачићи изостављени ($P1$): cookies.txt не може да бележи поделе. Користите JSON да их сачувате.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_partitioned_left_other": {
+    "message": "Подељени колачићи изостављени ($P1$): cookies.txt не може да бележи поделе. Користите JSON да их сачувате.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_too_big": {
+    "message": "Ова датотека има $P1$ MB. Извози колачића су много мањи; CookieDesk чита датотеке до 5 MB.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "cant_import_unchanged": {
+    "message": "Ова датотека не може да се увезе. Ништа није промењено."
+  },
+  "cant_import": {
+    "message": "Ова датотека не може да се увезе"
+  },
+  "file_unreadable": {
+    "message": "Датотека није могла да се прочита."
+  },
+  "needs_access_one": {
+    "message": "CookieDesk треба приступ за још сајтова пре него што упише ове колачиће: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "needs_access_other": {
+    "message": "CookieDesk треба приступ за још сајтова пре него што упише ове колачиће: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_allow_all_hint": {
+    "message": "Или дозволите све сајтове у делу „Приступ и подешавања“."
+  },
+  "other_sites": {
+    "message": "Остали сајтови ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "other_sites_warning": {
+    "message": "Ова датотека уписује колачиће и за сајтове осим $P1$. Колачић подметнут на другом сајту може да вас пријави на погрешан налог. Наставите само ако сте очекивали ове сајтове.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_one": {
+    "message": "Упиши колачиће и за остале сајтове: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_other": {
+    "message": "Упиши колачиће и за остале сајтове: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partitioned_under_list": {
+    "message": "Подељени под: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "warnings_count": {
+    "message": "Упозорења ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_title": {
+    "message": "Увоз колачића"
+  },
+  "import_message_one": {
+    "message": "Увести колачиће: $P1$? Колачићи са истим називом, доменом и путањом замењују се. Цео увоз можете да опозовете.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_message_other": {
+    "message": "Увести колачиће: $P1$? Колачићи са истим називом, доменом и путањом замењују се. Цео увоз можете да опозовете.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_one": {
+    "message": "Копирај колачиће као document.cookie: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_other": {
+    "message": "Копирај колачиће као document.cookie: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_warning": {
+    "message": "Исечак садржи важеће сесијске колачиће. Свако ко га има може да се пријави као ви на овом сајту. Чувајте га као лозинку."
+  },
+  "snippet_paste": {
+    "message": "Налепите га у конзолу DevTools-а на $P1$ да бисте тамо поставили ове колачиће.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_one": {
+    "message": "HttpOnly колачићи изостављени ($P1$): JavaScript на страници не може да их постави.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_other": {
+    "message": "HttpOnly колачићи изостављени ($P1$): JavaScript на страници не може да их постави.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_one": {
+    "message": "Копирано као document.cookie, колачића: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_other": {
+    "message": "Копирано као document.cookie, колачића: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_name": {
+    "message": "Назив скупа"
+  },
+  "set_name_placeholder": {
+    "message": "нпр. пријављен као администратор"
+  },
+  "save_set_title_one": {
+    "message": "Сачувај колачиће као скуп: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "save_set_title_other": {
+    "message": "Сачувај колачиће као скуп: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_file_note": {
+    "message": "Скуп је датотека на вашем рачунару; CookieDesk не чува копију. Вратите га касније из менија на $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "default_set_name": {
+    "message": "Скуп колачића"
+  },
+  "set_too_large": {
+    "message": "Ова датотека је превелика да би била скуп колачића."
+  },
+  "cant_restore_unchanged": {
+    "message": "Овај скуп не може да се врати. Ништа није промењено."
+  },
+  "cant_restore": {
+    "message": "Овај скуп не може да се врати"
+  },
+  "wrong_site_message": {
+    "message": "Овај скуп је сачуван за $P1$. Отворите $P1$ и вратите га тамо.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "wrong_site_title": {
+    "message": "Погрешан сајт. Ништа није промењено."
+  },
+  "foreign_cookies_one": {
+    "message": "Колачићи у овој датотеци припадају другим сајтовима ($P2$): $P1$. Враћање скупа мења само $P3$; за друге сајтове користите увоз.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "foreign_cookies_other": {
+    "message": "Колачићи у овој датотеци припадају другим сајтовима ($P2$): $P1$. Враћање скупа мења само $P3$; за друге сајтове користите увоз.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "plan_write": {
+    "message": "Упиши"
+  },
+  "plan_delete": {
+    "message": "Обриши"
+  },
+  "plan_protected": {
+    "message": "Заштићени, остају какви јесу"
+  },
+  "restore_title": {
+    "message": "Врати „$P1$“",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_nothing": {
+    "message": "$P1$ се већ подудара са овим скупом. Нема шта да се мења.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_message_one": {
+    "message": "Колачићи сајта $P2$ биће замењени колачићима из овог скупа (њих $P1$). Цело враћање можете да опозовете.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "restore_message_other": {
+    "message": "Колачићи сајта $P2$ биће замењени колачићима из овог скупа (њих $P1$). Цело враћање можете да опозовете.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_partition_unsupported": {
+    "message": "„$P1$“ је подељен колачић, а ова верзија Chrome-а не може да их уписује. Ажурирајте Chrome на верзију 119 или новију.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_gone": {
+    "message": "„$P1$“ више не постоји: можда је истекао или га је сајт променио. Поново учитајте листу.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_stored": {
+    "message": "Chrome је прихватио „$P1$“, али га није сачувао.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_imprecise_delete_one": {
+    "message": "Chrome може да обрише „$P2$“ само заједно са осталим колачићима истог назива (њих $P1$), па их CookieDesk неће обрисати.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_imprecise_delete_other": {
+    "message": "Chrome може да обрише „$P2$“ само заједно са осталим колачићима истог назива (њих $P1$), па их CookieDesk неће обрисати.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_delete": {
+    "message": "Chrome више не прихвата „$P1$“ у облику у ком је сачуван, па после брисања не би могао да се врати. Обрисати без опозива?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_removed": {
+    "message": "„$P1$“ није могао да се обрише.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_no_permission": {
+    "message": "CookieDesk нема приступ сајту $P1$. Прво дозволите приступ овом сајту.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_secure_shadow": {
+    "message": "За $P2$ већ постоји Secure колачић назива „$P1$“. Chrome неће дозволити да колачић без Secure истог назива замени њега или стоји поред њега. Укључите Secure или одаберите други назив.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_rejected": {
+    "message": "Chrome је одбио „$P1$“ без навођења разлога. Ништа није промењено.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_irreversible_replace_one": {
+    "message": "Chrome више не прихвата $P2$ у облику у ком је сачуван, па после замене не би могао да се врати. Наставити без опозива за њега?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_replace_other": {
+    "message": "Chrome више не прихвата $P2$ у облику у ком су сачувани, па после замене не би могли да се врате. Наставити без опозива за њих?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_too_large_to_undo": {
+    "message": "Ова измена захвата превише података ($P1$ KB) да би се чувала копија за опозив. Наставити без опозива?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_duplicate_in_file": {
+    "message": "Датотека садржи „$P1$“ два пута за исти домен и путању.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_undo_expired": {
+    "message": "Нема шта да се опозове: опозив се чува 10 минута."
+  },
+  "err_undo_conflict": {
+    "message": "$P1$ је промењен после „$P2$“. Опозив би сада преписао новију вредност. Опозвати свеједно?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_incomplete": {
+    "message": "Непотпуно: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_added": {
+    "message": "Додато „$P1$“",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_edited": {
+    "message": "Измењено „$P1$“",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted": {
+    "message": "Обрисано „$P1$“",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_expired": {
+    "message": "Обрисано „$P1$“ (рок важења у прошлости)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_one": {
+    "message": "Обрисано колачића: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_other": {
+    "message": "Обрисано колачића: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_one": {
+    "message": "Увезено колачића: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_other": {
+    "message": "Увезено колачића: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_undid": {
+    "message": "Опозвано: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_saved": {
+    "message": "Сачувано „$P1$“",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_draft": {
+    "message": "Колачић мора бити објекат са пољима name, value, domain и path."
+  },
+  "v_name_type": {
+    "message": "Назив колачића мора бити текст."
+  },
+  "v_value_type": {
+    "message": "Вредност колачића мора бити текст."
+  },
+  "v_domain_type": {
+    "message": "Домен мора бити текст."
+  },
+  "v_path_type": {
+    "message": "Путања мора бити текст."
+  },
+  "v_flag_type": {
+    "message": "$P1$ мора бити true или false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_samesite": {
+    "message": "SameSite мора бити једно од: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_name_control": {
+    "message": "Назив садржи контролне знакове (као што су нови ред или табулатор), које колачићи не могу да садрже."
+  },
+  "v_name_semicolon": {
+    "message": "Назив садржи „;“, што би прерано завршило колачић."
+  },
+  "v_name_equals": {
+    "message": "Назив садржи „=“, којим се у колачићу назив одваја од вредности."
+  },
+  "v_value_control": {
+    "message": "Вредност садржи контролне знакове (као што су нови ред или табулатор), које колачићи не могу да садрже."
+  },
+  "v_value_semicolon": {
+    "message": "Вредност садржи „;“, што би прерано завршило колачић. Кодирајте је (на пример помоћу encodeURIComponent)."
+  },
+  "v_empty_cookie": {
+    "message": "Колачићу је потребан назив или вредност; оба су празна."
+  },
+  "v_empty_name": {
+    "message": "Овај колачић има празан назив. Неки сајтови и алати лоше раде са колачићима без назива."
+  },
+  "v_too_large": {
+    "message": "Назив и вредност заједно имају $P1$ бајтова (UTF-8); Chrome дозвољава највише $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "v_path_slash": {
+    "message": "Путања мора почињати знаком „/“."
+  },
+  "v_path_too_long": {
+    "message": "Путања је дужа од $P1$ бајтова.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_path_chars": {
+    "message": "Путања садржи контролне знакове или „;“, које колачићи не могу да садрже."
+  },
+  "v_domain_empty": {
+    "message": "Домен је празан. Унесите сајт коме колачић припада, на пример example.com."
+  },
+  "v_domain_too_long": {
+    "message": "Домен је дужи од $P1$ бајтова.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_domain_invalid": {
+    "message": "Домен није исправно име домаћина. Користите слова, цифре и цртице одвојене тачкама (интернационализована имена морају бити у punycode-у, као xn--...)."
+  },
+  "v_domain_leading_dot": {
+    "message": "Колачић само за домаћина не може имати тачку на почетку домена; тачка значи да колачић важи и за поддомене."
+  },
+  "v_domain_public_suffix": {
+    "message": "„$P1$“ је јавни суфикс (домен под управом регистра, као .com или .co.uk), па прегледачи одбијају колачиће који важе за цео тај домен.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_samesite_none_insecure": {
+    "message": "Колачићи SameSite=None морају бити Secure, иначе их Chrome одбија. Укључите Secure или одаберите други SameSite."
+  },
+  "v_partitioned_insecure": {
+    "message": "Подељени колачићи морају бити Secure, иначе их Chrome одбија. Укључите Secure или уклоните поделу."
+  },
+  "v_prefix_secure": {
+    "message": "Колачићи названи „$P1$...“ морају бити Secure. Укључите Secure или преименујте колачић.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_host_prefix_domain": {
+    "message": "Колачићи названи „__Host-...“ морају бити само за домаћина (без атрибута Domain, дакле без дељења са поддоменима). Укључите „Само домаћин“ или преименујте колачић."
+  },
+  "v_host_prefix_path": {
+    "message": "Колачићи названи „__Host-...“ морају имати путању „/“."
+  },
+  "v_bad_expiration": {
+    "message": "Рок важења мора бити коначан број секунди од 1970."
+  },
+  "v_expired_deletes": {
+    "message": "Чување са роком важења у прошлости брише овај колачић."
+  },
+  "v_clamped": {
+    "message": "Chrome ограничава век колачића на $P1$ дана; каснији рок се при чувању скраћује.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_expiration_missing": {
+    "message": "Несесијском колачићу потребан је датум истека. Изаберите га или означите колачић као сесијски."
+  },
+  "v_partition_type": {
+    "message": "Кључ поделе мора бити објекат са пољем topLevelSite."
+  },
+  "v_partition_site_type": {
+    "message": "Сајт највишег нивоа у подели мора бити текст попут https://example.com."
+  },
+  "v_partition_site_form": {
+    "message": "Сајт највишег нивоа у подели мора изгледати као https://example.com (https, без путање и порта)."
+  },
+  "v_partition_flag": {
+    "message": "Поље hasCrossSiteAncestor у подели мора бити true или false."
+  },
+  "v_partition_cross_site": {
+    "message": "Домен колачића није на истом сајту као $P1$, па Chrome за њега захтева да hasCrossSiteAncestor буде true.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_other_site": {
+    "message": "Домен овог колачића ($P1$) је ван тренутног сајта ($P2$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_entry": {
+    "message": "Ставка $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_entry_named": {
+    "message": "Ставка $P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_bad_samesite": {
+    "message": "$P1$: sameSite није једно од no_restriction, lax, strict, unspecified.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bool": {
+    "message": "$P1$: „$P2$“ мора бити true или false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_text": {
+    "message": "$P1$: „$P2$“ мора бити текст.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_not_object": {
+    "message": "$P1$ није објекат колачића.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_expiration_type": {
+    "message": "$P1$: „expirationDate“ мора бити број.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_key": {
+    "message": "$P1$: partitionKey мора бити објекат са текстуалним пољем topLevelSite.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_flag": {
+    "message": "$P1$: partitionKey.hasCrossSiteAncestor мора бити true или false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_line": {
+    "message": "Ред $P1$ није ставка cookies.txt (очекивано 7 поља раздвојених табулатором, пронађено $P2$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_line_flag_subdomains": {
+    "message": "Ред $P1$: заставица поддомена мора бити TRUE или FALSE.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_flag_secure": {
+    "message": "Ред $P1$: заставица secure мора бити TRUE или FALSE.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_expiry": {
+    "message": "Ред $P1$: рок важења мора бити цео број секунди.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_not_text": {
+    "message": "Датотека није могла да се прочита као текст."
+  },
+  "io_too_large": {
+    "message": "Датотека је већа од границе увоза од $P1$ бајтова.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_json": {
+    "message": "Датотека личи на JSON, али није могла да се обради."
+  },
+  "io_bad_version": {
+    "message": "Ова CookieDesk датотека има неподржану верзију."
+  },
+  "io_no_cookie_list": {
+    "message": "CookieDesk датотека нема листу „cookies“."
+  },
+  "io_unknown_format": {
+    "message": "Овај JSON није ни CookieDesk извоз ни листа колачића."
+  },
+  "io_no_cookies": {
+    "message": "Датотека не садржи колачиће."
+  },
+  "io_too_many": {
+    "message": "Датотека има колачића: $P1$; ограничење је $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_issue": {
+    "message": "$P1$: $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_duplicate": {
+    "message": "$P1$: друга ставка има исти назив, домен, путању и поделу.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "when": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "when_passed": {
+    "message": "већ је прошло"
+  },
+  "when_under_day": {
+    "message": "за мање од једног дана"
+  },
+  "explain_third_party": {
+    "message": "Поставио га је $P1$, други сајт у односу на $P2$: колачић треће стране.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_third_party_partitioned": {
+    "message": "Поставио га је $P1$, други сајт у односу на $P2$: колачић треће стране, чува се у подели сајта $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_host_prefix": {
+    "message": "Префикс __Host- тера Chrome да захтева Secure, без атрибута Domain и са Path=/, па ниједан поддомен не може да га постави или замени."
+  },
+  "explain_secure_prefix": {
+    "message": "Префикс __Secure- значи да Chrome прихвата колачић само са заставицом Secure."
+  },
+  "explain_scope_host": {
+    "message": "Шаље се само на сам $P1$, не и на његове поддомене.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_scope_domain": {
+    "message": "Шаље се на $P1$ и на сваки његов поддомен (као www.$P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_path_all": {
+    "message": "Шаље се уз захтеве за сваку путању на том домаћину."
+  },
+  "explain_path_under": {
+    "message": "Шаље се само уз захтеве за путање испод $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_secure": {
+    "message": "Secure: шаље се само преко HTTPS-а."
+  },
+  "explain_not_secure": {
+    "message": "Није Secure: шаље се и преко обичног HTTP-а, где га може прочитати свако на мрежи."
+  },
+  "explain_httponly": {
+    "message": "HttpOnly: није видљив JavaScript-у на страници (document.cookie не може да га прочита), што га чува од убачених скрипти."
+  },
+  "explain_script_readable": {
+    "message": "Може да га чита и мења свака скрипта која ради на страници."
+  },
+  "explain_samesite_none": {
+    "message": "SameSite=None: може да се шаље и уз захтеве између сајтова (уграђени оквири, слике, захтеви са других сајтова), где Chrome уопште дозвољава колачиће трећих страна (анонимни режим их подразумевано блокира). Зато мора бити Secure."
+  },
+  "explain_samesite_lax": {
+    "message": "SameSite=Lax: шаље се када одете на сајт, укључујући и преко линка на другом сајту, али не уз захтеве које странице других сајтова упућују у позадини."
+  },
+  "explain_samesite_strict": {
+    "message": "SameSite=Strict: шаље се само када сте већ на истом сајту. Када стигнете преко линка на другом сајту, први захтев иде без њега."
+  },
+  "explain_samesite_unset": {
+    "message": "Нема атрибута SameSite: Chrome га третира као Lax."
+  },
+  "explain_session": {
+    "message": "Сесијски колачић: брише се када се прегледач затвори (осим ако Chrome при покретању враћа претходну сесију)."
+  },
+  "explain_expires": {
+    "message": "Истиче: $P1$. Chrome ограничава сваки рок на 400 дана од последњег постављања колачића.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition": {
+    "message": "Подељен (CHIPS): чува се засебно за сваки сајт највишег нивоа. Ова копија се шаље само док је $P1$ сајт у адресној траци.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition_cross": {
+    "message": "Налази се у делу поделе „између сајтова“ (када се између странице и сајта овог колачића налази други сајт), одвојено од дела „унутар сајта“."
+  },
+  "explain_partition_same": {
+    "message": "Налази се у делу поделе „унутар сајта“, одвојено од дела „између сајтова“."
+  },
+  "explain_partition_other": {
+    "message": "Колачић истог назива под другим сајтом је други колачић."
+  },
+  "explain_jwt": {
+    "message": "Вредност личи на JSON Web Token."
+  },
+  "explain_jwt_exp": {
+    "message": "Вредност личи на JSON Web Token; сам токен каже да истиче: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_size": {
+    "message": "$P1$ од 4096 бајтова колико Chrome дозвољава за назив и вредност заједно.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

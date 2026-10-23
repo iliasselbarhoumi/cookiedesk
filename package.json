@@ -5,7 +5,7 @@
   "description": "Dev scripts only. The extension itself has no build step and no dependencies.",
   "scripts": {
     "test": "node --test test/unit/",
-    "test:e2e": "node --test test/e2e/engine.e2e.mjs && node --test test/e2e/ui.e2e.mjs && node --test test/e2e/robustness.e2e.mjs && node --test test/e2e/p1.e2e.mjs && node --test test/e2e/p2.e2e.mjs",
+    "test:e2e": "node --test test/e2e/engine.e2e.mjs && node --test test/e2e/ui.e2e.mjs && node --test test/e2e/robustness.e2e.mjs && node --test test/e2e/p1.e2e.mjs && node --test test/e2e/p2.e2e.mjs && node --test test/e2e/thanks.e2e.mjs",
     "psl": "node scripts/build-psl.mjs",
     "test:permissions": "node test/e2e/permissions.interactive.mjs",
     "icons": "node scripts/build-icons.mjs",
@@ -13,8 +13,10 @@
     "get-old-chrome": "node scripts/get-old-chrome.mjs",
     "test:old-chrome": "node --test test/e2e/old-chrome.e2e.mjs",
     "store-screens": "node scripts/store-screens.mjs",
-    "listing-check": "node scripts/listing-check.mjs"
+    "listing-check": "node scripts/listing-check.mjs",
+    "locales": "python3 i18n/build_locales.py",
+    "paste-helper": "python3 scripts/build_paste_helper.py"
   },
   "license": "MIT",
-  "version": "1.0.0"
+  "version": "1.1.0"
 }

@@ -6,6 +6,9 @@ import { fileURLToPath } from 'node:url';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const manifest = JSON.parse(readFileSync(join(root, 'manifest.json'), 'utf8'));
+// The manifest names __MSG_ keys; the English text is in i18n/en.json.
+const en = JSON.parse(readFileSync(join(root, 'i18n/en.json'), 'utf8'));
+for (const k of ['name', 'description']) manifest[k] = manifest[k].replace(/^__MSG_(\w+)__$/, (_, key) => en[key]);
 const listing = readFileSync(join(root, 'store/listing.md'), 'utf8');
 const problems = [];
 const ok = (cond, msg) => { if (!cond) problems.push(msg); };

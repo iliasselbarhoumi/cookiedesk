@@ -1,0 +1,2215 @@
+{
+  "extension_name": {
+    "message": "Редактор куки: просмотр, изменение, удаление | CookieDesk"
+  },
+  "extension_description": {
+    "message": "Просмотр, изменение, добавление и удаление куки по сайтам. Поиск, импорт и экспорт, куки с разделами. Без рекламы и слежки."
+  },
+  "btn_ok": {
+    "message": "OK"
+  },
+  "btn_cancel": {
+    "message": "Отмена"
+  },
+  "btn_close": {
+    "message": "Закрыть"
+  },
+  "btn_delete": {
+    "message": "Удалить"
+  },
+  "btn_copy": {
+    "message": "Копировать"
+  },
+  "btn_save": {
+    "message": "Сохранить"
+  },
+  "btn_export": {
+    "message": "Экспортировать"
+  },
+  "btn_later": {
+    "message": "Позже"
+  },
+  "dismiss": {
+    "message": "Скрыть"
+  },
+  "back": {
+    "message": "Назад"
+  },
+  "back_esc": {
+    "message": "Назад (Esc)"
+  },
+  "back_to_list": {
+    "message": "Назад к списку"
+  },
+  "title_count": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "empty_name": {
+    "message": "(пустое имя)"
+  },
+  "empty_value": {
+    "message": "(пустое значение)"
+  },
+  "empty_short": {
+    "message": "(пусто)"
+  },
+  "names_more": {
+    "message": "$P1$ и ещё $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "done": {
+    "message": "Готово"
+  },
+  "undo": {
+    "message": "Отменить"
+  },
+  "undo_nothing": {
+    "message": "Нечего отменять"
+  },
+  "undo_entry": {
+    "message": "Отменить: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_interrupted": {
+    "message": "Отмена прервана: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "redo_entry": {
+    "message": "Повторить: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "support_title": {
+    "message": "Поддержать CookieDesk на Ko-fi"
+  },
+  "supporter_title": {
+    "message": "Спасибо, что поддерживаете CookieDesk!"
+  },
+  "add_cookie": {
+    "message": "Добавить куки"
+  },
+  "add_cookie_title": {
+    "message": "Добавить куки (n)"
+  },
+  "more_actions": {
+    "message": "Другие действия"
+  },
+  "menu_group_transfer": {
+    "message": "Экспорт и импорт"
+  },
+  "menu_group_sets": {
+    "message": "Наборы куки"
+  },
+  "export_json_title": {
+    "message": "Экспортировать в JSON"
+  },
+  "export_txt_title": {
+    "message": "Экспортировать в Netscape cookies.txt"
+  },
+  "tile_snippet": {
+    "message": "Сниппет"
+  },
+  "tile_snippet_title": {
+    "message": "Скопировать как сниппет document.cookie"
+  },
+  "tile_import": {
+    "message": "Импорт"
+  },
+  "tile_import_title": {
+    "message": "Импортировать JSON или cookies.txt"
+  },
+  "tile_save_set": {
+    "message": "Сохранить набор"
+  },
+  "tile_save_set_title": {
+    "message": "Сохранить эти куки как файл набора с именем"
+  },
+  "tile_restore": {
+    "message": "Восстановить"
+  },
+  "tile_restore_title": {
+    "message": "Восстановить сохранённый набор (сначала предпросмотр)"
+  },
+  "tile_compare": {
+    "message": "Сравнить"
+  },
+  "tile_compare_title": {
+    "message": "Сравнить сохранённый набор с текущими куки или два набора"
+  },
+  "tile_copy_to": {
+    "message": "Копировать в…"
+  },
+  "tile_copy_to_title": {
+    "message": "Скопировать показанные куки в другое хранилище (обычное ↔ инкогнито)"
+  },
+  "menu_bulk_delete": {
+    "message": "Удалить показанные куки…"
+  },
+  "menu_access": {
+    "message": "Доступ и настройки"
+  },
+  "menu_shortcuts": {
+    "message": "Сочетания клавиш"
+  },
+  "menu_sidepanel": {
+    "message": "Открыть в боковой панели"
+  },
+  "menu_rate": {
+    "message": "Оценить CookieDesk"
+  },
+  "menu_support": {
+    "message": "Поддержать на Ko-fi"
+  },
+  "search_placeholder": {
+    "message": "Поиск куки"
+  },
+  "search_label": {
+    "message": "Фильтр куки по имени, значению или домену"
+  },
+  "search_title": {
+    "message": "Фильтр по имени, значению или домену"
+  },
+  "cookie_store": {
+    "message": "Хранилище куки"
+  },
+  "cookies_list": {
+    "message": "Куки"
+  },
+  "restricted_page": {
+    "message": "Страница с ограничениями"
+  },
+  "loading": {
+    "message": "Загрузка…"
+  },
+  "state_unknown": {
+    "message": "Нажмите кнопку CookieDesk на панели инструментов, чтобы показать куки этой вкладки."
+  },
+  "state_unknown_hint": {
+    "message": "Chrome сообщает адрес вкладки только после этого нажатия или для сайтов, которым вы разрешили доступ."
+  },
+  "state_error": {
+    "message": "Что-то пошло не так: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "state_no_access": {
+    "message": "У CookieDesk пока нет доступа к $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "grant_site": {
+    "message": "Разрешить для $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "chrome_will_ask": {
+    "message": "Chrome спросит:"
+  },
+  "prompt_site": {
+    "message": "Чтение и изменение ваших данных на всех сайтах $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "prompt_all": {
+    "message": "Чтение и изменение всех ваших данных на всех сайтах"
+  },
+  "only_this_site": {
+    "message": "Только куки этого сайта, больше ничего."
+  },
+  "allow_all_instead": {
+    "message": "Разрешить для всех сайтов"
+  },
+  "restricted_browser": {
+    "message": "Это страница Chrome. Chrome не позволяет расширениям читать и менять здесь куки."
+  },
+  "restricted_webstore": {
+    "message": "Это Chrome Web Store. Chrome закрывает его от всех расширений, поэтому его куки показать нельзя."
+  },
+  "restricted_extension": {
+    "message": "Это страница самого расширения. Её хранилище не относится к кукам сайта, показывать нечего."
+  },
+  "restricted_file": {
+    "message": "Это локальный файл. У файлов, открытых с диска, куки нет."
+  },
+  "restricted_other": {
+    "message": "Эта страница не сайт (например, пустая страница или data:), поэтому куки у неё нет."
+  },
+  "live_just_now": {
+    "message": "Только что: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "note_third_party": {
+    "message": "Куки встроенных сайтов видны только для сайтов, которым вы разрешили доступ."
+  },
+  "note_no_partitions": {
+    "message": "Ваша версия Chrome не показывает куки с разделами, поэтому список может быть неполным."
+  },
+  "empty_no_match": {
+    "message": "Нет куки, подходящих под «$P1$».",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "empty_none": {
+    "message": "Для $P1$ нет куки.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clear_search": {
+    "message": "Очистить поиск"
+  },
+  "change_changed": {
+    "message": "Изменено: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_added": {
+    "message": "Добавлено: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_removed": {
+    "message": "Удалено: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_one": {
+    "message": "Куки: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_other": {
+    "message": "Куки: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_filtered_one": {
+    "message": "Куки: $P2$ из $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_filtered_other": {
+    "message": "Куки: $P2$ из $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_partitioned": {
+    "message": "С разделом: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "store_default": {
+    "message": "Обычное"
+  },
+  "store_incognito": {
+    "message": "Инкогнито"
+  },
+  "store_n": {
+    "message": "Хранилище $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "session": {
+    "message": "Сеанс"
+  },
+  "expired": {
+    "message": "Истекло"
+  },
+  "expiry_under_minute": {
+    "message": "менее чем через минуту"
+  },
+  "expiry_on_close": {
+    "message": "Удаляется при закрытии браузера"
+  },
+  "expires_at": {
+    "message": "Истекает: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "badge_protected": {
+    "message": "Защищено: массовое удаление, импорт и восстановление набора его не затронут (p)"
+  },
+  "hint_httponly": {
+    "message": "HttpOnly: недоступно JavaScript на странице (document.cookie его не прочитает)"
+  },
+  "hint_secure": {
+    "message": "Secure: передаётся только по HTTPS"
+  },
+  "hint_samesite_none": {
+    "message": "SameSite=None: передаётся и в запросах между сайтами"
+  },
+  "hint_samesite_lax": {
+    "message": "SameSite=Lax: передаётся при переходах на сайт, но не в подзапросах между сайтами"
+  },
+  "hint_samesite_strict": {
+    "message": "SameSite=Strict: передаётся только в запросах в пределах одного сайта"
+  },
+  "badge_partitioned": {
+    "message": "С разделом"
+  },
+  "partitioned_under": {
+    "message": "Раздел сайта $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partition_this_site": {
+    "message": "этот сайт"
+  },
+  "partition_cross_site": {
+    "message": "$P1$, контекст между сайтами",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "row_protected": {
+    "message": "Защищено"
+  },
+  "row_unprotect_title": {
+    "message": "Снять защиту (p)"
+  },
+  "row_protect_title": {
+    "message": "Защитить от массового удаления, импорта и восстановления набора (p)"
+  },
+  "copy_value": {
+    "message": "Копировать значение"
+  },
+  "copied": {
+    "message": "Скопировано"
+  },
+  "copy_value_title": {
+    "message": "Копировать значение (c)"
+  },
+  "row_delete_title": {
+    "message": "Удалить (Del), можно отменить"
+  },
+  "irreversible_title": {
+    "message": "Это нельзя отменить"
+  },
+  "continue_no_undo": {
+    "message": "Продолжить без отмены"
+  },
+  "undo_anyway_title": {
+    "message": "Всё равно отменить?"
+  },
+  "undo_anyway": {
+    "message": "Всё равно отменить"
+  },
+  "undone": {
+    "message": "Отменено: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_skipped": {
+    "message": "Часть куки уже истекла и не была восстановлена: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_refused": {
+    "message": "Chrome больше не принимает их в прежнем виде, поэтому они не восстановлены: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clipboard_failed": {
+    "message": "Не удалось скопировать: буфер обмена здесь недоступен."
+  },
+  "protected_on": {
+    "message": "«$P1$» защищено: массовое удаление, импорт и восстановление набора его не затронут.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_off": {
+    "message": "«$P1$» больше не защищено.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protect_limit": {
+    "message": "Можно защитить не более $P1$ куки. Сначала снимите защиту с других.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_named": {
+    "message": "Удалить «$P1$»?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_protected_message": {
+    "message": "Эти куки защищены. Всё равно удалить? Это можно отменить."
+  },
+  "nothing_to_delete": {
+    "message": "Нечего удалять"
+  },
+  "all_shown_protected_one": {
+    "message": "Показанные куки защищены."
+  },
+  "all_shown_protected_other": {
+    "message": "Все показанные куки защищены (их $P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "no_cookies_shown": {
+    "message": "Куки не показаны."
+  },
+  "bulk_title_one": {
+    "message": "Удалить куки: $P1$?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_title_other": {
+    "message": "Удалить куки: $P1$?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_match": {
+    "message": "Эти куки подходят под «$P1$» на $P2$. Это можно отменить.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "bulk_all": {
+    "message": "Все куки в списке для $P1$. Это можно отменить.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_one": {
+    "message": "Защищённые куки сохранятся: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_other": {
+    "message": "Защищённые куки сохранятся: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_one": {
+    "message": "Удалить куки: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_other": {
+    "message": "Удалить куки: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_to": {
+    "message": "Копировать в"
+  },
+  "copy_to_default_note": {
+    "message": "Куки, скопированные в обычное хранилище, сохраняются как любые другие: на диске и после завершения сеанса инкогнито."
+  },
+  "copy_to_incognito_note": {
+    "message": "Куки, скопированные в хранилище инкогнито, исчезнут вместе с этим сеансом инкогнито."
+  },
+  "copy_title_one": {
+    "message": "Копировать куки: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_title_other": {
+    "message": "Копировать куки: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_from": {
+    "message": "Из хранилища «$P1$» в:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_replace_note": {
+    "message": "Куки с тем же именем, доменом и путём там будут заменены, кроме защищённых. Копирование можно отменить."
+  },
+  "label_copied_one": {
+    "message": "Скопировано куки: $P1$, в $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_copied_other": {
+    "message": "Скопировано куки: $P1$, в $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_kept_one": {
+    "message": "Защищённые куки там оставлены как были: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_kept_other": {
+    "message": "Защищённые куки там оставлены как были: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_done_one": {
+    "message": "Скопировано куки: $P1$, в $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_done_other": {
+    "message": "Скопировано куки: $P1$, в $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_undo_hint": {
+    "message": "Отменить можно здесь или позже из хранилища «$P1$».",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_nothing": {
+    "message": "В $P1$ уже есть точно такие же куки.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_cant": {
+    "message": "Сравнить нельзя"
+  },
+  "compare_now": {
+    "message": "$P1$ сейчас",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_other_site": {
+    "message": "Этот набор сохранён для $P1$, а не для $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "compare_too_many": {
+    "message": "Выберите один набор для сравнения с текущими куки или два набора для сравнения друг с другом."
+  },
+  "set_file_too_large": {
+    "message": "Файл $P1$ слишком велик для набора куки.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_aria": {
+    "message": "Сравнение наборов куки"
+  },
+  "compare_changed_fields": {
+    "message": "Изменено: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_one": {
+    "message": "Различий нет, одинаковых куки: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_other": {
+    "message": "Различий нет, одинаковых куки: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_summary": {
+    "message": "Добавлено: $P1$, удалено: $P2$, изменено: $P3$, без изменений: $P4$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      },
+      "p4": {
+        "content": "$4"
+      }
+    }
+  },
+  "diff_added": {
+    "message": "Добавлено"
+  },
+  "diff_removed": {
+    "message": "Удалено"
+  },
+  "diff_changed": {
+    "message": "Изменено"
+  },
+  "diff_expiry_only": {
+    "message": "Изменился только срок действия ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "shortcuts_title": {
+    "message": "Сочетания клавиш"
+  },
+  "key_search": {
+    "message": "Поиск"
+  },
+  "key_move": {
+    "message": "Перемещение по списку"
+  },
+  "key_first_last": {
+    "message": "Первые и последние куки"
+  },
+  "key_edit": {
+    "message": "Изменить"
+  },
+  "key_copy": {
+    "message": "Копировать значение"
+  },
+  "key_protect": {
+    "message": "Защитить или снять защиту"
+  },
+  "key_delete": {
+    "message": "Удалить (можно отменить)"
+  },
+  "key_back": {
+    "message": "Назад или очистить поиск"
+  },
+  "key_help": {
+    "message": "Этот список"
+  },
+  "import_kept_one": {
+    "message": "Защищённые куки оставлены как были ($P1$): $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_kept_other": {
+    "message": "Защищённые куки оставлены как были ($P1$): $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_nothing": {
+    "message": "Импортировать нечего: все куки из файла уже установлены именно так."
+  },
+  "imported_one": {
+    "message": "Импортировано куки: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "imported_other": {
+    "message": "Импортировано куки: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_restored": {
+    "message": "Набор «$P1$» восстановлен",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restored_one": {
+    "message": "Набор «$P2$» восстановлен: записано куки $P1$, удалено $P3$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "restored_other": {
+    "message": "Набор «$P2$» восстановлен: записано куки $P1$, удалено $P3$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "rate_title": {
+    "message": "Нравится CookieDesk?"
+  },
+  "rate_text": {
+    "message": "Короткая оценка поможет другим найти расширение."
+  },
+  "rate_group": {
+    "message": "Оценить в магазине"
+  },
+  "rate_stars_one": {
+    "message": "Звёзд: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "rate_stars_other": {
+    "message": "Звёзд: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_confirm_title": {
+    "message": "Вы угостили меня кофе?"
+  },
+  "kofi_confirm_text": {
+    "message": "Спасибо, это помогает развивать CookieDesk."
+  },
+  "kofi_yes": {
+    "message": "Да, угостил(а)"
+  },
+  "kofi_not_yet": {
+    "message": "Пока нет"
+  },
+  "kofi_milestone_one": {
+    "message": "Изменений в CookieDesk: $P1$!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_milestone_other": {
+    "message": "Изменений в CookieDesk: $P1$!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_free": {
+    "message": "Бесплатно, и всё сделано одним разработчиком."
+  },
+  "buy_coffee": {
+    "message": "Угостить кофе"
+  },
+  "edit_cookie": {
+    "message": "Изменить куки"
+  },
+  "add_cookie_short": {
+    "message": "Добавить куки"
+  },
+  "explain_title": {
+    "message": "Что делают эти куки"
+  },
+  "field_name": {
+    "message": "Имя"
+  },
+  "field_value": {
+    "message": "Значение"
+  },
+  "field_domain": {
+    "message": "Домен"
+  },
+  "field_path": {
+    "message": "Путь"
+  },
+  "field_expiry": {
+    "message": "Срок действия"
+  },
+  "field_expires": {
+    "message": "Истекает"
+  },
+  "field_attributes": {
+    "message": "Атрибуты"
+  },
+  "field_partition": {
+    "message": "Раздел"
+  },
+  "host_only": {
+    "message": "Только хост"
+  },
+  "host_only_title": {
+    "message": "Только хост: атрибута Domain нет, поэтому поддомены куки не получают"
+  },
+  "session_title": {
+    "message": "Сеансовые куки: удаляются при закрытии браузера"
+  },
+  "httponly_title": {
+    "message": "HttpOnly: недоступно JavaScript на странице"
+  },
+  "samesite_unspecified": {
+    "message": "Не указано"
+  },
+  "partitioned_chips": {
+    "message": "С разделом (CHIPS)"
+  },
+  "top_level_site": {
+    "message": "Сайт верхнего уровня"
+  },
+  "no_partition_write": {
+    "message": "Эта версия Chrome не умеет записывать куки с разделами."
+  },
+  "editor_delete_title": {
+    "message": "Удалить (можно отменить)"
+  },
+  "bytes_of": {
+    "message": "$P1$ / $P2$ байт",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "access_aria": {
+    "message": "Доступ и настройки"
+  },
+  "all_sites_on": {
+    "message": "Все сайты: включено"
+  },
+  "all_sites_on_text": {
+    "message": "CookieDesk может читать и менять куки на любых сайтах, включая встроенные."
+  },
+  "turn_off": {
+    "message": "Выключить"
+  },
+  "all_sites": {
+    "message": "Все сайты"
+  },
+  "all_sites_text": {
+    "message": "Необязательно. Больше никаких запросов для каждого сайта, а куки встроенных сайтов (реклама, виджеты, фреймы входа) видны везде."
+  },
+  "allow_all_sites": {
+    "message": "Разрешить для всех сайтов"
+  },
+  "remove_access": {
+    "message": "Убрать доступ к $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "access_lead": {
+    "message": "CookieDesk видит куки сайта только после вашего разрешения для этого сайта и больше ничего: ни содержимого страниц, ни истории."
+  },
+  "allowed_sites": {
+    "message": "Разрешённые сайты"
+  },
+  "allowed_sites_count": {
+    "message": "Разрешённые сайты · $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "all_sites_overrides": {
+    "message": "Доступ ко всем сайтам включён, поэтому этот список не имеет значения, пока он включён."
+  },
+  "none_yet": {
+    "message": "Пока пусто."
+  },
+  "toolbar_opens": {
+    "message": "Кнопка на панели открывает"
+  },
+  "surface_popup": {
+    "message": "Всплывающее окно"
+  },
+  "surface_sidepanel": {
+    "message": "Боковую панель"
+  },
+  "support_feedback": {
+    "message": "Поддержка и отзывы"
+  },
+  "thanks_supporting": {
+    "message": "Спасибо за поддержку!"
+  },
+  "report_problem": {
+    "message": "Сообщить о проблеме"
+  },
+  "source_code": {
+    "message": "Исходный код"
+  },
+  "privacy_line": {
+    "message": "Никаких сетевых запросов, значения куки не хранятся на диске. Отмена работает 10 минут; её копии лежат в памяти и пропадают при закрытии Chrome или завершении сеанса инкогнито."
+  },
+  "export_warning": {
+    "message": "В этом файле действующие сеансовые куки. Любой, у кого он есть, сможет войти от вашего имени на этих сайтах. Обращайтесь с ним как с паролем и удалите, когда он больше не нужен."
+  },
+  "export_json_one": {
+    "message": "Экспортировать в JSON куки: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_json_other": {
+    "message": "Экспортировать в JSON куки: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_one": {
+    "message": "Экспортировать в cookies.txt куки: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_other": {
+    "message": "Экспортировать в cookies.txt куки: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_all_one": {
+    "message": "Куки, показанные для $P2$, попадут в файл, даже если это HttpOnly.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_all_other": {
+    "message": "Все куки, показанные для $P2$ (их $P1$), попадут в файл, включая HttpOnly.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_partitioned_left_one": {
+    "message": "Куки с разделом не включены ($P1$): cookies.txt не умеет хранить разделы. Чтобы сохранить их, используйте JSON.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_partitioned_left_other": {
+    "message": "Куки с разделом не включены ($P1$): cookies.txt не умеет хранить разделы. Чтобы сохранить их, используйте JSON.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_too_big": {
+    "message": "Размер файла: $P1$ МБ. Экспорты куки гораздо меньше; CookieDesk читает файлы до 5 МБ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "cant_import_unchanged": {
+    "message": "Не удаётся импортировать файл. Ничего не изменено."
+  },
+  "cant_import": {
+    "message": "Не удаётся импортировать файл"
+  },
+  "file_unreadable": {
+    "message": "Не удалось прочитать файл."
+  },
+  "needs_access_one": {
+    "message": "Прежде чем записать эти куки, CookieDesk нужен доступ ещё к сайтам: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "needs_access_other": {
+    "message": "Прежде чем записать эти куки, CookieDesk нужен доступ ещё к сайтам: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_allow_all_hint": {
+    "message": "Или разрешите все сайты в разделе «Доступ и настройки»."
+  },
+  "other_sites": {
+    "message": "Другие сайты ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "other_sites_warning": {
+    "message": "Этот файл также записывает куки для сайтов, кроме $P1$. Куки, подброшенные на другой сайт, могут выполнить вход в чужую учётную запись. Продолжайте, только если вы ожидали эти сайты.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_one": {
+    "message": "Также записать куки для других сайтов: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_other": {
+    "message": "Также записать куки для других сайтов: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partitioned_under_list": {
+    "message": "Разделы сайтов: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "warnings_count": {
+    "message": "Предупреждения ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_title": {
+    "message": "Импорт куки"
+  },
+  "import_message_one": {
+    "message": "Импортировать куки: $P1$? Куки с тем же именем, доменом и путём будут заменены. Весь импорт можно отменить.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_message_other": {
+    "message": "Импортировать куки: $P1$? Куки с тем же именем, доменом и путём будут заменены. Весь импорт можно отменить.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_one": {
+    "message": "Копировать куки как document.cookie: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_other": {
+    "message": "Копировать куки как document.cookie: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_warning": {
+    "message": "В сниппете действующие сеансовые куки. Любой, у кого он есть, сможет войти от вашего имени на этом сайте. Обращайтесь с ним как с паролем."
+  },
+  "snippet_paste": {
+    "message": "Вставьте его в консоль DevTools на $P1$, чтобы задать там эти куки.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_one": {
+    "message": "HttpOnly-куки не включены ($P1$): JavaScript на странице не может их задать.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_other": {
+    "message": "HttpOnly-куки не включены ($P1$): JavaScript на странице не может их задать.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_one": {
+    "message": "Скопировано как document.cookie, куки: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_other": {
+    "message": "Скопировано как document.cookie, куки: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_name": {
+    "message": "Название набора"
+  },
+  "set_name_placeholder": {
+    "message": "например, вход под админом"
+  },
+  "save_set_title_one": {
+    "message": "Сохранить куки как набор: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "save_set_title_other": {
+    "message": "Сохранить куки как набор: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_file_note": {
+    "message": "Набор это файл на вашем компьютере; CookieDesk копию не хранит. Восстановить его можно позже из меню на $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "default_set_name": {
+    "message": "Набор куки"
+  },
+  "set_too_large": {
+    "message": "Этот файл слишком велик для набора куки."
+  },
+  "cant_restore_unchanged": {
+    "message": "Не удаётся восстановить набор. Ничего не изменено."
+  },
+  "cant_restore": {
+    "message": "Не удаётся восстановить набор"
+  },
+  "wrong_site_message": {
+    "message": "Этот набор сохранён для $P1$. Откройте $P1$ и восстановите его там.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "wrong_site_title": {
+    "message": "Не тот сайт. Ничего не изменено."
+  },
+  "foreign_cookies_one": {
+    "message": "Куки в этом файле принадлежат другим сайтам ($P2$): $P1$. Восстановление набора меняет только $P3$; для других сайтов используйте импорт.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "foreign_cookies_other": {
+    "message": "Куки в этом файле принадлежат другим сайтам ($P2$): $P1$. Восстановление набора меняет только $P3$; для других сайтов используйте импорт.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "plan_write": {
+    "message": "Записать"
+  },
+  "plan_delete": {
+    "message": "Удалить"
+  },
+  "plan_protected": {
+    "message": "Защищены, остаются как есть"
+  },
+  "restore_title": {
+    "message": "Восстановить «$P1$»",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_nothing": {
+    "message": "$P1$ уже совпадает с этим набором. Менять нечего.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_message_one": {
+    "message": "Куки сайта $P2$ будут заменены куки из этого набора (их $P1$). Всё восстановление можно отменить.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "restore_message_other": {
+    "message": "Куки сайта $P2$ будут заменены куки из этого набора (их $P1$). Всё восстановление можно отменить.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_partition_unsupported": {
+    "message": "«$P1$» это куки с разделом, а эта версия Chrome не умеет их записывать. Обновите Chrome до версии 119 или новее.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_gone": {
+    "message": "«$P1$» больше нет: срок мог истечь, либо сайт изменил куки. Обновите список.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_stored": {
+    "message": "Chrome принял «$P1$», но не сохранил.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_imprecise_delete_one": {
+    "message": "Chrome может удалить «$P2$» только вместе с другими куки с тем же именем (их $P1$), поэтому CookieDesk не будет их удалять.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_imprecise_delete_other": {
+    "message": "Chrome может удалить «$P2$» только вместе с другими куки с тем же именем (их $P1$), поэтому CookieDesk не будет их удалять.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_delete": {
+    "message": "Chrome больше не принимает «$P1$» в том виде, в каком оно хранится, поэтому после удаления вернуть его не получится. Удалить без возможности отмены?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_removed": {
+    "message": "Не удалось удалить «$P1$».",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_no_permission": {
+    "message": "У CookieDesk нет доступа к $P1$. Сначала разрешите доступ к этому сайту.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_secure_shadow": {
+    "message": "Для $P2$ уже есть куки Secure с именем «$P1$». Chrome не позволит куки без Secure с тем же именем заменить их или находиться рядом. Включите Secure или выберите другое имя.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_rejected": {
+    "message": "Chrome отклонил «$P1$» без объяснения причин. Ничего не изменено.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_irreversible_replace_one": {
+    "message": "Chrome больше не принимает $P2$ в том виде, в каком оно хранится, поэтому после замены вернуть его не получится. Продолжить без возможности отмены?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_replace_other": {
+    "message": "Chrome больше не принимает $P2$ в том виде, в каком они хранятся, поэтому после замены вернуть их не получится. Продолжить без возможности отмены?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_too_large_to_undo": {
+    "message": "Это изменение затрагивает слишком много данных ($P1$ КБ), чтобы хранить копию для отмены. Продолжить без отмены?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_duplicate_in_file": {
+    "message": "В файле дважды встречается «$P1$» для одного домена и пути.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_undo_expired": {
+    "message": "Нечего отменять: отмена доступна 10 минут."
+  },
+  "err_undo_conflict": {
+    "message": "$P1$ изменилось после «$P2$». Отмена сейчас перезапишет более новое значение. Всё равно отменить?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_incomplete": {
+    "message": "Не завершено: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_added": {
+    "message": "Добавлено «$P1$»",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_edited": {
+    "message": "Изменено «$P1$»",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted": {
+    "message": "Удалено «$P1$»",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_expired": {
+    "message": "Удалено «$P1$» (срок действия в прошлом)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_one": {
+    "message": "Удалено куки: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_other": {
+    "message": "Удалено куки: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_one": {
+    "message": "Импортировано куки: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_other": {
+    "message": "Импортировано куки: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_undid": {
+    "message": "Отменено: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_saved": {
+    "message": "Сохранено «$P1$»",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_draft": {
+    "message": "Куки должны быть объектом с полями name, value, domain и path."
+  },
+  "v_name_type": {
+    "message": "Имя куки должно быть текстом."
+  },
+  "v_value_type": {
+    "message": "Значение куки должно быть текстом."
+  },
+  "v_domain_type": {
+    "message": "Домен должен быть текстом."
+  },
+  "v_path_type": {
+    "message": "Путь должен быть текстом."
+  },
+  "v_flag_type": {
+    "message": "$P1$ должно быть true или false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_samesite": {
+    "message": "SameSite должно быть одним из: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_name_control": {
+    "message": "В имени есть управляющие символы (например, перевод строки или табуляция), которые куки хранить не могут."
+  },
+  "v_name_semicolon": {
+    "message": "В имени есть «;», которое преждевременно завершило бы куки."
+  },
+  "v_name_equals": {
+    "message": "В имени есть «=», которым в куки отделяется имя от значения."
+  },
+  "v_value_control": {
+    "message": "В значении есть управляющие символы (например, перевод строки или табуляция), которые куки хранить не могут."
+  },
+  "v_value_semicolon": {
+    "message": "В значении есть «;», которое преждевременно завершило бы куки. Закодируйте его (например, через encodeURIComponent)."
+  },
+  "v_empty_cookie": {
+    "message": "У куки должно быть имя или значение, а сейчас пусто и то и другое."
+  },
+  "v_empty_name": {
+    "message": "У этих куки пустое имя. Некоторые сайты и инструменты плохо работают с куки без имени."
+  },
+  "v_too_large": {
+    "message": "Имя и значение вместе занимают $P1$ байт (UTF-8), а Chrome допускает не более $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "v_path_slash": {
+    "message": "Путь должен начинаться с «/»."
+  },
+  "v_path_too_long": {
+    "message": "Путь длиннее $P1$ байт.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_path_chars": {
+    "message": "В пути есть управляющие символы или «;», которые куки хранить не могут."
+  },
+  "v_domain_empty": {
+    "message": "Домен пуст. Укажите сайт, которому принадлежат куки, например example.com."
+  },
+  "v_domain_too_long": {
+    "message": "Домен длиннее $P1$ байт.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_domain_invalid": {
+    "message": "Домен не является допустимым именем хоста. Используйте буквы, цифры и дефисы, разделённые точками (интернационализированные имена должны быть в punycode, например xn--...)."
+  },
+  "v_domain_leading_dot": {
+    "message": "У куки только для хоста в домене не может быть точки в начале; точка означает, что куки действуют и для поддоменов."
+  },
+  "v_domain_public_suffix": {
+    "message": "«$P1$» это публичный суффикс (домен под управлением реестра, как .com или .co.uk), поэтому браузеры отклоняют куки, действующие для всего домена.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_samesite_none_insecure": {
+    "message": "Куки SameSite=None должны быть Secure, иначе Chrome их отклонит. Включите Secure или выберите другое значение SameSite."
+  },
+  "v_partitioned_insecure": {
+    "message": "Куки с разделом должны быть Secure, иначе Chrome их отклонит. Включите Secure или уберите раздел."
+  },
+  "v_prefix_secure": {
+    "message": "Куки с именем «$P1$...» должны быть Secure. Включите Secure или переименуйте куки.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_host_prefix_domain": {
+    "message": "Куки с именем «__Host-...» должны быть только для хоста (без атрибута Domain, то есть без общего доступа поддоменов). Включите «Только хост» или переименуйте куки."
+  },
+  "v_host_prefix_path": {
+    "message": "У куки с именем «__Host-...» путь должен быть «/»."
+  },
+  "v_bad_expiration": {
+    "message": "Срок действия должен быть конечным числом секунд с 1970 года."
+  },
+  "v_expired_deletes": {
+    "message": "Если сохранить со сроком действия в прошлом, эти куки будут удалены."
+  },
+  "v_clamped": {
+    "message": "Chrome ограничивает срок жизни куки до $P1$ дн.; более поздний срок при сохранении сокращается.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_expiration_missing": {
+    "message": "Для несеансовых куки нужна дата истечения. Выберите её или отметьте куки как сеансовые."
+  },
+  "v_partition_type": {
+    "message": "Ключ раздела должен быть объектом с полем topLevelSite."
+  },
+  "v_partition_site_type": {
+    "message": "Сайт верхнего уровня раздела должен быть текстом вида https://example.com."
+  },
+  "v_partition_site_form": {
+    "message": "Сайт верхнего уровня раздела должен выглядеть как https://example.com (https, без пути и порта)."
+  },
+  "v_partition_flag": {
+    "message": "Поле hasCrossSiteAncestor раздела должно быть true или false."
+  },
+  "v_partition_cross_site": {
+    "message": "Домен куки не относится к тому же сайту, что и $P1$, поэтому Chrome требует для них hasCrossSiteAncestor со значением true.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_other_site": {
+    "message": "Домен этих куки ($P1$) находится вне текущего сайта ($P2$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_entry": {
+    "message": "Запись $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_entry_named": {
+    "message": "Запись $P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_bad_samesite": {
+    "message": "$P1$: sameSite должно быть одним из no_restriction, lax, strict, unspecified.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bool": {
+    "message": "$P1$: «$P2$» должно быть true или false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_text": {
+    "message": "$P1$: «$P2$» должно быть текстом.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_not_object": {
+    "message": "$P1$ не является объектом куки.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_expiration_type": {
+    "message": "$P1$: «expirationDate» должно быть числом.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_key": {
+    "message": "$P1$: partitionKey должен быть объектом с текстовым полем topLevelSite.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_flag": {
+    "message": "$P1$: partitionKey.hasCrossSiteAncestor должно быть true или false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_line": {
+    "message": "Строка $P1$ не является записью cookies.txt (ожидалось 7 полей, разделённых табуляцией, найдено: $P2$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_line_flag_subdomains": {
+    "message": "Строка $P1$: флаг поддоменов должен быть TRUE или FALSE.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_flag_secure": {
+    "message": "Строка $P1$: флаг secure должен быть TRUE или FALSE.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_expiry": {
+    "message": "Строка $P1$: срок действия должен быть целым числом секунд.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_not_text": {
+    "message": "Не удалось прочитать файл как текст."
+  },
+  "io_too_large": {
+    "message": "Файл больше предела импорта в $P1$ байт.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_json": {
+    "message": "Файл похож на JSON, но разобрать его не удалось."
+  },
+  "io_bad_version": {
+    "message": "Эта версия файла CookieDesk не поддерживается."
+  },
+  "io_no_cookie_list": {
+    "message": "В файле CookieDesk нет списка «cookies»."
+  },
+  "io_unknown_format": {
+    "message": "Этот JSON не является ни экспортом CookieDesk, ни списком куки."
+  },
+  "io_no_cookies": {
+    "message": "В файле нет куки."
+  },
+  "io_too_many": {
+    "message": "В файле куки: $P1$, а предел: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_issue": {
+    "message": "$P1$: $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_duplicate": {
+    "message": "$P1$: другая запись с тем же именем, доменом, путём и разделом.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "when": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "when_passed": {
+    "message": "уже прошло"
+  },
+  "when_under_day": {
+    "message": "менее чем через сутки"
+  },
+  "explain_third_party": {
+    "message": "Задано сайтом $P1$, отличным от $P2$: сторонние куки.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_third_party_partitioned": {
+    "message": "Задано сайтом $P1$, отличным от $P2$: сторонние куки, хранятся в разделе сайта $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_host_prefix": {
+    "message": "Префикс __Host- заставляет Chrome требовать Secure, отсутствие атрибута Domain и Path=/, поэтому ни один поддомен не может задать или заменить такие куки."
+  },
+  "explain_secure_prefix": {
+    "message": "Префикс __Secure- означает, что Chrome принимает куки только с флагом Secure."
+  },
+  "explain_scope_host": {
+    "message": "Отправляются только на сам $P1$, без его поддоменов.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_scope_domain": {
+    "message": "Отправляются на $P1$ и на все его поддомены (например, www.$P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_path_all": {
+    "message": "Отправляются с запросами к любому пути на этом хосте."
+  },
+  "explain_path_under": {
+    "message": "Отправляются только с запросами к путям внутри $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_secure": {
+    "message": "Secure: передаются только по HTTPS."
+  },
+  "explain_not_secure": {
+    "message": "Не Secure: передаются и по обычному HTTP, где их может прочитать любой в сети."
+  },
+  "explain_httponly": {
+    "message": "HttpOnly: недоступны JavaScript на странице (document.cookie их не прочитает), поэтому внедрённые скрипты до них не доберутся."
+  },
+  "explain_script_readable": {
+    "message": "Любой скрипт на странице может их читать и менять."
+  },
+  "explain_samesite_none": {
+    "message": "SameSite=None: могут отправляться и с запросами между сайтами (встроенные фреймы, изображения, запросы с других сайтов), если Chrome вообще разрешает сторонние куки (в режиме инкогнито они по умолчанию заблокированы). Поэтому должно быть Secure."
+  },
+  "explain_samesite_lax": {
+    "message": "SameSite=Lax: отправляются при переходе на сайт, в том числе по ссылке с другого сайта, но не с запросами, которые страницы других сайтов делают в фоне."
+  },
+  "explain_samesite_strict": {
+    "message": "SameSite=Strict: отправляются, только когда вы уже на этом же сайте. При переходе по ссылке с другого сайта первый запрос уходит без них."
+  },
+  "explain_samesite_unset": {
+    "message": "Атрибута SameSite нет: Chrome считает его значением Lax."
+  },
+  "explain_session": {
+    "message": "Сеансовые куки: удаляются при закрытии браузера (если Chrome не восстанавливает предыдущий сеанс при запуске)."
+  },
+  "explain_expires": {
+    "message": "Истекают: $P1$. Chrome ограничивает любой срок 400 днями с момента последней установки куки.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition": {
+    "message": "С разделом (CHIPS): хранятся отдельно для каждого сайта верхнего уровня. Эта копия отправляется, только пока в адресной строке сайт $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition_cross": {
+    "message": "Они в части раздела «между сайтами» (когда между страницей и сайтом этих куки есть другой сайт), отдельно от части «в пределах сайта»."
+  },
+  "explain_partition_same": {
+    "message": "Они в части раздела «в пределах сайта», отдельно от части «между сайтами»."
+  },
+  "explain_partition_other": {
+    "message": "Куки с тем же именем под другим сайтом это другие куки."
+  },
+  "explain_jwt": {
+    "message": "Значение похоже на JSON Web Token."
+  },
+  "explain_jwt_exp": {
+    "message": "Значение похоже на JSON Web Token; сам токен указывает, что истекает: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_size": {
+    "message": "$P1$ из 4096 байт, которые Chrome допускает для имени и значения вместе.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

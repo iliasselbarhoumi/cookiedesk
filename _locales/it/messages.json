@@ -1,0 +1,2215 @@
+{
+  "extension_name": {
+    "message": "Editor di cookie: visualizza, modifica, elimina | CookieDesk"
+  },
+  "extension_description": {
+    "message": "Vedi, modifica, aggiungi ed elimina i cookie di un sito. Ricerca, import/export, cookie partizionati. Senza pubblicità né tracking."
+  },
+  "btn_ok": {
+    "message": "OK"
+  },
+  "btn_cancel": {
+    "message": "Annulla"
+  },
+  "btn_close": {
+    "message": "Chiudi"
+  },
+  "btn_delete": {
+    "message": "Elimina"
+  },
+  "btn_copy": {
+    "message": "Copia"
+  },
+  "btn_save": {
+    "message": "Salva"
+  },
+  "btn_export": {
+    "message": "Esporta"
+  },
+  "btn_later": {
+    "message": "Più tardi"
+  },
+  "dismiss": {
+    "message": "Ignora"
+  },
+  "back": {
+    "message": "Indietro"
+  },
+  "back_esc": {
+    "message": "Indietro (Esc)"
+  },
+  "back_to_list": {
+    "message": "Torna all'elenco"
+  },
+  "title_count": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "empty_name": {
+    "message": "(nome vuoto)"
+  },
+  "empty_value": {
+    "message": "(valore vuoto)"
+  },
+  "empty_short": {
+    "message": "(vuoto)"
+  },
+  "names_more": {
+    "message": "$P1$ e altri $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "done": {
+    "message": "Fatto"
+  },
+  "undo": {
+    "message": "Annulla"
+  },
+  "undo_nothing": {
+    "message": "Niente da annullare"
+  },
+  "undo_entry": {
+    "message": "Annulla: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_interrupted": {
+    "message": "Annullamento interrotto: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "redo_entry": {
+    "message": "Ripristina: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "support_title": {
+    "message": "Sostieni CookieDesk su Ko-fi"
+  },
+  "supporter_title": {
+    "message": "Grazie per sostenere CookieDesk!"
+  },
+  "add_cookie": {
+    "message": "Aggiungi un cookie"
+  },
+  "add_cookie_title": {
+    "message": "Aggiungi un cookie (n)"
+  },
+  "more_actions": {
+    "message": "Altre azioni"
+  },
+  "menu_group_transfer": {
+    "message": "Esportazione e importazione"
+  },
+  "menu_group_sets": {
+    "message": "Set di cookie"
+  },
+  "export_json_title": {
+    "message": "Esporta come JSON"
+  },
+  "export_txt_title": {
+    "message": "Esporta come cookies.txt Netscape"
+  },
+  "tile_snippet": {
+    "message": "Snippet"
+  },
+  "tile_snippet_title": {
+    "message": "Copia come snippet document.cookie"
+  },
+  "tile_import": {
+    "message": "Importa"
+  },
+  "tile_import_title": {
+    "message": "Importa JSON o cookies.txt"
+  },
+  "tile_save_set": {
+    "message": "Salva set"
+  },
+  "tile_save_set_title": {
+    "message": "Salva questi cookie come file di set con un nome"
+  },
+  "tile_restore": {
+    "message": "Ripristina"
+  },
+  "tile_restore_title": {
+    "message": "Ripristina un set salvato (prima l'anteprima)"
+  },
+  "tile_compare": {
+    "message": "Confronta"
+  },
+  "tile_compare_title": {
+    "message": "Confronta un set salvato con lo stato attuale, o due set"
+  },
+  "tile_copy_to": {
+    "message": "Copia in…"
+  },
+  "tile_copy_to_title": {
+    "message": "Copia i cookie mostrati in un altro archivio (normale ↔ incognito)"
+  },
+  "menu_bulk_delete": {
+    "message": "Elimina i cookie mostrati…"
+  },
+  "menu_access": {
+    "message": "Accesso e impostazioni"
+  },
+  "menu_shortcuts": {
+    "message": "Scorciatoie"
+  },
+  "menu_sidepanel": {
+    "message": "Apri nel pannello laterale"
+  },
+  "menu_rate": {
+    "message": "Valuta CookieDesk"
+  },
+  "menu_support": {
+    "message": "Sostieni su Ko-fi"
+  },
+  "search_placeholder": {
+    "message": "Cerca cookie"
+  },
+  "search_label": {
+    "message": "Filtra i cookie per nome, valore o dominio"
+  },
+  "search_title": {
+    "message": "Filtra per nome, valore o dominio"
+  },
+  "cookie_store": {
+    "message": "Archivio dei cookie"
+  },
+  "cookies_list": {
+    "message": "Cookie"
+  },
+  "restricted_page": {
+    "message": "Pagina con restrizioni"
+  },
+  "loading": {
+    "message": "Caricamento…"
+  },
+  "state_unknown": {
+    "message": "Fai clic sul pulsante CookieDesk nella barra degli strumenti per vedere i cookie di questa scheda."
+  },
+  "state_unknown_hint": {
+    "message": "Chrome condivide l'indirizzo di una scheda solo dopo quel clic, o per i siti che hai consentito."
+  },
+  "state_error": {
+    "message": "Qualcosa è andato storto: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "state_no_access": {
+    "message": "CookieDesk non ha ancora accesso a $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "grant_site": {
+    "message": "Consenti su $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "chrome_will_ask": {
+    "message": "Chrome chiederà:"
+  },
+  "prompt_site": {
+    "message": "Leggere e modificare i tuoi dati su tutti i siti $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "prompt_all": {
+    "message": "Leggere e modificare tutti i tuoi dati su tutti i siti web"
+  },
+  "only_this_site": {
+    "message": "Solo i cookie di questo sito, nient'altro."
+  },
+  "allow_all_instead": {
+    "message": "Consenti invece tutti i siti"
+  },
+  "restricted_browser": {
+    "message": "Questa è una pagina di Chrome. Chrome non permette a nessuna estensione di leggere o modificare i cookie qui."
+  },
+  "restricted_webstore": {
+    "message": "Questo è il Chrome Web Store. Chrome ne blocca l'accesso a tutte le estensioni, quindi i suoi cookie non possono essere mostrati."
+  },
+  "restricted_extension": {
+    "message": "Questa è la pagina di un'estensione. Il suo spazio di archiviazione non è fatto dei cookie di un sito, quindi non c'è nulla da mostrare."
+  },
+  "restricted_file": {
+    "message": "Questo è un file locale. I file aperti dal disco non hanno cookie."
+  },
+  "restricted_other": {
+    "message": "Questa pagina non è un sito web (per esempio una pagina vuota o data:), quindi non ha cookie."
+  },
+  "live_just_now": {
+    "message": "Adesso: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "note_third_party": {
+    "message": "I cookie dei siti incorporati si vedono solo per i siti che hai consentito."
+  },
+  "note_no_partitions": {
+    "message": "La tua versione di Chrome non può mostrare i cookie partizionati, quindi questo elenco potrebbe essere incompleto."
+  },
+  "empty_no_match": {
+    "message": "Nessun cookie corrisponde a “$P1$”.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "empty_none": {
+    "message": "Nessun cookie per $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clear_search": {
+    "message": "Cancella ricerca"
+  },
+  "change_changed": {
+    "message": "$P1$ modificato",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_added": {
+    "message": "$P1$ aggiunto",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_removed": {
+    "message": "$P1$ rimosso",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_one": {
+    "message": "$P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_other": {
+    "message": "$P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_filtered_one": {
+    "message": "$P2$ di $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_filtered_other": {
+    "message": "$P2$ di $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_partitioned": {
+    "message": "$P1$ partizionati",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "store_default": {
+    "message": "Predefinito"
+  },
+  "store_incognito": {
+    "message": "Incognito"
+  },
+  "store_n": {
+    "message": "Archivio $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "session": {
+    "message": "Sessione"
+  },
+  "expired": {
+    "message": "Scaduto"
+  },
+  "expiry_under_minute": {
+    "message": "tra meno di un minuto"
+  },
+  "expiry_on_close": {
+    "message": "Eliminato alla chiusura del browser"
+  },
+  "expires_at": {
+    "message": "Scade $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "badge_protected": {
+    "message": "Protetto: eliminazione di massa, importazione e ripristino di set non lo toccano (p)"
+  },
+  "hint_httponly": {
+    "message": "HttpOnly: non visibile al JavaScript della pagina (document.cookie non può leggerlo)"
+  },
+  "hint_secure": {
+    "message": "Secure: inviato solo tramite HTTPS"
+  },
+  "hint_samesite_none": {
+    "message": "SameSite=None: inviato anche nelle richieste tra siti diversi"
+  },
+  "hint_samesite_lax": {
+    "message": "SameSite=Lax: inviato nelle navigazioni di primo livello, non nelle sottorichieste tra siti diversi"
+  },
+  "hint_samesite_strict": {
+    "message": "SameSite=Strict: inviato solo nelle richieste dello stesso sito"
+  },
+  "badge_partitioned": {
+    "message": "Partizionato"
+  },
+  "partitioned_under": {
+    "message": "Partizionato sotto $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partition_this_site": {
+    "message": "questo sito"
+  },
+  "partition_cross_site": {
+    "message": "$P1$, contesto tra siti diversi",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "row_protected": {
+    "message": "Protetto"
+  },
+  "row_unprotect_title": {
+    "message": "Rimuovi protezione (p)"
+  },
+  "row_protect_title": {
+    "message": "Proteggi da eliminazione di massa, importazione e ripristino di set (p)"
+  },
+  "copy_value": {
+    "message": "Copia valore"
+  },
+  "copied": {
+    "message": "Copiato"
+  },
+  "copy_value_title": {
+    "message": "Copia valore (c)"
+  },
+  "row_delete_title": {
+    "message": "Elimina (Del), annullabile"
+  },
+  "irreversible_title": {
+    "message": "Questa azione non si può annullare"
+  },
+  "continue_no_undo": {
+    "message": "Continua senza annullamento"
+  },
+  "undo_anyway_title": {
+    "message": "Annullare comunque?"
+  },
+  "undo_anyway": {
+    "message": "Annulla comunque"
+  },
+  "undone": {
+    "message": "Annullato: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_skipped": {
+    "message": "Alcuni cookie erano già scaduti e non sono stati ripristinati: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_refused": {
+    "message": "Chrome non accetta più questi cookie così com'erano, quindi non sono stati ripristinati: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clipboard_failed": {
+    "message": "Impossibile copiare: gli appunti non sono disponibili qui."
+  },
+  "protected_on": {
+    "message": "«$P1$» protetto: eliminazione di massa, importazione e ripristino di set non lo toccheranno.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_off": {
+    "message": "«$P1$» non è più protetto.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protect_limit": {
+    "message": "Puoi proteggere fino a $P1$ cookie. Rimuovi prima la protezione ad alcuni.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_named": {
+    "message": "Eliminare «$P1$»?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_protected_message": {
+    "message": "Questo cookie è protetto. Eliminarlo comunque? Potrai annullare."
+  },
+  "nothing_to_delete": {
+    "message": "Niente da eliminare"
+  },
+  "all_shown_protected_one": {
+    "message": "Il cookie mostrato è protetto."
+  },
+  "all_shown_protected_other": {
+    "message": "Tutti i $P1$ cookie mostrati sono protetti.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "no_cookies_shown": {
+    "message": "Non viene mostrato alcun cookie."
+  },
+  "bulk_title_one": {
+    "message": "Eliminare $P1$ cookie?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_title_other": {
+    "message": "Eliminare $P1$ cookie?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_match": {
+    "message": "Questi cookie corrispondono a «$P1$» su $P2$. Potrai annullare.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "bulk_all": {
+    "message": "Tutti i cookie elencati per $P1$. Potrai annullare.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_one": {
+    "message": "$P1$ cookie protetto verrà mantenuto.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_other": {
+    "message": "$P1$ cookie protetti verranno mantenuti.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_one": {
+    "message": "Elimina $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_other": {
+    "message": "Elimina $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_to": {
+    "message": "Copia in"
+  },
+  "copy_to_default_note": {
+    "message": "I cookie copiati nell'archivio predefinito vengono conservati come qualsiasi altro cookie, su disco, anche dopo la fine di questa sessione in incognito."
+  },
+  "copy_to_incognito_note": {
+    "message": "I cookie copiati in un archivio incognito finiscono con quella sessione in incognito."
+  },
+  "copy_title_one": {
+    "message": "Copia $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_title_other": {
+    "message": "Copia $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_from": {
+    "message": "Dall'archivio $P1$ a:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_replace_note": {
+    "message": "I cookie con lo stesso nome, dominio e percorso lì vengono sostituiti, tranne quelli protetti. Potrai annullare la copia."
+  },
+  "label_copied_one": {
+    "message": "$P1$ cookie copiato in $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_copied_other": {
+    "message": "$P1$ cookie copiati in $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_kept_one": {
+    "message": "$P1$ cookie protetto lì è rimasto com'era.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_kept_other": {
+    "message": "$P1$ cookie protetti lì sono rimasti com'erano.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_done_one": {
+    "message": "$P1$ cookie copiato in $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_done_other": {
+    "message": "$P1$ cookie copiati in $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_undo_hint": {
+    "message": "Annullala qui, o più tardi dall'archivio $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_nothing": {
+    "message": "$P1$ ha già esattamente questi cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_cant": {
+    "message": "Impossibile confrontare"
+  },
+  "compare_now": {
+    "message": "$P1$ adesso",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_other_site": {
+    "message": "Questo set è stato salvato per $P1$, non per $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "compare_too_many": {
+    "message": "Scegli un set da confrontare con lo stato attuale, o due set da confrontare tra loro."
+  },
+  "set_file_too_large": {
+    "message": "$P1$ è troppo grande per essere un set di cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_aria": {
+    "message": "Confronta set di cookie"
+  },
+  "compare_changed_fields": {
+    "message": "Modificato: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_one": {
+    "message": "Nessuna differenza: $P1$ cookie identico.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_other": {
+    "message": "Nessuna differenza: $P1$ cookie identici.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_summary": {
+    "message": "$P1$ aggiunti, $P2$ rimossi, $P3$ modificati, $P4$ invariati.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      },
+      "p4": {
+        "content": "$4"
+      }
+    }
+  },
+  "diff_added": {
+    "message": "Aggiunti"
+  },
+  "diff_removed": {
+    "message": "Rimossi"
+  },
+  "diff_changed": {
+    "message": "Modificati"
+  },
+  "diff_expiry_only": {
+    "message": "È cambiata solo la scadenza ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "shortcuts_title": {
+    "message": "Scorciatoie da tastiera"
+  },
+  "key_search": {
+    "message": "Cerca"
+  },
+  "key_move": {
+    "message": "Spostati nell'elenco"
+  },
+  "key_first_last": {
+    "message": "Primo / ultimo cookie"
+  },
+  "key_edit": {
+    "message": "Modifica"
+  },
+  "key_copy": {
+    "message": "Copia valore"
+  },
+  "key_protect": {
+    "message": "Proteggi / rimuovi protezione"
+  },
+  "key_delete": {
+    "message": "Elimina (annullabile)"
+  },
+  "key_back": {
+    "message": "Indietro, o cancella la ricerca"
+  },
+  "key_help": {
+    "message": "Questo elenco"
+  },
+  "import_kept_one": {
+    "message": "$P1$ cookie protetto è rimasto com'era: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_kept_other": {
+    "message": "$P1$ cookie protetti sono rimasti com'erano: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_nothing": {
+    "message": "Niente da importare: ogni cookie del file è già impostato esattamente così."
+  },
+  "imported_one": {
+    "message": "$P1$ cookie importato.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "imported_other": {
+    "message": "$P1$ cookie importati.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_restored": {
+    "message": "Set «$P1$» ripristinato",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restored_one": {
+    "message": "«$P2$» ripristinato: $P1$ cookie scritto, $P3$ eliminati.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "restored_other": {
+    "message": "«$P2$» ripristinato: $P1$ cookie scritti, $P3$ eliminati.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "rate_title": {
+    "message": "Ti piace CookieDesk?"
+  },
+  "rate_text": {
+    "message": "Una valutazione veloce aiuta gli altri a trovarlo."
+  },
+  "rate_group": {
+    "message": "Valuta sullo store"
+  },
+  "rate_stars_one": {
+    "message": "$P1$ stella",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "rate_stars_other": {
+    "message": "$P1$ stelle",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_confirm_title": {
+    "message": "Mi hai offerto un caffè?"
+  },
+  "kofi_confirm_text": {
+    "message": "Grazie, aiuta a mandare avanti CookieDesk."
+  },
+  "kofi_yes": {
+    "message": "Sì, l'ho fatto"
+  },
+  "kofi_not_yet": {
+    "message": "Non ancora"
+  },
+  "kofi_milestone_one": {
+    "message": "$P1$ modifica fatta con CookieDesk!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_milestone_other": {
+    "message": "$P1$ modifiche fatte con CookieDesk!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_free": {
+    "message": "È gratuito e lo fa un solo sviluppatore."
+  },
+  "buy_coffee": {
+    "message": "Offrimi un caffè"
+  },
+  "edit_cookie": {
+    "message": "Modifica cookie"
+  },
+  "add_cookie_short": {
+    "message": "Aggiungi cookie"
+  },
+  "explain_title": {
+    "message": "Cosa fa questo cookie"
+  },
+  "field_name": {
+    "message": "Nome"
+  },
+  "field_value": {
+    "message": "Valore"
+  },
+  "field_domain": {
+    "message": "Dominio"
+  },
+  "field_path": {
+    "message": "Percorso"
+  },
+  "field_expiry": {
+    "message": "Scadenza"
+  },
+  "field_expires": {
+    "message": "Scade"
+  },
+  "field_attributes": {
+    "message": "Attributi"
+  },
+  "field_partition": {
+    "message": "Partizione"
+  },
+  "host_only": {
+    "message": "Solo host"
+  },
+  "host_only_title": {
+    "message": "Solo host: nessun attributo Domain, i sottodomini non lo ricevono"
+  },
+  "session_title": {
+    "message": "Cookie di sessione: sparisce alla chiusura del browser"
+  },
+  "httponly_title": {
+    "message": "HttpOnly: non visibile al JavaScript della pagina"
+  },
+  "samesite_unspecified": {
+    "message": "Non specificato"
+  },
+  "partitioned_chips": {
+    "message": "Partizionato (CHIPS)"
+  },
+  "top_level_site": {
+    "message": "Sito di primo livello"
+  },
+  "no_partition_write": {
+    "message": "Questa versione di Chrome non può scrivere cookie partizionati."
+  },
+  "editor_delete_title": {
+    "message": "Elimina (annullabile)"
+  },
+  "bytes_of": {
+    "message": "$P1$ / $P2$ byte",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "access_aria": {
+    "message": "Accesso e impostazioni"
+  },
+  "all_sites_on": {
+    "message": "Tutti i siti: attivo"
+  },
+  "all_sites_on_text": {
+    "message": "CookieDesk può leggere e modificare i cookie di ogni sito, compresi quelli incorporati."
+  },
+  "turn_off": {
+    "message": "Disattiva"
+  },
+  "all_sites": {
+    "message": "Tutti i siti"
+  },
+  "all_sites_text": {
+    "message": "Facoltativo. Niente più richieste sito per sito, e i cookie dei siti incorporati (pubblicità, widget, frame di accesso) si vedono ovunque."
+  },
+  "allow_all_sites": {
+    "message": "Consenti su tutti i siti"
+  },
+  "remove_access": {
+    "message": "Rimuovi l'accesso a $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "access_lead": {
+    "message": "CookieDesk vede i cookie di un sito solo dopo che lo hai consentito, e nient'altro: né contenuto delle pagine né cronologia."
+  },
+  "allowed_sites": {
+    "message": "Siti consentiti"
+  },
+  "allowed_sites_count": {
+    "message": "Siti consentiti · $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "all_sites_overrides": {
+    "message": "L'accesso a tutti i siti è attivo, quindi questi non contano finché resta tale."
+  },
+  "none_yet": {
+    "message": "Ancora nessuno."
+  },
+  "toolbar_opens": {
+    "message": "Il pulsante della barra degli strumenti apre"
+  },
+  "surface_popup": {
+    "message": "Popup"
+  },
+  "surface_sidepanel": {
+    "message": "Pannello laterale"
+  },
+  "support_feedback": {
+    "message": "Assistenza e feedback"
+  },
+  "thanks_supporting": {
+    "message": "Grazie per il sostegno!"
+  },
+  "report_problem": {
+    "message": "Segnala un problema"
+  },
+  "source_code": {
+    "message": "Codice sorgente"
+  },
+  "privacy_line": {
+    "message": "Nessuna richiesta di rete, nessun valore di cookie su disco. L'annullamento funziona per 10 minuti; le sue copie restano in memoria e spariscono alla chiusura di Chrome o della sessione in incognito."
+  },
+  "export_warning": {
+    "message": "Questo file contiene cookie di sessione attivi. Chiunque lo abbia può accedere come te a questi siti. Trattalo come una password ed eliminalo quando hai finito."
+  },
+  "export_json_one": {
+    "message": "Esporta $P1$ cookie come JSON",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_json_other": {
+    "message": "Esporta $P1$ cookie come JSON",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_one": {
+    "message": "Esporta $P1$ cookie come cookies.txt",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_other": {
+    "message": "Esporta $P1$ cookie come cookies.txt",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_all_one": {
+    "message": "Il cookie elencato per $P2$ va nel file, anche se è HttpOnly.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_all_other": {
+    "message": "Tutti i $P1$ cookie elencati per $P2$ vanno nel file, compresi quelli HttpOnly.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_partitioned_left_one": {
+    "message": "$P1$ cookie partizionato escluso: cookies.txt non può registrare le partizioni. Usa JSON per mantenerlo.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_partitioned_left_other": {
+    "message": "$P1$ cookie partizionati esclusi: cookies.txt non può registrare le partizioni. Usa JSON per mantenerli.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_too_big": {
+    "message": "Questo file è di $P1$ MB. Le esportazioni di cookie sono molto più piccole; CookieDesk legge file fino a 5 MB.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "cant_import_unchanged": {
+    "message": "Impossibile importare questo file. Non è stato modificato nulla."
+  },
+  "cant_import": {
+    "message": "Impossibile importare questo file"
+  },
+  "file_unreadable": {
+    "message": "Non è stato possibile leggere il file."
+  },
+  "needs_access_one": {
+    "message": "CookieDesk ha bisogno dell'accesso a $P1$ sito in più prima di poter scrivere questi cookie:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "needs_access_other": {
+    "message": "CookieDesk ha bisogno dell'accesso a $P1$ siti in più prima di poter scrivere questi cookie:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_allow_all_hint": {
+    "message": "Oppure consenti tutti i siti in Accesso e impostazioni."
+  },
+  "other_sites": {
+    "message": "Altri siti ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "other_sites_warning": {
+    "message": "Questo file scrive anche cookie per siti diversi da $P1$. Un cookie piazzato su un altro sito può farti accedere all'account sbagliato. Continua solo se ti aspettavi questi siti.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_one": {
+    "message": "Scrivi anche i cookie di $P1$ altro sito",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_other": {
+    "message": "Scrivi anche i cookie di altri $P1$ siti",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partitioned_under_list": {
+    "message": "Partizionato sotto: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "warnings_count": {
+    "message": "Avvisi ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_title": {
+    "message": "Importa cookie"
+  },
+  "import_message_one": {
+    "message": "Importare $P1$ cookie? I cookie con lo stesso nome, dominio e percorso vengono sostituiti. Potrai annullare l'intera importazione.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_message_other": {
+    "message": "Importare $P1$ cookie? I cookie con lo stesso nome, dominio e percorso vengono sostituiti. Potrai annullare l'intera importazione.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_one": {
+    "message": "Copia $P1$ cookie come document.cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_other": {
+    "message": "Copia $P1$ cookie come document.cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_warning": {
+    "message": "Lo snippet contiene cookie di sessione attivi. Chiunque lo abbia può accedere come te a questo sito. Trattalo come una password."
+  },
+  "snippet_paste": {
+    "message": "Incollalo nella console DevTools su $P1$ per impostare lì questi cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_one": {
+    "message": "$P1$ cookie HttpOnly escluso: il JavaScript della pagina non può impostarlo.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_other": {
+    "message": "$P1$ cookie HttpOnly esclusi: il JavaScript della pagina non può impostarli.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_one": {
+    "message": "$P1$ cookie copiato come document.cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_other": {
+    "message": "$P1$ cookie copiati come document.cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_name": {
+    "message": "Nome del set"
+  },
+  "set_name_placeholder": {
+    "message": "es. connesso come admin"
+  },
+  "save_set_title_one": {
+    "message": "Salva $P1$ cookie come set",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "save_set_title_other": {
+    "message": "Salva $P1$ cookie come set",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_file_note": {
+    "message": "Il set è un file sul tuo computer; CookieDesk non ne conserva copie. Ripristinalo più tardi dal menu su $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "default_set_name": {
+    "message": "Set di cookie"
+  },
+  "set_too_large": {
+    "message": "Questo file è troppo grande per essere un set di cookie."
+  },
+  "cant_restore_unchanged": {
+    "message": "Impossibile ripristinare questo set. Non è stato modificato nulla."
+  },
+  "cant_restore": {
+    "message": "Impossibile ripristinare questo set"
+  },
+  "wrong_site_message": {
+    "message": "Questo set è stato salvato per $P1$. Apri $P1$ e ripristinalo lì.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "wrong_site_title": {
+    "message": "Sito sbagliato. Non è stato modificato nulla."
+  },
+  "foreign_cookies_one": {
+    "message": "$P1$ cookie di questo file appartiene a un altro sito ($P2$). Il ripristino di un set modifica solo $P3$; usa Importa per gli altri siti.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "foreign_cookies_other": {
+    "message": "$P1$ cookie di questo file appartengono ad altri siti ($P2$). Il ripristino di un set modifica solo $P3$; usa Importa per gli altri siti.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "plan_write": {
+    "message": "Scrivi"
+  },
+  "plan_delete": {
+    "message": "Elimina"
+  },
+  "plan_protected": {
+    "message": "Protetti, lasciati come sono"
+  },
+  "restore_title": {
+    "message": "Ripristina «$P1$»",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_nothing": {
+    "message": "$P1$ corrisponde già a questo set. Niente da modificare.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_message_one": {
+    "message": "I cookie di $P2$ saranno sostituiti dal $P1$ cookie di questo set. Potrai annullare l'intero ripristino.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "restore_message_other": {
+    "message": "I cookie di $P2$ saranno sostituiti dai $P1$ cookie di questo set. Potrai annullare l'intero ripristino.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_partition_unsupported": {
+    "message": "«$P1$» è un cookie partizionato, che questa versione di Chrome non può scrivere. Aggiorna Chrome alla versione 119 o successiva.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_gone": {
+    "message": "«$P1$» non esiste più: potrebbe essere scaduto o modificato dal sito. Ricarica l'elenco.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_stored": {
+    "message": "Chrome ha accettato «$P1$» ma non lo ha memorizzato.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_imprecise_delete_one": {
+    "message": "Chrome può eliminare «$P2$» solo insieme a $P1$ altro cookie con lo stesso nome, quindi CookieDesk non lo eliminerà.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_imprecise_delete_other": {
+    "message": "Chrome può eliminare «$P2$» solo insieme ad altri $P1$ cookie con lo stesso nome, quindi CookieDesk non lo eliminerà.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_delete": {
+    "message": "Chrome non accetta più «$P1$» così com'è memorizzato, quindi una volta eliminato non potrebbe essere rimesso. Eliminarlo senza annullamento?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_removed": {
+    "message": "Impossibile eliminare «$P1$».",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_no_permission": {
+    "message": "CookieDesk non ha accesso a $P1$. Concedi prima l'accesso a questo sito.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_secure_shadow": {
+    "message": "Esiste già un cookie Secure chiamato «$P1$» per $P2$. Chrome non permette che un cookie non Secure con lo stesso nome lo sostituisca o gli stia accanto. Attiva Secure o usa un altro nome.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_rejected": {
+    "message": "Chrome ha rifiutato «$P1$» senza indicare un motivo. Non è stato modificato nulla.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_irreversible_replace_one": {
+    "message": "Chrome non accetta più $P2$ così com'è memorizzato, quindi una volta sostituito non potrebbe essere rimesso. Continuare senza annullamento?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_replace_other": {
+    "message": "Chrome non accetta più $P2$ così come sono memorizzati, quindi una volta sostituiti non potrebbero essere rimessi. Continuare senza annullamento?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_too_large_to_undo": {
+    "message": "Questa modifica riguarda troppi dati ($P1$ KB) per conservare una copia di annullamento. Continuare senza annullamento?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_duplicate_in_file": {
+    "message": "Il file contiene «$P1$» due volte per lo stesso dominio e percorso.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_undo_expired": {
+    "message": "Niente da annullare: l'annullamento resta disponibile per 10 minuti."
+  },
+  "err_undo_conflict": {
+    "message": "$P1$ è cambiato dopo «$P2$». Annullare ora sovrascriverebbe il valore più recente. Annullare comunque?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_incomplete": {
+    "message": "Incompleto: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_added": {
+    "message": "«$P1$» aggiunto",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_edited": {
+    "message": "«$P1$» modificato",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted": {
+    "message": "«$P1$» eliminato",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_expired": {
+    "message": "«$P1$» eliminato (scadenza nel passato)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_one": {
+    "message": "$P1$ cookie eliminato",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_other": {
+    "message": "$P1$ cookie eliminati",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_one": {
+    "message": "$P1$ cookie importato",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_other": {
+    "message": "$P1$ cookie importati",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_undid": {
+    "message": "Annullato: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_saved": {
+    "message": "«$P1$» salvato",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_draft": {
+    "message": "Il cookie deve essere un oggetto con name, value, domain e path."
+  },
+  "v_name_type": {
+    "message": "Il nome del cookie deve essere testo."
+  },
+  "v_value_type": {
+    "message": "Il valore del cookie deve essere testo."
+  },
+  "v_domain_type": {
+    "message": "Il dominio deve essere testo."
+  },
+  "v_path_type": {
+    "message": "Il percorso deve essere testo."
+  },
+  "v_flag_type": {
+    "message": "$P1$ deve essere true o false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_samesite": {
+    "message": "SameSite deve essere uno tra $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_name_control": {
+    "message": "Il nome contiene caratteri di controllo (come un a capo o una tabulazione), che i cookie non possono contenere."
+  },
+  "v_name_semicolon": {
+    "message": "Il nome contiene «;», che terminerebbe il cookie in anticipo."
+  },
+  "v_name_equals": {
+    "message": "Il nome contiene «=», che in un cookie separa il nome dal valore."
+  },
+  "v_value_control": {
+    "message": "Il valore contiene caratteri di controllo (come un a capo o una tabulazione), che i cookie non possono contenere."
+  },
+  "v_value_semicolon": {
+    "message": "Il valore contiene «;», che terminerebbe il cookie in anticipo. Codificalo (per esempio con encodeURIComponent)."
+  },
+  "v_empty_cookie": {
+    "message": "Un cookie ha bisogno di un nome o di un valore; entrambi sono vuoti."
+  },
+  "v_empty_name": {
+    "message": "Questo cookie ha un nome vuoto. Alcuni siti e strumenti gestiscono male i cookie senza nome."
+  },
+  "v_too_large": {
+    "message": "Nome e valore insieme sono $P1$ byte (UTF-8); Chrome ne consente al massimo $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "v_path_slash": {
+    "message": "Il percorso deve iniziare con «/»."
+  },
+  "v_path_too_long": {
+    "message": "Il percorso supera i $P1$ byte.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_path_chars": {
+    "message": "Il percorso contiene caratteri di controllo o «;», che i cookie non possono contenere."
+  },
+  "v_domain_empty": {
+    "message": "Il dominio è vuoto. Inserisci il sito a cui appartiene il cookie, per esempio example.com."
+  },
+  "v_domain_too_long": {
+    "message": "Il dominio supera i $P1$ byte.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_domain_invalid": {
+    "message": "Il dominio non è un nome host valido. Usa lettere, cifre e trattini separati da punti (i nomi internazionalizzati devono essere in punycode, come xn--...)."
+  },
+  "v_domain_leading_dot": {
+    "message": "Un cookie solo host non può avere un punto iniziale nel dominio; il punto significa che il cookie vale anche per i sottodomini."
+  },
+  "v_domain_public_suffix": {
+    "message": "«$P1$» è un suffisso pubblico (un dominio gestito da un registro, come .com o .co.uk), quindi i browser rifiutano i cookie che si applicano a tutto il dominio.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_samesite_none_insecure": {
+    "message": "I cookie SameSite=None devono essere Secure, altrimenti Chrome li rifiuta. Attiva Secure o scegli un altro SameSite."
+  },
+  "v_partitioned_insecure": {
+    "message": "I cookie partizionati devono essere Secure, altrimenti Chrome li rifiuta. Attiva Secure o rimuovi la partizione."
+  },
+  "v_prefix_secure": {
+    "message": "I cookie chiamati «$P1$...» devono essere Secure. Attiva Secure o rinomina il cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_host_prefix_domain": {
+    "message": "I cookie chiamati «__Host-...» devono essere solo host (nessun attributo Domain, quindi nessuna condivisione con i sottodomini). Attiva solo host o rinomina il cookie."
+  },
+  "v_host_prefix_path": {
+    "message": "I cookie chiamati «__Host-...» devono avere il percorso «/»."
+  },
+  "v_bad_expiration": {
+    "message": "La scadenza deve essere un numero finito di secondi dal 1970."
+  },
+  "v_expired_deletes": {
+    "message": "Salvare con una scadenza nel passato elimina questo cookie."
+  },
+  "v_clamped": {
+    "message": "Chrome limita la durata di un cookie a $P1$ giorni; una scadenza successiva viene accorciata al salvataggio.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_expiration_missing": {
+    "message": "Un cookie non di sessione ha bisogno di una data di scadenza. Scegline una o segna il cookie come cookie di sessione."
+  },
+  "v_partition_type": {
+    "message": "La chiave di partizione deve essere un oggetto con un topLevelSite."
+  },
+  "v_partition_site_type": {
+    "message": "Il sito di primo livello della partizione deve essere testo come https://example.com."
+  },
+  "v_partition_site_form": {
+    "message": "Il sito di primo livello della partizione deve avere la forma https://example.com (https, senza percorso né porta)."
+  },
+  "v_partition_flag": {
+    "message": "L'hasCrossSiteAncestor della partizione deve essere true o false."
+  },
+  "v_partition_cross_site": {
+    "message": "Il dominio del cookie non è sullo stesso sito di $P1$, quindi Chrome richiede che hasCrossSiteAncestor sia true.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_other_site": {
+    "message": "Il dominio di questo cookie ($P1$) è fuori dal sito attuale ($P2$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_entry": {
+    "message": "Voce $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_entry_named": {
+    "message": "Voce $P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_bad_samesite": {
+    "message": "$P1$: sameSite non è uno tra no_restriction, lax, strict, unspecified.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bool": {
+    "message": "$P1$: «$P2$» deve essere true o false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_text": {
+    "message": "$P1$: «$P2$» deve essere testo.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_not_object": {
+    "message": "$P1$ non è un oggetto cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_expiration_type": {
+    "message": "$P1$: «expirationDate» deve essere un numero.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_key": {
+    "message": "$P1$: partitionKey deve essere un oggetto con un topLevelSite di tipo testo.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_flag": {
+    "message": "$P1$: partitionKey.hasCrossSiteAncestor deve essere true o false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_line": {
+    "message": "La riga $P1$ non è una voce cookies.txt (attesi 7 campi separati da tabulazioni, trovati $P2$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_line_flag_subdomains": {
+    "message": "Riga $P1$: il flag dei sottodomini deve essere TRUE o FALSE.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_flag_secure": {
+    "message": "Riga $P1$: il flag secure deve essere TRUE o FALSE.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_expiry": {
+    "message": "Riga $P1$: la scadenza deve essere un numero intero di secondi.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_not_text": {
+    "message": "Non è stato possibile leggere il file come testo."
+  },
+  "io_too_large": {
+    "message": "Il file supera il limite di importazione di $P1$ byte.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_json": {
+    "message": "Il file sembra JSON ma non è stato possibile analizzarlo."
+  },
+  "io_bad_version": {
+    "message": "Questo file CookieDesk ha una versione non supportata."
+  },
+  "io_no_cookie_list": {
+    "message": "Il file CookieDesk non ha un elenco \"cookies\"."
+  },
+  "io_unknown_format": {
+    "message": "Questo JSON non è né un'esportazione CookieDesk né un elenco di cookie."
+  },
+  "io_no_cookies": {
+    "message": "Il file non contiene cookie."
+  },
+  "io_too_many": {
+    "message": "Il file ha $P1$ cookie; il limite è $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_issue": {
+    "message": "$P1$: $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_duplicate": {
+    "message": "$P1$: un'altra voce ha lo stesso nome, dominio, percorso e partizione.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "when": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "when_passed": {
+    "message": "già passato"
+  },
+  "when_under_day": {
+    "message": "tra meno di un giorno"
+  },
+  "explain_third_party": {
+    "message": "Impostato da $P1$, un sito diverso da $P2$: un cookie di terze parti.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_third_party_partitioned": {
+    "message": "Impostato da $P1$, un sito diverso da $P2$: un cookie di terze parti, conservato nella partizione di $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_host_prefix": {
+    "message": "Il prefisso __Host- fa sì che Chrome richieda Secure, nessun attributo Domain e Path=/, così nessun sottodominio può impostarlo o sostituirlo."
+  },
+  "explain_secure_prefix": {
+    "message": "Il prefisso __Secure- fa sì che Chrome lo accetti solo con il flag Secure."
+  },
+  "explain_scope_host": {
+    "message": "Inviato solo a $P1$ stesso, non ai suoi sottodomini.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_scope_domain": {
+    "message": "Inviato a $P1$ e a ogni suo sottodominio (come www.$P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_path_all": {
+    "message": "Inviato con le richieste per qualsiasi percorso su quell'host."
+  },
+  "explain_path_under": {
+    "message": "Inviato solo con le richieste per i percorsi sotto $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_secure": {
+    "message": "Secure: inviato solo tramite HTTPS."
+  },
+  "explain_not_secure": {
+    "message": "Non Secure: inviato anche tramite HTTP semplice, dove chiunque sulla rete può leggerlo."
+  },
+  "explain_httponly": {
+    "message": "HttpOnly: non visibile al JavaScript della pagina (document.cookie non può leggerlo), il che lo tiene lontano dagli script iniettati."
+  },
+  "explain_script_readable": {
+    "message": "Leggibile e modificabile da qualsiasi script in esecuzione sulla pagina."
+  },
+  "explain_samesite_none": {
+    "message": "SameSite=None: può essere inviato anche con richieste tra siti diversi (frame incorporati, immagini, richieste da altri siti), dove Chrome consente i cookie di terze parti (l'incognito li blocca per impostazione predefinita). Per questo deve essere Secure."
+  },
+  "explain_samesite_lax": {
+    "message": "SameSite=Lax: inviato quando navighi verso il sito, anche da un link su un altro sito, ma non con le richieste che le pagine di altri siti fanno in background."
+  },
+  "explain_samesite_strict": {
+    "message": "SameSite=Strict: inviato solo quando sei già sullo stesso sito. Se arrivi da un link su un altro sito, la prima richiesta parte senza."
+  },
+  "explain_samesite_unset": {
+    "message": "Nessun attributo SameSite: Chrome lo tratta come Lax."
+  },
+  "explain_session": {
+    "message": "Un cookie di sessione: eliminato alla chiusura del browser (a meno che Chrome ripristini la sessione precedente all'avvio)."
+  },
+  "explain_expires": {
+    "message": "Scade $P1$. Chrome limita ogni scadenza a 400 giorni da quando il cookie è stato impostato l'ultima volta.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition": {
+    "message": "Partizionato (CHIPS): memorizzato separatamente per ogni sito di primo livello. Questa copia viene inviata solo mentre $P1$ è il sito nella barra degli indirizzi.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition_cross": {
+    "message": "Si trova nella parte tra siti diversi di quella partizione (usata quando un altro sito si interpone tra la pagina e il sito di questo cookie), separata dalla parte dello stesso sito."
+  },
+  "explain_partition_same": {
+    "message": "Si trova nella parte dello stesso sito di quella partizione, separata dalla parte tra siti diversi."
+  },
+  "explain_partition_other": {
+    "message": "Lo stesso nome di cookie sotto un altro sito è un cookie diverso."
+  },
+  "explain_jwt": {
+    "message": "Il valore sembra un JSON Web Token."
+  },
+  "explain_jwt_exp": {
+    "message": "Il valore sembra un JSON Web Token; il token stesso indica che scade $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_size": {
+    "message": "$P1$ dei 4096 byte che Chrome consente per nome e valore insieme.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

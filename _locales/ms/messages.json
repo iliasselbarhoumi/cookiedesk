@@ -1,0 +1,2215 @@
+{
+  "extension_name": {
+    "message": "Editor Kuki (Cookie): Lihat, Edit, Padam Kuki | CookieDesk"
+  },
+  "extension_description": {
+    "message": "Lihat, edit, tambah, padam kuki mengikut tapak. Carian, import/eksport, sokongan kuki berpartisi. Tanpa iklan, tanpa penjejakan."
+  },
+  "btn_ok": {
+    "message": "OK"
+  },
+  "btn_cancel": {
+    "message": "Batal"
+  },
+  "btn_close": {
+    "message": "Tutup"
+  },
+  "btn_delete": {
+    "message": "Padam"
+  },
+  "btn_copy": {
+    "message": "Salin"
+  },
+  "btn_save": {
+    "message": "Simpan"
+  },
+  "btn_export": {
+    "message": "Eksport"
+  },
+  "btn_later": {
+    "message": "Kemudian"
+  },
+  "dismiss": {
+    "message": "Tutup"
+  },
+  "back": {
+    "message": "Kembali"
+  },
+  "back_esc": {
+    "message": "Kembali (Esc)"
+  },
+  "back_to_list": {
+    "message": "Kembali ke senarai"
+  },
+  "title_count": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "empty_name": {
+    "message": "(nama kosong)"
+  },
+  "empty_value": {
+    "message": "(nilai kosong)"
+  },
+  "empty_short": {
+    "message": "(kosong)"
+  },
+  "names_more": {
+    "message": "$P1$ dan $P2$ lagi",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "done": {
+    "message": "Selesai"
+  },
+  "undo": {
+    "message": "Buat asal"
+  },
+  "undo_nothing": {
+    "message": "Tiada yang boleh dibuat asal"
+  },
+  "undo_entry": {
+    "message": "Buat asal: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_interrupted": {
+    "message": "Buat asal terganggu: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "redo_entry": {
+    "message": "Buat semula: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "support_title": {
+    "message": "Sokong CookieDesk di Ko-fi"
+  },
+  "supporter_title": {
+    "message": "Terima kasih kerana menyokong CookieDesk!"
+  },
+  "add_cookie": {
+    "message": "Tambah kuki"
+  },
+  "add_cookie_title": {
+    "message": "Tambah kuki (n)"
+  },
+  "more_actions": {
+    "message": "Tindakan lain"
+  },
+  "menu_group_transfer": {
+    "message": "Eksport dan import"
+  },
+  "menu_group_sets": {
+    "message": "Set kuki"
+  },
+  "export_json_title": {
+    "message": "Eksport sebagai JSON"
+  },
+  "export_txt_title": {
+    "message": "Eksport sebagai Netscape cookies.txt"
+  },
+  "tile_snippet": {
+    "message": "Kod"
+  },
+  "tile_snippet_title": {
+    "message": "Salin sebagai kod document.cookie"
+  },
+  "tile_import": {
+    "message": "Import"
+  },
+  "tile_import_title": {
+    "message": "Import JSON atau cookies.txt"
+  },
+  "tile_save_set": {
+    "message": "Simpan set"
+  },
+  "tile_save_set_title": {
+    "message": "Simpan kuki ini sebagai fail set bernama"
+  },
+  "tile_restore": {
+    "message": "Pulihkan"
+  },
+  "tile_restore_title": {
+    "message": "Pulihkan set yang disimpan (pratonton dahulu)"
+  },
+  "tile_compare": {
+    "message": "Banding"
+  },
+  "tile_compare_title": {
+    "message": "Banding set yang disimpan dengan keadaan sekarang, atau dua set"
+  },
+  "tile_copy_to": {
+    "message": "Salin ke…"
+  },
+  "tile_copy_to_title": {
+    "message": "Salin kuki yang dipaparkan ke stor lain (biasa ↔ inkognito)"
+  },
+  "menu_bulk_delete": {
+    "message": "Padam kuki yang dipaparkan…"
+  },
+  "menu_access": {
+    "message": "Akses & tetapan"
+  },
+  "menu_shortcuts": {
+    "message": "Pintasan"
+  },
+  "menu_sidepanel": {
+    "message": "Buka dalam panel sisi"
+  },
+  "menu_rate": {
+    "message": "Nilai CookieDesk"
+  },
+  "menu_support": {
+    "message": "Sokong di Ko-fi"
+  },
+  "search_placeholder": {
+    "message": "Cari kuki"
+  },
+  "search_label": {
+    "message": "Tapis kuki mengikut nama, nilai atau domain"
+  },
+  "search_title": {
+    "message": "Tapis mengikut nama, nilai atau domain"
+  },
+  "cookie_store": {
+    "message": "Stor kuki"
+  },
+  "cookies_list": {
+    "message": "Kuki"
+  },
+  "restricted_page": {
+    "message": "Halaman terhad"
+  },
+  "loading": {
+    "message": "Memuatkan…"
+  },
+  "state_unknown": {
+    "message": "Klik butang CookieDesk pada bar alat untuk memaparkan kuki tab ini."
+  },
+  "state_unknown_hint": {
+    "message": "Chrome berkongsi alamat tab hanya selepas klik itu, atau untuk tapak yang telah anda benarkan."
+  },
+  "state_error": {
+    "message": "Sesuatu tidak kena: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "state_no_access": {
+    "message": "CookieDesk belum mempunyai akses ke $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "grant_site": {
+    "message": "Benarkan di $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "chrome_will_ask": {
+    "message": "Chrome akan bertanya:"
+  },
+  "prompt_site": {
+    "message": "Baca dan ubah data anda pada semua tapak $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "prompt_all": {
+    "message": "Baca dan ubah semua data anda pada semua tapak web"
+  },
+  "only_this_site": {
+    "message": "Hanya kuki tapak ini, tiada yang lain."
+  },
+  "allow_all_instead": {
+    "message": "Benarkan semua tapak sebaliknya"
+  },
+  "restricted_browser": {
+    "message": "Ini halaman Chrome. Chrome tidak membenarkan sebarang sambungan membaca atau mengubah kuki di sini."
+  },
+  "restricted_webstore": {
+    "message": "Ini Chrome Web Store. Chrome menyekat setiap sambungan padanya, jadi kukinya tidak boleh dipaparkan."
+  },
+  "restricted_extension": {
+    "message": "Ini halaman milik sesuatu sambungan. Storannya bukan kuki tapak web, jadi tiada apa untuk dipaparkan."
+  },
+  "restricted_file": {
+    "message": "Ini fail setempat. Fail yang dibuka dari cakera tidak mempunyai kuki."
+  },
+  "restricted_other": {
+    "message": "Halaman ini bukan tapak web (contohnya halaman kosong atau data:), jadi ia tiada kuki."
+  },
+  "live_just_now": {
+    "message": "Sebentar tadi: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "note_third_party": {
+    "message": "Kuki tapak terbenam hanya dipaparkan untuk tapak yang telah anda benarkan."
+  },
+  "note_no_partitions": {
+    "message": "Versi Chrome anda tidak dapat memaparkan kuki berpartisi, jadi senarai ini mungkin tidak lengkap."
+  },
+  "empty_no_match": {
+    "message": "Tiada kuki sepadan dengan “$P1$”.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "empty_none": {
+    "message": "Tiada kuki untuk $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clear_search": {
+    "message": "Kosongkan carian"
+  },
+  "change_changed": {
+    "message": "$P1$ diubah",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_added": {
+    "message": "$P1$ ditambah",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_removed": {
+    "message": "$P1$ dialih keluar",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_one": {
+    "message": "$P1$ kuki",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_other": {
+    "message": "$P1$ kuki",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_filtered_one": {
+    "message": "$P2$ daripada $P1$ kuki",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_filtered_other": {
+    "message": "$P2$ daripada $P1$ kuki",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_partitioned": {
+    "message": "$P1$ berpartisi",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "store_default": {
+    "message": "Lalai"
+  },
+  "store_incognito": {
+    "message": "Inkognito"
+  },
+  "store_n": {
+    "message": "Stor $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "session": {
+    "message": "Sesi"
+  },
+  "expired": {
+    "message": "Tamat tempoh"
+  },
+  "expiry_under_minute": {
+    "message": "dalam kurang seminit"
+  },
+  "expiry_on_close": {
+    "message": "Dipadam apabila pelayar ditutup"
+  },
+  "expires_at": {
+    "message": "Tamat $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "badge_protected": {
+    "message": "Dilindungi: padam pukal, import dan pemulihan set tidak menyentuhnya (p)"
+  },
+  "hint_httponly": {
+    "message": "HttpOnly: tidak kelihatan oleh JavaScript halaman (document.cookie tidak dapat membacanya)"
+  },
+  "hint_secure": {
+    "message": "Secure: hanya dihantar melalui HTTPS"
+  },
+  "hint_samesite_none": {
+    "message": "SameSite=None: dihantar juga pada permintaan merentas tapak"
+  },
+  "hint_samesite_lax": {
+    "message": "SameSite=Lax: dihantar pada navigasi peringkat atas, bukan pada subpermintaan merentas tapak"
+  },
+  "hint_samesite_strict": {
+    "message": "SameSite=Strict: hanya dihantar pada permintaan tapak yang sama"
+  },
+  "badge_partitioned": {
+    "message": "Berpartisi"
+  },
+  "partitioned_under": {
+    "message": "Berpartisi di bawah $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partition_this_site": {
+    "message": "tapak ini"
+  },
+  "partition_cross_site": {
+    "message": "$P1$, konteks merentas tapak",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "row_protected": {
+    "message": "Dilindungi"
+  },
+  "row_unprotect_title": {
+    "message": "Nyahlindung (p)"
+  },
+  "row_protect_title": {
+    "message": "Lindungi daripada padam pukal, import dan pemulihan set (p)"
+  },
+  "copy_value": {
+    "message": "Salin nilai"
+  },
+  "copied": {
+    "message": "Disalin"
+  },
+  "copy_value_title": {
+    "message": "Salin nilai (c)"
+  },
+  "row_delete_title": {
+    "message": "Padam (Del) — boleh dibuat asal"
+  },
+  "irreversible_title": {
+    "message": "Ini tidak boleh dibuat asal"
+  },
+  "continue_no_undo": {
+    "message": "Teruskan tanpa buat asal"
+  },
+  "undo_anyway_title": {
+    "message": "Buat asal juga?"
+  },
+  "undo_anyway": {
+    "message": "Buat asal juga"
+  },
+  "undone": {
+    "message": "Dibuat asal: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_skipped": {
+    "message": "Sesetengah kuki sudah tamat tempoh dan tidak dipulihkan: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_refused": {
+    "message": "Chrome tidak lagi menerima kuki ini seperti asalnya, jadi ia tidak dipulihkan: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clipboard_failed": {
+    "message": "Tidak dapat menyalin: papan keratan tidak tersedia di sini."
+  },
+  "protected_on": {
+    "message": "“$P1$” dilindungi: padam pukal, import dan pemulihan set tidak akan menyentuhnya.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_off": {
+    "message": "“$P1$” tidak lagi dilindungi.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protect_limit": {
+    "message": "Anda boleh melindungi sehingga $P1$ kuki. Nyahlindung sebahagiannya dahulu.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_named": {
+    "message": "Padam “$P1$”?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_protected_message": {
+    "message": "Kuki ini dilindungi. Padam juga? Anda boleh membuat asal."
+  },
+  "nothing_to_delete": {
+    "message": "Tiada yang perlu dipadam"
+  },
+  "all_shown_protected_one": {
+    "message": "Kuki yang dipaparkan dilindungi."
+  },
+  "all_shown_protected_other": {
+    "message": "Kesemua $P1$ kuki yang dipaparkan dilindungi.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "no_cookies_shown": {
+    "message": "Tiada kuki dipaparkan."
+  },
+  "bulk_title_one": {
+    "message": "Padam $P1$ kuki?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_title_other": {
+    "message": "Padam $P1$ kuki?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_match": {
+    "message": "Kuki ini sepadan dengan “$P1$” pada $P2$. Anda boleh membuat asal.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "bulk_all": {
+    "message": "Setiap kuki yang disenaraikan untuk $P1$. Anda boleh membuat asal.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_one": {
+    "message": "$P1$ kuki dilindungi akan dikekalkan.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_other": {
+    "message": "$P1$ kuki dilindungi akan dikekalkan.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_one": {
+    "message": "Padam $P1$ kuki",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_other": {
+    "message": "Padam $P1$ kuki",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_to": {
+    "message": "Salin ke"
+  },
+  "copy_to_default_note": {
+    "message": "Kuki yang disalin ke stor Lalai disimpan seperti kuki lain, pada cakera dan selepas sesi inkognito ini tamat."
+  },
+  "copy_to_incognito_note": {
+    "message": "Kuki yang disalin ke stor inkognito tamat bersama sesi inkognito itu."
+  },
+  "copy_title_one": {
+    "message": "Salin $P1$ kuki",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_title_other": {
+    "message": "Salin $P1$ kuki",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_from": {
+    "message": "Dari stor $P1$ ke:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_replace_note": {
+    "message": "Kuki dengan nama, domain dan laluan yang sama di sana akan diganti, kecuali yang dilindungi. Anda boleh membuat asal penyalinan."
+  },
+  "label_copied_one": {
+    "message": "$P1$ kuki disalin ke $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_copied_other": {
+    "message": "$P1$ kuki disalin ke $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_kept_one": {
+    "message": "$P1$ kuki dilindungi di sana dibiarkan seperti asal.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_kept_other": {
+    "message": "$P1$ kuki dilindungi di sana dibiarkan seperti asal.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_done_one": {
+    "message": "$P1$ kuki disalin ke $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_done_other": {
+    "message": "$P1$ kuki disalin ke $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_undo_hint": {
+    "message": "Buat asal di sini, atau kemudian dari stor $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_nothing": {
+    "message": "$P1$ sudah mempunyai kuki yang sama tepat.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_cant": {
+    "message": "Tidak dapat membandingkan"
+  },
+  "compare_now": {
+    "message": "$P1$ sekarang",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_other_site": {
+    "message": "Set ini disimpan untuk $P1$, bukan $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "compare_too_many": {
+    "message": "Pilih satu set untuk dibanding dengan keadaan sekarang, atau dua set untuk dibanding sesama sendiri."
+  },
+  "set_file_too_large": {
+    "message": "$P1$ terlalu besar untuk menjadi set kuki.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_aria": {
+    "message": "Banding set kuki"
+  },
+  "compare_changed_fields": {
+    "message": "Diubah: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_one": {
+    "message": "Tiada perbezaan: $P1$ kuki serupa.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_other": {
+    "message": "Tiada perbezaan: $P1$ kuki serupa.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_summary": {
+    "message": "$P1$ ditambah, $P2$ dialih keluar, $P3$ diubah, $P4$ tidak berubah.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      },
+      "p4": {
+        "content": "$4"
+      }
+    }
+  },
+  "diff_added": {
+    "message": "Ditambah"
+  },
+  "diff_removed": {
+    "message": "Dialih keluar"
+  },
+  "diff_changed": {
+    "message": "Diubah"
+  },
+  "diff_expiry_only": {
+    "message": "Hanya tarikh tamat berubah ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "shortcuts_title": {
+    "message": "Pintasan papan kekunci"
+  },
+  "key_search": {
+    "message": "Cari"
+  },
+  "key_move": {
+    "message": "Bergerak dalam senarai"
+  },
+  "key_first_last": {
+    "message": "Kuki pertama / terakhir"
+  },
+  "key_edit": {
+    "message": "Edit"
+  },
+  "key_copy": {
+    "message": "Salin nilai"
+  },
+  "key_protect": {
+    "message": "Lindungi / nyahlindung"
+  },
+  "key_delete": {
+    "message": "Padam (boleh dibuat asal)"
+  },
+  "key_back": {
+    "message": "Kembali, atau kosongkan carian"
+  },
+  "key_help": {
+    "message": "Senarai ini"
+  },
+  "import_kept_one": {
+    "message": "$P1$ kuki dilindungi dibiarkan seperti asal: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_kept_other": {
+    "message": "$P1$ kuki dilindungi dibiarkan seperti asal: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_nothing": {
+    "message": "Tiada yang perlu diimport: setiap kuki dalam fail sudah ditetapkan sebegitu."
+  },
+  "imported_one": {
+    "message": "$P1$ kuki diimport.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "imported_other": {
+    "message": "$P1$ kuki diimport.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_restored": {
+    "message": "Set “$P1$” dipulihkan",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restored_one": {
+    "message": "“$P2$” dipulihkan: $P1$ kuki ditulis, $P3$ dipadam.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "restored_other": {
+    "message": "“$P2$” dipulihkan: $P1$ kuki ditulis, $P3$ dipadam.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "rate_title": {
+    "message": "Suka CookieDesk?"
+  },
+  "rate_text": {
+    "message": "Penilaian ringkas membantu orang lain menemuinya."
+  },
+  "rate_group": {
+    "message": "Nilai di kedai"
+  },
+  "rate_stars_one": {
+    "message": "$P1$ bintang",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "rate_stars_other": {
+    "message": "$P1$ bintang",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_confirm_title": {
+    "message": "Sudahkah anda belanja saya kopi?"
+  },
+  "kofi_confirm_text": {
+    "message": "Terima kasih, ia menjadikan CookieDesk terus berjalan."
+  },
+  "kofi_yes": {
+    "message": "Ya, sudah"
+  },
+  "kofi_not_yet": {
+    "message": "Belum lagi"
+  },
+  "kofi_milestone_one": {
+    "message": "$P1$ perubahan dibuat dengan CookieDesk!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_milestone_other": {
+    "message": "$P1$ perubahan dibuat dengan CookieDesk!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_free": {
+    "message": "Percuma dan dibuat oleh seorang pembangun."
+  },
+  "buy_coffee": {
+    "message": "Belanja saya kopi"
+  },
+  "edit_cookie": {
+    "message": "Edit kuki"
+  },
+  "add_cookie_short": {
+    "message": "Tambah kuki"
+  },
+  "explain_title": {
+    "message": "Fungsi kuki ini"
+  },
+  "field_name": {
+    "message": "Nama"
+  },
+  "field_value": {
+    "message": "Nilai"
+  },
+  "field_domain": {
+    "message": "Domain"
+  },
+  "field_path": {
+    "message": "Laluan"
+  },
+  "field_expiry": {
+    "message": "Tamat tempoh"
+  },
+  "field_expires": {
+    "message": "Tamat"
+  },
+  "field_attributes": {
+    "message": "Atribut"
+  },
+  "field_partition": {
+    "message": "Partisi"
+  },
+  "host_only": {
+    "message": "Hos sahaja"
+  },
+  "host_only_title": {
+    "message": "Hos sahaja: tiada atribut Domain, jadi subdomain tidak menerimanya"
+  },
+  "session_title": {
+    "message": "Kuki sesi: hilang apabila pelayar ditutup"
+  },
+  "httponly_title": {
+    "message": "HttpOnly: tidak kelihatan oleh JavaScript halaman"
+  },
+  "samesite_unspecified": {
+    "message": "Tidak dinyatakan"
+  },
+  "partitioned_chips": {
+    "message": "Berpartisi (CHIPS)"
+  },
+  "top_level_site": {
+    "message": "Tapak peringkat atas"
+  },
+  "no_partition_write": {
+    "message": "Versi Chrome ini tidak dapat menulis kuki berpartisi."
+  },
+  "editor_delete_title": {
+    "message": "Padam (boleh dibuat asal)"
+  },
+  "bytes_of": {
+    "message": "$P1$ / $P2$ bait",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "access_aria": {
+    "message": "Akses dan tetapan"
+  },
+  "all_sites_on": {
+    "message": "Semua tapak: hidup"
+  },
+  "all_sites_on_text": {
+    "message": "CookieDesk boleh membaca dan mengubah kuki pada setiap tapak, termasuk yang terbenam."
+  },
+  "turn_off": {
+    "message": "Matikan"
+  },
+  "all_sites": {
+    "message": "Semua tapak"
+  },
+  "all_sites_text": {
+    "message": "Pilihan. Tiada lagi gesaan bagi setiap tapak, dan kuki tapak terbenam (iklan, widget, bingkai log masuk) dipaparkan di mana-mana."
+  },
+  "allow_all_sites": {
+    "message": "Benarkan pada semua tapak"
+  },
+  "remove_access": {
+    "message": "Alih keluar akses ke $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "access_lead": {
+    "message": "CookieDesk hanya melihat kuki sesebuah tapak selepas anda membenarkan tapak itu, dan tiada yang lain: tiada kandungan halaman, tiada sejarah."
+  },
+  "allowed_sites": {
+    "message": "Tapak yang dibenarkan"
+  },
+  "allowed_sites_count": {
+    "message": "Tapak yang dibenarkan · $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "all_sites_overrides": {
+    "message": "Akses semua tapak dihidupkan, jadi senarai ini tidak penting selagi ia kekal hidup."
+  },
+  "none_yet": {
+    "message": "Belum ada."
+  },
+  "toolbar_opens": {
+    "message": "Butang bar alat membuka"
+  },
+  "surface_popup": {
+    "message": "Pop timbul"
+  },
+  "surface_sidepanel": {
+    "message": "Panel sisi"
+  },
+  "support_feedback": {
+    "message": "Sokongan & maklum balas"
+  },
+  "thanks_supporting": {
+    "message": "Terima kasih kerana menyokong!"
+  },
+  "report_problem": {
+    "message": "Laporkan masalah"
+  },
+  "source_code": {
+    "message": "Kod sumber"
+  },
+  "privacy_line": {
+    "message": "Tiada permintaan rangkaian, tiada nilai kuki pada cakera. Buat asal berfungsi selama 10 minit; salinannya berada dalam memori dan hilang apabila Chrome ditutup atau sesi inkognito tamat."
+  },
+  "export_warning": {
+    "message": "Fail ini mengandungi kuki sesi yang masih aktif. Sesiapa yang memilikinya boleh log masuk sebagai anda pada tapak ini. Layan seperti kata laluan dan padamkannya apabila selesai."
+  },
+  "export_json_one": {
+    "message": "Eksport $P1$ kuki sebagai JSON",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_json_other": {
+    "message": "Eksport $P1$ kuki sebagai JSON",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_one": {
+    "message": "Eksport $P1$ kuki sebagai cookies.txt",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_other": {
+    "message": "Eksport $P1$ kuki sebagai cookies.txt",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_all_one": {
+    "message": "Kuki yang disenaraikan untuk $P2$ masuk ke dalam fail, walaupun ia HttpOnly.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_all_other": {
+    "message": "Kesemua $P1$ kuki yang disenaraikan untuk $P2$ masuk ke dalam fail, termasuk yang HttpOnly.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_partitioned_left_one": {
+    "message": "$P1$ kuki berpartisi ditinggalkan: cookies.txt tidak dapat merekod partisi. Gunakan JSON untuk menyimpannya.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_partitioned_left_other": {
+    "message": "$P1$ kuki berpartisi ditinggalkan: cookies.txt tidak dapat merekod partisi. Gunakan JSON untuk menyimpannya.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_too_big": {
+    "message": "Fail ini $P1$ MB. Eksport kuki jauh lebih kecil; CookieDesk membaca fail sehingga 5 MB.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "cant_import_unchanged": {
+    "message": "Fail ini tidak dapat diimport. Tiada apa yang diubah."
+  },
+  "cant_import": {
+    "message": "Fail ini tidak dapat diimport"
+  },
+  "file_unreadable": {
+    "message": "Fail tidak dapat dibaca."
+  },
+  "needs_access_one": {
+    "message": "CookieDesk memerlukan akses ke $P1$ tapak lagi sebelum boleh menulis kuki ini:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "needs_access_other": {
+    "message": "CookieDesk memerlukan akses ke $P1$ tapak lagi sebelum boleh menulis kuki ini:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_allow_all_hint": {
+    "message": "Atau benarkan semua tapak di bawah Akses & tetapan."
+  },
+  "other_sites": {
+    "message": "Tapak lain ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "other_sites_warning": {
+    "message": "Fail ini juga menulis kuki untuk tapak selain $P1$. Kuki yang ditanam pada tapak lain boleh menyebabkan anda log masuk ke akaun yang salah di sana. Teruskan hanya jika anda memang menjangkakan tapak ini.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_one": {
+    "message": "Tulis juga kuki untuk $P1$ tapak lain",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_other": {
+    "message": "Tulis juga kuki untuk $P1$ tapak lain",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partitioned_under_list": {
+    "message": "Berpartisi di bawah: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "warnings_count": {
+    "message": "Amaran ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_title": {
+    "message": "Import kuki"
+  },
+  "import_message_one": {
+    "message": "Import $P1$ kuki? Kuki dengan nama, domain dan laluan yang sama akan diganti. Anda boleh membuat asal keseluruhan import.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_message_other": {
+    "message": "Import $P1$ kuki? Kuki dengan nama, domain dan laluan yang sama akan diganti. Anda boleh membuat asal keseluruhan import.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_one": {
+    "message": "Salin $P1$ kuki sebagai document.cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_other": {
+    "message": "Salin $P1$ kuki sebagai document.cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_warning": {
+    "message": "Kod ini mengandungi kuki sesi yang masih aktif. Sesiapa yang memilikinya boleh log masuk sebagai anda pada tapak ini. Layan seperti kata laluan."
+  },
+  "snippet_paste": {
+    "message": "Tampalkannya ke konsol DevTools pada $P1$ untuk menetapkan kuki ini di sana.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_one": {
+    "message": "$P1$ kuki HttpOnly ditinggalkan: JavaScript halaman tidak dapat menetapkannya.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_other": {
+    "message": "$P1$ kuki HttpOnly ditinggalkan: JavaScript halaman tidak dapat menetapkannya.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_one": {
+    "message": "$P1$ kuki disalin sebagai document.cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_other": {
+    "message": "$P1$ kuki disalin sebagai document.cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_name": {
+    "message": "Nama set"
+  },
+  "set_name_placeholder": {
+    "message": "cth. log masuk sebagai admin"
+  },
+  "save_set_title_one": {
+    "message": "Simpan $P1$ kuki sebagai set",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "save_set_title_other": {
+    "message": "Simpan $P1$ kuki sebagai set",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_file_note": {
+    "message": "Set ialah fail pada komputer anda; CookieDesk tidak menyimpan salinan. Pulihkannya kemudian daripada menu pada $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "default_set_name": {
+    "message": "Set kuki"
+  },
+  "set_too_large": {
+    "message": "Fail ini terlalu besar untuk menjadi set kuki."
+  },
+  "cant_restore_unchanged": {
+    "message": "Set ini tidak dapat dipulihkan. Tiada apa yang diubah."
+  },
+  "cant_restore": {
+    "message": "Set ini tidak dapat dipulihkan"
+  },
+  "wrong_site_message": {
+    "message": "Set ini disimpan untuk $P1$. Buka $P1$ dan pulihkannya di sana.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "wrong_site_title": {
+    "message": "Tapak salah. Tiada apa yang diubah."
+  },
+  "foreign_cookies_one": {
+    "message": "$P1$ kuki dalam fail ini milik tapak lain ($P2$). Memulihkan set hanya mengubah $P3$; gunakan Import untuk tapak lain.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "foreign_cookies_other": {
+    "message": "$P1$ kuki dalam fail ini milik tapak lain ($P2$). Memulihkan set hanya mengubah $P3$; gunakan Import untuk tapak lain.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "plan_write": {
+    "message": "Tulis"
+  },
+  "plan_delete": {
+    "message": "Padam"
+  },
+  "plan_protected": {
+    "message": "Dilindungi, dibiarkan seperti asal"
+  },
+  "restore_title": {
+    "message": "Pulihkan “$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_nothing": {
+    "message": "$P1$ sudah sepadan dengan set ini. Tiada yang perlu diubah.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_message_one": {
+    "message": "Kuki $P2$ akan diganti dengan $P1$ kuki dalam set ini. Anda boleh membuat asal keseluruhan pemulihan.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "restore_message_other": {
+    "message": "Kuki $P2$ akan diganti dengan $P1$ kuki dalam set ini. Anda boleh membuat asal keseluruhan pemulihan.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_partition_unsupported": {
+    "message": "“$P1$” ialah kuki berpartisi, yang tidak dapat ditulis oleh versi Chrome ini. Kemas kini Chrome ke versi 119 atau lebih baharu.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_gone": {
+    "message": "“$P1$” tidak lagi wujud — mungkin ia telah tamat tempoh atau diubah oleh tapak. Muat semula senarai.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_stored": {
+    "message": "Chrome menerima “$P1$” tetapi tidak menyimpannya.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_imprecise_delete_one": {
+    "message": "Chrome hanya boleh memadam “$P2$” bersama $P1$ kuki lain yang bernama sama, jadi CookieDesk tidak akan memadamnya.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_imprecise_delete_other": {
+    "message": "Chrome hanya boleh memadam “$P2$” bersama $P1$ kuki lain yang bernama sama, jadi CookieDesk tidak akan memadamnya.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_delete": {
+    "message": "Chrome tidak lagi menerima “$P1$” seperti yang disimpan, jadi selepas dipadam ia tidak dapat dikembalikan. Padam tanpa buat asal?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_removed": {
+    "message": "Tidak dapat memadam “$P1$”.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_no_permission": {
+    "message": "CookieDesk tiada akses ke $P1$. Berikan akses kepada tapak ini dahulu.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_secure_shadow": {
+    "message": "Kuki Secure bernama “$P1$” sudah wujud untuk $P2$. Chrome tidak membenarkan kuki bukan Secure dengan nama yang sama menggantikan atau berada di sebelahnya. Hidupkan Secure, atau gunakan nama lain.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_rejected": {
+    "message": "Chrome menolak “$P1$” tanpa memberi sebab. Tiada apa yang diubah.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_irreversible_replace_one": {
+    "message": "Chrome tidak lagi menerima $P2$ seperti yang disimpan, jadi selepas diganti ia tidak dapat dikembalikan. Teruskan tanpa buat asal untuknya?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_replace_other": {
+    "message": "Chrome tidak lagi menerima $P2$ seperti yang disimpan, jadi selepas diganti ia tidak dapat dikembalikan. Teruskan tanpa buat asal untuknya?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_too_large_to_undo": {
+    "message": "Perubahan ini melibatkan terlalu banyak data ($P1$ KB) untuk menyimpan salinan buat asal. Teruskan tanpa buat asal?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_duplicate_in_file": {
+    "message": "Fail mengandungi “$P1$” dua kali untuk domain dan laluan yang sama.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_undo_expired": {
+    "message": "Tiada yang boleh dibuat asal — buat asal disimpan selama 10 minit."
+  },
+  "err_undo_conflict": {
+    "message": "$P1$ berubah selepas “$P2$”. Membuat asal sekarang akan menimpa nilai yang lebih baharu. Buat asal juga?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_incomplete": {
+    "message": "Tidak lengkap: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_added": {
+    "message": "“$P1$” ditambah",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_edited": {
+    "message": "“$P1$” diedit",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted": {
+    "message": "“$P1$” dipadam",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_expired": {
+    "message": "“$P1$” dipadam (tarikh tamat sudah lepas)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_one": {
+    "message": "$P1$ kuki dipadam",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_other": {
+    "message": "$P1$ kuki dipadam",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_one": {
+    "message": "$P1$ kuki diimport",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_other": {
+    "message": "$P1$ kuki diimport",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_undid": {
+    "message": "Dibuat asal: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_saved": {
+    "message": "“$P1$” disimpan",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_draft": {
+    "message": "Kuki mestilah objek dengan name, value, domain dan path."
+  },
+  "v_name_type": {
+    "message": "Nama kuki mestilah teks."
+  },
+  "v_value_type": {
+    "message": "Nilai kuki mestilah teks."
+  },
+  "v_domain_type": {
+    "message": "Domain mestilah teks."
+  },
+  "v_path_type": {
+    "message": "Laluan mestilah teks."
+  },
+  "v_flag_type": {
+    "message": "$P1$ mestilah true atau false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_samesite": {
+    "message": "SameSite mestilah salah satu daripada $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_name_control": {
+    "message": "Nama mengandungi aksara kawalan (seperti baris baharu atau tab), yang tidak boleh dimuatkan oleh kuki."
+  },
+  "v_name_semicolon": {
+    "message": "Nama mengandungi \";\", yang akan menamatkan kuki terlalu awal."
+  },
+  "v_name_equals": {
+    "message": "Nama mengandungi \"=\", yang memisahkan nama daripada nilai dalam kuki."
+  },
+  "v_value_control": {
+    "message": "Nilai mengandungi aksara kawalan (seperti baris baharu atau tab), yang tidak boleh dimuatkan oleh kuki."
+  },
+  "v_value_semicolon": {
+    "message": "Nilai mengandungi \";\", yang akan menamatkan kuki terlalu awal. Kodkannya (contohnya dengan encodeURIComponent)."
+  },
+  "v_empty_cookie": {
+    "message": "Kuki memerlukan nama atau nilai; kedua-duanya kosong."
+  },
+  "v_empty_name": {
+    "message": "Kuki ini mempunyai nama kosong. Sesetengah tapak dan alat mengendalikan kuki tanpa nama dengan buruk."
+  },
+  "v_too_large": {
+    "message": "Nama dan nilai bersama ialah $P1$ bait (UTF-8); Chrome membenarkan paling banyak $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "v_path_slash": {
+    "message": "Laluan mestilah bermula dengan \"/\"."
+  },
+  "v_path_too_long": {
+    "message": "Laluan lebih panjang daripada $P1$ bait.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_path_chars": {
+    "message": "Laluan mengandungi aksara kawalan atau \";\", yang tidak boleh dimuatkan oleh kuki."
+  },
+  "v_domain_empty": {
+    "message": "Domain kosong. Masukkan tapak tempat kuki itu berada, contohnya example.com."
+  },
+  "v_domain_too_long": {
+    "message": "Domain lebih panjang daripada $P1$ bait.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_domain_invalid": {
+    "message": "Domain bukan nama hos yang sah. Gunakan huruf, digit dan tanda sempang yang dipisahkan oleh titik (nama antarabangsa mestilah dalam punycode, seperti xn--...)."
+  },
+  "v_domain_leading_dot": {
+    "message": "Kuki hos sahaja tidak boleh mempunyai titik di hadapan domainnya; titik bermaksud kuki turut terpakai pada subdomain."
+  },
+  "v_domain_public_suffix": {
+    "message": "“$P1$” ialah akhiran awam (domain yang dikawal pendaftar seperti .com atau .co.uk), jadi pelayar menolak kuki yang terpakai pada keseluruhannya.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_samesite_none_insecure": {
+    "message": "Kuki SameSite=None mestilah Secure — jika tidak, Chrome menolaknya. Hidupkan Secure atau pilih SameSite lain."
+  },
+  "v_partitioned_insecure": {
+    "message": "Kuki berpartisi mestilah Secure — jika tidak, Chrome menolaknya. Hidupkan Secure atau alih keluar partisi."
+  },
+  "v_prefix_secure": {
+    "message": "Kuki bernama “$P1$...” mestilah Secure. Hidupkan Secure atau namakan semula kuki.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_host_prefix_domain": {
+    "message": "Kuki bernama “__Host-...” mestilah hos sahaja (tiada atribut Domain, jadi tiada perkongsian subdomain). Hidupkan hos sahaja atau namakan semula kuki."
+  },
+  "v_host_prefix_path": {
+    "message": "Kuki bernama “__Host-...” mestilah mempunyai laluan \"/\"."
+  },
+  "v_bad_expiration": {
+    "message": "Tarikh tamat mestilah bilangan saat terhingga sejak 1970."
+  },
+  "v_expired_deletes": {
+    "message": "Menyimpan dengan tarikh tamat yang sudah lepas akan memadam kuki ini."
+  },
+  "v_clamped": {
+    "message": "Chrome mengehadkan hayat kuki kepada $P1$ hari; tarikh tamat yang lebih lewat dipendekkan semasa disimpan.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_expiration_missing": {
+    "message": "Kuki bukan sesi memerlukan tarikh tamat. Pilih satu atau tandakan kuki sebagai kuki sesi."
+  },
+  "v_partition_type": {
+    "message": "Kunci partisi mestilah objek dengan topLevelSite."
+  },
+  "v_partition_site_type": {
+    "message": "Tapak peringkat atas partisi mestilah teks seperti https://example.com."
+  },
+  "v_partition_site_form": {
+    "message": "Tapak peringkat atas partisi mestilah kelihatan seperti https://example.com (https, tanpa laluan atau port)."
+  },
+  "v_partition_flag": {
+    "message": "hasCrossSiteAncestor partisi mestilah true atau false."
+  },
+  "v_partition_cross_site": {
+    "message": "Domain kuki tidak berada pada tapak yang sama dengan $P1$, jadi Chrome memerlukan hasCrossSiteAncestor bernilai true.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_other_site": {
+    "message": "Domain kuki ini ($P1$) berada di luar tapak semasa ($P2$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_entry": {
+    "message": "Entri $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_entry_named": {
+    "message": "Entri $P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_bad_samesite": {
+    "message": "$P1$: sameSite bukan salah satu daripada no_restriction, lax, strict, unspecified.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bool": {
+    "message": "$P1$: \"$P2$\" mestilah true atau false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_text": {
+    "message": "$P1$: \"$P2$\" mestilah teks.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_not_object": {
+    "message": "$P1$ bukan objek kuki.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_expiration_type": {
+    "message": "$P1$: \"expirationDate\" mestilah nombor.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_key": {
+    "message": "$P1$: partitionKey mestilah objek dengan topLevelSite berbentuk teks.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_flag": {
+    "message": "$P1$: partitionKey.hasCrossSiteAncestor mestilah true atau false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_line": {
+    "message": "Baris $P1$ bukan entri cookies.txt (dijangka 7 medan dipisahkan tab, ditemui $P2$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_line_flag_subdomains": {
+    "message": "Baris $P1$: bendera subdomain mestilah TRUE atau FALSE.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_flag_secure": {
+    "message": "Baris $P1$: bendera secure mestilah TRUE atau FALSE.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_expiry": {
+    "message": "Baris $P1$: tarikh tamat mestilah bilangan bulat saat.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_not_text": {
+    "message": "Fail tidak dapat dibaca sebagai teks."
+  },
+  "io_too_large": {
+    "message": "Fail lebih besar daripada had import $P1$ bait.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_json": {
+    "message": "Fail kelihatan seperti JSON tetapi tidak dapat dihuraikan."
+  },
+  "io_bad_version": {
+    "message": "Fail CookieDesk ini mempunyai versi yang tidak disokong."
+  },
+  "io_no_cookie_list": {
+    "message": "Fail CookieDesk tiada senarai \"cookies\"."
+  },
+  "io_unknown_format": {
+    "message": "JSON ini bukan eksport CookieDesk dan bukan juga senarai kuki."
+  },
+  "io_no_cookies": {
+    "message": "Fail tidak mengandungi kuki."
+  },
+  "io_too_many": {
+    "message": "Fail mempunyai $P1$ kuki; hadnya ialah $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_issue": {
+    "message": "$P1$: $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_duplicate": {
+    "message": "$P1$: entri lain mempunyai name, domain, path dan partisi yang sama.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "when": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "when_passed": {
+    "message": "sudah lepas"
+  },
+  "when_under_day": {
+    "message": "dalam kurang sehari"
+  },
+  "explain_third_party": {
+    "message": "Ditetapkan oleh $P1$, tapak yang berbeza daripada $P2$: kuki pihak ketiga.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_third_party_partitioned": {
+    "message": "Ditetapkan oleh $P1$, tapak yang berbeza daripada $P2$: kuki pihak ketiga, disimpan dalam partisi $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_host_prefix": {
+    "message": "Awalan __Host- membuat Chrome mewajibkan Secure, tiada atribut Domain dan Path=/, jadi tiada subdomain boleh menetapkan atau menggantikannya."
+  },
+  "explain_secure_prefix": {
+    "message": "Awalan __Secure- membuat Chrome menerimanya hanya dengan bendera Secure."
+  },
+  "explain_scope_host": {
+    "message": "Dihantar hanya ke $P1$ sendiri, bukan ke subdomainnya.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_scope_domain": {
+    "message": "Dihantar ke $P1$ dan setiap subdomainnya (seperti www.$P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_path_all": {
+    "message": "Dihantar bersama permintaan untuk setiap laluan pada hos itu."
+  },
+  "explain_path_under": {
+    "message": "Dihantar hanya bersama permintaan untuk laluan di bawah $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_secure": {
+    "message": "Secure: hanya dihantar melalui HTTPS."
+  },
+  "explain_not_secure": {
+    "message": "Bukan Secure: turut dihantar melalui HTTP biasa, tempat sesiapa sahaja pada rangkaian boleh membacanya."
+  },
+  "explain_httponly": {
+    "message": "HttpOnly: tidak kelihatan oleh JavaScript halaman (document.cookie tidak dapat membacanya), yang menjauhkannya daripada skrip yang disuntik."
+  },
+  "explain_script_readable": {
+    "message": "Boleh dibaca dan diubah oleh mana-mana skrip yang berjalan pada halaman."
+  },
+  "explain_samesite_none": {
+    "message": "SameSite=None: boleh turut dihantar bersama permintaan merentas tapak (bingkai terbenam, imej, permintaan dari tapak lain), jika Chrome membenarkan kuki pihak ketiga (inkognito menyekatnya secara lalai). Itulah sebabnya ia mestilah Secure."
+  },
+  "explain_samesite_lax": {
+    "message": "SameSite=Lax: dihantar apabila anda menavigasi ke tapak, termasuk dari pautan pada tapak lain, tetapi tidak bersama permintaan yang dibuat oleh halaman tapak lain di latar belakang."
+  },
+  "explain_samesite_strict": {
+    "message": "SameSite=Strict: hanya dihantar apabila anda sudah berada pada tapak yang sama. Apabila tiba dari pautan pada tapak lain, permintaan pertama pergi tanpanya."
+  },
+  "explain_samesite_unset": {
+    "message": "Tiada atribut SameSite: Chrome menganggapnya sebagai Lax."
+  },
+  "explain_session": {
+    "message": "Kuki sesi: dipadam apabila pelayar ditutup (kecuali Chrome memulihkan sesi sebelumnya semasa dimulakan)."
+  },
+  "explain_expires": {
+    "message": "Tamat $P1$. Chrome menghadkan sebarang tarikh tamat kepada 400 hari dari kali terakhir kuki ditetapkan.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition": {
+    "message": "Berpartisi (CHIPS): disimpan secara berasingan untuk setiap tapak peringkat atas. Salinan ini hanya dihantar apabila $P1$ ialah tapak dalam bar alamat.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition_cross": {
+    "message": "Ia berada dalam bahagian merentas tapak partisi itu (digunakan apabila tapak lain berada di antara halaman dan tapak kuki ini), diasingkan daripada bahagian tapak yang sama."
+  },
+  "explain_partition_same": {
+    "message": "Ia berada dalam bahagian tapak yang sama partisi itu, diasingkan daripada bahagian merentas tapak."
+  },
+  "explain_partition_other": {
+    "message": "Nama kuki yang sama di bawah tapak lain ialah kuki yang berbeza."
+  },
+  "explain_jwt": {
+    "message": "Nilai ini kelihatan seperti JSON Web Token."
+  },
+  "explain_jwt_exp": {
+    "message": "Nilai ini kelihatan seperti JSON Web Token; token itu sendiri menyatakan ia tamat $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_size": {
+    "message": "$P1$ daripada 4096 bait yang dibenarkan Chrome untuk nama dan nilai bersama.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

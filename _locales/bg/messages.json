@@ -1,0 +1,2215 @@
+{
+  "extension_name": {
+    "message": "Редактор на бисквитки: преглед, промяна, изтриване | CookieDesk"
+  },
+  "extension_description": {
+    "message": "Преглед, промяна, добавяне и изтриване на бисквитки по сайт. Търсене, внос и износ, разделени бисквитки. Без реклами и следене."
+  },
+  "btn_ok": {
+    "message": "OK"
+  },
+  "btn_cancel": {
+    "message": "Отказ"
+  },
+  "btn_close": {
+    "message": "Затваряне"
+  },
+  "btn_delete": {
+    "message": "Изтриване"
+  },
+  "btn_copy": {
+    "message": "Копиране"
+  },
+  "btn_save": {
+    "message": "Запазване"
+  },
+  "btn_export": {
+    "message": "Експортиране"
+  },
+  "btn_later": {
+    "message": "По-късно"
+  },
+  "dismiss": {
+    "message": "Скриване"
+  },
+  "back": {
+    "message": "Назад"
+  },
+  "back_esc": {
+    "message": "Назад (Esc)"
+  },
+  "back_to_list": {
+    "message": "Назад към списъка"
+  },
+  "title_count": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "empty_name": {
+    "message": "(празно име)"
+  },
+  "empty_value": {
+    "message": "(празна стойност)"
+  },
+  "empty_short": {
+    "message": "(празно)"
+  },
+  "names_more": {
+    "message": "$P1$ и още $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "done": {
+    "message": "Готово"
+  },
+  "undo": {
+    "message": "Отмяна"
+  },
+  "undo_nothing": {
+    "message": "Няма какво да се отмени"
+  },
+  "undo_entry": {
+    "message": "Отмяна: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_interrupted": {
+    "message": "Отмяната е прекъсната: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "redo_entry": {
+    "message": "Повторение: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "support_title": {
+    "message": "Подкрепете CookieDesk в Ko-fi"
+  },
+  "supporter_title": {
+    "message": "Благодарим, че подкрепяте CookieDesk!"
+  },
+  "add_cookie": {
+    "message": "Добавяне на бисквитка"
+  },
+  "add_cookie_title": {
+    "message": "Добавяне на бисквитка (n)"
+  },
+  "more_actions": {
+    "message": "Още действия"
+  },
+  "menu_group_transfer": {
+    "message": "Износ и внос"
+  },
+  "menu_group_sets": {
+    "message": "Набори бисквитки"
+  },
+  "export_json_title": {
+    "message": "Експортиране като JSON"
+  },
+  "export_txt_title": {
+    "message": "Експортиране като Netscape cookies.txt"
+  },
+  "tile_snippet": {
+    "message": "Фрагмент"
+  },
+  "tile_snippet_title": {
+    "message": "Копиране като фрагмент document.cookie"
+  },
+  "tile_import": {
+    "message": "Внос"
+  },
+  "tile_import_title": {
+    "message": "Импортиране на JSON или cookies.txt"
+  },
+  "tile_save_set": {
+    "message": "Запази набор"
+  },
+  "tile_save_set_title": {
+    "message": "Запазване на тези бисквитки като именуван файл с набор"
+  },
+  "tile_restore": {
+    "message": "Възстанови"
+  },
+  "tile_restore_title": {
+    "message": "Възстановяване на запазен набор (първо преглед)"
+  },
+  "tile_compare": {
+    "message": "Сравни"
+  },
+  "tile_compare_title": {
+    "message": "Сравняване на запазен набор с текущото състояние или на два набора"
+  },
+  "tile_copy_to": {
+    "message": "Копирай в…"
+  },
+  "tile_copy_to_title": {
+    "message": "Копиране на показаните бисквитки в друго хранилище (обикновено ↔ инкогнито)"
+  },
+  "menu_bulk_delete": {
+    "message": "Изтрий показаните бисквитки…"
+  },
+  "menu_access": {
+    "message": "Достъп и настройки"
+  },
+  "menu_shortcuts": {
+    "message": "Клавишни комбинации"
+  },
+  "menu_sidepanel": {
+    "message": "Отваряне в страничния панел"
+  },
+  "menu_rate": {
+    "message": "Оценете CookieDesk"
+  },
+  "menu_support": {
+    "message": "Подкрепа в Ko-fi"
+  },
+  "search_placeholder": {
+    "message": "Търсене на бисквитки"
+  },
+  "search_label": {
+    "message": "Филтриране на бисквитки по име, стойност или домейн"
+  },
+  "search_title": {
+    "message": "Филтър по име, стойност или домейн"
+  },
+  "cookie_store": {
+    "message": "Хранилище за бисквитки"
+  },
+  "cookies_list": {
+    "message": "Бисквитки"
+  },
+  "restricted_page": {
+    "message": "Страница с ограничения"
+  },
+  "loading": {
+    "message": "Зареждане…"
+  },
+  "state_unknown": {
+    "message": "Натиснете бутона на CookieDesk в лентата с инструменти, за да покажете бисквитките на този раздел."
+  },
+  "state_unknown_hint": {
+    "message": "Chrome предава адреса на раздела само след това натискане или за сайтове, които сте разрешили."
+  },
+  "state_error": {
+    "message": "Нещо се обърка: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "state_no_access": {
+    "message": "CookieDesk още няма достъп до $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "grant_site": {
+    "message": "Разреши за $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "chrome_will_ask": {
+    "message": "Chrome ще попита:"
+  },
+  "prompt_site": {
+    "message": "Четене и промяна на вашите данни във всички сайтове на $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "prompt_all": {
+    "message": "Четене и промяна на всички ваши данни във всички уебсайтове"
+  },
+  "only_this_site": {
+    "message": "Само бисквитките на този сайт, нищо друго."
+  },
+  "allow_all_instead": {
+    "message": "Разреши за всички сайтове"
+  },
+  "restricted_browser": {
+    "message": "Това е страница на Chrome. Chrome не позволява на разширения да четат или променят бисквитки тук."
+  },
+  "restricted_webstore": {
+    "message": "Това е Chrome Web Store. Chrome блокира всички разширения там, затова бисквитките му не могат да се покажат."
+  },
+  "restricted_extension": {
+    "message": "Това е собствена страница на разширение. Хранилището ѝ не са бисквитки на сайт, така че няма какво да се покаже."
+  },
+  "restricted_file": {
+    "message": "Това е локален файл. Файловете, отворени от диска, нямат бисквитки."
+  },
+  "restricted_other": {
+    "message": "Тази страница не е сайт (например празна страница или data:), затова няма бисквитки."
+  },
+  "live_just_now": {
+    "message": "Току-що: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "note_third_party": {
+    "message": "Бисквитките на вградени сайтове се показват само за сайтове, които сте разрешили."
+  },
+  "note_no_partitions": {
+    "message": "Вашата версия на Chrome не може да показва разделени бисквитки, затова списъкът може да е непълен."
+  },
+  "empty_no_match": {
+    "message": "Няма бисквитки, съответстващи на „$P1$“.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "empty_none": {
+    "message": "Няма бисквитки за $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clear_search": {
+    "message": "Изчистване на търсенето"
+  },
+  "change_changed": {
+    "message": "$P1$ е променена",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_added": {
+    "message": "$P1$ е добавена",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_removed": {
+    "message": "$P1$ е премахната",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_one": {
+    "message": "$P1$ бисквитка",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_other": {
+    "message": "$P1$ бисквитки",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_filtered_one": {
+    "message": "$P2$ от $P1$ бисквитка",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_filtered_other": {
+    "message": "$P2$ от $P1$ бисквитки",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_partitioned": {
+    "message": "Разделени: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "store_default": {
+    "message": "Обикновено"
+  },
+  "store_incognito": {
+    "message": "Инкогнито"
+  },
+  "store_n": {
+    "message": "Хранилище $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "session": {
+    "message": "Сесия"
+  },
+  "expired": {
+    "message": "Изтекла"
+  },
+  "expiry_under_minute": {
+    "message": "след по-малко от минута"
+  },
+  "expiry_on_close": {
+    "message": "Изтрива се при затваряне на браузъра"
+  },
+  "expires_at": {
+    "message": "Изтича: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "badge_protected": {
+    "message": "Защитена: груповото изтриване, вносът и възстановяването на набор я пропускат (p)"
+  },
+  "hint_httponly": {
+    "message": "HttpOnly: невидима за JavaScript на страницата (document.cookie не може да я прочете)"
+  },
+  "hint_secure": {
+    "message": "Secure: изпраща се само през HTTPS"
+  },
+  "hint_samesite_none": {
+    "message": "SameSite=None: изпраща се и при заявки между сайтове"
+  },
+  "hint_samesite_lax": {
+    "message": "SameSite=Lax: изпраща се при навигация към сайта, но не и при подзаявки между сайтове"
+  },
+  "hint_samesite_strict": {
+    "message": "SameSite=Strict: изпраща се само при заявки в рамките на един и същ сайт"
+  },
+  "badge_partitioned": {
+    "message": "Разделена"
+  },
+  "partitioned_under": {
+    "message": "Разделена под $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partition_this_site": {
+    "message": "този сайт"
+  },
+  "partition_cross_site": {
+    "message": "$P1$, контекст между сайтове",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "row_protected": {
+    "message": "Защитена"
+  },
+  "row_unprotect_title": {
+    "message": "Премахване на защитата (p)"
+  },
+  "row_protect_title": {
+    "message": "Защита от групово изтриване, внос и възстановяване на набор (p)"
+  },
+  "copy_value": {
+    "message": "Копиране на стойността"
+  },
+  "copied": {
+    "message": "Копирано"
+  },
+  "copy_value_title": {
+    "message": "Копиране на стойността (c)"
+  },
+  "row_delete_title": {
+    "message": "Изтриване (Del), може да се отмени"
+  },
+  "irreversible_title": {
+    "message": "Това не може да се отмени"
+  },
+  "continue_no_undo": {
+    "message": "Продължи без отмяна"
+  },
+  "undo_anyway_title": {
+    "message": "Да се отмени ли въпреки това?"
+  },
+  "undo_anyway": {
+    "message": "Отмени въпреки това"
+  },
+  "undone": {
+    "message": "Отменено: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_skipped": {
+    "message": "Някои бисквитки вече са изтекли и не бяха възстановени: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_refused": {
+    "message": "Chrome вече не приема тези бисквитки във вида им, затова не бяха възстановени: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clipboard_failed": {
+    "message": "Копирането не успя: клипбордът не е достъпен тук."
+  },
+  "protected_on": {
+    "message": "„$P1$“ е защитена: груповото изтриване, вносът и възстановяването на набор ще я пропускат.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_off": {
+    "message": "„$P1$“ вече не е защитена.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protect_limit": {
+    "message": "Можете да защитите най-много $P1$ бисквитки. Първо премахнете защитата на някои.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_named": {
+    "message": "Да се изтрие ли „$P1$“?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_protected_message": {
+    "message": "Тази бисквитка е защитена. Да се изтрие ли въпреки това? Можете да отмените."
+  },
+  "nothing_to_delete": {
+    "message": "Няма какво да се изтрие"
+  },
+  "all_shown_protected_one": {
+    "message": "Показаната бисквитка е защитена."
+  },
+  "all_shown_protected_other": {
+    "message": "Всички $P1$ показани бисквитки са защитени.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "no_cookies_shown": {
+    "message": "Не се показват бисквитки."
+  },
+  "bulk_title_one": {
+    "message": "Да се изтрие ли $P1$ бисквитка?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_title_other": {
+    "message": "Да се изтрият ли $P1$ бисквитки?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_match": {
+    "message": "Тези бисквитки съответстват на „$P1$“ в $P2$. Можете да отмените.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "bulk_all": {
+    "message": "Всяка бисквитка в списъка за $P1$. Можете да отмените.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_one": {
+    "message": "$P1$ защитена бисквитка ще бъде запазена.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_other": {
+    "message": "$P1$ защитени бисквитки ще бъдат запазени.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_one": {
+    "message": "Изтрий $P1$ бисквитка",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_other": {
+    "message": "Изтрий $P1$ бисквитки",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_to": {
+    "message": "Копиране в"
+  },
+  "copy_to_default_note": {
+    "message": "Бисквитките, копирани в обикновеното хранилище, се пазят като всички други: на диска и след края на тази инкогнито сесия."
+  },
+  "copy_to_incognito_note": {
+    "message": "Бисквитките, копирани в хранилище за инкогнито, изчезват с тази инкогнито сесия."
+  },
+  "copy_title_one": {
+    "message": "Копиране на $P1$ бисквитка",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_title_other": {
+    "message": "Копиране на $P1$ бисквитки",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_from": {
+    "message": "От хранилище „$P1$“ в:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_replace_note": {
+    "message": "Бисквитките със същото име, домейн и път там се заменят, освен защитените. Копирането може да се отмени."
+  },
+  "label_copied_one": {
+    "message": "Копирана $P1$ бисквитка в $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_copied_other": {
+    "message": "Копирани $P1$ бисквитки в $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_kept_one": {
+    "message": "$P1$ защитена бисквитка там остана непроменена.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_kept_other": {
+    "message": "$P1$ защитени бисквитки там останаха непроменени.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_done_one": {
+    "message": "Копирана $P1$ бисквитка в $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_done_other": {
+    "message": "Копирани $P1$ бисквитки в $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_undo_hint": {
+    "message": "Отменете го тук или по-късно от хранилище „$P1$“.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_nothing": {
+    "message": "$P1$ вече има точно тези бисквитки.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_cant": {
+    "message": "Не може да се сравни"
+  },
+  "compare_now": {
+    "message": "$P1$ сега",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_other_site": {
+    "message": "Този набор е запазен за $P1$, а не за $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "compare_too_many": {
+    "message": "Изберете един набор за сравнение с текущото състояние или два набора за сравнение помежду им."
+  },
+  "set_file_too_large": {
+    "message": "$P1$ е твърде голям, за да е набор от бисквитки.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_aria": {
+    "message": "Сравняване на набори бисквитки"
+  },
+  "compare_changed_fields": {
+    "message": "Променено: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_one": {
+    "message": "Няма разлики: $P1$ бисквитка е идентична.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_other": {
+    "message": "Няма разлики: $P1$ бисквитки са идентични.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_summary": {
+    "message": "Добавени: $P1$, премахнати: $P2$, променени: $P3$, без промяна: $P4$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      },
+      "p4": {
+        "content": "$4"
+      }
+    }
+  },
+  "diff_added": {
+    "message": "Добавена"
+  },
+  "diff_removed": {
+    "message": "Премахната"
+  },
+  "diff_changed": {
+    "message": "Променена"
+  },
+  "diff_expiry_only": {
+    "message": "Променен е само срокът ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "shortcuts_title": {
+    "message": "Клавишни комбинации"
+  },
+  "key_search": {
+    "message": "Търсене"
+  },
+  "key_move": {
+    "message": "Движение по списъка"
+  },
+  "key_first_last": {
+    "message": "Първа / последна бисквитка"
+  },
+  "key_edit": {
+    "message": "Промяна"
+  },
+  "key_copy": {
+    "message": "Копиране на стойността"
+  },
+  "key_protect": {
+    "message": "Защита / премахване на защитата"
+  },
+  "key_delete": {
+    "message": "Изтриване (може да се отмени)"
+  },
+  "key_back": {
+    "message": "Назад или изчистване на търсенето"
+  },
+  "key_help": {
+    "message": "Този списък"
+  },
+  "import_kept_one": {
+    "message": "$P1$ защитена бисквитка остана непроменена: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_kept_other": {
+    "message": "$P1$ защитени бисквитки останаха непроменени: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_nothing": {
+    "message": "Няма какво да се импортира: всяка бисквитка във файла вече е зададена точно така."
+  },
+  "imported_one": {
+    "message": "Импортирана $P1$ бисквитка.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "imported_other": {
+    "message": "Импортирани $P1$ бисквитки.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_restored": {
+    "message": "Възстановен набор „$P1$“",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restored_one": {
+    "message": "Възстановен „$P2$“: записана $P1$ бисквитка, изтрити $P3$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "restored_other": {
+    "message": "Възстановен „$P2$“: записани $P1$ бисквитки, изтрити $P3$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "rate_title": {
+    "message": "Харесва ли ви CookieDesk?"
+  },
+  "rate_text": {
+    "message": "Една бърза оценка помага на други да го намерят."
+  },
+  "rate_group": {
+    "message": "Оценка в магазина"
+  },
+  "rate_stars_one": {
+    "message": "$P1$ звезда",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "rate_stars_other": {
+    "message": "$P1$ звезди",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_confirm_title": {
+    "message": "Почерпихте ли ме с кафе?"
+  },
+  "kofi_confirm_text": {
+    "message": "Благодаря, това поддържа CookieDesk."
+  },
+  "kofi_yes": {
+    "message": "Да, почерпих"
+  },
+  "kofi_not_yet": {
+    "message": "Още не"
+  },
+  "kofi_milestone_one": {
+    "message": "$P1$ промяна с CookieDesk!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_milestone_other": {
+    "message": "$P1$ промени с CookieDesk!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_free": {
+    "message": "Безплатно е и е направено от един разработчик."
+  },
+  "buy_coffee": {
+    "message": "Почерпи ме с кафе"
+  },
+  "edit_cookie": {
+    "message": "Промяна на бисквитка"
+  },
+  "add_cookie_short": {
+    "message": "Добавяне на бисквитка"
+  },
+  "explain_title": {
+    "message": "Какво прави тази бисквитка"
+  },
+  "field_name": {
+    "message": "Име"
+  },
+  "field_value": {
+    "message": "Стойност"
+  },
+  "field_domain": {
+    "message": "Домейн"
+  },
+  "field_path": {
+    "message": "Път"
+  },
+  "field_expiry": {
+    "message": "Срок"
+  },
+  "field_expires": {
+    "message": "Изтича"
+  },
+  "field_attributes": {
+    "message": "Атрибути"
+  },
+  "field_partition": {
+    "message": "Дял"
+  },
+  "host_only": {
+    "message": "Само хост"
+  },
+  "host_only_title": {
+    "message": "Само хост: няма атрибут Domain, затова поддомейните не я получават"
+  },
+  "session_title": {
+    "message": "Сесийна бисквитка: изчезва при затваряне на браузъра"
+  },
+  "httponly_title": {
+    "message": "HttpOnly: невидима за JavaScript на страницата"
+  },
+  "samesite_unspecified": {
+    "message": "Не е зададено"
+  },
+  "partitioned_chips": {
+    "message": "Разделена (CHIPS)"
+  },
+  "top_level_site": {
+    "message": "Сайт от най-високо ниво"
+  },
+  "no_partition_write": {
+    "message": "Тази версия на Chrome не може да записва разделени бисквитки."
+  },
+  "editor_delete_title": {
+    "message": "Изтриване (може да се отмени)"
+  },
+  "bytes_of": {
+    "message": "$P1$ / $P2$ байта",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "access_aria": {
+    "message": "Достъп и настройки"
+  },
+  "all_sites_on": {
+    "message": "Всички сайтове: включено"
+  },
+  "all_sites_on_text": {
+    "message": "CookieDesk може да чете и променя бисквитки във всеки сайт, включително във вградените."
+  },
+  "turn_off": {
+    "message": "Изключи"
+  },
+  "all_sites": {
+    "message": "Всички сайтове"
+  },
+  "all_sites_text": {
+    "message": "По избор. Край на питането за всеки сайт, а бисквитките на вградени сайтове (реклами, приспособления, рамки за вход) се виждат навсякъде."
+  },
+  "allow_all_sites": {
+    "message": "Разреши за всички сайтове"
+  },
+  "remove_access": {
+    "message": "Премахване на достъпа до $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "access_lead": {
+    "message": "CookieDesk вижда бисквитките на сайт само след като го разрешите и нищо друго: нито съдържание на страници, нито история."
+  },
+  "allowed_sites": {
+    "message": "Разрешени сайтове"
+  },
+  "allowed_sites_count": {
+    "message": "Разрешени сайтове · $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "all_sites_overrides": {
+    "message": "Достъпът до всички сайтове е включен, така че тези не са от значение, докато е включен."
+  },
+  "none_yet": {
+    "message": "Още няма."
+  },
+  "toolbar_opens": {
+    "message": "Бутонът в лентата отваря"
+  },
+  "surface_popup": {
+    "message": "Изскачащ прозорец"
+  },
+  "surface_sidepanel": {
+    "message": "Страничен панел"
+  },
+  "support_feedback": {
+    "message": "Подкрепа и обратна връзка"
+  },
+  "thanks_supporting": {
+    "message": "Благодарим за подкрепата!"
+  },
+  "report_problem": {
+    "message": "Подай сигнал за проблем"
+  },
+  "source_code": {
+    "message": "Изходен код"
+  },
+  "privacy_line": {
+    "message": "Без мрежови заявки и без стойности на бисквитки на диска. Отмяната работи 10 минути; копията ѝ са в паметта и изчезват при затваряне на Chrome или край на инкогнито сесията."
+  },
+  "export_warning": {
+    "message": "Този файл съдържа активни сесийни бисквитки. Всеки, който го има, може да влезе като вас в тези сайтове. Пазете го като парола и го изтрийте, когато свършите."
+  },
+  "export_json_one": {
+    "message": "Експортиране на $P1$ бисквитка като JSON",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_json_other": {
+    "message": "Експортиране на $P1$ бисквитки като JSON",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_one": {
+    "message": "Експортиране на $P1$ бисквитка като cookies.txt",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_other": {
+    "message": "Експортиране на $P1$ бисквитки като cookies.txt",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_all_one": {
+    "message": "Бисквитката, показана за $P2$, влиза във файла, дори да е HttpOnly.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_all_other": {
+    "message": "Всички $P1$ бисквитки, показани за $P2$, влизат във файла, включително HttpOnly.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_partitioned_left_one": {
+    "message": "$P1$ разделена бисквитка е пропусната: cookies.txt не може да записва дялове. Използвайте JSON, за да я запазите.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_partitioned_left_other": {
+    "message": "$P1$ разделени бисквитки са пропуснати: cookies.txt не може да записва дялове. Използвайте JSON, за да ги запазите.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_too_big": {
+    "message": "Този файл е $P1$ MB. Износите на бисквитки са много по-малки; CookieDesk чете файлове до 5 MB.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "cant_import_unchanged": {
+    "message": "Този файл не може да се импортира. Нищо не е променено."
+  },
+  "cant_import": {
+    "message": "Този файл не може да се импортира"
+  },
+  "file_unreadable": {
+    "message": "Файлът не можа да бъде прочетен."
+  },
+  "needs_access_one": {
+    "message": "CookieDesk се нуждае от достъп до още $P1$ сайт, преди да запише тези бисквитки:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "needs_access_other": {
+    "message": "CookieDesk се нуждае от достъп до още $P1$ сайта, преди да запише тези бисквитки:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_allow_all_hint": {
+    "message": "Или разрешете всички сайтове в „Достъп и настройки“."
+  },
+  "other_sites": {
+    "message": "Други сайтове ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "other_sites_warning": {
+    "message": "Този файл записва бисквитки и за сайтове, различни от $P1$. Бисквитка, подхвърлена на друг сайт, може да ви вкара в погрешен акаунт там. Продължете само ако очаквате тези сайтове.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_one": {
+    "message": "Запиши бисквитки и за още $P1$ сайт",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_other": {
+    "message": "Запиши бисквитки и за още $P1$ сайта",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partitioned_under_list": {
+    "message": "Разделени под: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "warnings_count": {
+    "message": "Предупреждения ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_title": {
+    "message": "Импортиране на бисквитки"
+  },
+  "import_message_one": {
+    "message": "Да се импортира ли $P1$ бисквитка? Бисквитките със същото име, домейн и път се заменят. Можете да отмените целия внос.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_message_other": {
+    "message": "Да се импортират ли $P1$ бисквитки? Бисквитките със същото име, домейн и път се заменят. Можете да отмените целия внос.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_one": {
+    "message": "Копиране на $P1$ бисквитка като document.cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_other": {
+    "message": "Копиране на $P1$ бисквитки като document.cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_warning": {
+    "message": "Фрагментът съдържа активни сесийни бисквитки. Всеки, който го има, може да влезе като вас в този сайт. Пазете го като парола."
+  },
+  "snippet_paste": {
+    "message": "Поставете го в конзолата на DevTools на $P1$, за да зададете там тези бисквитки.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_one": {
+    "message": "$P1$ HttpOnly бисквитка е пропусната: JavaScript на страницата не може да я зададе.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_other": {
+    "message": "$P1$ HttpOnly бисквитки са пропуснати: JavaScript на страницата не може да ги задава.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_one": {
+    "message": "Копирана $P1$ бисквитка като document.cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_other": {
+    "message": "Копирани $P1$ бисквитки като document.cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_name": {
+    "message": "Име на набора"
+  },
+  "set_name_placeholder": {
+    "message": "напр. влязъл като администратор"
+  },
+  "save_set_title_one": {
+    "message": "Запазване на $P1$ бисквитка като набор",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "save_set_title_other": {
+    "message": "Запазване на $P1$ бисквитки като набор",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_file_note": {
+    "message": "Наборът е файл на вашия компютър; CookieDesk не пази копие. Възстановете го по-късно от менюто на $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "default_set_name": {
+    "message": "Набор бисквитки"
+  },
+  "set_too_large": {
+    "message": "Този файл е твърде голям, за да е набор от бисквитки."
+  },
+  "cant_restore_unchanged": {
+    "message": "Този набор не може да се възстанови. Нищо не е променено."
+  },
+  "cant_restore": {
+    "message": "Този набор не може да се възстанови"
+  },
+  "wrong_site_message": {
+    "message": "Този набор е запазен за $P1$. Отворете $P1$ и го възстановете там.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "wrong_site_title": {
+    "message": "Грешен сайт. Нищо не е променено."
+  },
+  "foreign_cookies_one": {
+    "message": "$P1$ бисквитка в този файл принадлежи на друг сайт ($P2$). Възстановяването на набор променя само $P3$; за други сайтове използвайте внос.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "foreign_cookies_other": {
+    "message": "$P1$ бисквитки в този файл принадлежат на други сайтове ($P2$). Възстановяването на набор променя само $P3$; за други сайтове използвайте внос.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "plan_write": {
+    "message": "Записване"
+  },
+  "plan_delete": {
+    "message": "Изтриване"
+  },
+  "plan_protected": {
+    "message": "Защитени, остават непроменени"
+  },
+  "restore_title": {
+    "message": "Възстановяване на „$P1$“",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_nothing": {
+    "message": "$P1$ вече съвпада с този набор. Няма какво да се променя.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_message_one": {
+    "message": "Бисквитките на $P2$ ще бъдат заменени с $P1$ бисквитка от този набор. Можете да отмените цялото възстановяване.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "restore_message_other": {
+    "message": "Бисквитките на $P2$ ще бъдат заменени с $P1$ бисквитки от този набор. Можете да отмените цялото възстановяване.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_partition_unsupported": {
+    "message": "„$P1$“ е разделена бисквитка, която тази версия на Chrome не може да записва. Обновете Chrome до версия 119 или по-нова.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_gone": {
+    "message": "„$P1$“ вече не съществува: може да е изтекла или сайтът да я е променил. Заредете списъка отново.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_stored": {
+    "message": "Chrome прие „$P1$“, но не я запази.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_imprecise_delete_one": {
+    "message": "Chrome може да изтрие „$P2$“ само заедно с още $P1$ бисквитка със същото име, затова CookieDesk няма да я изтрие.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_imprecise_delete_other": {
+    "message": "Chrome може да изтрие „$P2$“ само заедно с още $P1$ бисквитки със същото име, затова CookieDesk няма да я изтрие.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_delete": {
+    "message": "Chrome вече не приема „$P1$“ във вида, в който е записана, така че след изтриване не може да се върне. Да се изтрие ли без отмяна?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_removed": {
+    "message": "„$P1$“ не можа да бъде изтрита.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_no_permission": {
+    "message": "CookieDesk няма достъп до $P1$. Първо дайте достъп до този сайт.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_secure_shadow": {
+    "message": "За $P2$ вече има Secure бисквитка с име „$P1$“. Chrome не позволява бисквитка без Secure със същото име да я замени или да стои до нея. Включете Secure или изберете друго име.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_rejected": {
+    "message": "Chrome отхвърли „$P1$“ без да посочи причина. Нищо не е променено.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_irreversible_replace_one": {
+    "message": "Chrome вече не приема $P2$ във вида, в който е записана, така че след замяна не може да се върне. Да се продължи ли без отмяна за нея?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_replace_other": {
+    "message": "Chrome вече не приема $P2$ във вида, в който са записани, така че след замяна не могат да се върнат. Да се продължи ли без отмяна за тях?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_too_large_to_undo": {
+    "message": "Тази промяна засяга твърде много данни ($P1$ KB), за да се пази копие за отмяна. Да се продължи ли без отмяна?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_duplicate_in_file": {
+    "message": "Файлът съдържа „$P1$“ два пъти за един и същ домейн и път.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_undo_expired": {
+    "message": "Няма какво да се отмени: отмяната се пази 10 минути."
+  },
+  "err_undo_conflict": {
+    "message": "$P1$ е променена след „$P2$“. Отмяната сега ще презапише по-новата стойност. Да се отмени ли въпреки това?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_incomplete": {
+    "message": "Незавършено: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_added": {
+    "message": "Добавена „$P1$“",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_edited": {
+    "message": "Променена „$P1$“",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted": {
+    "message": "Изтрита „$P1$“",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_expired": {
+    "message": "Изтрита „$P1$“ (срокът е в миналото)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_one": {
+    "message": "Изтрита $P1$ бисквитка",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_other": {
+    "message": "Изтрити $P1$ бисквитки",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_one": {
+    "message": "Импортирана $P1$ бисквитка",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_other": {
+    "message": "Импортирани $P1$ бисквитки",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_undid": {
+    "message": "Отменено: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_saved": {
+    "message": "Запазена „$P1$“",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_draft": {
+    "message": "Бисквитката трябва да е обект с name, value, domain и path."
+  },
+  "v_name_type": {
+    "message": "Името на бисквитката трябва да е текст."
+  },
+  "v_value_type": {
+    "message": "Стойността на бисквитката трябва да е текст."
+  },
+  "v_domain_type": {
+    "message": "Домейнът трябва да е текст."
+  },
+  "v_path_type": {
+    "message": "Пътят трябва да е текст."
+  },
+  "v_flag_type": {
+    "message": "$P1$ трябва да е true или false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_samesite": {
+    "message": "SameSite трябва да е едно от: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_name_control": {
+    "message": "Името съдържа управляващи знаци (като нов ред или табулация), които бисквитките не могат да съдържат."
+  },
+  "v_name_semicolon": {
+    "message": "Името съдържа „;“, което би прекратило бисквитката преждевременно."
+  },
+  "v_name_equals": {
+    "message": "Името съдържа „=“, което в бисквитката отделя името от стойността."
+  },
+  "v_value_control": {
+    "message": "Стойността съдържа управляващи знаци (като нов ред или табулация), които бисквитките не могат да съдържат."
+  },
+  "v_value_semicolon": {
+    "message": "Стойността съдържа „;“, което би прекратило бисквитката преждевременно. Кодирайте я (например с encodeURIComponent)."
+  },
+  "v_empty_cookie": {
+    "message": "Бисквитката се нуждае от име или стойност; и двете са празни."
+  },
+  "v_empty_name": {
+    "message": "Тази бисквитка има празно име. Някои сайтове и инструменти работят зле с бисквитки без име."
+  },
+  "v_too_large": {
+    "message": "Името и стойността заедно са $P1$ байта (UTF-8); Chrome позволява най-много $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "v_path_slash": {
+    "message": "Пътят трябва да започва с „/“."
+  },
+  "v_path_too_long": {
+    "message": "Пътят е по-дълъг от $P1$ байта.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_path_chars": {
+    "message": "Пътят съдържа управляващи знаци или „;“, които бисквитките не могат да съдържат."
+  },
+  "v_domain_empty": {
+    "message": "Домейнът е празен. Въведете сайта, към който принадлежи бисквитката, например example.com."
+  },
+  "v_domain_too_long": {
+    "message": "Домейнът е по-дълъг от $P1$ байта.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_domain_invalid": {
+    "message": "Домейнът не е валидно име на хост. Използвайте букви, цифри и тирета, разделени с точки (интернационализираните имена трябва да са в punycode, като xn--...)."
+  },
+  "v_domain_leading_dot": {
+    "message": "Бисквитка само за хост не може да има водеща точка в домейна; точката означава, че бисквитката важи и за поддомейни."
+  },
+  "v_domain_public_suffix": {
+    "message": "„$P1$“ е публичен суфикс (домейн, управляван от регистър, като .com или .co.uk), затова браузърите отхвърлят бисквитки, които важат за целия него.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_samesite_none_insecure": {
+    "message": "Бисквитките SameSite=None трябва да са Secure, иначе Chrome ги отхвърля. Включете Secure или изберете друго значение на SameSite."
+  },
+  "v_partitioned_insecure": {
+    "message": "Разделените бисквитки трябва да са Secure, иначе Chrome ги отхвърля. Включете Secure или премахнете дяла."
+  },
+  "v_prefix_secure": {
+    "message": "Бисквитките с име „$P1$...“ трябва да са Secure. Включете Secure или преименувайте бисквитката.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_host_prefix_domain": {
+    "message": "Бисквитките с име „__Host-...“ трябва да са само за хост (без атрибут Domain, значи без споделяне с поддомейни). Включете „Само хост“ или преименувайте бисквитката."
+  },
+  "v_host_prefix_path": {
+    "message": "Бисквитките с име „__Host-...“ трябва да имат път „/“."
+  },
+  "v_bad_expiration": {
+    "message": "Срокът трябва да е крайно число секунди от 1970 г."
+  },
+  "v_expired_deletes": {
+    "message": "Запазването със срок в миналото изтрива тази бисквитка."
+  },
+  "v_clamped": {
+    "message": "Chrome ограничава живота на бисквитките до $P1$ дни; по-късен срок се скъсява при запазване.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_expiration_missing": {
+    "message": "Несесийната бисквитка се нуждае от дата на изтичане. Изберете такава или я отбележете като сесийна."
+  },
+  "v_partition_type": {
+    "message": "Ключът на дяла трябва да е обект с topLevelSite."
+  },
+  "v_partition_site_type": {
+    "message": "Сайтът от най-високо ниво на дяла трябва да е текст като https://example.com."
+  },
+  "v_partition_site_form": {
+    "message": "Сайтът от най-високо ниво на дяла трябва да изглежда като https://example.com (https, без път и порт)."
+  },
+  "v_partition_flag": {
+    "message": "hasCrossSiteAncestor на дяла трябва да е true или false."
+  },
+  "v_partition_cross_site": {
+    "message": "Домейнът на бисквитката не е в същия сайт като $P1$, затова Chrome изисква hasCrossSiteAncestor да е true.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_other_site": {
+    "message": "Домейнът на тази бисквитка ($P1$) е извън текущия сайт ($P2$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_entry": {
+    "message": "Запис $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_entry_named": {
+    "message": "Запис $P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_bad_samesite": {
+    "message": "$P1$: sameSite не е едно от no_restriction, lax, strict, unspecified.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bool": {
+    "message": "$P1$: „$P2$“ трябва да е true или false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_text": {
+    "message": "$P1$: „$P2$“ трябва да е текст.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_not_object": {
+    "message": "$P1$ не е обект на бисквитка.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_expiration_type": {
+    "message": "$P1$: „expirationDate“ трябва да е число.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_key": {
+    "message": "$P1$: partitionKey трябва да е обект с текстов topLevelSite.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_flag": {
+    "message": "$P1$: partitionKey.hasCrossSiteAncestor трябва да е true или false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_line": {
+    "message": "Ред $P1$ не е запис на cookies.txt (очаквани 7 полета, разделени с табулация, намерени $P2$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_line_flag_subdomains": {
+    "message": "Ред $P1$: флагът за поддомейни трябва да е TRUE или FALSE.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_flag_secure": {
+    "message": "Ред $P1$: флагът secure трябва да е TRUE или FALSE.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_expiry": {
+    "message": "Ред $P1$: срокът трябва да е цяло число секунди.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_not_text": {
+    "message": "Файлът не можа да бъде прочетен като текст."
+  },
+  "io_too_large": {
+    "message": "Файлът е по-голям от лимита за внос от $P1$ байта.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_json": {
+    "message": "Файлът прилича на JSON, но не можа да бъде анализиран."
+  },
+  "io_bad_version": {
+    "message": "Този файл на CookieDesk е с неподдържана версия."
+  },
+  "io_no_cookie_list": {
+    "message": "Файлът на CookieDesk няма списък „cookies“."
+  },
+  "io_unknown_format": {
+    "message": "Този JSON не е нито износ от CookieDesk, нито списък с бисквитки."
+  },
+  "io_no_cookies": {
+    "message": "Файлът не съдържа бисквитки."
+  },
+  "io_too_many": {
+    "message": "Файлът има $P1$ бисквитки; лимитът е $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_issue": {
+    "message": "$P1$: $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_duplicate": {
+    "message": "$P1$: друг запис има същото име, домейн, път и дял.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "when": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "when_passed": {
+    "message": "вече е минало"
+  },
+  "when_under_day": {
+    "message": "след по-малко от ден"
+  },
+  "explain_third_party": {
+    "message": "Зададена от $P1$, различен сайт от $P2$: бисквитка от трета страна.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_third_party_partitioned": {
+    "message": "Зададена от $P1$, различен сайт от $P2$: бисквитка от трета страна, пазена в дяла на $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_host_prefix": {
+    "message": "Префиксът __Host- кара Chrome да изисква Secure, без атрибут Domain и с Path=/, така че никой поддомейн не може да я задава или заменя."
+  },
+  "explain_secure_prefix": {
+    "message": "Префиксът __Secure- кара Chrome да я приема само с флага Secure."
+  },
+  "explain_scope_host": {
+    "message": "Изпраща се само до самия $P1$, не и до поддомейните му.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_scope_domain": {
+    "message": "Изпраща се до $P1$ и до всеки негов поддомейн (като www.$P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_path_all": {
+    "message": "Изпраща се със заявки към всеки път на този хост."
+  },
+  "explain_path_under": {
+    "message": "Изпраща се само със заявки към пътища под $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_secure": {
+    "message": "Secure: изпраща се само през HTTPS."
+  },
+  "explain_not_secure": {
+    "message": "Не е Secure: изпраща се и през обикновен HTTP, където всеки в мрежата може да я прочете."
+  },
+  "explain_httponly": {
+    "message": "HttpOnly: невидима за JavaScript на страницата (document.cookie не може да я прочете), което я пази от вмъкнати скриптове."
+  },
+  "explain_script_readable": {
+    "message": "Може да се чете и променя от всеки скрипт, изпълняван на страницата."
+  },
+  "explain_samesite_none": {
+    "message": "SameSite=None: може да се изпраща и със заявки между сайтове (вградени рамки, изображения, заявки от други сайтове), където Chrome изобщо позволява бисквитки от трети страни (инкогнито ги блокира по подразбиране). Затова трябва да е Secure."
+  },
+  "explain_samesite_lax": {
+    "message": "SameSite=Lax: изпраща се, когато отидете на сайта, включително от връзка в друг сайт, но не със заявки, които страници на други сайтове правят на заден план."
+  },
+  "explain_samesite_strict": {
+    "message": "SameSite=Strict: изпраща се само когато вече сте в същия сайт. Когато идвате от връзка в друг сайт, първата заявка тръгва без нея."
+  },
+  "explain_samesite_unset": {
+    "message": "Няма атрибут SameSite: Chrome го третира като Lax."
+  },
+  "explain_session": {
+    "message": "Сесийна бисквитка: изтрива се при затваряне на браузъра (освен ако Chrome не възстановява предишната сесия при стартиране)."
+  },
+  "explain_expires": {
+    "message": "Изтича: $P1$. Chrome ограничава всеки срок до 400 дни от последното задаване на бисквитката.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition": {
+    "message": "Разделена (CHIPS): пази се отделно за всеки сайт от най-високо ниво. Това копие се изпраща само докато $P1$ е сайтът в адресната лента.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition_cross": {
+    "message": "Тя е в частта „между сайтове“ на този дял (когато между страницата и сайта на бисквитката има друг сайт), отделно от частта „в същия сайт“."
+  },
+  "explain_partition_same": {
+    "message": "Тя е в частта „в същия сайт“ на този дял, отделно от частта „между сайтове“."
+  },
+  "explain_partition_other": {
+    "message": "Бисквитка със същото име под друг сайт е различна бисквитка."
+  },
+  "explain_jwt": {
+    "message": "Стойността прилича на JSON Web Token."
+  },
+  "explain_jwt_exp": {
+    "message": "Стойността прилича на JSON Web Token; самият токен казва, че изтича: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_size": {
+    "message": "$P1$ от 4096-те байта, които Chrome позволява за име и стойност заедно.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

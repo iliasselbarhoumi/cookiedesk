@@ -21,6 +21,7 @@ import {
 import { features, chromeMajorFromUA, normalizePartitionKey, siteQueries } from './partition.js';
 import { validateCookie, utf8Bytes } from './validate.js';
 import { isPublicSuffix } from './site.js';
+import { t, tn } from '../lib/i18n.js';
 
 const JOURNAL_PREFIX = 'undo:';
 export const JOURNAL_MAX = 20;
@@ -135,7 +136,7 @@ export function createEngine({
       throw await explainRejection(target, e);
     }
     const stored = await findExact(target);
-    if (!stored) throw new CookieError('not_stored', `Chrome accepted "${target.name}" but did not store it.`, { cookie: target.name });
+    if (!stored) throw new CookieError('not_stored', t('err_not_stored', target.name), { cookie: target.name });
     return stored;
   }
 
@@ -156,21 +157,21 @@ export function createEngine({
       if (feats.partitionKey && c.partitionKey) filter.partitionKey = c.partitionKey;
       const neighbours = (await cookies.getAll(filter)).filter((x) => keyInStore(x) !== keyInStore(c));
       if (neighbours.length) {
-        throw new CookieError('imprecise_delete', `Chrome can only delete "${c.name}" together with ${neighbours.length} other cookie${neighbours.length === 1 ? '' : 's'} of the same name, so CookieDesk won't delete it.`, { cookie: c.name });
+        throw new CookieError('imprecise_delete', tn('err_imprecise_delete', neighbours.length, c.name), { cookie: c.name });
       }
       if (!allowIrreversible) {
-        throw new CookieError('irreversible', `Chrome no longer accepts "${c.name}" as it is stored, so once deleted it could not be put back. Delete it without undo?`, { cookie: c.name });
+        throw new CookieError('irreversible', t('err_irreversible_delete', c.name), { cookie: c.name });
       }
       await cookies.remove({ url, name: c.name, ...(c.storeId !== undefined ? { storeId: c.storeId } : {}), ...(filter.partitionKey ? { partitionKey: c.partitionKey } : {}) });
     }
-    if (await findExact(c)) throw new CookieError('not_removed', `Could not delete "${c.name}".`, { cookie: c.name });
+    if (await findExact(c)) throw new CookieError('not_removed', t('err_not_removed', c.name), { cookie: c.name });
   }
 
   // Chrome's only error is "Failed to parse or set cookie"; say which rule broke.
   async function explainRejection(target, e) {
     const raw = String(e?.message ?? e);
     if (/No host permissions/i.test(raw)) {
-      return new CookieError('no_permission', `CookieDesk doesn't have access to ${host(target)}. Grant access to this site first.`, { cookie: target.name });
+      return new CookieError('no_permission', t('err_no_permission', host(target)), { cookie: target.name });
     }
     const { errors } = validateCookie(target, { now: now(), isPublicSuffix });
     if (errors.length) return new CookieError('invalid', errors[0].message, { field: errors[0].field, issues: errors, cookie: target.name });
@@ -179,17 +180,17 @@ export function createEngine({
       if (target.storeId !== undefined) filter.storeId = target.storeId;
       const shadow = (await cookies.getAll(filter)).find((x) => x.secure && domainsOverlap(x.domain, target.domain));
       if (shadow) {
-        return new CookieError('secure_shadow', `A Secure cookie named "${target.name}" already exists for ${host(shadow)}. Chrome won't let a non-Secure cookie with the same name replace or sit beside it. Turn on Secure, or use a different name.`, { field: 'secure', cookie: target.name });
+        return new CookieError('secure_shadow', t('err_secure_shadow', target.name, host(shadow)), { field: 'secure', cookie: target.name });
       }
     }
-    return new CookieError('rejected', `Chrome rejected "${target.name}" without giving a reason. Nothing was changed.`, { cookie: target.name });
+    return new CookieError('rejected', t('err_rejected', target.name), { cookie: target.name });
   }
 
   // ---- normalising drafts --------------------------------------------------------------
 
   function normalize(draft, storeId) {
     if (draft.partitionKey?.topLevelSite && !feats.partitionKey) {
-      throw new CookieError('partition_unsupported', `"${draft.name}" is a partitioned cookie, which this version of Chrome can't write. Update Chrome to 119 or later.`, { cookie: draft.name });
+      throw new CookieError('partition_unsupported', t('err_partition_unsupported', draft.name), { cookie: draft.name });
     }
     const bare = String(draft.domain ?? '').replace(/^\./, '').toLowerCase();
     const hostOnly = draft.hostOnly ?? !String(draft.domain ?? '').startsWith('.');
@@ -254,13 +255,15 @@ export function createEngine({
     // Replacing a cookie Chrome would no longer accept as it is would leave nothing for undo to write back.
     const lost = opts.checkRestorable === false ? [] : plan.filter((p) => p.before && p.after && !restorable(p.before)).map((p) => p.before.name);
     if (lost.length && !opts.allowIrreversible) {
-      throw new CookieError('irreversible', `Chrome no longer accepts ${listNames(lost)} as ${lost.length === 1 ? 'it is' : 'they are'} stored, so once replaced ${lost.length === 1 ? 'it' : 'they'} could not be put back. Continue without undo for ${lost.length === 1 ? 'it' : 'them'}?`, { cookies: lost });
+      throw new CookieError('irreversible', tn('err_irreversible_replace', lost.length, listNames(lost)), { cookies: lost });
     }
     const stored = [];
     const steps = plan.map(({ before, after }) => step(before, after, opts, stored));
     const entry = {
       id: `${now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`,
       label,
+      // An undo's own entry remembers what it undid, so the UI can offer it as a redo.
+      ...(opts.undid ? { undid: opts.undid } : {}),
       at: now(),
       state: 'pending',
       restore: plan.filter((p) => p.before).map((p) => snapshot(p.before)),
@@ -268,7 +271,7 @@ export function createEngine({
     };
     const bytes = utf8Bytes(JSON.stringify(entry));
     if (bytes > ENTRY_MAX_BYTES && !opts.allowIrreversible) {
-      throw new CookieError('too_large_to_undo', `This change touches too much data (${Math.ceil(bytes / 1024)} KB) to keep an undo copy. Continue without undo?`);
+      throw new CookieError('too_large_to_undo', t('err_too_large_to_undo', Math.ceil(bytes / 1024)));
     }
     const journaled = bytes <= ENTRY_MAX_BYTES;
     if (journaled) await putEntry(entry);
@@ -288,7 +291,7 @@ export function createEngine({
       e.rolledBack = rolledBack;
       if (journaled) {
         if (rolledBack) await dropEntry(entry.id);
-        else await putEntry({ ...entry, label: `Incomplete: ${label}`, state: 'done' });
+        else await putEntry({ ...entry, label: t('label_incomplete', label), state: 'done' });
       }
       throw e;
     } finally {
@@ -309,7 +312,7 @@ export function createEngine({
       const plan = [];
       if (original) {
         const current = await findExact(original);
-        if (!current) throw new CookieError('gone', `"${original.name}" no longer exists — it may have expired or been changed by the site. Reload the list.`, { cookie: original.name });
+        if (!current) throw new CookieError('gone', t('err_gone', original.name), { cookie: original.name });
         if (keyInStore(current) !== keyInStore(next)) {
           // Key change: write the new cookie first (keeping whatever it overwrites), then delete the old.
           // An expired draft is just a delete of the original (the editor warned about it).
@@ -323,7 +326,7 @@ export function createEngine({
         if (!isExpired(next)) plan.push({ before: displaced, after: next });
         else if (displaced) plan.push({ before: displaced, after: null });
       }
-      const label = !original ? `Added "${next.name}"` : isExpired(next) ? `Deleted "${next.name}" (expiry in the past)` : `Edited "${next.name}"`;
+      const label = !original ? t('label_added', next.name) : isExpired(next) ? t('label_deleted_expired', next.name) : t('label_edited', next.name);
       const undoId = plan.length ? await transact(label, plan, opts) : null;
       return { undoId, cookie: isExpired(next) ? null : await findExact(next) };
     });
@@ -338,7 +341,7 @@ export function createEngine({
         if (current) plan.push({ before: current, after: null });
       }
       if (!plan.length) return { undoId: null };
-      const label = plan.length === 1 ? `Deleted "${plan[0].before.name}"` : `Deleted ${plan.length} cookies`;
+      const label = plan.length === 1 ? t('label_deleted', plan[0].before.name) : tn('label_deleted_many', plan.length);
       return { undoId: await transact(label, plan, opts) };
     });
   }
@@ -359,7 +362,7 @@ export function createEngine({
       const keys = new Set();
       for (const c of next) {
         const k = keyInStore(c);
-        if (keys.has(k)) throw new CookieError('duplicate', `The file contains "${c.name}" twice for the same domain and path.`, { cookie: c.name });
+        if (keys.has(k)) throw new CookieError('duplicate', t('err_duplicate_in_file', c.name), { cookie: c.name });
         keys.add(k);
       }
       const writes = [];
@@ -381,8 +384,7 @@ export function createEngine({
       const summary = { written: writes.length, deleted: deletes.length, skipped, plan: { write: writes.map((p) => p.after.name), delete: deletes.map((p) => p.before.name) } };
       const plan = [...deletes, ...writes];
       if (dryRun || !plan.length) return { undoId: null, ...summary };
-      const n = (k, w) => `${k} ${w}${k === 1 ? '' : 's'}`;
-      const undoId = await transact(label ?? `Imported ${n(writes.length, 'cookie')}`, plan, opts);
+      const undoId = await transact(label ?? tn('label_imported', writes.length), plan, opts);
       return { undoId, ...summary };
     });
   }
@@ -420,8 +422,8 @@ export function createEngine({
 
   /** Undo entries newest first, without values (safe to render). `storeId` limits to one store. */
   async function undoList({ storeId } = {}) {
-    return (await readJournal()).filter(inStore(storeId)).reverse().map(({ id, label, at, state, restore, after }) => ({
-      id, label, at, interrupted: state === 'pending', count: new Set([...restore, ...after].map(keyInStore)).size,
+    return (await readJournal()).filter(inStore(storeId)).reverse().map(({ id, label, undid, at, state, restore, after }) => ({
+      id, label, undid, at, interrupted: state === 'pending', count: new Set([...restore, ...after].map(keyInStore)).size,
     }));
   }
 
@@ -448,7 +450,7 @@ export function createEngine({
     return exclusive(async () => {
       const entries = (await readJournal()).filter(inStore(storeId));
       const entry = id ? entries.find((e) => e.id === id) : entries.at(-1);
-      if (!entry) throw new CookieError('undo_expired', 'Nothing to undo — undo is kept for 10 minutes.');
+      if (!entry) throw new CookieError('undo_expired', t('err_undo_expired'));
 
       // Desired end state per key: the snapshot it had before, or absent.
       const targets = new Map();
@@ -479,9 +481,9 @@ export function createEngine({
         if (restore ? !sameCookie(current, restore) : current) plan.push({ before: current, after: restore });
       }
       if (conflicts.length && !force) {
-        throw new CookieError('undo_conflict', `${listNames(conflicts)} changed after "${entry.label}". Undoing now would overwrite the newer value. Undo anyway?`, { cookies: conflicts });
+        throw new CookieError('undo_conflict', t('err_undo_conflict', listNames(conflicts), entry.label), { cookies: conflicts });
       }
-      if (plan.length) await transact(`Undid: ${entry.label}`, plan, { checkRestorable: false });
+      if (plan.length) await transact(t('label_undid', entry.label), plan, { checkRestorable: false, undid: entry.label });
       await dropEntry(entry.id);
       return { label: entry.label, skipped, refused };
     });
@@ -519,7 +521,7 @@ export function createEngine({
 
 function listNames(names) {
   const quoted = [...new Set(names)].map((n) => `"${n}"`);
-  return quoted.length <= 3 ? quoted.join(', ') : `${quoted.slice(0, 3).join(', ')} and ${quoted.length - 3} more`;
+  return quoted.length <= 3 ? quoted.join(', ') : t('names_more', quoted.slice(0, 3).join(', '), quoted.length - 3);
 }
 
 function domainsOverlap(a, b) {

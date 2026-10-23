@@ -1,0 +1,2215 @@
+{
+  "extension_name": {
+    "message": "Cookie Editor — Tingnan, I-edit at Burahin ang Cookies | CookieDesk"
+  },
+  "extension_description": {
+    "message": "Tingnan, i-edit, idagdag at burahin ang cookies kada site. Search, import/export, partitioned cookies. Walang ads o tracking."
+  },
+  "btn_ok": {
+    "message": "OK"
+  },
+  "btn_cancel": {
+    "message": "Kanselahin"
+  },
+  "btn_close": {
+    "message": "Isara"
+  },
+  "btn_delete": {
+    "message": "Burahin"
+  },
+  "btn_copy": {
+    "message": "Kopyahin"
+  },
+  "btn_save": {
+    "message": "I-save"
+  },
+  "btn_export": {
+    "message": "I-export"
+  },
+  "btn_later": {
+    "message": "Mamaya na"
+  },
+  "dismiss": {
+    "message": "I-dismiss"
+  },
+  "back": {
+    "message": "Bumalik"
+  },
+  "back_esc": {
+    "message": "Bumalik (Esc)"
+  },
+  "back_to_list": {
+    "message": "Bumalik sa listahan"
+  },
+  "title_count": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "empty_name": {
+    "message": "(walang pangalan)"
+  },
+  "empty_value": {
+    "message": "(walang value)"
+  },
+  "empty_short": {
+    "message": "(walang laman)"
+  },
+  "names_more": {
+    "message": "$P1$ at $P2$ pa",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "done": {
+    "message": "Tapos na"
+  },
+  "undo": {
+    "message": "I-undo"
+  },
+  "undo_nothing": {
+    "message": "Walang i-u-undo"
+  },
+  "undo_entry": {
+    "message": "I-undo: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_interrupted": {
+    "message": "Naantala ang pag-undo: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "redo_entry": {
+    "message": "Ulitin: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "support_title": {
+    "message": "Suportahan ang CookieDesk sa Ko-fi"
+  },
+  "supporter_title": {
+    "message": "Salamat sa pagsuporta sa CookieDesk!"
+  },
+  "add_cookie": {
+    "message": "Magdagdag ng cookie"
+  },
+  "add_cookie_title": {
+    "message": "Magdagdag ng cookie (n)"
+  },
+  "more_actions": {
+    "message": "Iba pang aksyon"
+  },
+  "menu_group_transfer": {
+    "message": "I-export at i-import"
+  },
+  "menu_group_sets": {
+    "message": "Mga cookie set"
+  },
+  "export_json_title": {
+    "message": "I-export bilang JSON"
+  },
+  "export_txt_title": {
+    "message": "I-export bilang Netscape cookies.txt"
+  },
+  "tile_snippet": {
+    "message": "Snippet"
+  },
+  "tile_snippet_title": {
+    "message": "Kopyahin bilang document.cookie snippet"
+  },
+  "tile_import": {
+    "message": "I-import"
+  },
+  "tile_import_title": {
+    "message": "Mag-import ng JSON o cookies.txt"
+  },
+  "tile_save_set": {
+    "message": "I-save ang set"
+  },
+  "tile_save_set_title": {
+    "message": "I-save ang mga cookie na ito bilang may pangalang set file"
+  },
+  "tile_restore": {
+    "message": "I-restore"
+  },
+  "tile_restore_title": {
+    "message": "I-restore ang naka-save na set (may preview muna)"
+  },
+  "tile_compare": {
+    "message": "Ihambing"
+  },
+  "tile_compare_title": {
+    "message": "Ihambing ang naka-save na set sa ngayon, o dalawang set"
+  },
+  "tile_copy_to": {
+    "message": "Kopyahin sa…"
+  },
+  "tile_copy_to_title": {
+    "message": "Kopyahin ang mga ipinapakitang cookie sa ibang store (normal ↔ incognito)"
+  },
+  "menu_bulk_delete": {
+    "message": "Burahin ang mga ipinapakitang cookie…"
+  },
+  "menu_access": {
+    "message": "Access at mga setting"
+  },
+  "menu_shortcuts": {
+    "message": "Mga shortcut"
+  },
+  "menu_sidepanel": {
+    "message": "Buksan sa side panel"
+  },
+  "menu_rate": {
+    "message": "I-rate ang CookieDesk"
+  },
+  "menu_support": {
+    "message": "Suportahan sa Ko-fi"
+  },
+  "search_placeholder": {
+    "message": "Maghanap ng cookies"
+  },
+  "search_label": {
+    "message": "I-filter ang cookies ayon sa pangalan, value o domain"
+  },
+  "search_title": {
+    "message": "I-filter ayon sa pangalan, value o domain"
+  },
+  "cookie_store": {
+    "message": "Cookie store"
+  },
+  "cookies_list": {
+    "message": "Cookies"
+  },
+  "restricted_page": {
+    "message": "Pinaghihigpitang page"
+  },
+  "loading": {
+    "message": "Naglo-load…"
+  },
+  "state_unknown": {
+    "message": "I-click ang button ng CookieDesk sa toolbar para ipakita ang cookies ng tab na ito."
+  },
+  "state_unknown_hint": {
+    "message": "Ibinabahagi lang ng Chrome ang address ng tab pagkatapos ng click na iyon, o para sa mga site na pinayagan mo."
+  },
+  "state_error": {
+    "message": "May nangyaring mali: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "state_no_access": {
+    "message": "Wala pang access ang CookieDesk sa $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "grant_site": {
+    "message": "Payagan sa $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "chrome_will_ask": {
+    "message": "Itatanong ng Chrome:"
+  },
+  "prompt_site": {
+    "message": "Basahin at baguhin ang iyong data sa lahat ng $P1$ site",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "prompt_all": {
+    "message": "Basahin at baguhin ang lahat ng iyong data sa lahat ng website"
+  },
+  "only_this_site": {
+    "message": "Cookies lang ng site na ito, wala nang iba."
+  },
+  "allow_all_instead": {
+    "message": "Payagan na lang ang lahat ng site"
+  },
+  "restricted_browser": {
+    "message": "Page ito ng Chrome. Hindi pinapayagan ng Chrome ang anumang extension na magbasa o magbago ng cookies dito."
+  },
+  "restricted_webstore": {
+    "message": "Ito ang Chrome Web Store. Hinaharang ng Chrome ang lahat ng extension dito, kaya hindi maipapakita ang cookies nito."
+  },
+  "restricted_extension": {
+    "message": "Sariling page ito ng isang extension. Hindi cookies ng website ang storage nito, kaya walang maipapakita."
+  },
+  "restricted_file": {
+    "message": "Lokal na file ito. Walang cookies ang mga file na binuksan mula sa disk."
+  },
+  "restricted_other": {
+    "message": "Hindi website ang page na ito (halimbawa, blangko o data: page), kaya walang cookies."
+  },
+  "live_just_now": {
+    "message": "Ngayon lang: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "note_third_party": {
+    "message": "Lumalabas lang ang cookies ng mga naka-embed na site para sa mga site na pinayagan mo."
+  },
+  "note_no_partitions": {
+    "message": "Hindi maipapakita ng bersyon mo ng Chrome ang partitioned cookies, kaya posibleng kulang ang listahang ito."
+  },
+  "empty_no_match": {
+    "message": "Walang cookies na tumutugma sa “$P1$”.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "empty_none": {
+    "message": "Walang cookies para sa $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clear_search": {
+    "message": "I-clear ang search"
+  },
+  "change_changed": {
+    "message": "Binago ang $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_added": {
+    "message": "Idinagdag ang $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_removed": {
+    "message": "Inalis ang $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_one": {
+    "message": "$P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_other": {
+    "message": "$P1$ cookies",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_filtered_one": {
+    "message": "$P2$ sa $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_filtered_other": {
+    "message": "$P2$ sa $P1$ cookies",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_partitioned": {
+    "message": "$P1$ partitioned",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "store_default": {
+    "message": "Default"
+  },
+  "store_incognito": {
+    "message": "Incognito"
+  },
+  "store_n": {
+    "message": "Store $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "session": {
+    "message": "Session"
+  },
+  "expired": {
+    "message": "Nag-expire na"
+  },
+  "expiry_under_minute": {
+    "message": "sa loob ng wala pang isang minuto"
+  },
+  "expiry_on_close": {
+    "message": "Binubura kapag isinara ang browser"
+  },
+  "expires_at": {
+    "message": "Mag-e-expire $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "badge_protected": {
+    "message": "Protektado: lalaktawan ito ng bulk delete, import at set restore (p)"
+  },
+  "hint_httponly": {
+    "message": "HttpOnly: hindi nakikita ng JavaScript ng page (hindi ito mababasa ng document.cookie)"
+  },
+  "hint_secure": {
+    "message": "Secure: ipinapadala lang sa HTTPS"
+  },
+  "hint_samesite_none": {
+    "message": "SameSite=None: ipinapadala rin sa mga cross-site request"
+  },
+  "hint_samesite_lax": {
+    "message": "SameSite=Lax: ipinapadala sa top-level navigation, hindi sa cross-site subrequest"
+  },
+  "hint_samesite_strict": {
+    "message": "SameSite=Strict: ipinapadala lang sa same-site request"
+  },
+  "badge_partitioned": {
+    "message": "Partitioned"
+  },
+  "partitioned_under": {
+    "message": "Naka-partition sa ilalim ng $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partition_this_site": {
+    "message": "site na ito"
+  },
+  "partition_cross_site": {
+    "message": "$P1$, cross-site na konteksto",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "row_protected": {
+    "message": "Protektado"
+  },
+  "row_unprotect_title": {
+    "message": "Alisin ang proteksyon (p)"
+  },
+  "row_protect_title": {
+    "message": "Protektahan laban sa bulk delete, import at set restore (p)"
+  },
+  "copy_value": {
+    "message": "Kopyahin ang value"
+  },
+  "copied": {
+    "message": "Nakopya na"
+  },
+  "copy_value_title": {
+    "message": "Kopyahin ang value (c)"
+  },
+  "row_delete_title": {
+    "message": "Burahin (Del) — maaaring i-undo"
+  },
+  "irreversible_title": {
+    "message": "Hindi na ito maibabalik"
+  },
+  "continue_no_undo": {
+    "message": "Magpatuloy nang walang undo"
+  },
+  "undo_anyway_title": {
+    "message": "I-undo pa rin?"
+  },
+  "undo_anyway": {
+    "message": "I-undo pa rin"
+  },
+  "undone": {
+    "message": "Na-undo: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_skipped": {
+    "message": "Nag-expire na ang ilang cookie kaya hindi na-restore: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_refused": {
+    "message": "Hindi na tinatanggap ng Chrome ang mga ito sa dating anyo, kaya hindi na-restore: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clipboard_failed": {
+    "message": "Hindi makopya: hindi available ang clipboard dito."
+  },
+  "protected_on": {
+    "message": "Pinrotektahan ang \"$P1$\": lalaktawan ito ng bulk delete, import at set restore.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_off": {
+    "message": "Hindi na protektado ang \"$P1$\".",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protect_limit": {
+    "message": "Hanggang $P1$ cookie ang maaari mong protektahan. Alisin muna ang proteksyon ng ilan.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_named": {
+    "message": "Burahin ang \"$P1$\"?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_protected_message": {
+    "message": "Protektado ang cookie na ito. Burahin pa rin? Maaari mo itong i-undo."
+  },
+  "nothing_to_delete": {
+    "message": "Walang buburahin"
+  },
+  "all_shown_protected_one": {
+    "message": "Protektado ang ipinapakitang cookie."
+  },
+  "all_shown_protected_other": {
+    "message": "Protektado ang lahat ng $P1$ ipinapakitang cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "no_cookies_shown": {
+    "message": "Walang ipinapakitang cookie."
+  },
+  "bulk_title_one": {
+    "message": "Burahin ang $P1$ cookie?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_title_other": {
+    "message": "Burahin ang $P1$ cookies?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_match": {
+    "message": "Tumutugma ang mga cookie na ito sa \"$P1$\" sa $P2$. Maaari mo itong i-undo.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "bulk_all": {
+    "message": "Lahat ng cookie na nakalista para sa $P1$. Maaari mo itong i-undo.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_one": {
+    "message": "Pananatilihin ang $P1$ protektadong cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_other": {
+    "message": "Pananatilihin ang $P1$ protektadong cookies.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_one": {
+    "message": "Burahin ang $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_other": {
+    "message": "Burahin ang $P1$ cookies",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_to": {
+    "message": "Kopyahin sa"
+  },
+  "copy_to_default_note": {
+    "message": "Ang cookies na kinopya sa Default store ay pinananatili tulad ng ibang cookie, sa disk at pagkatapos matapos ang incognito session na ito."
+  },
+  "copy_to_incognito_note": {
+    "message": "Ang cookies na kinopya sa incognito store ay nawawala kapag natapos ang incognito session na iyon."
+  },
+  "copy_title_one": {
+    "message": "Kopyahin ang $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_title_other": {
+    "message": "Kopyahin ang $P1$ cookies",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_from": {
+    "message": "Mula sa $P1$ store papunta sa:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_replace_note": {
+    "message": "Papalitan ang cookies na may parehong pangalan, domain at path doon, maliban sa mga protektado. Maaari mong i-undo ang pagkopya."
+  },
+  "label_copied_one": {
+    "message": "Kinopya ang $P1$ cookie sa $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_copied_other": {
+    "message": "Kinopya ang $P1$ cookies sa $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_kept_one": {
+    "message": "Hindi ginalaw ang $P1$ protektadong cookie doon.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_kept_other": {
+    "message": "Hindi ginalaw ang $P1$ protektadong cookies doon.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_done_one": {
+    "message": "Kinopya ang $P1$ cookie sa $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_done_other": {
+    "message": "Kinopya ang $P1$ cookies sa $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_undo_hint": {
+    "message": "I-undo dito, o mamaya mula sa $P1$ store.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_nothing": {
+    "message": "Nasa $P1$ na ang eksaktong cookies na ito.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_cant": {
+    "message": "Hindi maihambing"
+  },
+  "compare_now": {
+    "message": "$P1$ ngayon",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_other_site": {
+    "message": "Ang set na ito ay na-save para sa $P1$, hindi sa $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "compare_too_many": {
+    "message": "Pumili ng isang set na ihahambing sa ngayon, o dalawang set na ihahambing sa isa't isa."
+  },
+  "set_file_too_large": {
+    "message": "Masyadong malaki ang $P1$ para maging cookie set.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_aria": {
+    "message": "Ihambing ang mga cookie set"
+  },
+  "compare_changed_fields": {
+    "message": "Nabago: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_one": {
+    "message": "Walang pagkakaiba: magkapareho ang $P1$ cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_other": {
+    "message": "Walang pagkakaiba: magkakapareho ang $P1$ cookies.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_summary": {
+    "message": "$P1$ idinagdag, $P2$ inalis, $P3$ binago, $P4$ hindi nagbago.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      },
+      "p4": {
+        "content": "$4"
+      }
+    }
+  },
+  "diff_added": {
+    "message": "Idinagdag"
+  },
+  "diff_removed": {
+    "message": "Inalis"
+  },
+  "diff_changed": {
+    "message": "Binago"
+  },
+  "diff_expiry_only": {
+    "message": "Expiry lang ang nagbago ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "shortcuts_title": {
+    "message": "Mga keyboard shortcut"
+  },
+  "key_search": {
+    "message": "Maghanap"
+  },
+  "key_move": {
+    "message": "Lumipat sa listahan"
+  },
+  "key_first_last": {
+    "message": "Una / huling cookie"
+  },
+  "key_edit": {
+    "message": "I-edit"
+  },
+  "key_copy": {
+    "message": "Kopyahin ang value"
+  },
+  "key_protect": {
+    "message": "Protektahan / alisin ang proteksyon"
+  },
+  "key_delete": {
+    "message": "Burahin (maaaring i-undo)"
+  },
+  "key_back": {
+    "message": "Bumalik, o i-clear ang search"
+  },
+  "key_help": {
+    "message": "Ang listahang ito"
+  },
+  "import_kept_one": {
+    "message": "Hindi ginalaw ang $P1$ protektadong cookie: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_kept_other": {
+    "message": "Hindi ginalaw ang $P1$ protektadong cookies: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_nothing": {
+    "message": "Walang ii-import: naka-set na nang ganoon ang bawat cookie sa file."
+  },
+  "imported_one": {
+    "message": "Na-import ang $P1$ cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "imported_other": {
+    "message": "Na-import ang $P1$ cookies.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_restored": {
+    "message": "Na-restore ang set na \"$P1$\"",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restored_one": {
+    "message": "Na-restore ang \"$P2$\": $P1$ cookie ang isinulat, $P3$ ang binura.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "restored_other": {
+    "message": "Na-restore ang \"$P2$\": $P1$ cookies ang isinulat, $P3$ ang binura.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "rate_title": {
+    "message": "Nag-eenjoy ka ba sa CookieDesk?"
+  },
+  "rate_text": {
+    "message": "Nakakatulong ang mabilis na rating para mahanap ito ng iba."
+  },
+  "rate_group": {
+    "message": "I-rate sa store"
+  },
+  "rate_stars_one": {
+    "message": "$P1$ star",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "rate_stars_other": {
+    "message": "$P1$ stars",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_confirm_title": {
+    "message": "Ibinili mo ba ako ng kape?"
+  },
+  "kofi_confirm_text": {
+    "message": "Salamat, ito ang nagpapatuloy sa CookieDesk."
+  },
+  "kofi_yes": {
+    "message": "Oo, ginawa ko"
+  },
+  "kofi_not_yet": {
+    "message": "Hindi pa"
+  },
+  "kofi_milestone_one": {
+    "message": "$P1$ pagbabagong nagawa gamit ang CookieDesk!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_milestone_other": {
+    "message": "$P1$ pagbabagong nagawa gamit ang CookieDesk!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_free": {
+    "message": "Libre ito at gawa ng isang developer."
+  },
+  "buy_coffee": {
+    "message": "Ibili ako ng kape"
+  },
+  "edit_cookie": {
+    "message": "I-edit ang cookie"
+  },
+  "add_cookie_short": {
+    "message": "Magdagdag ng cookie"
+  },
+  "explain_title": {
+    "message": "Ano ang ginagawa ng cookie na ito"
+  },
+  "field_name": {
+    "message": "Pangalan"
+  },
+  "field_value": {
+    "message": "Value"
+  },
+  "field_domain": {
+    "message": "Domain"
+  },
+  "field_path": {
+    "message": "Path"
+  },
+  "field_expiry": {
+    "message": "Expiry"
+  },
+  "field_expires": {
+    "message": "Mag-e-expire"
+  },
+  "field_attributes": {
+    "message": "Mga attribute"
+  },
+  "field_partition": {
+    "message": "Partition"
+  },
+  "host_only": {
+    "message": "Host-only"
+  },
+  "host_only_title": {
+    "message": "Host-only: walang Domain attribute, kaya hindi ito nakukuha ng mga subdomain"
+  },
+  "session_title": {
+    "message": "Session cookie: nawawala kapag isinara ang browser"
+  },
+  "httponly_title": {
+    "message": "HttpOnly: hindi nakikita ng JavaScript ng page"
+  },
+  "samesite_unspecified": {
+    "message": "Hindi tinukoy"
+  },
+  "partitioned_chips": {
+    "message": "Partitioned (CHIPS)"
+  },
+  "top_level_site": {
+    "message": "Top-level site"
+  },
+  "no_partition_write": {
+    "message": "Hindi makakasulat ng partitioned cookies ang bersyong ito ng Chrome."
+  },
+  "editor_delete_title": {
+    "message": "Burahin (maaaring i-undo)"
+  },
+  "bytes_of": {
+    "message": "$P1$ / $P2$ byte",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "access_aria": {
+    "message": "Access at mga setting"
+  },
+  "all_sites_on": {
+    "message": "Lahat ng site: naka-on"
+  },
+  "all_sites_on_text": {
+    "message": "Nababasa at nababago ng CookieDesk ang cookies sa bawat site, kasama ang mga naka-embed."
+  },
+  "turn_off": {
+    "message": "I-off"
+  },
+  "all_sites": {
+    "message": "Lahat ng site"
+  },
+  "all_sites_text": {
+    "message": "Opsyonal. Wala nang paghingi ng pahintulot kada site, at lalabas saanman ang cookies ng mga naka-embed na site (ads, widget, sign-in frame)."
+  },
+  "allow_all_sites": {
+    "message": "Payagan sa lahat ng site"
+  },
+  "remove_access": {
+    "message": "Alisin ang access sa $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "access_lead": {
+    "message": "Nakikita lang ng CookieDesk ang cookies ng isang site pagkatapos mo itong payagan, at wala nang iba: walang nilalaman ng page, walang history."
+  },
+  "allowed_sites": {
+    "message": "Mga pinayagang site"
+  },
+  "allowed_sites_count": {
+    "message": "Mga pinayagang site · $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "all_sites_overrides": {
+    "message": "Naka-on ang access sa lahat ng site, kaya walang saysay ang mga ito habang naka-on iyon."
+  },
+  "none_yet": {
+    "message": "Wala pa."
+  },
+  "toolbar_opens": {
+    "message": "Binubuksan ng toolbar button ang"
+  },
+  "surface_popup": {
+    "message": "Popup"
+  },
+  "surface_sidepanel": {
+    "message": "Side panel"
+  },
+  "support_feedback": {
+    "message": "Suporta at feedback"
+  },
+  "thanks_supporting": {
+    "message": "Salamat sa pagsuporta!"
+  },
+  "report_problem": {
+    "message": "Mag-ulat ng problema"
+  },
+  "source_code": {
+    "message": "Source code"
+  },
+  "privacy_line": {
+    "message": "Walang network request, walang cookie value na nasa disk. Gumagana ang undo sa loob ng 10 minuto; nasa memory ang mga kopya nito at mawawala kapag nagsara ang Chrome o natapos ang incognito session."
+  },
+  "export_warning": {
+    "message": "May live session cookies ang file na ito. Sinumang may hawak nito ay makakapag-sign in bilang ikaw sa mga site na ito. Ituring itong password at burahin kapag tapos ka na."
+  },
+  "export_json_one": {
+    "message": "I-export ang $P1$ cookie bilang JSON",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_json_other": {
+    "message": "I-export ang $P1$ cookies bilang JSON",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_one": {
+    "message": "I-export ang $P1$ cookie bilang cookies.txt",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_other": {
+    "message": "I-export ang $P1$ cookies bilang cookies.txt",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_all_one": {
+    "message": "Isasama sa file ang cookie na nakalista para sa $P2$, kahit HttpOnly ito.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_all_other": {
+    "message": "Isasama sa file ang lahat ng $P1$ cookie na nakalista para sa $P2$, pati ang mga HttpOnly.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_partitioned_left_one": {
+    "message": "$P1$ partitioned cookie ang hindi isinama: hindi nakakapagtala ng partition ang cookies.txt. Gamitin ang JSON para mapanatili ito.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_partitioned_left_other": {
+    "message": "$P1$ partitioned cookies ang hindi isinama: hindi nakakapagtala ng partition ang cookies.txt. Gamitin ang JSON para mapanatili ang mga ito.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_too_big": {
+    "message": "$P1$ MB ang file na ito. Mas maliit nang malayo ang mga cookie export; nagbabasa ang CookieDesk ng mga file hanggang 5 MB.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "cant_import_unchanged": {
+    "message": "Hindi ma-import ang file na ito. Walang nabago."
+  },
+  "cant_import": {
+    "message": "Hindi ma-import ang file na ito"
+  },
+  "file_unreadable": {
+    "message": "Hindi mabasa ang file."
+  },
+  "needs_access_one": {
+    "message": "Kailangan ng CookieDesk ng access sa $P1$ pang site bago nito maisulat ang mga cookie na ito:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "needs_access_other": {
+    "message": "Kailangan ng CookieDesk ng access sa $P1$ pang site bago nito maisulat ang mga cookie na ito:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_allow_all_hint": {
+    "message": "O payagan ang lahat ng site sa Access at mga setting."
+  },
+  "other_sites": {
+    "message": "Iba pang site ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "other_sites_warning": {
+    "message": "Nagsusulat din ang file na ito ng cookies para sa mga site maliban sa $P1$. Ang cookie na itinanim sa ibang site ay maaaring mag-sign in sa iyo sa maling account doon. Magpatuloy lang kung inaasahan mo ang mga site na ito.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_one": {
+    "message": "Magsulat din ng cookies para sa $P1$ pang site",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_other": {
+    "message": "Magsulat din ng cookies para sa $P1$ pang site",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partitioned_under_list": {
+    "message": "Naka-partition sa ilalim ng: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "warnings_count": {
+    "message": "Mga babala ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_title": {
+    "message": "Mag-import ng cookies"
+  },
+  "import_message_one": {
+    "message": "I-import ang $P1$ cookie? Papalitan ang cookies na may parehong pangalan, domain at path. Maaari mong i-undo ang buong import.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_message_other": {
+    "message": "I-import ang $P1$ cookies? Papalitan ang cookies na may parehong pangalan, domain at path. Maaari mong i-undo ang buong import.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_one": {
+    "message": "Kopyahin ang $P1$ cookie bilang document.cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_other": {
+    "message": "Kopyahin ang $P1$ cookies bilang document.cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_warning": {
+    "message": "May live session cookies ang snippet. Sinumang may hawak nito ay makakapag-sign in bilang ikaw sa site na ito. Ituring itong password."
+  },
+  "snippet_paste": {
+    "message": "I-paste ito sa DevTools console sa $P1$ para i-set doon ang mga cookie na ito.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_one": {
+    "message": "$P1$ HttpOnly cookie ang hindi isinama: hindi ito maitatakda ng JavaScript ng page.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_other": {
+    "message": "$P1$ HttpOnly cookies ang hindi isinama: hindi maitatakda ng JavaScript ng page ang mga ito.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_one": {
+    "message": "Kinopya ang $P1$ cookie bilang document.cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_other": {
+    "message": "Kinopya ang $P1$ cookies bilang document.cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_name": {
+    "message": "Pangalan ng set"
+  },
+  "set_name_placeholder": {
+    "message": "hal. naka-login bilang admin"
+  },
+  "save_set_title_one": {
+    "message": "I-save ang $P1$ cookie bilang set",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "save_set_title_other": {
+    "message": "I-save ang $P1$ cookies bilang set",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_file_note": {
+    "message": "Isang file sa computer mo ang set; walang itinatabing kopya ang CookieDesk. I-restore ito mamaya mula sa menu sa $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "default_set_name": {
+    "message": "Cookie set"
+  },
+  "set_too_large": {
+    "message": "Masyadong malaki ang file na ito para maging cookie set."
+  },
+  "cant_restore_unchanged": {
+    "message": "Hindi ma-restore ang set na ito. Walang nabago."
+  },
+  "cant_restore": {
+    "message": "Hindi ma-restore ang set na ito"
+  },
+  "wrong_site_message": {
+    "message": "Na-save ang set na ito para sa $P1$. Buksan ang $P1$ at i-restore doon.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "wrong_site_title": {
+    "message": "Maling site. Walang nabago."
+  },
+  "foreign_cookies_one": {
+    "message": "$P1$ cookie sa file na ito ay pag-aari ng ibang site ($P2$). $P3$ lang ang binabago ng pag-restore ng set; gamitin ang Import para sa ibang site.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "foreign_cookies_other": {
+    "message": "$P1$ cookies sa file na ito ay pag-aari ng ibang mga site ($P2$). $P3$ lang ang binabago ng pag-restore ng set; gamitin ang Import para sa ibang site.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "plan_write": {
+    "message": "Isulat"
+  },
+  "plan_delete": {
+    "message": "Burahin"
+  },
+  "plan_protected": {
+    "message": "Protektado, hindi ginagalaw"
+  },
+  "restore_title": {
+    "message": "I-restore ang \"$P1$\"",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_nothing": {
+    "message": "Tugma na ang $P1$ sa set na ito. Walang babaguhin.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_message_one": {
+    "message": "Papalitan ang cookies ng $P2$ ng $P1$ cookie sa set na ito. Maaari mong i-undo ang buong pag-restore.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "restore_message_other": {
+    "message": "Papalitan ang cookies ng $P2$ ng $P1$ cookies sa set na ito. Maaari mong i-undo ang buong pag-restore.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_partition_unsupported": {
+    "message": "Ang \"$P1$\" ay partitioned cookie, na hindi maisulat ng bersyong ito ng Chrome. I-update ang Chrome sa 119 o mas bago.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_gone": {
+    "message": "Wala na ang \"$P1$\" — maaaring nag-expire na ito o binago ng site. I-reload ang listahan.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_stored": {
+    "message": "Tinanggap ng Chrome ang \"$P1$\" pero hindi ito na-store.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_imprecise_delete_one": {
+    "message": "Mabubura lang ng Chrome ang \"$P2$\" kasama ang $P1$ pang cookie na may parehong pangalan, kaya hindi ito buburahin ng CookieDesk.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_imprecise_delete_other": {
+    "message": "Mabubura lang ng Chrome ang \"$P2$\" kasama ang $P1$ pang cookies na may parehong pangalan, kaya hindi ito buburahin ng CookieDesk.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_delete": {
+    "message": "Hindi na tinatanggap ng Chrome ang \"$P1$\" sa kasalukuyang anyo nito, kaya kapag nabura ay hindi na maibabalik. Burahin nang walang undo?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_removed": {
+    "message": "Hindi mabura ang \"$P1$\".",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_no_permission": {
+    "message": "Walang access ang CookieDesk sa $P1$. Bigyan muna ng access ang site na ito.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_secure_shadow": {
+    "message": "May Secure cookie nang pinangalanang \"$P1$\" para sa $P2$. Hindi hinahayaan ng Chrome na palitan o tumabi rito ang non-Secure na cookie na may parehong pangalan. I-on ang Secure, o gumamit ng ibang pangalan.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_rejected": {
+    "message": "Tinanggihan ng Chrome ang \"$P1$\" nang walang binigay na dahilan. Walang nabago.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_irreversible_replace_one": {
+    "message": "Hindi na tinatanggap ng Chrome ang $P2$ sa kasalukuyang anyo nito, kaya kapag napalitan ay hindi na maibabalik. Magpatuloy nang walang undo para rito?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_replace_other": {
+    "message": "Hindi na tinatanggap ng Chrome ang $P2$ sa kasalukuyang anyo ng mga ito, kaya kapag napalitan ay hindi na maibabalik. Magpatuloy nang walang undo para sa mga ito?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_too_large_to_undo": {
+    "message": "Masyadong maraming data ($P1$ KB) ang apektado ng pagbabagong ito para magtabi ng kopya para sa undo. Magpatuloy nang walang undo?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_duplicate_in_file": {
+    "message": "Dalawang beses na nasa file ang \"$P1$\" para sa parehong domain at path.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_undo_expired": {
+    "message": "Walang i-u-undo — 10 minuto lang itinatago ang undo."
+  },
+  "err_undo_conflict": {
+    "message": "Nagbago ang $P1$ pagkatapos ng \"$P2$\". Mapapalitan ng pag-undo ngayon ang mas bagong value. I-undo pa rin?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_incomplete": {
+    "message": "Hindi kumpleto: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_added": {
+    "message": "Idinagdag ang \"$P1$\"",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_edited": {
+    "message": "Na-edit ang \"$P1$\"",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted": {
+    "message": "Binura ang \"$P1$\"",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_expired": {
+    "message": "Binura ang \"$P1$\" (expiry sa nakaraan)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_one": {
+    "message": "Binura ang $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_other": {
+    "message": "Binura ang $P1$ cookies",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_one": {
+    "message": "Na-import ang $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_other": {
+    "message": "Na-import ang $P1$ cookies",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_undid": {
+    "message": "Na-undo: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_saved": {
+    "message": "Na-save ang \"$P1$\"",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_draft": {
+    "message": "Dapat object ang cookie na may name, value, domain at path."
+  },
+  "v_name_type": {
+    "message": "Dapat text ang pangalan ng cookie."
+  },
+  "v_value_type": {
+    "message": "Dapat text ang value ng cookie."
+  },
+  "v_domain_type": {
+    "message": "Dapat text ang domain."
+  },
+  "v_path_type": {
+    "message": "Dapat text ang path."
+  },
+  "v_flag_type": {
+    "message": "Dapat true o false ang $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_samesite": {
+    "message": "Dapat isa sa $P1$ ang SameSite.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_name_control": {
+    "message": "May control character (gaya ng newline o tab) ang pangalan, na hindi kayang hawakan ng cookies."
+  },
+  "v_name_semicolon": {
+    "message": "May \";\" ang pangalan, na magtatapos nang maaga sa cookie."
+  },
+  "v_name_equals": {
+    "message": "May \"=\" ang pangalan, na naghihiwalay sa pangalan at value sa cookie."
+  },
+  "v_value_control": {
+    "message": "May control character (gaya ng newline o tab) ang value, na hindi kayang hawakan ng cookies."
+  },
+  "v_value_semicolon": {
+    "message": "May \";\" ang value, na magtatapos nang maaga sa cookie. I-encode ito (halimbawa gamit ang encodeURIComponent)."
+  },
+  "v_empty_cookie": {
+    "message": "Kailangan ng cookie ng pangalan o value; parehong walang laman."
+  },
+  "v_empty_name": {
+    "message": "Walang pangalan ang cookie na ito. May mga site at tool na hindi maayos humawak ng cookie na walang pangalan."
+  },
+  "v_too_large": {
+    "message": "$P1$ byte (UTF-8) ang pangalan at value na magkasama; hanggang $P2$ lang ang pinapayagan ng Chrome.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "v_path_slash": {
+    "message": "Dapat magsimula sa \"/\" ang path."
+  },
+  "v_path_too_long": {
+    "message": "Mas mahaba sa $P1$ byte ang path.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_path_chars": {
+    "message": "May control character o \";\" ang path, na hindi kayang hawakan ng cookies."
+  },
+  "v_domain_empty": {
+    "message": "Walang laman ang domain. Ilagay ang site na kinabibilangan ng cookie, halimbawa example.com."
+  },
+  "v_domain_too_long": {
+    "message": "Mas mahaba sa $P1$ byte ang domain.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_domain_invalid": {
+    "message": "Hindi balidong host name ang domain. Gumamit ng mga letra, numero at gitling na pinaghihiwalay ng tuldok (dapat nasa punycode ang internationalised na pangalan, tulad ng xn--...)."
+  },
+  "v_domain_leading_dot": {
+    "message": "Hindi puwedeng may tuldok sa unahan ng domain ang host-only na cookie; ang tuldok ay nangangahulugang nalalapat din ang cookie sa mga subdomain."
+  },
+  "v_domain_public_suffix": {
+    "message": "Ang \"$P1$\" ay public suffix (domain na kontrolado ng registry tulad ng .com o .co.uk), kaya tinatanggihan ng mga browser ang cookies na nalalapat sa buong domain na iyon.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_samesite_none_insecure": {
+    "message": "Dapat Secure ang SameSite=None na cookies — tinatanggihan sila ng Chrome kung hindi. I-on ang Secure o pumili ng ibang SameSite."
+  },
+  "v_partitioned_insecure": {
+    "message": "Dapat Secure ang partitioned cookies — tinatanggihan sila ng Chrome kung hindi. I-on ang Secure o alisin ang partition."
+  },
+  "v_prefix_secure": {
+    "message": "Dapat Secure ang cookies na pinangalanang \"$P1$...\". I-on ang Secure o palitan ang pangalan ng cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_host_prefix_domain": {
+    "message": "Dapat host-only ang cookies na pinangalanang \"__Host-...\" (walang Domain attribute, kaya walang pagbabahagi sa subdomain). I-on ang host-only o palitan ang pangalan ng cookie."
+  },
+  "v_host_prefix_path": {
+    "message": "Dapat may path na \"/\" ang cookies na pinangalanang \"__Host-...\"."
+  },
+  "v_bad_expiration": {
+    "message": "Dapat may hangganang bilang ng segundo mula noong 1970 ang expiration."
+  },
+  "v_expired_deletes": {
+    "message": "Buburahin ng pag-save na may expiry sa nakaraan ang cookie na ito."
+  },
+  "v_clamped": {
+    "message": "Nililimitahan ng Chrome ang buhay ng cookie sa $P1$ araw; paiikliin ang mas huling expiry kapag na-save.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_expiration_missing": {
+    "message": "Kailangan ng expiration date ng cookie na hindi session. Pumili ng isa o markahan ang cookie bilang session cookie."
+  },
+  "v_partition_type": {
+    "message": "Dapat object na may topLevelSite ang partition key."
+  },
+  "v_partition_site_type": {
+    "message": "Dapat text na gaya ng https://example.com ang top-level site ng partition."
+  },
+  "v_partition_site_form": {
+    "message": "Dapat mukhang https://example.com ang top-level site ng partition (https, walang path o port)."
+  },
+  "v_partition_flag": {
+    "message": "Dapat true o false ang hasCrossSiteAncestor ng partition."
+  },
+  "v_partition_cross_site": {
+    "message": "Wala sa parehong site ng $P1$ ang domain ng cookie, kaya kinakailangan ng Chrome na true ang hasCrossSiteAncestor para rito.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_other_site": {
+    "message": "Nasa labas ng kasalukuyang site ($P2$) ang domain ng cookie na ito ($P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_entry": {
+    "message": "Entry $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_entry_named": {
+    "message": "Entry $P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_bad_samesite": {
+    "message": "$P1$: hindi isa sa no_restriction, lax, strict, unspecified ang sameSite.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bool": {
+    "message": "$P1$: dapat true o false ang \"$P2$\".",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_text": {
+    "message": "$P1$: dapat text ang \"$P2$\".",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_not_object": {
+    "message": "Hindi cookie object ang $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_expiration_type": {
+    "message": "$P1$: dapat number ang \"expirationDate\".",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_key": {
+    "message": "$P1$: dapat object na may text na topLevelSite ang partitionKey.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_flag": {
+    "message": "$P1$: dapat true o false ang partitionKey.hasCrossSiteAncestor.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_line": {
+    "message": "Hindi cookies.txt entry ang linya $P1$ (inaasahan ang 7 field na pinaghihiwalay ng tab, $P2$ ang nakita).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_line_flag_subdomains": {
+    "message": "Linya $P1$: dapat TRUE o FALSE ang subdomains flag.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_flag_secure": {
+    "message": "Linya $P1$: dapat TRUE o FALSE ang secure flag.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_expiry": {
+    "message": "Linya $P1$: dapat buong bilang ng segundo ang expiry.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_not_text": {
+    "message": "Hindi mabasa bilang text ang file."
+  },
+  "io_too_large": {
+    "message": "Mas malaki ang file sa limitasyon ng import na $P1$ byte.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_json": {
+    "message": "Mukhang JSON ang file pero hindi ito ma-parse."
+  },
+  "io_bad_version": {
+    "message": "May bersyong hindi sinusuportahan ang CookieDesk file na ito."
+  },
+  "io_no_cookie_list": {
+    "message": "Walang listahan ng \"cookies\" ang CookieDesk file."
+  },
+  "io_unknown_format": {
+    "message": "Ang JSON na ito ay hindi CookieDesk export at hindi rin listahan ng cookies."
+  },
+  "io_no_cookies": {
+    "message": "Walang cookies ang file."
+  },
+  "io_too_many": {
+    "message": "May $P1$ cookies ang file; $P2$ ang limitasyon.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_issue": {
+    "message": "$P1$: $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_duplicate": {
+    "message": "$P1$: may isa pang entry na may parehong pangalan, domain, path at partition.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "when": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "when_passed": {
+    "message": "lampas na"
+  },
+  "when_under_day": {
+    "message": "sa loob ng wala pang isang araw"
+  },
+  "explain_third_party": {
+    "message": "Itinakda ng $P1$, ibang site mula sa $P2$: isang third-party cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_third_party_partitioned": {
+    "message": "Itinakda ng $P1$, ibang site mula sa $P2$: isang third-party cookie, nakatago sa partition ng $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_host_prefix": {
+    "message": "Pinipilit ng prefix na __Host- sa Chrome ang Secure, walang Domain attribute at Path=/, kaya walang subdomain na makakapagtakda o makakapalit nito."
+  },
+  "explain_secure_prefix": {
+    "message": "Dahil sa prefix na __Secure-, tinatanggap lang ito ng Chrome kung may Secure flag."
+  },
+  "explain_scope_host": {
+    "message": "Ipinapadala lang sa $P1$ mismo, hindi sa mga subdomain nito.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_scope_domain": {
+    "message": "Ipinapadala sa $P1$ at sa bawat subdomain nito (tulad ng www.$P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_path_all": {
+    "message": "Ipinapadala kasama ng mga request para sa bawat path sa host na iyon."
+  },
+  "explain_path_under": {
+    "message": "Ipinapadala lang kasama ng mga request para sa mga path sa ilalim ng $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_secure": {
+    "message": "Secure: ipinapadala lang sa HTTPS."
+  },
+  "explain_not_secure": {
+    "message": "Hindi Secure: ipinapadala rin sa payak na HTTP, kung saan mababasa ito ng sinuman sa network."
+  },
+  "explain_httponly": {
+    "message": "HttpOnly: hindi nakikita ng JavaScript ng page (hindi ito mababasa ng document.cookie), kaya hindi ito naaabot ng mga naipasok na script."
+  },
+  "explain_script_readable": {
+    "message": "Nababasa at nababago ng anumang script na tumatakbo sa page."
+  },
+  "explain_samesite_none": {
+    "message": "SameSite=None: puwede ring ipadala kasama ng mga cross-site request (naka-embed na frame, larawan, request mula sa ibang site), kung saan pinapayagan ng Chrome ang third-party cookies (hinaharangan ito ng incognito bilang default). Kaya dapat itong Secure."
+  },
+  "explain_samesite_lax": {
+    "message": "SameSite=Lax: ipinapadala kapag pumunta ka sa site, kasama mula sa link sa ibang site, pero hindi kasama ng mga request na ginagawa ng page ng ibang site sa background."
+  },
+  "explain_samesite_strict": {
+    "message": "SameSite=Strict: ipinapadala lang kapag nasa parehong site ka na. Kapag galing ka sa link sa ibang site, mawawala ito sa unang request."
+  },
+  "explain_samesite_unset": {
+    "message": "Walang SameSite attribute: tinatrato ito ng Chrome na Lax."
+  },
+  "explain_session": {
+    "message": "Session cookie: binubura kapag isinara ang browser (maliban kung ibinabalik ng Chrome ang dati mong session sa pagsisimula)."
+  },
+  "explain_expires": {
+    "message": "Mag-e-expire $P1$. Nililimitahan ng Chrome ang anumang expiry sa 400 araw mula noong huling itinakda ang cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition": {
+    "message": "Partitioned (CHIPS): hiwalay na iniimbak para sa bawat top-level site. Ipinapadala lang ang kopyang ito habang ang $P1$ ang site sa address bar.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition_cross": {
+    "message": "Nasa cross-site na bahagi ito ng partition na iyon (ginagamit kapag may ibang site sa pagitan ng page at ng site ng cookie na ito), hiwalay sa same-site na bahagi."
+  },
+  "explain_partition_same": {
+    "message": "Nasa same-site na bahagi ito ng partition na iyon, hiwalay sa cross-site na bahagi."
+  },
+  "explain_partition_other": {
+    "message": "Ibang cookie ang parehong pangalan ng cookie sa ilalim ng ibang site."
+  },
+  "explain_jwt": {
+    "message": "Mukhang JSON Web Token ang value."
+  },
+  "explain_jwt_exp": {
+    "message": "Mukhang JSON Web Token ang value; sinasabi mismo ng token na mag-e-expire ito $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_size": {
+    "message": "$P1$ sa 4096 byte na pinapayagan ng Chrome para sa pangalan at value na magkasama.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

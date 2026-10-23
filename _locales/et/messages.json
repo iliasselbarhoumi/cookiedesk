@@ -1,0 +1,2215 @@
+{
+  "extension_name": {
+    "message": "Küpsiste redaktor: vaata, muuda ja kustuta küpsiseid | CookieDesk"
+  },
+  "extension_description": {
+    "message": "Vaata, muuda, lisa ja kustuta küpsiseid saidi kaupa. Otsing, import ja eksport, partitsioonitud küpsiste tugi. Reklaamideta."
+  },
+  "btn_ok": {
+    "message": "OK"
+  },
+  "btn_cancel": {
+    "message": "Tühista"
+  },
+  "btn_close": {
+    "message": "Sulge"
+  },
+  "btn_delete": {
+    "message": "Kustuta"
+  },
+  "btn_copy": {
+    "message": "Kopeeri"
+  },
+  "btn_save": {
+    "message": "Salvesta"
+  },
+  "btn_export": {
+    "message": "Ekspordi"
+  },
+  "btn_later": {
+    "message": "Hiljem"
+  },
+  "dismiss": {
+    "message": "Sule teade"
+  },
+  "back": {
+    "message": "Tagasi"
+  },
+  "back_esc": {
+    "message": "Tagasi (Esc)"
+  },
+  "back_to_list": {
+    "message": "Tagasi loendisse"
+  },
+  "title_count": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "empty_name": {
+    "message": "(tühi nimi)"
+  },
+  "empty_value": {
+    "message": "(tühi väärtus)"
+  },
+  "empty_short": {
+    "message": "(tühi)"
+  },
+  "names_more": {
+    "message": "$P1$ ja veel $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "done": {
+    "message": "Valmis"
+  },
+  "undo": {
+    "message": "Võta tagasi"
+  },
+  "undo_nothing": {
+    "message": "Pole midagi tagasi võtta"
+  },
+  "undo_entry": {
+    "message": "Võta tagasi: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_interrupted": {
+    "message": "Tagasivõtmine katkes: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "redo_entry": {
+    "message": "Tee uuesti: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "support_title": {
+    "message": "Toeta CookieDeskit Ko-fis"
+  },
+  "supporter_title": {
+    "message": "Aitäh, et toetad CookieDeskit!"
+  },
+  "add_cookie": {
+    "message": "Lisa küpsis"
+  },
+  "add_cookie_title": {
+    "message": "Lisa küpsis (n)"
+  },
+  "more_actions": {
+    "message": "Rohkem toiminguid"
+  },
+  "menu_group_transfer": {
+    "message": "Eksport ja import"
+  },
+  "menu_group_sets": {
+    "message": "Küpsisekomplektid"
+  },
+  "export_json_title": {
+    "message": "Ekspordi JSON-ina"
+  },
+  "export_txt_title": {
+    "message": "Ekspordi Netscape cookies.txt-na"
+  },
+  "tile_snippet": {
+    "message": "Koodilõik"
+  },
+  "tile_snippet_title": {
+    "message": "Kopeeri document.cookie koodilõiguna"
+  },
+  "tile_import": {
+    "message": "Impordi"
+  },
+  "tile_import_title": {
+    "message": "Impordi JSON või cookies.txt"
+  },
+  "tile_save_set": {
+    "message": "Salvesta komplekt"
+  },
+  "tile_save_set_title": {
+    "message": "Salvesta need küpsised nimega komplektifailina"
+  },
+  "tile_restore": {
+    "message": "Taasta"
+  },
+  "tile_restore_title": {
+    "message": "Taasta salvestatud komplekt (eelvaatega)"
+  },
+  "tile_compare": {
+    "message": "Võrdle"
+  },
+  "tile_compare_title": {
+    "message": "Võrdle salvestatud komplekti praegusega või kahte komplekti"
+  },
+  "tile_copy_to": {
+    "message": "Kopeeri kohta…"
+  },
+  "tile_copy_to_title": {
+    "message": "Kopeeri kuvatud küpsised teise hoidlasse (tavaline ↔ inkognito)"
+  },
+  "menu_bulk_delete": {
+    "message": "Kustuta kuvatud küpsised…"
+  },
+  "menu_access": {
+    "message": "Juurdepääs ja seaded"
+  },
+  "menu_shortcuts": {
+    "message": "Kiirklahvid"
+  },
+  "menu_sidepanel": {
+    "message": "Ava külgpaneelis"
+  },
+  "menu_rate": {
+    "message": "Hinda CookieDeskit"
+  },
+  "menu_support": {
+    "message": "Toeta Ko-fis"
+  },
+  "search_placeholder": {
+    "message": "Otsi küpsiseid"
+  },
+  "search_label": {
+    "message": "Filtreeri küpsiseid nime, väärtuse või domeeni järgi"
+  },
+  "search_title": {
+    "message": "Filtreeri nime, väärtuse või domeeni järgi"
+  },
+  "cookie_store": {
+    "message": "Küpsisehoidla"
+  },
+  "cookies_list": {
+    "message": "Küpsised"
+  },
+  "restricted_page": {
+    "message": "Piiratud leht"
+  },
+  "loading": {
+    "message": "Laadimine…"
+  },
+  "state_unknown": {
+    "message": "Selle vahelehe küpsiste nägemiseks klõpsa tööriistaribal CookieDeski nuppu."
+  },
+  "state_unknown_hint": {
+    "message": "Chrome jagab vahelehe aadressi alles pärast seda klõpsu või saitide puhul, mille oled lubanud."
+  },
+  "state_error": {
+    "message": "Midagi läks valesti: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "state_no_access": {
+    "message": "CookieDeskil pole veel juurdepääsu saidile $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "grant_site": {
+    "message": "Luba saidil $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "chrome_will_ask": {
+    "message": "Chrome küsib:"
+  },
+  "prompt_site": {
+    "message": "Teie andmete lugemine ja muutmine kõigil $P1$ saitidel",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "prompt_all": {
+    "message": "Kõigi teie andmete lugemine ja muutmine kõigil veebisaitidel"
+  },
+  "only_this_site": {
+    "message": "Ainult selle saidi küpsised, midagi muud mitte."
+  },
+  "allow_all_instead": {
+    "message": "Luba hoopis kõik saidid"
+  },
+  "restricted_browser": {
+    "message": "See on Chrome'i leht. Chrome ei lase ühelgi laiendusel siin küpsiseid lugeda ega muuta."
+  },
+  "restricted_webstore": {
+    "message": "See on Chrome Web Store. Chrome blokeerib seal kõik laiendused, mistõttu küpsiseid ei saa kuvada."
+  },
+  "restricted_extension": {
+    "message": "See on laienduse enda leht. Selle salvestusruum pole veebisaidi küpsised, seega pole midagi kuvada."
+  },
+  "restricted_file": {
+    "message": "See on kohalik fail. Kettalt avatud failidel pole küpsiseid."
+  },
+  "restricted_other": {
+    "message": "See leht pole veebisait (näiteks tühi leht või data: leht), seega pole sellel küpsiseid."
+  },
+  "live_just_now": {
+    "message": "Äsja: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "note_third_party": {
+    "message": "Põimitud saitide küpsised kuvatakse ainult saitidel, mille oled lubanud."
+  },
+  "note_no_partitions": {
+    "message": "Sinu Chrome'i versioon ei saa partitsioonitud küpsiseid kuvada, seega võib loend olla puudulik."
+  },
+  "empty_no_match": {
+    "message": "Päringule „$P1$” ei vasta ükski küpsis.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "empty_none": {
+    "message": "Saidil $P1$ pole küpsiseid.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clear_search": {
+    "message": "Tühjenda otsing"
+  },
+  "change_changed": {
+    "message": "$P1$ muutus",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_added": {
+    "message": "$P1$ lisati",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_removed": {
+    "message": "$P1$ eemaldati",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_one": {
+    "message": "$P1$ küpsis",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_other": {
+    "message": "$P1$ küpsist",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_filtered_one": {
+    "message": "$P2$ / $P1$ küpsisest",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_filtered_other": {
+    "message": "$P2$ / $P1$ küpsisest",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_partitioned": {
+    "message": "$P1$ partitsioonitud",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "store_default": {
+    "message": "Vaikimisi"
+  },
+  "store_incognito": {
+    "message": "Inkognito"
+  },
+  "store_n": {
+    "message": "Hoidla $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "session": {
+    "message": "Seanss"
+  },
+  "expired": {
+    "message": "Aegunud"
+  },
+  "expiry_under_minute": {
+    "message": "alla minuti pärast"
+  },
+  "expiry_on_close": {
+    "message": "Kustutatakse brauseri sulgemisel"
+  },
+  "expires_at": {
+    "message": "Aegub $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "badge_protected": {
+    "message": "Kaitstud: hulgikustutus, import ja komplekti taastamine jätavad selle puutumata (p)"
+  },
+  "hint_httponly": {
+    "message": "HttpOnly: lehe JavaScript ei näe seda (document.cookie ei saa seda lugeda)"
+  },
+  "hint_secure": {
+    "message": "Secure: saadetakse ainult HTTPS-i kaudu"
+  },
+  "hint_samesite_none": {
+    "message": "SameSite=None: saadetakse ka saitidevahelistes päringutes"
+  },
+  "hint_samesite_lax": {
+    "message": "SameSite=Lax: saadetakse ülataseme navigeerimisel, mitte saitidevahelistes alampäringutes"
+  },
+  "hint_samesite_strict": {
+    "message": "SameSite=Strict: saadetakse ainult sama saidi päringutes"
+  },
+  "badge_partitioned": {
+    "message": "Partitsioonitud"
+  },
+  "partitioned_under": {
+    "message": "Partitsioonitud saidi $P1$ all",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partition_this_site": {
+    "message": "see sait"
+  },
+  "partition_cross_site": {
+    "message": "$P1$, saitidevaheline kontekst",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "row_protected": {
+    "message": "Kaitstud"
+  },
+  "row_unprotect_title": {
+    "message": "Eemalda kaitse (p)"
+  },
+  "row_protect_title": {
+    "message": "Kaitse hulgikustutuse, impordi ja komplekti taastamise eest (p)"
+  },
+  "copy_value": {
+    "message": "Kopeeri väärtus"
+  },
+  "copied": {
+    "message": "Kopeeritud"
+  },
+  "copy_value_title": {
+    "message": "Kopeeri väärtus (c)"
+  },
+  "row_delete_title": {
+    "message": "Kustuta (Del) – saab tagasi võtta"
+  },
+  "irreversible_title": {
+    "message": "Seda ei saa tagasi võtta"
+  },
+  "continue_no_undo": {
+    "message": "Jätka ilma tagasivõtmiseta"
+  },
+  "undo_anyway_title": {
+    "message": "Kas võtta ikkagi tagasi?"
+  },
+  "undo_anyway": {
+    "message": "Võta ikkagi tagasi"
+  },
+  "undone": {
+    "message": "Tagasi võetud: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_skipped": {
+    "message": "Mõned küpsised olid juba aegunud ja neid ei taastatud: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_refused": {
+    "message": "Chrome ei võta neid enam sellisena vastu, nagu need olid, seega neid ei taastatud: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clipboard_failed": {
+    "message": "Kopeerimine ebaõnnestus: lõikelaud pole siin saadaval."
+  },
+  "protected_on": {
+    "message": "„$P1$” on kaitstud: hulgikustutus, import ja komplekti taastamine jätavad selle puutumata.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_off": {
+    "message": "„$P1$” pole enam kaitstud.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protect_limit": {
+    "message": "Kaitsta saab kuni $P1$ küpsist. Eemalda esmalt mõnelt kaitse.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_named": {
+    "message": "Kas kustutada „$P1$”?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_protected_message": {
+    "message": "See küpsis on kaitstud. Kas kustutada ikkagi? Saad selle tagasi võtta."
+  },
+  "nothing_to_delete": {
+    "message": "Pole midagi kustutada"
+  },
+  "all_shown_protected_one": {
+    "message": "Kuvatud küpsis on kaitstud."
+  },
+  "all_shown_protected_other": {
+    "message": "Kõik $P1$ kuvatud küpsist on kaitstud.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "no_cookies_shown": {
+    "message": "Küpsiseid ei kuvata."
+  },
+  "bulk_title_one": {
+    "message": "Kas kustutada $P1$ küpsis?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_title_other": {
+    "message": "Kas kustutada $P1$ küpsist?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_match": {
+    "message": "Need küpsised vastavad päringule „$P1$” saidil $P2$. Saad selle tagasi võtta.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "bulk_all": {
+    "message": "Kõik saidi $P1$ loendis olevad küpsised. Saad selle tagasi võtta.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_one": {
+    "message": "$P1$ kaitstud küpsis jäetakse alles.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_other": {
+    "message": "$P1$ kaitstud küpsist jäetakse alles.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_one": {
+    "message": "Kustuta $P1$ küpsis",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_other": {
+    "message": "Kustuta $P1$ küpsist",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_to": {
+    "message": "Kopeeri kohta"
+  },
+  "copy_to_default_note": {
+    "message": "Vaikehoidlasse kopeeritud küpsised säilitatakse nagu kõik teised küpsised, kettal ja ka pärast selle inkognitoseansi lõppu."
+  },
+  "copy_to_incognito_note": {
+    "message": "Inkognitohoidlasse kopeeritud küpsised lõpevad koos selle inkognitoseansiga."
+  },
+  "copy_title_one": {
+    "message": "Kopeeri $P1$ küpsis",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_title_other": {
+    "message": "Kopeeri $P1$ küpsist",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_from": {
+    "message": "Hoidlast $P1$ kohta:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_replace_note": {
+    "message": "Sama nime, domeeni ja asukohaga küpsised asendatakse seal, välja arvatud kaitstud. Saad kopeerimise tagasi võtta."
+  },
+  "label_copied_one": {
+    "message": "Kopeeriti $P1$ küpsis kohta $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_copied_other": {
+    "message": "Kopeeriti $P1$ küpsist kohta $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_kept_one": {
+    "message": "$P1$ kaitstud küpsis jäeti seal puutumata.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_kept_other": {
+    "message": "$P1$ kaitstud küpsist jäeti seal puutumata.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_done_one": {
+    "message": "Kopeeriti $P1$ küpsis kohta $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_done_other": {
+    "message": "Kopeeriti $P1$ küpsist kohta $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_undo_hint": {
+    "message": "Võta tagasi siin või hiljem hoidlast $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_nothing": {
+    "message": "Kohas $P1$ on need küpsised juba täpselt samasugused.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_cant": {
+    "message": "Võrdlemine pole võimalik"
+  },
+  "compare_now": {
+    "message": "$P1$ praegu",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_other_site": {
+    "message": "See komplekt salvestati saidi $P1$, mitte saidi $P2$ jaoks.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "compare_too_many": {
+    "message": "Vali üks komplekt, mida praegusega võrrelda, või kaks komplekti omavahel võrdlemiseks."
+  },
+  "set_file_too_large": {
+    "message": "$P1$ on küpsisekomplekti jaoks liiga suur.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_aria": {
+    "message": "Võrdle küpsisekomplekte"
+  },
+  "compare_changed_fields": {
+    "message": "Muutunud: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_one": {
+    "message": "Erinevusi pole: $P1$ küpsis on identne.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_other": {
+    "message": "Erinevusi pole: $P1$ küpsist on identset.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_summary": {
+    "message": "$P1$ lisatud, $P2$ eemaldatud, $P3$ muudetud, $P4$ muutmata.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      },
+      "p4": {
+        "content": "$4"
+      }
+    }
+  },
+  "diff_added": {
+    "message": "Lisatud"
+  },
+  "diff_removed": {
+    "message": "Eemaldatud"
+  },
+  "diff_changed": {
+    "message": "Muudetud"
+  },
+  "diff_expiry_only": {
+    "message": "Muutus ainult aegumine ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "shortcuts_title": {
+    "message": "Kiirklahvid"
+  },
+  "key_search": {
+    "message": "Otsi"
+  },
+  "key_move": {
+    "message": "Liigu loendis"
+  },
+  "key_first_last": {
+    "message": "Esimene / viimane küpsis"
+  },
+  "key_edit": {
+    "message": "Muuda"
+  },
+  "key_copy": {
+    "message": "Kopeeri väärtus"
+  },
+  "key_protect": {
+    "message": "Kaitse / eemalda kaitse"
+  },
+  "key_delete": {
+    "message": "Kustuta (saab tagasi võtta)"
+  },
+  "key_back": {
+    "message": "Tagasi või tühjenda otsing"
+  },
+  "key_help": {
+    "message": "See loend"
+  },
+  "import_kept_one": {
+    "message": "$P1$ kaitstud küpsis jäeti puutumata: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_kept_other": {
+    "message": "$P1$ kaitstud küpsist jäeti puutumata: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_nothing": {
+    "message": "Pole midagi importida: kõik faili küpsised on juba täpselt sellisena seatud."
+  },
+  "imported_one": {
+    "message": "Imporditi $P1$ küpsis.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "imported_other": {
+    "message": "Imporditi $P1$ küpsist.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_restored": {
+    "message": "Taastati komplekt „$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restored_one": {
+    "message": "Taastati „$P2$”: $P1$ küpsis kirjutatud, $P3$ kustutatud.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "restored_other": {
+    "message": "Taastati „$P2$”: $P1$ küpsist kirjutatud, $P3$ kustutatud.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "rate_title": {
+    "message": "Kas CookieDesk meeldib?"
+  },
+  "rate_text": {
+    "message": "Kiire hinnang aitab teistel selle leida."
+  },
+  "rate_group": {
+    "message": "Hinda poes"
+  },
+  "rate_stars_one": {
+    "message": "$P1$ täht",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "rate_stars_other": {
+    "message": "$P1$ tähte",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_confirm_title": {
+    "message": "Kas ostsid mulle kohvi?"
+  },
+  "kofi_confirm_text": {
+    "message": "Aitäh, see hoiab CookieDeski käimas."
+  },
+  "kofi_yes": {
+    "message": "Jah, ostsin"
+  },
+  "kofi_not_yet": {
+    "message": "Veel mitte"
+  },
+  "kofi_milestone_one": {
+    "message": "$P1$ muudatus tehtud CookieDeskiga!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_milestone_other": {
+    "message": "$P1$ muudatust tehtud CookieDeskiga!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_free": {
+    "message": "See on tasuta ja ühe arendaja tehtud."
+  },
+  "buy_coffee": {
+    "message": "Osta mulle kohv"
+  },
+  "edit_cookie": {
+    "message": "Muuda küpsist"
+  },
+  "add_cookie_short": {
+    "message": "Lisa küpsis"
+  },
+  "explain_title": {
+    "message": "Mida see küpsis teeb"
+  },
+  "field_name": {
+    "message": "Nimi"
+  },
+  "field_value": {
+    "message": "Väärtus"
+  },
+  "field_domain": {
+    "message": "Domeen"
+  },
+  "field_path": {
+    "message": "Asukoht"
+  },
+  "field_expiry": {
+    "message": "Aegumine"
+  },
+  "field_expires": {
+    "message": "Aegub"
+  },
+  "field_attributes": {
+    "message": "Atribuudid"
+  },
+  "field_partition": {
+    "message": "Partitsioon"
+  },
+  "host_only": {
+    "message": "Ainult host"
+  },
+  "host_only_title": {
+    "message": "Ainult host: Domain-atribuuti pole, seega alamdomeenid seda ei saa"
+  },
+  "session_title": {
+    "message": "Seansiküpsis: kaob brauseri sulgemisel"
+  },
+  "httponly_title": {
+    "message": "HttpOnly: lehe JavaScript ei näe seda"
+  },
+  "samesite_unspecified": {
+    "message": "Määramata"
+  },
+  "partitioned_chips": {
+    "message": "Partitsioonitud (CHIPS)"
+  },
+  "top_level_site": {
+    "message": "Ülataseme sait"
+  },
+  "no_partition_write": {
+    "message": "See Chrome'i versioon ei saa partitsioonitud küpsiseid kirjutada."
+  },
+  "editor_delete_title": {
+    "message": "Kustuta (saab tagasi võtta)"
+  },
+  "bytes_of": {
+    "message": "$P1$ / $P2$ baiti",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "access_aria": {
+    "message": "Juurdepääs ja seaded"
+  },
+  "all_sites_on": {
+    "message": "Kõik saidid: sees"
+  },
+  "all_sites_on_text": {
+    "message": "CookieDesk saab lugeda ja muuta küpsiseid kõigil saitidel, ka põimitutel."
+  },
+  "turn_off": {
+    "message": "Lülita välja"
+  },
+  "all_sites": {
+    "message": "Kõik saidid"
+  },
+  "all_sites_text": {
+    "message": "Valikuline. Enam pole saidipõhiseid küsimusi ja põimitud saitide küpsised (reklaamid, vidinad, sisselogimisraamid) kuvatakse kõikjal."
+  },
+  "allow_all_sites": {
+    "message": "Luba kõigil saitidel"
+  },
+  "remove_access": {
+    "message": "Eemalda juurdepääs saidile $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "access_lead": {
+    "message": "CookieDesk näeb saidi küpsiseid alles pärast seda, kui oled selle saidi lubanud, ja ei midagi muud: ei lehe sisu ega ajalugu."
+  },
+  "allowed_sites": {
+    "message": "Lubatud saidid"
+  },
+  "allowed_sites_count": {
+    "message": "Lubatud saidid · $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "all_sites_overrides": {
+    "message": "Juurdepääs kõigile saitidele on sees, seega need ei oma tähtsust, kuni see sees on."
+  },
+  "none_yet": {
+    "message": "Veel pole."
+  },
+  "toolbar_opens": {
+    "message": "Tööriistariba nupp avab"
+  },
+  "surface_popup": {
+    "message": "Hüpikaken"
+  },
+  "surface_sidepanel": {
+    "message": "Külgpaneel"
+  },
+  "support_feedback": {
+    "message": "Tugi ja tagasiside"
+  },
+  "thanks_supporting": {
+    "message": "Aitäh toetuse eest!"
+  },
+  "report_problem": {
+    "message": "Teata probleemist"
+  },
+  "source_code": {
+    "message": "Lähtekood"
+  },
+  "privacy_line": {
+    "message": "Võrgupäringuid pole, küpsiste väärtusi kettale ei salvestata. Tagasivõtmine toimib 10 minutit; koopiad on mälus ja kaovad Chrome'i sulgemisel või inkognitoseansi lõppedes."
+  },
+  "export_warning": {
+    "message": "See fail sisaldab kehtivaid seansiküpsiseid. Igaüks, kellel see on, saab nendel saitidel sinuna sisse logida. Käsitle seda nagu parooli ja kustuta see, kui oled valmis."
+  },
+  "export_json_one": {
+    "message": "Ekspordi $P1$ küpsis JSON-ina",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_json_other": {
+    "message": "Ekspordi $P1$ küpsist JSON-ina",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_one": {
+    "message": "Ekspordi $P1$ küpsis cookies.txt-na",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_other": {
+    "message": "Ekspordi $P1$ küpsist cookies.txt-na",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_all_one": {
+    "message": "Saidi $P2$ loendis olev küpsis läheb faili, isegi kui see on HttpOnly.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_all_other": {
+    "message": "Kõik $P1$ saidi $P2$ loendis olevat küpsist lähevad faili, ka HttpOnly küpsised.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_partitioned_left_one": {
+    "message": "$P1$ partitsioonitud küpsis jäeti välja: cookies.txt ei saa partitsioone salvestada. Selle säilitamiseks kasuta JSON-it.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_partitioned_left_other": {
+    "message": "$P1$ partitsioonitud küpsist jäeti välja: cookies.txt ei saa partitsioone salvestada. Nende säilitamiseks kasuta JSON-it.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_too_big": {
+    "message": "See fail on $P1$ MB. Küpsiste eksportfailid on palju väiksemad; CookieDesk loeb kuni 5 MB faile.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "cant_import_unchanged": {
+    "message": "Seda faili ei saa importida. Midagi ei muudetud."
+  },
+  "cant_import": {
+    "message": "Seda faili ei saa importida"
+  },
+  "file_unreadable": {
+    "message": "Faili ei õnnestunud lugeda."
+  },
+  "needs_access_one": {
+    "message": "CookieDeskil on vaja juurdepääsu veel $P1$ saidile, enne kui see saab need küpsised kirjutada:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "needs_access_other": {
+    "message": "CookieDeskil on vaja juurdepääsu veel $P1$ saidile, enne kui see saab need küpsised kirjutada:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_allow_all_hint": {
+    "message": "Või luba kõik saidid jaotises Juurdepääs ja seaded."
+  },
+  "other_sites": {
+    "message": "Muud saidid ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "other_sites_warning": {
+    "message": "See fail kirjutab küpsiseid ka muudele saitidele peale saidi $P1$. Teisele saidile istutatud küpsis võib su seal valele kontole sisse logida. Jätka ainult siis, kui ootasid just neid saite.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_one": {
+    "message": "Kirjuta küpsised ka $P1$ muule saidile",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_other": {
+    "message": "Kirjuta küpsised ka $P1$ muule saidile",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partitioned_under_list": {
+    "message": "Partitsioonitud all: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "warnings_count": {
+    "message": "Hoiatused ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_title": {
+    "message": "Impordi küpsised"
+  },
+  "import_message_one": {
+    "message": "Kas importida $P1$ küpsis? Sama nime, domeeni ja asukohaga küpsised asendatakse. Saad kogu impordi tagasi võtta.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_message_other": {
+    "message": "Kas importida $P1$ küpsist? Sama nime, domeeni ja asukohaga küpsised asendatakse. Saad kogu impordi tagasi võtta.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_one": {
+    "message": "Kopeeri $P1$ küpsis document.cookie-na",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_other": {
+    "message": "Kopeeri $P1$ küpsist document.cookie-na",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_warning": {
+    "message": "Koodilõik sisaldab kehtivaid seansiküpsiseid. Igaüks, kellel see on, saab sellel saidil sinuna sisse logida. Käsitle seda nagu parooli."
+  },
+  "snippet_paste": {
+    "message": "Kleebi see saidi $P1$ DevToolsi konsooli, et need küpsised seal seada.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_one": {
+    "message": "$P1$ HttpOnly küpsis jäeti välja: lehe JavaScript ei saa seda seada.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_other": {
+    "message": "$P1$ HttpOnly küpsist jäeti välja: lehe JavaScript ei saa neid seada.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_one": {
+    "message": "Kopeeriti $P1$ küpsis document.cookie-na.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_other": {
+    "message": "Kopeeriti $P1$ küpsist document.cookie-na.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_name": {
+    "message": "Komplekti nimi"
+  },
+  "set_name_placeholder": {
+    "message": "nt sisse logitud adminina"
+  },
+  "save_set_title_one": {
+    "message": "Salvesta $P1$ küpsis komplektina",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "save_set_title_other": {
+    "message": "Salvesta $P1$ küpsist komplektina",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_file_note": {
+    "message": "Komplekt on fail sinu arvutis; CookieDesk ei hoia koopiat. Taasta see hiljem saidi $P1$ menüüst.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "default_set_name": {
+    "message": "Küpsisekomplekt"
+  },
+  "set_too_large": {
+    "message": "See fail on küpsisekomplekti jaoks liiga suur."
+  },
+  "cant_restore_unchanged": {
+    "message": "Seda komplekti ei saa taastada. Midagi ei muudetud."
+  },
+  "cant_restore": {
+    "message": "Seda komplekti ei saa taastada"
+  },
+  "wrong_site_message": {
+    "message": "See komplekt salvestati saidi $P1$ jaoks. Ava $P1$ ja taasta see seal.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "wrong_site_title": {
+    "message": "Vale sait. Midagi ei muudetud."
+  },
+  "foreign_cookies_one": {
+    "message": "$P1$ selle faili küpsis kuulub teisele saidile ($P2$). Komplekti taastamine muudab ainult saiti $P3$; muude saitide jaoks kasuta importi.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "foreign_cookies_other": {
+    "message": "$P1$ selle faili küpsist kuulub teistele saitidele ($P2$). Komplekti taastamine muudab ainult saiti $P3$; muude saitide jaoks kasuta importi.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "plan_write": {
+    "message": "Kirjuta"
+  },
+  "plan_delete": {
+    "message": "Kustuta"
+  },
+  "plan_protected": {
+    "message": "Kaitstud, jäetakse nii nagu on"
+  },
+  "restore_title": {
+    "message": "Taasta „$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_nothing": {
+    "message": "$P1$ vastab juba sellele komplektile. Pole midagi muuta.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_message_one": {
+    "message": "Saidi $P2$ küpsised asendatakse selle komplekti $P1$ küpsisega. Saad kogu taastamise tagasi võtta.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "restore_message_other": {
+    "message": "Saidi $P2$ küpsised asendatakse selle komplekti $P1$ küpsisega. Saad kogu taastamise tagasi võtta.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_partition_unsupported": {
+    "message": "„$P1$” on partitsioonitud küpsis, mida see Chrome'i versioon ei saa kirjutada. Uuenda Chrome versioonile 119 või uuemale.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_gone": {
+    "message": "„$P1$” ei ole enam olemas. See võib olla aegunud või sait on seda muutnud. Laadi loend uuesti.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_stored": {
+    "message": "Chrome võttis „$P1$” vastu, aga ei salvestanud seda.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_imprecise_delete_one": {
+    "message": "Chrome saab „$P2$” kustutada ainult koos $P1$ sama nimega küpsisega, seega CookieDesk seda ei kustuta.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_imprecise_delete_other": {
+    "message": "Chrome saab „$P2$” kustutada ainult koos $P1$ sama nimega küpsisega, seega CookieDesk seda ei kustuta.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_delete": {
+    "message": "Chrome ei võta „$P1$” enam vastu sellisena, nagu see on salvestatud, seega kustutatuna ei saaks seda tagasi panna. Kas kustutada ilma tagasivõtmiseta?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_removed": {
+    "message": "„$P1$” kustutamine ebaõnnestus.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_no_permission": {
+    "message": "CookieDeskil pole juurdepääsu saidile $P1$. Anna esmalt sellele saidile juurdepääs.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_secure_shadow": {
+    "message": "Saidil $P2$ on juba Secure küpsis nimega „$P1$”. Chrome ei lase sama nimega küpsisel ilma Secure'ita seda asendada ega selle kõrval olla. Lülita Secure sisse või kasuta teist nime.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_rejected": {
+    "message": "Chrome lükkas „$P1$” tagasi põhjust nimetamata. Midagi ei muudetud.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_irreversible_replace_one": {
+    "message": "Chrome ei võta $P2$ enam vastu sellisena, nagu see on salvestatud, seega asendatuna ei saaks seda tagasi panna. Kas jätkata selle puhul ilma tagasivõtmiseta?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_replace_other": {
+    "message": "Chrome ei võta $P2$ enam vastu sellisena, nagu need on salvestatud, seega asendatuna ei saaks neid tagasi panna. Kas jätkata nende puhul ilma tagasivõtmiseta?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_too_large_to_undo": {
+    "message": "See muudatus puudutab liiga palju andmeid ($P1$ KB), et tagasivõtmiskoopiat hoida. Kas jätkata ilma tagasivõtmiseta?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_duplicate_in_file": {
+    "message": "Fail sisaldab „$P1$” kaks korda sama domeeni ja asukoha jaoks.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_undo_expired": {
+    "message": "Pole midagi tagasi võtta – tagasivõtmine säilib 10 minutit."
+  },
+  "err_undo_conflict": {
+    "message": "$P1$ muutus pärast toimingut „$P2$”. Praegu tagasi võtmine kirjutaks uuema väärtuse üle. Kas võtta ikkagi tagasi?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_incomplete": {
+    "message": "Poolik: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_added": {
+    "message": "Lisati „$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_edited": {
+    "message": "Muudeti „$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted": {
+    "message": "Kustutati „$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_expired": {
+    "message": "Kustutati „$P1$” (aegumine minevikus)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_one": {
+    "message": "Kustutati $P1$ küpsis",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_other": {
+    "message": "Kustutati $P1$ küpsist",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_one": {
+    "message": "Imporditi $P1$ küpsis",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_other": {
+    "message": "Imporditi $P1$ küpsist",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_undid": {
+    "message": "Tagasi võetud: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_saved": {
+    "message": "Salvestati „$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_draft": {
+    "message": "Küpsis peab olema objekt, millel on name, value, domain ja path."
+  },
+  "v_name_type": {
+    "message": "Küpsise nimi peab olema tekst."
+  },
+  "v_value_type": {
+    "message": "Küpsise väärtus peab olema tekst."
+  },
+  "v_domain_type": {
+    "message": "Domeen peab olema tekst."
+  },
+  "v_path_type": {
+    "message": "Asukoht peab olema tekst."
+  },
+  "v_flag_type": {
+    "message": "$P1$ peab olema tõene või väär.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_samesite": {
+    "message": "SameSite peab olema üks väärtustest $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_name_control": {
+    "message": "Nimi sisaldab juhtmärke (nt reavahetus või tabulaator), mida küpsised ei saa sisaldada."
+  },
+  "v_name_semicolon": {
+    "message": "Nimi sisaldab märki „;”, mis lõpetaks küpsise enneaegselt."
+  },
+  "v_name_equals": {
+    "message": "Nimi sisaldab märki „=”, mis eraldab küpsises nime väärtusest."
+  },
+  "v_value_control": {
+    "message": "Väärtus sisaldab juhtmärke (nt reavahetus või tabulaator), mida küpsised ei saa sisaldada."
+  },
+  "v_value_semicolon": {
+    "message": "Väärtus sisaldab märki „;”, mis lõpetaks küpsise enneaegselt. Kodeeri see (näiteks encodeURIComponentiga)."
+  },
+  "v_empty_cookie": {
+    "message": "Küpsisel peab olema nimi või väärtus; mõlemad on tühjad."
+  },
+  "v_empty_name": {
+    "message": "Sellel küpsisel on tühi nimi. Mõned saidid ja tööriistad käsitlevad nimeta küpsiseid halvasti."
+  },
+  "v_too_large": {
+    "message": "Nimi ja väärtus kokku on $P1$ baiti (UTF-8); Chrome lubab kuni $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "v_path_slash": {
+    "message": "Asukoht peab algama märgiga „/”."
+  },
+  "v_path_too_long": {
+    "message": "Asukoht on pikem kui $P1$ baiti.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_path_chars": {
+    "message": "Asukoht sisaldab juhtmärke või märki „;”, mida küpsised ei saa sisaldada."
+  },
+  "v_domain_empty": {
+    "message": "Domeen on tühi. Sisesta sait, kuhu küpsis kuulub, näiteks example.com."
+  },
+  "v_domain_too_long": {
+    "message": "Domeen on pikem kui $P1$ baiti.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_domain_invalid": {
+    "message": "Domeen pole kehtiv hostinimi. Kasuta punktidega eraldatud tähti, numbreid ja sidekriipse (rahvusvahelised nimed peavad olema punycode'is, nt xn--...)."
+  },
+  "v_domain_leading_dot": {
+    "message": "Ainult hosti küpsise domeen ei saa alata punktiga; punkt tähendab, et küpsis kehtib ka alamdomeenidel."
+  },
+  "v_domain_public_suffix": {
+    "message": "„$P1$” on avalik järelliide (registri hallatav domeen, nt .com või .co.uk), seega brauserid lükkavad tagasi küpsised, mis kehtiksid kogu selle ulatuses.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_samesite_none_insecure": {
+    "message": "SameSite=None küpsised peavad olema Secure, muidu lükkab Chrome need tagasi. Lülita Secure sisse või vali muu SameSite."
+  },
+  "v_partitioned_insecure": {
+    "message": "Partitsioonitud küpsised peavad olema Secure, muidu lükkab Chrome need tagasi. Lülita Secure sisse või eemalda partitsioon."
+  },
+  "v_prefix_secure": {
+    "message": "Küpsised nimega „$P1$...” peavad olema Secure. Lülita Secure sisse või nimeta küpsis ümber.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_host_prefix_domain": {
+    "message": "Küpsised nimega „__Host-...” peavad olema ainult hosti jaoks (Domain-atribuuti pole, seega alamdomeenidega jagamist pole). Lülita ainult host sisse või nimeta küpsis ümber."
+  },
+  "v_host_prefix_path": {
+    "message": "Küpsistel nimega „__Host-...” peab asukoht olema „/”."
+  },
+  "v_bad_expiration": {
+    "message": "Aegumine peab olema lõplik arv sekundeid alates aastast 1970."
+  },
+  "v_expired_deletes": {
+    "message": "Minevikus aegumisega salvestamine kustutab selle küpsise."
+  },
+  "v_clamped": {
+    "message": "Chrome piirab küpsise eluea $P1$ päevaga; hilisem aegumine lühendatakse salvestamisel.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_expiration_missing": {
+    "message": "Mitte-seansiküpsis vajab aegumiskuupäeva. Vali see või märgi küpsis seansiküpsiseks."
+  },
+  "v_partition_type": {
+    "message": "Partitsioonivõti peab olema objekt, millel on topLevelSite."
+  },
+  "v_partition_site_type": {
+    "message": "Partitsiooni ülataseme sait peab olema tekst, nt https://example.com."
+  },
+  "v_partition_site_form": {
+    "message": "Partitsiooni ülataseme sait peab välja nägema nagu https://example.com (https, ilma asukoha ja pordita)."
+  },
+  "v_partition_flag": {
+    "message": "Partitsiooni hasCrossSiteAncestor peab olema tõene või väär."
+  },
+  "v_partition_cross_site": {
+    "message": "Küpsise domeen ei asu samal saidil kui $P1$, seega nõuab Chrome, et hasCrossSiteAncestor oleks selle jaoks tõene.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_other_site": {
+    "message": "Selle küpsise domeen ($P1$) jääb praegusest saidist ($P2$) välja.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_entry": {
+    "message": "Kirje $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_entry_named": {
+    "message": "Kirje $P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_bad_samesite": {
+    "message": "$P1$: sameSite ei ole ükski väärtustest no_restriction, lax, strict, unspecified.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bool": {
+    "message": "$P1$: „$P2$” peab olema tõene või väär.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_text": {
+    "message": "$P1$: „$P2$” peab olema tekst.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_not_object": {
+    "message": "$P1$ ei ole küpsiseobjekt.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_expiration_type": {
+    "message": "$P1$: „expirationDate” peab olema arv.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_key": {
+    "message": "$P1$: partitionKey peab olema objekt, millel on tekstiline topLevelSite.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_flag": {
+    "message": "$P1$: partitionKey.hasCrossSiteAncestor peab olema tõene või väär.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_line": {
+    "message": "Rida $P1$ ei ole cookies.txt kirje (oodati 7 tabulaatoriga eraldatud välja, leiti $P2$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_line_flag_subdomains": {
+    "message": "Rida $P1$: alamdomeenide lipp peab olema TRUE või FALSE.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_flag_secure": {
+    "message": "Rida $P1$: secure-lipp peab olema TRUE või FALSE.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_expiry": {
+    "message": "Rida $P1$: aegumine peab olema täisarv sekundeid.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_not_text": {
+    "message": "Faili ei õnnestunud tekstina lugeda."
+  },
+  "io_too_large": {
+    "message": "Fail on suurem kui impordi piir $P1$ baiti.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_json": {
+    "message": "Fail näeb välja nagu JSON, aga seda ei õnnestunud parsida."
+  },
+  "io_bad_version": {
+    "message": "Selle CookieDeski faili versiooni ei toetata."
+  },
+  "io_no_cookie_list": {
+    "message": "CookieDeski failis puudub „cookies” loend."
+  },
+  "io_unknown_format": {
+    "message": "See JSON ei ole ei CookieDeski eksport ega küpsiste loend."
+  },
+  "io_no_cookies": {
+    "message": "Fail ei sisalda küpsiseid."
+  },
+  "io_too_many": {
+    "message": "Failis on $P1$ küpsist; piir on $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_issue": {
+    "message": "$P1$: $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_duplicate": {
+    "message": "$P1$: teisel kirjel on sama nimi, domeen, asukoht ja partitsioon.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "when": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "when_passed": {
+    "message": "juba möödas"
+  },
+  "when_under_day": {
+    "message": "alla ööpäeva pärast"
+  },
+  "explain_third_party": {
+    "message": "Seadnud $P1$, mis on teine sait kui $P2$: kolmanda osapoole küpsis.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_third_party_partitioned": {
+    "message": "Seadnud $P1$, mis on teine sait kui $P2$: kolmanda osapoole küpsis, mida hoitakse saidi $P2$ partitsioonis.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_host_prefix": {
+    "message": "Eesliide __Host- paneb Chrome'i nõudma Secure'i, Domain-atribuudi puudumist ja Path=/, seega ükski alamdomeen ei saa seda seada ega asendada."
+  },
+  "explain_secure_prefix": {
+    "message": "Eesliide __Secure- paneb Chrome'i selle vastu võtma ainult Secure-lipuga."
+  },
+  "explain_scope_host": {
+    "message": "Saadetakse ainult saidile $P1$ endale, mitte selle alamdomeenidele.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_scope_domain": {
+    "message": "Saadetakse saidile $P1$ ja kõigile selle alamdomeenidele (nt www.$P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_path_all": {
+    "message": "Saadetakse päringutega kõigile selle hosti asukohtadele."
+  },
+  "explain_path_under": {
+    "message": "Saadetakse ainult päringutega asukohtadele, mis jäävad asukoha $P1$ alla.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_secure": {
+    "message": "Secure: saadetakse ainult HTTPS-i kaudu."
+  },
+  "explain_not_secure": {
+    "message": "Pole Secure: saadetakse ka tavalise HTTP kaudu, kus igaüks võrgus saab seda lugeda."
+  },
+  "explain_httponly": {
+    "message": "HttpOnly: lehe JavaScript ei näe seda (document.cookie ei saa seda lugeda), mis hoiab selle süstitud skriptide eest."
+  },
+  "explain_script_readable": {
+    "message": "Seda saab lugeda ja muuta iga lehel töötav skript."
+  },
+  "explain_samesite_none": {
+    "message": "SameSite=None: võidakse saata ka saitidevaheliste päringutega (põimitud raamid, pildid, teiste saitide päringud), kui Chrome üldse lubab kolmanda osapoole küpsiseid (inkognito blokeerib need vaikimisi). Seetõttu peab see olema Secure."
+  },
+  "explain_samesite_lax": {
+    "message": "SameSite=Lax: saadetakse, kui navigeerid saidile, ka teise saidi lingilt, aga mitte päringutega, mida teiste saitide lehed taustal teevad."
+  },
+  "explain_samesite_strict": {
+    "message": "SameSite=Strict: saadetakse ainult siis, kui oled juba samal saidil. Teise saidi lingilt saabudes läheb esimene päring ilma selleta."
+  },
+  "explain_samesite_unset": {
+    "message": "SameSite-atribuuti pole: Chrome käsitleb seda kui Lax'i."
+  },
+  "explain_session": {
+    "message": "Seansiküpsis: kustutatakse brauseri sulgemisel (kui Chrome ei taasta käivitamisel eelmist seanssi)."
+  },
+  "explain_expires": {
+    "message": "Aegub $P1$. Chrome piirab iga aegumise 400 päevaga küpsise viimasest seadmisest.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition": {
+    "message": "Partitsioonitud (CHIPS): salvestatakse eraldi iga ülataseme saidi jaoks. See koopia saadetakse ainult siis, kui aadressiribal on sait $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition_cross": {
+    "message": "See asub partitsiooni saitidevahelises osas (kasutatakse, kui lehe ja selle küpsise saidi vahel on mõni teine sait), mis on eraldatud sama saidi osast."
+  },
+  "explain_partition_same": {
+    "message": "See asub partitsiooni sama saidi osas, mis on eraldatud saitidevahelisest osast."
+  },
+  "explain_partition_other": {
+    "message": "Sama küpsise nimi teise saidi all on teine küpsis."
+  },
+  "explain_jwt": {
+    "message": "Väärtus näeb välja nagu JSON Web Token."
+  },
+  "explain_jwt_exp": {
+    "message": "Väärtus näeb välja nagu JSON Web Token; token ise ütleb, et see aegub $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_size": {
+    "message": "$P1$ neist 4096 baidist, mida Chrome nime ja väärtuse kokku lubab.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

@@ -2,6 +2,7 @@
 // name into fresh objects, nothing is merged or spread from parsed data, and
 // error messages may name the cookie but never echo its value.
 import { validateCookie, utf8Bytes } from './validate.js';
+import { t } from '../lib/i18n.js';
 
 export const EXPORT_WARNING = 'This file contains live session cookies. Anyone who has it can sign in as you on these sites. Treat it like a password and delete it when done.';
 
@@ -102,9 +103,9 @@ function label(index, name) {
   let n = '';
   if (typeof name === 'string') {
     n = name.length > 64 ? name.slice(0, 64) + '…' : name;
-    n = ` (${JSON.stringify(n)})`;
+    n = JSON.stringify(n);
   }
-  return `Entry ${index + 1}${n}`;
+  return n ? t('io_entry_named', index + 1, n) : t('io_entry', index + 1);
 }
 
 function normSameSite(v, index) {
@@ -114,25 +115,25 @@ function normSameSite(v, index) {
     if (l === 'no_restriction' || l === 'none') return 'no_restriction';
     if (l === 'lax' || l === 'strict' || l === 'unspecified') return l;
   }
-  throw new ImportError('bad_samesite', `Entry ${index + 1}: sameSite is not one of no_restriction, lax, strict, unspecified.`, index);
+  throw new ImportError('bad_samesite', t('io_bad_samesite', t('io_entry', index + 1)), index);
 }
 
 function bool(o, key, dflt, index) {
   const v = own(o, key);
   if (v === undefined) return dflt;
-  if (typeof v !== 'boolean') throw new ImportError('bad_type', `Entry ${index + 1}: "${key}" must be true or false.`, index);
+  if (typeof v !== 'boolean') throw new ImportError('bad_type', t('io_bool', t('io_entry', index + 1), key), index);
   return v;
 }
 
 function str(o, key, index, dflt) {
   const v = own(o, key);
   if (v === undefined && dflt !== undefined) return dflt;
-  if (typeof v !== 'string') throw new ImportError('bad_type', `Entry ${index + 1}: "${key}" must be text.`, index);
+  if (typeof v !== 'string') throw new ImportError('bad_type', t('io_text', t('io_entry', index + 1), key), index);
   return v;
 }
 
 function toDraft(entry, index) {
-  if (!isObj(entry)) throw new ImportError('bad_entry', `Entry ${index + 1} is not a cookie object.`, index);
+  if (!isObj(entry)) throw new ImportError('bad_entry', t('io_not_object', t('io_entry', index + 1)), index);
   const name = str(entry, 'name', index);
   const value = str(entry, 'value', index);
   let domain = str(entry, 'domain', index);
@@ -145,7 +146,7 @@ function toDraft(entry, index) {
   let exp = own(entry, 'expirationDate');
   if (exp === null) exp = undefined;
   if (exp !== undefined && (typeof exp !== 'number' || !Number.isFinite(exp))) {
-    throw new ImportError('bad_type', `${label(index, name)}: "expirationDate" must be a number.`, index);
+    throw new ImportError('bad_type', t('io_expiration_type', label(index, name)), index);
   }
   const session = bool(entry, 'session', !exp, index);
 
@@ -158,12 +159,12 @@ function toDraft(entry, index) {
   const pk = own(entry, 'partitionKey');
   if (pk !== undefined && pk !== null) {
     if (!isObj(pk) || typeof own(pk, 'topLevelSite') !== 'string') {
-      throw new ImportError('bad_partition_key', `${label(index, name)}: partitionKey must be an object with a text topLevelSite.`, index);
+      throw new ImportError('bad_partition_key', t('io_partition_key', label(index, name)), index);
     }
     draft.partitionKey = { topLevelSite: pk.topLevelSite };
     const h = own(pk, 'hasCrossSiteAncestor');
     if (h !== undefined) {
-      if (typeof h !== 'boolean') throw new ImportError('bad_partition_key', `${label(index, name)}: partitionKey.hasCrossSiteAncestor must be true or false.`, index);
+      if (typeof h !== 'boolean') throw new ImportError('bad_partition_key', t('io_partition_flag', label(index, name)), index);
       draft.partitionKey.hasCrossSiteAncestor = h;
     }
   }
@@ -186,21 +187,21 @@ function netscapeEntries(text) {
     const f = line.split('\t');
     // Some writers drop the trailing tab of an empty value.
     if (f.length < 6 || f.length > 7) {
-      throw new ImportError('bad_line', `Line ${i + 1} is not a cookies.txt entry (expected 7 tab-separated fields, found ${f.length}).`, entries.length);
+      throw new ImportError('bad_line', t('io_bad_line', i + 1, f.length), entries.length);
     }
     const [domain, sub, path, sec, expiry, name, value = ''] = f;
     const flag = (v, what) => {
-      if (v !== 'TRUE' && v !== 'FALSE') throw new ImportError('bad_line', `Line ${i + 1}: ${what} must be TRUE or FALSE.`, entries.length);
+      if (v !== 'TRUE' && v !== 'FALSE') throw new ImportError('bad_line', t(what, i + 1), entries.length);
       return v === 'TRUE';
     };
     if (!/^\d{1,15}$/.test(expiry)) {
-      throw new ImportError('bad_line', `Line ${i + 1}: the expiry must be a whole number of seconds.`, entries.length);
+      throw new ImportError('bad_line', t('io_line_expiry', i + 1), entries.length);
     }
     // A leading dot means Domain= whatever the flag says; some exporters disagree.
-    const hostOnly = !flag(sub, 'the subdomains flag') && !domain.startsWith('.');
+    const hostOnly = !flag(sub, 'io_line_flag_subdomains') && !domain.startsWith('.');
     const exp = Number(expiry);
     const e = {
-      name, value, domain, hostOnly, path, secure: flag(sec, 'the secure flag'), httpOnly,
+      name, value, domain, hostOnly, path, secure: flag(sec, 'io_line_flag_secure'), httpOnly,
       sameSite: 'unspecified', session: exp === 0,
     };
     if (exp !== 0) e.expirationDate = exp;
@@ -217,10 +218,10 @@ export function parseImport(text, ctx = {}) {
   const maxBytes = ctx.maxBytes ?? DEFAULT_MAX_BYTES;
   const maxCookies = ctx.maxCookies ?? DEFAULT_MAX_COOKIES;
   try {
-    if (typeof text !== 'string') throw new ImportError('not_text', 'The file could not be read as text.');
+    if (typeof text !== 'string') throw new ImportError('not_text', t('io_not_text'));
     // Cheap pre-check (length is a lower bound on bytes) so huge files never reach JSON.parse.
     if (text.length > maxBytes || utf8Bytes(text) > maxBytes) {
-      throw new ImportError('too_large', `The file is larger than the ${maxBytes}-byte import limit.`);
+      throw new ImportError('too_large', t('io_too_large', maxBytes));
     }
     if (text.charCodeAt(0) === 0xfeff) text = text.slice(1);
 
@@ -233,14 +234,14 @@ export function parseImport(text, ctx = {}) {
       try {
         data = JSON.parse(text);
       } catch {
-        throw new ImportError('bad_json', 'The file looks like JSON but could not be parsed.');
+        throw new ImportError('bad_json', t('io_bad_json'));
       }
       if (Array.isArray(data)) {
         source = 'array';
         entries = data;
       } else if (isObj(data) && own(data, 'format') === 'cookiedesk') {
-        if (own(data, 'version') !== 1) throw new ImportError('bad_version', 'This CookieDesk file has an unsupported version.');
-        if (!Array.isArray(own(data, 'cookies'))) throw new ImportError('bad_envelope', 'The CookieDesk file has no "cookies" list.');
+        if (own(data, 'version') !== 1) throw new ImportError('bad_version', t('io_bad_version'));
+        if (!Array.isArray(own(data, 'cookies'))) throw new ImportError('bad_envelope', t('io_no_cookie_list'));
         source = 'cookiedesk';
         entries = data.cookies;
         // Display-only labels: plain strings, length-capped, never trusted for anything else.
@@ -249,16 +250,16 @@ export function parseImport(text, ctx = {}) {
           if (typeof v === 'string' && v.length <= 200) meta[k] = v;
         }
       } else {
-        throw new ImportError('unknown_format', 'This JSON is neither a CookieDesk export nor a list of cookies.');
+        throw new ImportError('unknown_format', t('io_unknown_format'));
       }
     } else {
       source = 'netscape';
       entries = netscapeEntries(text);
     }
 
-    if (entries.length === 0) throw new ImportError('no_cookies', 'The file contains no cookies.');
+    if (entries.length === 0) throw new ImportError('no_cookies', t('io_no_cookies'));
     if (entries.length > maxCookies) {
-      throw new ImportError('too_many', `The file has ${entries.length} cookies; the limit is ${maxCookies}.`);
+      throw new ImportError('too_many', t('io_too_many', entries.length, maxCookies));
     }
 
     const drafts = [];
@@ -270,13 +271,13 @@ export function parseImport(text, ctx = {}) {
       const d = toDraft(entries[i], i);
       const { errors, warnings: w } = validateCookie(d, vctx);
       if (errors.length) {
-        throw new ImportError(errors[0].code, `${label(i, d.name)}: ${errors[0].message}`, i);
+        throw new ImportError(errors[0].code, t('io_issue', label(i, d.name), errors[0].message), i);
       }
-      for (const x of w) warnings.push(`${label(i, d.name)}: ${x.message}`);
+      for (const x of w) warnings.push(t('io_issue', label(i, d.name), x.message));
       // Chrome stores domains lowercased, so A.test and a.test name the same cookie.
       const key = [d.name, d.domain.toLowerCase(), d.path, partitionId(d.partitionKey)].join('\u0000');
       if (seen.has(key)) {
-        throw new ImportError('duplicate', `${label(i, d.name)}: another entry has the same name, domain, path and partition.`, i);
+        throw new ImportError('duplicate', t('io_duplicate', label(i, d.name)), i);
       }
       seen.add(key);
       domains.add(d.domain.replace(/^\./, ''));
@@ -289,6 +290,6 @@ export function parseImport(text, ctx = {}) {
       if (e.index !== undefined) error.index = e.index;
       return { ok: false, error };
     }
-    return { ok: false, error: { code: 'bad_file', message: 'The file could not be read.' } };
+    return { ok: false, error: { code: 'bad_file', message: t('file_unreadable') } };
   }
 }

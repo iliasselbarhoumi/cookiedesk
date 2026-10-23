@@ -1,0 +1,2215 @@
+{
+  "extension_name": {
+    "message": "Cookie エディタ：Cookie の表示・編集・削除 | CookieDesk"
+  },
+  "extension_description": {
+    "message": "サイトごとに Cookie を表示・編集・追加・削除。検索、インポート/エクスポート、パーティション Cookie 対応。広告なし、トラッキングなし。"
+  },
+  "btn_ok": {
+    "message": "OK"
+  },
+  "btn_cancel": {
+    "message": "キャンセル"
+  },
+  "btn_close": {
+    "message": "閉じる"
+  },
+  "btn_delete": {
+    "message": "削除"
+  },
+  "btn_copy": {
+    "message": "コピー"
+  },
+  "btn_save": {
+    "message": "保存"
+  },
+  "btn_export": {
+    "message": "エクスポート"
+  },
+  "btn_later": {
+    "message": "後で"
+  },
+  "dismiss": {
+    "message": "閉じる"
+  },
+  "back": {
+    "message": "戻る"
+  },
+  "back_esc": {
+    "message": "戻る (Esc)"
+  },
+  "back_to_list": {
+    "message": "一覧に戻る"
+  },
+  "title_count": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "empty_name": {
+    "message": "(名前なし)"
+  },
+  "empty_value": {
+    "message": "(値なし)"
+  },
+  "empty_short": {
+    "message": "(空)"
+  },
+  "names_more": {
+    "message": "$P1$ ほか $P2$ 件",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "done": {
+    "message": "完了"
+  },
+  "undo": {
+    "message": "元に戻す"
+  },
+  "undo_nothing": {
+    "message": "元に戻す操作はありません"
+  },
+  "undo_entry": {
+    "message": "元に戻す: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_interrupted": {
+    "message": "元に戻す操作が中断されました: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "redo_entry": {
+    "message": "やり直す: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "support_title": {
+    "message": "Ko-fi で CookieDesk を応援"
+  },
+  "supporter_title": {
+    "message": "CookieDesk を応援していただきありがとうございます!"
+  },
+  "add_cookie": {
+    "message": "Cookie を追加"
+  },
+  "add_cookie_title": {
+    "message": "Cookie を追加 (n)"
+  },
+  "more_actions": {
+    "message": "その他の操作"
+  },
+  "menu_group_transfer": {
+    "message": "エクスポートとインポート"
+  },
+  "menu_group_sets": {
+    "message": "Cookie セット"
+  },
+  "export_json_title": {
+    "message": "JSON でエクスポート"
+  },
+  "export_txt_title": {
+    "message": "Netscape cookies.txt でエクスポート"
+  },
+  "tile_snippet": {
+    "message": "スニペット"
+  },
+  "tile_snippet_title": {
+    "message": "document.cookie スニペットとしてコピー"
+  },
+  "tile_import": {
+    "message": "インポート"
+  },
+  "tile_import_title": {
+    "message": "JSON または cookies.txt をインポート"
+  },
+  "tile_save_set": {
+    "message": "セットを保存"
+  },
+  "tile_save_set_title": {
+    "message": "この Cookie を名前付きのセットファイルとして保存"
+  },
+  "tile_restore": {
+    "message": "復元"
+  },
+  "tile_restore_title": {
+    "message": "保存したセットを復元 (先にプレビュー)"
+  },
+  "tile_compare": {
+    "message": "比較"
+  },
+  "tile_compare_title": {
+    "message": "保存したセットと現在、または 2 つのセットを比較"
+  },
+  "tile_copy_to": {
+    "message": "コピー先…"
+  },
+  "tile_copy_to_title": {
+    "message": "表示中の Cookie を別のストアにコピー (通常 ↔ シークレット)"
+  },
+  "menu_bulk_delete": {
+    "message": "表示中の Cookie を削除…"
+  },
+  "menu_access": {
+    "message": "アクセスと設定"
+  },
+  "menu_shortcuts": {
+    "message": "ショートカット"
+  },
+  "menu_sidepanel": {
+    "message": "サイドパネルで開く"
+  },
+  "menu_rate": {
+    "message": "CookieDesk を評価"
+  },
+  "menu_support": {
+    "message": "Ko-fi で応援"
+  },
+  "search_placeholder": {
+    "message": "Cookie を検索"
+  },
+  "search_label": {
+    "message": "名前、値、ドメインで Cookie を絞り込む"
+  },
+  "search_title": {
+    "message": "名前、値、ドメインで絞り込む"
+  },
+  "cookie_store": {
+    "message": "Cookie ストア"
+  },
+  "cookies_list": {
+    "message": "Cookie"
+  },
+  "restricted_page": {
+    "message": "制限されたページ"
+  },
+  "loading": {
+    "message": "読み込み中…"
+  },
+  "state_unknown": {
+    "message": "ツールバーの CookieDesk ボタンをクリックすると、このタブの Cookie が表示されます。"
+  },
+  "state_unknown_hint": {
+    "message": "Chrome がタブのアドレスを共有するのは、そのクリックの後か、許可したサイトの場合だけです。"
+  },
+  "state_error": {
+    "message": "問題が発生しました: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "state_no_access": {
+    "message": "CookieDesk はまだ $P1$ にアクセスできません。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "grant_site": {
+    "message": "$P1$ で許可",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "chrome_will_ask": {
+    "message": "Chrome の確認内容:"
+  },
+  "prompt_site": {
+    "message": "$P1$ のすべてのサイト上のデータの読み取りと変更",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "prompt_all": {
+    "message": "すべてのウェブサイト上のすべてのデータの読み取りと変更"
+  },
+  "only_this_site": {
+    "message": "このサイトの Cookie だけで、他には何も見ません。"
+  },
+  "allow_all_instead": {
+    "message": "代わりにすべてのサイトを許可"
+  },
+  "restricted_browser": {
+    "message": "これは Chrome のページです。Chrome では、拡張機能がここの Cookie を読み取ったり変更したりすることはできません。"
+  },
+  "restricted_webstore": {
+    "message": "これは Chrome Web Store です。Chrome はここですべての拡張機能をブロックするため、Cookie を表示できません。"
+  },
+  "restricted_extension": {
+    "message": "これは拡張機能自身のページです。そのストレージはウェブサイトの Cookie ではないため、表示するものはありません。"
+  },
+  "restricted_file": {
+    "message": "これはローカルファイルです。ディスクから開いたファイルには Cookie がありません。"
+  },
+  "restricted_other": {
+    "message": "このページはウェブサイトではない (空白ページや data: ページなど) ため、Cookie がありません。"
+  },
+  "live_just_now": {
+    "message": "たった今: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "note_third_party": {
+    "message": "埋め込みサイトの Cookie は、許可したサイトの分だけ表示されます。"
+  },
+  "note_no_partitions": {
+    "message": "お使いの Chrome ではパーティション Cookie を表示できないため、この一覧は不完全な場合があります。"
+  },
+  "empty_no_match": {
+    "message": "「$P1$」に一致する Cookie はありません。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "empty_none": {
+    "message": "$P1$ の Cookie はありません。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clear_search": {
+    "message": "検索をクリア"
+  },
+  "change_changed": {
+    "message": "$P1$ を変更しました",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_added": {
+    "message": "$P1$ を追加しました",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_removed": {
+    "message": "$P1$ を削除しました",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_one": {
+    "message": "Cookie $P1$ 件",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_other": {
+    "message": "Cookie $P1$ 件",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_filtered_one": {
+    "message": "Cookie $P1$ 件中 $P2$ 件",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_filtered_other": {
+    "message": "Cookie $P1$ 件中 $P2$ 件",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_partitioned": {
+    "message": "パーティション $P1$ 件",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "store_default": {
+    "message": "デフォルト"
+  },
+  "store_incognito": {
+    "message": "シークレット"
+  },
+  "store_n": {
+    "message": "ストア $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "session": {
+    "message": "セッション"
+  },
+  "expired": {
+    "message": "期限切れ"
+  },
+  "expiry_under_minute": {
+    "message": "1 分以内"
+  },
+  "expiry_on_close": {
+    "message": "ブラウザを閉じると削除されます"
+  },
+  "expires_at": {
+    "message": "有効期限 $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "badge_protected": {
+    "message": "保護中: 一括削除、インポート、セット復元の対象外です (p)"
+  },
+  "hint_httponly": {
+    "message": "HttpOnly: ページの JavaScript から見えません (document.cookie では読み取れません)"
+  },
+  "hint_secure": {
+    "message": "Secure: HTTPS でのみ送信されます"
+  },
+  "hint_samesite_none": {
+    "message": "SameSite=None: クロスサイトのリクエストでも送信されます"
+  },
+  "hint_samesite_lax": {
+    "message": "SameSite=Lax: トップレベルのナビゲーションでは送信され、クロスサイトのサブリクエストでは送信されません"
+  },
+  "hint_samesite_strict": {
+    "message": "SameSite=Strict: 同一サイトのリクエストでのみ送信されます"
+  },
+  "badge_partitioned": {
+    "message": "パーティション"
+  },
+  "partitioned_under": {
+    "message": "$P1$ のパーティション",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partition_this_site": {
+    "message": "このサイト"
+  },
+  "partition_cross_site": {
+    "message": "$P1$、クロスサイトのコンテキスト",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "row_protected": {
+    "message": "保護中"
+  },
+  "row_unprotect_title": {
+    "message": "保護を解除 (p)"
+  },
+  "row_protect_title": {
+    "message": "一括削除、インポート、セット復元から保護 (p)"
+  },
+  "copy_value": {
+    "message": "値をコピー"
+  },
+  "copied": {
+    "message": "コピーしました"
+  },
+  "copy_value_title": {
+    "message": "値をコピー (c)"
+  },
+  "row_delete_title": {
+    "message": "削除 (Del) — 元に戻せます"
+  },
+  "irreversible_title": {
+    "message": "この操作は元に戻せません"
+  },
+  "continue_no_undo": {
+    "message": "元に戻せないまま続ける"
+  },
+  "undo_anyway_title": {
+    "message": "それでも元に戻しますか?"
+  },
+  "undo_anyway": {
+    "message": "それでも元に戻す"
+  },
+  "undone": {
+    "message": "元に戻しました: $P1$。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_skipped": {
+    "message": "期限切れだった一部の Cookie は復元されませんでした: $P1$。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_refused": {
+    "message": "Chrome が元の形のままでは受け付けなくなったため、復元されませんでした: $P1$。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clipboard_failed": {
+    "message": "コピーできませんでした: ここではクリップボードを使えません。"
+  },
+  "protected_on": {
+    "message": "「$P1$」を保護しました。一括削除、インポート、セット復元の対象外になります。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_off": {
+    "message": "「$P1$」の保護を解除しました。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protect_limit": {
+    "message": "保護できる Cookie は最大 $P1$ 件です。先にいくつか保護を解除してください。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_named": {
+    "message": "「$P1$」を削除しますか?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_protected_message": {
+    "message": "この Cookie は保護されています。それでも削除しますか? 元に戻せます。"
+  },
+  "nothing_to_delete": {
+    "message": "削除するものはありません"
+  },
+  "all_shown_protected_one": {
+    "message": "表示中の Cookie は保護されています。"
+  },
+  "all_shown_protected_other": {
+    "message": "表示中の $P1$ 件の Cookie はすべて保護されています。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "no_cookies_shown": {
+    "message": "表示中の Cookie はありません。"
+  },
+  "bulk_title_one": {
+    "message": "Cookie $P1$ 件を削除しますか?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_title_other": {
+    "message": "Cookie $P1$ 件を削除しますか?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_match": {
+    "message": "$P2$ で「$P1$」に一致する Cookie です。元に戻せます。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "bulk_all": {
+    "message": "$P1$ の一覧にあるすべての Cookie です。元に戻せます。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_one": {
+    "message": "保護中の Cookie $P1$ 件は残ります。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_other": {
+    "message": "保護中の Cookie $P1$ 件は残ります。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_one": {
+    "message": "Cookie $P1$ 件を削除",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_other": {
+    "message": "Cookie $P1$ 件を削除",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_to": {
+    "message": "コピー先"
+  },
+  "copy_to_default_note": {
+    "message": "デフォルトのストアにコピーした Cookie は、他の Cookie と同様にディスクに保存され、このシークレットセッションが終わった後も残ります。"
+  },
+  "copy_to_incognito_note": {
+    "message": "シークレットのストアにコピーした Cookie は、そのシークレットセッションの終了とともに消えます。"
+  },
+  "copy_title_one": {
+    "message": "Cookie $P1$ 件をコピー",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_title_other": {
+    "message": "Cookie $P1$ 件をコピー",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_from": {
+    "message": "$P1$ ストアからコピー先:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_replace_note": {
+    "message": "コピー先にある同じ名前・ドメイン・パスの Cookie は置き換えられます。保護中のものは除きます。コピーは元に戻せます。"
+  },
+  "label_copied_one": {
+    "message": "Cookie $P1$ 件を $P2$ にコピーしました",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_copied_other": {
+    "message": "Cookie $P1$ 件を $P2$ にコピーしました",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_kept_one": {
+    "message": "コピー先の保護中の Cookie $P1$ 件はそのままです。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_kept_other": {
+    "message": "コピー先の保護中の Cookie $P1$ 件はそのままです。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_done_one": {
+    "message": "Cookie $P1$ 件を $P2$ にコピーしました。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_done_other": {
+    "message": "Cookie $P1$ 件を $P2$ にコピーしました。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_undo_hint": {
+    "message": "ここで、または後で $P1$ ストアから元に戻せます。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_nothing": {
+    "message": "$P1$ には、すでにこれらの Cookie がまったく同じ内容であります。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_cant": {
+    "message": "比較できません"
+  },
+  "compare_now": {
+    "message": "現在の $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_other_site": {
+    "message": "このセットは $P2$ ではなく $P1$ 用に保存されたものです。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "compare_too_many": {
+    "message": "現在と比較するセットを 1 つ、またはセット同士を比較するために 2 つ選んでください。"
+  },
+  "set_file_too_large": {
+    "message": "$P1$ は Cookie セットとしては大きすぎます。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_aria": {
+    "message": "Cookie セットを比較"
+  },
+  "compare_changed_fields": {
+    "message": "変更: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_one": {
+    "message": "差分なし: Cookie $P1$ 件は同一です。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_other": {
+    "message": "差分なし: Cookie $P1$ 件は同一です。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_summary": {
+    "message": "追加 $P1$、削除 $P2$、変更 $P3$、変更なし $P4$。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      },
+      "p4": {
+        "content": "$4"
+      }
+    }
+  },
+  "diff_added": {
+    "message": "追加"
+  },
+  "diff_removed": {
+    "message": "削除"
+  },
+  "diff_changed": {
+    "message": "変更"
+  },
+  "diff_expiry_only": {
+    "message": "有効期限のみ変更 ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "shortcuts_title": {
+    "message": "キーボードショートカット"
+  },
+  "key_search": {
+    "message": "検索"
+  },
+  "key_move": {
+    "message": "一覧を移動"
+  },
+  "key_first_last": {
+    "message": "最初 / 最後の Cookie"
+  },
+  "key_edit": {
+    "message": "編集"
+  },
+  "key_copy": {
+    "message": "値をコピー"
+  },
+  "key_protect": {
+    "message": "保護 / 保護を解除"
+  },
+  "key_delete": {
+    "message": "削除 (元に戻せます)"
+  },
+  "key_back": {
+    "message": "戻る、または検索をクリア"
+  },
+  "key_help": {
+    "message": "この一覧"
+  },
+  "import_kept_one": {
+    "message": "保護中の Cookie $P1$ 件はそのままです: $P2$。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_kept_other": {
+    "message": "保護中の Cookie $P1$ 件はそのままです: $P2$。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_nothing": {
+    "message": "インポートするものはありません。ファイル内の Cookie はすべて、すでに同じ内容で設定されています。"
+  },
+  "imported_one": {
+    "message": "Cookie $P1$ 件をインポートしました。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "imported_other": {
+    "message": "Cookie $P1$ 件をインポートしました。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_restored": {
+    "message": "セット「$P1$」を復元しました",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restored_one": {
+    "message": "「$P2$」を復元しました: Cookie $P1$ 件を書き込み、$P3$ 件を削除。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "restored_other": {
+    "message": "「$P2$」を復元しました: Cookie $P1$ 件を書き込み、$P3$ 件を削除。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "rate_title": {
+    "message": "CookieDesk は気に入りましたか?"
+  },
+  "rate_text": {
+    "message": "簡単な評価が、他の人が見つける助けになります。"
+  },
+  "rate_group": {
+    "message": "ストアで評価"
+  },
+  "rate_stars_one": {
+    "message": "星 $P1$ つ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "rate_stars_other": {
+    "message": "星 $P1$ つ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_confirm_title": {
+    "message": "コーヒーをごちそうしてくれましたか?"
+  },
+  "kofi_confirm_text": {
+    "message": "ありがとうございます。CookieDesk を続けられるのはそのおかげです。"
+  },
+  "kofi_yes": {
+    "message": "はい、しました"
+  },
+  "kofi_not_yet": {
+    "message": "まだです"
+  },
+  "kofi_milestone_one": {
+    "message": "CookieDesk で $P1$ 回変更しました!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_milestone_other": {
+    "message": "CookieDesk で $P1$ 回変更しました!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_free": {
+    "message": "無料で、個人の開発者が作っています。"
+  },
+  "buy_coffee": {
+    "message": "コーヒーをごちそうする"
+  },
+  "edit_cookie": {
+    "message": "Cookie を編集"
+  },
+  "add_cookie_short": {
+    "message": "Cookie を追加"
+  },
+  "explain_title": {
+    "message": "この Cookie の役割"
+  },
+  "field_name": {
+    "message": "名前"
+  },
+  "field_value": {
+    "message": "値"
+  },
+  "field_domain": {
+    "message": "ドメイン"
+  },
+  "field_path": {
+    "message": "パス"
+  },
+  "field_expiry": {
+    "message": "有効期限"
+  },
+  "field_expires": {
+    "message": "有効期限"
+  },
+  "field_attributes": {
+    "message": "属性"
+  },
+  "field_partition": {
+    "message": "パーティション"
+  },
+  "host_only": {
+    "message": "ホスト限定"
+  },
+  "host_only_title": {
+    "message": "ホスト限定: Domain 属性がないため、サブドメインには送られません"
+  },
+  "session_title": {
+    "message": "セッション Cookie: ブラウザを閉じると消えます"
+  },
+  "httponly_title": {
+    "message": "HttpOnly: ページの JavaScript から見えません"
+  },
+  "samesite_unspecified": {
+    "message": "未指定"
+  },
+  "partitioned_chips": {
+    "message": "パーティション (CHIPS)"
+  },
+  "top_level_site": {
+    "message": "トップレベルサイト"
+  },
+  "no_partition_write": {
+    "message": "この Chrome のバージョンでは、パーティション Cookie を書き込めません。"
+  },
+  "editor_delete_title": {
+    "message": "削除 (元に戻せます)"
+  },
+  "bytes_of": {
+    "message": "$P1$ / $P2$ バイト",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "access_aria": {
+    "message": "アクセスと設定"
+  },
+  "all_sites_on": {
+    "message": "すべてのサイト: オン"
+  },
+  "all_sites_on_text": {
+    "message": "CookieDesk は、埋め込みサイトを含むすべてのサイトの Cookie を読み取り、変更できます。"
+  },
+  "turn_off": {
+    "message": "オフにする"
+  },
+  "all_sites": {
+    "message": "すべてのサイト"
+  },
+  "all_sites_text": {
+    "message": "任意です。サイトごとの確認がなくなり、埋め込みサイト (広告、ウィジェット、ログイン用フレーム) の Cookie がどこでも表示されます。"
+  },
+  "allow_all_sites": {
+    "message": "すべてのサイトで許可"
+  },
+  "remove_access": {
+    "message": "$P1$ へのアクセスを削除",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "access_lead": {
+    "message": "CookieDesk が見るのは、許可したサイトの Cookie だけです。ページの内容も履歴も見ません。"
+  },
+  "allowed_sites": {
+    "message": "許可したサイト"
+  },
+  "allowed_sites_count": {
+    "message": "許可したサイト · $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "all_sites_overrides": {
+    "message": "すべてのサイトへのアクセスがオンのため、オンの間はこの設定は影響しません。"
+  },
+  "none_yet": {
+    "message": "まだありません。"
+  },
+  "toolbar_opens": {
+    "message": "ツールバーボタンで開くもの"
+  },
+  "surface_popup": {
+    "message": "ポップアップ"
+  },
+  "surface_sidepanel": {
+    "message": "サイドパネル"
+  },
+  "support_feedback": {
+    "message": "応援とフィードバック"
+  },
+  "thanks_supporting": {
+    "message": "応援ありがとうございます!"
+  },
+  "report_problem": {
+    "message": "問題を報告"
+  },
+  "source_code": {
+    "message": "ソースコード"
+  },
+  "privacy_line": {
+    "message": "ネットワークリクエストはなく、Cookie の値をディスクに保存しません。元に戻す操作は 10 分間有効で、そのコピーはメモリ上にあり、Chrome を閉じるかシークレットセッションが終わると消えます。"
+  },
+  "export_warning": {
+    "message": "このファイルには有効なセッション Cookie が含まれています。持っている人は誰でも、これらのサイトであなたとしてログインできます。パスワードと同じように扱い、使い終わったら削除してください。"
+  },
+  "export_json_one": {
+    "message": "Cookie $P1$ 件を JSON でエクスポート",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_json_other": {
+    "message": "Cookie $P1$ 件を JSON でエクスポート",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_one": {
+    "message": "Cookie $P1$ 件を cookies.txt でエクスポート",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_other": {
+    "message": "Cookie $P1$ 件を cookies.txt でエクスポート",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_all_one": {
+    "message": "$P2$ の一覧にある Cookie は、HttpOnly でもファイルに含まれます。",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_all_other": {
+    "message": "$P2$ の一覧にある $P1$ 件すべての Cookie が、HttpOnly のものも含めてファイルに入ります。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_partitioned_left_one": {
+    "message": "パーティション Cookie $P1$ 件を除外しました。cookies.txt にはパーティションを記録できません。残すには JSON を使ってください。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_partitioned_left_other": {
+    "message": "パーティション Cookie $P1$ 件を除外しました。cookies.txt にはパーティションを記録できません。残すには JSON を使ってください。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_too_big": {
+    "message": "このファイルは $P1$ MB です。Cookie のエクスポートファイルははるかに小さく、CookieDesk は最大 5 MB まで読み込めます。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "cant_import_unchanged": {
+    "message": "このファイルをインポートできません。何も変更されていません。"
+  },
+  "cant_import": {
+    "message": "このファイルをインポートできません"
+  },
+  "file_unreadable": {
+    "message": "ファイルを読み取れませんでした。"
+  },
+  "needs_access_one": {
+    "message": "これらの Cookie を書き込むには、CookieDesk があと $P1$ サイトへのアクセスを必要とします:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "needs_access_other": {
+    "message": "これらの Cookie を書き込むには、CookieDesk があと $P1$ サイトへのアクセスを必要とします:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_allow_all_hint": {
+    "message": "または、「アクセスと設定」ですべてのサイトを許可してください。"
+  },
+  "other_sites": {
+    "message": "その他のサイト ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "other_sites_warning": {
+    "message": "このファイルは $P1$ 以外のサイトの Cookie も書き込みます。他のサイトに仕込まれた Cookie により、そこで別のアカウントにログインしてしまうことがあります。これらのサイトが想定どおりの場合のみ続けてください。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_one": {
+    "message": "他のサイト $P1$ 件の Cookie も書き込む",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_other": {
+    "message": "他のサイト $P1$ 件の Cookie も書き込む",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partitioned_under_list": {
+    "message": "パーティション先: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "warnings_count": {
+    "message": "警告 ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_title": {
+    "message": "Cookie をインポート"
+  },
+  "import_message_one": {
+    "message": "Cookie $P1$ 件をインポートしますか? 同じ名前・ドメイン・パスの Cookie は置き換えられます。インポート全体を元に戻せます。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_message_other": {
+    "message": "Cookie $P1$ 件をインポートしますか? 同じ名前・ドメイン・パスの Cookie は置き換えられます。インポート全体を元に戻せます。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_one": {
+    "message": "Cookie $P1$ 件を document.cookie としてコピー",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_other": {
+    "message": "Cookie $P1$ 件を document.cookie としてコピー",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_warning": {
+    "message": "このスニペットには有効なセッション Cookie が含まれています。持っている人は誰でも、このサイトであなたとしてログインできます。パスワードと同じように扱ってください。"
+  },
+  "snippet_paste": {
+    "message": "$P1$ の DevTools コンソールに貼り付けると、そこにこれらの Cookie を設定できます。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_one": {
+    "message": "HttpOnly の Cookie $P1$ 件を除外しました。ページの JavaScript では設定できません。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_other": {
+    "message": "HttpOnly の Cookie $P1$ 件を除外しました。ページの JavaScript では設定できません。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_one": {
+    "message": "Cookie $P1$ 件を document.cookie としてコピーしました。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_other": {
+    "message": "Cookie $P1$ 件を document.cookie としてコピーしました。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_name": {
+    "message": "セット名"
+  },
+  "set_name_placeholder": {
+    "message": "例: 管理者としてログイン中"
+  },
+  "save_set_title_one": {
+    "message": "Cookie $P1$ 件をセットとして保存",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "save_set_title_other": {
+    "message": "Cookie $P1$ 件をセットとして保存",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_file_note": {
+    "message": "セットはお使いのコンピュータ上のファイルで、CookieDesk はコピーを保持しません。後で $P1$ のメニューから復元できます。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "default_set_name": {
+    "message": "Cookie セット"
+  },
+  "set_too_large": {
+    "message": "このファイルは Cookie セットとしては大きすぎます。"
+  },
+  "cant_restore_unchanged": {
+    "message": "このセットを復元できません。何も変更されていません。"
+  },
+  "cant_restore": {
+    "message": "このセットを復元できません"
+  },
+  "wrong_site_message": {
+    "message": "このセットは $P1$ 用に保存されたものです。$P1$ を開いて、そこで復元してください。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "wrong_site_title": {
+    "message": "サイトが違います。何も変更されていません。"
+  },
+  "foreign_cookies_one": {
+    "message": "このファイル内の Cookie $P1$ 件は別のサイト ($P2$) のものです。セットの復元で変更されるのは $P3$ のみです。他のサイトにはインポートを使ってください。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "foreign_cookies_other": {
+    "message": "このファイル内の Cookie $P1$ 件は別のサイト ($P2$) のものです。セットの復元で変更されるのは $P3$ のみです。他のサイトにはインポートを使ってください。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "plan_write": {
+    "message": "書き込み"
+  },
+  "plan_delete": {
+    "message": "削除"
+  },
+  "plan_protected": {
+    "message": "保護中、そのまま"
+  },
+  "restore_title": {
+    "message": "「$P1$」を復元",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_nothing": {
+    "message": "$P1$ はすでにこのセットと一致しています。変更するものはありません。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_message_one": {
+    "message": "$P2$ の Cookie は、このセットの Cookie $P1$ 件に置き換えられます。復元全体を元に戻せます。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "restore_message_other": {
+    "message": "$P2$ の Cookie は、このセットの Cookie $P1$ 件に置き換えられます。復元全体を元に戻せます。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_partition_unsupported": {
+    "message": "「$P1$」はパーティション Cookie で、この Chrome のバージョンでは書き込めません。Chrome を 119 以降に更新してください。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_gone": {
+    "message": "「$P1$」はもう存在しません。期限切れか、サイトによって変更された可能性があります。一覧を再読み込みしてください。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_stored": {
+    "message": "Chrome は「$P1$」を受け付けましたが、保存しませんでした。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_imprecise_delete_one": {
+    "message": "Chrome では、「$P2$」を同じ名前の他の Cookie $P1$ 件と一緒にしか削除できないため、CookieDesk は削除しません。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_imprecise_delete_other": {
+    "message": "Chrome では、「$P2$」を同じ名前の他の Cookie $P1$ 件と一緒にしか削除できないため、CookieDesk は削除しません。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_delete": {
+    "message": "Chrome が「$P1$」を現在の保存形式のままでは受け付けなくなったため、削除すると元に戻せません。元に戻せないまま削除しますか?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_removed": {
+    "message": "「$P1$」を削除できませんでした。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_no_permission": {
+    "message": "CookieDesk は $P1$ にアクセスできません。先にこのサイトへのアクセスを許可してください。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_secure_shadow": {
+    "message": "「$P1$」という Secure Cookie が $P2$ にすでにあります。Chrome は、同じ名前の Secure でない Cookie がそれを置き換えたり、並んで存在したりすることを許可しません。Secure をオンにするか、別の名前を使ってください。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_rejected": {
+    "message": "Chrome は理由を示さずに「$P1$」を拒否しました。何も変更されていません。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_irreversible_replace_one": {
+    "message": "Chrome が $P2$ を現在の保存形式のままでは受け付けなくなったため、置き換えると元に戻せません。これについては元に戻せないまま続けますか?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_replace_other": {
+    "message": "Chrome が $P2$ を現在の保存形式のままでは受け付けなくなったため、置き換えると元に戻せません。これらについては元に戻せないまま続けますか?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_too_large_to_undo": {
+    "message": "この変更はデータ量が多すぎて ($P1$ KB)、元に戻すためのコピーを保持できません。元に戻せないまま続けますか?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_duplicate_in_file": {
+    "message": "ファイルに、同じドメインとパスの「$P1$」が 2 回含まれています。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_undo_expired": {
+    "message": "元に戻す操作はありません。元に戻せるのは 10 分間です。"
+  },
+  "err_undo_conflict": {
+    "message": "$P1$ は「$P2$」の後に変更されました。今元に戻すと、新しい値が上書きされます。それでも元に戻しますか?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_incomplete": {
+    "message": "未完了: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_added": {
+    "message": "「$P1$」を追加",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_edited": {
+    "message": "「$P1$」を編集",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted": {
+    "message": "「$P1$」を削除",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_expired": {
+    "message": "「$P1$」を削除 (有効期限が過去)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_one": {
+    "message": "Cookie $P1$ 件を削除",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_other": {
+    "message": "Cookie $P1$ 件を削除",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_one": {
+    "message": "Cookie $P1$ 件をインポート",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_other": {
+    "message": "Cookie $P1$ 件をインポート",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_undid": {
+    "message": "元に戻しました: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_saved": {
+    "message": "「$P1$」を保存",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_draft": {
+    "message": "Cookie は name、value、domain、path を持つオブジェクトである必要があります。"
+  },
+  "v_name_type": {
+    "message": "Cookie の名前はテキストである必要があります。"
+  },
+  "v_value_type": {
+    "message": "Cookie の値はテキストである必要があります。"
+  },
+  "v_domain_type": {
+    "message": "ドメインはテキストである必要があります。"
+  },
+  "v_path_type": {
+    "message": "パスはテキストである必要があります。"
+  },
+  "v_flag_type": {
+    "message": "$P1$ は true または false である必要があります。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_samesite": {
+    "message": "SameSite は $P1$ のいずれかである必要があります。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_name_control": {
+    "message": "名前に制御文字 (改行やタブなど) が含まれています。Cookie には使えません。"
+  },
+  "v_name_semicolon": {
+    "message": "名前に「;」が含まれています。Cookie が途中で終わってしまいます。"
+  },
+  "v_name_equals": {
+    "message": "名前に「=」が含まれています。Cookie では名前と値を区切る文字です。"
+  },
+  "v_value_control": {
+    "message": "値に制御文字 (改行やタブなど) が含まれています。Cookie には使えません。"
+  },
+  "v_value_semicolon": {
+    "message": "値に「;」が含まれています。Cookie が途中で終わってしまいます。エンコードしてください (例: encodeURIComponent)。"
+  },
+  "v_empty_cookie": {
+    "message": "Cookie には名前か値が必要です。どちらも空です。"
+  },
+  "v_empty_name": {
+    "message": "この Cookie は名前が空です。名前のない Cookie をうまく扱えないサイトやツールがあります。"
+  },
+  "v_too_large": {
+    "message": "名前と値の合計は $P1$ バイト (UTF-8) です。Chrome が許可するのは最大 $P2$ バイトです。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "v_path_slash": {
+    "message": "パスは「/」で始まる必要があります。"
+  },
+  "v_path_too_long": {
+    "message": "パスが $P1$ バイトを超えています。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_path_chars": {
+    "message": "パスに制御文字または「;」が含まれています。Cookie には使えません。"
+  },
+  "v_domain_empty": {
+    "message": "ドメインが空です。Cookie が属するサイト (例: example.com) を入力してください。"
+  },
+  "v_domain_too_long": {
+    "message": "ドメインが $P1$ バイトを超えています。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_domain_invalid": {
+    "message": "ドメインが有効なホスト名ではありません。ドットで区切った英字、数字、ハイフンを使ってください (国際化ドメイン名は xn--... のような punycode にする必要があります)。"
+  },
+  "v_domain_leading_dot": {
+    "message": "ホスト限定の Cookie では、ドメインの先頭にドットを付けられません。ドットは、その Cookie がサブドメインにも適用されることを意味します。"
+  },
+  "v_domain_public_suffix": {
+    "message": "「$P1$」はパブリックサフィックス (.com や .co.uk のようにレジストリが管理するドメイン) のため、その全体に適用される Cookie はブラウザに拒否されます。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_samesite_none_insecure": {
+    "message": "SameSite=None の Cookie は Secure である必要があります。そうでないと Chrome に拒否されます。Secure をオンにするか、別の SameSite を選んでください。"
+  },
+  "v_partitioned_insecure": {
+    "message": "パーティション Cookie は Secure である必要があります。そうでないと Chrome に拒否されます。Secure をオンにするか、パーティションを外してください。"
+  },
+  "v_prefix_secure": {
+    "message": "名前が「$P1$...」の Cookie は Secure である必要があります。Secure をオンにするか、Cookie の名前を変更してください。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_host_prefix_domain": {
+    "message": "名前が「__Host-...」の Cookie はホスト限定である必要があります (Domain 属性なし、サブドメインとの共有なし)。ホスト限定をオンにするか、Cookie の名前を変更してください。"
+  },
+  "v_host_prefix_path": {
+    "message": "名前が「__Host-...」の Cookie は、パスが「/」である必要があります。"
+  },
+  "v_bad_expiration": {
+    "message": "有効期限は、1970 年からの有限の秒数である必要があります。"
+  },
+  "v_expired_deletes": {
+    "message": "過去の有効期限で保存すると、この Cookie は削除されます。"
+  },
+  "v_clamped": {
+    "message": "Chrome は Cookie の有効期間を $P1$ 日に制限します。それより後の有効期限は、保存時に短縮されます。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_expiration_missing": {
+    "message": "セッション Cookie 以外には有効期限が必要です。日付を選ぶか、セッション Cookie にしてください。"
+  },
+  "v_partition_type": {
+    "message": "パーティションキーは topLevelSite を持つオブジェクトである必要があります。"
+  },
+  "v_partition_site_type": {
+    "message": "パーティションのトップレベルサイトは、https://example.com のようなテキストである必要があります。"
+  },
+  "v_partition_site_form": {
+    "message": "パーティションのトップレベルサイトは https://example.com の形式である必要があります (https で、パスやポートなし)。"
+  },
+  "v_partition_flag": {
+    "message": "パーティションの hasCrossSiteAncestor は true または false である必要があります。"
+  },
+  "v_partition_cross_site": {
+    "message": "この Cookie のドメインは $P1$ と同じサイトではないため、Chrome では hasCrossSiteAncestor を true にする必要があります。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_other_site": {
+    "message": "この Cookie のドメイン ($P1$) は、現在のサイト ($P2$) の外にあります。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_entry": {
+    "message": "エントリ $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_entry_named": {
+    "message": "エントリ $P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_bad_samesite": {
+    "message": "$P1$: sameSite が no_restriction、lax、strict、unspecified のいずれでもありません。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bool": {
+    "message": "$P1$: 「$P2$」は true または false である必要があります。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_text": {
+    "message": "$P1$: 「$P2$」はテキストである必要があります。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_not_object": {
+    "message": "$P1$ は Cookie オブジェクトではありません。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_expiration_type": {
+    "message": "$P1$: 「expirationDate」は数値である必要があります。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_key": {
+    "message": "$P1$: partitionKey は、テキストの topLevelSite を持つオブジェクトである必要があります。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_flag": {
+    "message": "$P1$: partitionKey.hasCrossSiteAncestor は true または false である必要があります。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_line": {
+    "message": "$P1$ 行目は cookies.txt のエントリではありません (タブ区切りの 7 フィールドが必要ですが、$P2$ 個でした)。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_line_flag_subdomains": {
+    "message": "$P1$ 行目: サブドメインのフラグは TRUE または FALSE である必要があります。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_flag_secure": {
+    "message": "$P1$ 行目: secure フラグは TRUE または FALSE である必要があります。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_expiry": {
+    "message": "$P1$ 行目: 有効期限は整数の秒数である必要があります。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_not_text": {
+    "message": "ファイルをテキストとして読み取れませんでした。"
+  },
+  "io_too_large": {
+    "message": "ファイルがインポート上限の $P1$ バイトを超えています。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_json": {
+    "message": "ファイルは JSON のようですが、解析できませんでした。"
+  },
+  "io_bad_version": {
+    "message": "この CookieDesk ファイルは、サポートされていないバージョンです。"
+  },
+  "io_no_cookie_list": {
+    "message": "CookieDesk ファイルに「cookies」リストがありません。"
+  },
+  "io_unknown_format": {
+    "message": "この JSON は、CookieDesk のエクスポートでも Cookie のリストでもありません。"
+  },
+  "io_no_cookies": {
+    "message": "ファイルに Cookie が含まれていません。"
+  },
+  "io_too_many": {
+    "message": "ファイルには Cookie が $P1$ 件あります。上限は $P2$ 件です。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_issue": {
+    "message": "$P1$: $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_duplicate": {
+    "message": "$P1$: 同じ名前、ドメイン、パス、パーティションの別のエントリがあります。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "when": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "when_passed": {
+    "message": "すでに過ぎています"
+  },
+  "when_under_day": {
+    "message": "1 日以内"
+  },
+  "explain_third_party": {
+    "message": "$P2$ とは別のサイトである $P1$ が設定: サードパーティ Cookie です。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_third_party_partitioned": {
+    "message": "$P2$ とは別のサイトである $P1$ が設定: サードパーティ Cookie で、$P2$ のパーティションに保存されています。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_host_prefix": {
+    "message": "__Host- プレフィックスにより、Chrome は Secure、Domain 属性なし、Path=/ を必須とします。そのため、サブドメインからは設定も置き換えもできません。"
+  },
+  "explain_secure_prefix": {
+    "message": "__Secure- プレフィックスにより、Chrome は Secure フラグがある場合にのみ受け付けます。"
+  },
+  "explain_scope_host": {
+    "message": "$P1$ 自体にのみ送信され、サブドメインには送信されません。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_scope_domain": {
+    "message": "$P1$ と、そのすべてのサブドメイン (www.$P1$ など) に送信されます。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_path_all": {
+    "message": "そのホスト上のすべてのパスへのリクエストと一緒に送信されます。"
+  },
+  "explain_path_under": {
+    "message": "$P1$ 以下のパスへのリクエストでのみ送信されます。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_secure": {
+    "message": "Secure: HTTPS でのみ送信されます。"
+  },
+  "explain_not_secure": {
+    "message": "Secure なし: 通常の HTTP でも送信され、ネットワーク上の誰でも読み取れます。"
+  },
+  "explain_httponly": {
+    "message": "HttpOnly: ページの JavaScript から見えず (document.cookie では読み取れません)、注入されたスクリプトから守られます。"
+  },
+  "explain_script_readable": {
+    "message": "ページ上で動作するどのスクリプトからも読み取り・変更できます。"
+  },
+  "explain_samesite_none": {
+    "message": "SameSite=None: Chrome がサードパーティ Cookie を許可している場合 (シークレットではデフォルトでブロック)、クロスサイトのリクエスト (埋め込みフレーム、画像、他サイトからのリクエスト) でも送信されることがあります。そのため Secure が必須です。"
+  },
+  "explain_samesite_lax": {
+    "message": "SameSite=Lax: 他のサイトのリンクからの移動を含め、そのサイトに移動するときに送信されます。他のサイトのページがバックグラウンドで行うリクエストでは送信されません。"
+  },
+  "explain_samesite_strict": {
+    "message": "SameSite=Strict: すでに同じサイト上にいるときにのみ送信されます。他のサイトのリンクから来た場合、最初のリクエストは Cookie なしで送られます。"
+  },
+  "explain_samesite_unset": {
+    "message": "SameSite 属性なし: Chrome は Lax として扱います。"
+  },
+  "explain_session": {
+    "message": "セッション Cookie: ブラウザを閉じると削除されます (Chrome が起動時に前回のセッションを復元する場合を除く)。"
+  },
+  "explain_expires": {
+    "message": "有効期限 $P1$。Chrome は、Cookie が最後に設定されてから 400 日を上限に有効期限を制限します。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition": {
+    "message": "パーティション (CHIPS): トップレベルサイトごとに別々に保存されます。このコピーは、アドレスバーのサイトが $P1$ のときにのみ送信されます。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition_cross": {
+    "message": "そのパーティションのクロスサイト側にあります (ページとこの Cookie のサイトの間に別のサイトが挟まる場合に使われます)。同一サイト側とは分けて保存されます。"
+  },
+  "explain_partition_same": {
+    "message": "そのパーティションの同一サイト側にあり、クロスサイト側とは分けて保存されます。"
+  },
+  "explain_partition_other": {
+    "message": "別のサイトにある同じ名前の Cookie は、別の Cookie です。"
+  },
+  "explain_jwt": {
+    "message": "値は JSON Web Token のようです。"
+  },
+  "explain_jwt_exp": {
+    "message": "値は JSON Web Token のようです。トークン自体によると、有効期限は $P1$ です。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_size": {
+    "message": "Chrome が名前と値の合計に許可する 4096 バイトのうち $P1$。",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

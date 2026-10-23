@@ -3,6 +3,7 @@
 // no cookie data and makes no network requests.
 
 import { createEngine } from '../core/cookies.js';
+import { noteInstalled } from '../ui/rating.js';
 
 // The user chooses what the toolbar button opens (P-5: never force the side panel).
 const SURFACE_KEY = 'surface'; // 'popup' (default) | 'sidepanel'
@@ -15,6 +16,8 @@ async function applySurface() {
 }
 
 chrome.runtime.onInstalled.addListener(applySurface);
+// Starts the clock for the rating ask (rating.js): a time, never a cookie.
+chrome.runtime.onInstalled.addListener(({ reason }) => { if (reason === 'install') noteInstalled().catch(() => {}); });
 chrome.runtime.onStartup.addListener(applySurface);
 chrome.storage.onChanged.addListener((changes, area) => {
   if (area === 'local' && SURFACE_KEY in changes) applySurface();
@@ -38,4 +41,8 @@ async function pruneDeadStores() {
 chrome.windows.onRemoved.addListener(pruneDeadStores);
 // Any wake-up is a chance to drop expired undo copies (there is no timer without the alarms permission).
 chrome.runtime.onStartup.addListener(pruneDeadStores);
-chrome.storage.onChanged.addListener((_, area) => { if (area === 'local') pruneDeadStores(); });
+// The usage record and ask answers (rating.js, support.js) change on every edit; they are no reason to prune.
+const QUIET_KEYS = new Set(['usage', 'rateAsk', 'support']);
+chrome.storage.onChanged.addListener((changes, area) => {
+  if (area === 'local' && Object.keys(changes).some((k) => !QUIET_KEYS.has(k))) pruneDeadStores();
+});

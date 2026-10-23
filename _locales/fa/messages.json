@@ -1,0 +1,2084 @@
+{
+  "extension_name": {
+    "message": "ویرایشگر کوکی — مشاهده، ویرایش و حذف کوکی‌ها | CookieDesk"
+  },
+  "extension_description": {
+    "message": "کوکی‌های هر سایت را ببینید، ویرایش، اضافه و حذف کنید. جستجو، درون‌ریزی، برون‌بری و کوکی‌های پارتیشن‌بندی‌شده. بدون تبلیغ."
+  },
+  "btn_ok": {
+    "message": "تأیید"
+  },
+  "btn_cancel": {
+    "message": "لغو"
+  },
+  "btn_close": {
+    "message": "بستن"
+  },
+  "btn_delete": {
+    "message": "حذف"
+  },
+  "btn_copy": {
+    "message": "کپی"
+  },
+  "btn_save": {
+    "message": "ذخیره"
+  },
+  "btn_export": {
+    "message": "برون‌بری"
+  },
+  "btn_later": {
+    "message": "بعداً"
+  },
+  "dismiss": {
+    "message": "بستن پیام"
+  },
+  "back": {
+    "message": "بازگشت"
+  },
+  "back_esc": {
+    "message": "بازگشت (Esc)‏"
+  },
+  "back_to_list": {
+    "message": "بازگشت به فهرست"
+  },
+  "title_count": {
+    "message": "$P1$ ($P2$)‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "empty_name": {
+    "message": "(نام خالی)‏"
+  },
+  "empty_value": {
+    "message": "(مقدار خالی)‏"
+  },
+  "empty_short": {
+    "message": "(خالی)‏"
+  },
+  "names_more": {
+    "message": "$P1$ و $P2$ مورد دیگر",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "done": {
+    "message": "انجام شد"
+  },
+  "undo": {
+    "message": "واگرد"
+  },
+  "undo_nothing": {
+    "message": "چیزی برای واگرد نیست"
+  },
+  "undo_entry": {
+    "message": "واگرد: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_interrupted": {
+    "message": "واگرد ناتمام ماند: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "redo_entry": {
+    "message": "ازنو: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "support_title": {
+    "message": "از CookieDesk در Ko-fi حمایت کنید"
+  },
+  "supporter_title": {
+    "message": "ممنون که از CookieDesk حمایت می‌کنید!"
+  },
+  "add_cookie": {
+    "message": "افزودن کوکی"
+  },
+  "add_cookie_title": {
+    "message": "افزودن کوکی (n)‏"
+  },
+  "more_actions": {
+    "message": "کارهای بیشتر"
+  },
+  "menu_group_transfer": {
+    "message": "برون‌بری و درون‌ریزی"
+  },
+  "menu_group_sets": {
+    "message": "مجموعه‌های کوکی"
+  },
+  "export_json_title": {
+    "message": "برون‌بری به‌صورت JSON‏"
+  },
+  "export_txt_title": {
+    "message": "برون‌بری به‌صورت Netscape cookies.txt‏"
+  },
+  "tile_snippet": {
+    "message": "قطعه کد"
+  },
+  "tile_snippet_title": {
+    "message": "کپی به‌صورت قطعه کد document.cookie‏"
+  },
+  "tile_import": {
+    "message": "درون‌ریزی"
+  },
+  "tile_import_title": {
+    "message": "درون‌ریزی JSON یا cookies.txt‏"
+  },
+  "tile_save_set": {
+    "message": "ذخیره مجموعه"
+  },
+  "tile_save_set_title": {
+    "message": "ذخیره این کوکی‌ها در یک فایل مجموعه با نام دلخواه"
+  },
+  "tile_restore": {
+    "message": "بازیابی"
+  },
+  "tile_restore_title": {
+    "message": "بازیابی یک مجموعه ذخیره‌شده (ابتدا پیش‌نمایش)‏"
+  },
+  "tile_compare": {
+    "message": "مقایسه"
+  },
+  "tile_compare_title": {
+    "message": "مقایسه یک مجموعه ذخیره‌شده با وضعیت فعلی، یا دو مجموعه با هم"
+  },
+  "tile_copy_to": {
+    "message": "کپی به…"
+  },
+  "tile_copy_to_title": {
+    "message": "کپی کوکی‌های نمایش‌داده‌شده به مخزن دیگر (عادی ↔ ناشناس)‏"
+  },
+  "menu_bulk_delete": {
+    "message": "حذف کوکی‌های نمایش‌داده‌شده…"
+  },
+  "menu_access": {
+    "message": "دسترسی و تنظیمات"
+  },
+  "menu_shortcuts": {
+    "message": "میان‌برها"
+  },
+  "menu_sidepanel": {
+    "message": "باز کردن در پنل کناری"
+  },
+  "menu_rate": {
+    "message": "امتیاز به CookieDesk‏"
+  },
+  "menu_support": {
+    "message": "حمایت در Ko-fi‏"
+  },
+  "search_placeholder": {
+    "message": "جستجوی کوکی‌ها"
+  },
+  "search_label": {
+    "message": "فیلتر کوکی‌ها بر اساس نام، مقدار یا دامنه"
+  },
+  "search_title": {
+    "message": "فیلتر بر اساس نام، مقدار یا دامنه"
+  },
+  "cookie_store": {
+    "message": "مخزن کوکی"
+  },
+  "cookies_list": {
+    "message": "کوکی‌ها"
+  },
+  "restricted_page": {
+    "message": "صفحه محدود"
+  },
+  "loading": {
+    "message": "در حال بارگیری…"
+  },
+  "state_unknown": {
+    "message": "روی دکمه CookieDesk در نوار ابزار کلیک کنید تا کوکی‌های این زبانه نمایش داده شود."
+  },
+  "state_unknown_hint": {
+    "message": "Chrome نشانی زبانه را فقط بعد از این کلیک، یا برای سایت‌هایی که اجازه داده‌اید، در اختیار افزونه می‌گذارد."
+  },
+  "state_error": {
+    "message": "مشکلی پیش آمد: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "state_no_access": {
+    "message": "CookieDesk هنوز به $P1$ دسترسی ندارد.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "grant_site": {
+    "message": "اجازه در $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "chrome_will_ask": {
+    "message": "Chrome می‌پرسد:"
+  },
+  "prompt_site": {
+    "message": "خواندن و تغییر داده‌هایتان در همه سایت‌های $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "prompt_all": {
+    "message": "خواندن و تغییر همه داده‌هایتان در همه وب‌سایت‌ها"
+  },
+  "only_this_site": {
+    "message": "فقط کوکی‌های همین سایت، نه چیز دیگر."
+  },
+  "allow_all_instead": {
+    "message": "اجازه برای همه سایت‌ها"
+  },
+  "restricted_browser": {
+    "message": "این یک صفحه Chrome است. Chrome به هیچ افزونه‌ای اجازه نمی‌دهد اینجا کوکی بخواند یا تغییر دهد."
+  },
+  "restricted_webstore": {
+    "message": "این Chrome Web Store است. Chrome دسترسی همه افزونه‌ها را به آن می‌بندد، پس کوکی‌هایش نمایش داده نمی‌شود."
+  },
+  "restricted_extension": {
+    "message": "این صفحه متعلق به یک افزونه است. فضای ذخیره آن کوکی وب‌سایت نیست، پس چیزی برای نمایش نیست."
+  },
+  "restricted_file": {
+    "message": "این یک فایل محلی است. فایل‌هایی که از دیسک باز می‌شوند کوکی ندارند."
+  },
+  "restricted_other": {
+    "message": "این صفحه یک وب‌سایت نیست (مثلاً صفحه خالی یا data:)، پس کوکی ندارد."
+  },
+  "live_just_now": {
+    "message": "همین حالا: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "note_third_party": {
+    "message": "کوکی‌های سایت‌های جاسازی‌شده فقط برای سایت‌هایی که اجازه داده‌اید نمایش داده می‌شود."
+  },
+  "note_no_partitions": {
+    "message": "نسخه Chrome شما نمی‌تواند کوکی‌های پارتیشن‌بندی‌شده را نشان دهد، پس ممکن است این فهرست ناقص باشد."
+  },
+  "empty_no_match": {
+    "message": "کوکی‌ای با «$P1$» مطابقت ندارد.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "empty_none": {
+    "message": "کوکی‌ای برای $P1$ نیست.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clear_search": {
+    "message": "پاک کردن جستجو"
+  },
+  "change_changed": {
+    "message": "$P1$ تغییر کرد",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_added": {
+    "message": "$P1$ اضافه شد",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_removed": {
+    "message": "$P1$ حذف شد",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_one": {
+    "message": "یک کوکی"
+  },
+  "count_cookies_other": {
+    "message": "$P1$ کوکی",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_filtered_one": {
+    "message": "$P2$ از $P1$ کوکی",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_filtered_other": {
+    "message": "$P2$ از $P1$ کوکی",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_partitioned": {
+    "message": "$P1$ پارتیشن‌بندی‌شده",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "store_default": {
+    "message": "پیش‌فرض"
+  },
+  "store_incognito": {
+    "message": "ناشناس"
+  },
+  "store_n": {
+    "message": "مخزن $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "session": {
+    "message": "نشست"
+  },
+  "expired": {
+    "message": "منقضی‌شده"
+  },
+  "expiry_under_minute": {
+    "message": "کمتر از یک دقیقه دیگر"
+  },
+  "expiry_on_close": {
+    "message": "با بسته شدن مرورگر حذف می‌شود"
+  },
+  "expires_at": {
+    "message": "انقضا: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "badge_protected": {
+    "message": "محافظت‌شده: حذف گروهی، درون‌ریزی و بازیابی مجموعه به آن دست نمی‌زنند (p)‏"
+  },
+  "hint_httponly": {
+    "message": "HttpOnly: برای جاوااسکریپت صفحه نامرئی است (document.cookie نمی‌تواند آن را بخواند)‏"
+  },
+  "hint_secure": {
+    "message": "Secure: فقط روی HTTPS ارسال می‌شود"
+  },
+  "hint_samesite_none": {
+    "message": "SameSite=None: در درخواست‌های بین‌سایتی هم ارسال می‌شود"
+  },
+  "hint_samesite_lax": {
+    "message": "SameSite=Lax: هنگام رفتن به سایت ارسال می‌شود، نه در درخواست‌های فرعی بین‌سایتی"
+  },
+  "hint_samesite_strict": {
+    "message": "SameSite=Strict: فقط در درخواست‌های همان سایت ارسال می‌شود"
+  },
+  "badge_partitioned": {
+    "message": "پارتیشن‌بندی‌شده"
+  },
+  "partitioned_under": {
+    "message": "پارتیشن‌بندی‌شده زیر $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partition_this_site": {
+    "message": "همین سایت"
+  },
+  "partition_cross_site": {
+    "message": "$P1$، زمینه بین‌سایتی",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "row_protected": {
+    "message": "محافظت‌شده"
+  },
+  "row_unprotect_title": {
+    "message": "برداشتن محافظت (p)‏"
+  },
+  "row_protect_title": {
+    "message": "محافظت در برابر حذف گروهی، درون‌ریزی و بازیابی مجموعه (p)‏"
+  },
+  "copy_value": {
+    "message": "کپی مقدار"
+  },
+  "copied": {
+    "message": "کپی شد"
+  },
+  "copy_value_title": {
+    "message": "کپی مقدار (c)‏"
+  },
+  "row_delete_title": {
+    "message": "حذف (Del) — قابل واگرد"
+  },
+  "irreversible_title": {
+    "message": "این کار قابل واگرد نیست"
+  },
+  "continue_no_undo": {
+    "message": "ادامه بدون واگرد"
+  },
+  "undo_anyway_title": {
+    "message": "با این حال واگرد شود؟"
+  },
+  "undo_anyway": {
+    "message": "واگرد شود"
+  },
+  "undone": {
+    "message": "واگرد شد: $P1$.‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_skipped": {
+    "message": "بعضی کوکی‌ها از قبل منقضی شده بودند و بازیابی نشدند: $P1$.‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_refused": {
+    "message": "Chrome دیگر این کوکی‌ها را به همان شکل قبلی نمی‌پذیرد، پس بازیابی نشدند: $P1$.‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clipboard_failed": {
+    "message": "کپی نشد: کلیپ‌بورد اینجا در دسترس نیست."
+  },
+  "protected_on": {
+    "message": "«$P1$» محافظت شد: حذف گروهی، درون‌ریزی و بازیابی مجموعه به آن دست نمی‌زنند.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_off": {
+    "message": "«$P1$» دیگر محافظت‌شده نیست.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protect_limit": {
+    "message": "حداکثر $P1$ کوکی را می‌توانید محافظت کنید. ابتدا محافظت چند مورد را بردارید.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_named": {
+    "message": "«$P1$» حذف شود؟",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_protected_message": {
+    "message": "این کوکی محافظت‌شده است. با این حال حذف شود؟ می‌توانید واگرد کنید."
+  },
+  "nothing_to_delete": {
+    "message": "چیزی برای حذف نیست"
+  },
+  "all_shown_protected_one": {
+    "message": "کوکی نمایش‌داده‌شده محافظت‌شده است."
+  },
+  "all_shown_protected_other": {
+    "message": "هر $P1$ کوکی نمایش‌داده‌شده محافظت‌شده‌اند.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "no_cookies_shown": {
+    "message": "کوکی‌ای نمایش داده نشده است."
+  },
+  "bulk_title_one": {
+    "message": "یک کوکی حذف شود؟"
+  },
+  "bulk_title_other": {
+    "message": "$P1$ کوکی حذف شود؟",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_match": {
+    "message": "این کوکی‌ها با «$P1$» در $P2$ مطابقت دارند. می‌توانید واگرد کنید.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "bulk_all": {
+    "message": "همه کوکی‌های فهرست‌شده برای $P1$. می‌توانید واگرد کنید.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_one": {
+    "message": "یک کوکی محافظت‌شده نگه داشته می‌شود."
+  },
+  "protected_kept_other": {
+    "message": "$P1$ کوکی محافظت‌شده نگه داشته می‌شود.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_one": {
+    "message": "حذف یک کوکی"
+  },
+  "bulk_ok_other": {
+    "message": "حذف $P1$ کوکی",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_to": {
+    "message": "کپی به"
+  },
+  "copy_to_default_note": {
+    "message": "کوکی‌های کپی‌شده در مخزن پیش‌فرض مثل هر کوکی دیگر روی دیسک می‌مانند، حتی بعد از پایان این نشست ناشناس."
+  },
+  "copy_to_incognito_note": {
+    "message": "کوکی‌های کپی‌شده در مخزن ناشناس با پایان آن نشست ناشناس از بین می‌روند."
+  },
+  "copy_title_one": {
+    "message": "کپی یک کوکی"
+  },
+  "copy_title_other": {
+    "message": "کپی $P1$ کوکی",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_from": {
+    "message": "از مخزن $P1$ به:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_replace_note": {
+    "message": "کوکی‌هایی که آنجا نام، دامنه و مسیر یکسان دارند جایگزین می‌شوند، به‌جز محافظت‌شده‌ها. می‌توانید کپی را واگرد کنید."
+  },
+  "label_copied_one": {
+    "message": "یک کوکی به $P2$ کپی شد",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_copied_other": {
+    "message": "$P1$ کوکی به $P2$ کپی شد",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_kept_one": {
+    "message": "یک کوکی محافظت‌شده آنجا همان‌طور که بود ماند."
+  },
+  "copy_kept_other": {
+    "message": "$P1$ کوکی محافظت‌شده آنجا همان‌طور که بودند ماندند.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_done_one": {
+    "message": "یک کوکی به $P2$ کپی شد.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_done_other": {
+    "message": "$P1$ کوکی به $P2$ کپی شد.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_undo_hint": {
+    "message": "همین‌جا واگرد کنید، یا بعداً از مخزن $P1$.‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_nothing": {
+    "message": "$P1$ از قبل دقیقاً همین کوکی‌ها را دارد.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_cant": {
+    "message": "مقایسه ممکن نیست"
+  },
+  "compare_now": {
+    "message": "$P1$ در حال حاضر",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_other_site": {
+    "message": "این مجموعه برای $P1$ ذخیره شده، نه $P2$.‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "compare_too_many": {
+    "message": "یک مجموعه را برای مقایسه با وضعیت فعلی انتخاب کنید، یا دو مجموعه را برای مقایسه با هم."
+  },
+  "set_file_too_large": {
+    "message": "$P1$ برای یک مجموعه کوکی بیش از حد بزرگ است.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_aria": {
+    "message": "مقایسه مجموعه‌های کوکی"
+  },
+  "compare_changed_fields": {
+    "message": "تغییر کرد: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_one": {
+    "message": "تفاوتی نیست: یک کوکی یکسان."
+  },
+  "diff_none_other": {
+    "message": "تفاوتی نیست: $P1$ کوکی یکسان.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_summary": {
+    "message": "$P1$ اضافه، $P2$ حذف، $P3$ تغییرکرده، $P4$ بدون تغییر.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      },
+      "p4": {
+        "content": "$4"
+      }
+    }
+  },
+  "diff_added": {
+    "message": "اضافه‌شده"
+  },
+  "diff_removed": {
+    "message": "حذف‌شده"
+  },
+  "diff_changed": {
+    "message": "تغییرکرده"
+  },
+  "diff_expiry_only": {
+    "message": "فقط انقضا تغییر کرد ($P1$)‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "shortcuts_title": {
+    "message": "میان‌برهای صفحه‌کلید"
+  },
+  "key_search": {
+    "message": "جستجو"
+  },
+  "key_move": {
+    "message": "حرکت در فهرست"
+  },
+  "key_first_last": {
+    "message": "اولین / آخرین کوکی"
+  },
+  "key_edit": {
+    "message": "ویرایش"
+  },
+  "key_copy": {
+    "message": "کپی مقدار"
+  },
+  "key_protect": {
+    "message": "محافظت / برداشتن محافظت"
+  },
+  "key_delete": {
+    "message": "حذف (قابل واگرد)‏"
+  },
+  "key_back": {
+    "message": "بازگشت، یا پاک کردن جستجو"
+  },
+  "key_help": {
+    "message": "همین فهرست"
+  },
+  "import_kept_one": {
+    "message": "یک کوکی محافظت‌شده همان‌طور که بود ماند: $P2$.‏",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_kept_other": {
+    "message": "$P1$ کوکی محافظت‌شده همان‌طور که بودند ماندند: $P2$.‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_nothing": {
+    "message": "چیزی برای درون‌ریزی نیست: هر کوکی فایل از قبل دقیقاً همین‌طور تنظیم شده است."
+  },
+  "imported_one": {
+    "message": "یک کوکی درون‌ریزی شد."
+  },
+  "imported_other": {
+    "message": "$P1$ کوکی درون‌ریزی شد.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_restored": {
+    "message": "مجموعه «$P1$» بازیابی شد",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restored_one": {
+    "message": "«$P2$» بازیابی شد: یک کوکی نوشته شد و $P3$ حذف شد.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "restored_other": {
+    "message": "«$P2$» بازیابی شد: $P1$ کوکی نوشته شد و $P3$ حذف شد.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "rate_title": {
+    "message": "از CookieDesk راضی هستید؟"
+  },
+  "rate_text": {
+    "message": "یک امتیاز کوتاه به دیگران کمک می‌کند آن را پیدا کنند."
+  },
+  "rate_group": {
+    "message": "امتیاز در فروشگاه"
+  },
+  "rate_stars_one": {
+    "message": "یک ستاره"
+  },
+  "rate_stars_other": {
+    "message": "$P1$ ستاره",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_confirm_title": {
+    "message": "برایم قهوه خریدید؟"
+  },
+  "kofi_confirm_text": {
+    "message": "ممنون، این کار CookieDesk را زنده نگه می‌دارد."
+  },
+  "kofi_yes": {
+    "message": "بله، خریدم"
+  },
+  "kofi_not_yet": {
+    "message": "هنوز نه"
+  },
+  "kofi_milestone_one": {
+    "message": "یک تغییر با CookieDesk انجام شد!"
+  },
+  "kofi_milestone_other": {
+    "message": "$P1$ تغییر با CookieDesk انجام شد!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_free": {
+    "message": "رایگان است و یک توسعه‌دهنده آن را می‌سازد."
+  },
+  "buy_coffee": {
+    "message": "برایم قهوه بخرید"
+  },
+  "edit_cookie": {
+    "message": "ویرایش کوکی"
+  },
+  "add_cookie_short": {
+    "message": "افزودن کوکی"
+  },
+  "explain_title": {
+    "message": "این کوکی چه می‌کند"
+  },
+  "field_name": {
+    "message": "نام"
+  },
+  "field_value": {
+    "message": "مقدار"
+  },
+  "field_domain": {
+    "message": "Domain‏"
+  },
+  "field_path": {
+    "message": "Path‏"
+  },
+  "field_expiry": {
+    "message": "انقضا"
+  },
+  "field_expires": {
+    "message": "تاریخ انقضا"
+  },
+  "field_attributes": {
+    "message": "ویژگی‌ها"
+  },
+  "field_partition": {
+    "message": "پارتیشن"
+  },
+  "host_only": {
+    "message": "فقط میزبان"
+  },
+  "host_only_title": {
+    "message": "فقط میزبان: بدون ویژگی Domain، پس زیردامنه‌ها آن را نمی‌گیرند"
+  },
+  "session_title": {
+    "message": "کوکی نشست: با بسته شدن مرورگر از بین می‌رود"
+  },
+  "httponly_title": {
+    "message": "HttpOnly: برای جاوااسکریپت صفحه نامرئی است"
+  },
+  "samesite_unspecified": {
+    "message": "نامشخص"
+  },
+  "partitioned_chips": {
+    "message": "پارتیشن‌بندی‌شده (CHIPS)‏"
+  },
+  "top_level_site": {
+    "message": "سایت سطح بالا"
+  },
+  "no_partition_write": {
+    "message": "این نسخه Chrome نمی‌تواند کوکی‌های پارتیشن‌بندی‌شده بنویسد."
+  },
+  "editor_delete_title": {
+    "message": "حذف (قابل واگرد)‏"
+  },
+  "bytes_of": {
+    "message": "$P1$ / $P2$ بایت",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "access_aria": {
+    "message": "دسترسی و تنظیمات"
+  },
+  "all_sites_on": {
+    "message": "همه سایت‌ها: روشن"
+  },
+  "all_sites_on_text": {
+    "message": "CookieDesk می‌تواند کوکی‌های هر سایت، از جمله سایت‌های جاسازی‌شده، را بخواند و تغییر دهد."
+  },
+  "turn_off": {
+    "message": "خاموش کردن"
+  },
+  "all_sites": {
+    "message": "همه سایت‌ها"
+  },
+  "all_sites_text": {
+    "message": "اختیاری. دیگر درخواست اجازه برای هر سایت نیست و کوکی‌های سایت‌های جاسازی‌شده (تبلیغ‌ها، ابزارک‌ها، قاب‌های ورود) همه‌جا نمایش داده می‌شود."
+  },
+  "allow_all_sites": {
+    "message": "اجازه در همه سایت‌ها"
+  },
+  "remove_access": {
+    "message": "حذف دسترسی به $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "access_lead": {
+    "message": "CookieDesk کوکی‌های یک سایت را فقط بعد از اجازه شما به همان سایت می‌بیند و چیز دیگری نمی‌بیند: نه محتوای صفحه، نه تاریخچه."
+  },
+  "allowed_sites": {
+    "message": "سایت‌های مجاز"
+  },
+  "allowed_sites_count": {
+    "message": "سایت‌های مجاز · $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "all_sites_overrides": {
+    "message": "دسترسی به همه سایت‌ها روشن است، پس تا وقتی روشن بماند این موارد اهمیتی ندارند."
+  },
+  "none_yet": {
+    "message": "هنوز هیچ."
+  },
+  "toolbar_opens": {
+    "message": "دکمه نوار ابزار باز می‌کند"
+  },
+  "surface_popup": {
+    "message": "پنجره بازشو"
+  },
+  "surface_sidepanel": {
+    "message": "پنل کناری"
+  },
+  "support_feedback": {
+    "message": "پشتیبانی و بازخورد"
+  },
+  "thanks_supporting": {
+    "message": "ممنون از حمایتتان!"
+  },
+  "report_problem": {
+    "message": "گزارش مشکل"
+  },
+  "source_code": {
+    "message": "کد منبع"
+  },
+  "privacy_line": {
+    "message": "بدون درخواست شبکه و بدون مقدار کوکی روی دیسک. واگرد ۱۰ دقیقه کار می‌کند؛ نسخه‌هایش در حافظه‌اند و با بسته شدن Chrome یا پایان نشست ناشناس از بین می‌روند."
+  },
+  "export_warning": {
+    "message": "این فایل کوکی‌های نشست فعال دارد. هر کس آن را داشته باشد می‌تواند در این سایت‌ها به‌جای شما وارد شود. مثل رمز عبور با آن رفتار کنید و پس از کار حذفش کنید."
+  },
+  "export_json_one": {
+    "message": "برون‌بری یک کوکی به‌صورت JSON‏"
+  },
+  "export_json_other": {
+    "message": "برون‌بری $P1$ کوکی به‌صورت JSON‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_one": {
+    "message": "برون‌بری یک کوکی به‌صورت cookies.txt‏"
+  },
+  "export_txt_other": {
+    "message": "برون‌بری $P1$ کوکی به‌صورت cookies.txt‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_all_one": {
+    "message": "کوکی فهرست‌شده برای $P2$ وارد فایل می‌شود، حتی اگر HttpOnly باشد.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_all_other": {
+    "message": "هر $P1$ کوکی فهرست‌شده برای $P2$ وارد فایل می‌شود، از جمله کوکی‌های HttpOnly.‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_partitioned_left_one": {
+    "message": "یک کوکی پارتیشن‌بندی‌شده کنار گذاشته شد: cookies.txt نمی‌تواند پارتیشن را ثبت کند. برای نگه داشتنش از JSON استفاده کنید."
+  },
+  "export_partitioned_left_other": {
+    "message": "$P1$ کوکی پارتیشن‌بندی‌شده کنار گذاشته شد: cookies.txt نمی‌تواند پارتیشن را ثبت کند. برای نگه داشتنشان از JSON استفاده کنید.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_too_big": {
+    "message": "حجم این فایل $P1$ مگابایت است. فایل‌های برون‌بری کوکی خیلی کوچک‌ترند؛ CookieDesk فایل‌ها را تا ۵ مگابایت می‌خواند.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "cant_import_unchanged": {
+    "message": "این فایل درون‌ریزی نمی‌شود. چیزی تغییر نکرد."
+  },
+  "cant_import": {
+    "message": "این فایل درون‌ریزی نمی‌شود"
+  },
+  "file_unreadable": {
+    "message": "فایل خوانده نشد."
+  },
+  "needs_access_one": {
+    "message": "CookieDesk پیش از نوشتن این کوکی‌ها به دسترسی به یک سایت دیگر نیاز دارد:"
+  },
+  "needs_access_other": {
+    "message": "CookieDesk پیش از نوشتن این کوکی‌ها به دسترسی به $P1$ سایت دیگر نیاز دارد:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_allow_all_hint": {
+    "message": "یا در «دسترسی و تنظیمات» همه سایت‌ها را مجاز کنید."
+  },
+  "other_sites": {
+    "message": "سایت‌های دیگر ($P1$)‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "other_sites_warning": {
+    "message": "این فایل برای سایت‌هایی غیر از $P1$ هم کوکی می‌نویسد. کوکی کاشته‌شده در سایت دیگر می‌تواند شما را وارد حساب اشتباه کند. فقط اگر این سایت‌ها را انتظار داشتید ادامه دهید.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_one": {
+    "message": "برای یک سایت دیگر هم کوکی بنویس"
+  },
+  "also_write_other": {
+    "message": "برای $P1$ سایت دیگر هم کوکی بنویس",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partitioned_under_list": {
+    "message": "پارتیشن‌بندی‌شده زیر: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "warnings_count": {
+    "message": "هشدارها ($P1$)‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_title": {
+    "message": "درون‌ریزی کوکی‌ها"
+  },
+  "import_message_one": {
+    "message": "یک کوکی درون‌ریزی شود؟ کوکی‌هایی با نام، دامنه و مسیر یکسان جایگزین می‌شوند. می‌توانید کل درون‌ریزی را واگرد کنید."
+  },
+  "import_message_other": {
+    "message": "$P1$ کوکی درون‌ریزی شود؟ کوکی‌هایی با نام، دامنه و مسیر یکسان جایگزین می‌شوند. می‌توانید کل درون‌ریزی را واگرد کنید.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_one": {
+    "message": "کپی یک کوکی به‌صورت document.cookie‏"
+  },
+  "snippet_title_other": {
+    "message": "کپی $P1$ کوکی به‌صورت document.cookie‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_warning": {
+    "message": "این قطعه کد کوکی‌های نشست فعال دارد. هر کس آن را داشته باشد می‌تواند در این سایت به‌جای شما وارد شود. مثل رمز عبور با آن رفتار کنید."
+  },
+  "snippet_paste": {
+    "message": "آن را در کنسول DevTools در $P1$ جای‌گذاری کنید تا این کوکی‌ها همان‌جا تنظیم شوند.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_one": {
+    "message": "یک کوکی HttpOnly کنار گذاشته شد: جاوااسکریپت صفحه نمی‌تواند آن را تنظیم کند."
+  },
+  "snippet_httponly_left_other": {
+    "message": "$P1$ کوکی HttpOnly کنار گذاشته شد: جاوااسکریپت صفحه نمی‌تواند آن‌ها را تنظیم کند.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_one": {
+    "message": "یک کوکی به‌صورت document.cookie کپی شد."
+  },
+  "snippet_copied_other": {
+    "message": "$P1$ کوکی به‌صورت document.cookie کپی شد.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_name": {
+    "message": "نام مجموعه"
+  },
+  "set_name_placeholder": {
+    "message": "مثلاً واردشده به‌عنوان مدیر"
+  },
+  "save_set_title_one": {
+    "message": "ذخیره یک کوکی به‌عنوان مجموعه"
+  },
+  "save_set_title_other": {
+    "message": "ذخیره $P1$ کوکی به‌عنوان مجموعه",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_file_note": {
+    "message": "مجموعه یک فایل روی رایانه شماست؛ CookieDesk نسخه‌ای نگه نمی‌دارد. بعداً از منو در $P1$ بازیابی‌اش کنید.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "default_set_name": {
+    "message": "مجموعه کوکی"
+  },
+  "set_too_large": {
+    "message": "این فایل برای یک مجموعه کوکی بیش از حد بزرگ است."
+  },
+  "cant_restore_unchanged": {
+    "message": "این مجموعه بازیابی نمی‌شود. چیزی تغییر نکرد."
+  },
+  "cant_restore": {
+    "message": "این مجموعه بازیابی نمی‌شود"
+  },
+  "wrong_site_message": {
+    "message": "این مجموعه برای $P1$ ذخیره شده. $P1$ را باز کنید و همان‌جا بازیابی‌اش کنید.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "wrong_site_title": {
+    "message": "سایت اشتباه. چیزی تغییر نکرد."
+  },
+  "foreign_cookies_one": {
+    "message": "یک کوکی در این فایل به سایت دیگری ($P2$) تعلق دارد. بازیابی مجموعه فقط $P3$ را تغییر می‌دهد؛ برای سایت‌های دیگر از درون‌ریزی استفاده کنید.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "foreign_cookies_other": {
+    "message": "$P1$ کوکی در این فایل به سایت‌های دیگر ($P2$) تعلق دارند. بازیابی مجموعه فقط $P3$ را تغییر می‌دهد؛ برای سایت‌های دیگر از درون‌ریزی استفاده کنید.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "plan_write": {
+    "message": "نوشتن"
+  },
+  "plan_delete": {
+    "message": "حذف"
+  },
+  "plan_protected": {
+    "message": "محافظت‌شده، بدون تغییر"
+  },
+  "restore_title": {
+    "message": "بازیابی «$P1$»",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_nothing": {
+    "message": "$P1$ از قبل با این مجموعه یکی است. چیزی برای تغییر نیست.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_message_one": {
+    "message": "کوکی‌های $P2$ با یک کوکی این مجموعه جایگزین می‌شوند. می‌توانید کل بازیابی را واگرد کنید.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "restore_message_other": {
+    "message": "کوکی‌های $P2$ با $P1$ کوکی این مجموعه جایگزین می‌شوند. می‌توانید کل بازیابی را واگرد کنید.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_partition_unsupported": {
+    "message": "«$P1$» کوکی پارتیشن‌بندی‌شده است و این نسخه Chrome نمی‌تواند آن را بنویسد. Chrome را به نسخه 119 یا جدیدتر به‌روز کنید.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_gone": {
+    "message": "«$P1$» دیگر وجود ندارد — شاید منقضی شده یا سایت آن را تغییر داده است. فهرست را دوباره بارگیری کنید.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_stored": {
+    "message": "Chrome کوکی «$P1$» را پذیرفت اما ذخیره نکرد.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_imprecise_delete_one": {
+    "message": "Chrome «$P2$» را فقط همراه با یک کوکی دیگر هم‌نام می‌تواند حذف کند، پس CookieDesk آن را حذف نمی‌کند.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_imprecise_delete_other": {
+    "message": "Chrome «$P2$» را فقط همراه با $P1$ کوکی دیگر هم‌نام می‌تواند حذف کند، پس CookieDesk آن را حذف نمی‌کند.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_delete": {
+    "message": "Chrome دیگر «$P1$» را به همان شکل ذخیره‌شده نمی‌پذیرد، پس بعد از حذف نمی‌شود آن را برگرداند. بدون واگرد حذف شود؟",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_removed": {
+    "message": "«$P1$» حذف نشد.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_no_permission": {
+    "message": "CookieDesk به $P1$ دسترسی ندارد. ابتدا به این سایت دسترسی بدهید.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_secure_shadow": {
+    "message": "از قبل یک کوکی Secure به نام «$P1$» برای $P2$ هست. Chrome اجازه نمی‌دهد کوکی غیر Secure هم‌نام آن را جایگزین کند یا کنارش باشد. Secure را روشن کنید یا نام دیگری بگذارید.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_rejected": {
+    "message": "Chrome «$P1$» را بدون ذکر دلیل رد کرد. چیزی تغییر نکرد.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_irreversible_replace_one": {
+    "message": "Chrome دیگر $P2$ را به همان شکل ذخیره‌شده نمی‌پذیرد، پس بعد از جایگزینی نمی‌شود آن را برگرداند. برای آن بدون واگرد ادامه می‌دهید؟",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_replace_other": {
+    "message": "Chrome دیگر $P2$ را به همان شکل ذخیره‌شده نمی‌پذیرد، پس بعد از جایگزینی نمی‌شود آن‌ها را برگرداند. برای آن‌ها بدون واگرد ادامه می‌دهید؟",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_too_large_to_undo": {
+    "message": "این تغییر داده‌های زیادی را درگیر می‌کند ($P1$ کیلوبایت) و نگه داشتن نسخه واگرد ممکن نیست. بدون واگرد ادامه می‌دهید؟",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_duplicate_in_file": {
+    "message": "فایل «$P1$» را دو بار برای یک دامنه و مسیر دارد.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_undo_expired": {
+    "message": "چیزی برای واگرد نیست — واگرد ۱۰ دقیقه نگه داشته می‌شود."
+  },
+  "err_undo_conflict": {
+    "message": "$P1$ بعد از «$P2$» تغییر کرده است. واگرد حالا مقدار جدیدتر را بازنویسی می‌کند. با این حال واگرد شود؟",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_incomplete": {
+    "message": "ناتمام: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_added": {
+    "message": "«$P1$» اضافه شد",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_edited": {
+    "message": "«$P1$» ویرایش شد",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted": {
+    "message": "«$P1$» حذف شد",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_expired": {
+    "message": "«$P1$» حذف شد (انقضا در گذشته)‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_one": {
+    "message": "یک کوکی حذف شد"
+  },
+  "label_deleted_many_other": {
+    "message": "$P1$ کوکی حذف شد",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_one": {
+    "message": "یک کوکی درون‌ریزی شد"
+  },
+  "label_imported_other": {
+    "message": "$P1$ کوکی درون‌ریزی شد",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_undid": {
+    "message": "واگرد شد: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_saved": {
+    "message": "«$P1$» ذخیره شد",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_draft": {
+    "message": "کوکی باید یک شیء با name، value، domain و path باشد."
+  },
+  "v_name_type": {
+    "message": "نام کوکی باید متن باشد."
+  },
+  "v_value_type": {
+    "message": "مقدار کوکی باید متن باشد."
+  },
+  "v_domain_type": {
+    "message": "دامنه باید متن باشد."
+  },
+  "v_path_type": {
+    "message": "مسیر باید متن باشد."
+  },
+  "v_flag_type": {
+    "message": "$P1$ باید true یا false باشد.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_samesite": {
+    "message": "SameSite باید یکی از این‌ها باشد: $P1$.‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_name_control": {
+    "message": "نام شامل نویسه‌های کنترلی (مثل خط جدید یا تب) است که کوکی نمی‌تواند داشته باشد."
+  },
+  "v_name_semicolon": {
+    "message": "نام شامل \";\" است که کوکی را زودتر تمام می‌کند."
+  },
+  "v_name_equals": {
+    "message": "نام شامل \"=\" است که در کوکی نام را از مقدار جدا می‌کند."
+  },
+  "v_value_control": {
+    "message": "مقدار شامل نویسه‌های کنترلی (مثل خط جدید یا تب) است که کوکی نمی‌تواند داشته باشد."
+  },
+  "v_value_semicolon": {
+    "message": "مقدار شامل \";\" است که کوکی را زودتر تمام می‌کند. آن را کدگذاری کنید (مثلاً با encodeURIComponent).‏"
+  },
+  "v_empty_cookie": {
+    "message": "کوکی به نام یا مقدار نیاز دارد؛ هر دو خالی‌اند."
+  },
+  "v_empty_name": {
+    "message": "نام این کوکی خالی است. بعضی سایت‌ها و ابزارها کوکی بی‌نام را بد مدیریت می‌کنند."
+  },
+  "v_too_large": {
+    "message": "نام و مقدار روی هم $P1$ بایت (UTF-8) است؛ Chrome حداکثر $P2$ را مجاز می‌داند.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "v_path_slash": {
+    "message": "مسیر باید با \"/\" شروع شود."
+  },
+  "v_path_too_long": {
+    "message": "مسیر بیش از $P1$ بایت است.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_path_chars": {
+    "message": "مسیر شامل نویسه‌های کنترلی یا \";\" است که کوکی نمی‌تواند داشته باشد."
+  },
+  "v_domain_empty": {
+    "message": "دامنه خالی است. سایتی را که کوکی به آن تعلق دارد وارد کنید، مثلاً example.com.‏"
+  },
+  "v_domain_too_long": {
+    "message": "دامنه بیش از $P1$ بایت است.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_domain_invalid": {
+    "message": "دامنه نام میزبان معتبری نیست. از حرف، رقم و خط تیره جداشده با نقطه استفاده کنید (نام‌های بین‌المللی باید به‌صورت punycode باشند، مثل xn--...).‏"
+  },
+  "v_domain_leading_dot": {
+    "message": "کوکی فقط‌میزبان نمی‌تواند در ابتدای دامنه نقطه داشته باشد؛ نقطه یعنی کوکی برای زیردامنه‌ها هم اعمال می‌شود."
+  },
+  "v_domain_public_suffix": {
+    "message": "«$P1$» یک پسوند عمومی است (دامنه‌ای تحت کنترل ثبت‌کننده، مثل .com یا .co.uk)، پس مرورگرها کوکی‌هایی را که برای کل آن اعمال شوند رد می‌کنند.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_samesite_none_insecure": {
+    "message": "کوکی‌های SameSite=None باید Secure باشند — وگرنه Chrome رد می‌کند. Secure را روشن کنید یا SameSite دیگری انتخاب کنید."
+  },
+  "v_partitioned_insecure": {
+    "message": "کوکی‌های پارتیشن‌بندی‌شده باید Secure باشند — وگرنه Chrome رد می‌کند. Secure را روشن کنید یا پارتیشن را بردارید."
+  },
+  "v_prefix_secure": {
+    "message": "کوکی‌هایی با نام «$P1$...» باید Secure باشند. Secure را روشن کنید یا نام کوکی را عوض کنید.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_host_prefix_domain": {
+    "message": "کوکی‌هایی با نام «__Host-...» باید فقط‌میزبان باشند (بدون ویژگی Domain، پس بدون اشتراک با زیردامنه). «فقط میزبان» را روشن کنید یا نام کوکی را عوض کنید."
+  },
+  "v_host_prefix_path": {
+    "message": "کوکی‌هایی با نام «__Host-...» باید مسیر \"/\" داشته باشند."
+  },
+  "v_bad_expiration": {
+    "message": "انقضا باید عددی متناهی از ثانیه‌ها از سال ۱۹۷۰ باشد."
+  },
+  "v_expired_deletes": {
+    "message": "ذخیره با انقضای گذشته این کوکی را حذف می‌کند."
+  },
+  "v_clamped": {
+    "message": "Chrome عمر کوکی را به $P1$ روز محدود می‌کند؛ انقضای دورتر هنگام ذخیره کوتاه می‌شود.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_expiration_missing": {
+    "message": "کوکی غیرنشست به تاریخ انقضا نیاز دارد. یکی انتخاب کنید یا کوکی را نشست علامت بزنید."
+  },
+  "v_partition_type": {
+    "message": "کلید پارتیشن باید شیئی با topLevelSite باشد."
+  },
+  "v_partition_site_type": {
+    "message": "سایت سطح بالای پارتیشن باید متنی مثل https://example.com باشد."
+  },
+  "v_partition_site_form": {
+    "message": "سایت سطح بالای پارتیشن باید شبیه https://example.com باشد (https، بدون مسیر یا پورت).‏"
+  },
+  "v_partition_flag": {
+    "message": "hasCrossSiteAncestor پارتیشن باید true یا false باشد."
+  },
+  "v_partition_cross_site": {
+    "message": "دامنه کوکی با $P1$ در یک سایت نیست، پس Chrome لازم می‌داند hasCrossSiteAncestor برای آن true باشد.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_other_site": {
+    "message": "دامنه این کوکی ($P1$) بیرون از سایت فعلی ($P2$) است.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_entry": {
+    "message": "مورد $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_entry_named": {
+    "message": "مورد $P1$ ($P2$)‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_bad_samesite": {
+    "message": "$P1$: sameSite یکی از no_restriction، lax، strict، unspecified نیست.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bool": {
+    "message": "$P1$: \"$P2$\" باید true یا false باشد.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_text": {
+    "message": "$P1$: \"$P2$\" باید متن باشد.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_not_object": {
+    "message": "$P1$ شیء کوکی نیست.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_expiration_type": {
+    "message": "$P1$: \"expirationDate\" باید عدد باشد.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_key": {
+    "message": "$P1$: partitionKey باید شیئی با topLevelSite متنی باشد.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_flag": {
+    "message": "$P1$: partitionKey.hasCrossSiteAncestor باید true یا false باشد.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_line": {
+    "message": "خط $P1$ یک مورد cookies.txt نیست (۷ فیلد جداشده با تب لازم بود، $P2$ یافت شد).‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_line_flag_subdomains": {
+    "message": "خط $P1$: پرچم زیردامنه‌ها باید TRUE یا FALSE باشد.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_flag_secure": {
+    "message": "خط $P1$: پرچم secure باید TRUE یا FALSE باشد.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_expiry": {
+    "message": "خط $P1$: انقضا باید عدد صحیحی از ثانیه‌ها باشد.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_not_text": {
+    "message": "فایل به‌صورت متن خوانده نشد."
+  },
+  "io_too_large": {
+    "message": "فایل از حد درون‌ریزی $P1$ بایت بزرگ‌تر است.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_json": {
+    "message": "فایل شبیه JSON است اما تجزیه نشد."
+  },
+  "io_bad_version": {
+    "message": "نسخه این فایل CookieDesk پشتیبانی نمی‌شود."
+  },
+  "io_no_cookie_list": {
+    "message": "فایل CookieDesk فهرست \"cookies\" ندارد."
+  },
+  "io_unknown_format": {
+    "message": "این JSON نه برون‌بری CookieDesk است و نه فهرستی از کوکی‌ها."
+  },
+  "io_no_cookies": {
+    "message": "فایل کوکی‌ای ندارد."
+  },
+  "io_too_many": {
+    "message": "فایل $P1$ کوکی دارد؛ حد مجاز $P2$ است.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_issue": {
+    "message": "$P1$: $P2$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_duplicate": {
+    "message": "$P1$: مورد دیگری نام، دامنه، مسیر و پارتیشن یکسان دارد.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "when": {
+    "message": "$P1$ ($P2$)‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "when_passed": {
+    "message": "از قبل گذشته"
+  },
+  "when_under_day": {
+    "message": "کمتر از یک روز دیگر"
+  },
+  "explain_third_party": {
+    "message": "توسط $P1$ تنظیم شده، سایتی غیر از $P2$: کوکی شخص ثالث.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_third_party_partitioned": {
+    "message": "توسط $P1$ تنظیم شده، سایتی غیر از $P2$: کوکی شخص ثالث، نگهداری‌شده در پارتیشن $P2$.‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_host_prefix": {
+    "message": "پیشوند __Host- باعث می‌شود Chrome Secure، نبود ویژگی Domain و Path=/ را اجباری کند، پس هیچ زیردامنه‌ای نمی‌تواند آن را تنظیم یا جایگزین کند."
+  },
+  "explain_secure_prefix": {
+    "message": "پیشوند __Secure- باعث می‌شود Chrome آن را فقط با پرچم Secure بپذیرد."
+  },
+  "explain_scope_host": {
+    "message": "فقط به خود $P1$ ارسال می‌شود، نه به زیردامنه‌هایش.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_scope_domain": {
+    "message": "به $P1$ و هر زیردامنه آن (مثل www.$P1$) ارسال می‌شود.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_path_all": {
+    "message": "با درخواست‌ها به هر مسیر آن میزبان ارسال می‌شود."
+  },
+  "explain_path_under": {
+    "message": "فقط با درخواست‌ها به مسیرهای زیر $P1$ ارسال می‌شود.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_secure": {
+    "message": "Secure: فقط روی HTTPS ارسال می‌شود."
+  },
+  "explain_not_secure": {
+    "message": "غیر Secure: روی HTTP ساده هم ارسال می‌شود، جایی که هر کس در شبکه می‌تواند آن را بخواند."
+  },
+  "explain_httponly": {
+    "message": "HttpOnly: برای جاوااسکریپت صفحه نامرئی است (document.cookie نمی‌تواند آن را بخواند) و آن را از اسکریپت‌های تزریق‌شده دور نگه می‌دارد."
+  },
+  "explain_script_readable": {
+    "message": "هر اسکریپتی که در صفحه اجرا شود می‌تواند آن را بخواند و تغییر دهد."
+  },
+  "explain_samesite_none": {
+    "message": "SameSite=None: ممکن است با درخواست‌های بین‌سایتی هم ارسال شود (قاب‌های جاسازی‌شده، تصویرها، درخواست‌های سایت‌های دیگر)، هرجا Chrome کوکی شخص ثالث را اصلاً اجازه دهد (حالت ناشناس به‌طور پیش‌فرض مسدودشان می‌کند). به همین دلیل باید Secure باشد."
+  },
+  "explain_samesite_lax": {
+    "message": "SameSite=Lax: وقتی به سایت می‌روید ارسال می‌شود، از جمله از پیوندی در سایت دیگر، اما نه با درخواست‌هایی که صفحه‌های سایت‌های دیگر در پس‌زمینه می‌زنند."
+  },
+  "explain_samesite_strict": {
+    "message": "SameSite=Strict: فقط وقتی ارسال می‌شود که از قبل در همان سایت باشید. اگر از پیوند سایت دیگری بیایید، درخواست اول بدون آن می‌رود."
+  },
+  "explain_samesite_unset": {
+    "message": "بدون ویژگی SameSite: Chrome آن را Lax حساب می‌کند."
+  },
+  "explain_session": {
+    "message": "کوکی نشست: با بسته شدن مرورگر حذف می‌شود (مگر اینکه Chrome هنگام شروع نشست قبلی شما را بازیابی کند).‏"
+  },
+  "explain_expires": {
+    "message": "انقضا: $P1$. Chrome هر انقضا را حداکثر ۴۰۰ روز پس از آخرین تنظیم کوکی محدود می‌کند.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition": {
+    "message": "پارتیشن‌بندی‌شده (CHIPS): برای هر سایت سطح بالا جداگانه ذخیره می‌شود. این نسخه فقط وقتی ارسال می‌شود که $P1$ سایت نوار نشانی باشد.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition_cross": {
+    "message": "در بخش بین‌سایتی آن پارتیشن است (جایی که سایت دیگری بین صفحه و سایت این کوکی قرار دارد) و از بخش همان‌سایت جداست."
+  },
+  "explain_partition_same": {
+    "message": "در بخش همان‌سایت آن پارتیشن است و از بخش بین‌سایتی جداست."
+  },
+  "explain_partition_other": {
+    "message": "کوکی هم‌نام زیر سایت دیگر، کوکی متفاوتی است."
+  },
+  "explain_jwt": {
+    "message": "مقدار شبیه JSON Web Token است."
+  },
+  "explain_jwt_exp": {
+    "message": "مقدار شبیه JSON Web Token است؛ خود توکن می‌گوید انقضایش $P1$ است.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_size": {
+    "message": "$P1$ از ۴۰۹۶ بایتی که Chrome برای مجموع نام و مقدار مجاز می‌داند.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

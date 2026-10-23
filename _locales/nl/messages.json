@@ -1,0 +1,2215 @@
+{
+  "extension_name": {
+    "message": "Cookie-editor: cookies bekijken, bewerken, verwijderen | CookieDesk"
+  },
+  "extension_description": {
+    "message": "Bekijk, bewerk, voeg toe en wis cookies per site. Zoeken, import/export, gepartitioneerde cookies. Geen advertenties of tracking."
+  },
+  "btn_ok": {
+    "message": "OK"
+  },
+  "btn_cancel": {
+    "message": "Annuleren"
+  },
+  "btn_close": {
+    "message": "Sluiten"
+  },
+  "btn_delete": {
+    "message": "Verwijderen"
+  },
+  "btn_copy": {
+    "message": "Kopiëren"
+  },
+  "btn_save": {
+    "message": "Opslaan"
+  },
+  "btn_export": {
+    "message": "Exporteren"
+  },
+  "btn_later": {
+    "message": "Later"
+  },
+  "dismiss": {
+    "message": "Sluiten"
+  },
+  "back": {
+    "message": "Terug"
+  },
+  "back_esc": {
+    "message": "Terug (Esc)"
+  },
+  "back_to_list": {
+    "message": "Terug naar de lijst"
+  },
+  "title_count": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "empty_name": {
+    "message": "(lege naam)"
+  },
+  "empty_value": {
+    "message": "(lege waarde)"
+  },
+  "empty_short": {
+    "message": "(leeg)"
+  },
+  "names_more": {
+    "message": "$P1$ en $P2$ meer",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "done": {
+    "message": "Klaar"
+  },
+  "undo": {
+    "message": "Ongedaan maken"
+  },
+  "undo_nothing": {
+    "message": "Niets om ongedaan te maken"
+  },
+  "undo_entry": {
+    "message": "Ongedaan maken: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_interrupted": {
+    "message": "Ongedaan maken onderbroken: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "redo_entry": {
+    "message": "Opnieuw: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "support_title": {
+    "message": "Steun CookieDesk op Ko-fi"
+  },
+  "supporter_title": {
+    "message": "Bedankt voor je steun aan CookieDesk!"
+  },
+  "add_cookie": {
+    "message": "Cookie toevoegen"
+  },
+  "add_cookie_title": {
+    "message": "Cookie toevoegen (n)"
+  },
+  "more_actions": {
+    "message": "Meer acties"
+  },
+  "menu_group_transfer": {
+    "message": "Exporteren en importeren"
+  },
+  "menu_group_sets": {
+    "message": "Cookiesets"
+  },
+  "export_json_title": {
+    "message": "Exporteren als JSON"
+  },
+  "export_txt_title": {
+    "message": "Exporteren als Netscape cookies.txt"
+  },
+  "tile_snippet": {
+    "message": "Snippet"
+  },
+  "tile_snippet_title": {
+    "message": "Kopiëren als document.cookie-snippet"
+  },
+  "tile_import": {
+    "message": "Importeren"
+  },
+  "tile_import_title": {
+    "message": "JSON of cookies.txt importeren"
+  },
+  "tile_save_set": {
+    "message": "Set opslaan"
+  },
+  "tile_save_set_title": {
+    "message": "Deze cookies opslaan als set-bestand met een naam"
+  },
+  "tile_restore": {
+    "message": "Herstellen"
+  },
+  "tile_restore_title": {
+    "message": "Een opgeslagen set herstellen (eerst voorbeeld)"
+  },
+  "tile_compare": {
+    "message": "Vergelijken"
+  },
+  "tile_compare_title": {
+    "message": "Een opgeslagen set met nu vergelijken, of twee sets"
+  },
+  "tile_copy_to": {
+    "message": "Kopiëren naar…"
+  },
+  "tile_copy_to_title": {
+    "message": "De getoonde cookies naar een andere opslag kopiëren (normaal ↔ incognito)"
+  },
+  "menu_bulk_delete": {
+    "message": "Getoonde cookies verwijderen…"
+  },
+  "menu_access": {
+    "message": "Toegang en instellingen"
+  },
+  "menu_shortcuts": {
+    "message": "Sneltoetsen"
+  },
+  "menu_sidepanel": {
+    "message": "Openen in zijpaneel"
+  },
+  "menu_rate": {
+    "message": "CookieDesk beoordelen"
+  },
+  "menu_support": {
+    "message": "Steunen op Ko-fi"
+  },
+  "search_placeholder": {
+    "message": "Cookies zoeken"
+  },
+  "search_label": {
+    "message": "Cookies filteren op naam, waarde of domein"
+  },
+  "search_title": {
+    "message": "Filteren op naam, waarde of domein"
+  },
+  "cookie_store": {
+    "message": "Cookieopslag"
+  },
+  "cookies_list": {
+    "message": "Cookies"
+  },
+  "restricted_page": {
+    "message": "Beperkte pagina"
+  },
+  "loading": {
+    "message": "Laden…"
+  },
+  "state_unknown": {
+    "message": "Klik op de CookieDesk-knop in de werkbalk om de cookies van dit tabblad te tonen."
+  },
+  "state_unknown_hint": {
+    "message": "Chrome deelt het adres van een tabblad pas na die klik, of voor sites die je hebt toegestaan."
+  },
+  "state_error": {
+    "message": "Er ging iets mis: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "state_no_access": {
+    "message": "CookieDesk heeft nog geen toegang tot $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "grant_site": {
+    "message": "Toestaan op $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "chrome_will_ask": {
+    "message": "Chrome vraagt dan:"
+  },
+  "prompt_site": {
+    "message": "Je gegevens op alle $P1$-sites lezen en wijzigen",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "prompt_all": {
+    "message": "Al je gegevens op alle websites lezen en wijzigen"
+  },
+  "only_this_site": {
+    "message": "Alleen de cookies van deze site, verder niets."
+  },
+  "allow_all_instead": {
+    "message": "Liever alle sites toestaan"
+  },
+  "restricted_browser": {
+    "message": "Dit is een Chrome-pagina. Chrome staat geen enkele extensie toe hier cookies te lezen of te wijzigen."
+  },
+  "restricted_webstore": {
+    "message": "Dit is de Chrome Web Store. Chrome blokkeert alle extensies hier, dus de cookies kunnen niet worden getoond."
+  },
+  "restricted_extension": {
+    "message": "Dit is de eigen pagina van een extensie. De opslag bestaat niet uit cookies van een website, dus er valt niets te tonen."
+  },
+  "restricted_file": {
+    "message": "Dit is een lokaal bestand. Bestanden die van schijf worden geopend hebben geen cookies."
+  },
+  "restricted_other": {
+    "message": "Deze pagina is geen website (bijvoorbeeld een lege pagina of data:), dus er zijn geen cookies."
+  },
+  "live_just_now": {
+    "message": "Zojuist: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "note_third_party": {
+    "message": "Cookies van ingesloten sites worden alleen getoond voor sites die je hebt toegestaan."
+  },
+  "note_no_partitions": {
+    "message": "Jouw versie van Chrome kan gepartitioneerde cookies niet tonen, dus deze lijst kan onvolledig zijn."
+  },
+  "empty_no_match": {
+    "message": "Geen cookies gevonden voor “$P1$”.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "empty_none": {
+    "message": "Geen cookies voor $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clear_search": {
+    "message": "Zoekopdracht wissen"
+  },
+  "change_changed": {
+    "message": "$P1$ gewijzigd",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_added": {
+    "message": "$P1$ toegevoegd",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_removed": {
+    "message": "$P1$ verwijderd",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_one": {
+    "message": "$P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_other": {
+    "message": "$P1$ cookies",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_filtered_one": {
+    "message": "$P2$ van $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_filtered_other": {
+    "message": "$P2$ van $P1$ cookies",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_partitioned": {
+    "message": "$P1$ gepartitioneerd",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "store_default": {
+    "message": "Standaard"
+  },
+  "store_incognito": {
+    "message": "Incognito"
+  },
+  "store_n": {
+    "message": "Opslag $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "session": {
+    "message": "Sessie"
+  },
+  "expired": {
+    "message": "Verlopen"
+  },
+  "expiry_under_minute": {
+    "message": "binnen een minuut"
+  },
+  "expiry_on_close": {
+    "message": "Verwijderd zodra de browser sluit"
+  },
+  "expires_at": {
+    "message": "Verloopt $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "badge_protected": {
+    "message": "Beschermd: bulksgewijs verwijderen, importeren en set herstellen laten hem met rust (p)"
+  },
+  "hint_httponly": {
+    "message": "HttpOnly: niet zichtbaar voor JavaScript op de pagina (document.cookie kan hem niet lezen)"
+  },
+  "hint_secure": {
+    "message": "Secure: wordt alleen via HTTPS verstuurd"
+  },
+  "hint_samesite_none": {
+    "message": "SameSite=None: wordt ook verstuurd bij verzoeken tussen sites"
+  },
+  "hint_samesite_lax": {
+    "message": "SameSite=Lax: wordt verstuurd bij navigatie op topniveau, niet bij subverzoeken tussen sites"
+  },
+  "hint_samesite_strict": {
+    "message": "SameSite=Strict: wordt alleen verstuurd bij verzoeken binnen dezelfde site"
+  },
+  "badge_partitioned": {
+    "message": "Gepartitioneerd"
+  },
+  "partitioned_under": {
+    "message": "Gepartitioneerd onder $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partition_this_site": {
+    "message": "deze site"
+  },
+  "partition_cross_site": {
+    "message": "$P1$, context tussen sites",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "row_protected": {
+    "message": "Beschermd"
+  },
+  "row_unprotect_title": {
+    "message": "Bescherming opheffen (p)"
+  },
+  "row_protect_title": {
+    "message": "Beschermen tegen bulksgewijs verwijderen, importeren en set herstellen (p)"
+  },
+  "copy_value": {
+    "message": "Waarde kopiëren"
+  },
+  "copied": {
+    "message": "Gekopieerd"
+  },
+  "copy_value_title": {
+    "message": "Waarde kopiëren (c)"
+  },
+  "row_delete_title": {
+    "message": "Verwijderen (Del), ongedaan te maken"
+  },
+  "irreversible_title": {
+    "message": "Dit kan niet ongedaan worden gemaakt"
+  },
+  "continue_no_undo": {
+    "message": "Doorgaan zonder ongedaan maken"
+  },
+  "undo_anyway_title": {
+    "message": "Toch ongedaan maken?"
+  },
+  "undo_anyway": {
+    "message": "Toch ongedaan maken"
+  },
+  "undone": {
+    "message": "Ongedaan gemaakt: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_skipped": {
+    "message": "Sommige cookies waren al verlopen en zijn niet hersteld: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_refused": {
+    "message": "Chrome accepteert deze cookies niet meer zoals ze waren, dus ze zijn niet hersteld: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clipboard_failed": {
+    "message": "Kopiëren mislukt: het klembord is hier niet beschikbaar."
+  },
+  "protected_on": {
+    "message": "\"$P1$\" beschermd: bulksgewijs verwijderen, importeren en set herstellen laten hem met rust.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_off": {
+    "message": "\"$P1$\" is niet langer beschermd.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protect_limit": {
+    "message": "Je kunt maximaal $P1$ cookies beschermen. Hef eerst bij enkele de bescherming op.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_named": {
+    "message": "\"$P1$\" verwijderen?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_protected_message": {
+    "message": "Deze cookie is beschermd. Toch verwijderen? Je kunt dit ongedaan maken."
+  },
+  "nothing_to_delete": {
+    "message": "Niets te verwijderen"
+  },
+  "all_shown_protected_one": {
+    "message": "De getoonde cookie is beschermd."
+  },
+  "all_shown_protected_other": {
+    "message": "Alle $P1$ getoonde cookies zijn beschermd.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "no_cookies_shown": {
+    "message": "Er worden geen cookies getoond."
+  },
+  "bulk_title_one": {
+    "message": "$P1$ cookie verwijderen?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_title_other": {
+    "message": "$P1$ cookies verwijderen?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_match": {
+    "message": "Deze cookies komen overeen met \"$P1$\" op $P2$. Je kunt dit ongedaan maken.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "bulk_all": {
+    "message": "Elke cookie in de lijst voor $P1$. Je kunt dit ongedaan maken.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_one": {
+    "message": "$P1$ beschermde cookie blijft behouden.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_other": {
+    "message": "$P1$ beschermde cookies blijven behouden.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_one": {
+    "message": "$P1$ cookie verwijderen",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_other": {
+    "message": "$P1$ cookies verwijderen",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_to": {
+    "message": "Kopiëren naar"
+  },
+  "copy_to_default_note": {
+    "message": "Cookies die naar de standaardopslag worden gekopieerd blijven net als elke andere cookie op schijf staan, ook nadat deze incognitosessie eindigt."
+  },
+  "copy_to_incognito_note": {
+    "message": "Cookies die naar een incognitoopslag worden gekopieerd verdwijnen met die incognitosessie."
+  },
+  "copy_title_one": {
+    "message": "$P1$ cookie kopiëren",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_title_other": {
+    "message": "$P1$ cookies kopiëren",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_from": {
+    "message": "Van opslag $P1$ naar:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_replace_note": {
+    "message": "Cookies met dezelfde naam, hetzelfde domein en hetzelfde pad worden daar vervangen, behalve beschermde. Je kunt het kopiëren ongedaan maken."
+  },
+  "label_copied_one": {
+    "message": "$P1$ cookie gekopieerd naar $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_copied_other": {
+    "message": "$P1$ cookies gekopieerd naar $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_kept_one": {
+    "message": "$P1$ beschermde cookie daar is ongewijzigd gelaten.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_kept_other": {
+    "message": "$P1$ beschermde cookies daar zijn ongewijzigd gelaten.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_done_one": {
+    "message": "$P1$ cookie gekopieerd naar $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_done_other": {
+    "message": "$P1$ cookies gekopieerd naar $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_undo_hint": {
+    "message": "Maak het hier ongedaan, of later vanuit opslag $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_nothing": {
+    "message": "$P1$ heeft deze cookies al precies zo.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_cant": {
+    "message": "Vergelijken niet mogelijk"
+  },
+  "compare_now": {
+    "message": "$P1$ nu",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_other_site": {
+    "message": "Deze set is opgeslagen voor $P1$, niet voor $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "compare_too_many": {
+    "message": "Kies één set om met nu te vergelijken, of twee sets om met elkaar te vergelijken."
+  },
+  "set_file_too_large": {
+    "message": "$P1$ is te groot voor een cookieset.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_aria": {
+    "message": "Cookiesets vergelijken"
+  },
+  "compare_changed_fields": {
+    "message": "Gewijzigd: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_one": {
+    "message": "Geen verschillen: $P1$ cookie identiek.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_other": {
+    "message": "Geen verschillen: $P1$ cookies identiek.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_summary": {
+    "message": "$P1$ toegevoegd, $P2$ verwijderd, $P3$ gewijzigd, $P4$ ongewijzigd.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      },
+      "p4": {
+        "content": "$4"
+      }
+    }
+  },
+  "diff_added": {
+    "message": "Toegevoegd"
+  },
+  "diff_removed": {
+    "message": "Verwijderd"
+  },
+  "diff_changed": {
+    "message": "Gewijzigd"
+  },
+  "diff_expiry_only": {
+    "message": "Alleen de verloopdatum is gewijzigd ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "shortcuts_title": {
+    "message": "Sneltoetsen"
+  },
+  "key_search": {
+    "message": "Zoeken"
+  },
+  "key_move": {
+    "message": "Door de lijst bewegen"
+  },
+  "key_first_last": {
+    "message": "Eerste / laatste cookie"
+  },
+  "key_edit": {
+    "message": "Bewerken"
+  },
+  "key_copy": {
+    "message": "Waarde kopiëren"
+  },
+  "key_protect": {
+    "message": "Beschermen / bescherming opheffen"
+  },
+  "key_delete": {
+    "message": "Verwijderen (ongedaan te maken)"
+  },
+  "key_back": {
+    "message": "Terug, of zoekopdracht wissen"
+  },
+  "key_help": {
+    "message": "Deze lijst"
+  },
+  "import_kept_one": {
+    "message": "$P1$ beschermde cookie ongewijzigd gelaten: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_kept_other": {
+    "message": "$P1$ beschermde cookies ongewijzigd gelaten: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_nothing": {
+    "message": "Niets te importeren: elke cookie in het bestand is al precies zo ingesteld."
+  },
+  "imported_one": {
+    "message": "$P1$ cookie geïmporteerd.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "imported_other": {
+    "message": "$P1$ cookies geïmporteerd.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_restored": {
+    "message": "Set \"$P1$\" hersteld",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restored_one": {
+    "message": "\"$P2$\" hersteld: $P1$ cookie geschreven, $P3$ verwijderd.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "restored_other": {
+    "message": "\"$P2$\" hersteld: $P1$ cookies geschreven, $P3$ verwijderd.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "rate_title": {
+    "message": "Bevalt CookieDesk?"
+  },
+  "rate_text": {
+    "message": "Een snelle beoordeling helpt anderen het te vinden."
+  },
+  "rate_group": {
+    "message": "Beoordelen in de store"
+  },
+  "rate_stars_one": {
+    "message": "$P1$ ster",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "rate_stars_other": {
+    "message": "$P1$ sterren",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_confirm_title": {
+    "message": "Heb je een koffie voor me gekocht?"
+  },
+  "kofi_confirm_text": {
+    "message": "Bedankt, daarmee blijft CookieDesk draaien."
+  },
+  "kofi_yes": {
+    "message": "Ja, gedaan"
+  },
+  "kofi_not_yet": {
+    "message": "Nog niet"
+  },
+  "kofi_milestone_one": {
+    "message": "$P1$ wijziging gemaakt met CookieDesk!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_milestone_other": {
+    "message": "$P1$ wijzigingen gemaakt met CookieDesk!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_free": {
+    "message": "Het is gratis en gemaakt door één ontwikkelaar."
+  },
+  "buy_coffee": {
+    "message": "Koop een koffie voor me"
+  },
+  "edit_cookie": {
+    "message": "Cookie bewerken"
+  },
+  "add_cookie_short": {
+    "message": "Cookie toevoegen"
+  },
+  "explain_title": {
+    "message": "Wat deze cookie doet"
+  },
+  "field_name": {
+    "message": "Naam"
+  },
+  "field_value": {
+    "message": "Waarde"
+  },
+  "field_domain": {
+    "message": "Domein"
+  },
+  "field_path": {
+    "message": "Pad"
+  },
+  "field_expiry": {
+    "message": "Verloopdatum"
+  },
+  "field_expires": {
+    "message": "Verloopt"
+  },
+  "field_attributes": {
+    "message": "Kenmerken"
+  },
+  "field_partition": {
+    "message": "Partitie"
+  },
+  "host_only": {
+    "message": "Alleen host"
+  },
+  "host_only_title": {
+    "message": "Alleen host: geen Domain-kenmerk, dus subdomeinen krijgen hem niet"
+  },
+  "session_title": {
+    "message": "Sessiecookie: weg zodra de browser sluit"
+  },
+  "httponly_title": {
+    "message": "HttpOnly: niet zichtbaar voor JavaScript op de pagina"
+  },
+  "samesite_unspecified": {
+    "message": "Niet opgegeven"
+  },
+  "partitioned_chips": {
+    "message": "Gepartitioneerd (CHIPS)"
+  },
+  "top_level_site": {
+    "message": "Site op topniveau"
+  },
+  "no_partition_write": {
+    "message": "Deze versie van Chrome kan geen gepartitioneerde cookies schrijven."
+  },
+  "editor_delete_title": {
+    "message": "Verwijderen (ongedaan te maken)"
+  },
+  "bytes_of": {
+    "message": "$P1$ / $P2$ bytes",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "access_aria": {
+    "message": "Toegang en instellingen"
+  },
+  "all_sites_on": {
+    "message": "Alle sites: aan"
+  },
+  "all_sites_on_text": {
+    "message": "CookieDesk kan cookies op elke site lezen en wijzigen, ook ingesloten sites."
+  },
+  "turn_off": {
+    "message": "Uitzetten"
+  },
+  "all_sites": {
+    "message": "Alle sites"
+  },
+  "all_sites_text": {
+    "message": "Optioneel. Geen vragen per site meer, en cookies van ingesloten sites (advertenties, widgets, inlogframes) worden overal getoond."
+  },
+  "allow_all_sites": {
+    "message": "Op alle sites toestaan"
+  },
+  "remove_access": {
+    "message": "Toegang tot $P1$ intrekken",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "access_lead": {
+    "message": "CookieDesk ziet de cookies van een site pas nadat je die site toestaat, en verder niets: geen pagina-inhoud, geen geschiedenis."
+  },
+  "allowed_sites": {
+    "message": "Toegestane sites"
+  },
+  "allowed_sites_count": {
+    "message": "Toegestane sites · $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "all_sites_overrides": {
+    "message": "Toegang tot alle sites staat aan, dus deze maken niet uit zolang dat zo blijft."
+  },
+  "none_yet": {
+    "message": "Nog geen."
+  },
+  "toolbar_opens": {
+    "message": "De werkbalkknop opent"
+  },
+  "surface_popup": {
+    "message": "Pop-up"
+  },
+  "surface_sidepanel": {
+    "message": "Zijpaneel"
+  },
+  "support_feedback": {
+    "message": "Ondersteuning en feedback"
+  },
+  "thanks_supporting": {
+    "message": "Bedankt voor je steun!"
+  },
+  "report_problem": {
+    "message": "Probleem melden"
+  },
+  "source_code": {
+    "message": "Broncode"
+  },
+  "privacy_line": {
+    "message": "Geen netwerkverzoeken, geen cookiewaarden op schijf. Ongedaan maken werkt 10 minuten; de kopieën staan in het geheugen en zijn weg zodra Chrome sluit of de incognitosessie eindigt."
+  },
+  "export_warning": {
+    "message": "Dit bestand bevat actieve sessiecookies. Wie het heeft, kan op deze sites als jou inloggen. Behandel het als een wachtwoord en verwijder het als je klaar bent."
+  },
+  "export_json_one": {
+    "message": "$P1$ cookie exporteren als JSON",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_json_other": {
+    "message": "$P1$ cookies exporteren als JSON",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_one": {
+    "message": "$P1$ cookie exporteren als cookies.txt",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_other": {
+    "message": "$P1$ cookies exporteren als cookies.txt",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_all_one": {
+    "message": "De cookie in de lijst voor $P2$ gaat het bestand in, ook als hij HttpOnly is.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_all_other": {
+    "message": "Alle $P1$ cookies in de lijst voor $P2$ gaan het bestand in, ook HttpOnly-cookies.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_partitioned_left_one": {
+    "message": "$P1$ gepartitioneerde cookie weggelaten: cookies.txt kan geen partities opslaan. Gebruik JSON om hem te bewaren.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_partitioned_left_other": {
+    "message": "$P1$ gepartitioneerde cookies weggelaten: cookies.txt kan geen partities opslaan. Gebruik JSON om ze te bewaren.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_too_big": {
+    "message": "Dit bestand is $P1$ MB. Cookie-exports zijn veel kleiner; CookieDesk leest bestanden tot 5 MB.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "cant_import_unchanged": {
+    "message": "Dit bestand kan niet worden geïmporteerd. Er is niets gewijzigd."
+  },
+  "cant_import": {
+    "message": "Dit bestand kan niet worden geïmporteerd"
+  },
+  "file_unreadable": {
+    "message": "Het bestand kon niet worden gelezen."
+  },
+  "needs_access_one": {
+    "message": "CookieDesk heeft toegang nodig tot nog $P1$ site voordat het deze cookies kan schrijven:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "needs_access_other": {
+    "message": "CookieDesk heeft toegang nodig tot nog $P1$ sites voordat het deze cookies kan schrijven:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_allow_all_hint": {
+    "message": "Of sta alle sites toe onder Toegang en instellingen."
+  },
+  "other_sites": {
+    "message": "Andere sites ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "other_sites_warning": {
+    "message": "Dit bestand schrijft ook cookies voor andere sites dan $P1$. Een cookie die op een andere site is geplaatst, kan je daar in het verkeerde account laten inloggen. Ga alleen door als je deze sites verwachtte.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_one": {
+    "message": "Ook cookies voor $P1$ andere site schrijven",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_other": {
+    "message": "Ook cookies voor $P1$ andere sites schrijven",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partitioned_under_list": {
+    "message": "Gepartitioneerd onder: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "warnings_count": {
+    "message": "Waarschuwingen ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_title": {
+    "message": "Cookies importeren"
+  },
+  "import_message_one": {
+    "message": "$P1$ cookie importeren? Cookies met dezelfde naam, hetzelfde domein en hetzelfde pad worden vervangen. Je kunt de hele import ongedaan maken.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_message_other": {
+    "message": "$P1$ cookies importeren? Cookies met dezelfde naam, hetzelfde domein en hetzelfde pad worden vervangen. Je kunt de hele import ongedaan maken.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_one": {
+    "message": "$P1$ cookie kopiëren als document.cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_other": {
+    "message": "$P1$ cookies kopiëren als document.cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_warning": {
+    "message": "De snippet bevat actieve sessiecookies. Wie hem heeft, kan op deze site als jou inloggen. Behandel hem als een wachtwoord."
+  },
+  "snippet_paste": {
+    "message": "Plak hem in de DevTools-console op $P1$ om deze cookies daar in te stellen.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_one": {
+    "message": "$P1$ HttpOnly-cookie weggelaten: JavaScript op de pagina kan hem niet instellen.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_other": {
+    "message": "$P1$ HttpOnly-cookies weggelaten: JavaScript op de pagina kan ze niet instellen.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_one": {
+    "message": "$P1$ cookie gekopieerd als document.cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_other": {
+    "message": "$P1$ cookies gekopieerd als document.cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_name": {
+    "message": "Setnaam"
+  },
+  "set_name_placeholder": {
+    "message": "bijv. ingelogd als admin"
+  },
+  "save_set_title_one": {
+    "message": "$P1$ cookie opslaan als set",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "save_set_title_other": {
+    "message": "$P1$ cookies opslaan als set",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_file_note": {
+    "message": "De set is een bestand op je computer; CookieDesk bewaart geen kopie. Herstel hem later via het menu op $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "default_set_name": {
+    "message": "Cookieset"
+  },
+  "set_too_large": {
+    "message": "Dit bestand is te groot voor een cookieset."
+  },
+  "cant_restore_unchanged": {
+    "message": "Deze set kan niet worden hersteld. Er is niets gewijzigd."
+  },
+  "cant_restore": {
+    "message": "Deze set kan niet worden hersteld"
+  },
+  "wrong_site_message": {
+    "message": "Deze set is opgeslagen voor $P1$. Open $P1$ en herstel hem daar.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "wrong_site_title": {
+    "message": "Verkeerde site. Er is niets gewijzigd."
+  },
+  "foreign_cookies_one": {
+    "message": "$P1$ cookie in dit bestand hoort bij een andere site ($P2$). Een set herstellen wijzigt alleen $P3$; gebruik Importeren voor andere sites.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "foreign_cookies_other": {
+    "message": "$P1$ cookies in dit bestand horen bij andere sites ($P2$). Een set herstellen wijzigt alleen $P3$; gebruik Importeren voor andere sites.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "plan_write": {
+    "message": "Schrijven"
+  },
+  "plan_delete": {
+    "message": "Verwijderen"
+  },
+  "plan_protected": {
+    "message": "Beschermd, blijven zoals ze zijn"
+  },
+  "restore_title": {
+    "message": "\"$P1$\" herstellen",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_nothing": {
+    "message": "$P1$ komt al overeen met deze set. Niets te wijzigen.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_message_one": {
+    "message": "De cookies van $P2$ worden vervangen door de $P1$ cookie in deze set. Je kunt het hele herstel ongedaan maken.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "restore_message_other": {
+    "message": "De cookies van $P2$ worden vervangen door de $P1$ cookies in deze set. Je kunt het hele herstel ongedaan maken.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_partition_unsupported": {
+    "message": "\"$P1$\" is een gepartitioneerde cookie, die deze versie van Chrome niet kan schrijven. Werk Chrome bij naar versie 119 of hoger.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_gone": {
+    "message": "\"$P1$\" bestaat niet meer: hij is mogelijk verlopen of door de site gewijzigd. Laad de lijst opnieuw.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_stored": {
+    "message": "Chrome accepteerde \"$P1$\" maar sloeg hem niet op.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_imprecise_delete_one": {
+    "message": "Chrome kan \"$P2$\" alleen verwijderen samen met $P1$ andere cookie met dezelfde naam, dus CookieDesk verwijdert hem niet.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_imprecise_delete_other": {
+    "message": "Chrome kan \"$P2$\" alleen verwijderen samen met $P1$ andere cookies met dezelfde naam, dus CookieDesk verwijdert hem niet.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_delete": {
+    "message": "Chrome accepteert \"$P1$\" niet meer zoals hij is opgeslagen, dus na verwijderen kan hij niet worden teruggezet. Verwijderen zonder ongedaan maken?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_removed": {
+    "message": "\"$P1$\" kon niet worden verwijderd.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_no_permission": {
+    "message": "CookieDesk heeft geen toegang tot $P1$. Geef eerst toegang tot deze site.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_secure_shadow": {
+    "message": "Er bestaat al een Secure-cookie met de naam \"$P1$\" voor $P2$. Chrome staat niet toe dat een niet-Secure-cookie met dezelfde naam die vervangt of ernaast staat. Zet Secure aan of kies een andere naam.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_rejected": {
+    "message": "Chrome wees \"$P1$\" af zonder reden. Er is niets gewijzigd.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_irreversible_replace_one": {
+    "message": "Chrome accepteert $P2$ niet meer zoals hij is opgeslagen, dus na vervangen kan hij niet worden teruggezet. Doorgaan zonder ongedaan maken?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_replace_other": {
+    "message": "Chrome accepteert $P2$ niet meer zoals ze zijn opgeslagen, dus na vervangen kunnen ze niet worden teruggezet. Doorgaan zonder ongedaan maken?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_too_large_to_undo": {
+    "message": "Deze wijziging raakt te veel gegevens ($P1$ KB) om een kopie voor ongedaan maken te bewaren. Doorgaan zonder ongedaan maken?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_duplicate_in_file": {
+    "message": "Het bestand bevat \"$P1$\" twee keer voor hetzelfde domein en pad.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_undo_expired": {
+    "message": "Niets om ongedaan te maken: ongedaan maken blijft 10 minuten beschikbaar."
+  },
+  "err_undo_conflict": {
+    "message": "$P1$ is gewijzigd na \"$P2$\". Nu ongedaan maken overschrijft de nieuwere waarde. Toch ongedaan maken?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_incomplete": {
+    "message": "Onvolledig: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_added": {
+    "message": "\"$P1$\" toegevoegd",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_edited": {
+    "message": "\"$P1$\" bewerkt",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted": {
+    "message": "\"$P1$\" verwijderd",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_expired": {
+    "message": "\"$P1$\" verwijderd (verloopdatum in het verleden)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_one": {
+    "message": "$P1$ cookie verwijderd",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_other": {
+    "message": "$P1$ cookies verwijderd",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_one": {
+    "message": "$P1$ cookie geïmporteerd",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_other": {
+    "message": "$P1$ cookies geïmporteerd",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_undid": {
+    "message": "Ongedaan gemaakt: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_saved": {
+    "message": "\"$P1$\" opgeslagen",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_draft": {
+    "message": "De cookie moet een object zijn met name, value, domain en path."
+  },
+  "v_name_type": {
+    "message": "De cookienaam moet tekst zijn."
+  },
+  "v_value_type": {
+    "message": "De cookiewaarde moet tekst zijn."
+  },
+  "v_domain_type": {
+    "message": "Het domein moet tekst zijn."
+  },
+  "v_path_type": {
+    "message": "Het pad moet tekst zijn."
+  },
+  "v_flag_type": {
+    "message": "$P1$ moet true of false zijn.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_samesite": {
+    "message": "SameSite moet een van deze zijn: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_name_control": {
+    "message": "De naam bevat stuurtekens (zoals een nieuwe regel of tab), die cookies niet kunnen bevatten."
+  },
+  "v_name_semicolon": {
+    "message": "De naam bevat \";\", waardoor de cookie te vroeg zou eindigen."
+  },
+  "v_name_equals": {
+    "message": "De naam bevat \"=\", dat in een cookie de naam van de waarde scheidt."
+  },
+  "v_value_control": {
+    "message": "De waarde bevat stuurtekens (zoals een nieuwe regel of tab), die cookies niet kunnen bevatten."
+  },
+  "v_value_semicolon": {
+    "message": "De waarde bevat \";\", waardoor de cookie te vroeg zou eindigen. Codeer hem (bijvoorbeeld met encodeURIComponent)."
+  },
+  "v_empty_cookie": {
+    "message": "Een cookie heeft een naam of een waarde nodig; beide zijn leeg."
+  },
+  "v_empty_name": {
+    "message": "Deze cookie heeft een lege naam. Sommige sites en tools gaan slecht om met cookies zonder naam."
+  },
+  "v_too_large": {
+    "message": "Naam en waarde samen zijn $P1$ bytes (UTF-8); Chrome staat maximaal $P2$ toe.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "v_path_slash": {
+    "message": "Het pad moet beginnen met \"/\"."
+  },
+  "v_path_too_long": {
+    "message": "Het pad is langer dan $P1$ bytes.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_path_chars": {
+    "message": "Het pad bevat stuurtekens of \";\", die cookies niet kunnen bevatten."
+  },
+  "v_domain_empty": {
+    "message": "Het domein is leeg. Vul de site in waartoe de cookie behoort, bijvoorbeeld example.com."
+  },
+  "v_domain_too_long": {
+    "message": "Het domein is langer dan $P1$ bytes.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_domain_invalid": {
+    "message": "Het domein is geen geldige hostnaam. Gebruik letters, cijfers en koppeltekens gescheiden door punten (internationale namen moeten in punycode, zoals xn--...)."
+  },
+  "v_domain_leading_dot": {
+    "message": "Een cookie voor alleen de host mag geen punt vooraan in het domein hebben; de punt betekent dat de cookie ook voor subdomeinen geldt."
+  },
+  "v_domain_public_suffix": {
+    "message": "\"$P1$\" is een publiek achtervoegsel (een door een register beheerd domein zoals .com of .co.uk), dus browsers weigeren cookies die voor het hele domein gelden.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_samesite_none_insecure": {
+    "message": "SameSite=None-cookies moeten Secure zijn, anders wijst Chrome ze af. Zet Secure aan of kies een andere SameSite."
+  },
+  "v_partitioned_insecure": {
+    "message": "Gepartitioneerde cookies moeten Secure zijn, anders wijst Chrome ze af. Zet Secure aan of verwijder de partitie."
+  },
+  "v_prefix_secure": {
+    "message": "Cookies met de naam \"$P1$...\" moeten Secure zijn. Zet Secure aan of geef de cookie een andere naam.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_host_prefix_domain": {
+    "message": "Cookies met de naam \"__Host-...\" moeten alleen-host zijn (geen Domain-kenmerk, dus niet gedeeld met subdomeinen). Zet alleen-host aan of geef de cookie een andere naam."
+  },
+  "v_host_prefix_path": {
+    "message": "Cookies met de naam \"__Host-...\" moeten het pad \"/\" hebben."
+  },
+  "v_bad_expiration": {
+    "message": "De verloopdatum moet een eindig aantal seconden sinds 1970 zijn."
+  },
+  "v_expired_deletes": {
+    "message": "Opslaan met een verloopdatum in het verleden verwijdert deze cookie."
+  },
+  "v_clamped": {
+    "message": "Chrome beperkt de levensduur van een cookie tot $P1$ dagen; een latere verloopdatum wordt bij het opslaan ingekort.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_expiration_missing": {
+    "message": "Een cookie die geen sessiecookie is, heeft een verloopdatum nodig. Kies er een of maak er een sessiecookie van."
+  },
+  "v_partition_type": {
+    "message": "De partitiesleutel moet een object met een topLevelSite zijn."
+  },
+  "v_partition_site_type": {
+    "message": "De site op topniveau van de partitie moet tekst zijn zoals https://example.com."
+  },
+  "v_partition_site_form": {
+    "message": "De site op topniveau van de partitie moet eruitzien als https://example.com (https, zonder pad of poort)."
+  },
+  "v_partition_flag": {
+    "message": "De hasCrossSiteAncestor van de partitie moet true of false zijn."
+  },
+  "v_partition_cross_site": {
+    "message": "Het domein van de cookie staat niet op dezelfde site als $P1$, dus Chrome eist dat hasCrossSiteAncestor hiervoor true is.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_other_site": {
+    "message": "Het domein van deze cookie ($P1$) valt buiten de huidige site ($P2$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_entry": {
+    "message": "Item $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_entry_named": {
+    "message": "Item $P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_bad_samesite": {
+    "message": "$P1$: sameSite is niet een van no_restriction, lax, strict, unspecified.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bool": {
+    "message": "$P1$: \"$P2$\" moet true of false zijn.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_text": {
+    "message": "$P1$: \"$P2$\" moet tekst zijn.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_not_object": {
+    "message": "$P1$ is geen cookie-object.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_expiration_type": {
+    "message": "$P1$: \"expirationDate\" moet een getal zijn.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_key": {
+    "message": "$P1$: partitionKey moet een object zijn met een topLevelSite als tekst.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_flag": {
+    "message": "$P1$: partitionKey.hasCrossSiteAncestor moet true of false zijn.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_line": {
+    "message": "Regel $P1$ is geen cookies.txt-item (verwacht: 7 velden gescheiden door tabs, gevonden: $P2$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_line_flag_subdomains": {
+    "message": "Regel $P1$: de subdomeinvlag moet TRUE of FALSE zijn.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_flag_secure": {
+    "message": "Regel $P1$: de secure-vlag moet TRUE of FALSE zijn.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_expiry": {
+    "message": "Regel $P1$: de verloopdatum moet een geheel aantal seconden zijn.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_not_text": {
+    "message": "Het bestand kon niet als tekst worden gelezen."
+  },
+  "io_too_large": {
+    "message": "Het bestand is groter dan de importlimiet van $P1$ bytes.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_json": {
+    "message": "Het bestand lijkt op JSON maar kon niet worden verwerkt."
+  },
+  "io_bad_version": {
+    "message": "Dit CookieDesk-bestand heeft een niet-ondersteunde versie."
+  },
+  "io_no_cookie_list": {
+    "message": "Het CookieDesk-bestand heeft geen lijst \"cookies\"."
+  },
+  "io_unknown_format": {
+    "message": "Deze JSON is geen CookieDesk-export en ook geen lijst met cookies."
+  },
+  "io_no_cookies": {
+    "message": "Het bestand bevat geen cookies."
+  },
+  "io_too_many": {
+    "message": "Het bestand heeft $P1$ cookies; de limiet is $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_issue": {
+    "message": "$P1$: $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_duplicate": {
+    "message": "$P1$: een ander item heeft dezelfde naam, hetzelfde domein, hetzelfde pad en dezelfde partitie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "when": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "when_passed": {
+    "message": "al voorbij"
+  },
+  "when_under_day": {
+    "message": "binnen een dag"
+  },
+  "explain_third_party": {
+    "message": "Ingesteld door $P1$, een andere site dan $P2$: een cookie van derden.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_third_party_partitioned": {
+    "message": "Ingesteld door $P1$, een andere site dan $P2$: een cookie van derden, bewaard in de partitie van $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_host_prefix": {
+    "message": "Het voorvoegsel __Host- laat Chrome Secure eisen, geen Domain-kenmerk en Path=/, zodat geen enkel subdomein hem kan instellen of vervangen."
+  },
+  "explain_secure_prefix": {
+    "message": "Het voorvoegsel __Secure- zorgt dat Chrome hem alleen met de Secure-vlag accepteert."
+  },
+  "explain_scope_host": {
+    "message": "Wordt alleen naar $P1$ zelf verstuurd, niet naar de subdomeinen.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_scope_domain": {
+    "message": "Wordt naar $P1$ en elk subdomein ervan verstuurd (zoals www.$P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_path_all": {
+    "message": "Wordt meegestuurd met verzoeken voor elk pad op die host."
+  },
+  "explain_path_under": {
+    "message": "Wordt alleen meegestuurd met verzoeken voor paden onder $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_secure": {
+    "message": "Secure: wordt alleen via HTTPS verstuurd."
+  },
+  "explain_not_secure": {
+    "message": "Niet Secure: wordt ook via gewoon HTTP verstuurd, waar iedereen op het netwerk hem kan lezen."
+  },
+  "explain_httponly": {
+    "message": "HttpOnly: niet zichtbaar voor JavaScript op de pagina (document.cookie kan hem niet lezen), waardoor hij buiten bereik van geïnjecteerde scripts blijft."
+  },
+  "explain_script_readable": {
+    "message": "Leesbaar en wijzigbaar door elk script dat op de pagina draait."
+  },
+  "explain_samesite_none": {
+    "message": "SameSite=None: kan ook worden verstuurd bij verzoeken tussen sites (ingesloten frames, afbeeldingen, verzoeken van andere sites), voor zover Chrome cookies van derden toestaat (incognito blokkeert ze standaard). Daarom moet hij Secure zijn."
+  },
+  "explain_samesite_lax": {
+    "message": "SameSite=Lax: wordt verstuurd als je naar de site navigeert, ook via een link op een andere site, maar niet bij verzoeken die pagina's van andere sites op de achtergrond doen."
+  },
+  "explain_samesite_strict": {
+    "message": "SameSite=Strict: wordt alleen verstuurd als je al op dezelfde site bent. Kom je via een link op een andere site, dan gaat het eerste verzoek zonder hem."
+  },
+  "explain_samesite_unset": {
+    "message": "Geen SameSite-kenmerk: Chrome behandelt het als Lax."
+  },
+  "explain_session": {
+    "message": "Een sessiecookie: wordt verwijderd zodra de browser sluit (tenzij Chrome bij het opstarten je vorige sessie herstelt)."
+  },
+  "explain_expires": {
+    "message": "Verloopt $P1$. Chrome begrenst elke verloopdatum op 400 dagen vanaf het laatste instellen van de cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition": {
+    "message": "Gepartitioneerd (CHIPS): apart opgeslagen voor elke site op topniveau. Deze kopie wordt alleen verstuurd zolang $P1$ de site in de adresbalk is.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition_cross": {
+    "message": "Hij zit in het deel tussen sites van die partitie (gebruikt als een andere site tussen de pagina en de site van deze cookie zit), gescheiden van het deel van dezelfde site."
+  },
+  "explain_partition_same": {
+    "message": "Hij zit in het deel van dezelfde site van die partitie, gescheiden van het deel tussen sites."
+  },
+  "explain_partition_other": {
+    "message": "Dezelfde cookienaam onder een andere site is een andere cookie."
+  },
+  "explain_jwt": {
+    "message": "De waarde lijkt op een JSON Web Token."
+  },
+  "explain_jwt_exp": {
+    "message": "De waarde lijkt op een JSON Web Token; het token zelf geeft aan dat het verloopt $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_size": {
+    "message": "$P1$ van de 4096 bytes die Chrome toestaat voor naam en waarde samen.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

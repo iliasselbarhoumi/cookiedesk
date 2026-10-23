@@ -5,6 +5,7 @@
 // incognito session ends, so nothing about an incognito session reaches disk.
 
 import { cookieKey } from '../core/model.js';
+import { t } from '../lib/i18n.js';
 
 export const PROTECTED_KEY = 'protected';
 const LOCK = 'cookiedesk-protect';
@@ -29,7 +30,7 @@ export function setProtected(cookie, on) {
   return navigator.locks.request(LOCK, async () => {
     const keys = new Set(await read(area));
     if (on) {
-      if (!keys.has(k) && keys.size >= MAX) throw new Error(`You can protect up to ${MAX} cookies. Unprotect some first.`);
+      if (!keys.has(k) && keys.size >= MAX) throw new Error(t('protect_limit', MAX));
       keys.add(k);
     } else {
       keys.delete(k);

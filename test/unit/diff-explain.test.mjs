@@ -70,5 +70,5 @@ test('jwtInfo: recognises a JWT and reads its exp; anything else is null', () =>
   assert.deepEqual(jwtInfo(`${b64({ alg: 'none' })}.${b64({ exp: 1e20 })}.`), { exp: null }, 'absurd exp is not shown');
   for (const v of ['', 'abc', 'a.b.c', `${b64({ x: 1 })}.${b64({ exp: 1 })}.sig`, 'not.base64!!.x', `${'A'.repeat(10)}.${'B'.repeat(10)}.C`]) assert.equal(jwtInfo(v), null, v);
   const e = explainCookie(c({ value: token }), { now: NOW }).find((x) => x.topic === 'jwt');
-  assert.match(e.text, /JSON Web Token; the token itself says it expires .*\(in about 3 years\)/);
+  assert.match(e.text, /JSON Web Token; the token itself says it expires .*\(in 3 years\)/);
 });

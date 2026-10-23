@@ -1,0 +1,2215 @@
+{
+  "extension_name": {
+    "message": "ตัวแก้ไขคุกกี้: ดู แก้ไข ลบคุกกี้ | CookieDesk"
+  },
+  "extension_description": {
+    "message": "ดู แก้ไข เพิ่ม และลบคุกกี้ทีละเว็บไซต์ ค้นหา นำเข้า/ส่งออก รองรับคุกกี้แบบแบ่งพาร์ทิชัน ไม่มีโฆษณา ไม่ติดตาม"
+  },
+  "btn_ok": {
+    "message": "ตกลง"
+  },
+  "btn_cancel": {
+    "message": "ยกเลิก"
+  },
+  "btn_close": {
+    "message": "ปิด"
+  },
+  "btn_delete": {
+    "message": "ลบ"
+  },
+  "btn_copy": {
+    "message": "คัดลอก"
+  },
+  "btn_save": {
+    "message": "บันทึก"
+  },
+  "btn_export": {
+    "message": "ส่งออก"
+  },
+  "btn_later": {
+    "message": "ไว้ทีหลัง"
+  },
+  "dismiss": {
+    "message": "ปิดทิ้ง"
+  },
+  "back": {
+    "message": "กลับ"
+  },
+  "back_esc": {
+    "message": "กลับ (Esc)"
+  },
+  "back_to_list": {
+    "message": "กลับไปที่รายการ"
+  },
+  "title_count": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "empty_name": {
+    "message": "(ไม่มีชื่อ)"
+  },
+  "empty_value": {
+    "message": "(ไม่มีค่า)"
+  },
+  "empty_short": {
+    "message": "(ว่าง)"
+  },
+  "names_more": {
+    "message": "$P1$ และอีก $P2$ รายการ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "done": {
+    "message": "เสร็จสิ้น"
+  },
+  "undo": {
+    "message": "เลิกทำ"
+  },
+  "undo_nothing": {
+    "message": "ไม่มีอะไรให้เลิกทำ"
+  },
+  "undo_entry": {
+    "message": "เลิกทำ: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_interrupted": {
+    "message": "การเลิกทำถูกขัดจังหวะ: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "redo_entry": {
+    "message": "ทำซ้ำ: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "support_title": {
+    "message": "สนับสนุน CookieDesk บน Ko-fi"
+  },
+  "supporter_title": {
+    "message": "ขอบคุณที่สนับสนุน CookieDesk!"
+  },
+  "add_cookie": {
+    "message": "เพิ่มคุกกี้"
+  },
+  "add_cookie_title": {
+    "message": "เพิ่มคุกกี้ (n)"
+  },
+  "more_actions": {
+    "message": "การดำเนินการเพิ่มเติม"
+  },
+  "menu_group_transfer": {
+    "message": "ส่งออกและนำเข้า"
+  },
+  "menu_group_sets": {
+    "message": "ชุดคุกกี้"
+  },
+  "export_json_title": {
+    "message": "ส่งออกเป็น JSON"
+  },
+  "export_txt_title": {
+    "message": "ส่งออกเป็น Netscape cookies.txt"
+  },
+  "tile_snippet": {
+    "message": "สนิปเป็ต"
+  },
+  "tile_snippet_title": {
+    "message": "คัดลอกเป็นสนิปเป็ต document.cookie"
+  },
+  "tile_import": {
+    "message": "นำเข้า"
+  },
+  "tile_import_title": {
+    "message": "นำเข้า JSON หรือ cookies.txt"
+  },
+  "tile_save_set": {
+    "message": "บันทึกชุด"
+  },
+  "tile_save_set_title": {
+    "message": "บันทึกคุกกี้เหล่านี้เป็นไฟล์ชุดที่ตั้งชื่อ"
+  },
+  "tile_restore": {
+    "message": "กู้คืน"
+  },
+  "tile_restore_title": {
+    "message": "กู้คืนชุดที่บันทึกไว้ (ดูตัวอย่างก่อน)"
+  },
+  "tile_compare": {
+    "message": "เปรียบเทียบ"
+  },
+  "tile_compare_title": {
+    "message": "เปรียบเทียบชุดที่บันทึกไว้กับปัจจุบัน หรือเปรียบเทียบสองชุด"
+  },
+  "tile_copy_to": {
+    "message": "คัดลอกไปที่…"
+  },
+  "tile_copy_to_title": {
+    "message": "คัดลอกคุกกี้ที่แสดงไปยังที่เก็บอื่น (ปกติ ↔ ไม่ระบุตัวตน)"
+  },
+  "menu_bulk_delete": {
+    "message": "ลบคุกกี้ที่แสดง…"
+  },
+  "menu_access": {
+    "message": "สิทธิ์การเข้าถึงและการตั้งค่า"
+  },
+  "menu_shortcuts": {
+    "message": "ทางลัด"
+  },
+  "menu_sidepanel": {
+    "message": "เปิดในแผงด้านข้าง"
+  },
+  "menu_rate": {
+    "message": "ให้คะแนน CookieDesk"
+  },
+  "menu_support": {
+    "message": "สนับสนุนบน Ko-fi"
+  },
+  "search_placeholder": {
+    "message": "ค้นหาคุกกี้"
+  },
+  "search_label": {
+    "message": "กรองคุกกี้ตามชื่อ ค่า หรือโดเมน"
+  },
+  "search_title": {
+    "message": "กรองตามชื่อ ค่า หรือโดเมน"
+  },
+  "cookie_store": {
+    "message": "ที่เก็บคุกกี้"
+  },
+  "cookies_list": {
+    "message": "คุกกี้"
+  },
+  "restricted_page": {
+    "message": "หน้าที่ถูกจำกัด"
+  },
+  "loading": {
+    "message": "กำลังโหลด…"
+  },
+  "state_unknown": {
+    "message": "คลิกปุ่ม CookieDesk บนแถบเครื่องมือเพื่อแสดงคุกกี้ของแท็บนี้"
+  },
+  "state_unknown_hint": {
+    "message": "Chrome จะแชร์ที่อยู่ของแท็บหลังจากคลิกเท่านั้น หรือสำหรับเว็บไซต์ที่คุณอนุญาตไว้"
+  },
+  "state_error": {
+    "message": "เกิดข้อผิดพลาด: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "state_no_access": {
+    "message": "CookieDesk ยังไม่มีสิทธิ์เข้าถึง $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "grant_site": {
+    "message": "อนุญาตบน $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "chrome_will_ask": {
+    "message": "Chrome จะถามว่า:"
+  },
+  "prompt_site": {
+    "message": "อ่านและเปลี่ยนแปลงข้อมูลของคุณในเว็บไซต์ $P1$ ทั้งหมด",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "prompt_all": {
+    "message": "อ่านและเปลี่ยนแปลงข้อมูลทั้งหมดของคุณในเว็บไซต์ทั้งหมด"
+  },
+  "only_this_site": {
+    "message": "เฉพาะคุกกี้ของเว็บไซต์นี้ ไม่มีอย่างอื่น"
+  },
+  "allow_all_instead": {
+    "message": "อนุญาตทุกเว็บไซต์แทน"
+  },
+  "restricted_browser": {
+    "message": "นี่คือหน้าของ Chrome Chrome ไม่อนุญาตให้ส่วนขยายใดอ่านหรือเปลี่ยนแปลงคุกกี้ที่นี่"
+  },
+  "restricted_webstore": {
+    "message": "นี่คือ Chrome Web Store Chrome บล็อกส่วนขยายทุกตัว จึงแสดงคุกกี้ของหน้านี้ไม่ได้"
+  },
+  "restricted_extension": {
+    "message": "นี่คือหน้าของส่วนขยายเอง ที่เก็บข้อมูลของหน้านี้ไม่ใช่คุกกี้ของเว็บไซต์ จึงไม่มีอะไรให้แสดง"
+  },
+  "restricted_file": {
+    "message": "นี่คือไฟล์ในเครื่อง ไฟล์ที่เปิดจากดิสก์ไม่มีคุกกี้"
+  },
+  "restricted_other": {
+    "message": "หน้านี้ไม่ใช่เว็บไซต์ (เช่น หน้าว่างหรือหน้า data:) จึงไม่มีคุกกี้"
+  },
+  "live_just_now": {
+    "message": "เมื่อสักครู่: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "note_third_party": {
+    "message": "คุกกี้ของเว็บไซต์ที่ฝังจะแสดงเฉพาะเว็บไซต์ที่คุณอนุญาตไว้"
+  },
+  "note_no_partitions": {
+    "message": "Chrome เวอร์ชันของคุณแสดงคุกกี้แบบแบ่งพาร์ทิชันไม่ได้ รายการนี้จึงอาจไม่ครบ"
+  },
+  "empty_no_match": {
+    "message": "ไม่มีคุกกี้ที่ตรงกับ “$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "empty_none": {
+    "message": "$P1$ ไม่มีคุกกี้",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clear_search": {
+    "message": "ล้างการค้นหา"
+  },
+  "change_changed": {
+    "message": "$P1$ เปลี่ยนแปลง",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_added": {
+    "message": "$P1$ เพิ่มแล้ว",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_removed": {
+    "message": "$P1$ ถูกลบ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_one": {
+    "message": "คุกกี้ $P1$ รายการ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_other": {
+    "message": "คุกกี้ $P1$ รายการ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_filtered_one": {
+    "message": "$P2$ จากคุกกี้ $P1$ รายการ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_filtered_other": {
+    "message": "$P2$ จากคุกกี้ $P1$ รายการ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_partitioned": {
+    "message": "แบ่งพาร์ทิชัน $P1$ รายการ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "store_default": {
+    "message": "ค่าเริ่มต้น"
+  },
+  "store_incognito": {
+    "message": "ไม่ระบุตัวตน"
+  },
+  "store_n": {
+    "message": "ที่เก็บ $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "session": {
+    "message": "เซสชัน"
+  },
+  "expired": {
+    "message": "หมดอายุแล้ว"
+  },
+  "expiry_under_minute": {
+    "message": "ภายในไม่ถึง 1 นาที"
+  },
+  "expiry_on_close": {
+    "message": "ลบเมื่อปิดเบราว์เซอร์"
+  },
+  "expires_at": {
+    "message": "หมดอายุ $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "badge_protected": {
+    "message": "ป้องกันอยู่: การลบจำนวนมาก การนำเข้า และการกู้คืนชุดจะไม่แตะต้อง (p)"
+  },
+  "hint_httponly": {
+    "message": "HttpOnly: JavaScript ของหน้าเว็บมองไม่เห็น (document.cookie อ่านไม่ได้)"
+  },
+  "hint_secure": {
+    "message": "Secure: ส่งผ่าน HTTPS เท่านั้น"
+  },
+  "hint_samesite_none": {
+    "message": "SameSite=None: ส่งไปกับคำขอข้ามเว็บไซต์ด้วย"
+  },
+  "hint_samesite_lax": {
+    "message": "SameSite=Lax: ส่งเมื่อนำทางระดับบนสุด ไม่ส่งไปกับคำขอย่อยข้ามเว็บไซต์"
+  },
+  "hint_samesite_strict": {
+    "message": "SameSite=Strict: ส่งเฉพาะคำขอภายในเว็บไซต์เดียวกัน"
+  },
+  "badge_partitioned": {
+    "message": "แบ่งพาร์ทิชัน"
+  },
+  "partitioned_under": {
+    "message": "แบ่งพาร์ทิชันภายใต้ $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partition_this_site": {
+    "message": "เว็บไซต์นี้"
+  },
+  "partition_cross_site": {
+    "message": "$P1$ บริบทข้ามเว็บไซต์",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "row_protected": {
+    "message": "ป้องกันอยู่"
+  },
+  "row_unprotect_title": {
+    "message": "เลิกป้องกัน (p)"
+  },
+  "row_protect_title": {
+    "message": "ป้องกันจากการลบจำนวนมาก การนำเข้า และการกู้คืนชุด (p)"
+  },
+  "copy_value": {
+    "message": "คัดลอกค่า"
+  },
+  "copied": {
+    "message": "คัดลอกแล้ว"
+  },
+  "copy_value_title": {
+    "message": "คัดลอกค่า (c)"
+  },
+  "row_delete_title": {
+    "message": "ลบ (Del) เลิกทำได้"
+  },
+  "irreversible_title": {
+    "message": "การดำเนินการนี้เลิกทำไม่ได้"
+  },
+  "continue_no_undo": {
+    "message": "ดำเนินการต่อโดยไม่เลิกทำ"
+  },
+  "undo_anyway_title": {
+    "message": "เลิกทำต่อไปหรือไม่"
+  },
+  "undo_anyway": {
+    "message": "เลิกทำต่อไป"
+  },
+  "undone": {
+    "message": "เลิกทำแล้ว: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_skipped": {
+    "message": "คุกกี้บางรายการหมดอายุไปแล้วจึงไม่ได้กู้คืน: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_refused": {
+    "message": "Chrome ไม่รับคุกกี้เหล่านี้ตามสภาพเดิมอีกแล้ว จึงไม่ได้กู้คืน: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clipboard_failed": {
+    "message": "คัดลอกไม่ได้: ใช้คลิปบอร์ดที่นี่ไม่ได้"
+  },
+  "protected_on": {
+    "message": "ป้องกัน \"$P1$\" แล้ว: การลบจำนวนมาก การนำเข้า และการกู้คืนชุดจะไม่แตะต้อง",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_off": {
+    "message": "\"$P1$\" ไม่ได้รับการป้องกันอีกแล้ว",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protect_limit": {
+    "message": "ป้องกันคุกกี้ได้สูงสุด $P1$ รายการ โปรดเลิกป้องกันบางรายการก่อน",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_named": {
+    "message": "ลบ \"$P1$\" หรือไม่",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_protected_message": {
+    "message": "คุกกี้นี้ได้รับการป้องกัน ลบต่อไปหรือไม่ คุณเลิกทำได้"
+  },
+  "nothing_to_delete": {
+    "message": "ไม่มีอะไรให้ลบ"
+  },
+  "all_shown_protected_one": {
+    "message": "คุกกี้ที่แสดงได้รับการป้องกัน"
+  },
+  "all_shown_protected_other": {
+    "message": "คุกกี้ที่แสดงทั้ง $P1$ รายการได้รับการป้องกัน",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "no_cookies_shown": {
+    "message": "ไม่มีคุกกี้ที่แสดง"
+  },
+  "bulk_title_one": {
+    "message": "ลบคุกกี้ $P1$ รายการหรือไม่",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_title_other": {
+    "message": "ลบคุกกี้ $P1$ รายการหรือไม่",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_match": {
+    "message": "คุกกี้เหล่านี้ตรงกับ \"$P1$\" บน $P2$ คุณเลิกทำได้",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "bulk_all": {
+    "message": "คุกกี้ทุกรายการที่แสดงสำหรับ $P1$ คุณเลิกทำได้",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_one": {
+    "message": "คุกกี้ที่ป้องกัน $P1$ รายการจะถูกเก็บไว้",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_other": {
+    "message": "คุกกี้ที่ป้องกัน $P1$ รายการจะถูกเก็บไว้",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_one": {
+    "message": "ลบคุกกี้ $P1$ รายการ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_other": {
+    "message": "ลบคุกกี้ $P1$ รายการ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_to": {
+    "message": "คัดลอกไปที่"
+  },
+  "copy_to_default_note": {
+    "message": "คุกกี้ที่คัดลอกไปยังที่เก็บค่าเริ่มต้นจะถูกเก็บไว้เหมือนคุกกี้อื่น ๆ บนดิสก์ และคงอยู่หลังเซสชันไม่ระบุตัวตนนี้สิ้นสุด"
+  },
+  "copy_to_incognito_note": {
+    "message": "คุกกี้ที่คัดลอกไปยังที่เก็บไม่ระบุตัวตนจะหายไปเมื่อเซสชันไม่ระบุตัวตนนั้นสิ้นสุด"
+  },
+  "copy_title_one": {
+    "message": "คัดลอกคุกกี้ $P1$ รายการ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_title_other": {
+    "message": "คัดลอกคุกกี้ $P1$ รายการ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_from": {
+    "message": "จากที่เก็บ $P1$ ไปยัง:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_replace_note": {
+    "message": "คุกกี้ที่มีชื่อ โดเมน และเส้นทางเดียวกันในปลายทางจะถูกแทนที่ ยกเว้นรายการที่ป้องกันไว้ คุณเลิกทำการคัดลอกได้"
+  },
+  "label_copied_one": {
+    "message": "คัดลอกคุกกี้ $P1$ รายการไปยัง $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_copied_other": {
+    "message": "คัดลอกคุกกี้ $P1$ รายการไปยัง $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_kept_one": {
+    "message": "คุกกี้ที่ป้องกัน $P1$ รายการในปลายทางไม่เปลี่ยนแปลง",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_kept_other": {
+    "message": "คุกกี้ที่ป้องกัน $P1$ รายการในปลายทางไม่เปลี่ยนแปลง",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_done_one": {
+    "message": "คัดลอกคุกกี้ $P1$ รายการไปยัง $P2$ แล้ว",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_done_other": {
+    "message": "คัดลอกคุกกี้ $P1$ รายการไปยัง $P2$ แล้ว",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_undo_hint": {
+    "message": "เลิกทำได้ที่นี่ หรือภายหลังจากที่เก็บ $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_nothing": {
+    "message": "$P1$ มีคุกกี้เหล่านี้ที่ตรงกันทุกประการอยู่แล้ว",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_cant": {
+    "message": "เปรียบเทียบไม่ได้"
+  },
+  "compare_now": {
+    "message": "$P1$ ปัจจุบัน",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_other_site": {
+    "message": "ชุดนี้บันทึกไว้สำหรับ $P1$ ไม่ใช่ $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "compare_too_many": {
+    "message": "เลือกหนึ่งชุดเพื่อเปรียบเทียบกับปัจจุบัน หรือสองชุดเพื่อเปรียบเทียบกัน"
+  },
+  "set_file_too_large": {
+    "message": "$P1$ ใหญ่เกินกว่าจะเป็นชุดคุกกี้",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_aria": {
+    "message": "เปรียบเทียบชุดคุกกี้"
+  },
+  "compare_changed_fields": {
+    "message": "เปลี่ยนแปลง: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_one": {
+    "message": "ไม่มีความแตกต่าง: คุกกี้ $P1$ รายการเหมือนกัน",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_other": {
+    "message": "ไม่มีความแตกต่าง: คุกกี้ $P1$ รายการเหมือนกัน",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_summary": {
+    "message": "เพิ่ม $P1$ ลบ $P2$ เปลี่ยนแปลง $P3$ ไม่เปลี่ยน $P4$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      },
+      "p4": {
+        "content": "$4"
+      }
+    }
+  },
+  "diff_added": {
+    "message": "เพิ่ม"
+  },
+  "diff_removed": {
+    "message": "ลบ"
+  },
+  "diff_changed": {
+    "message": "เปลี่ยนแปลง"
+  },
+  "diff_expiry_only": {
+    "message": "เปลี่ยนเฉพาะวันหมดอายุ ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "shortcuts_title": {
+    "message": "แป้นพิมพ์ลัด"
+  },
+  "key_search": {
+    "message": "ค้นหา"
+  },
+  "key_move": {
+    "message": "เลื่อนในรายการ"
+  },
+  "key_first_last": {
+    "message": "คุกกี้แรก / สุดท้าย"
+  },
+  "key_edit": {
+    "message": "แก้ไข"
+  },
+  "key_copy": {
+    "message": "คัดลอกค่า"
+  },
+  "key_protect": {
+    "message": "ป้องกัน / เลิกป้องกัน"
+  },
+  "key_delete": {
+    "message": "ลบ (เลิกทำได้)"
+  },
+  "key_back": {
+    "message": "กลับ หรือล้างการค้นหา"
+  },
+  "key_help": {
+    "message": "รายการนี้"
+  },
+  "import_kept_one": {
+    "message": "คุกกี้ที่ป้องกัน $P1$ รายการไม่เปลี่ยนแปลง: $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_kept_other": {
+    "message": "คุกกี้ที่ป้องกัน $P1$ รายการไม่เปลี่ยนแปลง: $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_nothing": {
+    "message": "ไม่มีอะไรให้นำเข้า: คุกกี้ทุกรายการในไฟล์ตั้งค่าไว้แบบนั้นอยู่แล้ว"
+  },
+  "imported_one": {
+    "message": "นำเข้าคุกกี้ $P1$ รายการแล้ว",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "imported_other": {
+    "message": "นำเข้าคุกกี้ $P1$ รายการแล้ว",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_restored": {
+    "message": "กู้คืนชุด \"$P1$\" แล้ว",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restored_one": {
+    "message": "กู้คืน \"$P2$\" แล้ว: เขียนคุกกี้ $P1$ รายการ ลบ $P3$ รายการ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "restored_other": {
+    "message": "กู้คืน \"$P2$\" แล้ว: เขียนคุกกี้ $P1$ รายการ ลบ $P3$ รายการ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "rate_title": {
+    "message": "ชอบ CookieDesk ไหม"
+  },
+  "rate_text": {
+    "message": "การให้คะแนนสั้น ๆ ช่วยให้คนอื่นหาเจอ"
+  },
+  "rate_group": {
+    "message": "ให้คะแนนบนร้านค้า"
+  },
+  "rate_stars_one": {
+    "message": "$P1$ ดาว",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "rate_stars_other": {
+    "message": "$P1$ ดาว",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_confirm_title": {
+    "message": "เลี้ยงกาแฟแล้วหรือยัง"
+  },
+  "kofi_confirm_text": {
+    "message": "ขอบคุณ นี่ช่วยให้ CookieDesk เดินหน้าต่อไปได้"
+  },
+  "kofi_yes": {
+    "message": "เลี้ยงแล้ว"
+  },
+  "kofi_not_yet": {
+    "message": "ยังไม่ได้เลี้ยง"
+  },
+  "kofi_milestone_one": {
+    "message": "แก้ไขด้วย CookieDesk แล้ว $P1$ ครั้ง!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_milestone_other": {
+    "message": "แก้ไขด้วย CookieDesk แล้ว $P1$ ครั้ง!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_free": {
+    "message": "ใช้ฟรี และสร้างโดยนักพัฒนาคนเดียว"
+  },
+  "buy_coffee": {
+    "message": "เลี้ยงกาแฟผู้พัฒนา"
+  },
+  "edit_cookie": {
+    "message": "แก้ไขคุกกี้"
+  },
+  "add_cookie_short": {
+    "message": "เพิ่มคุกกี้"
+  },
+  "explain_title": {
+    "message": "คุกกี้นี้ทำอะไร"
+  },
+  "field_name": {
+    "message": "ชื่อ"
+  },
+  "field_value": {
+    "message": "ค่า"
+  },
+  "field_domain": {
+    "message": "โดเมน"
+  },
+  "field_path": {
+    "message": "เส้นทาง"
+  },
+  "field_expiry": {
+    "message": "อายุคุกกี้"
+  },
+  "field_expires": {
+    "message": "หมดอายุ"
+  },
+  "field_attributes": {
+    "message": "แอตทริบิวต์"
+  },
+  "field_partition": {
+    "message": "พาร์ทิชัน"
+  },
+  "host_only": {
+    "message": "เฉพาะโฮสต์"
+  },
+  "host_only_title": {
+    "message": "เฉพาะโฮสต์: ไม่มีแอตทริบิวต์ Domain โดเมนย่อยจึงไม่ได้รับ"
+  },
+  "session_title": {
+    "message": "คุกกี้เซสชัน: หายไปเมื่อปิดเบราว์เซอร์"
+  },
+  "httponly_title": {
+    "message": "HttpOnly: JavaScript ของหน้าเว็บมองไม่เห็น"
+  },
+  "samesite_unspecified": {
+    "message": "ไม่ระบุ"
+  },
+  "partitioned_chips": {
+    "message": "แบ่งพาร์ทิชัน (CHIPS)"
+  },
+  "top_level_site": {
+    "message": "เว็บไซต์ระดับบนสุด"
+  },
+  "no_partition_write": {
+    "message": "Chrome เวอร์ชันนี้เขียนคุกกี้แบบแบ่งพาร์ทิชันไม่ได้"
+  },
+  "editor_delete_title": {
+    "message": "ลบ (เลิกทำได้)"
+  },
+  "bytes_of": {
+    "message": "$P1$ / $P2$ ไบต์",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "access_aria": {
+    "message": "สิทธิ์การเข้าถึงและการตั้งค่า"
+  },
+  "all_sites_on": {
+    "message": "ทุกเว็บไซต์: เปิด"
+  },
+  "all_sites_on_text": {
+    "message": "CookieDesk อ่านและเปลี่ยนแปลงคุกกี้ได้ในทุกเว็บไซต์ รวมถึงเว็บไซต์ที่ฝัง"
+  },
+  "turn_off": {
+    "message": "ปิด"
+  },
+  "all_sites": {
+    "message": "ทุกเว็บไซต์"
+  },
+  "all_sites_text": {
+    "message": "ไม่บังคับ ไม่ต้องถามทีละเว็บไซต์อีก และคุกกี้ของเว็บไซต์ที่ฝัง (โฆษณา วิดเจ็ต เฟรมลงชื่อเข้าใช้) จะแสดงทุกที่"
+  },
+  "allow_all_sites": {
+    "message": "อนุญาตทุกเว็บไซต์"
+  },
+  "remove_access": {
+    "message": "นำสิทธิ์เข้าถึง $P1$ ออก",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "access_lead": {
+    "message": "CookieDesk เห็นคุกกี้ของเว็บไซต์ต่อเมื่อคุณอนุญาตเว็บไซต์นั้น และไม่เห็นอย่างอื่น: ไม่เห็นเนื้อหาหน้าเว็บ ไม่เห็นประวัติ"
+  },
+  "allowed_sites": {
+    "message": "เว็บไซต์ที่อนุญาต"
+  },
+  "allowed_sites_count": {
+    "message": "เว็บไซต์ที่อนุญาต · $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "all_sites_overrides": {
+    "message": "การเข้าถึงทุกเว็บไซต์เปิดอยู่ ดังนั้นรายการเหล่านี้จึงไม่มีผลตราบเท่าที่ยังเปิดอยู่"
+  },
+  "none_yet": {
+    "message": "ยังไม่มี"
+  },
+  "toolbar_opens": {
+    "message": "ปุ่มบนแถบเครื่องมือจะเปิด"
+  },
+  "surface_popup": {
+    "message": "ป๊อปอัป"
+  },
+  "surface_sidepanel": {
+    "message": "แผงด้านข้าง"
+  },
+  "support_feedback": {
+    "message": "สนับสนุนและแจ้งความคิดเห็น"
+  },
+  "thanks_supporting": {
+    "message": "ขอบคุณที่สนับสนุน!"
+  },
+  "report_problem": {
+    "message": "รายงานปัญหา"
+  },
+  "source_code": {
+    "message": "ซอร์สโค้ด"
+  },
+  "privacy_line": {
+    "message": "ไม่มีคำขอเครือข่าย ไม่เก็บค่าคุกกี้บนดิสก์ เลิกทำได้ภายใน 10 นาที สำเนาอยู่ในหน่วยความจำและหายไปเมื่อปิด Chrome หรือเซสชันไม่ระบุตัวตนสิ้นสุด"
+  },
+  "export_warning": {
+    "message": "ไฟล์นี้มีคุกกี้เซสชันที่ใช้งานอยู่ ใครก็ตามที่มีไฟล์นี้จะลงชื่อเข้าใช้เป็นคุณบนเว็บไซต์เหล่านี้ได้ โปรดปฏิบัติต่อไฟล์เหมือนรหัสผ่านและลบเมื่อใช้เสร็จ"
+  },
+  "export_json_one": {
+    "message": "ส่งออกคุกกี้ $P1$ รายการเป็น JSON",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_json_other": {
+    "message": "ส่งออกคุกกี้ $P1$ รายการเป็น JSON",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_one": {
+    "message": "ส่งออกคุกกี้ $P1$ รายการเป็น cookies.txt",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_other": {
+    "message": "ส่งออกคุกกี้ $P1$ รายการเป็น cookies.txt",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_all_one": {
+    "message": "คุกกี้ที่แสดงสำหรับ $P2$ จะถูกใส่ในไฟล์ แม้จะเป็น HttpOnly",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_all_other": {
+    "message": "คุกกี้ทั้ง $P1$ รายการที่แสดงสำหรับ $P2$ จะถูกใส่ในไฟล์ รวมถึงรายการ HttpOnly",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_partitioned_left_one": {
+    "message": "ไม่รวมคุกกี้แบบแบ่งพาร์ทิชัน $P1$ รายการ: cookies.txt บันทึกพาร์ทิชันไม่ได้ ใช้ JSON หากต้องการเก็บไว้",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_partitioned_left_other": {
+    "message": "ไม่รวมคุกกี้แบบแบ่งพาร์ทิชัน $P1$ รายการ: cookies.txt บันทึกพาร์ทิชันไม่ได้ ใช้ JSON หากต้องการเก็บไว้",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_too_big": {
+    "message": "ไฟล์นี้ขนาด $P1$ MB ไฟล์ส่งออกคุกกี้เล็กกว่านี้มาก CookieDesk อ่านไฟล์ได้ไม่เกิน 5 MB",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "cant_import_unchanged": {
+    "message": "นำเข้าไฟล์นี้ไม่ได้ ไม่มีอะไรเปลี่ยนแปลง"
+  },
+  "cant_import": {
+    "message": "นำเข้าไฟล์นี้ไม่ได้"
+  },
+  "file_unreadable": {
+    "message": "อ่านไฟล์ไม่ได้"
+  },
+  "needs_access_one": {
+    "message": "CookieDesk ต้องการสิทธิ์เข้าถึงอีก $P1$ เว็บไซต์ก่อนจึงจะเขียนคุกกี้เหล่านี้ได้:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "needs_access_other": {
+    "message": "CookieDesk ต้องการสิทธิ์เข้าถึงอีก $P1$ เว็บไซต์ก่อนจึงจะเขียนคุกกี้เหล่านี้ได้:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_allow_all_hint": {
+    "message": "หรืออนุญาตทุกเว็บไซต์ใน สิทธิ์การเข้าถึงและการตั้งค่า"
+  },
+  "other_sites": {
+    "message": "เว็บไซต์อื่น ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "other_sites_warning": {
+    "message": "ไฟล์นี้เขียนคุกกี้ให้เว็บไซต์อื่นนอกจาก $P1$ ด้วย คุกกี้ที่ฝังไว้บนเว็บไซต์อื่นอาจทำให้คุณลงชื่อเข้าใช้บัญชีที่ผิดที่นั่น ดำเนินการต่อเฉพาะเมื่อคุณคาดว่าจะมีเว็บไซต์เหล่านี้",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_one": {
+    "message": "เขียนคุกกี้ให้อีก $P1$ เว็บไซต์ด้วย",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_other": {
+    "message": "เขียนคุกกี้ให้อีก $P1$ เว็บไซต์ด้วย",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partitioned_under_list": {
+    "message": "แบ่งพาร์ทิชันภายใต้: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "warnings_count": {
+    "message": "คำเตือน ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_title": {
+    "message": "นำเข้าคุกกี้"
+  },
+  "import_message_one": {
+    "message": "นำเข้าคุกกี้ $P1$ รายการหรือไม่ คุกกี้ที่มีชื่อ โดเมน และเส้นทางเดียวกันจะถูกแทนที่ คุณเลิกทำการนำเข้าทั้งหมดได้",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_message_other": {
+    "message": "นำเข้าคุกกี้ $P1$ รายการหรือไม่ คุกกี้ที่มีชื่อ โดเมน และเส้นทางเดียวกันจะถูกแทนที่ คุณเลิกทำการนำเข้าทั้งหมดได้",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_one": {
+    "message": "คัดลอกคุกกี้ $P1$ รายการเป็น document.cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_other": {
+    "message": "คัดลอกคุกกี้ $P1$ รายการเป็น document.cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_warning": {
+    "message": "สนิปเป็ตมีคุกกี้เซสชันที่ใช้งานอยู่ ใครก็ตามที่มีสนิปเป็ตนี้จะลงชื่อเข้าใช้เป็นคุณบนเว็บไซต์นี้ได้ โปรดปฏิบัติต่อสนิปเป็ตเหมือนรหัสผ่าน"
+  },
+  "snippet_paste": {
+    "message": "วางลงในคอนโซล DevTools บน $P1$ เพื่อตั้งค่าคุกกี้เหล่านี้ที่นั่น",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_one": {
+    "message": "ไม่รวมคุกกี้ HttpOnly $P1$ รายการ: JavaScript ของหน้าเว็บตั้งค่าไม่ได้",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_other": {
+    "message": "ไม่รวมคุกกี้ HttpOnly $P1$ รายการ: JavaScript ของหน้าเว็บตั้งค่าไม่ได้",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_one": {
+    "message": "คัดลอกคุกกี้ $P1$ รายการเป็น document.cookie แล้ว",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_other": {
+    "message": "คัดลอกคุกกี้ $P1$ รายการเป็น document.cookie แล้ว",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_name": {
+    "message": "ชื่อชุด"
+  },
+  "set_name_placeholder": {
+    "message": "เช่น ลงชื่อเข้าใช้เป็นผู้ดูแล"
+  },
+  "save_set_title_one": {
+    "message": "บันทึกคุกกี้ $P1$ รายการเป็นชุด",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "save_set_title_other": {
+    "message": "บันทึกคุกกี้ $P1$ รายการเป็นชุด",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_file_note": {
+    "message": "ชุดคือไฟล์ในคอมพิวเตอร์ของคุณ CookieDesk ไม่เก็บสำเนาไว้ กู้คืนภายหลังได้จากเมนูบน $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "default_set_name": {
+    "message": "ชุดคุกกี้"
+  },
+  "set_too_large": {
+    "message": "ไฟล์นี้ใหญ่เกินกว่าจะเป็นชุดคุกกี้"
+  },
+  "cant_restore_unchanged": {
+    "message": "กู้คืนชุดนี้ไม่ได้ ไม่มีอะไรเปลี่ยนแปลง"
+  },
+  "cant_restore": {
+    "message": "กู้คืนชุดนี้ไม่ได้"
+  },
+  "wrong_site_message": {
+    "message": "ชุดนี้บันทึกไว้สำหรับ $P1$ เปิด $P1$ แล้วกู้คืนที่นั่น",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "wrong_site_title": {
+    "message": "ผิดเว็บไซต์ ไม่มีอะไรเปลี่ยนแปลง"
+  },
+  "foreign_cookies_one": {
+    "message": "คุกกี้ $P1$ รายการในไฟล์นี้เป็นของเว็บไซต์อื่น ($P2$) การกู้คืนชุดเปลี่ยนแปลงเฉพาะ $P3$ ใช้การนำเข้าสำหรับเว็บไซต์อื่น",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "foreign_cookies_other": {
+    "message": "คุกกี้ $P1$ รายการในไฟล์นี้เป็นของเว็บไซต์อื่น ($P2$) การกู้คืนชุดเปลี่ยนแปลงเฉพาะ $P3$ ใช้การนำเข้าสำหรับเว็บไซต์อื่น",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "plan_write": {
+    "message": "เขียน"
+  },
+  "plan_delete": {
+    "message": "ลบ"
+  },
+  "plan_protected": {
+    "message": "ป้องกันไว้ คงเดิม"
+  },
+  "restore_title": {
+    "message": "กู้คืน \"$P1$\"",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_nothing": {
+    "message": "$P1$ ตรงกับชุดนี้อยู่แล้ว ไม่มีอะไรต้องเปลี่ยน",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_message_one": {
+    "message": "คุกกี้ของ $P2$ จะถูกแทนที่ด้วยคุกกี้ $P1$ รายการในชุดนี้ คุณเลิกทำการกู้คืนทั้งหมดได้",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "restore_message_other": {
+    "message": "คุกกี้ของ $P2$ จะถูกแทนที่ด้วยคุกกี้ $P1$ รายการในชุดนี้ คุณเลิกทำการกู้คืนทั้งหมดได้",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_partition_unsupported": {
+    "message": "\"$P1$\" เป็นคุกกี้แบบแบ่งพาร์ทิชัน ซึ่ง Chrome เวอร์ชันนี้เขียนไม่ได้ อัปเดต Chrome เป็นเวอร์ชัน 119 ขึ้นไป",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_gone": {
+    "message": "\"$P1$\" ไม่มีอยู่แล้ว อาจหมดอายุหรือถูกเว็บไซต์เปลี่ยนแปลง โหลดรายการใหม่",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_stored": {
+    "message": "Chrome ยอมรับ \"$P1$\" แต่ไม่ได้จัดเก็บ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_imprecise_delete_one": {
+    "message": "Chrome ลบ \"$P2$\" ได้เฉพาะพร้อมกับคุกกี้ชื่อเดียวกันอีก $P1$ รายการ CookieDesk จึงจะไม่ลบ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_imprecise_delete_other": {
+    "message": "Chrome ลบ \"$P2$\" ได้เฉพาะพร้อมกับคุกกี้ชื่อเดียวกันอีก $P1$ รายการ CookieDesk จึงจะไม่ลบ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_delete": {
+    "message": "Chrome ไม่รับ \"$P1$\" ตามที่จัดเก็บไว้อีกแล้ว เมื่อลบแล้วจึงใส่กลับไม่ได้ ลบโดยไม่เลิกทำหรือไม่",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_removed": {
+    "message": "ลบ \"$P1$\" ไม่ได้",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_no_permission": {
+    "message": "CookieDesk ไม่มีสิทธิ์เข้าถึง $P1$ โปรดให้สิทธิ์เข้าถึงเว็บไซต์นี้ก่อน",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_secure_shadow": {
+    "message": "มีคุกกี้ Secure ชื่อ \"$P1$\" สำหรับ $P2$ อยู่แล้ว Chrome ไม่ให้คุกกี้ที่ไม่ใช่ Secure ชื่อเดียวกันมาแทนที่หรืออยู่ข้างกัน เปิด Secure หรือใช้ชื่ออื่น",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_rejected": {
+    "message": "Chrome ปฏิเสธ \"$P1$\" โดยไม่บอกเหตุผล ไม่มีอะไรเปลี่ยนแปลง",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_irreversible_replace_one": {
+    "message": "Chrome ไม่รับ $P2$ ตามที่จัดเก็บไว้อีกแล้ว เมื่อแทนที่แล้วจึงใส่กลับไม่ได้ ดำเนินการต่อโดยไม่เลิกทำสำหรับรายการนี้หรือไม่",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_replace_other": {
+    "message": "Chrome ไม่รับ $P2$ ตามที่จัดเก็บไว้อีกแล้ว เมื่อแทนที่แล้วจึงใส่กลับไม่ได้ ดำเนินการต่อโดยไม่เลิกทำสำหรับรายการเหล่านี้หรือไม่",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_too_large_to_undo": {
+    "message": "การเปลี่ยนแปลงนี้เกี่ยวกับข้อมูลมากเกินไป ($P1$ KB) จึงเก็บสำเนาสำหรับเลิกทำไม่ได้ ดำเนินการต่อโดยไม่เลิกทำหรือไม่",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_duplicate_in_file": {
+    "message": "ไฟล์มี \"$P1$\" สองครั้งสำหรับโดเมนและเส้นทางเดียวกัน",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_undo_expired": {
+    "message": "ไม่มีอะไรให้เลิกทำ: การเลิกทำเก็บไว้ 10 นาที"
+  },
+  "err_undo_conflict": {
+    "message": "$P1$ เปลี่ยนแปลงหลังจาก \"$P2$\" การเลิกทำตอนนี้จะเขียนทับค่าที่ใหม่กว่า เลิกทำต่อไปหรือไม่",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_incomplete": {
+    "message": "ไม่สมบูรณ์: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_added": {
+    "message": "เพิ่ม \"$P1$\"",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_edited": {
+    "message": "แก้ไข \"$P1$\"",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted": {
+    "message": "ลบ \"$P1$\"",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_expired": {
+    "message": "ลบ \"$P1$\" (หมดอายุไปแล้ว)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_one": {
+    "message": "ลบคุกกี้ $P1$ รายการ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_other": {
+    "message": "ลบคุกกี้ $P1$ รายการ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_one": {
+    "message": "นำเข้าคุกกี้ $P1$ รายการ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_other": {
+    "message": "นำเข้าคุกกี้ $P1$ รายการ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_undid": {
+    "message": "เลิกทำ: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_saved": {
+    "message": "บันทึก \"$P1$\"",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_draft": {
+    "message": "คุกกี้ต้องเป็นอ็อบเจกต์ที่มี name, value, domain และ path"
+  },
+  "v_name_type": {
+    "message": "ชื่อคุกกี้ต้องเป็นข้อความ"
+  },
+  "v_value_type": {
+    "message": "ค่าคุกกี้ต้องเป็นข้อความ"
+  },
+  "v_domain_type": {
+    "message": "โดเมนต้องเป็นข้อความ"
+  },
+  "v_path_type": {
+    "message": "เส้นทางต้องเป็นข้อความ"
+  },
+  "v_flag_type": {
+    "message": "$P1$ ต้องเป็น true หรือ false",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_samesite": {
+    "message": "SameSite ต้องเป็นหนึ่งใน $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_name_control": {
+    "message": "ชื่อมีอักขระควบคุม (เช่น ขึ้นบรรทัดใหม่หรือแท็บ) ซึ่งคุกกี้เก็บไม่ได้"
+  },
+  "v_name_semicolon": {
+    "message": "ชื่อมี \";\" ซึ่งจะทำให้คุกกี้จบก่อนเวลา"
+  },
+  "v_name_equals": {
+    "message": "ชื่อมี \"=\" ซึ่งใช้แยกชื่อออกจากค่าในคุกกี้"
+  },
+  "v_value_control": {
+    "message": "ค่ามีอักขระควบคุม (เช่น ขึ้นบรรทัดใหม่หรือแท็บ) ซึ่งคุกกี้เก็บไม่ได้"
+  },
+  "v_value_semicolon": {
+    "message": "ค่ามี \";\" ซึ่งจะทำให้คุกกี้จบก่อนเวลา ให้เข้ารหัสค่า (เช่น ด้วย encodeURIComponent)"
+  },
+  "v_empty_cookie": {
+    "message": "คุกกี้ต้องมีชื่อหรือค่า แต่ตอนนี้ว่างทั้งคู่"
+  },
+  "v_empty_name": {
+    "message": "คุกกี้นี้ไม่มีชื่อ บางเว็บไซต์และเครื่องมือจัดการคุกกี้ที่ไม่มีชื่อได้ไม่ดี"
+  },
+  "v_too_large": {
+    "message": "ชื่อและค่ารวมกันเป็น $P1$ ไบต์ (UTF-8) Chrome อนุญาตสูงสุด $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "v_path_slash": {
+    "message": "เส้นทางต้องขึ้นต้นด้วย \"/\""
+  },
+  "v_path_too_long": {
+    "message": "เส้นทางยาวกว่า $P1$ ไบต์",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_path_chars": {
+    "message": "เส้นทางมีอักขระควบคุมหรือ \";\" ซึ่งคุกกี้เก็บไม่ได้"
+  },
+  "v_domain_empty": {
+    "message": "โดเมนว่างอยู่ ป้อนเว็บไซต์ที่คุกกี้เป็นของ เช่น example.com"
+  },
+  "v_domain_too_long": {
+    "message": "โดเมนยาวกว่า $P1$ ไบต์",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_domain_invalid": {
+    "message": "โดเมนไม่ใช่ชื่อโฮสต์ที่ถูกต้อง ใช้ตัวอักษร ตัวเลข และขีดกลางคั่นด้วยจุด (ชื่อสากลต้องเป็น punycode เช่น xn--...)"
+  },
+  "v_domain_leading_dot": {
+    "message": "คุกกี้แบบเฉพาะโฮสต์ต้องไม่มีจุดนำหน้าโดเมน จุดหมายถึงคุกกี้ใช้กับโดเมนย่อยด้วย"
+  },
+  "v_domain_public_suffix": {
+    "message": "\"$P1$\" เป็นคำลงท้ายสาธารณะ (โดเมนที่นายทะเบียนควบคุม เช่น .com หรือ .co.uk) เบราว์เซอร์จึงปฏิเสธคุกกี้ที่ใช้กับทั้งหมดนั้น",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_samesite_none_insecure": {
+    "message": "คุกกี้ SameSite=None ต้องเป็น Secure ไม่เช่นนั้น Chrome จะปฏิเสธ เปิด Secure หรือเลือก SameSite อื่น"
+  },
+  "v_partitioned_insecure": {
+    "message": "คุกกี้แบบแบ่งพาร์ทิชันต้องเป็น Secure ไม่เช่นนั้น Chrome จะปฏิเสธ เปิด Secure หรือเอาพาร์ทิชันออก"
+  },
+  "v_prefix_secure": {
+    "message": "คุกกี้ที่ชื่อ \"$P1$...\" ต้องเป็น Secure เปิด Secure หรือเปลี่ยนชื่อคุกกี้",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_host_prefix_domain": {
+    "message": "คุกกี้ที่ชื่อ \"__Host-...\" ต้องเป็นแบบเฉพาะโฮสต์ (ไม่มีแอตทริบิวต์ Domain จึงไม่แชร์กับโดเมนย่อย) เปิดเฉพาะโฮสต์หรือเปลี่ยนชื่อคุกกี้"
+  },
+  "v_host_prefix_path": {
+    "message": "คุกกี้ที่ชื่อ \"__Host-...\" ต้องมีเส้นทางเป็น \"/\""
+  },
+  "v_bad_expiration": {
+    "message": "เวลาหมดอายุต้องเป็นจำนวนวินาทีที่จำกัดนับจากปี 1970"
+  },
+  "v_expired_deletes": {
+    "message": "การบันทึกด้วยวันหมดอายุในอดีตจะลบคุกกี้นี้"
+  },
+  "v_clamped": {
+    "message": "Chrome จำกัดอายุคุกกี้ไว้ที่ $P1$ วัน วันหมดอายุที่ไกลกว่านั้นจะถูกลดลงเมื่อบันทึก",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_expiration_missing": {
+    "message": "คุกกี้ที่ไม่ใช่เซสชันต้องมีวันหมดอายุ เลือกวันที่ หรือทำเครื่องหมายเป็นคุกกี้เซสชัน"
+  },
+  "v_partition_type": {
+    "message": "คีย์พาร์ทิชันต้องเป็นอ็อบเจกต์ที่มี topLevelSite"
+  },
+  "v_partition_site_type": {
+    "message": "เว็บไซต์ระดับบนสุดของพาร์ทิชันต้องเป็นข้อความ เช่น https://example.com"
+  },
+  "v_partition_site_form": {
+    "message": "เว็บไซต์ระดับบนสุดของพาร์ทิชันต้องมีรูปแบบ https://example.com (https ไม่มีเส้นทางหรือพอร์ต)"
+  },
+  "v_partition_flag": {
+    "message": "hasCrossSiteAncestor ของพาร์ทิชันต้องเป็น true หรือ false"
+  },
+  "v_partition_cross_site": {
+    "message": "โดเมนของคุกกี้ไม่ได้อยู่ในเว็บไซต์เดียวกับ $P1$ Chrome จึงกำหนดให้ hasCrossSiteAncestor เป็น true",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_other_site": {
+    "message": "โดเมนของคุกกี้นี้ ($P1$) อยู่นอกเว็บไซต์ปัจจุบัน ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_entry": {
+    "message": "รายการที่ $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_entry_named": {
+    "message": "รายการที่ $P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_bad_samesite": {
+    "message": "$P1$: sameSite ไม่ใช่หนึ่งใน no_restriction, lax, strict, unspecified",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bool": {
+    "message": "$P1$: \"$P2$\" ต้องเป็น true หรือ false",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_text": {
+    "message": "$P1$: \"$P2$\" ต้องเป็นข้อความ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_not_object": {
+    "message": "$P1$ ไม่ใช่อ็อบเจกต์คุกกี้",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_expiration_type": {
+    "message": "$P1$: \"expirationDate\" ต้องเป็นตัวเลข",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_key": {
+    "message": "$P1$: partitionKey ต้องเป็นอ็อบเจกต์ที่มี topLevelSite เป็นข้อความ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_flag": {
+    "message": "$P1$: partitionKey.hasCrossSiteAncestor ต้องเป็น true หรือ false",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_line": {
+    "message": "บรรทัดที่ $P1$ ไม่ใช่รายการ cookies.txt (ต้องมี 7 ช่องคั่นด้วยแท็บ แต่พบ $P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_line_flag_subdomains": {
+    "message": "บรรทัดที่ $P1$: แฟล็กโดเมนย่อยต้องเป็น TRUE หรือ FALSE",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_flag_secure": {
+    "message": "บรรทัดที่ $P1$: แฟล็ก secure ต้องเป็น TRUE หรือ FALSE",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_expiry": {
+    "message": "บรรทัดที่ $P1$: เวลาหมดอายุต้องเป็นจำนวนวินาทีเต็ม",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_not_text": {
+    "message": "อ่านไฟล์เป็นข้อความไม่ได้"
+  },
+  "io_too_large": {
+    "message": "ไฟล์ใหญ่กว่าขีดจำกัดการนำเข้า $P1$ ไบต์",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_json": {
+    "message": "ไฟล์ดูเหมือน JSON แต่แยกวิเคราะห์ไม่ได้"
+  },
+  "io_bad_version": {
+    "message": "ไฟล์ CookieDesk นี้เป็นเวอร์ชันที่ไม่รองรับ"
+  },
+  "io_no_cookie_list": {
+    "message": "ไฟล์ CookieDesk ไม่มีรายการ \"cookies\""
+  },
+  "io_unknown_format": {
+    "message": "JSON นี้ไม่ใช่ไฟล์ส่งออกของ CookieDesk และไม่ใช่รายการคุกกี้"
+  },
+  "io_no_cookies": {
+    "message": "ไฟล์ไม่มีคุกกี้"
+  },
+  "io_too_many": {
+    "message": "ไฟล์มีคุกกี้ $P1$ รายการ ขีดจำกัดคือ $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_issue": {
+    "message": "$P1$: $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_duplicate": {
+    "message": "$P1$: มีอีกรายการที่ชื่อ โดเมน เส้นทาง และพาร์ทิชันเหมือนกัน",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "when": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "when_passed": {
+    "message": "ผ่านไปแล้ว"
+  },
+  "when_under_day": {
+    "message": "ภายในไม่ถึงหนึ่งวัน"
+  },
+  "explain_third_party": {
+    "message": "ตั้งโดย $P1$ ซึ่งเป็นเว็บไซต์คนละแห่งกับ $P2$: เป็นคุกกี้ของบุคคลที่สาม",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_third_party_partitioned": {
+    "message": "ตั้งโดย $P1$ ซึ่งเป็นเว็บไซต์คนละแห่งกับ $P2$: เป็นคุกกี้ของบุคคลที่สาม เก็บในพาร์ทิชันของ $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_host_prefix": {
+    "message": "คำนำหน้า __Host- ทำให้ Chrome บังคับให้เป็น Secure ไม่มีแอตทริบิวต์ Domain และ Path=/ จึงไม่มีโดเมนย่อยใดตั้งหรือแทนที่ได้"
+  },
+  "explain_secure_prefix": {
+    "message": "คำนำหน้า __Secure- ทำให้ Chrome รับคุกกี้นี้เฉพาะเมื่อมีแฟล็ก Secure"
+  },
+  "explain_scope_host": {
+    "message": "ส่งไปยัง $P1$ เท่านั้น ไม่ส่งไปยังโดเมนย่อย",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_scope_domain": {
+    "message": "ส่งไปยัง $P1$ และทุกโดเมนย่อย (เช่น www.$P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_path_all": {
+    "message": "ส่งไปกับคำขอทุกเส้นทางบนโฮสต์นั้น"
+  },
+  "explain_path_under": {
+    "message": "ส่งไปกับคำขอสำหรับเส้นทางภายใต้ $P1$ เท่านั้น",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_secure": {
+    "message": "Secure: ส่งผ่าน HTTPS เท่านั้น"
+  },
+  "explain_not_secure": {
+    "message": "ไม่ใช่ Secure: ส่งผ่าน HTTP ธรรมดาด้วย ซึ่งใครในเครือข่ายก็อ่านได้"
+  },
+  "explain_httponly": {
+    "message": "HttpOnly: JavaScript ของหน้าเว็บมองไม่เห็น (document.cookie อ่านไม่ได้) ช่วยกันไม่ให้สคริปต์ที่ถูกแทรกเข้าถึง"
+  },
+  "explain_script_readable": {
+    "message": "สคริปต์ใดก็ตามที่ทำงานบนหน้าเว็บอ่านและเปลี่ยนแปลงได้"
+  },
+  "explain_samesite_none": {
+    "message": "SameSite=None: อาจส่งไปกับคำขอข้ามเว็บไซต์ด้วย (เฟรมที่ฝัง รูปภาพ คำขอจากเว็บไซต์อื่น) ในกรณีที่ Chrome อนุญาตคุกกี้ของบุคคลที่สาม (โหมดไม่ระบุตัวตนบล็อกโดยค่าเริ่มต้น) จึงต้องเป็น Secure"
+  },
+  "explain_samesite_lax": {
+    "message": "SameSite=Lax: ส่งเมื่อคุณนำทางไปยังเว็บไซต์ รวมถึงจากลิงก์บนเว็บไซต์อื่น แต่ไม่ส่งไปกับคำขอที่หน้าของเว็บไซต์อื่นสร้างขึ้นเบื้องหลัง"
+  },
+  "explain_samesite_strict": {
+    "message": "SameSite=Strict: ส่งเฉพาะเมื่อคุณอยู่ในเว็บไซต์เดียวกันอยู่แล้ว หากมาจากลิงก์บนเว็บไซต์อื่น คำขอแรกจะไม่มีคุกกี้นี้"
+  },
+  "explain_samesite_unset": {
+    "message": "ไม่มีแอตทริบิวต์ SameSite: Chrome ถือเป็น Lax"
+  },
+  "explain_session": {
+    "message": "คุกกี้เซสชัน: ลบเมื่อปิดเบราว์เซอร์ (เว้นแต่ Chrome กู้คืนเซสชันก่อนหน้าของคุณเมื่อเริ่มต้น)"
+  },
+  "explain_expires": {
+    "message": "หมดอายุ $P1$ Chrome จำกัดวันหมดอายุไว้ไม่เกิน 400 วันนับจากที่ตั้งคุกกี้ครั้งล่าสุด",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition": {
+    "message": "แบ่งพาร์ทิชัน (CHIPS): เก็บแยกกันสำหรับแต่ละเว็บไซต์ระดับบนสุด สำเนานี้จะถูกส่งเฉพาะเมื่อ $P1$ เป็นเว็บไซต์ในแถบที่อยู่",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition_cross": {
+    "message": "อยู่ในส่วนข้ามเว็บไซต์ของพาร์ทิชันนั้น (ใช้เมื่อมีเว็บไซต์อื่นคั่นระหว่างหน้าเว็บกับเว็บไซต์ของคุกกี้นี้) แยกจากส่วนเว็บไซต์เดียวกัน"
+  },
+  "explain_partition_same": {
+    "message": "อยู่ในส่วนเว็บไซต์เดียวกันของพาร์ทิชันนั้น แยกจากส่วนข้ามเว็บไซต์"
+  },
+  "explain_partition_other": {
+    "message": "คุกกี้ชื่อเดียวกันภายใต้เว็บไซต์อื่นเป็นคุกกี้คนละตัว"
+  },
+  "explain_jwt": {
+    "message": "ค่านี้ดูเหมือน JSON Web Token"
+  },
+  "explain_jwt_exp": {
+    "message": "ค่านี้ดูเหมือน JSON Web Token โทเค็นระบุเองว่าหมดอายุ $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_size": {
+    "message": "ใช้ไป $P1$ จาก 4096 ไบต์ที่ Chrome อนุญาตสำหรับชื่อและค่ารวมกัน",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

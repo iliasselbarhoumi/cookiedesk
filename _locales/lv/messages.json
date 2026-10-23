@@ -1,0 +1,2215 @@
+{
+  "extension_name": {
+    "message": "Sīkfailu redaktors: skatīt, rediģēt, dzēst sīkfailus | CookieDesk"
+  },
+  "extension_description": {
+    "message": "Skatiet, rediģējiet, pievienojiet un dzēsiet sīkfailus katrai vietnei. Meklēšana, imports un eksports. Bez reklāmām un izsekošanas."
+  },
+  "btn_ok": {
+    "message": "Labi"
+  },
+  "btn_cancel": {
+    "message": "Atcelt"
+  },
+  "btn_close": {
+    "message": "Aizvērt"
+  },
+  "btn_delete": {
+    "message": "Dzēst"
+  },
+  "btn_copy": {
+    "message": "Kopēt"
+  },
+  "btn_save": {
+    "message": "Saglabāt"
+  },
+  "btn_export": {
+    "message": "Eksportēt"
+  },
+  "btn_later": {
+    "message": "Vēlāk"
+  },
+  "dismiss": {
+    "message": "Aizvērt"
+  },
+  "back": {
+    "message": "Atpakaļ"
+  },
+  "back_esc": {
+    "message": "Atpakaļ (Esc)"
+  },
+  "back_to_list": {
+    "message": "Atpakaļ uz sarakstu"
+  },
+  "title_count": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "empty_name": {
+    "message": "(tukšs nosaukums)"
+  },
+  "empty_value": {
+    "message": "(tukša vērtība)"
+  },
+  "empty_short": {
+    "message": "(tukšs)"
+  },
+  "names_more": {
+    "message": "$P1$ un vēl $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "done": {
+    "message": "Gatavs"
+  },
+  "undo": {
+    "message": "Atsaukt"
+  },
+  "undo_nothing": {
+    "message": "Nav, ko atsaukt"
+  },
+  "undo_entry": {
+    "message": "Atsaukt: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_interrupted": {
+    "message": "Atsaukšana pārtraukta: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "redo_entry": {
+    "message": "Atkārtot: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "support_title": {
+    "message": "Atbalstīt CookieDesk vietnē Ko-fi"
+  },
+  "supporter_title": {
+    "message": "Paldies, ka atbalstāt CookieDesk!"
+  },
+  "add_cookie": {
+    "message": "Pievienot sīkfailu"
+  },
+  "add_cookie_title": {
+    "message": "Pievienot sīkfailu (n)"
+  },
+  "more_actions": {
+    "message": "Citas darbības"
+  },
+  "menu_group_transfer": {
+    "message": "Eksports un imports"
+  },
+  "menu_group_sets": {
+    "message": "Sīkfailu komplekti"
+  },
+  "export_json_title": {
+    "message": "Eksportēt kā JSON"
+  },
+  "export_txt_title": {
+    "message": "Eksportēt kā Netscape cookies.txt"
+  },
+  "tile_snippet": {
+    "message": "Kods"
+  },
+  "tile_snippet_title": {
+    "message": "Kopēt kā document.cookie kodu"
+  },
+  "tile_import": {
+    "message": "Importēt"
+  },
+  "tile_import_title": {
+    "message": "Importēt JSON vai cookies.txt"
+  },
+  "tile_save_set": {
+    "message": "Saglabāt komplektu"
+  },
+  "tile_save_set_title": {
+    "message": "Saglabāt šos sīkfailus kā nosauktu komplekta failu"
+  },
+  "tile_restore": {
+    "message": "Atjaunot"
+  },
+  "tile_restore_title": {
+    "message": "Atjaunot saglabātu komplektu (vispirms priekšskatījums)"
+  },
+  "tile_compare": {
+    "message": "Salīdzināt"
+  },
+  "tile_compare_title": {
+    "message": "Salīdzināt saglabātu komplektu ar pašreizējo vai divus komplektus"
+  },
+  "tile_copy_to": {
+    "message": "Kopēt uz…"
+  },
+  "tile_copy_to_title": {
+    "message": "Kopēt redzamos sīkfailus uz citu krātuvi (parastā ↔ inkognito)"
+  },
+  "menu_bulk_delete": {
+    "message": "Dzēst redzamos sīkfailus…"
+  },
+  "menu_access": {
+    "message": "Piekļuve un iestatījumi"
+  },
+  "menu_shortcuts": {
+    "message": "Īsinājumtaustiņi"
+  },
+  "menu_sidepanel": {
+    "message": "Atvērt sānu panelī"
+  },
+  "menu_rate": {
+    "message": "Novērtēt CookieDesk"
+  },
+  "menu_support": {
+    "message": "Atbalstīt vietnē Ko-fi"
+  },
+  "search_placeholder": {
+    "message": "Meklēt sīkfailus"
+  },
+  "search_label": {
+    "message": "Filtrēt sīkfailus pēc nosaukuma, vērtības vai domēna"
+  },
+  "search_title": {
+    "message": "Filtrēt pēc nosaukuma, vērtības vai domēna"
+  },
+  "cookie_store": {
+    "message": "Sīkfailu krātuve"
+  },
+  "cookies_list": {
+    "message": "Sīkfaili"
+  },
+  "restricted_page": {
+    "message": "Ierobežota lapa"
+  },
+  "loading": {
+    "message": "Ielādē…"
+  },
+  "state_unknown": {
+    "message": "Noklikšķiniet uz CookieDesk pogas rīkjoslā, lai redzētu šīs cilnes sīkfailus."
+  },
+  "state_unknown_hint": {
+    "message": "Chrome kopīgo cilnes adresi tikai pēc šī klikšķa vai vietnēm, kurām esat devis atļauju."
+  },
+  "state_error": {
+    "message": "Kaut kas nogāja greizi: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "state_no_access": {
+    "message": "CookieDesk vēl nav piekļuves vietnei $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "grant_site": {
+    "message": "Atļaut vietnē $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "chrome_will_ask": {
+    "message": "Chrome vaicās:"
+  },
+  "prompt_site": {
+    "message": "Lasīt un mainīt jūsu datus visās $P1$ vietnēs",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "prompt_all": {
+    "message": "Lasīt un mainīt visus jūsu datus visās vietnēs"
+  },
+  "only_this_site": {
+    "message": "Tikai šīs vietnes sīkfaili, nekas cits."
+  },
+  "allow_all_instead": {
+    "message": "Labāk atļaut visas vietnes"
+  },
+  "restricted_browser": {
+    "message": "Šī ir Chrome lapa. Chrome neļauj paplašinājumiem šeit lasīt vai mainīt sīkfailus."
+  },
+  "restricted_webstore": {
+    "message": "Šis ir Chrome Web Store. Chrome bloķē visus paplašinājumus tajā, tāpēc tā sīkfailus nevar parādīt."
+  },
+  "restricted_extension": {
+    "message": "Šī ir paša paplašinājuma lapa. Tā krātuve nav vietnes sīkfaili, tāpēc nav ko rādīt."
+  },
+  "restricted_file": {
+    "message": "Šis ir vietējais fails. No diska atvērtiem failiem nav sīkfailu."
+  },
+  "restricted_other": {
+    "message": "Šī lapa nav vietne (piemēram, tukša vai data: lapa), tāpēc tai nav sīkfailu."
+  },
+  "live_just_now": {
+    "message": "Tikko: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "note_third_party": {
+    "message": "Iegulto vietņu sīkfaili tiek rādīti tikai vietnēm, kurām esat devis atļauju."
+  },
+  "note_no_partitions": {
+    "message": "Jūsu Chrome versija nevar rādīt sadalītos sīkfailus, tāpēc šis saraksts var būt nepilnīgs."
+  },
+  "empty_no_match": {
+    "message": "Nav sīkfailu, kas atbilst “$P1$”.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "empty_none": {
+    "message": "Nav sīkfailu vietnei $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clear_search": {
+    "message": "Notīrīt meklēšanu"
+  },
+  "change_changed": {
+    "message": "Mainīts: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_added": {
+    "message": "Pievienots: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_removed": {
+    "message": "Noņemts: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_one": {
+    "message": "$P1$ sīkfails",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_other": {
+    "message": "Sīkfaili: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_filtered_one": {
+    "message": "$P2$ no $P1$ sīkfaila",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_filtered_other": {
+    "message": "Sīkfaili: $P2$ no $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_partitioned": {
+    "message": "Sadalītie: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "store_default": {
+    "message": "Noklusējuma"
+  },
+  "store_incognito": {
+    "message": "Inkognito"
+  },
+  "store_n": {
+    "message": "Krātuve $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "session": {
+    "message": "Sesija"
+  },
+  "expired": {
+    "message": "Beidzies"
+  },
+  "expiry_under_minute": {
+    "message": "pēc mazāk nekā minūtes"
+  },
+  "expiry_on_close": {
+    "message": "Tiek dzēsts, kad aizver pārlūku"
+  },
+  "expires_at": {
+    "message": "Beidzas $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "badge_protected": {
+    "message": "Aizsargāts: masveida dzēšana, imports un komplekta atjaunošana to neskar (p)"
+  },
+  "hint_httponly": {
+    "message": "HttpOnly: lapas JavaScript to neredz (document.cookie to nevar nolasīt)"
+  },
+  "hint_secure": {
+    "message": "Secure: tiek sūtīts tikai pa HTTPS"
+  },
+  "hint_samesite_none": {
+    "message": "SameSite=None: tiek sūtīts arī starpvietņu pieprasījumos"
+  },
+  "hint_samesite_lax": {
+    "message": "SameSite=Lax: tiek sūtīts augstākā līmeņa navigācijā, bet ne starpvietņu apakšpieprasījumos"
+  },
+  "hint_samesite_strict": {
+    "message": "SameSite=Strict: tiek sūtīts tikai tās pašas vietnes pieprasījumos"
+  },
+  "badge_partitioned": {
+    "message": "Sadalīts"
+  },
+  "partitioned_under": {
+    "message": "Sadalīts zem $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partition_this_site": {
+    "message": "šī vietne"
+  },
+  "partition_cross_site": {
+    "message": "$P1$, starpvietņu konteksts",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "row_protected": {
+    "message": "Aizsargāts"
+  },
+  "row_unprotect_title": {
+    "message": "Noņemt aizsardzību (p)"
+  },
+  "row_protect_title": {
+    "message": "Aizsargāt pret masveida dzēšanu, importu un komplekta atjaunošanu (p)"
+  },
+  "copy_value": {
+    "message": "Kopēt vērtību"
+  },
+  "copied": {
+    "message": "Nokopēts"
+  },
+  "copy_value_title": {
+    "message": "Kopēt vērtību (c)"
+  },
+  "row_delete_title": {
+    "message": "Dzēst (Del) — var atsaukt"
+  },
+  "irreversible_title": {
+    "message": "Šo nevar atsaukt"
+  },
+  "continue_no_undo": {
+    "message": "Turpināt bez atsaukšanas"
+  },
+  "undo_anyway_title": {
+    "message": "Tomēr atsaukt?"
+  },
+  "undo_anyway": {
+    "message": "Tomēr atsaukt"
+  },
+  "undone": {
+    "message": "Atsaukts: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_skipped": {
+    "message": "Daži sīkfaili jau bija beigušies, un tie netika atjaunoti: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_refused": {
+    "message": "Chrome vairs nepieņem šos sīkfailus tādus, kādi tie bija, tāpēc tie netika atjaunoti: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clipboard_failed": {
+    "message": "Nevarēja nokopēt: starpliktuve šeit nav pieejama."
+  },
+  "protected_on": {
+    "message": "“$P1$” ir aizsargāts: masveida dzēšana, imports un komplekta atjaunošana to neskars.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_off": {
+    "message": "“$P1$” vairs nav aizsargāts.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protect_limit": {
+    "message": "Varat aizsargāt līdz $P1$ sīkfailiem. Vispirms noņemiet aizsardzību dažiem.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_named": {
+    "message": "Dzēst “$P1$”?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_protected_message": {
+    "message": "Šis sīkfails ir aizsargāts. Tomēr dzēst? Varēsit atsaukt."
+  },
+  "nothing_to_delete": {
+    "message": "Nav, ko dzēst"
+  },
+  "all_shown_protected_one": {
+    "message": "Redzamais sīkfails ir aizsargāts."
+  },
+  "all_shown_protected_other": {
+    "message": "Visi redzamie sīkfaili ($P1$) ir aizsargāti.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "no_cookies_shown": {
+    "message": "Sīkfaili netiek rādīti."
+  },
+  "bulk_title_one": {
+    "message": "Dzēst $P1$ sīkfailu?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_title_other": {
+    "message": "Dzēst sīkfailus: $P1$?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_match": {
+    "message": "Šie sīkfaili atbilst “$P1$” vietnē $P2$. Varēsit atsaukt.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "bulk_all": {
+    "message": "Visi vietnei $P1$ uzskaitītie sīkfaili. Varēsit atsaukt.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_one": {
+    "message": "$P1$ aizsargāts sīkfails tiks saglabāts.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_other": {
+    "message": "Aizsargātie sīkfaili, kas tiks saglabāti: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_one": {
+    "message": "Dzēst $P1$ sīkfailu",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_other": {
+    "message": "Dzēst sīkfailus: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_to": {
+    "message": "Kopēt uz"
+  },
+  "copy_to_default_note": {
+    "message": "Noklusējuma krātuvē nokopētie sīkfaili tiek saglabāti kā jebkuri citi, diskā un pēc šīs inkognito sesijas beigām."
+  },
+  "copy_to_incognito_note": {
+    "message": "Inkognito krātuvē nokopētie sīkfaili beidzas līdz ar to inkognito sesiju."
+  },
+  "copy_title_one": {
+    "message": "Kopēt $P1$ sīkfailu",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_title_other": {
+    "message": "Kopēt sīkfailus: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_from": {
+    "message": "No krātuves “$P1$” uz:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_replace_note": {
+    "message": "Tur esošie sīkfaili ar to pašu nosaukumu, domēnu un ceļu tiks aizstāti, izņemot aizsargātos. Kopēšanu varēsit atsaukt."
+  },
+  "label_copied_one": {
+    "message": "Nokopēts $P1$ sīkfails uz $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_copied_other": {
+    "message": "Nokopēti sīkfaili: $P1$ uz $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_kept_one": {
+    "message": "$P1$ tur esošais aizsargātais sīkfails atstāts, kā bija.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_kept_other": {
+    "message": "Tur esošie aizsargātie sīkfaili atstāti, kā bija: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_done_one": {
+    "message": "Nokopēts $P1$ sīkfails uz $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_done_other": {
+    "message": "Nokopēti sīkfaili: $P1$ uz $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_undo_hint": {
+    "message": "Atsauciet to šeit vai vēlāk no krātuves “$P1$”.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_nothing": {
+    "message": "$P1$ jau satur tieši šos sīkfailus.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_cant": {
+    "message": "Nevar salīdzināt"
+  },
+  "compare_now": {
+    "message": "$P1$ tagad",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_other_site": {
+    "message": "Šis komplekts saglabāts vietnei $P1$, nevis $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "compare_too_many": {
+    "message": "Izvēlieties vienu komplektu, ko salīdzināt ar pašreizējo, vai divus komplektus, ko salīdzināt savā starpā."
+  },
+  "set_file_too_large": {
+    "message": "$P1$ ir pārāk liels, lai būtu sīkfailu komplekts.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_aria": {
+    "message": "Salīdzināt sīkfailu komplektus"
+  },
+  "compare_changed_fields": {
+    "message": "Mainīts: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_one": {
+    "message": "Atšķirību nav: $P1$ sīkfails ir identisks.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_other": {
+    "message": "Atšķirību nav, identisku sīkfailu: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_summary": {
+    "message": "Pievienoti: $P1$, noņemti: $P2$, mainīti: $P3$, nemainīti: $P4$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      },
+      "p4": {
+        "content": "$4"
+      }
+    }
+  },
+  "diff_added": {
+    "message": "Pievienots"
+  },
+  "diff_removed": {
+    "message": "Noņemts"
+  },
+  "diff_changed": {
+    "message": "Mainīts"
+  },
+  "diff_expiry_only": {
+    "message": "Mainījies tikai derīguma termiņš ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "shortcuts_title": {
+    "message": "Īsinājumtaustiņi"
+  },
+  "key_search": {
+    "message": "Meklēt"
+  },
+  "key_move": {
+    "message": "Pārvietoties pa sarakstu"
+  },
+  "key_first_last": {
+    "message": "Pirmais / pēdējais sīkfails"
+  },
+  "key_edit": {
+    "message": "Rediģēt"
+  },
+  "key_copy": {
+    "message": "Kopēt vērtību"
+  },
+  "key_protect": {
+    "message": "Aizsargāt / noņemt aizsardzību"
+  },
+  "key_delete": {
+    "message": "Dzēst (var atsaukt)"
+  },
+  "key_back": {
+    "message": "Atpakaļ vai notīrīt meklēšanu"
+  },
+  "key_help": {
+    "message": "Šis saraksts"
+  },
+  "import_kept_one": {
+    "message": "$P1$ aizsargāts sīkfails atstāts, kā bija: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_kept_other": {
+    "message": "Aizsargātie sīkfaili atstāti, kā bija ($P1$): $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_nothing": {
+    "message": "Nav, ko importēt: visi faila sīkfaili jau ir iestatīti tieši tā."
+  },
+  "imported_one": {
+    "message": "Importēts $P1$ sīkfails.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "imported_other": {
+    "message": "Importēti sīkfaili: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_restored": {
+    "message": "Atjaunots komplekts “$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restored_one": {
+    "message": "Atjaunots “$P2$”: ierakstīts $P1$ sīkfails, izdzēsti: $P3$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "restored_other": {
+    "message": "Atjaunots “$P2$”: ierakstīti sīkfaili: $P1$, izdzēsti: $P3$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "rate_title": {
+    "message": "Patīk CookieDesk?"
+  },
+  "rate_text": {
+    "message": "Īss vērtējums palīdz citiem to atrast."
+  },
+  "rate_group": {
+    "message": "Novērtēt veikalā"
+  },
+  "rate_stars_one": {
+    "message": "$P1$ zvaigzne",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "rate_stars_other": {
+    "message": "Zvaigznes: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_confirm_title": {
+    "message": "Vai nopirkāt man kafiju?"
+  },
+  "kofi_confirm_text": {
+    "message": "Paldies, tas palīdz CookieDesk attīstīties."
+  },
+  "kofi_yes": {
+    "message": "Jā, nopirku"
+  },
+  "kofi_not_yet": {
+    "message": "Vēl ne"
+  },
+  "kofi_milestone_one": {
+    "message": "$P1$ izmaiņa veikta ar CookieDesk!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_milestone_other": {
+    "message": "Izmaiņas ar CookieDesk: $P1$!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_free": {
+    "message": "Tas ir bezmaksas, un to izveidojis viens izstrādātājs."
+  },
+  "buy_coffee": {
+    "message": "Nopirkt kafiju"
+  },
+  "edit_cookie": {
+    "message": "Rediģēt sīkfailu"
+  },
+  "add_cookie_short": {
+    "message": "Pievienot sīkfailu"
+  },
+  "explain_title": {
+    "message": "Ko šis sīkfails dara"
+  },
+  "field_name": {
+    "message": "Nosaukums"
+  },
+  "field_value": {
+    "message": "Vērtība"
+  },
+  "field_domain": {
+    "message": "Domēns"
+  },
+  "field_path": {
+    "message": "Ceļš"
+  },
+  "field_expiry": {
+    "message": "Derīgums"
+  },
+  "field_expires": {
+    "message": "Beidzas"
+  },
+  "field_attributes": {
+    "message": "Atribūti"
+  },
+  "field_partition": {
+    "message": "Nodalījums"
+  },
+  "host_only": {
+    "message": "Tikai resursdators"
+  },
+  "host_only_title": {
+    "message": "Tikai resursdators: nav Domain atribūta, tāpēc apakšdomēni to nesaņem"
+  },
+  "session_title": {
+    "message": "Sesijas sīkfails: pazūd, kad aizver pārlūku"
+  },
+  "httponly_title": {
+    "message": "HttpOnly: lapas JavaScript to neredz"
+  },
+  "samesite_unspecified": {
+    "message": "Nav norādīts"
+  },
+  "partitioned_chips": {
+    "message": "Sadalīts (CHIPS)"
+  },
+  "top_level_site": {
+    "message": "Augstākā līmeņa vietne"
+  },
+  "no_partition_write": {
+    "message": "Šī Chrome versija nevar ierakstīt sadalītos sīkfailus."
+  },
+  "editor_delete_title": {
+    "message": "Dzēst (var atsaukt)"
+  },
+  "bytes_of": {
+    "message": "$P1$ / $P2$ baiti",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "access_aria": {
+    "message": "Piekļuve un iestatījumi"
+  },
+  "all_sites_on": {
+    "message": "Visas vietnes: ieslēgts"
+  },
+  "all_sites_on_text": {
+    "message": "CookieDesk var lasīt un mainīt sīkfailus visās vietnēs, arī iegultajās."
+  },
+  "turn_off": {
+    "message": "Izslēgt"
+  },
+  "all_sites": {
+    "message": "Visas vietnes"
+  },
+  "all_sites_text": {
+    "message": "Pēc izvēles. Vairs nav jautājumu par katru vietni, un iegulto vietņu (reklāmu, logrīku, pierakstīšanās rāmju) sīkfaili tiek rādīti visur."
+  },
+  "allow_all_sites": {
+    "message": "Atļaut visās vietnēs"
+  },
+  "remove_access": {
+    "message": "Noņemt piekļuvi vietnei $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "access_lead": {
+    "message": "CookieDesk redz vietnes sīkfailus tikai pēc tam, kad to atļaujat, un neko citu: ne lapas saturu, ne vēsturi."
+  },
+  "allowed_sites": {
+    "message": "Atļautās vietnes"
+  },
+  "allowed_sites_count": {
+    "message": "Atļautās vietnes · $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "all_sites_overrides": {
+    "message": "Piekļuve visām vietnēm ir ieslēgta, tāpēc šie iestatījumi nav svarīgi, kamēr tā paliek ieslēgta."
+  },
+  "none_yet": {
+    "message": "Pagaidām nav."
+  },
+  "toolbar_opens": {
+    "message": "Rīkjoslas poga atver"
+  },
+  "surface_popup": {
+    "message": "Uznirstošo logu"
+  },
+  "surface_sidepanel": {
+    "message": "Sānu paneli"
+  },
+  "support_feedback": {
+    "message": "Atbalsts un atsauksmes"
+  },
+  "thanks_supporting": {
+    "message": "Paldies par atbalstu!"
+  },
+  "report_problem": {
+    "message": "Ziņot par problēmu"
+  },
+  "source_code": {
+    "message": "Pirmkods"
+  },
+  "privacy_line": {
+    "message": "Nekādu tīkla pieprasījumu, nekādu sīkfailu vērtību diskā. Atsaukšana darbojas 10 minūtes; tās kopijas glabājas atmiņā un pazūd, kad aizver Chrome vai beidzas inkognito sesija."
+  },
+  "export_warning": {
+    "message": "Šajā failā ir spēkā esoši sesijas sīkfaili. Ikviens, kam tas ir, var pierakstīties kā jūs šajās vietnēs. Izturieties pret to kā pret paroli un izdzēsiet, kad pabeigsiet."
+  },
+  "export_json_one": {
+    "message": "Eksportēt $P1$ sīkfailu kā JSON",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_json_other": {
+    "message": "Eksportēt sīkfailus kā JSON: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_one": {
+    "message": "Eksportēt $P1$ sīkfailu kā cookies.txt",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_other": {
+    "message": "Eksportēt sīkfailus kā cookies.txt: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_all_one": {
+    "message": "Vietnes $P2$ uzskaitītais sīkfails nonāks failā, pat ja tas ir HttpOnly.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_all_other": {
+    "message": "Visi vietnei $P2$ uzskaitītie sīkfaili ($P1$) nonāks failā, arī HttpOnly.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_partitioned_left_one": {
+    "message": "$P1$ sadalīts sīkfails izlaists: cookies.txt nevar ierakstīt nodalījumus. Lai to saglabātu, izmantojiet JSON.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_partitioned_left_other": {
+    "message": "Sadalītie sīkfaili izlaisti ($P1$): cookies.txt nevar ierakstīt nodalījumus. Lai tos saglabātu, izmantojiet JSON.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_too_big": {
+    "message": "Šis fails ir $P1$ MB. Sīkfailu eksporti ir daudz mazāki; CookieDesk lasa failus līdz 5 MB.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "cant_import_unchanged": {
+    "message": "Šo failu nevar importēt. Nekas netika mainīts."
+  },
+  "cant_import": {
+    "message": "Šo failu nevar importēt"
+  },
+  "file_unreadable": {
+    "message": "Failu nevarēja nolasīt."
+  },
+  "needs_access_one": {
+    "message": "CookieDesk nepieciešama piekļuve vēl $P1$ vietnei, lai varētu ierakstīt šos sīkfailus:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "needs_access_other": {
+    "message": "CookieDesk nepieciešama piekļuve vēl vietnēm ($P1$), lai varētu ierakstīt šos sīkfailus:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_allow_all_hint": {
+    "message": "Vai atļaujiet visas vietnes sadaļā Piekļuve un iestatījumi."
+  },
+  "other_sites": {
+    "message": "Citas vietnes ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "other_sites_warning": {
+    "message": "Šis fails raksta sīkfailus arī citām vietnēm, nevis tikai $P1$. Citā vietnē iestatīts sīkfails var pierakstīt jūs nepareizā kontā. Turpiniet tikai tad, ja gaidījāt šīs vietnes.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_one": {
+    "message": "Ierakstīt sīkfailus arī $P1$ citai vietnei",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_other": {
+    "message": "Ierakstīt sīkfailus arī citām vietnēm: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partitioned_under_list": {
+    "message": "Sadalīti zem: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "warnings_count": {
+    "message": "Brīdinājumi ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_title": {
+    "message": "Importēt sīkfailus"
+  },
+  "import_message_one": {
+    "message": "Importēt $P1$ sīkfailu? Sīkfaili ar to pašu nosaukumu, domēnu un ceļu tiks aizstāti. Visu importu varēsit atsaukt.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_message_other": {
+    "message": "Importēt sīkfailus: $P1$? Sīkfaili ar to pašu nosaukumu, domēnu un ceļu tiks aizstāti. Visu importu varēsit atsaukt.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_one": {
+    "message": "Kopēt $P1$ sīkfailu kā document.cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_other": {
+    "message": "Kopēt sīkfailus kā document.cookie: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_warning": {
+    "message": "Kodā ir spēkā esoši sesijas sīkfaili. Ikviens, kam tas ir, var pierakstīties kā jūs šajā vietnē. Izturieties pret to kā pret paroli."
+  },
+  "snippet_paste": {
+    "message": "Ielīmējiet to DevTools konsolē vietnē $P1$, lai tur iestatītu šos sīkfailus.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_one": {
+    "message": "$P1$ HttpOnly sīkfails izlaists: lapas JavaScript to nevar iestatīt.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_other": {
+    "message": "HttpOnly sīkfaili izlaisti ($P1$): lapas JavaScript tos nevar iestatīt.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_one": {
+    "message": "Nokopēts $P1$ sīkfails kā document.cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_other": {
+    "message": "Nokopēti sīkfaili kā document.cookie: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_name": {
+    "message": "Komplekta nosaukums"
+  },
+  "set_name_placeholder": {
+    "message": "piem., pierakstījies kā administrators"
+  },
+  "save_set_title_one": {
+    "message": "Saglabāt $P1$ sīkfailu kā komplektu",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "save_set_title_other": {
+    "message": "Saglabāt sīkfailus kā komplektu: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_file_note": {
+    "message": "Komplekts ir fails jūsu datorā; CookieDesk nepatur kopiju. Atjaunojiet to vēlāk no izvēlnes vietnē $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "default_set_name": {
+    "message": "Sīkfailu komplekts"
+  },
+  "set_too_large": {
+    "message": "Šis fails ir pārāk liels, lai būtu sīkfailu komplekts."
+  },
+  "cant_restore_unchanged": {
+    "message": "Šo komplektu nevar atjaunot. Nekas netika mainīts."
+  },
+  "cant_restore": {
+    "message": "Šo komplektu nevar atjaunot"
+  },
+  "wrong_site_message": {
+    "message": "Šis komplekts saglabāts vietnei $P1$. Atveriet $P1$ un atjaunojiet to tur.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "wrong_site_title": {
+    "message": "Nepareiza vietne. Nekas netika mainīts."
+  },
+  "foreign_cookies_one": {
+    "message": "$P1$ šī faila sīkfails pieder citai vietnei ($P2$). Komplekta atjaunošana maina tikai $P3$; citām vietnēm izmantojiet importu.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "foreign_cookies_other": {
+    "message": "Šī faila sīkfaili, kas pieder citām vietnēm ($P2$): $P1$. Komplekta atjaunošana maina tikai $P3$; citām vietnēm izmantojiet importu.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "plan_write": {
+    "message": "Ierakstīt"
+  },
+  "plan_delete": {
+    "message": "Dzēst"
+  },
+  "plan_protected": {
+    "message": "Aizsargāti, atstāti, kā ir"
+  },
+  "restore_title": {
+    "message": "Atjaunot “$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_nothing": {
+    "message": "$P1$ jau atbilst šim komplektam. Nav, ko mainīt.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_message_one": {
+    "message": "Vietnes $P2$ sīkfaili tiks aizstāti ar šī komplekta $P1$ sīkfailu. Visu atjaunošanu varēsit atsaukt.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "restore_message_other": {
+    "message": "Vietnes $P2$ sīkfaili tiks aizstāti ar šī komplekta sīkfailiem ($P1$). Visu atjaunošanu varēsit atsaukt.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_partition_unsupported": {
+    "message": "“$P1$” ir sadalīts sīkfails, ko šī Chrome versija nevar ierakstīt. Atjauniniet Chrome uz 119 vai jaunāku versiju.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_gone": {
+    "message": "“$P1$” vairs neeksistē — iespējams, tā derīgums beidzies vai vietne to ir mainījusi. Pārlādējiet sarakstu.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_stored": {
+    "message": "Chrome pieņēma “$P1$”, bet nesaglabāja to.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_imprecise_delete_one": {
+    "message": "Chrome var izdzēst “$P2$” tikai kopā ar $P1$ citu sīkfailu ar tādu pašu nosaukumu, tāpēc CookieDesk to nedzēsīs.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_imprecise_delete_other": {
+    "message": "Chrome var izdzēst “$P2$” tikai kopā ar citiem sīkfailiem ar tādu pašu nosaukumu ($P1$), tāpēc CookieDesk to nedzēsīs.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_delete": {
+    "message": "Chrome vairs nepieņem “$P1$” tādu, kāds tas ir saglabāts, tāpēc pēc dzēšanas to nevarētu atgriezt. Dzēst bez atsaukšanas?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_removed": {
+    "message": "Neizdevās izdzēst “$P1$”.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_no_permission": {
+    "message": "CookieDesk nav piekļuves vietnei $P1$. Vispirms piešķiriet piekļuvi šai vietnei.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_secure_shadow": {
+    "message": "Vietnei $P2$ jau ir Secure sīkfails ar nosaukumu “$P1$”. Chrome neļauj ne-Secure sīkfailam ar tādu pašu nosaukumu to aizstāt vai atrasties blakus. Ieslēdziet Secure vai izmantojiet citu nosaukumu.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_rejected": {
+    "message": "Chrome noraidīja “$P1$”, nenorādot iemeslu. Nekas netika mainīts.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_irreversible_replace_one": {
+    "message": "Chrome vairs nepieņem $P2$ tādu, kāds tas ir saglabāts, tāpēc pēc aizstāšanas to nevarētu atgriezt. Turpināt bez atsaukšanas?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_replace_other": {
+    "message": "Chrome vairs nepieņem tādus, kādi tie ir saglabāti, tāpēc pēc aizstāšanas tos nevarētu atgriezt: $P2$. Turpināt bez atsaukšanas?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_too_large_to_undo": {
+    "message": "Šīs izmaiņas skar pārāk daudz datu ($P1$ KB), lai saglabātu atsaukšanas kopiju. Turpināt bez atsaukšanas?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_duplicate_in_file": {
+    "message": "Failā “$P1$” ir divreiz vienam domēnam un ceļam.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_undo_expired": {
+    "message": "Nav, ko atsaukt — atsaukšana tiek glabāta 10 minūtes."
+  },
+  "err_undo_conflict": {
+    "message": "$P1$ mainījās pēc “$P2$”. Atsaucot tagad, tiks pārrakstīta jaunākā vērtība. Tomēr atsaukt?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_incomplete": {
+    "message": "Nepabeigts: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_added": {
+    "message": "Pievienots “$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_edited": {
+    "message": "Rediģēts “$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted": {
+    "message": "Izdzēsts “$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_expired": {
+    "message": "Izdzēsts “$P1$” (derīgums pagātnē)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_one": {
+    "message": "Izdzēsts $P1$ sīkfails",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_other": {
+    "message": "Izdzēsti sīkfaili: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_one": {
+    "message": "Importēts $P1$ sīkfails",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_other": {
+    "message": "Importēti sīkfaili: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_undid": {
+    "message": "Atsaukts: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_saved": {
+    "message": "Saglabāts “$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_draft": {
+    "message": "Sīkfailam jābūt objektam ar nosaukumu, vērtību, domēnu un ceļu."
+  },
+  "v_name_type": {
+    "message": "Sīkfaila nosaukumam jābūt tekstam."
+  },
+  "v_value_type": {
+    "message": "Sīkfaila vērtībai jābūt tekstam."
+  },
+  "v_domain_type": {
+    "message": "Domēnam jābūt tekstam."
+  },
+  "v_path_type": {
+    "message": "Ceļam jābūt tekstam."
+  },
+  "v_flag_type": {
+    "message": "$P1$ jābūt true vai false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_samesite": {
+    "message": "SameSite jābūt vienai no vērtībām: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_name_control": {
+    "message": "Nosaukumā ir vadības rakstzīmes (piemēram, jauna rinda vai tabulēšana), kuras sīkfaili nevar saturēt."
+  },
+  "v_name_semicolon": {
+    "message": "Nosaukumā ir “;”, kas pārāk agri beigtu sīkfailu."
+  },
+  "v_name_equals": {
+    "message": "Nosaukumā ir “=”, kas sīkfailā atdala nosaukumu no vērtības."
+  },
+  "v_value_control": {
+    "message": "Vērtībā ir vadības rakstzīmes (piemēram, jauna rinda vai tabulēšana), kuras sīkfaili nevar saturēt."
+  },
+  "v_value_semicolon": {
+    "message": "Vērtībā ir “;”, kas pārāk agri beigtu sīkfailu. Kodējiet to (piemēram, ar encodeURIComponent)."
+  },
+  "v_empty_cookie": {
+    "message": "Sīkfailam vajadzīgs nosaukums vai vērtība; abi ir tukši."
+  },
+  "v_empty_name": {
+    "message": "Šim sīkfailam ir tukšs nosaukums. Dažas vietnes un rīki slikti apstrādā sīkfailus bez nosaukuma."
+  },
+  "v_too_large": {
+    "message": "Nosaukums un vērtība kopā ir $P1$ baiti (UTF-8); Chrome pieļauj ne vairāk kā $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "v_path_slash": {
+    "message": "Ceļam jāsākas ar “/”."
+  },
+  "v_path_too_long": {
+    "message": "Ceļš ir garāks par $P1$ baitiem.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_path_chars": {
+    "message": "Ceļā ir vadības rakstzīmes vai “;”, kuras sīkfaili nevar saturēt."
+  },
+  "v_domain_empty": {
+    "message": "Domēns ir tukšs. Ievadiet vietni, kurai sīkfails pieder, piemēram, example.com."
+  },
+  "v_domain_too_long": {
+    "message": "Domēns ir garāks par $P1$ baitiem.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_domain_invalid": {
+    "message": "Domēns nav derīgs resursdatora nosaukums. Izmantojiet burtus, ciparus un defises, atdalītus ar punktiem (starptautiskiem nosaukumiem jābūt punycode formātā, piemēram, xn--...)."
+  },
+  "v_domain_leading_dot": {
+    "message": "Tikai resursdatora sīkfaila domēns nevar sākties ar punktu; punkts nozīmē, ka sīkfails attiecas arī uz apakšdomēniem."
+  },
+  "v_domain_public_suffix": {
+    "message": "“$P1$” ir publisks sufikss (reģistra pārvaldīts domēns, piemēram, .com vai .co.uk), tāpēc pārlūki noraida sīkfailus, kas attiecas uz visu to.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_samesite_none_insecure": {
+    "message": "SameSite=None sīkfailiem jābūt Secure, citādi Chrome tos noraida. Ieslēdziet Secure vai izvēlieties citu SameSite."
+  },
+  "v_partitioned_insecure": {
+    "message": "Sadalītajiem sīkfailiem jābūt Secure, citādi Chrome tos noraida. Ieslēdziet Secure vai noņemiet nodalījumu."
+  },
+  "v_prefix_secure": {
+    "message": "Sīkfailiem ar nosaukumu “$P1$...” jābūt Secure. Ieslēdziet Secure vai pārsauciet sīkfailu.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_host_prefix_domain": {
+    "message": "Sīkfailiem ar nosaukumu “__Host-...” jābūt tikai resursdatora (nav Domain atribūta, tāpēc nav kopīgošanas ar apakšdomēniem). Ieslēdziet “tikai resursdators” vai pārsauciet sīkfailu."
+  },
+  "v_host_prefix_path": {
+    "message": "Sīkfailiem ar nosaukumu “__Host-...” jābūt ar ceļu “/”."
+  },
+  "v_bad_expiration": {
+    "message": "Derīguma termiņam jābūt galīgam sekunžu skaitam kopš 1970. gada."
+  },
+  "v_expired_deletes": {
+    "message": "Saglabājot ar derīgumu pagātnē, šis sīkfails tiek izdzēsts."
+  },
+  "v_clamped": {
+    "message": "Chrome ierobežo sīkfaila mūžu līdz $P1$ dienām; vēlāks derīgums saglabājot tiek saīsināts.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_expiration_missing": {
+    "message": "Ne-sesijas sīkfailam vajadzīgs derīguma datums. Izvēlieties to vai atzīmējiet sīkfailu kā sesijas sīkfailu."
+  },
+  "v_partition_type": {
+    "message": "Nodalījuma atslēgai jābūt objektam ar topLevelSite."
+  },
+  "v_partition_site_type": {
+    "message": "Nodalījuma augstākā līmeņa vietnei jābūt tekstam, piemēram, https://example.com."
+  },
+  "v_partition_site_form": {
+    "message": "Nodalījuma augstākā līmeņa vietnei jāizskatās kā https://example.com (https, bez ceļa vai porta)."
+  },
+  "v_partition_flag": {
+    "message": "Nodalījuma hasCrossSiteAncestor jābūt true vai false."
+  },
+  "v_partition_cross_site": {
+    "message": "Sīkfaila domēns nav tajā pašā vietnē, kur $P1$, tāpēc Chrome pieprasa, lai hasCrossSiteAncestor būtu true.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_other_site": {
+    "message": "Šī sīkfaila domēns ($P1$) ir ārpus pašreizējās vietnes ($P2$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_entry": {
+    "message": "Ieraksts $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_entry_named": {
+    "message": "Ieraksts $P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_bad_samesite": {
+    "message": "$P1$: sameSite nav neviena no vērtībām no_restriction, lax, strict, unspecified.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bool": {
+    "message": "$P1$: “$P2$” jābūt true vai false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_text": {
+    "message": "$P1$: “$P2$” jābūt tekstam.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_not_object": {
+    "message": "$P1$ nav sīkfaila objekts.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_expiration_type": {
+    "message": "$P1$: “expirationDate” jābūt skaitlim.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_key": {
+    "message": "$P1$: partitionKey jābūt objektam ar teksta topLevelSite.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_flag": {
+    "message": "$P1$: partitionKey.hasCrossSiteAncestor jābūt true vai false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_line": {
+    "message": "Rinda $P1$ nav cookies.txt ieraksts (gaidīti 7 ar tabulāciju atdalīti lauki, atrasti $P2$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_line_flag_subdomains": {
+    "message": "Rinda $P1$: apakšdomēnu karogam jābūt TRUE vai FALSE.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_flag_secure": {
+    "message": "Rinda $P1$: secure karogam jābūt TRUE vai FALSE.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_expiry": {
+    "message": "Rinda $P1$: derīguma termiņam jābūt veselam sekunžu skaitam.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_not_text": {
+    "message": "Failu nevarēja nolasīt kā tekstu."
+  },
+  "io_too_large": {
+    "message": "Fails ir lielāks par importa ierobežojumu $P1$ baiti.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_json": {
+    "message": "Fails izskatās pēc JSON, bet to nevarēja parsēt."
+  },
+  "io_bad_version": {
+    "message": "Šim CookieDesk failam ir neatbalstīta versija."
+  },
+  "io_no_cookie_list": {
+    "message": "CookieDesk failā nav “cookies” saraksta."
+  },
+  "io_unknown_format": {
+    "message": "Šis JSON nav ne CookieDesk eksports, ne sīkfailu saraksts."
+  },
+  "io_no_cookies": {
+    "message": "Failā nav sīkfailu."
+  },
+  "io_too_many": {
+    "message": "Failā ir $P1$ sīkfaili; ierobežojums ir $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_issue": {
+    "message": "$P1$: $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_duplicate": {
+    "message": "$P1$: citam ierakstam ir tas pats nosaukums, domēns, ceļš un nodalījums.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "when": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "when_passed": {
+    "message": "jau pagājis"
+  },
+  "when_under_day": {
+    "message": "pēc mazāk nekā dienas"
+  },
+  "explain_third_party": {
+    "message": "Iestatījusi $P1$, cita vietne nekā $P2$: trešās puses sīkfails.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_third_party_partitioned": {
+    "message": "Iestatījusi $P1$, cita vietne nekā $P2$: trešās puses sīkfails, kas glabājas $P2$ nodalījumā.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_host_prefix": {
+    "message": "Prefikss __Host- liek Chrome pieprasīt Secure, bez Domain atribūta un Path=/, tāpēc neviens apakšdomēns to nevar iestatīt vai aizstāt."
+  },
+  "explain_secure_prefix": {
+    "message": "Prefikss __Secure- liek Chrome to pieņemt tikai ar Secure karogu."
+  },
+  "explain_scope_host": {
+    "message": "Tiek sūtīts tikai pašai vietnei $P1$, nevis tās apakšdomēniem.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_scope_domain": {
+    "message": "Tiek sūtīts vietnei $P1$ un visiem tās apakšdomēniem (piemēram, www.$P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_path_all": {
+    "message": "Tiek sūtīts ar pieprasījumiem uz visiem šī resursdatora ceļiem."
+  },
+  "explain_path_under": {
+    "message": "Tiek sūtīts tikai ar pieprasījumiem uz ceļiem zem $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_secure": {
+    "message": "Secure: tiek sūtīts tikai pa HTTPS."
+  },
+  "explain_not_secure": {
+    "message": "Nav Secure: tiek sūtīts arī pa parasto HTTP, kur to var nolasīt ikviens tīklā."
+  },
+  "explain_httponly": {
+    "message": "HttpOnly: lapas JavaScript to neredz (document.cookie to nevar nolasīt), tāpēc tas ir pasargāts no ievadītiem skriptiem."
+  },
+  "explain_script_readable": {
+    "message": "Jebkurš lapā darbojošais skripts to var lasīt un mainīt."
+  },
+  "explain_samesite_none": {
+    "message": "SameSite=None: var tikt sūtīts arī ar starpvietņu pieprasījumiem (iegultiem rāmjiem, attēliem, citu vietņu pieprasījumiem), ja Chrome vispār atļauj trešo pušu sīkfailus (inkognito tos pēc noklusējuma bloķē). Tāpēc tam jābūt Secure."
+  },
+  "explain_samesite_lax": {
+    "message": "SameSite=Lax: tiek sūtīts, kad pārejat uz vietni, arī no saites citā vietnē, bet ne ar pieprasījumiem, ko citu vietņu lapas veic fonā."
+  },
+  "explain_samesite_strict": {
+    "message": "SameSite=Strict: tiek sūtīts tikai tad, kad jau esat tajā pašā vietnē. Nonākot no saites citā vietnē, pirmais pieprasījums iet bez tā."
+  },
+  "explain_samesite_unset": {
+    "message": "Nav SameSite atribūta: Chrome to uzskata par Lax."
+  },
+  "explain_session": {
+    "message": "Sesijas sīkfails: tiek dzēsts, kad aizver pārlūku (ja vien Chrome startējot neatjauno iepriekšējo sesiju)."
+  },
+  "explain_expires": {
+    "message": "Beidzas $P1$. Chrome ierobežo jebkuru derīgumu līdz 400 dienām no brīža, kad sīkfails pēdējoreiz iestatīts.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition": {
+    "message": "Sadalīts (CHIPS): glabājas atsevišķi katrai augstākā līmeņa vietnei. Šī kopija tiek sūtīta tikai tad, kad adreses joslā ir $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition_cross": {
+    "message": "Tas atrodas šī nodalījuma starpvietņu daļā (izmanto, ja starp lapu un šī sīkfaila vietni ir cita vietne), atdalītā no tās pašas vietnes daļas."
+  },
+  "explain_partition_same": {
+    "message": "Tas atrodas šī nodalījuma tās pašas vietnes daļā, atdalītā no starpvietņu daļas."
+  },
+  "explain_partition_other": {
+    "message": "Tāds pats sīkfaila nosaukums citā vietnē ir cits sīkfails."
+  },
+  "explain_jwt": {
+    "message": "Vērtība izskatās pēc JSON Web Token."
+  },
+  "explain_jwt_exp": {
+    "message": "Vērtība izskatās pēc JSON Web Token; pats žetons norāda, ka beidzas $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_size": {
+    "message": "$P1$ no 4096 baitiem, ko Chrome pieļauj nosaukumam un vērtībai kopā.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

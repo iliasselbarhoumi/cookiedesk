@@ -1,0 +1,2084 @@
+{
+  "extension_name": {
+    "message": "محرر الكوكيز — عرض وتعديل وحذف ملفات تعريف الارتباط | CookieDesk"
+  },
+  "extension_description": {
+    "message": "افحص ملفات تعريف الارتباط وعدّلها وأضفها واحذفها لكل موقع. بحث واستيراد وتصدير ودعم للكوكيز المقسّمة. بلا إعلانات ولا تتبع."
+  },
+  "btn_ok": {
+    "message": "حسنًا"
+  },
+  "btn_cancel": {
+    "message": "إلغاء"
+  },
+  "btn_close": {
+    "message": "إغلاق"
+  },
+  "btn_delete": {
+    "message": "حذف"
+  },
+  "btn_copy": {
+    "message": "نسخ"
+  },
+  "btn_save": {
+    "message": "حفظ"
+  },
+  "btn_export": {
+    "message": "تصدير"
+  },
+  "btn_later": {
+    "message": "لاحقًا"
+  },
+  "dismiss": {
+    "message": "تجاهل"
+  },
+  "back": {
+    "message": "رجوع"
+  },
+  "back_esc": {
+    "message": "رجوع (Esc)‏"
+  },
+  "back_to_list": {
+    "message": "العودة إلى القائمة"
+  },
+  "title_count": {
+    "message": "$P1$ ($P2$)‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "empty_name": {
+    "message": "(اسم فارغ)‏"
+  },
+  "empty_value": {
+    "message": "(قيمة فارغة)‏"
+  },
+  "empty_short": {
+    "message": "(فارغ)‏"
+  },
+  "names_more": {
+    "message": "$P1$ و$P2$ أخرى",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "done": {
+    "message": "تم"
+  },
+  "undo": {
+    "message": "تراجع"
+  },
+  "undo_nothing": {
+    "message": "لا شيء للتراجع عنه"
+  },
+  "undo_entry": {
+    "message": "تراجع: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_interrupted": {
+    "message": "توقف التراجع: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "redo_entry": {
+    "message": "إعادة: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "support_title": {
+    "message": "ادعم CookieDesk على Ko-fi‏"
+  },
+  "supporter_title": {
+    "message": "شكرًا لدعمك CookieDesk!‏"
+  },
+  "add_cookie": {
+    "message": "إضافة كوكي"
+  },
+  "add_cookie_title": {
+    "message": "إضافة كوكي (n)‏"
+  },
+  "more_actions": {
+    "message": "إجراءات أخرى"
+  },
+  "menu_group_transfer": {
+    "message": "التصدير والاستيراد"
+  },
+  "menu_group_sets": {
+    "message": "مجموعات الكوكيز"
+  },
+  "export_json_title": {
+    "message": "تصدير بصيغة JSON‏"
+  },
+  "export_txt_title": {
+    "message": "تصدير بصيغة Netscape cookies.txt‏"
+  },
+  "tile_snippet": {
+    "message": "مقتطف"
+  },
+  "tile_snippet_title": {
+    "message": "نسخ كمقتطف document.cookie‏"
+  },
+  "tile_import": {
+    "message": "استيراد"
+  },
+  "tile_import_title": {
+    "message": "استيراد JSON أو cookies.txt‏"
+  },
+  "tile_save_set": {
+    "message": "حفظ مجموعة"
+  },
+  "tile_save_set_title": {
+    "message": "حفظ هذه الكوكيز كملف مجموعة باسم"
+  },
+  "tile_restore": {
+    "message": "استعادة"
+  },
+  "tile_restore_title": {
+    "message": "استعادة مجموعة محفوظة (مع معاينة أولًا)‏"
+  },
+  "tile_compare": {
+    "message": "مقارنة"
+  },
+  "tile_compare_title": {
+    "message": "قارن مجموعة محفوظة بالوضع الحالي، أو مجموعتين معًا"
+  },
+  "tile_copy_to": {
+    "message": "نسخ إلى…"
+  },
+  "tile_copy_to_title": {
+    "message": "انسخ الكوكيز المعروضة إلى مخزن آخر (عادي ↔ تصفح متخفٍ)‏"
+  },
+  "menu_bulk_delete": {
+    "message": "حذف الكوكيز المعروضة…"
+  },
+  "menu_access": {
+    "message": "الوصول والإعدادات"
+  },
+  "menu_shortcuts": {
+    "message": "الاختصارات"
+  },
+  "menu_sidepanel": {
+    "message": "فتح في اللوحة الجانبية"
+  },
+  "menu_rate": {
+    "message": "قيّم CookieDesk‏"
+  },
+  "menu_support": {
+    "message": "الدعم على Ko-fi‏"
+  },
+  "search_placeholder": {
+    "message": "ابحث في الكوكيز"
+  },
+  "search_label": {
+    "message": "تصفية الكوكيز حسب الاسم أو القيمة أو النطاق"
+  },
+  "search_title": {
+    "message": "تصفية حسب الاسم أو القيمة أو النطاق"
+  },
+  "cookie_store": {
+    "message": "مخزن الكوكيز"
+  },
+  "cookies_list": {
+    "message": "الكوكيز"
+  },
+  "restricted_page": {
+    "message": "صفحة مقيّدة"
+  },
+  "loading": {
+    "message": "جارٍ التحميل…"
+  },
+  "state_unknown": {
+    "message": "انقر زر CookieDesk في شريط الأدوات لعرض كوكيز هذا التبويب."
+  },
+  "state_unknown_hint": {
+    "message": "لا يشارك Chrome عنوان التبويب إلا بعد هذه النقرة، أو للمواقع التي سمحت لها."
+  },
+  "state_error": {
+    "message": "حدث خطأ: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "state_no_access": {
+    "message": "لا يملك CookieDesk إذن الوصول إلى $P1$ بعد.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "grant_site": {
+    "message": "السماح على $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "chrome_will_ask": {
+    "message": "سيسألك Chrome:‏"
+  },
+  "prompt_site": {
+    "message": "قراءة بياناتك وتغييرها على جميع مواقع $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "prompt_all": {
+    "message": "قراءة جميع بياناتك وتغييرها على جميع مواقع الويب"
+  },
+  "only_this_site": {
+    "message": "كوكيز هذا الموقع فقط، لا شيء غيرها."
+  },
+  "allow_all_instead": {
+    "message": "السماح لكل المواقع بدلًا من ذلك"
+  },
+  "restricted_browser": {
+    "message": "هذه صفحة من Chrome. لا يسمح Chrome لأي إضافة بقراءة الكوكيز هنا أو تغييرها."
+  },
+  "restricted_webstore": {
+    "message": "هذا هو Chrome Web Store. يمنع Chrome كل الإضافات من الوصول إليه، لذا لا يمكن عرض كوكيزه."
+  },
+  "restricted_extension": {
+    "message": "هذه صفحة تخص إضافة. تخزينها ليس كوكيز موقع ويب، فلا شيء لعرضه."
+  },
+  "restricted_file": {
+    "message": "هذا ملف محلي. الملفات المفتوحة من القرص لا تحتوي على كوكيز."
+  },
+  "restricted_other": {
+    "message": "هذه الصفحة ليست موقع ويب (مثل صفحة فارغة أو صفحة data:)، لذا لا كوكيز فيها."
+  },
+  "live_just_now": {
+    "message": "الآن: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "note_third_party": {
+    "message": "لا تظهر كوكيز المواقع المضمّنة إلا للمواقع التي سمحت لها."
+  },
+  "note_no_partitions": {
+    "message": "إصدار Chrome لديك لا يعرض الكوكيز المقسّمة، فقد تكون هذه القائمة ناقصة."
+  },
+  "empty_no_match": {
+    "message": "لا توجد كوكيز تطابق «$P1$».",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "empty_none": {
+    "message": "لا توجد كوكيز لـ $P1$.‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clear_search": {
+    "message": "مسح البحث"
+  },
+  "change_changed": {
+    "message": "تم تغيير $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_added": {
+    "message": "تمت إضافة $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_removed": {
+    "message": "تمت إزالة $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_one": {
+    "message": "كوكي واحد"
+  },
+  "count_cookies_other": {
+    "message": "الكوكيز: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_filtered_one": {
+    "message": "$P2$ من $P1$ كوكي",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_filtered_other": {
+    "message": "$P2$ من $P1$ كوكيز",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_partitioned": {
+    "message": "مقسّمة: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "store_default": {
+    "message": "الافتراضي"
+  },
+  "store_incognito": {
+    "message": "التصفح المتخفي"
+  },
+  "store_n": {
+    "message": "المخزن $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "session": {
+    "message": "جلسة"
+  },
+  "expired": {
+    "message": "منتهي الصلاحية"
+  },
+  "expiry_under_minute": {
+    "message": "خلال أقل من دقيقة"
+  },
+  "expiry_on_close": {
+    "message": "يُحذف عند إغلاق المتصفح"
+  },
+  "expires_at": {
+    "message": "ينتهي $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "badge_protected": {
+    "message": "محمي: لا يمسّه الحذف الجماعي ولا الاستيراد ولا استعادة المجموعات (p)‏"
+  },
+  "hint_httponly": {
+    "message": "HttpOnly: غير مرئي لجافاسكربت الصفحة (document.cookie لا يستطيع قراءته)‏"
+  },
+  "hint_secure": {
+    "message": "Secure: يُرسل عبر HTTPS فقط"
+  },
+  "hint_samesite_none": {
+    "message": "SameSite=None: يُرسل أيضًا مع الطلبات عبر المواقع"
+  },
+  "hint_samesite_lax": {
+    "message": "SameSite=Lax: يُرسل عند التنقل إلى الموقع، لا مع الطلبات الفرعية من مواقع أخرى"
+  },
+  "hint_samesite_strict": {
+    "message": "SameSite=Strict: يُرسل مع طلبات الموقع نفسه فقط"
+  },
+  "badge_partitioned": {
+    "message": "مقسّم"
+  },
+  "partitioned_under": {
+    "message": "مقسّم ضمن $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partition_this_site": {
+    "message": "هذا الموقع"
+  },
+  "partition_cross_site": {
+    "message": "$P1$، سياق عبر المواقع",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "row_protected": {
+    "message": "محمي"
+  },
+  "row_unprotect_title": {
+    "message": "إلغاء الحماية (p)‏"
+  },
+  "row_protect_title": {
+    "message": "حماية من الحذف الجماعي والاستيراد واستعادة المجموعات (p)‏"
+  },
+  "copy_value": {
+    "message": "نسخ القيمة"
+  },
+  "copied": {
+    "message": "تم النسخ"
+  },
+  "copy_value_title": {
+    "message": "نسخ القيمة (c)‏"
+  },
+  "row_delete_title": {
+    "message": "حذف (Del) — يمكن التراجع"
+  },
+  "irreversible_title": {
+    "message": "لا يمكن التراجع عن هذا"
+  },
+  "continue_no_undo": {
+    "message": "المتابعة بدون تراجع"
+  },
+  "undo_anyway_title": {
+    "message": "التراجع على أي حال؟"
+  },
+  "undo_anyway": {
+    "message": "تراجع على أي حال"
+  },
+  "undone": {
+    "message": "تم التراجع: $P1$.‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_skipped": {
+    "message": "انتهت صلاحية بعض الكوكيز ولم تُستعد: $P1$.‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_refused": {
+    "message": "لم يعد Chrome يقبل هذه الكوكيز كما كانت، فلم تُستعد: $P1$.‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clipboard_failed": {
+    "message": "تعذّر النسخ: الحافظة غير متاحة هنا."
+  },
+  "protected_on": {
+    "message": "تمت حماية «$P1$»: لن يمسّه الحذف الجماعي ولا الاستيراد ولا استعادة المجموعات.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_off": {
+    "message": "لم يعد «$P1$» محميًا.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protect_limit": {
+    "message": "يمكنك حماية $P1$ كوكي كحد أقصى. ألغِ حماية بعضها أولًا.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_named": {
+    "message": "حذف «$P1$»؟",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_protected_message": {
+    "message": "هذا الكوكي محمي. هل تريد حذفه على أي حال؟ يمكنك التراجع."
+  },
+  "nothing_to_delete": {
+    "message": "لا شيء للحذف"
+  },
+  "all_shown_protected_one": {
+    "message": "الكوكي المعروض محمي."
+  },
+  "all_shown_protected_other": {
+    "message": "كل الكوكيز المعروضة ($P1$) محمية.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "no_cookies_shown": {
+    "message": "لا توجد كوكيز معروضة."
+  },
+  "bulk_title_one": {
+    "message": "حذف كوكي واحد؟"
+  },
+  "bulk_title_other": {
+    "message": "حذف الكوكيز ($P1$)؟‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_match": {
+    "message": "هذه الكوكيز تطابق «$P1$» على $P2$. يمكنك التراجع.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "bulk_all": {
+    "message": "كل كوكي مدرج لـ $P1$. يمكنك التراجع.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_one": {
+    "message": "سيبقى كوكي واحد محمي."
+  },
+  "protected_kept_other": {
+    "message": "سيبقى $P1$ من الكوكيز المحمية.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_one": {
+    "message": "حذف كوكي واحد"
+  },
+  "bulk_ok_other": {
+    "message": "حذف الكوكيز ($P1$)‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_to": {
+    "message": "نسخ إلى"
+  },
+  "copy_to_default_note": {
+    "message": "الكوكيز المنسوخة إلى المخزن الافتراضي تُحفظ كأي كوكي آخر، على القرص وبعد انتهاء جلسة التصفح المتخفي."
+  },
+  "copy_to_incognito_note": {
+    "message": "الكوكيز المنسوخة إلى مخزن التصفح المتخفي تنتهي بانتهاء تلك الجلسة."
+  },
+  "copy_title_one": {
+    "message": "نسخ كوكي واحد"
+  },
+  "copy_title_other": {
+    "message": "نسخ الكوكيز ($P1$)‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_from": {
+    "message": "من المخزن $P1$ إلى:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_replace_note": {
+    "message": "تُستبدل هناك الكوكيز التي لها الاسم والنطاق والمسار نفسها، عدا المحمية. يمكنك التراجع عن النسخ."
+  },
+  "label_copied_one": {
+    "message": "نُسخ كوكي واحد إلى $P2$‏",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_copied_other": {
+    "message": "نُسخ $P1$ من الكوكيز إلى $P2$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_kept_one": {
+    "message": "بقي كوكي واحد محمي هناك كما كان."
+  },
+  "copy_kept_other": {
+    "message": "بقي $P1$ من الكوكيز المحمية هناك كما كانت.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_done_one": {
+    "message": "نُسخ كوكي واحد إلى $P2$.‏",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_done_other": {
+    "message": "نُسخ $P1$ من الكوكيز إلى $P2$.‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_undo_hint": {
+    "message": "تراجع عنه هنا، أو لاحقًا من المخزن $P1$.‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_nothing": {
+    "message": "$P1$ يحتوي بالفعل على هذه الكوكيز تمامًا.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_cant": {
+    "message": "تتعذّر المقارنة"
+  },
+  "compare_now": {
+    "message": "$P1$ الآن",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_other_site": {
+    "message": "حُفظت هذه المجموعة لـ $P1$ وليس لـ $P2$.‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "compare_too_many": {
+    "message": "اختر مجموعة واحدة لمقارنتها بالوضع الحالي، أو مجموعتين لمقارنتهما معًا."
+  },
+  "set_file_too_large": {
+    "message": "الملف $P1$ أكبر من أن يكون مجموعة كوكيز.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_aria": {
+    "message": "مقارنة مجموعات الكوكيز"
+  },
+  "compare_changed_fields": {
+    "message": "تغيّر: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_one": {
+    "message": "لا فروق: كوكي واحد متطابق."
+  },
+  "diff_none_other": {
+    "message": "لا فروق: $P1$ من الكوكيز متطابقة.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_summary": {
+    "message": "$P1$ مضافة، $P2$ محذوفة، $P3$ متغيّرة، $P4$ دون تغيير.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      },
+      "p4": {
+        "content": "$4"
+      }
+    }
+  },
+  "diff_added": {
+    "message": "مضاف"
+  },
+  "diff_removed": {
+    "message": "محذوف"
+  },
+  "diff_changed": {
+    "message": "متغيّر"
+  },
+  "diff_expiry_only": {
+    "message": "تغيّر تاريخ الانتهاء فقط ($P1$)‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "shortcuts_title": {
+    "message": "اختصارات لوحة المفاتيح"
+  },
+  "key_search": {
+    "message": "بحث"
+  },
+  "key_move": {
+    "message": "التنقل في القائمة"
+  },
+  "key_first_last": {
+    "message": "أول كوكي / آخر كوكي"
+  },
+  "key_edit": {
+    "message": "تعديل"
+  },
+  "key_copy": {
+    "message": "نسخ القيمة"
+  },
+  "key_protect": {
+    "message": "حماية / إلغاء الحماية"
+  },
+  "key_delete": {
+    "message": "حذف (يمكن التراجع)‏"
+  },
+  "key_back": {
+    "message": "رجوع، أو مسح البحث"
+  },
+  "key_help": {
+    "message": "هذه القائمة"
+  },
+  "import_kept_one": {
+    "message": "بقي كوكي واحد محمي كما كان: $P2$.‏",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_kept_other": {
+    "message": "بقي $P1$ من الكوكيز المحمية كما كانت: $P2$.‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_nothing": {
+    "message": "لا شيء للاستيراد: كل كوكي في الملف مضبوط بالفعل على هذا النحو تمامًا."
+  },
+  "imported_one": {
+    "message": "تم استيراد كوكي واحد."
+  },
+  "imported_other": {
+    "message": "تم استيراد $P1$ من الكوكيز.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_restored": {
+    "message": "تمت استعادة المجموعة «$P1$»",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restored_one": {
+    "message": "تمت استعادة «$P2$»: كُتب كوكي واحد وحُذف $P3$.‏",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "restored_other": {
+    "message": "تمت استعادة «$P2$»: كُتب $P1$ من الكوكيز وحُذف $P3$.‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "rate_title": {
+    "message": "هل يعجبك CookieDesk؟‏"
+  },
+  "rate_text": {
+    "message": "تقييم سريع يساعد الآخرين على العثور عليه."
+  },
+  "rate_group": {
+    "message": "قيّم في المتجر"
+  },
+  "rate_stars_one": {
+    "message": "نجمة واحدة"
+  },
+  "rate_stars_other": {
+    "message": "$P1$ نجوم",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_confirm_title": {
+    "message": "هل اشتريت لي قهوة؟"
+  },
+  "kofi_confirm_text": {
+    "message": "شكرًا لك، هذا يُبقي CookieDesk مستمرًا."
+  },
+  "kofi_yes": {
+    "message": "نعم، فعلت"
+  },
+  "kofi_not_yet": {
+    "message": "ليس بعد"
+  },
+  "kofi_milestone_one": {
+    "message": "تغيير واحد تم باستخدام CookieDesk!‏"
+  },
+  "kofi_milestone_other": {
+    "message": "$P1$ تغييرات تمت باستخدام CookieDesk!‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_free": {
+    "message": "مجاني ويطوّره مطوّر واحد."
+  },
+  "buy_coffee": {
+    "message": "اشترِ لي قهوة"
+  },
+  "edit_cookie": {
+    "message": "تعديل الكوكي"
+  },
+  "add_cookie_short": {
+    "message": "إضافة كوكي"
+  },
+  "explain_title": {
+    "message": "ماذا يفعل هذا الكوكي"
+  },
+  "field_name": {
+    "message": "الاسم"
+  },
+  "field_value": {
+    "message": "القيمة"
+  },
+  "field_domain": {
+    "message": "Domain‏"
+  },
+  "field_path": {
+    "message": "Path‏"
+  },
+  "field_expiry": {
+    "message": "الانتهاء"
+  },
+  "field_expires": {
+    "message": "ينتهي"
+  },
+  "field_attributes": {
+    "message": "السمات"
+  },
+  "field_partition": {
+    "message": "التقسيم"
+  },
+  "host_only": {
+    "message": "المضيف فقط"
+  },
+  "host_only_title": {
+    "message": "المضيف فقط: بلا سمة Domain، فلا تحصل عليه النطاقات الفرعية"
+  },
+  "session_title": {
+    "message": "كوكي جلسة: يزول عند إغلاق المتصفح"
+  },
+  "httponly_title": {
+    "message": "HttpOnly: غير مرئي لجافاسكربت الصفحة"
+  },
+  "samesite_unspecified": {
+    "message": "غير محدد"
+  },
+  "partitioned_chips": {
+    "message": "مقسّم (CHIPS)‏"
+  },
+  "top_level_site": {
+    "message": "الموقع الأعلى مستوى"
+  },
+  "no_partition_write": {
+    "message": "هذا الإصدار من Chrome لا يستطيع كتابة الكوكيز المقسّمة."
+  },
+  "editor_delete_title": {
+    "message": "حذف (يمكن التراجع)‏"
+  },
+  "bytes_of": {
+    "message": "$P1$ / $P2$ بايت",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "access_aria": {
+    "message": "الوصول والإعدادات"
+  },
+  "all_sites_on": {
+    "message": "كل المواقع: مفعّل"
+  },
+  "all_sites_on_text": {
+    "message": "يستطيع CookieDesk قراءة الكوكيز وتغييرها على كل موقع، بما فيها المضمّنة."
+  },
+  "turn_off": {
+    "message": "إيقاف"
+  },
+  "all_sites": {
+    "message": "كل المواقع"
+  },
+  "all_sites_text": {
+    "message": "اختياري. لا مزيد من طلبات الإذن لكل موقع، وتظهر كوكيز المواقع المضمّنة (الإعلانات والأدوات وإطارات تسجيل الدخول) في كل مكان."
+  },
+  "allow_all_sites": {
+    "message": "السماح على كل المواقع"
+  },
+  "remove_access": {
+    "message": "إزالة الوصول إلى $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "access_lead": {
+    "message": "لا يرى CookieDesk كوكيز موقع إلا بعد أن تسمح لذلك الموقع، ولا شيء غيرها: لا محتوى الصفحات ولا السجل."
+  },
+  "allowed_sites": {
+    "message": "المواقع المسموح بها"
+  },
+  "allowed_sites_count": {
+    "message": "المواقع المسموح بها · $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "all_sites_overrides": {
+    "message": "الوصول إلى كل المواقع مفعّل، فلا أهمية لهذه ما دام مفعّلًا."
+  },
+  "none_yet": {
+    "message": "لا شيء بعد."
+  },
+  "toolbar_opens": {
+    "message": "زر شريط الأدوات يفتح"
+  },
+  "surface_popup": {
+    "message": "نافذة منبثقة"
+  },
+  "surface_sidepanel": {
+    "message": "لوحة جانبية"
+  },
+  "support_feedback": {
+    "message": "الدعم والملاحظات"
+  },
+  "thanks_supporting": {
+    "message": "شكرًا لدعمك!"
+  },
+  "report_problem": {
+    "message": "الإبلاغ عن مشكلة"
+  },
+  "source_code": {
+    "message": "الشيفرة المصدرية"
+  },
+  "privacy_line": {
+    "message": "لا طلبات شبكة ولا قيم كوكيز على القرص. التراجع متاح لمدة 10 دقائق؛ نسخه في الذاكرة وتزول عند إغلاق Chrome أو انتهاء جلسة التصفح المتخفي."
+  },
+  "export_warning": {
+    "message": "يحتوي هذا الملف على كوكيز جلسات نشطة. يستطيع أي شخص يملكه تسجيل الدخول باسمك على هذه المواقع. تعامل معه ككلمة مرور واحذفه عند الانتهاء."
+  },
+  "export_json_one": {
+    "message": "تصدير كوكي واحد بصيغة JSON‏"
+  },
+  "export_json_other": {
+    "message": "تصدير الكوكيز ($P1$) بصيغة JSON‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_one": {
+    "message": "تصدير كوكي واحد بصيغة cookies.txt‏"
+  },
+  "export_txt_other": {
+    "message": "تصدير الكوكيز ($P1$) بصيغة cookies.txt‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_all_one": {
+    "message": "الكوكي المدرج لـ $P2$ سيدخل الملف، حتى لو كان HttpOnly.‏",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_all_other": {
+    "message": "كل الكوكيز المدرجة لـ $P2$ ($P1$) ستدخل الملف، بما فيها HttpOnly.‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_partitioned_left_one": {
+    "message": "استُبعد كوكي مقسّم واحد: لا يستطيع cookies.txt تسجيل التقسيم. استخدم JSON للاحتفاظ به."
+  },
+  "export_partitioned_left_other": {
+    "message": "استُبعد $P1$ من الكوكيز المقسّمة: لا يستطيع cookies.txt تسجيل التقسيم. استخدم JSON للاحتفاظ بها.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_too_big": {
+    "message": "حجم هذا الملف $P1$ ميغابايت. ملفات تصدير الكوكيز أصغر بكثير؛ يقرأ CookieDesk ملفات حتى 5 ميغابايت.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "cant_import_unchanged": {
+    "message": "يتعذّر استيراد هذا الملف. لم يتغيّر شيء."
+  },
+  "cant_import": {
+    "message": "يتعذّر استيراد هذا الملف"
+  },
+  "file_unreadable": {
+    "message": "تعذّرت قراءة الملف."
+  },
+  "needs_access_one": {
+    "message": "يحتاج CookieDesk إلى الوصول إلى موقع واحد إضافي قبل أن يكتب هذه الكوكيز:"
+  },
+  "needs_access_other": {
+    "message": "يحتاج CookieDesk إلى الوصول إلى $P1$ من المواقع الإضافية قبل أن يكتب هذه الكوكيز:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_allow_all_hint": {
+    "message": "أو اسمح لكل المواقع من «الوصول والإعدادات»."
+  },
+  "other_sites": {
+    "message": "مواقع أخرى ($P1$)‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "other_sites_warning": {
+    "message": "يكتب هذا الملف أيضًا كوكيز لمواقع غير $P1$. قد يؤدي كوكي مزروع على موقع آخر إلى تسجيل دخولك إلى حساب خاطئ هناك. تابع فقط إذا كنت تتوقع هذه المواقع.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_one": {
+    "message": "اكتب أيضًا كوكيز لموقع آخر واحد"
+  },
+  "also_write_other": {
+    "message": "اكتب أيضًا كوكيز لـ $P1$ من المواقع الأخرى",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partitioned_under_list": {
+    "message": "مقسّم ضمن: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "warnings_count": {
+    "message": "تحذيرات ($P1$)‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_title": {
+    "message": "استيراد الكوكيز"
+  },
+  "import_message_one": {
+    "message": "استيراد كوكي واحد؟ تُستبدل الكوكيز التي لها الاسم والنطاق والمسار نفسها. يمكنك التراجع عن الاستيراد كله."
+  },
+  "import_message_other": {
+    "message": "استيراد الكوكيز ($P1$)؟ تُستبدل الكوكيز التي لها الاسم والنطاق والمسار نفسها. يمكنك التراجع عن الاستيراد كله.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_one": {
+    "message": "نسخ كوكي واحد كـ document.cookie‏"
+  },
+  "snippet_title_other": {
+    "message": "نسخ الكوكيز ($P1$) كـ document.cookie‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_warning": {
+    "message": "يحتوي المقتطف على كوكيز جلسات نشطة. يستطيع أي شخص يملكه تسجيل الدخول باسمك على هذا الموقع. تعامل معه ككلمة مرور."
+  },
+  "snippet_paste": {
+    "message": "الصقه في وحدة تحكم DevTools على $P1$ لضبط هذه الكوكيز هناك.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_one": {
+    "message": "استُبعد كوكي HttpOnly واحد: لا تستطيع جافاسكربت الصفحة ضبطه."
+  },
+  "snippet_httponly_left_other": {
+    "message": "استُبعد $P1$ من كوكيز HttpOnly: لا تستطيع جافاسكربت الصفحة ضبطها.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_one": {
+    "message": "نُسخ كوكي واحد كـ document.cookie.‏"
+  },
+  "snippet_copied_other": {
+    "message": "نُسخ $P1$ من الكوكيز كـ document.cookie.‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_name": {
+    "message": "اسم المجموعة"
+  },
+  "set_name_placeholder": {
+    "message": "مثل: مسجّل الدخول كمشرف"
+  },
+  "save_set_title_one": {
+    "message": "حفظ كوكي واحد كمجموعة"
+  },
+  "save_set_title_other": {
+    "message": "حفظ الكوكيز ($P1$) كمجموعة",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_file_note": {
+    "message": "المجموعة ملف على حاسوبك؛ لا يحتفظ CookieDesk بأي نسخة. استعدها لاحقًا من القائمة على $P1$.‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "default_set_name": {
+    "message": "مجموعة كوكيز"
+  },
+  "set_too_large": {
+    "message": "هذا الملف أكبر من أن يكون مجموعة كوكيز."
+  },
+  "cant_restore_unchanged": {
+    "message": "يتعذّر استعادة هذه المجموعة. لم يتغيّر شيء."
+  },
+  "cant_restore": {
+    "message": "يتعذّر استعادة هذه المجموعة"
+  },
+  "wrong_site_message": {
+    "message": "حُفظت هذه المجموعة لـ $P1$. افتح $P1$ واستعدها هناك.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "wrong_site_title": {
+    "message": "موقع غير صحيح. لم يتغيّر شيء."
+  },
+  "foreign_cookies_one": {
+    "message": "كوكي واحد في هذا الملف يخص موقعًا آخر ($P2$). استعادة المجموعة تغيّر $P3$ فقط؛ استخدم الاستيراد للمواقع الأخرى.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "foreign_cookies_other": {
+    "message": "$P1$ من الكوكيز في هذا الملف تخص مواقع أخرى ($P2$). استعادة المجموعة تغيّر $P3$ فقط؛ استخدم الاستيراد للمواقع الأخرى.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "plan_write": {
+    "message": "كتابة"
+  },
+  "plan_delete": {
+    "message": "حذف"
+  },
+  "plan_protected": {
+    "message": "محمية، تبقى كما هي"
+  },
+  "restore_title": {
+    "message": "استعادة «$P1$»",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_nothing": {
+    "message": "$P1$ يطابق هذه المجموعة بالفعل. لا شيء للتغيير.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_message_one": {
+    "message": "ستُستبدل كوكيز $P2$ بالكوكي الواحد في هذه المجموعة. يمكنك التراجع عن الاستعادة كلها.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "restore_message_other": {
+    "message": "ستُستبدل كوكيز $P2$ بالكوكيز ($P1$) في هذه المجموعة. يمكنك التراجع عن الاستعادة كلها.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_partition_unsupported": {
+    "message": "\"$P1$\" كوكي مقسّم، ولا يستطيع هذا الإصدار من Chrome كتابته. حدّث Chrome إلى الإصدار 119 أو أحدث.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_gone": {
+    "message": "\"$P1$\" لم يعد موجودًا — ربما انتهت صلاحيته أو غيّره الموقع. أعد تحميل القائمة.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_stored": {
+    "message": "قبِل Chrome الكوكي «$P1$» لكنه لم يخزّنه.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_imprecise_delete_one": {
+    "message": "لا يستطيع Chrome حذف «$P2$» إلا مع كوكي آخر واحد يحمل الاسم نفسه، لذا لن يحذفه CookieDesk.‏",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_imprecise_delete_other": {
+    "message": "لا يستطيع Chrome حذف «$P2$» إلا مع $P1$ من الكوكيز الأخرى التي تحمل الاسم نفسه، لذا لن يحذفه CookieDesk.‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_delete": {
+    "message": "لم يعد Chrome يقبل «$P1$» كما هو مخزَّن، فلو حُذف لتعذّرت إعادته. هل تحذفه بدون تراجع؟",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_removed": {
+    "message": "تعذّر حذف «$P1$».",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_no_permission": {
+    "message": "لا يملك CookieDesk إذن الوصول إلى $P1$. امنح هذا الموقع الإذن أولًا.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_secure_shadow": {
+    "message": "يوجد بالفعل كوكي Secure باسم «$P1$» لـ $P2$. لا يسمح Chrome لكوكي غير Secure بالاسم نفسه أن يستبدله أو يجاوره. فعّل Secure أو استخدم اسمًا مختلفًا.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_rejected": {
+    "message": "رفض Chrome الكوكي «$P1$» دون ذكر السبب. لم يتغيّر شيء.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_irreversible_replace_one": {
+    "message": "لم يعد Chrome يقبل $P2$ كما هو مخزَّن، فلو استُبدل لتعذّرت إعادته. هل تتابع بدون تراجع له؟",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_replace_other": {
+    "message": "لم يعد Chrome يقبل $P2$ كما هي مخزَّنة، فلو استُبدلت لتعذّرت إعادتها. هل تتابع بدون تراجع لها؟",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_too_large_to_undo": {
+    "message": "يمس هذا التغيير بيانات كثيرة ($P1$ كيلوبايت) فلا يمكن الاحتفاظ بنسخة للتراجع. هل تتابع بدون تراجع؟",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_duplicate_in_file": {
+    "message": "يحتوي الملف على «$P1$» مرتين للنطاق والمسار نفسيهما.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_undo_expired": {
+    "message": "لا شيء للتراجع عنه — يُحتفظ بالتراجع لمدة 10 دقائق."
+  },
+  "err_undo_conflict": {
+    "message": "تغيّر $P1$ بعد «$P2$». التراجع الآن سيستبدل القيمة الأحدث. هل تتراجع على أي حال؟",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_incomplete": {
+    "message": "غير مكتمل: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_added": {
+    "message": "أُضيف «$P1$»",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_edited": {
+    "message": "عُدّل «$P1$»",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted": {
+    "message": "حُذف «$P1$»",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_expired": {
+    "message": "حُذف «$P1$» (انتهاء الصلاحية في الماضي)‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_one": {
+    "message": "حُذف كوكي واحد"
+  },
+  "label_deleted_many_other": {
+    "message": "حُذف $P1$ من الكوكيز",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_one": {
+    "message": "استُورد كوكي واحد"
+  },
+  "label_imported_other": {
+    "message": "استُورد $P1$ من الكوكيز",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_undid": {
+    "message": "تم التراجع: $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_saved": {
+    "message": "حُفظ «$P1$»",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_draft": {
+    "message": "يجب أن يكون الكوكي كائنًا يحتوي على name وvalue وdomain وpath.‏"
+  },
+  "v_name_type": {
+    "message": "يجب أن يكون اسم الكوكي نصًا."
+  },
+  "v_value_type": {
+    "message": "يجب أن تكون قيمة الكوكي نصًا."
+  },
+  "v_domain_type": {
+    "message": "يجب أن يكون النطاق نصًا."
+  },
+  "v_path_type": {
+    "message": "يجب أن يكون المسار نصًا."
+  },
+  "v_flag_type": {
+    "message": "يجب أن تكون قيمة $P1$ صحيحة أو خاطئة (true أو false).‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_samesite": {
+    "message": "يجب أن تكون قيمة SameSite واحدة من: $P1$.‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_name_control": {
+    "message": "يحتوي الاسم على أحرف تحكم (مثل سطر جديد أو علامة جدولة) لا تستطيع الكوكيز حملها."
+  },
+  "v_name_semicolon": {
+    "message": "يحتوي الاسم على \";\" وهذا سينهي الكوكي مبكرًا."
+  },
+  "v_name_equals": {
+    "message": "يحتوي الاسم على \"=\" وهي تفصل الاسم عن القيمة في الكوكي."
+  },
+  "v_value_control": {
+    "message": "تحتوي القيمة على أحرف تحكم (مثل سطر جديد أو علامة جدولة) لا تستطيع الكوكيز حملها."
+  },
+  "v_value_semicolon": {
+    "message": "تحتوي القيمة على \";\" وهذا سينهي الكوكي مبكرًا. رمّزها (مثلًا باستخدام encodeURIComponent).‏"
+  },
+  "v_empty_cookie": {
+    "message": "يحتاج الكوكي إلى اسم أو قيمة؛ وكلاهما فارغ."
+  },
+  "v_empty_name": {
+    "message": "اسم هذا الكوكي فارغ. بعض المواقع والأدوات تتعامل مع الكوكيز بلا اسم بشكل سيئ."
+  },
+  "v_too_large": {
+    "message": "الاسم والقيمة معًا $P1$ بايت (UTF-8)؛ الحد الأقصى في Chrome هو $P2$.‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "v_path_slash": {
+    "message": "يجب أن يبدأ المسار بـ \"/\"."
+  },
+  "v_path_too_long": {
+    "message": "المسار أطول من $P1$ بايت.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_path_chars": {
+    "message": "يحتوي المسار على أحرف تحكم أو \";\" لا تستطيع الكوكيز حملها."
+  },
+  "v_domain_empty": {
+    "message": "النطاق فارغ. أدخل الموقع الذي ينتمي إليه الكوكي، مثل example.com.‏"
+  },
+  "v_domain_too_long": {
+    "message": "النطاق أطول من $P1$ بايت.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_domain_invalid": {
+    "message": "النطاق ليس اسم مضيف صالحًا. استخدم حروفًا وأرقامًا وشرطات تفصل بينها نقاط (الأسماء الدولية يجب أن تكون بصيغة punycode، مثل xn--...).‏"
+  },
+  "v_domain_leading_dot": {
+    "message": "لا يمكن أن يبدأ نطاق كوكي المضيف فقط بنقطة؛ النقطة تعني أن الكوكي ينطبق أيضًا على النطاقات الفرعية."
+  },
+  "v_domain_public_suffix": {
+    "message": "\"$P1$\" لاحقة عامة (نطاق تتحكم به جهة تسجيل مثل .com أو .co.uk)، لذا ترفض المتصفحات الكوكيز التي تنطبق عليه كله.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_samesite_none_insecure": {
+    "message": "كوكيز SameSite=None يجب أن تكون Secure، وإلا يرفضها Chrome. فعّل Secure أو اختر قيمة SameSite أخرى."
+  },
+  "v_partitioned_insecure": {
+    "message": "الكوكيز المقسّمة يجب أن تكون Secure، وإلا يرفضها Chrome. فعّل Secure أو أزل التقسيم."
+  },
+  "v_prefix_secure": {
+    "message": "الكوكيز التي تبدأ أسماؤها بـ \"$P1$...\" يجب أن تكون Secure. فعّل Secure أو غيّر اسم الكوكي.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_host_prefix_domain": {
+    "message": "الكوكيز التي تبدأ أسماؤها بـ \"__Host-...\" يجب أن تكون للمضيف فقط (بلا سمة Domain، أي بلا مشاركة مع النطاقات الفرعية). فعّل «المضيف فقط» أو غيّر اسم الكوكي."
+  },
+  "v_host_prefix_path": {
+    "message": "الكوكيز التي تبدأ أسماؤها بـ \"__Host-...\" يجب أن يكون مسارها \"/\"."
+  },
+  "v_bad_expiration": {
+    "message": "يجب أن يكون الانتهاء عددًا منتهيًا من الثواني منذ 1970.‏"
+  },
+  "v_expired_deletes": {
+    "message": "الحفظ مع تاريخ انتهاء في الماضي يحذف هذا الكوكي."
+  },
+  "v_clamped": {
+    "message": "يحدّ Chrome عمر الكوكي بـ $P1$ يومًا؛ ويُقصَّر أي انتهاء أبعد عند الحفظ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_expiration_missing": {
+    "message": "الكوكي غير الجلسة يحتاج إلى تاريخ انتهاء. اختر تاريخًا أو اجعله كوكي جلسة."
+  },
+  "v_partition_type": {
+    "message": "يجب أن يكون مفتاح التقسيم كائنًا يحتوي على topLevelSite.‏"
+  },
+  "v_partition_site_type": {
+    "message": "يجب أن يكون الموقع الأعلى مستوى للتقسيم نصًا مثل https://example.com.‏"
+  },
+  "v_partition_site_form": {
+    "message": "يجب أن يبدو الموقع الأعلى مستوى للتقسيم مثل https://example.com (https، بلا مسار ولا منفذ).‏"
+  },
+  "v_partition_flag": {
+    "message": "يجب أن تكون قيمة hasCrossSiteAncestor للتقسيم true أو false.‏"
+  },
+  "v_partition_cross_site": {
+    "message": "نطاق الكوكي ليس ضمن الموقع نفسه الخاص بـ $P1$، لذا يشترط Chrome أن تكون hasCrossSiteAncestor له true.‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_other_site": {
+    "message": "نطاق هذا الكوكي ($P1$) خارج الموقع الحالي ($P2$).‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_entry": {
+    "message": "الإدخال $P1$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_entry_named": {
+    "message": "الإدخال $P1$ ($P2$)‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_bad_samesite": {
+    "message": "$P1$: قيمة sameSite ليست من no_restriction أو lax أو strict أو unspecified.‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bool": {
+    "message": "$P1$: يجب أن تكون \"$P2$\" true أو false.‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_text": {
+    "message": "$P1$: يجب أن تكون \"$P2$\" نصًا.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_not_object": {
+    "message": "$P1$ ليس كائن كوكي.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_expiration_type": {
+    "message": "$P1$: يجب أن تكون \"expirationDate\" رقمًا.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_key": {
+    "message": "$P1$: يجب أن يكون partitionKey كائنًا يحتوي على topLevelSite نصي.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_flag": {
+    "message": "$P1$: يجب أن تكون partitionKey.hasCrossSiteAncestor قيمة true أو false.‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_line": {
+    "message": "السطر $P1$ ليس إدخال cookies.txt (المتوقع 7 حقول مفصولة بعلامات جدولة، والموجود $P2$).‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_line_flag_subdomains": {
+    "message": "السطر $P1$: يجب أن تكون علامة النطاقات الفرعية TRUE أو FALSE.‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_flag_secure": {
+    "message": "السطر $P1$: يجب أن تكون علامة secure هي TRUE أو FALSE.‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_expiry": {
+    "message": "السطر $P1$: يجب أن يكون الانتهاء عددًا صحيحًا من الثواني.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_not_text": {
+    "message": "تعذّرت قراءة الملف كنص."
+  },
+  "io_too_large": {
+    "message": "الملف أكبر من حد الاستيراد البالغ $P1$ بايت.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_json": {
+    "message": "يبدو الملف بصيغة JSON لكن تعذّر تحليله."
+  },
+  "io_bad_version": {
+    "message": "إصدار ملف CookieDesk هذا غير مدعوم."
+  },
+  "io_no_cookie_list": {
+    "message": "ملف CookieDesk لا يحتوي على قائمة \"cookies\"."
+  },
+  "io_unknown_format": {
+    "message": "ملف JSON هذا ليس تصديرًا من CookieDesk ولا قائمة كوكيز."
+  },
+  "io_no_cookies": {
+    "message": "لا يحتوي الملف على كوكيز."
+  },
+  "io_too_many": {
+    "message": "يحتوي الملف على $P1$ كوكي؛ والحد هو $P2$.‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_issue": {
+    "message": "$P1$: $P2$‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_duplicate": {
+    "message": "$P1$: إدخال آخر له الاسم والنطاق والمسار والتقسيم نفسها.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "when": {
+    "message": "$P1$ ($P2$)‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "when_passed": {
+    "message": "انقضى بالفعل"
+  },
+  "when_under_day": {
+    "message": "خلال أقل من يوم"
+  },
+  "explain_third_party": {
+    "message": "ضبطه $P1$، وهو موقع مختلف عن $P2$: كوكي طرف ثالث.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_third_party_partitioned": {
+    "message": "ضبطه $P1$، وهو موقع مختلف عن $P2$: كوكي طرف ثالث، محفوظ في تقسيم $P2$.‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_host_prefix": {
+    "message": "البادئة __Host- تجعل Chrome يشترط Secure وبلا سمة Domain وPath=/، فلا يستطيع أي نطاق فرعي ضبطه أو استبداله."
+  },
+  "explain_secure_prefix": {
+    "message": "البادئة __Secure- تجعل Chrome يقبله مع علامة Secure فقط."
+  },
+  "explain_scope_host": {
+    "message": "يُرسل إلى $P1$ نفسه فقط، لا إلى نطاقاته الفرعية.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_scope_domain": {
+    "message": "يُرسل إلى $P1$ وإلى كل نطاق فرعي منه (مثل www.$P1$).‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_path_all": {
+    "message": "يُرسل مع الطلبات إلى كل مسار على ذلك المضيف."
+  },
+  "explain_path_under": {
+    "message": "يُرسل فقط مع الطلبات إلى المسارات تحت $P1$.‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_secure": {
+    "message": "Secure: يُرسل عبر HTTPS فقط."
+  },
+  "explain_not_secure": {
+    "message": "ليس Secure: يُرسل أيضًا عبر HTTP العادي، حيث يستطيع أي شخص على الشبكة قراءته."
+  },
+  "explain_httponly": {
+    "message": "HttpOnly: غير مرئي لجافاسكربت الصفحة (document.cookie لا يستطيع قراءته)، وهذا يبعده عن السكربتات المحقونة."
+  },
+  "explain_script_readable": {
+    "message": "يستطيع أي سكربت يعمل في الصفحة قراءته وتغييره."
+  },
+  "explain_samesite_none": {
+    "message": "SameSite=None: قد يُرسل أيضًا مع الطلبات عبر المواقع (الإطارات المضمّنة والصور وطلبات المواقع الأخرى)، حيثما يسمح Chrome بكوكيز الطرف الثالث أصلًا (التصفح المتخفي يحجبها افتراضيًا). لهذا يجب أن يكون Secure.‏"
+  },
+  "explain_samesite_lax": {
+    "message": "SameSite=Lax: يُرسل عند انتقالك إلى الموقع، بما في ذلك من رابط في موقع آخر، لكن ليس مع الطلبات التي تجريها صفحات المواقع الأخرى في الخلفية."
+  },
+  "explain_samesite_strict": {
+    "message": "SameSite=Strict: يُرسل فقط عندما تكون في الموقع نفسه أصلًا. عند الوصول من رابط في موقع آخر، يذهب الطلب الأول بدونه."
+  },
+  "explain_samesite_unset": {
+    "message": "بلا سمة SameSite: يعاملها Chrome على أنها Lax.‏"
+  },
+  "explain_session": {
+    "message": "كوكي جلسة: يُحذف عند إغلاق المتصفح (إلا إذا استعاد Chrome جلستك السابقة عند البدء).‏"
+  },
+  "explain_expires": {
+    "message": "ينتهي $P1$. يحدّ Chrome أي انتهاء بـ 400 يوم من آخر مرة ضُبط فيها الكوكي.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition": {
+    "message": "مقسّم (CHIPS): يُخزَّن منفصلًا لكل موقع أعلى مستوى. لا تُرسل هذه النسخة إلا ما دام $P1$ هو الموقع في شريط العنوان.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition_cross": {
+    "message": "هو في الجزء العابر للمواقع من ذلك التقسيم (يُستخدم حيث يقع موقع آخر بين الصفحة وموقع هذا الكوكي)، ومفصول عن جزء الموقع نفسه."
+  },
+  "explain_partition_same": {
+    "message": "هو في جزء الموقع نفسه من ذلك التقسيم، ومفصول عن الجزء العابر للمواقع."
+  },
+  "explain_partition_other": {
+    "message": "الكوكي الذي له الاسم نفسه تحت موقع آخر هو كوكي مختلف."
+  },
+  "explain_jwt": {
+    "message": "تبدو القيمة كأنها JSON Web Token.‏"
+  },
+  "explain_jwt_exp": {
+    "message": "تبدو القيمة كأنها JSON Web Token؛ والرمز نفسه يذكر أنه ينتهي $P1$.‏",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_size": {
+    "message": "$P1$ من أصل 4096 بايت يسمح بها Chrome للاسم والقيمة معًا.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

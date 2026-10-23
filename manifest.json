@@ -1,9 +1,10 @@
 {
   "manifest_version": 3,
-  "name": "Cookie Editor — View, Edit & Delete Cookies | CookieDesk",
+  "name": "__MSG_extension_name__",
   "short_name": "CookieDesk",
-  "version": "1.0.0",
-  "description": "Inspect, edit, add and delete cookies per site. Search, import/export, partitioned-cookie support. No ads, no tracking.",
+  "version": "1.1.0",
+  "description": "__MSG_extension_description__",
+  "default_locale": "en",
   "minimum_chrome_version": "119",
   "icons": { "16": "icons/icon-16.png", "32": "icons/icon-32.png", "48": "icons/icon-48.png", "128": "icons/icon-128.png" },
   "permissions": ["cookies", "storage", "activeTab", "sidePanel"],

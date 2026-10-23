@@ -3,6 +3,7 @@
 
 import { classifyUrl } from '../core/site.js';
 import { siteAccess } from '../core/perms.js';
+import { t } from '../lib/i18n.js';
 
 /**
  * PURE. The state to show for a tab URL and the access we hold.
@@ -19,14 +20,14 @@ export function tabState(url, access) {
   return { kind: 'ready', site: c.site, host: c.host, via: access.via };
 }
 
-/** PURE. Plain-English explanation for a restricted page. */
+/** PURE. Plain-words explanation for a restricted page. */
 export function restrictedMessage(reason) {
   switch (reason) {
-    case 'browser': return 'This is a Chrome page. Chrome doesn\'t let any extension read or change cookies here.';
-    case 'webstore': return 'This is the Chrome Web Store. Chrome blocks every extension from it, so its cookies can\'t be shown.';
-    case 'extension': return 'This is an extension\'s own page. Its storage isn\'t a website\'s cookies, so there is nothing to show.';
-    case 'file': return 'This is a local file. Files opened from disk don\'t have cookies.';
-    default: return 'This page isn\'t a website (for example a blank or data: page), so it has no cookies.';
+    case 'browser': return t('restricted_browser');
+    case 'webstore': return t('restricted_webstore');
+    case 'extension': return t('restricted_extension');
+    case 'file': return t('restricted_file');
+    default: return t('restricted_other');
   }
 }
 

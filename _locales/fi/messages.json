@@ -1,0 +1,2215 @@
+{
+  "extension_name": {
+    "message": "Evästeeditori: katso, muokkaa ja poista evästeitä | CookieDesk"
+  },
+  "extension_description": {
+    "message": "Tarkastele, muokkaa, lisää ja poista evästeitä sivustoittain. Haku, tuonti ja vienti, osioitujen evästeiden tuki. Ei mainoksia."
+  },
+  "btn_ok": {
+    "message": "OK"
+  },
+  "btn_cancel": {
+    "message": "Peruuta"
+  },
+  "btn_close": {
+    "message": "Sulje"
+  },
+  "btn_delete": {
+    "message": "Poista"
+  },
+  "btn_copy": {
+    "message": "Kopioi"
+  },
+  "btn_save": {
+    "message": "Tallenna"
+  },
+  "btn_export": {
+    "message": "Vie"
+  },
+  "btn_later": {
+    "message": "Myöhemmin"
+  },
+  "dismiss": {
+    "message": "Ohita"
+  },
+  "back": {
+    "message": "Takaisin"
+  },
+  "back_esc": {
+    "message": "Takaisin (Esc)"
+  },
+  "back_to_list": {
+    "message": "Takaisin luetteloon"
+  },
+  "title_count": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "empty_name": {
+    "message": "(tyhjä nimi)"
+  },
+  "empty_value": {
+    "message": "(tyhjä arvo)"
+  },
+  "empty_short": {
+    "message": "(tyhjä)"
+  },
+  "names_more": {
+    "message": "$P1$ ja $P2$ muuta",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "done": {
+    "message": "Valmis"
+  },
+  "undo": {
+    "message": "Kumoa"
+  },
+  "undo_nothing": {
+    "message": "Ei mitään kumottavaa"
+  },
+  "undo_entry": {
+    "message": "Kumoa: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_interrupted": {
+    "message": "Kumoaminen keskeytyi: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "redo_entry": {
+    "message": "Tee uudelleen: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "support_title": {
+    "message": "Tue CookieDeskiä Ko-fissa"
+  },
+  "supporter_title": {
+    "message": "Kiitos, että tuet CookieDeskiä!"
+  },
+  "add_cookie": {
+    "message": "Lisää eväste"
+  },
+  "add_cookie_title": {
+    "message": "Lisää eväste (n)"
+  },
+  "more_actions": {
+    "message": "Lisää toimintoja"
+  },
+  "menu_group_transfer": {
+    "message": "Vienti ja tuonti"
+  },
+  "menu_group_sets": {
+    "message": "Evästejoukot"
+  },
+  "export_json_title": {
+    "message": "Vie JSON-muodossa"
+  },
+  "export_txt_title": {
+    "message": "Vie Netscape cookies.txt -muodossa"
+  },
+  "tile_snippet": {
+    "message": "Koodinpätkä"
+  },
+  "tile_snippet_title": {
+    "message": "Kopioi document.cookie-koodinpätkänä"
+  },
+  "tile_import": {
+    "message": "Tuo"
+  },
+  "tile_import_title": {
+    "message": "Tuo JSON tai cookies.txt"
+  },
+  "tile_save_set": {
+    "message": "Tallenna joukko"
+  },
+  "tile_save_set_title": {
+    "message": "Tallenna nämä evästeet nimettynä joukkotiedostona"
+  },
+  "tile_restore": {
+    "message": "Palauta"
+  },
+  "tile_restore_title": {
+    "message": "Palauta tallennettu joukko (esikatselu ensin)"
+  },
+  "tile_compare": {
+    "message": "Vertaa"
+  },
+  "tile_compare_title": {
+    "message": "Vertaa tallennettua joukkoa nykytilaan tai kahta joukkoa"
+  },
+  "tile_copy_to": {
+    "message": "Kopioi kohteeseen…"
+  },
+  "tile_copy_to_title": {
+    "message": "Kopioi näytetyt evästeet toiseen säilöön (tavallinen ↔ incognito)"
+  },
+  "menu_bulk_delete": {
+    "message": "Poista näytetyt evästeet…"
+  },
+  "menu_access": {
+    "message": "Käyttöoikeudet ja asetukset"
+  },
+  "menu_shortcuts": {
+    "message": "Pikanäppäimet"
+  },
+  "menu_sidepanel": {
+    "message": "Avaa sivupaneelissa"
+  },
+  "menu_rate": {
+    "message": "Arvioi CookieDesk"
+  },
+  "menu_support": {
+    "message": "Tue Ko-fissa"
+  },
+  "search_placeholder": {
+    "message": "Hae evästeitä"
+  },
+  "search_label": {
+    "message": "Suodata evästeitä nimen, arvon tai verkkotunnuksen mukaan"
+  },
+  "search_title": {
+    "message": "Suodata nimen, arvon tai verkkotunnuksen mukaan"
+  },
+  "cookie_store": {
+    "message": "Evästesäilö"
+  },
+  "cookies_list": {
+    "message": "Evästeet"
+  },
+  "restricted_page": {
+    "message": "Rajoitettu sivu"
+  },
+  "loading": {
+    "message": "Ladataan…"
+  },
+  "state_unknown": {
+    "message": "Napsauta työkalupalkin CookieDesk-painiketta nähdäksesi tämän välilehden evästeet."
+  },
+  "state_unknown_hint": {
+    "message": "Chrome jakaa välilehden osoitteen vasta tämän napsautuksen jälkeen tai sivustoille, jotka olet sallinut."
+  },
+  "state_error": {
+    "message": "Jokin meni pieleen: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "state_no_access": {
+    "message": "CookieDeskillä ei ole vielä käyttöoikeutta sivustoon $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "grant_site": {
+    "message": "Salli sivustolla $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "chrome_will_ask": {
+    "message": "Chrome kysyy:"
+  },
+  "prompt_site": {
+    "message": "Lukea ja muuttaa tietojasi kaikilla $P1$-sivustoilla",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "prompt_all": {
+    "message": "Lukea ja muuttaa kaikkia tietojasi kaikilla verkkosivustoilla"
+  },
+  "only_this_site": {
+    "message": "Vain tämän sivuston evästeet, ei mitään muuta."
+  },
+  "allow_all_instead": {
+    "message": "Salli kaikki sivustot"
+  },
+  "restricted_browser": {
+    "message": "Tämä on Chrome-sivu. Chrome ei anna minkään laajennuksen lukea tai muuttaa evästeitä täällä."
+  },
+  "restricted_webstore": {
+    "message": "Tämä on Chrome Web Store. Chrome estää kaikki laajennukset siellä, joten evästeitä ei voi näyttää."
+  },
+  "restricted_extension": {
+    "message": "Tämä on laajennuksen oma sivu. Sen tallennustila ei ole sivuston evästeitä, joten näytettävää ei ole."
+  },
+  "restricted_file": {
+    "message": "Tämä on paikallinen tiedosto. Levyltä avatuilla tiedostoilla ei ole evästeitä."
+  },
+  "restricted_other": {
+    "message": "Tämä sivu ei ole verkkosivusto (esimerkiksi tyhjä sivu tai data:-sivu), joten siinä ei ole evästeitä."
+  },
+  "live_just_now": {
+    "message": "Juuri nyt: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "note_third_party": {
+    "message": "Upotettujen sivustojen evästeet näkyvät vain sivustoilla, jotka olet sallinut."
+  },
+  "note_no_partitions": {
+    "message": "Chrome-versiosi ei voi näyttää osioituja evästeitä, joten luettelo voi olla epätäydellinen."
+  },
+  "empty_no_match": {
+    "message": "Hakua ”$P1$” vastaavia evästeitä ei ole.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "empty_none": {
+    "message": "Ei evästeitä sivustolle $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clear_search": {
+    "message": "Tyhjennä haku"
+  },
+  "change_changed": {
+    "message": "$P1$ muuttui",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_added": {
+    "message": "$P1$ lisättiin",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_removed": {
+    "message": "$P1$ poistettiin",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_one": {
+    "message": "$P1$ eväste",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_other": {
+    "message": "$P1$ evästettä",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_filtered_one": {
+    "message": "$P2$ / $P1$ eväste",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_filtered_other": {
+    "message": "$P2$ / $P1$ evästettä",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_partitioned": {
+    "message": "$P1$ osioitua",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "store_default": {
+    "message": "Oletus"
+  },
+  "store_incognito": {
+    "message": "Incognito"
+  },
+  "store_n": {
+    "message": "Säilö $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "session": {
+    "message": "Istunto"
+  },
+  "expired": {
+    "message": "Vanhentunut"
+  },
+  "expiry_under_minute": {
+    "message": "alle minuutissa"
+  },
+  "expiry_on_close": {
+    "message": "Poistetaan, kun selain suljetaan"
+  },
+  "expires_at": {
+    "message": "Vanhenee $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "badge_protected": {
+    "message": "Suojattu: massapoisto, tuonti ja joukon palautus jättävät sen rauhaan (p)"
+  },
+  "hint_httponly": {
+    "message": "HttpOnly: sivun JavaScript ei näe sitä (document.cookie ei voi lukea sitä)"
+  },
+  "hint_secure": {
+    "message": "Secure: lähetetään vain HTTPS-yhteydellä"
+  },
+  "hint_samesite_none": {
+    "message": "SameSite=None: lähetetään myös sivustojen välisissä pyynnöissä"
+  },
+  "hint_samesite_lax": {
+    "message": "SameSite=Lax: lähetetään ylätason siirtymisissä, ei sivustojen välisissä alapyynnöissä"
+  },
+  "hint_samesite_strict": {
+    "message": "SameSite=Strict: lähetetään vain saman sivuston pyynnöissä"
+  },
+  "badge_partitioned": {
+    "message": "Osioitu"
+  },
+  "partitioned_under": {
+    "message": "Osioitu sivuston $P1$ alle",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partition_this_site": {
+    "message": "tämä sivusto"
+  },
+  "partition_cross_site": {
+    "message": "$P1$, sivustojen välinen yhteys",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "row_protected": {
+    "message": "Suojattu"
+  },
+  "row_unprotect_title": {
+    "message": "Poista suojaus (p)"
+  },
+  "row_protect_title": {
+    "message": "Suojaa massapoistolta, tuonnilta ja joukon palautukselta (p)"
+  },
+  "copy_value": {
+    "message": "Kopioi arvo"
+  },
+  "copied": {
+    "message": "Kopioitu"
+  },
+  "copy_value_title": {
+    "message": "Kopioi arvo (c)"
+  },
+  "row_delete_title": {
+    "message": "Poista (Del) – voi kumota"
+  },
+  "irreversible_title": {
+    "message": "Tätä ei voi kumota"
+  },
+  "continue_no_undo": {
+    "message": "Jatka ilman kumoamista"
+  },
+  "undo_anyway_title": {
+    "message": "Kumotaanko silti?"
+  },
+  "undo_anyway": {
+    "message": "Kumoa silti"
+  },
+  "undone": {
+    "message": "Kumottu: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_skipped": {
+    "message": "Jotkin evästeet olivat jo vanhentuneet, eikä niitä palautettu: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_refused": {
+    "message": "Chrome ei enää hyväksy näitä sellaisinaan, joten niitä ei palautettu: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clipboard_failed": {
+    "message": "Kopiointi ei onnistunut: leikepöytä ei ole käytettävissä täällä."
+  },
+  "protected_on": {
+    "message": "Suojattu ”$P1$”: massapoisto, tuonti ja joukon palautus jättävät sen rauhaan.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_off": {
+    "message": "”$P1$” ei ole enää suojattu.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protect_limit": {
+    "message": "Voit suojata enintään $P1$ evästettä. Poista ensin joidenkin suojaus.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_named": {
+    "message": "Poistetaanko ”$P1$”?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_protected_message": {
+    "message": "Tämä eväste on suojattu. Poistetaanko se silti? Voit kumota poiston."
+  },
+  "nothing_to_delete": {
+    "message": "Ei mitään poistettavaa"
+  },
+  "all_shown_protected_one": {
+    "message": "Näytetty eväste on suojattu."
+  },
+  "all_shown_protected_other": {
+    "message": "Kaikki $P1$ näytettyä evästettä on suojattu.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "no_cookies_shown": {
+    "message": "Evästeitä ei näytetä."
+  },
+  "bulk_title_one": {
+    "message": "Poistetaanko $P1$ eväste?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_title_other": {
+    "message": "Poistetaanko $P1$ evästettä?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_match": {
+    "message": "Nämä evästeet vastaavat hakua ”$P1$” sivustolla $P2$. Voit kumota poiston.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "bulk_all": {
+    "message": "Kaikki sivustolle $P1$ luetellut evästeet. Voit kumota poiston.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_one": {
+    "message": "$P1$ suojattu eväste säilytetään.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_other": {
+    "message": "$P1$ suojattua evästettä säilytetään.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_one": {
+    "message": "Poista $P1$ eväste",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_other": {
+    "message": "Poista $P1$ evästettä",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_to": {
+    "message": "Kopioi kohteeseen"
+  },
+  "copy_to_default_note": {
+    "message": "Oletussäilöön kopioidut evästeet säilyvät kuten muutkin evästeet, levyllä ja tämän incognito-istunnon päätyttyäkin."
+  },
+  "copy_to_incognito_note": {
+    "message": "Incognito-säilöön kopioidut evästeet päättyvät incognito-istunnon mukana."
+  },
+  "copy_title_one": {
+    "message": "Kopioi $P1$ eväste",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_title_other": {
+    "message": "Kopioi $P1$ evästettä",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_from": {
+    "message": "Säilöstä $P1$ kohteeseen:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_replace_note": {
+    "message": "Samannimiset evästeet, joilla on sama verkkotunnus ja polku, korvataan siellä, suojattuja lukuun ottamatta. Voit kumota kopioinnin."
+  },
+  "label_copied_one": {
+    "message": "Kopioitiin $P1$ eväste kohteeseen $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_copied_other": {
+    "message": "Kopioitiin $P1$ evästettä kohteeseen $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_kept_one": {
+    "message": "$P1$ suojattu eväste jätettiin sinne sellaisekseen.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_kept_other": {
+    "message": "$P1$ suojattua evästettä jätettiin sinne sellaisikseen.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_done_one": {
+    "message": "Kopioitiin $P1$ eväste kohteeseen $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_done_other": {
+    "message": "Kopioitiin $P1$ evästettä kohteeseen $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_undo_hint": {
+    "message": "Kumoa täällä tai myöhemmin säilöstä $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_nothing": {
+    "message": "Kohteessa $P1$ on jo täsmälleen nämä evästeet.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_cant": {
+    "message": "Vertailu ei onnistu"
+  },
+  "compare_now": {
+    "message": "$P1$ nyt",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_other_site": {
+    "message": "Tämä joukko tallennettiin sivustolle $P1$, ei sivustolle $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "compare_too_many": {
+    "message": "Valitse yksi joukko verrattavaksi nykytilaan tai kaksi joukkoa verrattavaksi keskenään."
+  },
+  "set_file_too_large": {
+    "message": "$P1$ on liian suuri evästejoukoksi.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_aria": {
+    "message": "Vertaa evästejoukkoja"
+  },
+  "compare_changed_fields": {
+    "message": "Muuttunut: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_one": {
+    "message": "Ei eroja: $P1$ eväste on identtinen.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_other": {
+    "message": "Ei eroja: $P1$ evästettä on identtisiä.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_summary": {
+    "message": "$P1$ lisätty, $P2$ poistettu, $P3$ muuttunut, $P4$ ennallaan.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      },
+      "p4": {
+        "content": "$4"
+      }
+    }
+  },
+  "diff_added": {
+    "message": "Lisätty"
+  },
+  "diff_removed": {
+    "message": "Poistettu"
+  },
+  "diff_changed": {
+    "message": "Muuttunut"
+  },
+  "diff_expiry_only": {
+    "message": "Vain vanhenemisaika muuttui ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "shortcuts_title": {
+    "message": "Pikanäppäimet"
+  },
+  "key_search": {
+    "message": "Hae"
+  },
+  "key_move": {
+    "message": "Liiku luettelossa"
+  },
+  "key_first_last": {
+    "message": "Ensimmäinen / viimeinen eväste"
+  },
+  "key_edit": {
+    "message": "Muokkaa"
+  },
+  "key_copy": {
+    "message": "Kopioi arvo"
+  },
+  "key_protect": {
+    "message": "Suojaa / poista suojaus"
+  },
+  "key_delete": {
+    "message": "Poista (voi kumota)"
+  },
+  "key_back": {
+    "message": "Takaisin tai tyhjennä haku"
+  },
+  "key_help": {
+    "message": "Tämä luettelo"
+  },
+  "import_kept_one": {
+    "message": "$P1$ suojattu eväste jätettiin ennalleen: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_kept_other": {
+    "message": "$P1$ suojattua evästettä jätettiin ennalleen: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_nothing": {
+    "message": "Ei mitään tuotavaa: kaikki tiedoston evästeet on jo asetettu täsmälleen näin."
+  },
+  "imported_one": {
+    "message": "Tuotiin $P1$ eväste.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "imported_other": {
+    "message": "Tuotiin $P1$ evästettä.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_restored": {
+    "message": "Palautettiin joukko ”$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restored_one": {
+    "message": "Palautettiin ”$P2$”: $P1$ eväste kirjoitettu, $P3$ poistettu.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "restored_other": {
+    "message": "Palautettiin ”$P2$”: $P1$ evästettä kirjoitettu, $P3$ poistettu.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "rate_title": {
+    "message": "Pidätkö CookieDeskistä?"
+  },
+  "rate_text": {
+    "message": "Nopea arvio auttaa muita löytämään sen."
+  },
+  "rate_group": {
+    "message": "Arvioi kaupassa"
+  },
+  "rate_stars_one": {
+    "message": "$P1$ tähti",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "rate_stars_other": {
+    "message": "$P1$ tähteä",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_confirm_title": {
+    "message": "Ostitko minulle kahvin?"
+  },
+  "kofi_confirm_text": {
+    "message": "Kiitos, se pitää CookieDeskin käynnissä."
+  },
+  "kofi_yes": {
+    "message": "Kyllä ostin"
+  },
+  "kofi_not_yet": {
+    "message": "En vielä"
+  },
+  "kofi_milestone_one": {
+    "message": "$P1$ muutos tehty CookieDeskillä!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_milestone_other": {
+    "message": "$P1$ muutosta tehty CookieDeskillä!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_free": {
+    "message": "Se on ilmainen, ja sen on tehnyt yksi kehittäjä."
+  },
+  "buy_coffee": {
+    "message": "Osta minulle kahvi"
+  },
+  "edit_cookie": {
+    "message": "Muokkaa evästettä"
+  },
+  "add_cookie_short": {
+    "message": "Lisää eväste"
+  },
+  "explain_title": {
+    "message": "Mitä tämä eväste tekee"
+  },
+  "field_name": {
+    "message": "Nimi"
+  },
+  "field_value": {
+    "message": "Arvo"
+  },
+  "field_domain": {
+    "message": "Verkkotunnus"
+  },
+  "field_path": {
+    "message": "Polku"
+  },
+  "field_expiry": {
+    "message": "Vanheneminen"
+  },
+  "field_expires": {
+    "message": "Vanhenee"
+  },
+  "field_attributes": {
+    "message": "Määritteet"
+  },
+  "field_partition": {
+    "message": "Osio"
+  },
+  "host_only": {
+    "message": "Vain isäntä"
+  },
+  "host_only_title": {
+    "message": "Vain isäntä: ei Domain-määritettä, joten aliverkkotunnukset eivät saa sitä"
+  },
+  "session_title": {
+    "message": "Istuntoeväste: katoaa, kun selain suljetaan"
+  },
+  "httponly_title": {
+    "message": "HttpOnly: sivun JavaScript ei näe sitä"
+  },
+  "samesite_unspecified": {
+    "message": "Määrittämätön"
+  },
+  "partitioned_chips": {
+    "message": "Osioitu (CHIPS)"
+  },
+  "top_level_site": {
+    "message": "Ylätason sivusto"
+  },
+  "no_partition_write": {
+    "message": "Tämä Chrome-versio ei voi kirjoittaa osioituja evästeitä."
+  },
+  "editor_delete_title": {
+    "message": "Poista (voi kumota)"
+  },
+  "bytes_of": {
+    "message": "$P1$ / $P2$ tavua",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "access_aria": {
+    "message": "Käyttöoikeudet ja asetukset"
+  },
+  "all_sites_on": {
+    "message": "Kaikki sivustot: päällä"
+  },
+  "all_sites_on_text": {
+    "message": "CookieDesk voi lukea ja muuttaa evästeitä kaikilla sivustoilla, myös upotetuilla."
+  },
+  "turn_off": {
+    "message": "Poista käytöstä"
+  },
+  "all_sites": {
+    "message": "Kaikki sivustot"
+  },
+  "all_sites_text": {
+    "message": "Valinnainen. Ei enää kysymyksiä sivustoittain, ja upotettujen sivustojen evästeet (mainokset, widgetit, kirjautumiskehykset) näkyvät kaikkialla."
+  },
+  "allow_all_sites": {
+    "message": "Salli kaikilla sivustoilla"
+  },
+  "remove_access": {
+    "message": "Poista käyttöoikeus sivustoon $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "access_lead": {
+    "message": "CookieDesk näkee sivuston evästeet vasta, kun sallit kyseisen sivuston, eikä mitään muuta: ei sivun sisältöä, ei historiaa."
+  },
+  "allowed_sites": {
+    "message": "Sallitut sivustot"
+  },
+  "allowed_sites_count": {
+    "message": "Sallitut sivustot · $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "all_sites_overrides": {
+    "message": "Kaikkien sivustojen käyttöoikeus on päällä, joten nämä eivät vaikuta mihinkään, kun se on päällä."
+  },
+  "none_yet": {
+    "message": "Ei vielä yhtään."
+  },
+  "toolbar_opens": {
+    "message": "Työkalupalkin painike avaa"
+  },
+  "surface_popup": {
+    "message": "Ponnahdusikkuna"
+  },
+  "surface_sidepanel": {
+    "message": "Sivupaneeli"
+  },
+  "support_feedback": {
+    "message": "Tuki ja palaute"
+  },
+  "thanks_supporting": {
+    "message": "Kiitos tuesta!"
+  },
+  "report_problem": {
+    "message": "Ilmoita ongelmasta"
+  },
+  "source_code": {
+    "message": "Lähdekoodi"
+  },
+  "privacy_line": {
+    "message": "Ei verkkopyyntöjä, ei evästearvoja levyllä. Kumoaminen toimii 10 minuuttia; kopiot ovat muistissa ja katoavat, kun Chrome suljetaan tai incognito-istunto päättyy."
+  },
+  "export_warning": {
+    "message": "Tämä tiedosto sisältää voimassa olevia istuntoevästeitä. Kuka tahansa, jolla se on, voi kirjautua näille sivustoille sinuna. Käsittele sitä kuin salasanaa ja poista se, kun olet valmis."
+  },
+  "export_json_one": {
+    "message": "Vie $P1$ eväste JSON-muodossa",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_json_other": {
+    "message": "Vie $P1$ evästettä JSON-muodossa",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_one": {
+    "message": "Vie $P1$ eväste cookies.txt-muodossa",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_other": {
+    "message": "Vie $P1$ evästettä cookies.txt-muodossa",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_all_one": {
+    "message": "Sivustolle $P2$ luetteloitu eväste menee tiedostoon, vaikka se olisi HttpOnly.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_all_other": {
+    "message": "Kaikki $P1$ sivustolle $P2$ luetteloitua evästettä menevät tiedostoon, myös HttpOnly-evästeet.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_partitioned_left_one": {
+    "message": "$P1$ osioitu eväste jätettiin pois: cookies.txt ei voi tallentaa osioita. Käytä JSONia, jos haluat säilyttää sen.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_partitioned_left_other": {
+    "message": "$P1$ osioitua evästettä jätettiin pois: cookies.txt ei voi tallentaa osioita. Käytä JSONia, jos haluat säilyttää ne.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_too_big": {
+    "message": "Tämä tiedosto on $P1$ Mt. Evästeviennit ovat paljon pienempiä; CookieDesk lukee enintään 5 Mt:n tiedostoja.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "cant_import_unchanged": {
+    "message": "Tätä tiedostoa ei voi tuoda. Mitään ei muutettu."
+  },
+  "cant_import": {
+    "message": "Tätä tiedostoa ei voi tuoda"
+  },
+  "file_unreadable": {
+    "message": "Tiedostoa ei voitu lukea."
+  },
+  "needs_access_one": {
+    "message": "CookieDesk tarvitsee käyttöoikeuden vielä $P1$ sivustoon, ennen kuin se voi kirjoittaa nämä evästeet:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "needs_access_other": {
+    "message": "CookieDesk tarvitsee käyttöoikeuden vielä $P1$ sivustoon, ennen kuin se voi kirjoittaa nämä evästeet:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_allow_all_hint": {
+    "message": "Tai salli kaikki sivustot kohdassa Käyttöoikeudet ja asetukset."
+  },
+  "other_sites": {
+    "message": "Muut sivustot ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "other_sites_warning": {
+    "message": "Tämä tiedosto kirjoittaa evästeitä myös muille sivustoille kuin $P1$. Toiselle sivustolle istutettu eväste voi kirjata sinut väärälle tilille siellä. Jatka vain, jos odotit näitä sivustoja.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_one": {
+    "message": "Kirjoita evästeet myös $P1$ muulle sivustolle",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_other": {
+    "message": "Kirjoita evästeet myös $P1$ muulle sivustolle",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partitioned_under_list": {
+    "message": "Osioitu alle: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "warnings_count": {
+    "message": "Varoitukset ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_title": {
+    "message": "Tuo evästeet"
+  },
+  "import_message_one": {
+    "message": "Tuodaanko $P1$ eväste? Samannimiset evästeet, joilla on sama verkkotunnus ja polku, korvataan. Voit kumota koko tuonnin.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_message_other": {
+    "message": "Tuodaanko $P1$ evästettä? Samannimiset evästeet, joilla on sama verkkotunnus ja polku, korvataan. Voit kumota koko tuonnin.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_one": {
+    "message": "Kopioi $P1$ eväste document.cookie-muodossa",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_other": {
+    "message": "Kopioi $P1$ evästettä document.cookie-muodossa",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_warning": {
+    "message": "Koodinpätkä sisältää voimassa olevia istuntoevästeitä. Kuka tahansa, jolla se on, voi kirjautua tälle sivustolle sinuna. Käsittele sitä kuin salasanaa."
+  },
+  "snippet_paste": {
+    "message": "Liitä se sivuston $P1$ DevTools-konsoliin asettaaksesi nämä evästeet sinne.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_one": {
+    "message": "$P1$ HttpOnly-eväste jätettiin pois: sivun JavaScript ei voi asettaa sitä.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_other": {
+    "message": "$P1$ HttpOnly-evästettä jätettiin pois: sivun JavaScript ei voi asettaa niitä.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_one": {
+    "message": "Kopioitiin $P1$ eväste document.cookie-muodossa.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_other": {
+    "message": "Kopioitiin $P1$ evästettä document.cookie-muodossa.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_name": {
+    "message": "Joukon nimi"
+  },
+  "set_name_placeholder": {
+    "message": "esim. kirjautuneena ylläpitäjänä"
+  },
+  "save_set_title_one": {
+    "message": "Tallenna $P1$ eväste joukkona",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "save_set_title_other": {
+    "message": "Tallenna $P1$ evästettä joukkona",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_file_note": {
+    "message": "Joukko on tiedosto tietokoneellasi; CookieDesk ei säilytä kopiota. Palauta se myöhemmin sivuston $P1$ valikosta.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "default_set_name": {
+    "message": "Evästejoukko"
+  },
+  "set_too_large": {
+    "message": "Tämä tiedosto on liian suuri evästejoukoksi."
+  },
+  "cant_restore_unchanged": {
+    "message": "Tätä joukkoa ei voi palauttaa. Mitään ei muutettu."
+  },
+  "cant_restore": {
+    "message": "Tätä joukkoa ei voi palauttaa"
+  },
+  "wrong_site_message": {
+    "message": "Tämä joukko tallennettiin sivustolle $P1$. Avaa $P1$ ja palauta se siellä.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "wrong_site_title": {
+    "message": "Väärä sivusto. Mitään ei muutettu."
+  },
+  "foreign_cookies_one": {
+    "message": "$P1$ tämän tiedoston eväste kuuluu toiselle sivustolle ($P2$). Joukon palautus muuttaa vain sivustoa $P3$; käytä Tuo-toimintoa muille sivustoille.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "foreign_cookies_other": {
+    "message": "$P1$ tämän tiedoston evästettä kuuluu muille sivustoille ($P2$). Joukon palautus muuttaa vain sivustoa $P3$; käytä Tuo-toimintoa muille sivustoille.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "plan_write": {
+    "message": "Kirjoita"
+  },
+  "plan_delete": {
+    "message": "Poista"
+  },
+  "plan_protected": {
+    "message": "Suojatut, jätetään ennalleen"
+  },
+  "restore_title": {
+    "message": "Palauta ”$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_nothing": {
+    "message": "$P1$ vastaa jo tätä joukkoa. Ei mitään muutettavaa.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_message_one": {
+    "message": "Sivuston $P2$ evästeet korvataan tämän joukon $P1$ evästeellä. Voit kumota koko palautuksen.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "restore_message_other": {
+    "message": "Sivuston $P2$ evästeet korvataan tämän joukon $P1$ evästeellä. Voit kumota koko palautuksen.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_partition_unsupported": {
+    "message": "”$P1$” on osioitu eväste, jota tämä Chrome-versio ei voi kirjoittaa. Päivitä Chrome versioon 119 tai uudempaan.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_gone": {
+    "message": "”$P1$” ei ole enää olemassa. Se on voinut vanheta tai sivusto on voinut muuttaa sitä. Lataa luettelo uudelleen.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_stored": {
+    "message": "Chrome hyväksyi evästeen ”$P1$”, mutta ei tallentanut sitä.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_imprecise_delete_one": {
+    "message": "Chrome voi poistaa evästeen ”$P2$” vain yhdessä $P1$ samannimisen evästeen kanssa, joten CookieDesk ei poista sitä.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_imprecise_delete_other": {
+    "message": "Chrome voi poistaa evästeen ”$P2$” vain yhdessä $P1$ samannimisen evästeen kanssa, joten CookieDesk ei poista sitä.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_delete": {
+    "message": "Chrome ei enää hyväksy evästettä ”$P1$” tallennetussa muodossaan, joten poistettua sitä ei voisi palauttaa. Poistetaanko se ilman kumoamista?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_removed": {
+    "message": "Evästettä ”$P1$” ei voitu poistaa.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_no_permission": {
+    "message": "CookieDeskillä ei ole käyttöoikeutta sivustoon $P1$. Myönnä ensin käyttöoikeus tälle sivustolle.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_secure_shadow": {
+    "message": "Sivustolle $P2$ on jo Secure-eväste nimeltä ”$P1$”. Chrome ei anna samannimisen evästeen ilman Securea korvata sitä tai olla sen vieressä. Ota Secure käyttöön tai käytä toista nimeä.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_rejected": {
+    "message": "Chrome hylkäsi evästeen ”$P1$” kertomatta syytä. Mitään ei muutettu.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_irreversible_replace_one": {
+    "message": "Chrome ei enää hyväksy evästettä $P2$ tallennetussa muodossaan, joten korvattua sitä ei voisi palauttaa. Jatketaanko ilman kumoamista sen osalta?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_replace_other": {
+    "message": "Chrome ei enää hyväksy evästeitä $P2$ tallennetussa muodossaan, joten korvattuja niitä ei voisi palauttaa. Jatketaanko ilman kumoamista niiden osalta?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_too_large_to_undo": {
+    "message": "Tämä muutos koskee liikaa dataa ($P1$ kt) kumoamiskopion säilyttämiseksi. Jatketaanko ilman kumoamista?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_duplicate_in_file": {
+    "message": "Tiedostossa on ”$P1$” kahdesti samalle verkkotunnukselle ja polulle.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_undo_expired": {
+    "message": "Ei mitään kumottavaa – kumoaminen säilyy 10 minuuttia."
+  },
+  "err_undo_conflict": {
+    "message": "$P1$ muuttui toiminnon ”$P2$” jälkeen. Kumoaminen nyt ylikirjoittaisi uudemman arvon. Kumotaanko silti?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_incomplete": {
+    "message": "Keskeneräinen: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_added": {
+    "message": "Lisättiin ”$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_edited": {
+    "message": "Muokattiin ”$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted": {
+    "message": "Poistettiin ”$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_expired": {
+    "message": "Poistettiin ”$P1$” (vanhenemisaika menneisyydessä)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_one": {
+    "message": "Poistettiin $P1$ eväste",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_other": {
+    "message": "Poistettiin $P1$ evästettä",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_one": {
+    "message": "Tuotiin $P1$ eväste",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_other": {
+    "message": "Tuotiin $P1$ evästettä",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_undid": {
+    "message": "Kumottiin: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_saved": {
+    "message": "Tallennettiin ”$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_draft": {
+    "message": "Evästeen on oltava olio, jolla on name, value, domain ja path."
+  },
+  "v_name_type": {
+    "message": "Evästeen nimen on oltava tekstiä."
+  },
+  "v_value_type": {
+    "message": "Evästeen arvon on oltava tekstiä."
+  },
+  "v_domain_type": {
+    "message": "Verkkotunnuksen on oltava tekstiä."
+  },
+  "v_path_type": {
+    "message": "Polun on oltava tekstiä."
+  },
+  "v_flag_type": {
+    "message": "$P1$ on oltava tosi tai epätosi.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_samesite": {
+    "message": "SameSiten on oltava jokin seuraavista: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_name_control": {
+    "message": "Nimessä on ohjausmerkkejä (kuten rivinvaihto tai sarkain), joita evästeet eivät voi sisältää."
+  },
+  "v_name_semicolon": {
+    "message": "Nimessä on ”;”, joka päättäisi evästeen ennenaikaisesti."
+  },
+  "v_name_equals": {
+    "message": "Nimessä on ”=”, joka erottaa evästeessä nimen arvosta."
+  },
+  "v_value_control": {
+    "message": "Arvossa on ohjausmerkkejä (kuten rivinvaihto tai sarkain), joita evästeet eivät voi sisältää."
+  },
+  "v_value_semicolon": {
+    "message": "Arvossa on ”;”, joka päättäisi evästeen ennenaikaisesti. Koodaa se (esimerkiksi encodeURIComponentilla)."
+  },
+  "v_empty_cookie": {
+    "message": "Evästeellä on oltava nimi tai arvo; molemmat ovat tyhjiä."
+  },
+  "v_empty_name": {
+    "message": "Tämän evästeen nimi on tyhjä. Jotkin sivustot ja työkalut käsittelevät nimettömiä evästeitä huonosti."
+  },
+  "v_too_large": {
+    "message": "Nimi ja arvo ovat yhdessä $P1$ tavua (UTF-8); Chrome sallii enintään $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "v_path_slash": {
+    "message": "Polun on alettava merkillä ”/”."
+  },
+  "v_path_too_long": {
+    "message": "Polku on pidempi kuin $P1$ tavua.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_path_chars": {
+    "message": "Polussa on ohjausmerkkejä tai ”;”, joita evästeet eivät voi sisältää."
+  },
+  "v_domain_empty": {
+    "message": "Verkkotunnus on tyhjä. Anna sivusto, johon eväste kuuluu, esimerkiksi example.com."
+  },
+  "v_domain_too_long": {
+    "message": "Verkkotunnus on pidempi kuin $P1$ tavua.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_domain_invalid": {
+    "message": "Verkkotunnus ei ole kelvollinen isäntänimi. Käytä kirjaimia, numeroita ja yhdysmerkkejä pisteillä erotettuina (kansainväliset nimet on kirjoitettava punycode-muodossa, kuten xn--...)."
+  },
+  "v_domain_leading_dot": {
+    "message": "Vain isäntää koskevan evästeen verkkotunnuksessa ei voi olla alkupistettä; piste tarkoittaa, että eväste koskee myös aliverkkotunnuksia."
+  },
+  "v_domain_public_suffix": {
+    "message": "”$P1$” on julkinen päätenimi (rekisterin hallinnoima verkkotunnus, kuten .com tai .co.uk), joten selaimet hylkäävät evästeet, jotka koskisivat sitä kokonaan.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_samesite_none_insecure": {
+    "message": "SameSite=None-evästeiden on oltava Secure, muuten Chrome hylkää ne. Ota Secure käyttöön tai valitse toinen SameSite."
+  },
+  "v_partitioned_insecure": {
+    "message": "Osioitujen evästeiden on oltava Secure, muuten Chrome hylkää ne. Ota Secure käyttöön tai poista osio."
+  },
+  "v_prefix_secure": {
+    "message": "Evästeiden, joiden nimi alkaa ”$P1$...”, on oltava Secure. Ota Secure käyttöön tai nimeä eväste uudelleen.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_host_prefix_domain": {
+    "message": "Evästeiden, joiden nimi alkaa ”__Host-...”, on koskettava vain isäntää (ei Domain-määritettä, joten ei jakoa aliverkkotunnusten kanssa). Ota vain isäntä käyttöön tai nimeä eväste uudelleen."
+  },
+  "v_host_prefix_path": {
+    "message": "Evästeiden, joiden nimi alkaa ”__Host-...”, polun on oltava ”/”."
+  },
+  "v_bad_expiration": {
+    "message": "Vanhenemisajan on oltava äärellinen määrä sekunteja vuodesta 1970."
+  },
+  "v_expired_deletes": {
+    "message": "Tallennus menneisyydessä olevalla vanhenemisajalla poistaa tämän evästeen."
+  },
+  "v_clamped": {
+    "message": "Chrome rajoittaa evästeen eliniän $P1$ päivään; myöhäisempi vanhenemisaika lyhennetään tallennettaessa.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_expiration_missing": {
+    "message": "Muu kuin istuntoeväste tarvitsee vanhenemispäivän. Valitse sellainen tai merkitse eväste istuntoevästeeksi."
+  },
+  "v_partition_type": {
+    "message": "Osioavaimen on oltava olio, jolla on topLevelSite."
+  },
+  "v_partition_site_type": {
+    "message": "Osion ylätason sivuston on oltava tekstiä, kuten https://example.com."
+  },
+  "v_partition_site_form": {
+    "message": "Osion ylätason sivuston on näytettävä muodolta https://example.com (https, ei polkua tai porttia)."
+  },
+  "v_partition_flag": {
+    "message": "Osion hasCrossSiteAncestor on oltava tosi tai epätosi."
+  },
+  "v_partition_cross_site": {
+    "message": "Evästeen verkkotunnus ei ole samalla sivustolla kuin $P1$, joten Chrome vaatii, että hasCrossSiteAncestor on sille tosi.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_other_site": {
+    "message": "Tämän evästeen verkkotunnus ($P1$) on nykyisen sivuston ($P2$) ulkopuolella.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_entry": {
+    "message": "Merkintä $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_entry_named": {
+    "message": "Merkintä $P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_bad_samesite": {
+    "message": "$P1$: sameSite ei ole mikään arvoista no_restriction, lax, strict, unspecified.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bool": {
+    "message": "$P1$: ”$P2$” on oltava tosi tai epätosi.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_text": {
+    "message": "$P1$: ”$P2$” on oltava tekstiä.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_not_object": {
+    "message": "$P1$ ei ole eväste-olio.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_expiration_type": {
+    "message": "$P1$: ”expirationDate” on oltava luku.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_key": {
+    "message": "$P1$: partitionKey on oltava olio, jolla on tekstimuotoinen topLevelSite.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_flag": {
+    "message": "$P1$: partitionKey.hasCrossSiteAncestor on oltava tosi tai epätosi.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_line": {
+    "message": "Rivi $P1$ ei ole cookies.txt-merkintä (odotettiin 7 sarkaimin erotettua kenttää, löytyi $P2$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_line_flag_subdomains": {
+    "message": "Rivi $P1$: aliverkkotunnusten lipun on oltava TRUE tai FALSE.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_flag_secure": {
+    "message": "Rivi $P1$: secure-lipun on oltava TRUE tai FALSE.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_expiry": {
+    "message": "Rivi $P1$: vanhenemisajan on oltava kokonaisluku sekunteja.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_not_text": {
+    "message": "Tiedostoa ei voitu lukea tekstinä."
+  },
+  "io_too_large": {
+    "message": "Tiedosto on suurempi kuin tuonnin $P1$ tavun raja.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_json": {
+    "message": "Tiedosto näyttää JSONilta, mutta sitä ei voitu jäsentää."
+  },
+  "io_bad_version": {
+    "message": "Tämän CookieDesk-tiedoston versiota ei tueta."
+  },
+  "io_no_cookie_list": {
+    "message": "CookieDesk-tiedostossa ei ole ”cookies”-luetteloa."
+  },
+  "io_unknown_format": {
+    "message": "Tämä JSON ei ole CookieDesk-vienti eikä evästeluettelo."
+  },
+  "io_no_cookies": {
+    "message": "Tiedostossa ei ole evästeitä."
+  },
+  "io_too_many": {
+    "message": "Tiedostossa on $P1$ evästettä; raja on $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_issue": {
+    "message": "$P1$: $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_duplicate": {
+    "message": "$P1$: toisella merkinnällä on sama nimi, verkkotunnus, polku ja osio.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "when": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "when_passed": {
+    "message": "jo mennyt"
+  },
+  "when_under_day": {
+    "message": "alle vuorokaudessa"
+  },
+  "explain_third_party": {
+    "message": "Asettanut $P1$, joka on eri sivusto kuin $P2$: kolmannen osapuolen eväste.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_third_party_partitioned": {
+    "message": "Asettanut $P1$, joka on eri sivusto kuin $P2$: kolmannen osapuolen eväste, joka säilytetään sivuston $P2$ osiossa.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_host_prefix": {
+    "message": "Etuliite __Host- saa Chromen vaatimaan Securea, ei Domain-määritettä ja Path=/, joten mikään aliverkkotunnus ei voi asettaa tai korvata sitä."
+  },
+  "explain_secure_prefix": {
+    "message": "Etuliite __Secure- saa Chromen hyväksymään sen vain Secure-lipun kanssa."
+  },
+  "explain_scope_host": {
+    "message": "Lähetetään vain osoitteeseen $P1$ itseensä, ei sen aliverkkotunnuksiin.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_scope_domain": {
+    "message": "Lähetetään osoitteeseen $P1$ ja kaikkiin sen aliverkkotunnuksiin (kuten www.$P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_path_all": {
+    "message": "Lähetetään pyyntöjen mukana kaikille kyseisen isännän poluille."
+  },
+  "explain_path_under": {
+    "message": "Lähetetään vain pyyntöjen mukana poluille, jotka ovat polun $P1$ alla.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_secure": {
+    "message": "Secure: lähetetään vain HTTPS-yhteydellä."
+  },
+  "explain_not_secure": {
+    "message": "Ei Secure: lähetetään myös tavallisella HTTP:llä, jossa kuka tahansa verkossa voi lukea sen."
+  },
+  "explain_httponly": {
+    "message": "HttpOnly: sivun JavaScript ei näe sitä (document.cookie ei voi lukea sitä), mikä pitää sen poissa injektoitujen skriptien ulottuvilta."
+  },
+  "explain_script_readable": {
+    "message": "Mikä tahansa sivulla toimiva skripti voi lukea ja muuttaa sitä."
+  },
+  "explain_samesite_none": {
+    "message": "SameSite=None: voidaan lähettää myös sivustojen välisten pyyntöjen mukana (upotetut kehykset, kuvat, muilta sivustoilta tulevat pyynnöt), jos Chrome ylipäätään sallii kolmannen osapuolen evästeet (incognito estää ne oletuksena). Siksi sen on oltava Secure."
+  },
+  "explain_samesite_lax": {
+    "message": "SameSite=Lax: lähetetään, kun siirryt sivustolle, myös toisen sivuston linkistä, mutta ei pyyntöjen mukana, joita muiden sivustojen sivut tekevät taustalla."
+  },
+  "explain_samesite_strict": {
+    "message": "SameSite=Strict: lähetetään vain, kun olet jo samalla sivustolla. Kun saavut toisen sivuston linkistä, ensimmäinen pyyntö menee ilman sitä."
+  },
+  "explain_samesite_unset": {
+    "message": "Ei SameSite-määritettä: Chrome käsittelee sen Laxina."
+  },
+  "explain_session": {
+    "message": "Istuntoeväste: poistetaan, kun selain suljetaan (ellei Chrome palauta edellistä istuntoasi käynnistyksessä)."
+  },
+  "explain_expires": {
+    "message": "Vanhenee $P1$. Chrome rajoittaa kaikki vanhenemisajat 400 päivään siitä, kun eväste asetettiin viimeksi.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition": {
+    "message": "Osioitu (CHIPS): tallennetaan erikseen jokaiselle ylätason sivustolle. Tämä kopio lähetetään vain, kun $P1$ on osoiterivin sivusto.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition_cross": {
+    "message": "Se on osion sivustojen välisessä osassa (käytetään, kun toinen sivusto on sivun ja tämän evästeen sivuston välissä), erillään saman sivuston osasta."
+  },
+  "explain_partition_same": {
+    "message": "Se on osion saman sivuston osassa, erillään sivustojen välisestä osasta."
+  },
+  "explain_partition_other": {
+    "message": "Sama evästeen nimi toisella sivustolla on eri eväste."
+  },
+  "explain_jwt": {
+    "message": "Arvo näyttää JSON Web Tokenilta."
+  },
+  "explain_jwt_exp": {
+    "message": "Arvo näyttää JSON Web Tokenilta; token itse kertoo vanhenevansa $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_size": {
+    "message": "$P1$ niistä 4096 tavusta, jotka Chrome sallii nimelle ja arvolle yhteensä.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

@@ -1,0 +1,2215 @@
+{
+  "extension_name": {
+    "message": "Trình chỉnh sửa cookie — Xem, sửa & xóa cookie | CookieDesk"
+  },
+  "extension_description": {
+    "message": "Xem, sửa, thêm và xóa cookie theo từng trang. Tìm kiếm, nhập/xuất, hỗ trợ cookie phân vùng. Không quảng cáo, không theo dõi."
+  },
+  "btn_ok": {
+    "message": "OK"
+  },
+  "btn_cancel": {
+    "message": "Hủy"
+  },
+  "btn_close": {
+    "message": "Đóng"
+  },
+  "btn_delete": {
+    "message": "Xóa"
+  },
+  "btn_copy": {
+    "message": "Sao chép"
+  },
+  "btn_save": {
+    "message": "Lưu"
+  },
+  "btn_export": {
+    "message": "Xuất"
+  },
+  "btn_later": {
+    "message": "Để sau"
+  },
+  "dismiss": {
+    "message": "Bỏ qua"
+  },
+  "back": {
+    "message": "Quay lại"
+  },
+  "back_esc": {
+    "message": "Quay lại (Esc)"
+  },
+  "back_to_list": {
+    "message": "Quay lại danh sách"
+  },
+  "title_count": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "empty_name": {
+    "message": "(tên trống)"
+  },
+  "empty_value": {
+    "message": "(giá trị trống)"
+  },
+  "empty_short": {
+    "message": "(trống)"
+  },
+  "names_more": {
+    "message": "$P1$ và $P2$ mục khác",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "done": {
+    "message": "Xong"
+  },
+  "undo": {
+    "message": "Hoàn tác"
+  },
+  "undo_nothing": {
+    "message": "Không có gì để hoàn tác"
+  },
+  "undo_entry": {
+    "message": "Hoàn tác: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_interrupted": {
+    "message": "Hoàn tác bị gián đoạn: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "redo_entry": {
+    "message": "Làm lại: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "support_title": {
+    "message": "Ủng hộ CookieDesk trên Ko-fi"
+  },
+  "supporter_title": {
+    "message": "Cảm ơn bạn đã ủng hộ CookieDesk!"
+  },
+  "add_cookie": {
+    "message": "Thêm cookie"
+  },
+  "add_cookie_title": {
+    "message": "Thêm cookie (n)"
+  },
+  "more_actions": {
+    "message": "Thêm thao tác"
+  },
+  "menu_group_transfer": {
+    "message": "Xuất và nhập"
+  },
+  "menu_group_sets": {
+    "message": "Bộ cookie"
+  },
+  "export_json_title": {
+    "message": "Xuất dưới dạng JSON"
+  },
+  "export_txt_title": {
+    "message": "Xuất dưới dạng cookies.txt của Netscape"
+  },
+  "tile_snippet": {
+    "message": "Đoạn mã"
+  },
+  "tile_snippet_title": {
+    "message": "Sao chép dưới dạng đoạn mã document.cookie"
+  },
+  "tile_import": {
+    "message": "Nhập"
+  },
+  "tile_import_title": {
+    "message": "Nhập JSON hoặc cookies.txt"
+  },
+  "tile_save_set": {
+    "message": "Lưu bộ"
+  },
+  "tile_save_set_title": {
+    "message": "Lưu các cookie này thành tệp bộ cookie có tên"
+  },
+  "tile_restore": {
+    "message": "Khôi phục"
+  },
+  "tile_restore_title": {
+    "message": "Khôi phục một bộ đã lưu (xem trước)"
+  },
+  "tile_compare": {
+    "message": "So sánh"
+  },
+  "tile_compare_title": {
+    "message": "So sánh một bộ đã lưu với hiện tại, hoặc hai bộ với nhau"
+  },
+  "tile_copy_to": {
+    "message": "Sao chép sang…"
+  },
+  "tile_copy_to_title": {
+    "message": "Sao chép các cookie đang hiện sang kho khác (thường ↔ ẩn danh)"
+  },
+  "menu_bulk_delete": {
+    "message": "Xóa các cookie đang hiện…"
+  },
+  "menu_access": {
+    "message": "Quyền truy cập và cài đặt"
+  },
+  "menu_shortcuts": {
+    "message": "Phím tắt"
+  },
+  "menu_sidepanel": {
+    "message": "Mở trong bảng bên"
+  },
+  "menu_rate": {
+    "message": "Đánh giá CookieDesk"
+  },
+  "menu_support": {
+    "message": "Ủng hộ trên Ko-fi"
+  },
+  "search_placeholder": {
+    "message": "Tìm cookie"
+  },
+  "search_label": {
+    "message": "Lọc cookie theo tên, giá trị hoặc miền"
+  },
+  "search_title": {
+    "message": "Lọc theo tên, giá trị hoặc miền"
+  },
+  "cookie_store": {
+    "message": "Kho cookie"
+  },
+  "cookies_list": {
+    "message": "Cookie"
+  },
+  "restricted_page": {
+    "message": "Trang bị hạn chế"
+  },
+  "loading": {
+    "message": "Đang tải…"
+  },
+  "state_unknown": {
+    "message": "Nhấp nút CookieDesk trên thanh công cụ để hiện cookie của thẻ này."
+  },
+  "state_unknown_hint": {
+    "message": "Chrome chỉ cho biết địa chỉ của thẻ sau khi bạn nhấp, hoặc với các trang bạn đã cho phép."
+  },
+  "state_error": {
+    "message": "Đã xảy ra lỗi: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "state_no_access": {
+    "message": "CookieDesk chưa có quyền truy cập $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "grant_site": {
+    "message": "Cho phép trên $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "chrome_will_ask": {
+    "message": "Chrome sẽ hỏi:"
+  },
+  "prompt_site": {
+    "message": "Đọc và thay đổi dữ liệu của bạn trên tất cả trang web $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "prompt_all": {
+    "message": "Đọc và thay đổi tất cả dữ liệu của bạn trên tất cả trang web"
+  },
+  "only_this_site": {
+    "message": "Chỉ cookie của trang này, không có gì khác."
+  },
+  "allow_all_instead": {
+    "message": "Cho phép tất cả trang web"
+  },
+  "restricted_browser": {
+    "message": "Đây là trang của Chrome. Chrome không cho tiện ích nào đọc hay thay đổi cookie ở đây."
+  },
+  "restricted_webstore": {
+    "message": "Đây là Chrome Web Store. Chrome chặn mọi tiện ích trên trang này nên không thể hiện cookie."
+  },
+  "restricted_extension": {
+    "message": "Đây là trang riêng của một tiện ích. Dữ liệu lưu trữ của nó không phải cookie của trang web, nên không có gì để hiện."
+  },
+  "restricted_file": {
+    "message": "Đây là tệp trên máy. Tệp mở từ ổ đĩa không có cookie."
+  },
+  "restricted_other": {
+    "message": "Trang này không phải trang web (ví dụ trang trống hoặc trang data:), nên không có cookie."
+  },
+  "live_just_now": {
+    "message": "Vừa xong: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "note_third_party": {
+    "message": "Cookie của các trang nhúng chỉ hiện với những trang bạn đã cho phép."
+  },
+  "note_no_partitions": {
+    "message": "Phiên bản Chrome của bạn không hiện được cookie phân vùng, nên danh sách có thể chưa đầy đủ."
+  },
+  "empty_no_match": {
+    "message": "Không có cookie nào khớp “$P1$”.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "empty_none": {
+    "message": "Không có cookie cho $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clear_search": {
+    "message": "Xóa tìm kiếm"
+  },
+  "change_changed": {
+    "message": "Đã đổi $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_added": {
+    "message": "Đã thêm $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_removed": {
+    "message": "Đã xóa $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_one": {
+    "message": "$P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_other": {
+    "message": "$P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_filtered_one": {
+    "message": "$P2$ trong $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_filtered_other": {
+    "message": "$P2$ trong $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_partitioned": {
+    "message": "$P1$ phân vùng",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "store_default": {
+    "message": "Mặc định"
+  },
+  "store_incognito": {
+    "message": "Ẩn danh"
+  },
+  "store_n": {
+    "message": "Kho $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "session": {
+    "message": "Phiên"
+  },
+  "expired": {
+    "message": "Đã hết hạn"
+  },
+  "expiry_under_minute": {
+    "message": "trong chưa đầy 1 phút"
+  },
+  "expiry_on_close": {
+    "message": "Bị xóa khi đóng trình duyệt"
+  },
+  "expires_at": {
+    "message": "Hết hạn $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "badge_protected": {
+    "message": "Được bảo vệ: xóa hàng loạt, nhập và khôi phục bộ sẽ bỏ qua cookie này (p)"
+  },
+  "hint_httponly": {
+    "message": "HttpOnly: JavaScript của trang không thấy được (document.cookie không đọc được)"
+  },
+  "hint_secure": {
+    "message": "Secure: chỉ gửi qua HTTPS"
+  },
+  "hint_samesite_none": {
+    "message": "SameSite=None: cũng được gửi trong các yêu cầu giữa các trang web"
+  },
+  "hint_samesite_lax": {
+    "message": "SameSite=Lax: được gửi khi điều hướng cấp cao nhất, không gửi trong yêu cầu phụ giữa các trang web"
+  },
+  "hint_samesite_strict": {
+    "message": "SameSite=Strict: chỉ gửi trong các yêu cầu cùng trang web"
+  },
+  "badge_partitioned": {
+    "message": "Phân vùng"
+  },
+  "partitioned_under": {
+    "message": "Phân vùng theo $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partition_this_site": {
+    "message": "trang này"
+  },
+  "partition_cross_site": {
+    "message": "$P1$, ngữ cảnh giữa các trang web",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "row_protected": {
+    "message": "Được bảo vệ"
+  },
+  "row_unprotect_title": {
+    "message": "Bỏ bảo vệ (p)"
+  },
+  "row_protect_title": {
+    "message": "Bảo vệ khỏi xóa hàng loạt, nhập và khôi phục bộ (p)"
+  },
+  "copy_value": {
+    "message": "Sao chép giá trị"
+  },
+  "copied": {
+    "message": "Đã sao chép"
+  },
+  "copy_value_title": {
+    "message": "Sao chép giá trị (c)"
+  },
+  "row_delete_title": {
+    "message": "Xóa (Del) — có thể hoàn tác"
+  },
+  "irreversible_title": {
+    "message": "Không thể hoàn tác"
+  },
+  "continue_no_undo": {
+    "message": "Tiếp tục, không hoàn tác"
+  },
+  "undo_anyway_title": {
+    "message": "Vẫn hoàn tác?"
+  },
+  "undo_anyway": {
+    "message": "Vẫn hoàn tác"
+  },
+  "undone": {
+    "message": "Đã hoàn tác: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_skipped": {
+    "message": "Một số cookie đã hết hạn nên không được khôi phục: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_refused": {
+    "message": "Chrome không còn chấp nhận các cookie này như trước, nên chúng không được khôi phục: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clipboard_failed": {
+    "message": "Không sao chép được: bộ nhớ tạm không khả dụng ở đây."
+  },
+  "protected_on": {
+    "message": "Đã bảo vệ \"$P1$\": xóa hàng loạt, nhập và khôi phục bộ sẽ bỏ qua cookie này.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_off": {
+    "message": "\"$P1$\" không còn được bảo vệ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protect_limit": {
+    "message": "Bạn có thể bảo vệ tối đa $P1$ cookie. Hãy bỏ bảo vệ một số cookie trước.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_named": {
+    "message": "Xóa \"$P1$\"?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_protected_message": {
+    "message": "Cookie này đang được bảo vệ. Vẫn xóa? Bạn có thể hoàn tác."
+  },
+  "nothing_to_delete": {
+    "message": "Không có gì để xóa"
+  },
+  "all_shown_protected_one": {
+    "message": "Cookie đang hiện được bảo vệ."
+  },
+  "all_shown_protected_other": {
+    "message": "Cả $P1$ cookie đang hiện đều được bảo vệ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "no_cookies_shown": {
+    "message": "Không có cookie nào đang hiện."
+  },
+  "bulk_title_one": {
+    "message": "Xóa $P1$ cookie?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_title_other": {
+    "message": "Xóa $P1$ cookie?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_match": {
+    "message": "Các cookie này khớp \"$P1$\" trên $P2$. Bạn có thể hoàn tác.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "bulk_all": {
+    "message": "Mọi cookie được liệt kê cho $P1$. Bạn có thể hoàn tác.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_one": {
+    "message": "$P1$ cookie được bảo vệ sẽ được giữ lại.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_other": {
+    "message": "$P1$ cookie được bảo vệ sẽ được giữ lại.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_one": {
+    "message": "Xóa $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_other": {
+    "message": "Xóa $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_to": {
+    "message": "Sao chép sang"
+  },
+  "copy_to_default_note": {
+    "message": "Cookie sao chép vào kho Mặc định được giữ như mọi cookie khác, trên ổ đĩa và cả sau khi phiên ẩn danh này kết thúc."
+  },
+  "copy_to_incognito_note": {
+    "message": "Cookie sao chép vào kho ẩn danh sẽ mất khi phiên ẩn danh đó kết thúc."
+  },
+  "copy_title_one": {
+    "message": "Sao chép $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_title_other": {
+    "message": "Sao chép $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_from": {
+    "message": "Từ kho $P1$ sang:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_replace_note": {
+    "message": "Cookie trùng tên, miền và đường dẫn ở đó sẽ bị thay thế, trừ cookie được bảo vệ. Bạn có thể hoàn tác việc sao chép."
+  },
+  "label_copied_one": {
+    "message": "Đã sao chép $P1$ cookie sang $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_copied_other": {
+    "message": "Đã sao chép $P1$ cookie sang $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_kept_one": {
+    "message": "$P1$ cookie được bảo vệ ở đó được giữ nguyên.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_kept_other": {
+    "message": "$P1$ cookie được bảo vệ ở đó được giữ nguyên.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_done_one": {
+    "message": "Đã sao chép $P1$ cookie sang $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_done_other": {
+    "message": "Đã sao chép $P1$ cookie sang $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_undo_hint": {
+    "message": "Hoàn tác tại đây, hoặc sau này từ kho $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_nothing": {
+    "message": "$P1$ đã có đúng các cookie này.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_cant": {
+    "message": "Không thể so sánh"
+  },
+  "compare_now": {
+    "message": "$P1$ hiện tại",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_other_site": {
+    "message": "Bộ này được lưu cho $P1$, không phải $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "compare_too_many": {
+    "message": "Chọn một bộ để so với hiện tại, hoặc hai bộ để so với nhau."
+  },
+  "set_file_too_large": {
+    "message": "$P1$ quá lớn để là một bộ cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_aria": {
+    "message": "So sánh các bộ cookie"
+  },
+  "compare_changed_fields": {
+    "message": "Đã đổi: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_one": {
+    "message": "Không có khác biệt: $P1$ cookie giống hệt.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_other": {
+    "message": "Không có khác biệt: $P1$ cookie giống hệt.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_summary": {
+    "message": "$P1$ thêm, $P2$ xóa, $P3$ đổi, $P4$ không đổi.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      },
+      "p4": {
+        "content": "$4"
+      }
+    }
+  },
+  "diff_added": {
+    "message": "Đã thêm"
+  },
+  "diff_removed": {
+    "message": "Đã xóa"
+  },
+  "diff_changed": {
+    "message": "Đã đổi"
+  },
+  "diff_expiry_only": {
+    "message": "Chỉ hạn dùng thay đổi ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "shortcuts_title": {
+    "message": "Phím tắt"
+  },
+  "key_search": {
+    "message": "Tìm kiếm"
+  },
+  "key_move": {
+    "message": "Di chuyển trong danh sách"
+  },
+  "key_first_last": {
+    "message": "Cookie đầu / cuối"
+  },
+  "key_edit": {
+    "message": "Sửa"
+  },
+  "key_copy": {
+    "message": "Sao chép giá trị"
+  },
+  "key_protect": {
+    "message": "Bảo vệ / bỏ bảo vệ"
+  },
+  "key_delete": {
+    "message": "Xóa (có thể hoàn tác)"
+  },
+  "key_back": {
+    "message": "Quay lại, hoặc xóa tìm kiếm"
+  },
+  "key_help": {
+    "message": "Danh sách này"
+  },
+  "import_kept_one": {
+    "message": "$P1$ cookie được bảo vệ được giữ nguyên: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_kept_other": {
+    "message": "$P1$ cookie được bảo vệ được giữ nguyên: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_nothing": {
+    "message": "Không có gì để nhập: mọi cookie trong tệp đã được đặt đúng như vậy."
+  },
+  "imported_one": {
+    "message": "Đã nhập $P1$ cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "imported_other": {
+    "message": "Đã nhập $P1$ cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_restored": {
+    "message": "Đã khôi phục bộ \"$P1$\"",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restored_one": {
+    "message": "Đã khôi phục \"$P2$\": ghi $P1$ cookie, xóa $P3$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "restored_other": {
+    "message": "Đã khôi phục \"$P2$\": ghi $P1$ cookie, xóa $P3$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "rate_title": {
+    "message": "Bạn thích CookieDesk?"
+  },
+  "rate_text": {
+    "message": "Một đánh giá nhanh giúp người khác tìm thấy tiện ích."
+  },
+  "rate_group": {
+    "message": "Đánh giá trên cửa hàng"
+  },
+  "rate_stars_one": {
+    "message": "$P1$ sao",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "rate_stars_other": {
+    "message": "$P1$ sao",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_confirm_title": {
+    "message": "Bạn đã mời mình một ly cà phê chưa?"
+  },
+  "kofi_confirm_text": {
+    "message": "Cảm ơn bạn, nhờ vậy CookieDesk mới tiếp tục được."
+  },
+  "kofi_yes": {
+    "message": "Rồi, mình đã mời"
+  },
+  "kofi_not_yet": {
+    "message": "Chưa"
+  },
+  "kofi_milestone_one": {
+    "message": "$P1$ thay đổi đã thực hiện với CookieDesk!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_milestone_other": {
+    "message": "$P1$ thay đổi đã thực hiện với CookieDesk!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_free": {
+    "message": "Miễn phí và do một nhà phát triển làm ra."
+  },
+  "buy_coffee": {
+    "message": "Mời mình một ly cà phê"
+  },
+  "edit_cookie": {
+    "message": "Sửa cookie"
+  },
+  "add_cookie_short": {
+    "message": "Thêm cookie"
+  },
+  "explain_title": {
+    "message": "Cookie này làm gì"
+  },
+  "field_name": {
+    "message": "Tên"
+  },
+  "field_value": {
+    "message": "Giá trị"
+  },
+  "field_domain": {
+    "message": "Miền"
+  },
+  "field_path": {
+    "message": "Đường dẫn"
+  },
+  "field_expiry": {
+    "message": "Hạn dùng"
+  },
+  "field_expires": {
+    "message": "Hết hạn"
+  },
+  "field_attributes": {
+    "message": "Thuộc tính"
+  },
+  "field_partition": {
+    "message": "Phân vùng"
+  },
+  "host_only": {
+    "message": "Chỉ máy chủ"
+  },
+  "host_only_title": {
+    "message": "Chỉ máy chủ: không có thuộc tính Domain nên các tên miền phụ không nhận được"
+  },
+  "session_title": {
+    "message": "Cookie phiên: mất khi đóng trình duyệt"
+  },
+  "httponly_title": {
+    "message": "HttpOnly: JavaScript của trang không thấy được"
+  },
+  "samesite_unspecified": {
+    "message": "Chưa chỉ định"
+  },
+  "partitioned_chips": {
+    "message": "Phân vùng (CHIPS)"
+  },
+  "top_level_site": {
+    "message": "Trang cấp cao nhất"
+  },
+  "no_partition_write": {
+    "message": "Phiên bản Chrome này không ghi được cookie phân vùng."
+  },
+  "editor_delete_title": {
+    "message": "Xóa (có thể hoàn tác)"
+  },
+  "bytes_of": {
+    "message": "$P1$ / $P2$ byte",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "access_aria": {
+    "message": "Quyền truy cập và cài đặt"
+  },
+  "all_sites_on": {
+    "message": "Mọi trang web: bật"
+  },
+  "all_sites_on_text": {
+    "message": "CookieDesk có thể đọc và thay đổi cookie trên mọi trang web, kể cả trang nhúng."
+  },
+  "turn_off": {
+    "message": "Tắt"
+  },
+  "all_sites": {
+    "message": "Mọi trang web"
+  },
+  "all_sites_text": {
+    "message": "Tùy chọn. Không còn hỏi từng trang, và cookie của các trang nhúng (quảng cáo, tiện ích, khung đăng nhập) hiện ở mọi nơi."
+  },
+  "allow_all_sites": {
+    "message": "Cho phép trên mọi trang web"
+  },
+  "remove_access": {
+    "message": "Gỡ quyền truy cập $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "access_lead": {
+    "message": "CookieDesk chỉ thấy cookie của một trang sau khi bạn cho phép trang đó, và không thấy gì khác: không nội dung trang, không lịch sử."
+  },
+  "allowed_sites": {
+    "message": "Trang đã cho phép"
+  },
+  "allowed_sites_count": {
+    "message": "Trang đã cho phép · $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "all_sites_overrides": {
+    "message": "Quyền truy cập mọi trang web đang bật, nên danh sách này không có tác dụng khi còn bật."
+  },
+  "none_yet": {
+    "message": "Chưa có."
+  },
+  "toolbar_opens": {
+    "message": "Nút trên thanh công cụ mở"
+  },
+  "surface_popup": {
+    "message": "Cửa sổ bật lên"
+  },
+  "surface_sidepanel": {
+    "message": "Bảng bên"
+  },
+  "support_feedback": {
+    "message": "Ủng hộ và phản hồi"
+  },
+  "thanks_supporting": {
+    "message": "Cảm ơn bạn đã ủng hộ!"
+  },
+  "report_problem": {
+    "message": "Báo lỗi"
+  },
+  "source_code": {
+    "message": "Mã nguồn"
+  },
+  "privacy_line": {
+    "message": "Không có yêu cầu mạng, không lưu giá trị cookie trên ổ đĩa. Hoàn tác dùng được trong 10 phút; các bản sao nằm trong bộ nhớ và mất khi Chrome đóng hoặc phiên ẩn danh kết thúc."
+  },
+  "export_warning": {
+    "message": "Tệp này chứa cookie phiên đang dùng. Ai có tệp đều có thể đăng nhập thay bạn trên các trang này. Hãy coi nó như mật khẩu và xóa khi dùng xong."
+  },
+  "export_json_one": {
+    "message": "Xuất $P1$ cookie dưới dạng JSON",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_json_other": {
+    "message": "Xuất $P1$ cookie dưới dạng JSON",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_one": {
+    "message": "Xuất $P1$ cookie dưới dạng cookies.txt",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_other": {
+    "message": "Xuất $P1$ cookie dưới dạng cookies.txt",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_all_one": {
+    "message": "Cookie được liệt kê cho $P2$ sẽ vào tệp, kể cả khi là HttpOnly.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_all_other": {
+    "message": "Cả $P1$ cookie được liệt kê cho $P2$ sẽ vào tệp, kể cả cookie HttpOnly.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_partitioned_left_one": {
+    "message": "Đã bỏ $P1$ cookie phân vùng: cookies.txt không ghi được phân vùng. Dùng JSON để giữ lại.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_partitioned_left_other": {
+    "message": "Đã bỏ $P1$ cookie phân vùng: cookies.txt không ghi được phân vùng. Dùng JSON để giữ lại.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_too_big": {
+    "message": "Tệp này nặng $P1$ MB. Tệp xuất cookie nhỏ hơn nhiều; CookieDesk đọc tệp tối đa 5 MB.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "cant_import_unchanged": {
+    "message": "Không nhập được tệp này. Chưa có gì bị thay đổi."
+  },
+  "cant_import": {
+    "message": "Không nhập được tệp này"
+  },
+  "file_unreadable": {
+    "message": "Không đọc được tệp."
+  },
+  "needs_access_one": {
+    "message": "CookieDesk cần quyền truy cập thêm $P1$ trang trước khi ghi được các cookie này:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "needs_access_other": {
+    "message": "CookieDesk cần quyền truy cập thêm $P1$ trang trước khi ghi được các cookie này:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_allow_all_hint": {
+    "message": "Hoặc cho phép mọi trang web trong Quyền truy cập và cài đặt."
+  },
+  "other_sites": {
+    "message": "Trang khác ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "other_sites_warning": {
+    "message": "Tệp này cũng ghi cookie cho các trang ngoài $P1$. Cookie cài lên trang khác có thể đăng nhập bạn vào nhầm tài khoản ở đó. Chỉ tiếp tục nếu bạn đã biết các trang này.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_one": {
+    "message": "Ghi cả cookie cho $P1$ trang khác",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_other": {
+    "message": "Ghi cả cookie cho $P1$ trang khác",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partitioned_under_list": {
+    "message": "Phân vùng theo: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "warnings_count": {
+    "message": "Cảnh báo ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_title": {
+    "message": "Nhập cookie"
+  },
+  "import_message_one": {
+    "message": "Nhập $P1$ cookie? Cookie trùng tên, miền và đường dẫn sẽ bị thay thế. Bạn có thể hoàn tác toàn bộ lần nhập.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_message_other": {
+    "message": "Nhập $P1$ cookie? Cookie trùng tên, miền và đường dẫn sẽ bị thay thế. Bạn có thể hoàn tác toàn bộ lần nhập.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_one": {
+    "message": "Sao chép $P1$ cookie dưới dạng document.cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_other": {
+    "message": "Sao chép $P1$ cookie dưới dạng document.cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_warning": {
+    "message": "Đoạn mã chứa cookie phiên đang dùng. Ai có nó đều có thể đăng nhập thay bạn trên trang này. Hãy coi nó như mật khẩu."
+  },
+  "snippet_paste": {
+    "message": "Dán vào bảng điều khiển DevTools trên $P1$ để đặt các cookie này ở đó.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_one": {
+    "message": "Đã bỏ $P1$ cookie HttpOnly: JavaScript của trang không đặt được.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_other": {
+    "message": "Đã bỏ $P1$ cookie HttpOnly: JavaScript của trang không đặt được.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_one": {
+    "message": "Đã sao chép $P1$ cookie dưới dạng document.cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_other": {
+    "message": "Đã sao chép $P1$ cookie dưới dạng document.cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_name": {
+    "message": "Tên bộ"
+  },
+  "set_name_placeholder": {
+    "message": "VD: đăng nhập quản trị viên"
+  },
+  "save_set_title_one": {
+    "message": "Lưu $P1$ cookie thành một bộ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "save_set_title_other": {
+    "message": "Lưu $P1$ cookie thành một bộ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_file_note": {
+    "message": "Bộ này là một tệp trên máy bạn; CookieDesk không giữ bản sao. Khôi phục sau từ menu trên $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "default_set_name": {
+    "message": "Bộ cookie"
+  },
+  "set_too_large": {
+    "message": "Tệp này quá lớn để là một bộ cookie."
+  },
+  "cant_restore_unchanged": {
+    "message": "Không khôi phục được bộ này. Chưa có gì bị thay đổi."
+  },
+  "cant_restore": {
+    "message": "Không khôi phục được bộ này"
+  },
+  "wrong_site_message": {
+    "message": "Bộ này được lưu cho $P1$. Hãy mở $P1$ và khôi phục tại đó.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "wrong_site_title": {
+    "message": "Sai trang. Chưa có gì bị thay đổi."
+  },
+  "foreign_cookies_one": {
+    "message": "$P1$ cookie trong tệp này thuộc trang khác ($P2$). Khôi phục bộ chỉ thay đổi $P3$; dùng Nhập cho các trang khác.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "foreign_cookies_other": {
+    "message": "$P1$ cookie trong tệp này thuộc các trang khác ($P2$). Khôi phục bộ chỉ thay đổi $P3$; dùng Nhập cho các trang khác.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "plan_write": {
+    "message": "Ghi"
+  },
+  "plan_delete": {
+    "message": "Xóa"
+  },
+  "plan_protected": {
+    "message": "Được bảo vệ, giữ nguyên"
+  },
+  "restore_title": {
+    "message": "Khôi phục \"$P1$\"",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_nothing": {
+    "message": "$P1$ đã khớp với bộ này. Không có gì để đổi.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_message_one": {
+    "message": "Cookie của $P2$ sẽ được thay bằng $P1$ cookie trong bộ này. Bạn có thể hoàn tác toàn bộ lần khôi phục.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "restore_message_other": {
+    "message": "Cookie của $P2$ sẽ được thay bằng $P1$ cookie trong bộ này. Bạn có thể hoàn tác toàn bộ lần khôi phục.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_partition_unsupported": {
+    "message": "\"$P1$\" là cookie phân vùng, phiên bản Chrome này không ghi được. Hãy cập nhật Chrome lên 119 trở lên.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_gone": {
+    "message": "\"$P1$\" không còn tồn tại — có thể đã hết hạn hoặc bị trang đổi. Hãy tải lại danh sách.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_stored": {
+    "message": "Chrome đã nhận \"$P1$\" nhưng không lưu nó.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_imprecise_delete_one": {
+    "message": "Chrome chỉ xóa được \"$P2$\" cùng với $P1$ cookie khác trùng tên, nên CookieDesk sẽ không xóa nó.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_imprecise_delete_other": {
+    "message": "Chrome chỉ xóa được \"$P2$\" cùng với $P1$ cookie khác trùng tên, nên CookieDesk sẽ không xóa nó.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_delete": {
+    "message": "Chrome không còn chấp nhận \"$P1$\" như đang lưu, nên một khi xóa sẽ không thể đặt lại. Xóa mà không hoàn tác?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_removed": {
+    "message": "Không xóa được \"$P1$\".",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_no_permission": {
+    "message": "CookieDesk không có quyền truy cập $P1$. Hãy cấp quyền cho trang này trước.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_secure_shadow": {
+    "message": "Đã có cookie Secure tên \"$P1$\" cho $P2$. Chrome không cho cookie không Secure trùng tên thay thế hoặc nằm cạnh nó. Hãy bật Secure, hoặc dùng tên khác.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_rejected": {
+    "message": "Chrome từ chối \"$P1$\" mà không nêu lý do. Chưa có gì bị thay đổi.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_irreversible_replace_one": {
+    "message": "Chrome không còn chấp nhận $P2$ như đang lưu, nên một khi bị thay thế sẽ không thể đặt lại. Tiếp tục mà không hoàn tác cho cookie này?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_replace_other": {
+    "message": "Chrome không còn chấp nhận $P2$ như đang lưu, nên một khi bị thay thế sẽ không thể đặt lại. Tiếp tục mà không hoàn tác cho các cookie này?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_too_large_to_undo": {
+    "message": "Thay đổi này động đến quá nhiều dữ liệu ($P1$ KB) để giữ bản sao hoàn tác. Tiếp tục mà không hoàn tác?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_duplicate_in_file": {
+    "message": "Tệp chứa \"$P1$\" hai lần cho cùng miền và đường dẫn.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_undo_expired": {
+    "message": "Không có gì để hoàn tác — hoàn tác được giữ trong 10 phút."
+  },
+  "err_undo_conflict": {
+    "message": "$P1$ đã đổi sau \"$P2$\". Hoàn tác lúc này sẽ ghi đè giá trị mới hơn. Vẫn hoàn tác?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_incomplete": {
+    "message": "Chưa hoàn tất: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_added": {
+    "message": "Đã thêm \"$P1$\"",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_edited": {
+    "message": "Đã sửa \"$P1$\"",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted": {
+    "message": "Đã xóa \"$P1$\"",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_expired": {
+    "message": "Đã xóa \"$P1$\" (hạn dùng trong quá khứ)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_one": {
+    "message": "Đã xóa $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_other": {
+    "message": "Đã xóa $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_one": {
+    "message": "Đã nhập $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_other": {
+    "message": "Đã nhập $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_undid": {
+    "message": "Đã hoàn tác: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_saved": {
+    "message": "Đã lưu \"$P1$\"",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_draft": {
+    "message": "Cookie phải là một đối tượng có name, value, domain và path."
+  },
+  "v_name_type": {
+    "message": "Tên cookie phải là văn bản."
+  },
+  "v_value_type": {
+    "message": "Giá trị cookie phải là văn bản."
+  },
+  "v_domain_type": {
+    "message": "Miền phải là văn bản."
+  },
+  "v_path_type": {
+    "message": "Đường dẫn phải là văn bản."
+  },
+  "v_flag_type": {
+    "message": "$P1$ phải là true hoặc false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_samesite": {
+    "message": "SameSite phải là một trong $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_name_control": {
+    "message": "Tên chứa ký tự điều khiển (như xuống dòng hoặc tab), cookie không chứa được."
+  },
+  "v_name_semicolon": {
+    "message": "Tên chứa \";\", sẽ làm cookie kết thúc sớm."
+  },
+  "v_name_equals": {
+    "message": "Tên chứa \"=\", ký tự ngăn cách tên và giá trị trong cookie."
+  },
+  "v_value_control": {
+    "message": "Giá trị chứa ký tự điều khiển (như xuống dòng hoặc tab), cookie không chứa được."
+  },
+  "v_value_semicolon": {
+    "message": "Giá trị chứa \";\", sẽ làm cookie kết thúc sớm. Hãy mã hóa nó (ví dụ bằng encodeURIComponent)."
+  },
+  "v_empty_cookie": {
+    "message": "Cookie cần có tên hoặc giá trị; cả hai đang trống."
+  },
+  "v_empty_name": {
+    "message": "Cookie này có tên trống. Một số trang và công cụ xử lý cookie không tên không tốt."
+  },
+  "v_too_large": {
+    "message": "Tên và giá trị cộng lại là $P1$ byte (UTF-8); Chrome cho phép tối đa $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "v_path_slash": {
+    "message": "Đường dẫn phải bắt đầu bằng \"/\"."
+  },
+  "v_path_too_long": {
+    "message": "Đường dẫn dài hơn $P1$ byte.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_path_chars": {
+    "message": "Đường dẫn chứa ký tự điều khiển hoặc \";\", cookie không chứa được."
+  },
+  "v_domain_empty": {
+    "message": "Miền đang trống. Hãy nhập trang mà cookie thuộc về, ví dụ example.com."
+  },
+  "v_domain_too_long": {
+    "message": "Miền dài hơn $P1$ byte.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_domain_invalid": {
+    "message": "Miền không phải tên máy chủ hợp lệ. Dùng chữ cái, chữ số và dấu gạch nối ngăn cách bằng dấu chấm (tên quốc tế hóa phải ở dạng punycode, như xn--...)."
+  },
+  "v_domain_leading_dot": {
+    "message": "Cookie chỉ máy chủ không được có dấu chấm đầu trong miền; dấu chấm nghĩa là cookie cũng áp dụng cho tên miền phụ."
+  },
+  "v_domain_public_suffix": {
+    "message": "\"$P1$\" là hậu tố công khai (miền do cơ quan đăng ký quản lý như .com hoặc .co.uk), nên trình duyệt từ chối cookie áp dụng cho toàn bộ miền đó.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_samesite_none_insecure": {
+    "message": "Cookie SameSite=None phải là Secure — nếu không Chrome sẽ từ chối. Hãy bật Secure hoặc chọn SameSite khác."
+  },
+  "v_partitioned_insecure": {
+    "message": "Cookie phân vùng phải là Secure — nếu không Chrome sẽ từ chối. Hãy bật Secure hoặc bỏ phân vùng."
+  },
+  "v_prefix_secure": {
+    "message": "Cookie tên \"$P1$...\" phải là Secure. Hãy bật Secure hoặc đổi tên cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_host_prefix_domain": {
+    "message": "Cookie tên \"__Host-...\" phải chỉ máy chủ (không có thuộc tính Domain, nên không chia sẻ với tên miền phụ). Hãy bật chỉ máy chủ hoặc đổi tên cookie."
+  },
+  "v_host_prefix_path": {
+    "message": "Cookie tên \"__Host-...\" phải có đường dẫn \"/\"."
+  },
+  "v_bad_expiration": {
+    "message": "Thời điểm hết hạn phải là một số giây hữu hạn tính từ năm 1970."
+  },
+  "v_expired_deletes": {
+    "message": "Lưu với hạn dùng trong quá khứ sẽ xóa cookie này."
+  },
+  "v_clamped": {
+    "message": "Chrome giới hạn tuổi thọ cookie ở $P1$ ngày; hạn dùng muộn hơn sẽ bị rút ngắn khi lưu.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_expiration_missing": {
+    "message": "Cookie không phải cookie phiên cần có ngày hết hạn. Hãy chọn một ngày hoặc đánh dấu là cookie phiên."
+  },
+  "v_partition_type": {
+    "message": "Khóa phân vùng phải là một đối tượng có topLevelSite."
+  },
+  "v_partition_site_type": {
+    "message": "Trang cấp cao nhất của phân vùng phải là văn bản như https://example.com."
+  },
+  "v_partition_site_form": {
+    "message": "Trang cấp cao nhất của phân vùng phải có dạng https://example.com (https, không đường dẫn hay cổng)."
+  },
+  "v_partition_flag": {
+    "message": "hasCrossSiteAncestor của phân vùng phải là true hoặc false."
+  },
+  "v_partition_cross_site": {
+    "message": "Miền của cookie không cùng trang với $P1$, nên Chrome yêu cầu hasCrossSiteAncestor phải là true.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_other_site": {
+    "message": "Miền của cookie này ($P1$) nằm ngoài trang hiện tại ($P2$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_entry": {
+    "message": "Mục $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_entry_named": {
+    "message": "Mục $P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_bad_samesite": {
+    "message": "$P1$: sameSite không phải một trong no_restriction, lax, strict, unspecified.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bool": {
+    "message": "$P1$: \"$P2$\" phải là true hoặc false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_text": {
+    "message": "$P1$: \"$P2$\" phải là văn bản.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_not_object": {
+    "message": "$P1$ không phải đối tượng cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_expiration_type": {
+    "message": "$P1$: \"expirationDate\" phải là số.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_key": {
+    "message": "$P1$: partitionKey phải là đối tượng có topLevelSite dạng văn bản.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_flag": {
+    "message": "$P1$: partitionKey.hasCrossSiteAncestor phải là true hoặc false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_line": {
+    "message": "Dòng $P1$ không phải mục cookies.txt (cần 7 trường ngăn cách bằng tab, tìm thấy $P2$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_line_flag_subdomains": {
+    "message": "Dòng $P1$: cờ tên miền phụ phải là TRUE hoặc FALSE.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_flag_secure": {
+    "message": "Dòng $P1$: cờ secure phải là TRUE hoặc FALSE.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_expiry": {
+    "message": "Dòng $P1$: hạn dùng phải là số giây nguyên.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_not_text": {
+    "message": "Không đọc được tệp dưới dạng văn bản."
+  },
+  "io_too_large": {
+    "message": "Tệp lớn hơn giới hạn nhập $P1$ byte.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_json": {
+    "message": "Tệp trông như JSON nhưng không phân tích được."
+  },
+  "io_bad_version": {
+    "message": "Tệp CookieDesk này có phiên bản không được hỗ trợ."
+  },
+  "io_no_cookie_list": {
+    "message": "Tệp CookieDesk không có danh sách \"cookies\"."
+  },
+  "io_unknown_format": {
+    "message": "JSON này không phải tệp xuất của CookieDesk cũng không phải danh sách cookie."
+  },
+  "io_no_cookies": {
+    "message": "Tệp không chứa cookie nào."
+  },
+  "io_too_many": {
+    "message": "Tệp có $P1$ cookie; giới hạn là $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_issue": {
+    "message": "$P1$: $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_duplicate": {
+    "message": "$P1$: một mục khác có cùng tên, miền, đường dẫn và phân vùng.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "when": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "when_passed": {
+    "message": "đã qua"
+  },
+  "when_under_day": {
+    "message": "trong chưa đầy một ngày"
+  },
+  "explain_third_party": {
+    "message": "Do $P1$ đặt, một trang khác với $P2$: cookie bên thứ ba.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_third_party_partitioned": {
+    "message": "Do $P1$ đặt, một trang khác với $P2$: cookie bên thứ ba, được giữ trong phân vùng của $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_host_prefix": {
+    "message": "Tiền tố __Host- khiến Chrome bắt buộc Secure, không có thuộc tính Domain và Path=/, nên không tên miền phụ nào đặt hoặc thay thế được."
+  },
+  "explain_secure_prefix": {
+    "message": "Tiền tố __Secure- khiến Chrome chỉ chấp nhận khi có cờ Secure."
+  },
+  "explain_scope_host": {
+    "message": "Chỉ gửi tới chính $P1$, không gửi tới tên miền phụ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_scope_domain": {
+    "message": "Gửi tới $P1$ và mọi tên miền phụ của nó (như www.$P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_path_all": {
+    "message": "Gửi kèm yêu cầu cho mọi đường dẫn trên máy chủ đó."
+  },
+  "explain_path_under": {
+    "message": "Chỉ gửi kèm yêu cầu cho các đường dẫn dưới $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_secure": {
+    "message": "Secure: chỉ gửi qua HTTPS."
+  },
+  "explain_not_secure": {
+    "message": "Không Secure: cũng được gửi qua HTTP thường, nơi bất kỳ ai trên mạng đều đọc được."
+  },
+  "explain_httponly": {
+    "message": "HttpOnly: JavaScript của trang không thấy được (document.cookie không đọc được), giúp tránh các tập lệnh bị chèn vào."
+  },
+  "explain_script_readable": {
+    "message": "Mọi tập lệnh chạy trên trang đều đọc và thay đổi được."
+  },
+  "explain_samesite_none": {
+    "message": "SameSite=None: cũng có thể được gửi trong các yêu cầu giữa các trang web (khung nhúng, hình ảnh, yêu cầu từ trang khác), ở nơi Chrome cho phép cookie bên thứ ba (chế độ ẩn danh chặn chúng theo mặc định). Vì vậy nó phải là Secure."
+  },
+  "explain_samesite_lax": {
+    "message": "SameSite=Lax: được gửi khi bạn điều hướng tới trang, kể cả từ một liên kết trên trang khác, nhưng không gửi trong các yêu cầu mà trang khác tự thực hiện ở chế độ nền."
+  },
+  "explain_samesite_strict": {
+    "message": "SameSite=Strict: chỉ gửi khi bạn đã ở trong cùng trang. Khi đến từ liên kết trên trang khác, yêu cầu đầu tiên sẽ đi mà không có nó."
+  },
+  "explain_samesite_unset": {
+    "message": "Không có thuộc tính SameSite: Chrome coi như Lax."
+  },
+  "explain_session": {
+    "message": "Cookie phiên: bị xóa khi đóng trình duyệt (trừ khi Chrome khôi phục phiên trước khi khởi động)."
+  },
+  "explain_expires": {
+    "message": "Hết hạn $P1$. Chrome giới hạn mọi hạn dùng tối đa 400 ngày kể từ lần cookie được đặt gần nhất.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition": {
+    "message": "Phân vùng (CHIPS): lưu riêng cho từng trang cấp cao nhất. Bản này chỉ được gửi khi $P1$ là trang trên thanh địa chỉ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition_cross": {
+    "message": "Nó nằm ở phần giữa các trang web của phân vùng đó (dùng khi có trang khác nằm giữa trang hiện tại và trang của cookie này), tách biệt với phần cùng trang."
+  },
+  "explain_partition_same": {
+    "message": "Nó nằm ở phần cùng trang của phân vùng đó, tách biệt với phần giữa các trang web."
+  },
+  "explain_partition_other": {
+    "message": "Cùng tên cookie dưới một trang khác là một cookie khác."
+  },
+  "explain_jwt": {
+    "message": "Giá trị trông như một JSON Web Token."
+  },
+  "explain_jwt_exp": {
+    "message": "Giá trị trông như một JSON Web Token; chính token cho biết nó hết hạn $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_size": {
+    "message": "$P1$ trong 4096 byte Chrome cho phép cho tên và giá trị cộng lại.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

@@ -1,0 +1,2215 @@
+{
+  "extension_name": {
+    "message": "Cookie-redigerare: visa, ändra och ta bort cookies | CookieDesk"
+  },
+  "extension_description": {
+    "message": "Granska, ändra, lägg till och ta bort cookies per webbplats. Sök, import/export, stöd för partitionerade cookies. Inga annonser."
+  },
+  "btn_ok": {
+    "message": "OK"
+  },
+  "btn_cancel": {
+    "message": "Avbryt"
+  },
+  "btn_close": {
+    "message": "Stäng"
+  },
+  "btn_delete": {
+    "message": "Ta bort"
+  },
+  "btn_copy": {
+    "message": "Kopiera"
+  },
+  "btn_save": {
+    "message": "Spara"
+  },
+  "btn_export": {
+    "message": "Exportera"
+  },
+  "btn_later": {
+    "message": "Senare"
+  },
+  "dismiss": {
+    "message": "Avfärda"
+  },
+  "back": {
+    "message": "Tillbaka"
+  },
+  "back_esc": {
+    "message": "Tillbaka (Esc)"
+  },
+  "back_to_list": {
+    "message": "Tillbaka till listan"
+  },
+  "title_count": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "empty_name": {
+    "message": "(tomt namn)"
+  },
+  "empty_value": {
+    "message": "(tomt värde)"
+  },
+  "empty_short": {
+    "message": "(tomt)"
+  },
+  "names_more": {
+    "message": "$P1$ och $P2$ till",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "done": {
+    "message": "Klart"
+  },
+  "undo": {
+    "message": "Ångra"
+  },
+  "undo_nothing": {
+    "message": "Inget att ångra"
+  },
+  "undo_entry": {
+    "message": "Ångra: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_interrupted": {
+    "message": "Ångra avbröts: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "redo_entry": {
+    "message": "Gör om: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "support_title": {
+    "message": "Stöd CookieDesk på Ko-fi"
+  },
+  "supporter_title": {
+    "message": "Tack för att du stöder CookieDesk!"
+  },
+  "add_cookie": {
+    "message": "Lägg till en cookie"
+  },
+  "add_cookie_title": {
+    "message": "Lägg till en cookie (n)"
+  },
+  "more_actions": {
+    "message": "Fler åtgärder"
+  },
+  "menu_group_transfer": {
+    "message": "Exportera och importera"
+  },
+  "menu_group_sets": {
+    "message": "Cookieuppsättningar"
+  },
+  "export_json_title": {
+    "message": "Exportera som JSON"
+  },
+  "export_txt_title": {
+    "message": "Exportera som Netscape cookies.txt"
+  },
+  "tile_snippet": {
+    "message": "Kodsnutt"
+  },
+  "tile_snippet_title": {
+    "message": "Kopiera som en document.cookie-kodsnutt"
+  },
+  "tile_import": {
+    "message": "Importera"
+  },
+  "tile_import_title": {
+    "message": "Importera JSON eller cookies.txt"
+  },
+  "tile_save_set": {
+    "message": "Spara uppsättning"
+  },
+  "tile_save_set_title": {
+    "message": "Spara de här cookies som en namngiven uppsättningsfil"
+  },
+  "tile_restore": {
+    "message": "Återställ"
+  },
+  "tile_restore_title": {
+    "message": "Återställ en sparad uppsättning (med förhandsvisning)"
+  },
+  "tile_compare": {
+    "message": "Jämför"
+  },
+  "tile_compare_title": {
+    "message": "Jämför en sparad uppsättning med nuläget, eller två uppsättningar"
+  },
+  "tile_copy_to": {
+    "message": "Kopiera till…"
+  },
+  "tile_copy_to_title": {
+    "message": "Kopiera de visade cookies till en annan lagring (normal ↔ inkognito)"
+  },
+  "menu_bulk_delete": {
+    "message": "Ta bort visade cookies…"
+  },
+  "menu_access": {
+    "message": "Åtkomst och inställningar"
+  },
+  "menu_shortcuts": {
+    "message": "Kortkommandon"
+  },
+  "menu_sidepanel": {
+    "message": "Öppna i sidopanelen"
+  },
+  "menu_rate": {
+    "message": "Betygsätt CookieDesk"
+  },
+  "menu_support": {
+    "message": "Stöd på Ko-fi"
+  },
+  "search_placeholder": {
+    "message": "Sök cookies"
+  },
+  "search_label": {
+    "message": "Filtrera cookies efter namn, värde eller domän"
+  },
+  "search_title": {
+    "message": "Filtrera efter namn, värde eller domän"
+  },
+  "cookie_store": {
+    "message": "Cookielagring"
+  },
+  "cookies_list": {
+    "message": "Cookies"
+  },
+  "restricted_page": {
+    "message": "Begränsad sida"
+  },
+  "loading": {
+    "message": "Läser in…"
+  },
+  "state_unknown": {
+    "message": "Klicka på CookieDesk-knappen i verktygsfältet för att visa den här flikens cookies."
+  },
+  "state_unknown_hint": {
+    "message": "Chrome delar en flikadress först efter det klicket, eller för webbplatser du har tillåtit."
+  },
+  "state_error": {
+    "message": "Något gick fel: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "state_no_access": {
+    "message": "CookieDesk har ännu inte åtkomst till $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "grant_site": {
+    "message": "Tillåt på $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "chrome_will_ask": {
+    "message": "Chrome frågar:"
+  },
+  "prompt_site": {
+    "message": "Läsa och ändra dina data på alla $P1$-webbplatser",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "prompt_all": {
+    "message": "Läsa och ändra alla dina data på alla webbplatser"
+  },
+  "only_this_site": {
+    "message": "Bara den här webbplatsens cookies, inget annat."
+  },
+  "allow_all_instead": {
+    "message": "Tillåt alla webbplatser i stället"
+  },
+  "restricted_browser": {
+    "message": "Det här är en Chrome-sida. Chrome låter inget tillägg läsa eller ändra cookies här."
+  },
+  "restricted_webstore": {
+    "message": "Det här är Chrome Web Store. Chrome blockerar alla tillägg där, så cookies kan inte visas."
+  },
+  "restricted_extension": {
+    "message": "Det här är ett tilläggs egen sida. Dess lagring är inte en webbplats cookies, så det finns inget att visa."
+  },
+  "restricted_file": {
+    "message": "Det här är en lokal fil. Filer som öppnas från disk har inga cookies."
+  },
+  "restricted_other": {
+    "message": "Den här sidan är ingen webbplats (till exempel en tom sida eller en data:-sida), så den har inga cookies."
+  },
+  "live_just_now": {
+    "message": "Nyss: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "note_third_party": {
+    "message": "Cookies från inbäddade webbplatser visas bara för webbplatser du har tillåtit."
+  },
+  "note_no_partitions": {
+    "message": "Din version av Chrome kan inte visa partitionerade cookies, så listan kan vara ofullständig."
+  },
+  "empty_no_match": {
+    "message": "Inga cookies matchar ”$P1$”.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "empty_none": {
+    "message": "Inga cookies för $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clear_search": {
+    "message": "Rensa sökningen"
+  },
+  "change_changed": {
+    "message": "$P1$ ändrades",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_added": {
+    "message": "$P1$ lades till",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_removed": {
+    "message": "$P1$ togs bort",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_one": {
+    "message": "$P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_other": {
+    "message": "$P1$ cookies",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_filtered_one": {
+    "message": "$P2$ av $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_filtered_other": {
+    "message": "$P2$ av $P1$ cookies",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_partitioned": {
+    "message": "$P1$ partitionerade",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "store_default": {
+    "message": "Standard"
+  },
+  "store_incognito": {
+    "message": "Inkognito"
+  },
+  "store_n": {
+    "message": "Lagring $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "session": {
+    "message": "Session"
+  },
+  "expired": {
+    "message": "Utgången"
+  },
+  "expiry_under_minute": {
+    "message": "om under en minut"
+  },
+  "expiry_on_close": {
+    "message": "Tas bort när webbläsaren stängs"
+  },
+  "expires_at": {
+    "message": "Går ut $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "badge_protected": {
+    "message": "Skyddad: massborttagning, import och återställning av uppsättningar rör den inte (p)"
+  },
+  "hint_httponly": {
+    "message": "HttpOnly: syns inte för sidans JavaScript (document.cookie kan inte läsa den)"
+  },
+  "hint_secure": {
+    "message": "Secure: skickas bara över HTTPS"
+  },
+  "hint_samesite_none": {
+    "message": "SameSite=None: skickas även vid förfrågningar mellan webbplatser"
+  },
+  "hint_samesite_lax": {
+    "message": "SameSite=Lax: skickas vid navigering på toppnivå, inte vid underförfrågningar mellan webbplatser"
+  },
+  "hint_samesite_strict": {
+    "message": "SameSite=Strict: skickas bara vid förfrågningar inom samma webbplats"
+  },
+  "badge_partitioned": {
+    "message": "Partitionerad"
+  },
+  "partitioned_under": {
+    "message": "Partitionerad under $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partition_this_site": {
+    "message": "den här webbplatsen"
+  },
+  "partition_cross_site": {
+    "message": "$P1$, kontext mellan webbplatser",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "row_protected": {
+    "message": "Skyddad"
+  },
+  "row_unprotect_title": {
+    "message": "Ta bort skydd (p)"
+  },
+  "row_protect_title": {
+    "message": "Skydda mot massborttagning, import och återställning av uppsättningar (p)"
+  },
+  "copy_value": {
+    "message": "Kopiera värde"
+  },
+  "copied": {
+    "message": "Kopierat"
+  },
+  "copy_value_title": {
+    "message": "Kopiera värde (c)"
+  },
+  "row_delete_title": {
+    "message": "Ta bort (Del) – kan ångras"
+  },
+  "irreversible_title": {
+    "message": "Det här kan inte ångras"
+  },
+  "continue_no_undo": {
+    "message": "Fortsätt utan ångra"
+  },
+  "undo_anyway_title": {
+    "message": "Ångra ändå?"
+  },
+  "undo_anyway": {
+    "message": "Ångra ändå"
+  },
+  "undone": {
+    "message": "Ångrat: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_skipped": {
+    "message": "Vissa cookies hade redan gått ut och återställdes inte: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_refused": {
+    "message": "Chrome godtar inte längre dessa som de var, så de återställdes inte: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clipboard_failed": {
+    "message": "Kunde inte kopiera: urklipp är inte tillgängligt här."
+  },
+  "protected_on": {
+    "message": "Skyddade ”$P1$”: massborttagning, import och återställning av uppsättningar rör den inte.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_off": {
+    "message": "”$P1$” är inte längre skyddad.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protect_limit": {
+    "message": "Du kan skydda upp till $P1$ cookies. Ta först bort skyddet från några.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_named": {
+    "message": "Ta bort ”$P1$”?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_protected_message": {
+    "message": "Den här cookien är skyddad. Ta bort den ändå? Du kan ångra det."
+  },
+  "nothing_to_delete": {
+    "message": "Inget att ta bort"
+  },
+  "all_shown_protected_one": {
+    "message": "Den visade cookien är skyddad."
+  },
+  "all_shown_protected_other": {
+    "message": "Alla $P1$ visade cookies är skyddade.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "no_cookies_shown": {
+    "message": "Inga cookies visas."
+  },
+  "bulk_title_one": {
+    "message": "Ta bort $P1$ cookie?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_title_other": {
+    "message": "Ta bort $P1$ cookies?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_match": {
+    "message": "De här cookies matchar ”$P1$” på $P2$. Du kan ångra det.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "bulk_all": {
+    "message": "Alla cookies som visas för $P1$. Du kan ångra det.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_one": {
+    "message": "$P1$ skyddad cookie behålls.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_other": {
+    "message": "$P1$ skyddade cookies behålls.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_one": {
+    "message": "Ta bort $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_other": {
+    "message": "Ta bort $P1$ cookies",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_to": {
+    "message": "Kopiera till"
+  },
+  "copy_to_default_note": {
+    "message": "Cookies som kopieras till standardlagringen behålls som alla andra cookies, på disk och efter att den här inkognitosessionen har tagit slut."
+  },
+  "copy_to_incognito_note": {
+    "message": "Cookies som kopieras till en inkognitolagring försvinner när inkognitosessionen tar slut."
+  },
+  "copy_title_one": {
+    "message": "Kopiera $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_title_other": {
+    "message": "Kopiera $P1$ cookies",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_from": {
+    "message": "Från lagringen $P1$ till:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_replace_note": {
+    "message": "Cookies med samma namn, domän och sökväg där ersätts, utom skyddade. Du kan ångra kopieringen."
+  },
+  "label_copied_one": {
+    "message": "Kopierade $P1$ cookie till $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_copied_other": {
+    "message": "Kopierade $P1$ cookies till $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_kept_one": {
+    "message": "$P1$ skyddad cookie där lämnades som den var.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_kept_other": {
+    "message": "$P1$ skyddade cookies där lämnades som de var.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_done_one": {
+    "message": "Kopierade $P1$ cookie till $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_done_other": {
+    "message": "Kopierade $P1$ cookies till $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_undo_hint": {
+    "message": "Ångra här, eller senare från lagringen $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_nothing": {
+    "message": "$P1$ har redan exakt de här cookies.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_cant": {
+    "message": "Kan inte jämföra"
+  },
+  "compare_now": {
+    "message": "$P1$ nu",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_other_site": {
+    "message": "Den här uppsättningen sparades för $P1$, inte $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "compare_too_many": {
+    "message": "Välj en uppsättning att jämföra med nuläget, eller två uppsättningar att jämföra med varandra."
+  },
+  "set_file_too_large": {
+    "message": "$P1$ är för stor för att vara en cookieuppsättning.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_aria": {
+    "message": "Jämför cookieuppsättningar"
+  },
+  "compare_changed_fields": {
+    "message": "Ändrat: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_one": {
+    "message": "Inga skillnader: $P1$ cookie är identisk.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_other": {
+    "message": "Inga skillnader: $P1$ cookies är identiska.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_summary": {
+    "message": "$P1$ tillagda, $P2$ borttagna, $P3$ ändrade, $P4$ oförändrade.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      },
+      "p4": {
+        "content": "$4"
+      }
+    }
+  },
+  "diff_added": {
+    "message": "Tillagd"
+  },
+  "diff_removed": {
+    "message": "Borttagen"
+  },
+  "diff_changed": {
+    "message": "Ändrad"
+  },
+  "diff_expiry_only": {
+    "message": "Bara utgångstiden ändrades ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "shortcuts_title": {
+    "message": "Kortkommandon"
+  },
+  "key_search": {
+    "message": "Sök"
+  },
+  "key_move": {
+    "message": "Flytta i listan"
+  },
+  "key_first_last": {
+    "message": "Första / sista cookien"
+  },
+  "key_edit": {
+    "message": "Redigera"
+  },
+  "key_copy": {
+    "message": "Kopiera värde"
+  },
+  "key_protect": {
+    "message": "Skydda / ta bort skydd"
+  },
+  "key_delete": {
+    "message": "Ta bort (kan ångras)"
+  },
+  "key_back": {
+    "message": "Tillbaka, eller rensa sökningen"
+  },
+  "key_help": {
+    "message": "Den här listan"
+  },
+  "import_kept_one": {
+    "message": "$P1$ skyddad cookie lämnades som den var: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_kept_other": {
+    "message": "$P1$ skyddade cookies lämnades som de var: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_nothing": {
+    "message": "Inget att importera: alla cookies i filen är redan inställda exakt så."
+  },
+  "imported_one": {
+    "message": "Importerade $P1$ cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "imported_other": {
+    "message": "Importerade $P1$ cookies.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_restored": {
+    "message": "Återställde uppsättningen ”$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restored_one": {
+    "message": "Återställde ”$P2$”: $P1$ cookie skriven, $P3$ borttagna.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "restored_other": {
+    "message": "Återställde ”$P2$”: $P1$ cookies skrivna, $P3$ borttagna.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "rate_title": {
+    "message": "Gillar du CookieDesk?"
+  },
+  "rate_text": {
+    "message": "Ett snabbt betyg hjälper andra att hitta det."
+  },
+  "rate_group": {
+    "message": "Betygsätt i butiken"
+  },
+  "rate_stars_one": {
+    "message": "$P1$ stjärna",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "rate_stars_other": {
+    "message": "$P1$ stjärnor",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_confirm_title": {
+    "message": "Bjöd du mig på en kaffe?"
+  },
+  "kofi_confirm_text": {
+    "message": "Tack, det håller CookieDesk igång."
+  },
+  "kofi_yes": {
+    "message": "Ja, det gjorde jag"
+  },
+  "kofi_not_yet": {
+    "message": "Inte än"
+  },
+  "kofi_milestone_one": {
+    "message": "$P1$ ändring gjord med CookieDesk!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_milestone_other": {
+    "message": "$P1$ ändringar gjorda med CookieDesk!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_free": {
+    "message": "Det är gratis och görs av en utvecklare."
+  },
+  "buy_coffee": {
+    "message": "Bjud mig på en kaffe"
+  },
+  "edit_cookie": {
+    "message": "Redigera cookie"
+  },
+  "add_cookie_short": {
+    "message": "Lägg till cookie"
+  },
+  "explain_title": {
+    "message": "Vad den här cookien gör"
+  },
+  "field_name": {
+    "message": "Namn"
+  },
+  "field_value": {
+    "message": "Värde"
+  },
+  "field_domain": {
+    "message": "Domän"
+  },
+  "field_path": {
+    "message": "Sökväg"
+  },
+  "field_expiry": {
+    "message": "Utgång"
+  },
+  "field_expires": {
+    "message": "Går ut"
+  },
+  "field_attributes": {
+    "message": "Attribut"
+  },
+  "field_partition": {
+    "message": "Partition"
+  },
+  "host_only": {
+    "message": "Endast värd"
+  },
+  "host_only_title": {
+    "message": "Endast värd: inget Domain-attribut, så underdomäner får den inte"
+  },
+  "session_title": {
+    "message": "Sessionscookie: försvinner när webbläsaren stängs"
+  },
+  "httponly_title": {
+    "message": "HttpOnly: syns inte för sidans JavaScript"
+  },
+  "samesite_unspecified": {
+    "message": "Ospecificerad"
+  },
+  "partitioned_chips": {
+    "message": "Partitionerad (CHIPS)"
+  },
+  "top_level_site": {
+    "message": "Webbplats på toppnivå"
+  },
+  "no_partition_write": {
+    "message": "Den här versionen av Chrome kan inte skriva partitionerade cookies."
+  },
+  "editor_delete_title": {
+    "message": "Ta bort (kan ångras)"
+  },
+  "bytes_of": {
+    "message": "$P1$ / $P2$ byte",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "access_aria": {
+    "message": "Åtkomst och inställningar"
+  },
+  "all_sites_on": {
+    "message": "Alla webbplatser: på"
+  },
+  "all_sites_on_text": {
+    "message": "CookieDesk kan läsa och ändra cookies på alla webbplatser, även inbäddade."
+  },
+  "turn_off": {
+    "message": "Stäng av"
+  },
+  "all_sites": {
+    "message": "Alla webbplatser"
+  },
+  "all_sites_text": {
+    "message": "Valfritt. Inga fler frågor per webbplats, och inbäddade webbplatsers cookies (annonser, widgetar, inloggningsramar) visas överallt."
+  },
+  "allow_all_sites": {
+    "message": "Tillåt på alla webbplatser"
+  },
+  "remove_access": {
+    "message": "Ta bort åtkomst till $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "access_lead": {
+    "message": "CookieDesk ser en webbplats cookies först när du tillåter den webbplatsen, och inget annat: inget sidinnehåll, ingen historik."
+  },
+  "allowed_sites": {
+    "message": "Tillåtna webbplatser"
+  },
+  "allowed_sites_count": {
+    "message": "Tillåtna webbplatser · $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "all_sites_overrides": {
+    "message": "Åtkomst till alla webbplatser är på, så de här spelar ingen roll så länge det gäller."
+  },
+  "none_yet": {
+    "message": "Inga än."
+  },
+  "toolbar_opens": {
+    "message": "Verktygsfältsknappen öppnar"
+  },
+  "surface_popup": {
+    "message": "Popup"
+  },
+  "surface_sidepanel": {
+    "message": "Sidopanel"
+  },
+  "support_feedback": {
+    "message": "Stöd och feedback"
+  },
+  "thanks_supporting": {
+    "message": "Tack för ditt stöd!"
+  },
+  "report_problem": {
+    "message": "Rapportera ett problem"
+  },
+  "source_code": {
+    "message": "Källkod"
+  },
+  "privacy_line": {
+    "message": "Inga nätverksförfrågningar, inga cookievärden på disk. Ångra fungerar i 10 minuter; kopiorna finns i minnet och försvinner när Chrome stängs eller inkognitosessionen tar slut."
+  },
+  "export_warning": {
+    "message": "Den här filen innehåller aktiva sessionscookies. Den som har den kan logga in som du på de här webbplatserna. Behandla den som ett lösenord och ta bort den när du är klar."
+  },
+  "export_json_one": {
+    "message": "Exportera $P1$ cookie som JSON",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_json_other": {
+    "message": "Exportera $P1$ cookies som JSON",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_one": {
+    "message": "Exportera $P1$ cookie som cookies.txt",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_other": {
+    "message": "Exportera $P1$ cookies som cookies.txt",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_all_one": {
+    "message": "Cookien som visas för $P2$ hamnar i filen, även om den är HttpOnly.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_all_other": {
+    "message": "Alla $P1$ cookies som visas för $P2$ hamnar i filen, även HttpOnly-cookies.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_partitioned_left_one": {
+    "message": "$P1$ partitionerad cookie utelämnades: cookies.txt kan inte lagra partitioner. Använd JSON för att behålla den.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_partitioned_left_other": {
+    "message": "$P1$ partitionerade cookies utelämnades: cookies.txt kan inte lagra partitioner. Använd JSON för att behålla dem.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_too_big": {
+    "message": "Den här filen är $P1$ MB. Cookieexporter är mycket mindre; CookieDesk läser filer upp till 5 MB.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "cant_import_unchanged": {
+    "message": "Kan inte importera filen. Inget ändrades."
+  },
+  "cant_import": {
+    "message": "Kan inte importera filen"
+  },
+  "file_unreadable": {
+    "message": "Filen kunde inte läsas."
+  },
+  "needs_access_one": {
+    "message": "CookieDesk behöver åtkomst till $P1$ webbplats till innan den kan skriva de här cookies:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "needs_access_other": {
+    "message": "CookieDesk behöver åtkomst till $P1$ webbplatser till innan den kan skriva de här cookies:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_allow_all_hint": {
+    "message": "Eller tillåt alla webbplatser under Åtkomst och inställningar."
+  },
+  "other_sites": {
+    "message": "Andra webbplatser ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "other_sites_warning": {
+    "message": "Filen skriver också cookies för andra webbplatser än $P1$. En cookie som planteras på en annan webbplats kan logga in dig på fel konto där. Fortsätt bara om du väntade dig de här webbplatserna.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_one": {
+    "message": "Skriv också cookies för $P1$ annan webbplats",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_other": {
+    "message": "Skriv också cookies för $P1$ andra webbplatser",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partitioned_under_list": {
+    "message": "Partitionerad under: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "warnings_count": {
+    "message": "Varningar ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_title": {
+    "message": "Importera cookies"
+  },
+  "import_message_one": {
+    "message": "Importera $P1$ cookie? Cookies med samma namn, domän och sökväg ersätts. Du kan ångra hela importen.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_message_other": {
+    "message": "Importera $P1$ cookies? Cookies med samma namn, domän och sökväg ersätts. Du kan ångra hela importen.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_one": {
+    "message": "Kopiera $P1$ cookie som document.cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_other": {
+    "message": "Kopiera $P1$ cookies som document.cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_warning": {
+    "message": "Kodsnutten innehåller aktiva sessionscookies. Den som har den kan logga in som du på den här webbplatsen. Behandla den som ett lösenord."
+  },
+  "snippet_paste": {
+    "message": "Klistra in den i DevTools-konsolen på $P1$ för att sätta de här cookies där.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_one": {
+    "message": "$P1$ HttpOnly-cookie utelämnades: sidans JavaScript kan inte sätta den.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_other": {
+    "message": "$P1$ HttpOnly-cookies utelämnades: sidans JavaScript kan inte sätta dem.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_one": {
+    "message": "Kopierade $P1$ cookie som document.cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_other": {
+    "message": "Kopierade $P1$ cookies som document.cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_name": {
+    "message": "Namn på uppsättning"
+  },
+  "set_name_placeholder": {
+    "message": "t.ex. inloggad som admin"
+  },
+  "save_set_title_one": {
+    "message": "Spara $P1$ cookie som en uppsättning",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "save_set_title_other": {
+    "message": "Spara $P1$ cookies som en uppsättning",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_file_note": {
+    "message": "Uppsättningen är en fil på din dator; CookieDesk behåller ingen kopia. Återställ den senare från menyn på $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "default_set_name": {
+    "message": "Cookieuppsättning"
+  },
+  "set_too_large": {
+    "message": "Den här filen är för stor för att vara en cookieuppsättning."
+  },
+  "cant_restore_unchanged": {
+    "message": "Kan inte återställa uppsättningen. Inget ändrades."
+  },
+  "cant_restore": {
+    "message": "Kan inte återställa uppsättningen"
+  },
+  "wrong_site_message": {
+    "message": "Den här uppsättningen sparades för $P1$. Öppna $P1$ och återställ den där.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "wrong_site_title": {
+    "message": "Fel webbplats. Inget ändrades."
+  },
+  "foreign_cookies_one": {
+    "message": "$P1$ cookie i filen tillhör en annan webbplats ($P2$). Att återställa en uppsättning ändrar bara $P3$; använd Importera för andra webbplatser.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "foreign_cookies_other": {
+    "message": "$P1$ cookies i filen tillhör andra webbplatser ($P2$). Att återställa en uppsättning ändrar bara $P3$; använd Importera för andra webbplatser.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "plan_write": {
+    "message": "Skriv"
+  },
+  "plan_delete": {
+    "message": "Ta bort"
+  },
+  "plan_protected": {
+    "message": "Skyddade, lämnas som de är"
+  },
+  "restore_title": {
+    "message": "Återställ ”$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_nothing": {
+    "message": "$P1$ stämmer redan med den här uppsättningen. Inget att ändra.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_message_one": {
+    "message": "Cookies för $P2$ ersätts av $P1$ cookie i den här uppsättningen. Du kan ångra hela återställningen.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "restore_message_other": {
+    "message": "Cookies för $P2$ ersätts av $P1$ cookies i den här uppsättningen. Du kan ångra hela återställningen.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_partition_unsupported": {
+    "message": "”$P1$” är en partitionerad cookie, som den här versionen av Chrome inte kan skriva. Uppdatera Chrome till 119 eller senare.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_gone": {
+    "message": "”$P1$” finns inte längre. Den kan ha gått ut eller ändrats av webbplatsen. Läs in listan igen.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_stored": {
+    "message": "Chrome godtog ”$P1$” men lagrade den inte.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_imprecise_delete_one": {
+    "message": "Chrome kan bara ta bort ”$P2$” tillsammans med $P1$ annan cookie med samma namn, så CookieDesk tar inte bort den.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_imprecise_delete_other": {
+    "message": "Chrome kan bara ta bort ”$P2$” tillsammans med $P1$ andra cookies med samma namn, så CookieDesk tar inte bort den.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_delete": {
+    "message": "Chrome godtar inte längre ”$P1$” som den är lagrad, så när den har tagits bort går den inte att få tillbaka. Ta bort den utan ångra?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_removed": {
+    "message": "Kunde inte ta bort ”$P1$”.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_no_permission": {
+    "message": "CookieDesk har inte åtkomst till $P1$. Ge åtkomst till webbplatsen först.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_secure_shadow": {
+    "message": "Det finns redan en Secure-cookie med namnet ”$P1$” för $P2$. Chrome tillåter inte att en cookie utan Secure med samma namn ersätter den eller finns bredvid den. Slå på Secure eller använd ett annat namn.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_rejected": {
+    "message": "Chrome avvisade ”$P1$” utan att ange någon orsak. Inget ändrades.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_irreversible_replace_one": {
+    "message": "Chrome godtar inte längre $P2$ som den är lagrad, så när den har ersatts går den inte att få tillbaka. Fortsätta utan ångra för den?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_replace_other": {
+    "message": "Chrome godtar inte längre $P2$ som de är lagrade, så när de har ersatts går de inte att få tillbaka. Fortsätta utan ångra för dem?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_too_large_to_undo": {
+    "message": "Ändringen berör för mycket data ($P1$ KB) för att spara en ångrakopia. Fortsätta utan ångra?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_duplicate_in_file": {
+    "message": "Filen innehåller ”$P1$” två gånger för samma domän och sökväg.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_undo_expired": {
+    "message": "Inget att ångra – ångra sparas i 10 minuter."
+  },
+  "err_undo_conflict": {
+    "message": "$P1$ ändrades efter ”$P2$”. Att ångra nu skulle skriva över det nyare värdet. Ångra ändå?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_incomplete": {
+    "message": "Ofullständig: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_added": {
+    "message": "Lade till ”$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_edited": {
+    "message": "Redigerade ”$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted": {
+    "message": "Tog bort ”$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_expired": {
+    "message": "Tog bort ”$P1$” (utgångstid i det förflutna)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_one": {
+    "message": "Tog bort $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_other": {
+    "message": "Tog bort $P1$ cookies",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_one": {
+    "message": "Importerade $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_other": {
+    "message": "Importerade $P1$ cookies",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_undid": {
+    "message": "Ångrade: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_saved": {
+    "message": "Sparade ”$P1$”",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_draft": {
+    "message": "Cookien måste vara ett objekt med name, value, domain och path."
+  },
+  "v_name_type": {
+    "message": "Cookiens namn måste vara text."
+  },
+  "v_value_type": {
+    "message": "Cookiens värde måste vara text."
+  },
+  "v_domain_type": {
+    "message": "Domänen måste vara text."
+  },
+  "v_path_type": {
+    "message": "Sökvägen måste vara text."
+  },
+  "v_flag_type": {
+    "message": "$P1$ måste vara sant eller falskt.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_samesite": {
+    "message": "SameSite måste vara en av $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_name_control": {
+    "message": "Namnet innehåller styrtecken (som radbrytning eller tabb), som cookies inte kan innehålla."
+  },
+  "v_name_semicolon": {
+    "message": "Namnet innehåller ”;”, vilket skulle avsluta cookien i förtid."
+  },
+  "v_name_equals": {
+    "message": "Namnet innehåller ”=”, som skiljer namnet från värdet i en cookie."
+  },
+  "v_value_control": {
+    "message": "Värdet innehåller styrtecken (som radbrytning eller tabb), som cookies inte kan innehålla."
+  },
+  "v_value_semicolon": {
+    "message": "Värdet innehåller ”;”, vilket skulle avsluta cookien i förtid. Koda det (till exempel med encodeURIComponent)."
+  },
+  "v_empty_cookie": {
+    "message": "En cookie behöver ett namn eller ett värde; båda är tomma."
+  },
+  "v_empty_name": {
+    "message": "Den här cookien har ett tomt namn. Vissa webbplatser och verktyg hanterar cookies utan namn dåligt."
+  },
+  "v_too_large": {
+    "message": "Namn och värde tillsammans är $P1$ byte (UTF-8); Chrome tillåter högst $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "v_path_slash": {
+    "message": "Sökvägen måste börja med ”/”."
+  },
+  "v_path_too_long": {
+    "message": "Sökvägen är längre än $P1$ byte.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_path_chars": {
+    "message": "Sökvägen innehåller styrtecken eller ”;”, som cookies inte kan innehålla."
+  },
+  "v_domain_empty": {
+    "message": "Domänen är tom. Ange webbplatsen som cookien tillhör, till exempel example.com."
+  },
+  "v_domain_too_long": {
+    "message": "Domänen är längre än $P1$ byte.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_domain_invalid": {
+    "message": "Domänen är inget giltigt värdnamn. Använd bokstäver, siffror och bindestreck åtskilda av punkter (internationella namn måste vara i punycode, som xn--...)."
+  },
+  "v_domain_leading_dot": {
+    "message": "En cookie med endast värd kan inte ha en inledande punkt i domänen; punkten betyder att cookien även gäller underdomäner."
+  },
+  "v_domain_public_suffix": {
+    "message": "”$P1$” är ett publikt suffix (en domän som styrs av ett register, som .com eller .co.uk), så webbläsare vägrar cookies som gäller hela den.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_samesite_none_insecure": {
+    "message": "SameSite=None-cookies måste vara Secure, annars avvisar Chrome dem. Slå på Secure eller välj en annan SameSite."
+  },
+  "v_partitioned_insecure": {
+    "message": "Partitionerade cookies måste vara Secure, annars avvisar Chrome dem. Slå på Secure eller ta bort partitionen."
+  },
+  "v_prefix_secure": {
+    "message": "Cookies med namn som börjar på ”$P1$...” måste vara Secure. Slå på Secure eller byt namn på cookien.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_host_prefix_domain": {
+    "message": "Cookies med namn som börjar på ”__Host-...” måste vara endast värd (inget Domain-attribut, alltså ingen delning med underdomäner). Slå på endast värd eller byt namn på cookien."
+  },
+  "v_host_prefix_path": {
+    "message": "Cookies med namn som börjar på ”__Host-...” måste ha sökvägen ”/”."
+  },
+  "v_bad_expiration": {
+    "message": "Utgångstiden måste vara ett ändligt antal sekunder sedan 1970."
+  },
+  "v_expired_deletes": {
+    "message": "Att spara med en utgångstid i det förflutna tar bort den här cookien."
+  },
+  "v_clamped": {
+    "message": "Chrome begränsar cookiens livslängd till $P1$ dagar; en senare utgångstid kortas vid sparande.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_expiration_missing": {
+    "message": "En cookie som inte är en sessionscookie behöver ett utgångsdatum. Välj ett eller markera cookien som sessionscookie."
+  },
+  "v_partition_type": {
+    "message": "Partitionsnyckeln måste vara ett objekt med en topLevelSite."
+  },
+  "v_partition_site_type": {
+    "message": "Partitionens toppnivåwebbplats måste vara text som https://example.com."
+  },
+  "v_partition_site_form": {
+    "message": "Partitionens toppnivåwebbplats måste se ut som https://example.com (https, ingen sökväg eller port)."
+  },
+  "v_partition_flag": {
+    "message": "Partitionens hasCrossSiteAncestor måste vara sant eller falskt."
+  },
+  "v_partition_cross_site": {
+    "message": "Cookiens domän ligger inte på samma webbplats som $P1$, så Chrome kräver att hasCrossSiteAncestor är sant för den.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_other_site": {
+    "message": "Den här cookiens domän ($P1$) ligger utanför den aktuella webbplatsen ($P2$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_entry": {
+    "message": "Post $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_entry_named": {
+    "message": "Post $P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_bad_samesite": {
+    "message": "$P1$: sameSite är inte en av no_restriction, lax, strict, unspecified.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bool": {
+    "message": "$P1$: ”$P2$” måste vara sant eller falskt.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_text": {
+    "message": "$P1$: ”$P2$” måste vara text.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_not_object": {
+    "message": "$P1$ är inte ett cookieobjekt.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_expiration_type": {
+    "message": "$P1$: ”expirationDate” måste vara ett tal.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_key": {
+    "message": "$P1$: partitionKey måste vara ett objekt med en topLevelSite som är text.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_flag": {
+    "message": "$P1$: partitionKey.hasCrossSiteAncestor måste vara sant eller falskt.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_line": {
+    "message": "Rad $P1$ är inte en cookies.txt-post (förväntade 7 tabbseparerade fält, hittade $P2$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_line_flag_subdomains": {
+    "message": "Rad $P1$: flaggan för underdomäner måste vara TRUE eller FALSE.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_flag_secure": {
+    "message": "Rad $P1$: secure-flaggan måste vara TRUE eller FALSE.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_expiry": {
+    "message": "Rad $P1$: utgångstiden måste vara ett helt antal sekunder.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_not_text": {
+    "message": "Filen kunde inte läsas som text."
+  },
+  "io_too_large": {
+    "message": "Filen är större än importgränsen på $P1$ byte.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_json": {
+    "message": "Filen ser ut som JSON men kunde inte tolkas."
+  },
+  "io_bad_version": {
+    "message": "Den här CookieDesk-filen har en version som inte stöds."
+  },
+  "io_no_cookie_list": {
+    "message": "CookieDesk-filen har ingen ”cookies”-lista."
+  },
+  "io_unknown_format": {
+    "message": "Den här JSON-filen är varken en CookieDesk-export eller en lista med cookies."
+  },
+  "io_no_cookies": {
+    "message": "Filen innehåller inga cookies."
+  },
+  "io_too_many": {
+    "message": "Filen har $P1$ cookies; gränsen är $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_issue": {
+    "message": "$P1$: $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_duplicate": {
+    "message": "$P1$: en annan post har samma namn, domän, sökväg och partition.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "when": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "when_passed": {
+    "message": "redan passerat"
+  },
+  "when_under_day": {
+    "message": "om mindre än en dag"
+  },
+  "explain_third_party": {
+    "message": "Sattes av $P1$, en annan webbplats än $P2$: en tredjepartscookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_third_party_partitioned": {
+    "message": "Sattes av $P1$, en annan webbplats än $P2$: en tredjepartscookie som ligger i partitionen för $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_host_prefix": {
+    "message": "Prefixet __Host- gör att Chrome kräver Secure, inget Domain-attribut och Path=/, så ingen underdomän kan sätta eller ersätta den."
+  },
+  "explain_secure_prefix": {
+    "message": "Prefixet __Secure- gör att Chrome bara godtar den med Secure-flaggan."
+  },
+  "explain_scope_host": {
+    "message": "Skickas bara till $P1$ självt, inte till dess underdomäner.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_scope_domain": {
+    "message": "Skickas till $P1$ och alla dess underdomäner (som www.$P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_path_all": {
+    "message": "Skickas med förfrågningar för alla sökvägar på den värden."
+  },
+  "explain_path_under": {
+    "message": "Skickas bara med förfrågningar för sökvägar under $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_secure": {
+    "message": "Secure: skickas bara över HTTPS."
+  },
+  "explain_not_secure": {
+    "message": "Inte Secure: skickas även över vanlig HTTP, där alla i nätverket kan läsa den."
+  },
+  "explain_httponly": {
+    "message": "HttpOnly: syns inte för sidans JavaScript (document.cookie kan inte läsa den), vilket håller den borta från injicerade skript."
+  },
+  "explain_script_readable": {
+    "message": "Kan läsas och ändras av alla skript som körs på sidan."
+  },
+  "explain_samesite_none": {
+    "message": "SameSite=None: kan också skickas med förfrågningar mellan webbplatser (inbäddade ramar, bilder, förfrågningar från andra webbplatser), där Chrome över huvud taget tillåter tredjepartscookies (inkognito blockerar dem som standard). Därför måste den vara Secure."
+  },
+  "explain_samesite_lax": {
+    "message": "SameSite=Lax: skickas när du navigerar till webbplatsen, även från en länk på en annan webbplats, men inte med förfrågningar som andra webbplatsers sidor gör i bakgrunden."
+  },
+  "explain_samesite_strict": {
+    "message": "SameSite=Strict: skickas bara när du redan är på samma webbplats. När du kommer från en länk på en annan webbplats går den första förfrågan utan den."
+  },
+  "explain_samesite_unset": {
+    "message": "Inget SameSite-attribut: Chrome behandlar det som Lax."
+  },
+  "explain_session": {
+    "message": "En sessionscookie: tas bort när webbläsaren stängs (om inte Chrome återställer din tidigare session vid start)."
+  },
+  "explain_expires": {
+    "message": "Går ut $P1$. Chrome begränsar all utgångstid till 400 dagar från när cookien senast sattes.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition": {
+    "message": "Partitionerad (CHIPS): lagras separat för varje toppnivåwebbplats. Den här kopian skickas bara medan $P1$ är webbplatsen i adressfältet.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition_cross": {
+    "message": "Den ligger i den delen av partitionen som gäller mellan webbplatser (används när en annan webbplats sitter mellan sidan och cookiens webbplats), skild från delen för samma webbplats."
+  },
+  "explain_partition_same": {
+    "message": "Den ligger i den delen av partitionen som gäller samma webbplats, skild från delen mellan webbplatser."
+  },
+  "explain_partition_other": {
+    "message": "Samma cookienamn under en annan webbplats är en annan cookie."
+  },
+  "explain_jwt": {
+    "message": "Värdet ser ut som en JSON Web Token."
+  },
+  "explain_jwt_exp": {
+    "message": "Värdet ser ut som en JSON Web Token; själva token säger att den går ut $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_size": {
+    "message": "$P1$ av de 4096 byte som Chrome tillåter för namn och värde tillsammans.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

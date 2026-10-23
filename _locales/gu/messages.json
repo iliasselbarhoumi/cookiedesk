@@ -1,0 +1,2215 @@
+{
+  "extension_name": {
+    "message": "કૂકી એડિટર: કૂકી જુઓ, સંપાદિત કરો, કાઢી નાખો | CookieDesk"
+  },
+  "extension_description": {
+    "message": "દરેક સાઇટની કૂકી જુઓ, સંપાદિત કરો, ઉમેરો અને કાઢી નાખો. શોધ, આયાત/નિકાસ, પાર્ટિશન્ડ કૂકી. જાહેરાત નહીં, ટ્રેકિંગ નહીં."
+  },
+  "btn_ok": {
+    "message": "ઠીક છે"
+  },
+  "btn_cancel": {
+    "message": "રદ કરો"
+  },
+  "btn_close": {
+    "message": "બંધ કરો"
+  },
+  "btn_delete": {
+    "message": "કાઢી નાખો"
+  },
+  "btn_copy": {
+    "message": "કૉપિ કરો"
+  },
+  "btn_save": {
+    "message": "સાચવો"
+  },
+  "btn_export": {
+    "message": "નિકાસ કરો"
+  },
+  "btn_later": {
+    "message": "પછી"
+  },
+  "dismiss": {
+    "message": "છોડી દો"
+  },
+  "back": {
+    "message": "પાછળ"
+  },
+  "back_esc": {
+    "message": "પાછળ (Esc)"
+  },
+  "back_to_list": {
+    "message": "યાદી પર પાછા જાઓ"
+  },
+  "title_count": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "empty_name": {
+    "message": "(ખાલી નામ)"
+  },
+  "empty_value": {
+    "message": "(ખાલી મૂલ્ય)"
+  },
+  "empty_short": {
+    "message": "(ખાલી)"
+  },
+  "names_more": {
+    "message": "$P1$ અને બીજા $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "done": {
+    "message": "થઈ ગયું"
+  },
+  "undo": {
+    "message": "પૂર્વવત્ કરો"
+  },
+  "undo_nothing": {
+    "message": "પૂર્વવત્ કરવા જેવું કંઈ નથી"
+  },
+  "undo_entry": {
+    "message": "પૂર્વવત્: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_interrupted": {
+    "message": "પૂર્વવત્ અટકી ગયું: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "redo_entry": {
+    "message": "ફરી કરો: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "support_title": {
+    "message": "Ko-fi પર CookieDeskને સપોર્ટ કરો"
+  },
+  "supporter_title": {
+    "message": "CookieDeskને સપોર્ટ કરવા બદલ આભાર!"
+  },
+  "add_cookie": {
+    "message": "કૂકી ઉમેરો"
+  },
+  "add_cookie_title": {
+    "message": "કૂકી ઉમેરો (n)"
+  },
+  "more_actions": {
+    "message": "વધુ ક્રિયાઓ"
+  },
+  "menu_group_transfer": {
+    "message": "નિકાસ અને આયાત"
+  },
+  "menu_group_sets": {
+    "message": "કૂકી સેટ"
+  },
+  "export_json_title": {
+    "message": "JSON તરીકે નિકાસ કરો"
+  },
+  "export_txt_title": {
+    "message": "Netscape cookies.txt તરીકે નિકાસ કરો"
+  },
+  "tile_snippet": {
+    "message": "સ્નિપેટ"
+  },
+  "tile_snippet_title": {
+    "message": "document.cookie સ્નિપેટ તરીકે કૉપિ કરો"
+  },
+  "tile_import": {
+    "message": "આયાત"
+  },
+  "tile_import_title": {
+    "message": "JSON અથવા cookies.txt આયાત કરો"
+  },
+  "tile_save_set": {
+    "message": "સેટ સાચવો"
+  },
+  "tile_save_set_title": {
+    "message": "આ કૂકીઓને નામવાળી સેટ ફાઇલ તરીકે સાચવો"
+  },
+  "tile_restore": {
+    "message": "પુનઃસ્થાપિત"
+  },
+  "tile_restore_title": {
+    "message": "સાચવેલો સેટ પુનઃસ્થાપિત કરો (પહેલા પૂર્વાવલોકન)"
+  },
+  "tile_compare": {
+    "message": "સરખાવો"
+  },
+  "tile_compare_title": {
+    "message": "સાચવેલા સેટને હમણાં સાથે, અથવા બે સેટને સરખાવો"
+  },
+  "tile_copy_to": {
+    "message": "અહીં કૉપિ કરો…"
+  },
+  "tile_copy_to_title": {
+    "message": "દેખાતી કૂકીઓ બીજા સ્ટોરમાં કૉપિ કરો (સામાન્ય ↔ ઇન્કોગ્નિટો)"
+  },
+  "menu_bulk_delete": {
+    "message": "દેખાતી કૂકીઓ કાઢી નાખો…"
+  },
+  "menu_access": {
+    "message": "ઍક્સેસ અને સેટિંગ્સ"
+  },
+  "menu_shortcuts": {
+    "message": "શૉર્ટકટ"
+  },
+  "menu_sidepanel": {
+    "message": "સાઇડ પેનલમાં ખોલો"
+  },
+  "menu_rate": {
+    "message": "CookieDeskને રેટિંગ આપો"
+  },
+  "menu_support": {
+    "message": "Ko-fi પર સપોર્ટ કરો"
+  },
+  "search_placeholder": {
+    "message": "કૂકી શોધો"
+  },
+  "search_label": {
+    "message": "નામ, મૂલ્ય અથવા ડોમેન પ્રમાણે કૂકી ફિલ્ટર કરો"
+  },
+  "search_title": {
+    "message": "નામ, મૂલ્ય અથવા ડોમેન પ્રમાણે ફિલ્ટર કરો"
+  },
+  "cookie_store": {
+    "message": "કૂકી સ્ટોર"
+  },
+  "cookies_list": {
+    "message": "કૂકી"
+  },
+  "restricted_page": {
+    "message": "પ્રતિબંધિત પેજ"
+  },
+  "loading": {
+    "message": "લોડ થઈ રહ્યું છે…"
+  },
+  "state_unknown": {
+    "message": "આ ટૅબની કૂકી જોવા માટે ટૂલબારમાં CookieDesk બટન પર ક્લિક કરો."
+  },
+  "state_unknown_hint": {
+    "message": "Chrome ટૅબનું સરનામું ફક્ત તે ક્લિક પછી, અથવા તમે મંજૂરી આપેલી સાઇટ માટે જ શેર કરે છે."
+  },
+  "state_error": {
+    "message": "કંઈક ખોટું થયું: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "state_no_access": {
+    "message": "CookieDeskને હજી $P1$ ની ઍક્સેસ નથી.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "grant_site": {
+    "message": "$P1$ પર મંજૂરી આપો",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "chrome_will_ask": {
+    "message": "Chrome પૂછશે:"
+  },
+  "prompt_site": {
+    "message": "બધી $P1$ સાઇટ પરનો તમારો ડેટા વાંચો અને બદલો",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "prompt_all": {
+    "message": "બધી વેબસાઇટ પરનો તમારો બધો ડેટા વાંચો અને બદલો"
+  },
+  "only_this_site": {
+    "message": "ફક્ત આ સાઇટની કૂકી, બીજું કંઈ નહીં."
+  },
+  "allow_all_instead": {
+    "message": "તેના બદલે બધી સાઇટને મંજૂરી આપો"
+  },
+  "restricted_browser": {
+    "message": "આ Chrome પેજ છે. Chrome કોઈ પણ એક્સ્ટેંશનને અહીંની કૂકી વાંચવા કે બદલવા દેતું નથી."
+  },
+  "restricted_webstore": {
+    "message": "આ Chrome Web Store છે. Chrome દરેક એક્સ્ટેંશનને અહીંથી રોકે છે, તેથી તેની કૂકી બતાવી શકાતી નથી."
+  },
+  "restricted_extension": {
+    "message": "આ એક્સ્ટેંશનનું પોતાનું પેજ છે. તેનો સ્ટોરેજ વેબસાઇટની કૂકી નથી, તેથી બતાવવા જેવું કંઈ નથી."
+  },
+  "restricted_file": {
+    "message": "આ સ્થાનિક ફાઇલ છે. ડિસ્કમાંથી ખોલેલી ફાઇલમાં કૂકી હોતી નથી."
+  },
+  "restricted_other": {
+    "message": "આ પેજ વેબસાઇટ નથી (દા.ત. ખાલી અથવા data: પેજ), તેથી તેમાં કૂકી નથી."
+  },
+  "live_just_now": {
+    "message": "હમણાં જ: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "note_third_party": {
+    "message": "એમ્બેડ કરેલી સાઇટની કૂકી ફક્ત તમે મંજૂરી આપેલી સાઇટ માટે જ દેખાય છે."
+  },
+  "note_no_partitions": {
+    "message": "તમારું Chrome વર્ઝન પાર્ટિશન્ડ કૂકી બતાવી શકતું નથી, તેથી આ યાદી અધૂરી હોઈ શકે."
+  },
+  "empty_no_match": {
+    "message": "“$P1$” સાથે કોઈ કૂકી મેળ ખાતી નથી.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "empty_none": {
+    "message": "$P1$ માટે કોઈ કૂકી નથી.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clear_search": {
+    "message": "શોધ સાફ કરો"
+  },
+  "change_changed": {
+    "message": "$P1$ બદલાઈ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_added": {
+    "message": "$P1$ ઉમેરાઈ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_removed": {
+    "message": "$P1$ દૂર થઈ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_one": {
+    "message": "$P1$ કૂકી",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_other": {
+    "message": "$P1$ કૂકી",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_filtered_one": {
+    "message": "$P1$ માંથી $P2$ કૂકી",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_filtered_other": {
+    "message": "$P1$ માંથી $P2$ કૂકી",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_partitioned": {
+    "message": "$P1$ પાર્ટિશન્ડ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "store_default": {
+    "message": "ડિફૉલ્ટ"
+  },
+  "store_incognito": {
+    "message": "ઇન્કોગ્નિટો"
+  },
+  "store_n": {
+    "message": "સ્ટોર $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "session": {
+    "message": "સત્ર"
+  },
+  "expired": {
+    "message": "સમાપ્ત"
+  },
+  "expiry_under_minute": {
+    "message": "એક મિનિટમાં"
+  },
+  "expiry_on_close": {
+    "message": "બ્રાઉઝર બંધ થાય ત્યારે કાઢી નંખાય છે"
+  },
+  "expires_at": {
+    "message": "સમાપ્તિ $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "badge_protected": {
+    "message": "સુરક્ષિત: બલ્ક ડિલીટ, આયાત અને સેટ પુનઃસ્થાપન તેને અડતા નથી (p)"
+  },
+  "hint_httponly": {
+    "message": "HttpOnly: પેજના JavaScriptને દેખાતી નથી (document.cookie તેને વાંચી શકતું નથી)"
+  },
+  "hint_secure": {
+    "message": "Secure: ફક્ત HTTPS પર મોકલાય છે"
+  },
+  "hint_samesite_none": {
+    "message": "SameSite=None: ક્રૉસ-સાઇટ વિનંતીઓ સાથે પણ મોકલાય છે"
+  },
+  "hint_samesite_lax": {
+    "message": "SameSite=Lax: ટોપ-લેવલ નૅવિગેશન પર મોકલાય છે, ક્રૉસ-સાઇટ સબરિક્વેસ્ટ પર નહીં"
+  },
+  "hint_samesite_strict": {
+    "message": "SameSite=Strict: ફક્ત એ જ સાઇટની વિનંતીઓ સાથે મોકલાય છે"
+  },
+  "badge_partitioned": {
+    "message": "પાર્ટિશન્ડ"
+  },
+  "partitioned_under": {
+    "message": "$P1$ હેઠળ પાર્ટિશન્ડ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partition_this_site": {
+    "message": "આ સાઇટ"
+  },
+  "partition_cross_site": {
+    "message": "$P1$, ક્રૉસ-સાઇટ સંદર્ભ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "row_protected": {
+    "message": "સુરક્ષિત"
+  },
+  "row_unprotect_title": {
+    "message": "સુરક્ષા દૂર કરો (p)"
+  },
+  "row_protect_title": {
+    "message": "બલ્ક ડિલીટ, આયાત અને સેટ પુનઃસ્થાપનથી બચાવો (p)"
+  },
+  "copy_value": {
+    "message": "મૂલ્ય કૉપિ કરો"
+  },
+  "copied": {
+    "message": "કૉપિ થઈ ગયું"
+  },
+  "copy_value_title": {
+    "message": "મૂલ્ય કૉપિ કરો (c)"
+  },
+  "row_delete_title": {
+    "message": "કાઢી નાખો (Del) — પૂર્વવત્ થઈ શકે"
+  },
+  "irreversible_title": {
+    "message": "આ પૂર્વવત્ થઈ શકશે નહીં"
+  },
+  "continue_no_undo": {
+    "message": "પૂર્વવત્ વિના આગળ વધો"
+  },
+  "undo_anyway_title": {
+    "message": "તો પણ પૂર્વવત્ કરવું છે?"
+  },
+  "undo_anyway": {
+    "message": "તો પણ પૂર્વવત્ કરો"
+  },
+  "undone": {
+    "message": "પૂર્વવત્ કર્યું: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_skipped": {
+    "message": "કેટલીક કૂકી પહેલેથી સમાપ્ત થઈ ગઈ હતી અને પાછી મૂકાઈ નથી: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_refused": {
+    "message": "Chrome હવે આને મૂળ સ્વરૂપે સ્વીકારતું નથી, તેથી પાછી મૂકાઈ નથી: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clipboard_failed": {
+    "message": "કૉપિ થઈ શક્યું નહીં: અહીં ક્લિપબોર્ડ ઉપલબ્ધ નથી."
+  },
+  "protected_on": {
+    "message": "\"$P1$\" સુરક્ષિત કરી: બલ્ક ડિલીટ, આયાત અને સેટ પુનઃસ્થાપન તેને અડશે નહીં.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_off": {
+    "message": "\"$P1$\" હવે સુરક્ષિત નથી.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protect_limit": {
+    "message": "તમે વધુમાં વધુ $P1$ કૂકી સુરક્ષિત કરી શકો છો. પહેલા કેટલીકની સુરક્ષા દૂર કરો.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_named": {
+    "message": "\"$P1$\" કાઢી નાખવી છે?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_protected_message": {
+    "message": "આ કૂકી સુરક્ષિત છે. તો પણ કાઢી નાખવી છે? તમે તેને પૂર્વવત્ કરી શકો છો."
+  },
+  "nothing_to_delete": {
+    "message": "કાઢી નાખવા જેવું કંઈ નથી"
+  },
+  "all_shown_protected_one": {
+    "message": "દેખાતી કૂકી સુરક્ષિત છે."
+  },
+  "all_shown_protected_other": {
+    "message": "દેખાતી બધી $P1$ કૂકી સુરક્ષિત છે.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "no_cookies_shown": {
+    "message": "કોઈ કૂકી દેખાતી નથી."
+  },
+  "bulk_title_one": {
+    "message": "$P1$ કૂકી કાઢી નાખવી છે?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_title_other": {
+    "message": "$P1$ કૂકી કાઢી નાખવી છે?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_match": {
+    "message": "આ કૂકી $P2$ પર \"$P1$\" સાથે મેળ ખાય છે. તમે તેને પૂર્વવત્ કરી શકો છો.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "bulk_all": {
+    "message": "$P1$ માટે યાદીમાંની દરેક કૂકી. તમે તેને પૂર્વવત્ કરી શકો છો.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_one": {
+    "message": "$P1$ સુરક્ષિત કૂકી રાખવામાં આવશે.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_other": {
+    "message": "$P1$ સુરક્ષિત કૂકી રાખવામાં આવશે.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_one": {
+    "message": "$P1$ કૂકી કાઢી નાખો",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_other": {
+    "message": "$P1$ કૂકી કાઢી નાખો",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_to": {
+    "message": "અહીં કૉપિ કરો"
+  },
+  "copy_to_default_note": {
+    "message": "ડિફૉલ્ટ સ્ટોરમાં કૉપિ કરેલી કૂકી બીજી કૂકીની જેમ ડિસ્ક પર રહે છે, આ ઇન્કોગ્નિટો સત્ર પૂરું થયા પછી પણ."
+  },
+  "copy_to_incognito_note": {
+    "message": "ઇન્કોગ્નિટો સ્ટોરમાં કૉપિ કરેલી કૂકી તે ઇન્કોગ્નિટો સત્ર સાથે પૂરી થાય છે."
+  },
+  "copy_title_one": {
+    "message": "$P1$ કૂકી કૉપિ કરો",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_title_other": {
+    "message": "$P1$ કૂકી કૉપિ કરો",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_from": {
+    "message": "$P1$ સ્ટોરમાંથી, અહીં:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_replace_note": {
+    "message": "ત્યાં સમાન નામ, ડોમેન અને પાથ ધરાવતી કૂકી બદલાઈ જશે, સુરક્ષિત સિવાય. તમે કૉપિ પૂર્વવત્ કરી શકો છો."
+  },
+  "label_copied_one": {
+    "message": "$P1$ કૂકી $P2$ માં કૉપિ કરી",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_copied_other": {
+    "message": "$P1$ કૂકી $P2$ માં કૉપિ કરી",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_kept_one": {
+    "message": "ત્યાંની $P1$ સુરક્ષિત કૂકી જેમ હતી તેમ રહી.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_kept_other": {
+    "message": "ત્યાંની $P1$ સુરક્ષિત કૂકી જેમ હતી તેમ રહી.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_done_one": {
+    "message": "$P1$ કૂકી $P2$ માં કૉપિ કરી.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_done_other": {
+    "message": "$P1$ કૂકી $P2$ માં કૉપિ કરી.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_undo_hint": {
+    "message": "અહીં અથવા પછી $P1$ સ્ટોરમાંથી પૂર્વવત્ કરો.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_nothing": {
+    "message": "$P1$ માં આ કૂકી પહેલેથી બરાબર આવી જ છે.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_cant": {
+    "message": "સરખાવી શકાતું નથી"
+  },
+  "compare_now": {
+    "message": "$P1$ હમણાં",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_other_site": {
+    "message": "આ સેટ $P2$ માટે નહીં, $P1$ માટે સાચવ્યો હતો.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "compare_too_many": {
+    "message": "હમણાં સાથે સરખાવવા એક સેટ, અથવા એકબીજા સાથે સરખાવવા બે સેટ પસંદ કરો."
+  },
+  "set_file_too_large": {
+    "message": "$P1$ કૂકી સેટ બનવા માટે બહુ મોટી છે.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_aria": {
+    "message": "કૂકી સેટ સરખાવો"
+  },
+  "compare_changed_fields": {
+    "message": "બદલાયું: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_one": {
+    "message": "કોઈ તફાવત નથી: $P1$ કૂકી એકસરખી.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_other": {
+    "message": "કોઈ તફાવત નથી: $P1$ કૂકી એકસરખી.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_summary": {
+    "message": "$P1$ ઉમેરાઈ, $P2$ દૂર થઈ, $P3$ બદલાઈ, $P4$ યથાવત.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      },
+      "p4": {
+        "content": "$4"
+      }
+    }
+  },
+  "diff_added": {
+    "message": "ઉમેરાઈ"
+  },
+  "diff_removed": {
+    "message": "દૂર થઈ"
+  },
+  "diff_changed": {
+    "message": "બદલાઈ"
+  },
+  "diff_expiry_only": {
+    "message": "ફક્ત સમાપ્તિ બદલાઈ ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "shortcuts_title": {
+    "message": "કીબોર્ડ શૉર્ટકટ"
+  },
+  "key_search": {
+    "message": "શોધ"
+  },
+  "key_move": {
+    "message": "યાદીમાં આગળ-પાછળ જાઓ"
+  },
+  "key_first_last": {
+    "message": "પહેલી / છેલ્લી કૂકી"
+  },
+  "key_edit": {
+    "message": "સંપાદિત કરો"
+  },
+  "key_copy": {
+    "message": "મૂલ્ય કૉપિ કરો"
+  },
+  "key_protect": {
+    "message": "સુરક્ષિત કરો / સુરક્ષા દૂર કરો"
+  },
+  "key_delete": {
+    "message": "કાઢી નાખો (પૂર્વવત્ થઈ શકે)"
+  },
+  "key_back": {
+    "message": "પાછળ, અથવા શોધ સાફ કરો"
+  },
+  "key_help": {
+    "message": "આ યાદી"
+  },
+  "import_kept_one": {
+    "message": "$P1$ સુરક્ષિત કૂકી જેમ હતી તેમ રહી: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_kept_other": {
+    "message": "$P1$ સુરક્ષિત કૂકી જેમ હતી તેમ રહી: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_nothing": {
+    "message": "આયાત કરવા જેવું કંઈ નથી: ફાઇલની દરેક કૂકી પહેલેથી બરાબર એ જ રીતે સેટ છે."
+  },
+  "imported_one": {
+    "message": "$P1$ કૂકી આયાત કરી.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "imported_other": {
+    "message": "$P1$ કૂકી આયાત કરી.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_restored": {
+    "message": "સેટ \"$P1$\" પુનઃસ્થાપિત કર્યો",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restored_one": {
+    "message": "\"$P2$\" પુનઃસ્થાપિત: $P1$ કૂકી લખાઈ, $P3$ કાઢી નંખાઈ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "restored_other": {
+    "message": "\"$P2$\" પુનઃસ્થાપિત: $P1$ કૂકી લખાઈ, $P3$ કાઢી નંખાઈ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "rate_title": {
+    "message": "CookieDesk ગમે છે?"
+  },
+  "rate_text": {
+    "message": "ઝડપી રેટિંગ બીજાને તેને શોધવામાં મદદ કરે છે."
+  },
+  "rate_group": {
+    "message": "સ્ટોર પર રેટિંગ આપો"
+  },
+  "rate_stars_one": {
+    "message": "$P1$ સ્ટાર",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "rate_stars_other": {
+    "message": "$P1$ સ્ટાર",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_confirm_title": {
+    "message": "શું તમે મને કૉફી પીવડાવી?"
+  },
+  "kofi_confirm_text": {
+    "message": "આભાર, તેનાથી CookieDesk ચાલતું રહે છે."
+  },
+  "kofi_yes": {
+    "message": "હા, પીવડાવી"
+  },
+  "kofi_not_yet": {
+    "message": "હજી નહીં"
+  },
+  "kofi_milestone_one": {
+    "message": "CookieDesk સાથે $P1$ ફેરફાર કર્યો!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_milestone_other": {
+    "message": "CookieDesk સાથે $P1$ ફેરફાર કર્યા!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_free": {
+    "message": "તે મફત છે અને એક ડેવલપરે બનાવ્યું છે."
+  },
+  "buy_coffee": {
+    "message": "મને કૉફી પીવડાવો"
+  },
+  "edit_cookie": {
+    "message": "કૂકી સંપાદિત કરો"
+  },
+  "add_cookie_short": {
+    "message": "કૂકી ઉમેરો"
+  },
+  "explain_title": {
+    "message": "આ કૂકી શું કરે છે"
+  },
+  "field_name": {
+    "message": "નામ"
+  },
+  "field_value": {
+    "message": "મૂલ્ય"
+  },
+  "field_domain": {
+    "message": "ડોમેન"
+  },
+  "field_path": {
+    "message": "પાથ"
+  },
+  "field_expiry": {
+    "message": "સમાપ્તિ"
+  },
+  "field_expires": {
+    "message": "સમાપ્તિ"
+  },
+  "field_attributes": {
+    "message": "એટ્રિબ્યુટ"
+  },
+  "field_partition": {
+    "message": "પાર્ટિશન"
+  },
+  "host_only": {
+    "message": "ફક્ત હોસ્ટ"
+  },
+  "host_only_title": {
+    "message": "ફક્ત હોસ્ટ: Domain એટ્રિબ્યુટ નથી, તેથી સબડોમેનને મળતી નથી"
+  },
+  "session_title": {
+    "message": "સત્ર કૂકી: બ્રાઉઝર બંધ થાય ત્યારે જતી રહે છે"
+  },
+  "httponly_title": {
+    "message": "HttpOnly: પેજના JavaScriptને દેખાતી નથી"
+  },
+  "samesite_unspecified": {
+    "message": "અનિર્દિષ્ટ"
+  },
+  "partitioned_chips": {
+    "message": "પાર્ટિશન્ડ (CHIPS)"
+  },
+  "top_level_site": {
+    "message": "ટોપ-લેવલ સાઇટ"
+  },
+  "no_partition_write": {
+    "message": "Chromeનું આ વર્ઝન પાર્ટિશન્ડ કૂકી લખી શકતું નથી."
+  },
+  "editor_delete_title": {
+    "message": "કાઢી નાખો (પૂર્વવત્ થઈ શકે)"
+  },
+  "bytes_of": {
+    "message": "$P1$ / $P2$ બાઇટ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "access_aria": {
+    "message": "ઍક્સેસ અને સેટિંગ્સ"
+  },
+  "all_sites_on": {
+    "message": "બધી સાઇટ: ચાલુ"
+  },
+  "all_sites_on_text": {
+    "message": "CookieDesk દરેક સાઇટ પર, એમ્બેડ કરેલી સાઇટ સહિત, કૂકી વાંચી અને બદલી શકે છે."
+  },
+  "turn_off": {
+    "message": "બંધ કરો"
+  },
+  "all_sites": {
+    "message": "બધી સાઇટ"
+  },
+  "all_sites_text": {
+    "message": "વૈકલ્પિક. દર વખતે સાઇટ દીઠ પૂછવું નહીં, અને એમ્બેડ કરેલી સાઇટ (જાહેરાત, વિજેટ, સાઇન-ઇન ફ્રેમ) ની કૂકી બધે દેખાય."
+  },
+  "allow_all_sites": {
+    "message": "બધી સાઇટ પર મંજૂરી આપો"
+  },
+  "remove_access": {
+    "message": "$P1$ ની ઍક્સેસ દૂર કરો",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "access_lead": {
+    "message": "CookieDesk સાઇટની કૂકી ત્યારે જ જુએ છે જ્યારે તમે તે સાઇટને મંજૂરી આપો, અને બીજું કંઈ નહીં: પેજની સામગ્રી નહીં, ઇતિહાસ નહીં."
+  },
+  "allowed_sites": {
+    "message": "મંજૂર સાઇટ"
+  },
+  "allowed_sites_count": {
+    "message": "મંજૂર સાઇટ · $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "all_sites_overrides": {
+    "message": "બધી સાઇટની ઍક્સેસ ચાલુ છે, તેથી તે ચાલુ હોય ત્યાં સુધી આ મહત્ત્વનું નથી."
+  },
+  "none_yet": {
+    "message": "હજી કોઈ નહીં."
+  },
+  "toolbar_opens": {
+    "message": "ટૂલબાર બટન ખોલે છે"
+  },
+  "surface_popup": {
+    "message": "પૉપઅપ"
+  },
+  "surface_sidepanel": {
+    "message": "સાઇડ પેનલ"
+  },
+  "support_feedback": {
+    "message": "સપોર્ટ અને પ્રતિસાદ"
+  },
+  "thanks_supporting": {
+    "message": "સપોર્ટ કરવા બદલ આભાર!"
+  },
+  "report_problem": {
+    "message": "સમસ્યાની જાણ કરો"
+  },
+  "source_code": {
+    "message": "સોર્સ કોડ"
+  },
+  "privacy_line": {
+    "message": "કોઈ નેટવર્ક વિનંતી નથી, ડિસ્ક પર કૂકીના મૂલ્ય નથી. પૂર્વવત્ 10 મિનિટ સુધી ચાલે છે; તેની નકલો મેમરીમાં રહે છે અને Chrome બંધ થાય અથવા ઇન્કોગ્નિટો સત્ર પૂરું થાય ત્યારે જતી રહે છે."
+  },
+  "export_warning": {
+    "message": "આ ફાઇલમાં ચાલુ સત્રની કૂકી છે. જેની પાસે તે હોય તે આ સાઇટ પર તમારા તરીકે સાઇન ઇન કરી શકે છે. તેને પાસવર્ડની જેમ સાચવો અને કામ પૂરું થાય ત્યારે કાઢી નાખો."
+  },
+  "export_json_one": {
+    "message": "$P1$ કૂકી JSON તરીકે નિકાસ કરો",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_json_other": {
+    "message": "$P1$ કૂકી JSON તરીકે નિકાસ કરો",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_one": {
+    "message": "$P1$ કૂકી cookies.txt તરીકે નિકાસ કરો",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_other": {
+    "message": "$P1$ કૂકી cookies.txt તરીકે નિકાસ કરો",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_all_one": {
+    "message": "$P2$ માટે યાદીમાંની કૂકી ફાઇલમાં જાય છે, HttpOnly હોય તો પણ.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_all_other": {
+    "message": "$P2$ માટે યાદીમાંની બધી $P1$ કૂકી ફાઇલમાં જાય છે, HttpOnly સહિત.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_partitioned_left_one": {
+    "message": "$P1$ પાર્ટિશન્ડ કૂકી બાકાત: cookies.txt પાર્ટિશન નોંધી શકતું નથી. તેને રાખવા JSON વાપરો.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_partitioned_left_other": {
+    "message": "$P1$ પાર્ટિશન્ડ કૂકી બાકાત: cookies.txt પાર્ટિશન નોંધી શકતું નથી. તેમને રાખવા JSON વાપરો.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_too_big": {
+    "message": "આ ફાઇલ $P1$ MB છે. કૂકી નિકાસ ઘણી નાની હોય છે; CookieDesk 5 MB સુધીની ફાઇલ વાંચે છે.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "cant_import_unchanged": {
+    "message": "આ ફાઇલ આયાત થઈ શકતી નથી. કંઈ બદલાયું નથી."
+  },
+  "cant_import": {
+    "message": "આ ફાઇલ આયાત થઈ શકતી નથી"
+  },
+  "file_unreadable": {
+    "message": "ફાઇલ વાંચી શકાઈ નહીં."
+  },
+  "needs_access_one": {
+    "message": "આ કૂકી લખતા પહેલા CookieDeskને વધુ $P1$ સાઇટની ઍક્સેસ જોઈએ:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "needs_access_other": {
+    "message": "આ કૂકી લખતા પહેલા CookieDeskને વધુ $P1$ સાઇટની ઍક્સેસ જોઈએ:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_allow_all_hint": {
+    "message": "અથવા ઍક્સેસ અને સેટિંગ્સમાં બધી સાઇટને મંજૂરી આપો."
+  },
+  "other_sites": {
+    "message": "બીજી સાઇટ ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "other_sites_warning": {
+    "message": "આ ફાઇલ $P1$ સિવાયની સાઇટ માટે પણ કૂકી લખે છે. બીજી સાઇટ પર મૂકેલી કૂકી તમને ત્યાં ખોટા એકાઉન્ટમાં સાઇન ઇન કરાવી શકે છે. આ સાઇટની અપેક્ષા હોય તો જ આગળ વધો.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_one": {
+    "message": "બીજી $P1$ સાઇટ માટે પણ કૂકી લખો",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_other": {
+    "message": "બીજી $P1$ સાઇટ માટે પણ કૂકી લખો",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partitioned_under_list": {
+    "message": "હેઠળ પાર્ટિશન્ડ: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "warnings_count": {
+    "message": "ચેતવણી ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_title": {
+    "message": "કૂકી આયાત કરો"
+  },
+  "import_message_one": {
+    "message": "$P1$ કૂકી આયાત કરવી છે? સમાન નામ, ડોમેન અને પાથવાળી કૂકી બદલાઈ જશે. તમે આખી આયાત પૂર્વવત્ કરી શકો છો.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_message_other": {
+    "message": "$P1$ કૂકી આયાત કરવી છે? સમાન નામ, ડોમેન અને પાથવાળી કૂકી બદલાઈ જશે. તમે આખી આયાત પૂર્વવત્ કરી શકો છો.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_one": {
+    "message": "$P1$ કૂકી document.cookie તરીકે કૉપિ કરો",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_other": {
+    "message": "$P1$ કૂકી document.cookie તરીકે કૉપિ કરો",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_warning": {
+    "message": "સ્નિપેટમાં ચાલુ સત્રની કૂકી છે. જેની પાસે તે હોય તે આ સાઇટ પર તમારા તરીકે સાઇન ઇન કરી શકે છે. તેને પાસવર્ડની જેમ સાચવો."
+  },
+  "snippet_paste": {
+    "message": "ત્યાં આ કૂકી સેટ કરવા તેને $P1$ પરના DevTools કન્સોલમાં પેસ્ટ કરો.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_one": {
+    "message": "$P1$ HttpOnly કૂકી બાકાત: પેજનું JavaScript તેને સેટ કરી શકતું નથી.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_other": {
+    "message": "$P1$ HttpOnly કૂકી બાકાત: પેજનું JavaScript તેમને સેટ કરી શકતું નથી.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_one": {
+    "message": "$P1$ કૂકી document.cookie તરીકે કૉપિ કરી.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_other": {
+    "message": "$P1$ કૂકી document.cookie તરીકે કૉપિ કરી.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_name": {
+    "message": "સેટનું નામ"
+  },
+  "set_name_placeholder": {
+    "message": "દા.ત. એડમિન તરીકે લૉગ ઇન"
+  },
+  "save_set_title_one": {
+    "message": "$P1$ કૂકી સેટ તરીકે સાચવો",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "save_set_title_other": {
+    "message": "$P1$ કૂકી સેટ તરીકે સાચવો",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_file_note": {
+    "message": "સેટ તમારા કમ્પ્યુટર પરની ફાઇલ છે; CookieDesk તેની નકલ રાખતું નથી. પછી $P1$ પરના મેનુમાંથી પુનઃસ્થાપિત કરો.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "default_set_name": {
+    "message": "કૂકી સેટ"
+  },
+  "set_too_large": {
+    "message": "આ ફાઇલ કૂકી સેટ બનવા માટે બહુ મોટી છે."
+  },
+  "cant_restore_unchanged": {
+    "message": "આ સેટ પુનઃસ્થાપિત થઈ શકતો નથી. કંઈ બદલાયું નથી."
+  },
+  "cant_restore": {
+    "message": "આ સેટ પુનઃસ્થાપિત થઈ શકતો નથી"
+  },
+  "wrong_site_message": {
+    "message": "આ સેટ $P1$ માટે સાચવ્યો હતો. $P1$ ખોલો અને ત્યાં પુનઃસ્થાપિત કરો.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "wrong_site_title": {
+    "message": "ખોટી સાઇટ. કંઈ બદલાયું નથી."
+  },
+  "foreign_cookies_one": {
+    "message": "આ ફાઇલમાંની $P1$ કૂકી બીજી સાઇટની છે ($P2$). સેટ પુનઃસ્થાપન ફક્ત $P3$ ને બદલે છે; બીજી સાઇટ માટે આયાત વાપરો.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "foreign_cookies_other": {
+    "message": "આ ફાઇલમાંની $P1$ કૂકી બીજી સાઇટની છે ($P2$). સેટ પુનઃસ્થાપન ફક્ત $P3$ ને બદલે છે; બીજી સાઇટ માટે આયાત વાપરો.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "plan_write": {
+    "message": "લખો"
+  },
+  "plan_delete": {
+    "message": "કાઢી નાખો"
+  },
+  "plan_protected": {
+    "message": "સુરક્ષિત, જેમ છે તેમ"
+  },
+  "restore_title": {
+    "message": "\"$P1$\" પુનઃસ્થાપિત કરો",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_nothing": {
+    "message": "$P1$ પહેલેથી આ સેટ સાથે મેળ ખાય છે. બદલવા જેવું કંઈ નથી.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_message_one": {
+    "message": "$P2$ ની કૂકી આ સેટની $P1$ કૂકીથી બદલાઈ જશે. તમે આખું પુનઃસ્થાપન પૂર્વવત્ કરી શકો છો.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "restore_message_other": {
+    "message": "$P2$ ની કૂકી આ સેટની $P1$ કૂકીથી બદલાઈ જશે. તમે આખું પુનઃસ્થાપન પૂર્વવત્ કરી શકો છો.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_partition_unsupported": {
+    "message": "\"$P1$\" પાર્ટિશન્ડ કૂકી છે, જે Chromeનું આ વર્ઝન લખી શકતું નથી. Chrome 119 કે નવું અપડેટ કરો.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_gone": {
+    "message": "\"$P1$\" હવે અસ્તિત્વમાં નથી — તે સમાપ્ત થઈ હોય અથવા સાઇટે બદલી હોય. યાદી ફરી લોડ કરો.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_stored": {
+    "message": "Chrome એ \"$P1$\" સ્વીકારી પણ સંગ્રહી નહીં.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_imprecise_delete_one": {
+    "message": "Chrome \"$P2$\" ને સમાન નામની બીજી $P1$ કૂકી સાથે જ કાઢી શકે છે, તેથી CookieDesk તેને કાઢશે નહીં.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_imprecise_delete_other": {
+    "message": "Chrome \"$P2$\" ને સમાન નામની બીજી $P1$ કૂકી સાથે જ કાઢી શકે છે, તેથી CookieDesk તેને કાઢશે નહીં.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_delete": {
+    "message": "Chrome હવે \"$P1$\" ને સંગ્રહેલા સ્વરૂપે સ્વીકારતું નથી, તેથી એકવાર કાઢ્યા પછી તે પાછી મૂકી શકાશે નહીં. પૂર્વવત્ વિના કાઢી નાખવી છે?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_removed": {
+    "message": "\"$P1$\" કાઢી શકાઈ નહીં.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_no_permission": {
+    "message": "CookieDeskને $P1$ ની ઍક્સેસ નથી. પહેલા આ સાઇટને ઍક્સેસ આપો.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_secure_shadow": {
+    "message": "$P2$ માટે \"$P1$\" નામની Secure કૂકી પહેલેથી છે. Chrome સમાન નામની non-Secure કૂકીને તેને બદલવા કે તેની બાજુમાં રહેવા દેતું નથી. Secure ચાલુ કરો, અથવા બીજું નામ વાપરો.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_rejected": {
+    "message": "Chrome એ કારણ આપ્યા વિના \"$P1$\" નકારી. કંઈ બદલાયું નથી.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_irreversible_replace_one": {
+    "message": "Chrome હવે $P2$ ને સંગ્રહેલા સ્વરૂપે સ્વીકારતું નથી, તેથી એકવાર બદલ્યા પછી તે પાછી મૂકી શકાશે નહીં. તેના માટે પૂર્વવત્ વિના આગળ વધવું છે?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_replace_other": {
+    "message": "Chrome હવે $P2$ ને સંગ્રહેલા સ્વરૂપે સ્વીકારતું નથી, તેથી એકવાર બદલ્યા પછી તે પાછી મૂકી શકાશે નહીં. તેમના માટે પૂર્વવત્ વિના આગળ વધવું છે?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_too_large_to_undo": {
+    "message": "આ ફેરફાર પૂર્વવત્ નકલ રાખવા માટે બહુ વધારે ડેટા ($P1$ KB) ને અસર કરે છે. પૂર્વવત્ વિના આગળ વધવું છે?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_duplicate_in_file": {
+    "message": "ફાઇલમાં \"$P1$\" એ જ ડોમેન અને પાથ માટે બે વાર છે.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_undo_expired": {
+    "message": "પૂર્વવત્ કરવા જેવું કંઈ નથી — પૂર્વવત્ 10 મિનિટ સુધી રહે છે."
+  },
+  "err_undo_conflict": {
+    "message": "\"$P2$\" પછી $P1$ બદલાઈ. હમણાં પૂર્વવત્ કરવાથી નવું મૂલ્ય ભૂંસાઈ જશે. તો પણ પૂર્વવત્ કરવું છે?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_incomplete": {
+    "message": "અધૂરું: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_added": {
+    "message": "\"$P1$\" ઉમેરી",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_edited": {
+    "message": "\"$P1$\" સંપાદિત કરી",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted": {
+    "message": "\"$P1$\" કાઢી નાખી",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_expired": {
+    "message": "\"$P1$\" કાઢી નાખી (સમાપ્તિ ભૂતકાળમાં)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_one": {
+    "message": "$P1$ કૂકી કાઢી નાખી",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_other": {
+    "message": "$P1$ કૂકી કાઢી નાખી",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_one": {
+    "message": "$P1$ કૂકી આયાત કરી",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_other": {
+    "message": "$P1$ કૂકી આયાત કરી",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_undid": {
+    "message": "પૂર્વવત્ કર્યું: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_saved": {
+    "message": "\"$P1$\" સાચવી",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_draft": {
+    "message": "કૂકી નામ, મૂલ્ય, ડોમેન અને પાથ સાથેનો ઑબ્જેક્ટ હોવી જોઈએ."
+  },
+  "v_name_type": {
+    "message": "કૂકીનું નામ ટેક્સ્ટ હોવું જોઈએ."
+  },
+  "v_value_type": {
+    "message": "કૂકીનું મૂલ્ય ટેક્સ્ટ હોવું જોઈએ."
+  },
+  "v_domain_type": {
+    "message": "ડોમેન ટેક્સ્ટ હોવું જોઈએ."
+  },
+  "v_path_type": {
+    "message": "પાથ ટેક્સ્ટ હોવો જોઈએ."
+  },
+  "v_flag_type": {
+    "message": "$P1$ true અથવા false હોવું જોઈએ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_samesite": {
+    "message": "SameSite આમાંથી એક હોવું જોઈએ: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_name_control": {
+    "message": "નામમાં કંટ્રોલ અક્ષરો (જેમ કે નવી લાઇન અથવા ટૅબ) છે, જે કૂકીમાં રાખી શકાતા નથી."
+  },
+  "v_name_semicolon": {
+    "message": "નામમાં \";\" છે, જે કૂકીને વહેલી પૂરી કરી દેશે."
+  },
+  "v_name_equals": {
+    "message": "નામમાં \"=\" છે, જે કૂકીમાં નામને મૂલ્યથી અલગ કરે છે."
+  },
+  "v_value_control": {
+    "message": "મૂલ્યમાં કંટ્રોલ અક્ષરો (જેમ કે નવી લાઇન અથવા ટૅબ) છે, જે કૂકીમાં રાખી શકાતા નથી."
+  },
+  "v_value_semicolon": {
+    "message": "મૂલ્યમાં \";\" છે, જે કૂકીને વહેલી પૂરી કરી દેશે. તેને એન્કોડ કરો (દા.ત. encodeURIComponent વડે)."
+  },
+  "v_empty_cookie": {
+    "message": "કૂકીને નામ અથવા મૂલ્ય જોઈએ; બંને ખાલી છે."
+  },
+  "v_empty_name": {
+    "message": "આ કૂકીનું નામ ખાલી છે. કેટલીક સાઇટ અને ટૂલ નામ વિનાની કૂકી સારી રીતે સંભાળતા નથી."
+  },
+  "v_too_large": {
+    "message": "નામ અને મૂલ્ય મળીને $P1$ બાઇટ (UTF-8) છે; Chrome વધુમાં વધુ $P2$ ની મંજૂરી આપે છે.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "v_path_slash": {
+    "message": "પાથ \"/\" થી શરૂ થવો જોઈએ."
+  },
+  "v_path_too_long": {
+    "message": "પાથ $P1$ બાઇટથી લાંબો છે.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_path_chars": {
+    "message": "પાથમાં કંટ્રોલ અક્ષરો અથવા \";\" છે, જે કૂકીમાં રાખી શકાતા નથી."
+  },
+  "v_domain_empty": {
+    "message": "ડોમેન ખાલી છે. કૂકી જે સાઇટની હોય તે દાખલ કરો, દા.ત. example.com."
+  },
+  "v_domain_too_long": {
+    "message": "ડોમેન $P1$ બાઇટથી લાંબું છે.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_domain_invalid": {
+    "message": "ડોમેન માન્ય હોસ્ટ નામ નથી. બિંદુથી અલગ કરેલા અક્ષરો, અંકો અને હાઇફન વાપરો (આંતરરાષ્ટ્રીય નામ punycode માં હોવા જોઈએ, જેમ કે xn--...)."
+  },
+  "v_domain_leading_dot": {
+    "message": "ફક્ત-હોસ્ટ કૂકીના ડોમેનની શરૂઆતમાં બિંદુ ન હોઈ શકે; બિંદુનો અર્થ છે કે કૂકી સબડોમેનને પણ લાગુ પડે છે."
+  },
+  "v_domain_public_suffix": {
+    "message": "\"$P1$\" પબ્લિક સફિક્સ છે (.com અથવા .co.uk જેવું રજિસ્ટ્રી-નિયંત્રિત ડોમેન), તેથી બ્રાઉઝર તેના બધા પર લાગુ પડતી કૂકી નકારે છે.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_samesite_none_insecure": {
+    "message": "SameSite=None કૂકી Secure હોવી જોઈએ — નહીંતર Chrome તેને નકારે છે. Secure ચાલુ કરો અથવા બીજું SameSite પસંદ કરો."
+  },
+  "v_partitioned_insecure": {
+    "message": "પાર્ટિશન્ડ કૂકી Secure હોવી જોઈએ — નહીંતર Chrome તેને નકારે છે. Secure ચાલુ કરો અથવા પાર્ટિશન દૂર કરો."
+  },
+  "v_prefix_secure": {
+    "message": "\"$P1$...\" નામની કૂકી Secure હોવી જોઈએ. Secure ચાલુ કરો અથવા કૂકીનું નામ બદલો.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_host_prefix_domain": {
+    "message": "\"__Host-...\" નામની કૂકી ફક્ત-હોસ્ટ હોવી જોઈએ (Domain એટ્રિબ્યુટ નહીં, એટલે સબડોમેન સાથે શેરિંગ નહીં). ફક્ત-હોસ્ટ ચાલુ કરો અથવા કૂકીનું નામ બદલો."
+  },
+  "v_host_prefix_path": {
+    "message": "\"__Host-...\" નામની કૂકીનો પાથ \"/\" હોવો જોઈએ."
+  },
+  "v_bad_expiration": {
+    "message": "સમાપ્તિ 1970 પછીની સેકન્ડની મર્યાદિત સંખ્યા હોવી જોઈએ."
+  },
+  "v_expired_deletes": {
+    "message": "ભૂતકાળની સમાપ્તિ સાથે સાચવવાથી આ કૂકી કાઢી નંખાય છે."
+  },
+  "v_clamped": {
+    "message": "Chrome કૂકીનું આયુષ્ય $P1$ દિવસ સુધી મર્યાદિત કરે છે; સાચવતી વખતે પછીની સમાપ્તિ ટૂંકી કરાય છે.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_expiration_missing": {
+    "message": "સત્ર સિવાયની કૂકીને સમાપ્તિ તારીખ જોઈએ. એક પસંદ કરો અથવા કૂકીને સત્ર કૂકી તરીકે ચિહ્નિત કરો."
+  },
+  "v_partition_type": {
+    "message": "પાર્ટિશન કી topLevelSite સાથેનો ઑબ્જેક્ટ હોવી જોઈએ."
+  },
+  "v_partition_site_type": {
+    "message": "પાર્ટિશનની ટોપ-લેવલ સાઇટ https://example.com જેવું ટેક્સ્ટ હોવી જોઈએ."
+  },
+  "v_partition_site_form": {
+    "message": "પાર્ટિશનની ટોપ-લેવલ સાઇટ https://example.com જેવી દેખાવી જોઈએ (https, પાથ કે પોર્ટ વિના)."
+  },
+  "v_partition_flag": {
+    "message": "પાર્ટિશનનું hasCrossSiteAncestor true અથવા false હોવું જોઈએ."
+  },
+  "v_partition_cross_site": {
+    "message": "કૂકીનું ડોમેન $P1$ જેવી જ સાઇટ પર નથી, તેથી Chrome તેના માટે hasCrossSiteAncestor true હોવું જરૂરી ગણે છે.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_other_site": {
+    "message": "આ કૂકીનું ડોમેન ($P1$) વર્તમાન સાઇટ ($P2$) ની બહાર છે.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_entry": {
+    "message": "એન્ટ્રી $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_entry_named": {
+    "message": "એન્ટ્રી $P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_bad_samesite": {
+    "message": "$P1$: sameSite no_restriction, lax, strict, unspecified માંથી એક નથી.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bool": {
+    "message": "$P1$: \"$P2$\" true અથવા false હોવું જોઈએ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_text": {
+    "message": "$P1$: \"$P2$\" ટેક્સ્ટ હોવું જોઈએ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_not_object": {
+    "message": "$P1$ કૂકી ઑબ્જેક્ટ નથી.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_expiration_type": {
+    "message": "$P1$: \"expirationDate\" સંખ્યા હોવી જોઈએ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_key": {
+    "message": "$P1$: partitionKey ટેક્સ્ટ topLevelSite સાથેનો ઑબ્જેક્ટ હોવી જોઈએ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_flag": {
+    "message": "$P1$: partitionKey.hasCrossSiteAncestor true અથવા false હોવું જોઈએ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_line": {
+    "message": "લાઇન $P1$ cookies.txt એન્ટ્રી નથી (7 ટૅબથી અલગ ફીલ્ડ અપેક્ષિત, $P2$ મળ્યા).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_line_flag_subdomains": {
+    "message": "લાઇન $P1$: સબડોમેન ફ્લૅગ TRUE અથવા FALSE હોવો જોઈએ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_flag_secure": {
+    "message": "લાઇન $P1$: secure ફ્લૅગ TRUE અથવા FALSE હોવો જોઈએ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_expiry": {
+    "message": "લાઇન $P1$: સમાપ્તિ સેકન્ડની પૂર્ણ સંખ્યા હોવી જોઈએ.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_not_text": {
+    "message": "ફાઇલ ટેક્સ્ટ તરીકે વાંચી શકાઈ નહીં."
+  },
+  "io_too_large": {
+    "message": "ફાઇલ $P1$-બાઇટની આયાત મર્યાદાથી મોટી છે.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_json": {
+    "message": "ફાઇલ JSON જેવી લાગે છે પણ પાર્સ થઈ શકી નહીં."
+  },
+  "io_bad_version": {
+    "message": "આ CookieDesk ફાઇલનું વર્ઝન સપોર્ટેડ નથી."
+  },
+  "io_no_cookie_list": {
+    "message": "CookieDesk ફાઇલમાં \"cookies\" યાદી નથી."
+  },
+  "io_unknown_format": {
+    "message": "આ JSON ન તો CookieDesk નિકાસ છે, ન કૂકીની યાદી."
+  },
+  "io_no_cookies": {
+    "message": "ફાઇલમાં કોઈ કૂકી નથી."
+  },
+  "io_too_many": {
+    "message": "ફાઇલમાં $P1$ કૂકી છે; મર્યાદા $P2$ છે.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_issue": {
+    "message": "$P1$: $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_duplicate": {
+    "message": "$P1$: બીજી એન્ટ્રીનું નામ, ડોમેન, પાથ અને પાર્ટિશન સમાન છે.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "when": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "when_passed": {
+    "message": "પહેલેથી વીતી ગયું"
+  },
+  "when_under_day": {
+    "message": "એક દિવસથી ઓછામાં"
+  },
+  "explain_third_party": {
+    "message": "$P1$ એ સેટ કરી, જે $P2$ થી અલગ સાઇટ છે: થર્ડ-પાર્ટી કૂકી.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_third_party_partitioned": {
+    "message": "$P1$ એ સેટ કરી, જે $P2$ થી અલગ સાઇટ છે: થર્ડ-પાર્ટી કૂકી, $P2$ ના પાર્ટિશનમાં રાખેલી.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_host_prefix": {
+    "message": "__Host- પ્રીફિક્સ Chromeને Secure, Domain એટ્રિબ્યુટ નહીં અને Path=/ માટે ફરજ પાડે છે, તેથી કોઈ સબડોમેન તેને સેટ કે બદલી શકતું નથી."
+  },
+  "explain_secure_prefix": {
+    "message": "__Secure- પ્રીફિક્સ Chromeને તેને ફક્ત Secure ફ્લૅગ સાથે જ સ્વીકારવા ફરજ પાડે છે."
+  },
+  "explain_scope_host": {
+    "message": "ફક્ત $P1$ ને જ મોકલાય છે, તેના સબડોમેનને નહીં.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_scope_domain": {
+    "message": "$P1$ અને તેના દરેક સબડોમેન (જેમ કે www.$P1$) ને મોકલાય છે.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_path_all": {
+    "message": "તે હોસ્ટ પરના દરેક પાથની વિનંતી સાથે મોકલાય છે."
+  },
+  "explain_path_under": {
+    "message": "ફક્ત $P1$ હેઠળના પાથની વિનંતી સાથે મોકલાય છે.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_secure": {
+    "message": "Secure: ફક્ત HTTPS પર મોકલાય છે."
+  },
+  "explain_not_secure": {
+    "message": "Secure નથી: સાદા HTTP પર પણ મોકલાય છે, જ્યાં નેટવર્ક પરનું કોઈ પણ તેને વાંચી શકે."
+  },
+  "explain_httponly": {
+    "message": "HttpOnly: પેજના JavaScriptને દેખાતી નથી (document.cookie તેને વાંચી શકતું નથી), જે તેને ઇન્જેક્ટ કરેલી સ્ક્રિપ્ટથી દૂર રાખે છે."
+  },
+  "explain_script_readable": {
+    "message": "પેજ પર ચાલતી કોઈ પણ સ્ક્રિપ્ટ તેને વાંચી અને બદલી શકે છે."
+  },
+  "explain_samesite_none": {
+    "message": "SameSite=None: ક્રૉસ-સાઇટ વિનંતીઓ (એમ્બેડ કરેલી ફ્રેમ, છબીઓ, બીજી સાઇટની વિનંતીઓ) સાથે પણ મોકલાઈ શકે છે, જ્યાં Chrome થર્ડ-પાર્ટી કૂકીને મંજૂરી આપે છે (ઇન્કોગ્નિટો તેમને ડિફૉલ્ટ રૂપે બ્લૉક કરે છે). એટલે જ તે Secure હોવી જરૂરી છે."
+  },
+  "explain_samesite_lax": {
+    "message": "SameSite=Lax: તમે સાઇટ પર જાઓ ત્યારે મોકલાય છે, બીજી સાઇટની લિંકમાંથી પણ, પરંતુ બીજી સાઇટના પેજ બૅકગ્રાઉન્ડમાં કરતી વિનંતીઓ સાથે નહીં."
+  },
+  "explain_samesite_strict": {
+    "message": "SameSite=Strict: તમે પહેલેથી એ જ સાઇટ પર હો ત્યારે જ મોકલાય છે. બીજી સાઇટની લિંકથી આવો ત્યારે પહેલી વિનંતી તેના વિના જાય છે."
+  },
+  "explain_samesite_unset": {
+    "message": "SameSite એટ્રિબ્યુટ નથી: Chrome તેને Lax ગણે છે."
+  },
+  "explain_session": {
+    "message": "સત્ર કૂકી: બ્રાઉઝર બંધ થાય ત્યારે કાઢી નંખાય છે (સિવાય કે Chrome શરૂ થતી વખતે તમારું પાછલું સત્ર પાછું લાવે)."
+  },
+  "explain_expires": {
+    "message": "સમાપ્તિ $P1$. Chrome કૂકી છેલ્લે સેટ થયાથી કોઈ પણ સમાપ્તિને 400 દિવસ સુધી મર્યાદિત કરે છે.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition": {
+    "message": "પાર્ટિશન્ડ (CHIPS): દરેક ટોપ-લેવલ સાઇટ માટે અલગથી સંગ્રહાય છે. આ નકલ ત્યારે જ મોકલાય છે જ્યારે $P1$ ઍડ્રેસ બારમાં સાઇટ હોય.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition_cross": {
+    "message": "તે તે પાર્ટિશનના ક્રૉસ-સાઇટ ભાગમાં છે (જ્યાં પેજ અને આ કૂકીની સાઇટ વચ્ચે બીજી સાઇટ હોય ત્યાં વપરાય), જે સમાન-સાઇટ ભાગથી અલગ રખાય છે."
+  },
+  "explain_partition_same": {
+    "message": "તે તે પાર્ટિશનના સમાન-સાઇટ ભાગમાં છે, જે ક્રૉસ-સાઇટ ભાગથી અલગ રખાય છે."
+  },
+  "explain_partition_other": {
+    "message": "બીજી સાઇટ હેઠળનું સમાન કૂકી નામ અલગ કૂકી છે."
+  },
+  "explain_jwt": {
+    "message": "મૂલ્ય JSON Web Token જેવું લાગે છે."
+  },
+  "explain_jwt_exp": {
+    "message": "મૂલ્ય JSON Web Token જેવું લાગે છે; ટોકન પોતે કહે છે કે તે $P1$ એ સમાપ્ત થાય છે.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_size": {
+    "message": "નામ અને મૂલ્ય મળીને Chrome જેટલા 4096 બાઇટની મંજૂરી આપે છે તેમાંથી $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

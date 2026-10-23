@@ -1,0 +1,2215 @@
+{
+  "extension_name": {
+    "message": "Επεξεργαστής cookies: προβολή, επεξεργασία, διαγραφή | CookieDesk"
+  },
+  "extension_description": {
+    "message": "Δείτε, επεξεργαστείτε, προσθέστε και διαγράψτε cookies . Αναζήτηση, εισαγωγή/εξαγωγή. Χωρίς διαφημίσεις και παρακολούθηση."
+  },
+  "btn_ok": {
+    "message": "OK"
+  },
+  "btn_cancel": {
+    "message": "Ακύρωση"
+  },
+  "btn_close": {
+    "message": "Κλείσιμο"
+  },
+  "btn_delete": {
+    "message": "Διαγραφή"
+  },
+  "btn_copy": {
+    "message": "Αντιγραφή"
+  },
+  "btn_save": {
+    "message": "Αποθήκευση"
+  },
+  "btn_export": {
+    "message": "Εξαγωγή"
+  },
+  "btn_later": {
+    "message": "Αργότερα"
+  },
+  "dismiss": {
+    "message": "Παράβλεψη"
+  },
+  "back": {
+    "message": "Πίσω"
+  },
+  "back_esc": {
+    "message": "Πίσω (Esc)"
+  },
+  "back_to_list": {
+    "message": "Πίσω στη λίστα"
+  },
+  "title_count": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "empty_name": {
+    "message": "(κενό όνομα)"
+  },
+  "empty_value": {
+    "message": "(κενή τιμή)"
+  },
+  "empty_short": {
+    "message": "(κενό)"
+  },
+  "names_more": {
+    "message": "$P1$ και άλλα $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "done": {
+    "message": "Τέλος"
+  },
+  "undo": {
+    "message": "Αναίρεση"
+  },
+  "undo_nothing": {
+    "message": "Δεν υπάρχει τίποτα για αναίρεση"
+  },
+  "undo_entry": {
+    "message": "Αναίρεση: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_interrupted": {
+    "message": "Η αναίρεση διακόπηκε: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "redo_entry": {
+    "message": "Επανάληψη: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "support_title": {
+    "message": "Υποστηρίξτε το CookieDesk στο Ko-fi"
+  },
+  "supporter_title": {
+    "message": "Ευχαριστούμε που υποστηρίζετε το CookieDesk!"
+  },
+  "add_cookie": {
+    "message": "Προσθήκη cookie"
+  },
+  "add_cookie_title": {
+    "message": "Προσθήκη cookie (n)"
+  },
+  "more_actions": {
+    "message": "Περισσότερες ενέργειες"
+  },
+  "menu_group_transfer": {
+    "message": "Εξαγωγή και εισαγωγή"
+  },
+  "menu_group_sets": {
+    "message": "Σύνολα cookies"
+  },
+  "export_json_title": {
+    "message": "Εξαγωγή ως JSON"
+  },
+  "export_txt_title": {
+    "message": "Εξαγωγή ως Netscape cookies.txt"
+  },
+  "tile_snippet": {
+    "message": "Απόσπασμα"
+  },
+  "tile_snippet_title": {
+    "message": "Αντιγραφή ως απόσπασμα document.cookie"
+  },
+  "tile_import": {
+    "message": "Εισαγωγή"
+  },
+  "tile_import_title": {
+    "message": "Εισαγωγή JSON ή cookies.txt"
+  },
+  "tile_save_set": {
+    "message": "Αποθήκευση συνόλου"
+  },
+  "tile_save_set_title": {
+    "message": "Αποθήκευση αυτών των cookies ως αρχείο συνόλου με όνομα"
+  },
+  "tile_restore": {
+    "message": "Επαναφορά"
+  },
+  "tile_restore_title": {
+    "message": "Επαναφορά αποθηκευμένου συνόλου (πρώτα προεπισκόπηση)"
+  },
+  "tile_compare": {
+    "message": "Σύγκριση"
+  },
+  "tile_compare_title": {
+    "message": "Σύγκριση αποθηκευμένου συνόλου με το τρέχον ή δύο συνόλων"
+  },
+  "tile_copy_to": {
+    "message": "Αντιγραφή σε…"
+  },
+  "tile_copy_to_title": {
+    "message": "Αντιγραφή των εμφανιζόμενων cookies σε άλλο χώρο αποθήκευσης (κανονικός ↔ ανώνυμος)"
+  },
+  "menu_bulk_delete": {
+    "message": "Διαγραφή εμφανιζόμενων cookies…"
+  },
+  "menu_access": {
+    "message": "Πρόσβαση και ρυθμίσεις"
+  },
+  "menu_shortcuts": {
+    "message": "Συντομεύσεις"
+  },
+  "menu_sidepanel": {
+    "message": "Άνοιγμα στην πλαϊνή γραμμή"
+  },
+  "menu_rate": {
+    "message": "Αξιολογήστε το CookieDesk"
+  },
+  "menu_support": {
+    "message": "Υποστήριξη στο Ko-fi"
+  },
+  "search_placeholder": {
+    "message": "Αναζήτηση cookies"
+  },
+  "search_label": {
+    "message": "Φιλτράρισμα cookies ανά όνομα, τιμή ή domain"
+  },
+  "search_title": {
+    "message": "Φιλτράρισμα ανά όνομα, τιμή ή domain"
+  },
+  "cookie_store": {
+    "message": "Χώρος αποθήκευσης cookies"
+  },
+  "cookies_list": {
+    "message": "Cookies"
+  },
+  "restricted_page": {
+    "message": "Περιορισμένη σελίδα"
+  },
+  "loading": {
+    "message": "Φόρτωση…"
+  },
+  "state_unknown": {
+    "message": "Κάντε κλικ στο κουμπί CookieDesk στη γραμμή εργαλείων για να δείτε τα cookies αυτής της καρτέλας."
+  },
+  "state_unknown_hint": {
+    "message": "Το Chrome μοιράζεται τη διεύθυνση μιας καρτέλας μόνο μετά από αυτό το κλικ ή για ιστότοπους που έχετε επιτρέψει."
+  },
+  "state_error": {
+    "message": "Κάτι πήγε στραβά: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "state_no_access": {
+    "message": "Το CookieDesk δεν έχει ακόμη πρόσβαση στο $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "grant_site": {
+    "message": "Να επιτραπεί για $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "chrome_will_ask": {
+    "message": "Το Chrome θα ρωτήσει:"
+  },
+  "prompt_site": {
+    "message": "Ανάγνωση και αλλαγή των δεδομένων σας σε όλους τους ιστότοπους $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "prompt_all": {
+    "message": "Ανάγνωση και αλλαγή όλων των δεδομένων σας σε όλους τους ιστότοπους"
+  },
+  "only_this_site": {
+    "message": "Μόνο τα cookies αυτού του ιστότοπου, τίποτα άλλο."
+  },
+  "allow_all_instead": {
+    "message": "Να επιτραπούν όλοι οι ιστότοποι"
+  },
+  "restricted_browser": {
+    "message": "Αυτή είναι σελίδα του Chrome. Το Chrome δεν επιτρέπει σε καμία επέκταση να διαβάζει ή να αλλάζει cookies εδώ."
+  },
+  "restricted_webstore": {
+    "message": "Αυτό είναι το Chrome Web Store. Το Chrome αποκλείει κάθε επέκταση από αυτό, οπότε τα cookies του δεν μπορούν να εμφανιστούν."
+  },
+  "restricted_extension": {
+    "message": "Αυτή είναι σελίδα μιας επέκτασης. Ο χώρος αποθήκευσής της δεν είναι cookies ιστότοπου, οπότε δεν υπάρχει τίποτα να εμφανιστεί."
+  },
+  "restricted_file": {
+    "message": "Αυτό είναι τοπικό αρχείο. Τα αρχεία που ανοίγουν από το δίσκο δεν έχουν cookies."
+  },
+  "restricted_other": {
+    "message": "Αυτή η σελίδα δεν είναι ιστότοπος (για παράδειγμα κενή σελίδα ή σελίδα data:), οπότε δεν έχει cookies."
+  },
+  "live_just_now": {
+    "message": "Μόλις τώρα: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "note_third_party": {
+    "message": "Τα cookies των ενσωματωμένων ιστότοπων εμφανίζονται μόνο για ιστότοπους που έχετε επιτρέψει."
+  },
+  "note_no_partitions": {
+    "message": "Η έκδοση του Chrome που έχετε δεν μπορεί να εμφανίσει cookies με διαμερισματοποίηση (partitioned), οπότε η λίστα μπορεί να είναι ελλιπής."
+  },
+  "empty_no_match": {
+    "message": "Κανένα cookie δεν ταιριάζει με «$P1$».",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "empty_none": {
+    "message": "Δεν υπάρχουν cookies για $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clear_search": {
+    "message": "Εκκαθάριση αναζήτησης"
+  },
+  "change_changed": {
+    "message": "Άλλαξε: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_added": {
+    "message": "Προστέθηκε: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_removed": {
+    "message": "Αφαιρέθηκε: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_one": {
+    "message": "$P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_other": {
+    "message": "$P1$ cookies",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_filtered_one": {
+    "message": "$P2$ από $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_filtered_other": {
+    "message": "$P2$ από $P1$ cookies",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_partitioned": {
+    "message": "$P1$ partitioned",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "store_default": {
+    "message": "Προεπιλογή"
+  },
+  "store_incognito": {
+    "message": "Ανώνυμη περιήγηση"
+  },
+  "store_n": {
+    "message": "Χώρος αποθήκευσης $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "session": {
+    "message": "Συνεδρία"
+  },
+  "expired": {
+    "message": "Έληξε"
+  },
+  "expiry_under_minute": {
+    "message": "σε λιγότερο από ένα λεπτό"
+  },
+  "expiry_on_close": {
+    "message": "Διαγράφεται όταν κλείσει το πρόγραμμα περιήγησης"
+  },
+  "expires_at": {
+    "message": "Λήγει $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "badge_protected": {
+    "message": "Προστατευμένο: η μαζική διαγραφή, η εισαγωγή και η επαναφορά συνόλου δεν το αγγίζουν (p)"
+  },
+  "hint_httponly": {
+    "message": "HttpOnly: δεν είναι ορατό στη JavaScript της σελίδας (το document.cookie δεν μπορεί να το διαβάσει)"
+  },
+  "hint_secure": {
+    "message": "Secure: στέλνεται μόνο μέσω HTTPS"
+  },
+  "hint_samesite_none": {
+    "message": "SameSite=None: στέλνεται και σε αιτήματα μεταξύ ιστότοπων"
+  },
+  "hint_samesite_lax": {
+    "message": "SameSite=Lax: στέλνεται σε πλοήγηση ανώτερου επιπέδου, όχι σε δευτερεύοντα αιτήματα μεταξύ ιστότοπων"
+  },
+  "hint_samesite_strict": {
+    "message": "SameSite=Strict: στέλνεται μόνο σε αιτήματα εντός του ίδιου ιστότοπου"
+  },
+  "badge_partitioned": {
+    "message": "Partitioned"
+  },
+  "partitioned_under": {
+    "message": "Partitioned κάτω από $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partition_this_site": {
+    "message": "αυτός ο ιστότοπος"
+  },
+  "partition_cross_site": {
+    "message": "$P1$, περιβάλλον μεταξύ ιστότοπων",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "row_protected": {
+    "message": "Προστατευμένο"
+  },
+  "row_unprotect_title": {
+    "message": "Άρση προστασίας (p)"
+  },
+  "row_protect_title": {
+    "message": "Προστασία από μαζική διαγραφή, εισαγωγή και επαναφορά συνόλου (p)"
+  },
+  "copy_value": {
+    "message": "Αντιγραφή τιμής"
+  },
+  "copied": {
+    "message": "Αντιγράφηκε"
+  },
+  "copy_value_title": {
+    "message": "Αντιγραφή τιμής (c)"
+  },
+  "row_delete_title": {
+    "message": "Διαγραφή (Del) – αναιρείται"
+  },
+  "irreversible_title": {
+    "message": "Αυτό δεν μπορεί να αναιρεθεί"
+  },
+  "continue_no_undo": {
+    "message": "Συνέχεια χωρίς αναίρεση"
+  },
+  "undo_anyway_title": {
+    "message": "Αναίρεση παρ' όλα αυτά;"
+  },
+  "undo_anyway": {
+    "message": "Αναίρεση παρ' όλα αυτά"
+  },
+  "undone": {
+    "message": "Αναιρέθηκε: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_skipped": {
+    "message": "Ορισμένα cookies είχαν ήδη λήξει και δεν επαναφέρθηκαν: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_refused": {
+    "message": "Το Chrome δεν τα δέχεται πλέον όπως ήταν, οπότε δεν επαναφέρθηκαν: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clipboard_failed": {
+    "message": "Η αντιγραφή απέτυχε: το πρόχειρο δεν είναι διαθέσιμο εδώ."
+  },
+  "protected_on": {
+    "message": "Το «$P1$» προστατεύτηκε: η μαζική διαγραφή, η εισαγωγή και η επαναφορά συνόλου δεν θα το αγγίξουν.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_off": {
+    "message": "Το «$P1$» δεν είναι πλέον προστατευμένο.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protect_limit": {
+    "message": "Μπορείτε να προστατεύσετε έως $P1$ cookies. Αρχικά άρετε την προστασία σε μερικά.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_named": {
+    "message": "Διαγραφή του «$P1$»;",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_protected_message": {
+    "message": "Αυτό το cookie είναι προστατευμένο. Να διαγραφεί παρ' όλα αυτά; Μπορείτε να το αναιρέσετε."
+  },
+  "nothing_to_delete": {
+    "message": "Δεν υπάρχει τίποτα για διαγραφή"
+  },
+  "all_shown_protected_one": {
+    "message": "Το εμφανιζόμενο cookie είναι προστατευμένο."
+  },
+  "all_shown_protected_other": {
+    "message": "Και τα $P1$ εμφανιζόμενα cookies είναι προστατευμένα.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "no_cookies_shown": {
+    "message": "Δεν εμφανίζονται cookies."
+  },
+  "bulk_title_one": {
+    "message": "Διαγραφή $P1$ cookie;",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_title_other": {
+    "message": "Διαγραφή $P1$ cookies;",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_match": {
+    "message": "Αυτά τα cookies ταιριάζουν με «$P1$» στο $P2$. Μπορείτε να το αναιρέσετε.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "bulk_all": {
+    "message": "Όλα τα cookies που εμφανίζονται για $P1$. Μπορείτε να το αναιρέσετε.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_one": {
+    "message": "$P1$ προστατευμένο cookie θα διατηρηθεί.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_other": {
+    "message": "$P1$ προστατευμένα cookies θα διατηρηθούν.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_one": {
+    "message": "Διαγραφή $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_other": {
+    "message": "Διαγραφή $P1$ cookies",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_to": {
+    "message": "Αντιγραφή σε"
+  },
+  "copy_to_default_note": {
+    "message": "Τα cookies που αντιγράφονται στον προεπιλεγμένο χώρο αποθήκευσης διατηρούνται όπως κάθε άλλο cookie, στο δίσκο και μετά το τέλος αυτής της ανώνυμης συνεδρίας."
+  },
+  "copy_to_incognito_note": {
+    "message": "Τα cookies που αντιγράφονται σε χώρο ανώνυμης περιήγησης τελειώνουν μαζί με εκείνη την ανώνυμη συνεδρία."
+  },
+  "copy_title_one": {
+    "message": "Αντιγραφή $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_title_other": {
+    "message": "Αντιγραφή $P1$ cookies",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_from": {
+    "message": "Από τον χώρο «$P1$» σε:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_replace_note": {
+    "message": "Τα cookies με το ίδιο όνομα, domain και διαδρομή εκεί αντικαθίστανται, εκτός από τα προστατευμένα. Μπορείτε να αναιρέσετε την αντιγραφή."
+  },
+  "label_copied_one": {
+    "message": "Αντιγράφηκε $P1$ cookie σε $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_copied_other": {
+    "message": "Αντιγράφηκαν $P1$ cookies σε $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_kept_one": {
+    "message": "$P1$ προστατευμένο cookie εκεί έμεινε ως είχε.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_kept_other": {
+    "message": "$P1$ προστατευμένα cookies εκεί έμειναν ως είχαν.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_done_one": {
+    "message": "Αντιγράφηκε $P1$ cookie σε $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_done_other": {
+    "message": "Αντιγράφηκαν $P1$ cookies σε $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_undo_hint": {
+    "message": "Αναιρέστε το εδώ ή αργότερα από τον χώρο «$P1$».",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_nothing": {
+    "message": "Το $P1$ έχει ήδη ακριβώς αυτά τα cookies.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_cant": {
+    "message": "Δεν είναι δυνατή η σύγκριση"
+  },
+  "compare_now": {
+    "message": "$P1$ τώρα",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_other_site": {
+    "message": "Αυτό το σύνολο αποθηκεύτηκε για $P1$, όχι για $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "compare_too_many": {
+    "message": "Επιλέξτε ένα σύνολο για σύγκριση με το τρέχον ή δύο σύνολα για σύγκριση μεταξύ τους."
+  },
+  "set_file_too_large": {
+    "message": "Το $P1$ είναι πολύ μεγάλο για να είναι σύνολο cookies.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_aria": {
+    "message": "Σύγκριση συνόλων cookies"
+  },
+  "compare_changed_fields": {
+    "message": "Άλλαξε: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_one": {
+    "message": "Καμία διαφορά: $P1$ cookie πανομοιότυπο.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_other": {
+    "message": "Καμία διαφορά: $P1$ cookies πανομοιότυπα.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_summary": {
+    "message": "$P1$ προστέθηκαν, $P2$ αφαιρέθηκαν, $P3$ άλλαξαν, $P4$ αμετάβλητα.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      },
+      "p4": {
+        "content": "$4"
+      }
+    }
+  },
+  "diff_added": {
+    "message": "Προστέθηκε"
+  },
+  "diff_removed": {
+    "message": "Αφαιρέθηκε"
+  },
+  "diff_changed": {
+    "message": "Άλλαξε"
+  },
+  "diff_expiry_only": {
+    "message": "Άλλαξε μόνο η λήξη ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "shortcuts_title": {
+    "message": "Συντομεύσεις πληκτρολογίου"
+  },
+  "key_search": {
+    "message": "Αναζήτηση"
+  },
+  "key_move": {
+    "message": "Μετακίνηση στη λίστα"
+  },
+  "key_first_last": {
+    "message": "Πρώτο / τελευταίο cookie"
+  },
+  "key_edit": {
+    "message": "Επεξεργασία"
+  },
+  "key_copy": {
+    "message": "Αντιγραφή τιμής"
+  },
+  "key_protect": {
+    "message": "Προστασία / άρση προστασίας"
+  },
+  "key_delete": {
+    "message": "Διαγραφή (αναιρείται)"
+  },
+  "key_back": {
+    "message": "Πίσω ή εκκαθάριση αναζήτησης"
+  },
+  "key_help": {
+    "message": "Αυτή η λίστα"
+  },
+  "import_kept_one": {
+    "message": "$P1$ προστατευμένο cookie έμεινε ως είχε: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_kept_other": {
+    "message": "$P1$ προστατευμένα cookies έμειναν ως είχαν: $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_nothing": {
+    "message": "Δεν υπάρχει τίποτα για εισαγωγή: κάθε cookie του αρχείου έχει ήδη οριστεί ακριβώς έτσι."
+  },
+  "imported_one": {
+    "message": "Εισήχθη $P1$ cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "imported_other": {
+    "message": "Εισήχθησαν $P1$ cookies.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_restored": {
+    "message": "Επαναφορά συνόλου «$P1$»",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restored_one": {
+    "message": "Επαναφορά του «$P2$»: γράφτηκε $P1$ cookie, διαγράφηκαν $P3$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "restored_other": {
+    "message": "Επαναφορά του «$P2$»: γράφτηκαν $P1$ cookies, διαγράφηκαν $P3$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "rate_title": {
+    "message": "Σας αρέσει το CookieDesk;"
+  },
+  "rate_text": {
+    "message": "Μια γρήγορη αξιολόγηση βοηθά και άλλους να το βρουν."
+  },
+  "rate_group": {
+    "message": "Αξιολόγηση στο κατάστημα"
+  },
+  "rate_stars_one": {
+    "message": "$P1$ αστέρι",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "rate_stars_other": {
+    "message": "$P1$ αστέρια",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_confirm_title": {
+    "message": "Μου πήρατε έναν καφέ;"
+  },
+  "kofi_confirm_text": {
+    "message": "Ευχαριστώ, κρατάει το CookieDesk ζωντανό."
+  },
+  "kofi_yes": {
+    "message": "Ναι, πήρα"
+  },
+  "kofi_not_yet": {
+    "message": "Όχι ακόμη"
+  },
+  "kofi_milestone_one": {
+    "message": "$P1$ αλλαγή με το CookieDesk!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_milestone_other": {
+    "message": "$P1$ αλλαγές με το CookieDesk!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_free": {
+    "message": "Είναι δωρεάν και το φτιάχνει ένας προγραμματιστής."
+  },
+  "buy_coffee": {
+    "message": "Κεράστε με έναν καφέ"
+  },
+  "edit_cookie": {
+    "message": "Επεξεργασία cookie"
+  },
+  "add_cookie_short": {
+    "message": "Προσθήκη cookie"
+  },
+  "explain_title": {
+    "message": "Τι κάνει αυτό το cookie"
+  },
+  "field_name": {
+    "message": "Όνομα"
+  },
+  "field_value": {
+    "message": "Τιμή"
+  },
+  "field_domain": {
+    "message": "Τομέας"
+  },
+  "field_path": {
+    "message": "Διαδρομή"
+  },
+  "field_expiry": {
+    "message": "Λήξη"
+  },
+  "field_expires": {
+    "message": "Λήγει"
+  },
+  "field_attributes": {
+    "message": "Χαρακτηριστικά"
+  },
+  "field_partition": {
+    "message": "Διαμέρισμα"
+  },
+  "host_only": {
+    "message": "Μόνο κεντρικός υπολογιστής"
+  },
+  "host_only_title": {
+    "message": "Μόνο κεντρικός υπολογιστής: χωρίς χαρακτηριστικό Domain, οπότε δεν το λαμβάνουν οι υποτομείς"
+  },
+  "session_title": {
+    "message": "Cookie συνεδρίας: χάνεται όταν κλείσει το πρόγραμμα περιήγησης"
+  },
+  "httponly_title": {
+    "message": "HttpOnly: δεν είναι ορατό στη JavaScript της σελίδας"
+  },
+  "samesite_unspecified": {
+    "message": "Μη καθορισμένο"
+  },
+  "partitioned_chips": {
+    "message": "Partitioned (CHIPS)"
+  },
+  "top_level_site": {
+    "message": "Ιστότοπος ανώτερου επιπέδου"
+  },
+  "no_partition_write": {
+    "message": "Αυτή η έκδοση του Chrome δεν μπορεί να γράψει partitioned cookies."
+  },
+  "editor_delete_title": {
+    "message": "Διαγραφή (αναιρείται)"
+  },
+  "bytes_of": {
+    "message": "$P1$ / $P2$ byte",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "access_aria": {
+    "message": "Πρόσβαση και ρυθμίσεις"
+  },
+  "all_sites_on": {
+    "message": "Όλοι οι ιστότοποι: ενεργό"
+  },
+  "all_sites_on_text": {
+    "message": "Το CookieDesk μπορεί να διαβάζει και να αλλάζει cookies σε κάθε ιστότοπο, και στους ενσωματωμένους."
+  },
+  "turn_off": {
+    "message": "Απενεργοποίηση"
+  },
+  "all_sites": {
+    "message": "Όλοι οι ιστότοποι"
+  },
+  "all_sites_text": {
+    "message": "Προαιρετικό. Όχι άλλες ερωτήσεις ανά ιστότοπο, και τα cookies των ενσωματωμένων ιστότοπων (διαφημίσεις, γραφικά στοιχεία, πλαίσια σύνδεσης) εμφανίζονται παντού."
+  },
+  "allow_all_sites": {
+    "message": "Να επιτραπεί σε όλους τους ιστότοπους"
+  },
+  "remove_access": {
+    "message": "Κατάργηση πρόσβασης στο $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "access_lead": {
+    "message": "Το CookieDesk βλέπει τα cookies ενός ιστότοπου μόνο αφού τον επιτρέψετε, και τίποτα άλλο: ούτε περιεχόμενο σελίδων, ούτε ιστορικό."
+  },
+  "allowed_sites": {
+    "message": "Επιτρεπόμενοι ιστότοποι"
+  },
+  "allowed_sites_count": {
+    "message": "Επιτρεπόμενοι ιστότοποι · $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "all_sites_overrides": {
+    "message": "Η πρόσβαση σε όλους τους ιστότοπους είναι ενεργή, οπότε αυτοί δεν έχουν σημασία όσο παραμένει ενεργή."
+  },
+  "none_yet": {
+    "message": "Κανένας ακόμη."
+  },
+  "toolbar_opens": {
+    "message": "Το κουμπί της γραμμής εργαλείων ανοίγει"
+  },
+  "surface_popup": {
+    "message": "Αναδυόμενο παράθυρο"
+  },
+  "surface_sidepanel": {
+    "message": "Πλαϊνή γραμμή"
+  },
+  "support_feedback": {
+    "message": "Υποστήριξη και σχόλια"
+  },
+  "thanks_supporting": {
+    "message": "Ευχαριστούμε για την υποστήριξη!"
+  },
+  "report_problem": {
+    "message": "Αναφορά προβλήματος"
+  },
+  "source_code": {
+    "message": "Πηγαίος κώδικας"
+  },
+  "privacy_line": {
+    "message": "Χωρίς αιτήματα δικτύου, χωρίς τιμές cookies στο δίσκο. Η αναίρεση λειτουργεί για 10 λεπτά· τα αντίγραφά της μένουν στη μνήμη και χάνονται όταν κλείσει το Chrome ή τελειώσει η ανώνυμη συνεδρία."
+  },
+  "export_warning": {
+    "message": "Αυτό το αρχείο περιέχει ενεργά cookies συνεδρίας. Όποιος το έχει μπορεί να συνδεθεί ως εσείς σε αυτούς τους ιστότοπους. Χειριστείτε το σαν κωδικό πρόσβασης και διαγράψτε το όταν τελειώσετε."
+  },
+  "export_json_one": {
+    "message": "Εξαγωγή $P1$ cookie ως JSON",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_json_other": {
+    "message": "Εξαγωγή $P1$ cookies ως JSON",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_one": {
+    "message": "Εξαγωγή $P1$ cookie ως cookies.txt",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_other": {
+    "message": "Εξαγωγή $P1$ cookies ως cookies.txt",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_all_one": {
+    "message": "Το cookie που εμφανίζεται για $P2$ μπαίνει στο αρχείο, ακόμη και αν είναι HttpOnly.",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_all_other": {
+    "message": "Και τα $P1$ cookies που εμφανίζονται για $P2$ μπαίνουν στο αρχείο, μαζί με τα HttpOnly.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_partitioned_left_one": {
+    "message": "$P1$ partitioned cookie παραλείφθηκε: το cookies.txt δεν μπορεί να καταγράψει διαμερίσματα. Χρησιμοποιήστε JSON για να το κρατήσετε.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_partitioned_left_other": {
+    "message": "$P1$ partitioned cookies παραλείφθηκαν: το cookies.txt δεν μπορεί να καταγράψει διαμερίσματα. Χρησιμοποιήστε JSON για να τα κρατήσετε.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_too_big": {
+    "message": "Αυτό το αρχείο είναι $P1$ MB. Οι εξαγωγές cookies είναι πολύ μικρότερες· το CookieDesk διαβάζει αρχεία έως 5 MB.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "cant_import_unchanged": {
+    "message": "Δεν είναι δυνατή η εισαγωγή αυτού του αρχείου. Δεν άλλαξε τίποτα."
+  },
+  "cant_import": {
+    "message": "Δεν είναι δυνατή η εισαγωγή αυτού του αρχείου"
+  },
+  "file_unreadable": {
+    "message": "Το αρχείο δεν ήταν δυνατό να διαβαστεί."
+  },
+  "needs_access_one": {
+    "message": "Το CookieDesk χρειάζεται πρόσβαση σε $P1$ ακόμη ιστότοπο πριν γράψει αυτά τα cookies:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "needs_access_other": {
+    "message": "Το CookieDesk χρειάζεται πρόσβαση σε $P1$ ακόμη ιστότοπους πριν γράψει αυτά τα cookies:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_allow_all_hint": {
+    "message": "Ή επιτρέψτε όλους τους ιστότοπους στο Πρόσβαση και ρυθμίσεις."
+  },
+  "other_sites": {
+    "message": "Άλλοι ιστότοποι ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "other_sites_warning": {
+    "message": "Αυτό το αρχείο γράφει cookies και για ιστότοπους εκτός από το $P1$. Ένα cookie που φυτεύεται σε άλλον ιστότοπο μπορεί να σας συνδέσει εκεί σε λάθος λογαριασμό. Συνεχίστε μόνο αν περιμένατε αυτούς τους ιστότοπους.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_one": {
+    "message": "Εγγραφή cookies και για $P1$ άλλον ιστότοπο",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_other": {
+    "message": "Εγγραφή cookies και για $P1$ άλλους ιστότοπους",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partitioned_under_list": {
+    "message": "Partitioned κάτω από: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "warnings_count": {
+    "message": "Προειδοποιήσεις ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_title": {
+    "message": "Εισαγωγή cookies"
+  },
+  "import_message_one": {
+    "message": "Εισαγωγή $P1$ cookie; Τα cookies με το ίδιο όνομα, domain και διαδρομή αντικαθίστανται. Μπορείτε να αναιρέσετε ολόκληρη την εισαγωγή.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_message_other": {
+    "message": "Εισαγωγή $P1$ cookies; Τα cookies με το ίδιο όνομα, domain και διαδρομή αντικαθίστανται. Μπορείτε να αναιρέσετε ολόκληρη την εισαγωγή.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_one": {
+    "message": "Αντιγραφή $P1$ cookie ως document.cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_other": {
+    "message": "Αντιγραφή $P1$ cookies ως document.cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_warning": {
+    "message": "Το απόσπασμα περιέχει ενεργά cookies συνεδρίας. Όποιος το έχει μπορεί να συνδεθεί ως εσείς σε αυτόν τον ιστότοπο. Χειριστείτε το σαν κωδικό πρόσβασης."
+  },
+  "snippet_paste": {
+    "message": "Επικολλήστε το στην κονσόλα DevTools στο $P1$ για να οριστούν εκεί αυτά τα cookies.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_one": {
+    "message": "$P1$ cookie HttpOnly παραλείφθηκε: η JavaScript της σελίδας δεν μπορεί να το ορίσει.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_other": {
+    "message": "$P1$ cookies HttpOnly παραλείφθηκαν: η JavaScript της σελίδας δεν μπορεί να τα ορίσει.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_one": {
+    "message": "Αντιγράφηκε $P1$ cookie ως document.cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_other": {
+    "message": "Αντιγράφηκαν $P1$ cookies ως document.cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_name": {
+    "message": "Όνομα συνόλου"
+  },
+  "set_name_placeholder": {
+    "message": "π.χ. συνδεδεμένος ως διαχειριστής"
+  },
+  "save_set_title_one": {
+    "message": "Αποθήκευση $P1$ cookie ως σύνολο",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "save_set_title_other": {
+    "message": "Αποθήκευση $P1$ cookies ως σύνολο",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_file_note": {
+    "message": "Το σύνολο είναι ένα αρχείο στον υπολογιστή σας· το CookieDesk δεν κρατά αντίγραφο. Επαναφέρετέ το αργότερα από το μενού στο $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "default_set_name": {
+    "message": "Σύνολο cookies"
+  },
+  "set_too_large": {
+    "message": "Αυτό το αρχείο είναι πολύ μεγάλο για να είναι σύνολο cookies."
+  },
+  "cant_restore_unchanged": {
+    "message": "Δεν είναι δυνατή η επαναφορά αυτού του συνόλου. Δεν άλλαξε τίποτα."
+  },
+  "cant_restore": {
+    "message": "Δεν είναι δυνατή η επαναφορά αυτού του συνόλου"
+  },
+  "wrong_site_message": {
+    "message": "Αυτό το σύνολο αποθηκεύτηκε για $P1$. Ανοίξτε το $P1$ και επαναφέρετέ το εκεί.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "wrong_site_title": {
+    "message": "Λάθος ιστότοπος. Δεν άλλαξε τίποτα."
+  },
+  "foreign_cookies_one": {
+    "message": "$P1$ cookie σε αυτό το αρχείο ανήκει σε άλλον ιστότοπο ($P2$). Η επαναφορά συνόλου αλλάζει μόνο το $P3$· για άλλους ιστότοπους χρησιμοποιήστε την Εισαγωγή.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "foreign_cookies_other": {
+    "message": "$P1$ cookies σε αυτό το αρχείο ανήκουν σε άλλους ιστότοπους ($P2$). Η επαναφορά συνόλου αλλάζει μόνο το $P3$· για άλλους ιστότοπους χρησιμοποιήστε την Εισαγωγή.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "plan_write": {
+    "message": "Εγγραφή"
+  },
+  "plan_delete": {
+    "message": "Διαγραφή"
+  },
+  "plan_protected": {
+    "message": "Προστατευμένα, μένουν ως έχουν"
+  },
+  "restore_title": {
+    "message": "Επαναφορά «$P1$»",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_nothing": {
+    "message": "Το $P1$ ταιριάζει ήδη με αυτό το σύνολο. Δεν υπάρχει τίποτα για αλλαγή.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_message_one": {
+    "message": "Τα cookies του $P2$ θα αντικατασταθούν από το $P1$ cookie αυτού του συνόλου. Μπορείτε να αναιρέσετε ολόκληρη την επαναφορά.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "restore_message_other": {
+    "message": "Τα cookies του $P2$ θα αντικατασταθούν από τα $P1$ cookies αυτού του συνόλου. Μπορείτε να αναιρέσετε ολόκληρη την επαναφορά.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_partition_unsupported": {
+    "message": "Το «$P1$» είναι partitioned cookie, που αυτή η έκδοση του Chrome δεν μπορεί να γράψει. Ενημερώστε το Chrome στην έκδοση 119 ή νεότερη.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_gone": {
+    "message": "Το «$P1$» δεν υπάρχει πια· ίσως έληξε ή άλλαξε από τον ιστότοπο. Φορτώστε ξανά τη λίστα.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_stored": {
+    "message": "Το Chrome αποδέχτηκε το «$P1$» αλλά δεν το αποθήκευσε.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_imprecise_delete_one": {
+    "message": "Το Chrome μπορεί να διαγράψει το «$P2$» μόνο μαζί με $P1$ ακόμη cookie με το ίδιο όνομα, οπότε το CookieDesk δεν θα το διαγράψει.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_imprecise_delete_other": {
+    "message": "Το Chrome μπορεί να διαγράψει το «$P2$» μόνο μαζί με $P1$ ακόμη cookies με το ίδιο όνομα, οπότε το CookieDesk δεν θα το διαγράψει.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_delete": {
+    "message": "Το Chrome δεν δέχεται πλέον το «$P1$» όπως είναι αποθηκευμένο, οπότε μετά τη διαγραφή δεν θα ήταν δυνατή η επαναφορά του. Διαγραφή χωρίς αναίρεση;",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_removed": {
+    "message": "Δεν ήταν δυνατή η διαγραφή του «$P1$».",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_no_permission": {
+    "message": "Το CookieDesk δεν έχει πρόσβαση στο $P1$. Δώστε πρώτα πρόσβαση σε αυτόν τον ιστότοπο.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_secure_shadow": {
+    "message": "Υπάρχει ήδη cookie Secure με όνομα «$P1$» για $P2$. Το Chrome δεν επιτρέπει σε cookie χωρίς Secure με το ίδιο όνομα να το αντικαταστήσει ή να υπάρχει δίπλα του. Ενεργοποιήστε το Secure ή χρησιμοποιήστε άλλο όνομα.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_rejected": {
+    "message": "Το Chrome απέρριψε το «$P1$» χωρίς να δώσει λόγο. Δεν άλλαξε τίποτα.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_irreversible_replace_one": {
+    "message": "Το Chrome δεν δέχεται πλέον το $P2$ όπως είναι αποθηκευμένο, οπότε μετά την αντικατάσταση δεν θα ήταν δυνατή η επαναφορά του. Συνέχεια χωρίς αναίρεση για αυτό;",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_replace_other": {
+    "message": "Το Chrome δεν δέχεται πλέον τα $P2$ όπως είναι αποθηκευμένα, οπότε μετά την αντικατάσταση δεν θα ήταν δυνατή η επαναφορά τους. Συνέχεια χωρίς αναίρεση για αυτά;",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_too_large_to_undo": {
+    "message": "Αυτή η αλλαγή αφορά πάρα πολλά δεδομένα ($P1$ KB) για να κρατηθεί αντίγραφο αναίρεσης. Συνέχεια χωρίς αναίρεση;",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_duplicate_in_file": {
+    "message": "Το αρχείο περιέχει το «$P1$» δύο φορές για το ίδιο domain και την ίδια διαδρομή.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_undo_expired": {
+    "message": "Δεν υπάρχει τίποτα για αναίρεση: η αναίρεση διατηρείται για 10 λεπτά."
+  },
+  "err_undo_conflict": {
+    "message": "Το $P1$ άλλαξε μετά το «$P2$». Η αναίρεση τώρα θα αντικαθιστούσε τη νεότερη τιμή. Αναίρεση παρ' όλα αυτά;",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_incomplete": {
+    "message": "Ελλιπές: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_added": {
+    "message": "Προστέθηκε «$P1$»",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_edited": {
+    "message": "Επεξεργάστηκε «$P1$»",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted": {
+    "message": "Διαγράφηκε «$P1$»",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_expired": {
+    "message": "Διαγράφηκε «$P1$» (λήξη στο παρελθόν)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_one": {
+    "message": "Διαγράφηκε $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_other": {
+    "message": "Διαγράφηκαν $P1$ cookies",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_one": {
+    "message": "Εισήχθη $P1$ cookie",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_other": {
+    "message": "Εισήχθησαν $P1$ cookies",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_undid": {
+    "message": "Αναιρέθηκε: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_saved": {
+    "message": "Αποθηκεύτηκε «$P1$»",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_draft": {
+    "message": "Το cookie πρέπει να είναι αντικείμενο με όνομα, τιμή, domain και διαδρομή."
+  },
+  "v_name_type": {
+    "message": "Το όνομα του cookie πρέπει να είναι κείμενο."
+  },
+  "v_value_type": {
+    "message": "Η τιμή του cookie πρέπει να είναι κείμενο."
+  },
+  "v_domain_type": {
+    "message": "Το domain πρέπει να είναι κείμενο."
+  },
+  "v_path_type": {
+    "message": "Η διαδρομή πρέπει να είναι κείμενο."
+  },
+  "v_flag_type": {
+    "message": "Το $P1$ πρέπει να είναι true ή false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_samesite": {
+    "message": "Το SameSite πρέπει να είναι ένα από: $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_name_control": {
+    "message": "Το όνομα περιέχει χαρακτήρες ελέγχου (όπως αλλαγή γραμμής ή tab), που τα cookies δεν μπορούν να περιέχουν."
+  },
+  "v_name_semicolon": {
+    "message": "Το όνομα περιέχει «;», που θα τερμάτιζε νωρίς το cookie."
+  },
+  "v_name_equals": {
+    "message": "Το όνομα περιέχει «=», που στο cookie χωρίζει το όνομα από την τιμή."
+  },
+  "v_value_control": {
+    "message": "Η τιμή περιέχει χαρακτήρες ελέγχου (όπως αλλαγή γραμμής ή tab), που τα cookies δεν μπορούν να περιέχουν."
+  },
+  "v_value_semicolon": {
+    "message": "Η τιμή περιέχει «;», που θα τερμάτιζε νωρίς το cookie. Κωδικοποιήστε την (για παράδειγμα με encodeURIComponent)."
+  },
+  "v_empty_cookie": {
+    "message": "Ένα cookie χρειάζεται όνομα ή τιμή· και τα δύο είναι κενά."
+  },
+  "v_empty_name": {
+    "message": "Αυτό το cookie έχει κενό όνομα. Ορισμένοι ιστότοποι και εργαλεία χειρίζονται άσχημα τα cookies χωρίς όνομα."
+  },
+  "v_too_large": {
+    "message": "Το όνομα και η τιμή μαζί είναι $P1$ byte (UTF-8)· το Chrome επιτρέπει το πολύ $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "v_path_slash": {
+    "message": "Η διαδρομή πρέπει να αρχίζει με «/»."
+  },
+  "v_path_too_long": {
+    "message": "Η διαδρομή είναι μεγαλύτερη από $P1$ byte.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_path_chars": {
+    "message": "Η διαδρομή περιέχει χαρακτήρες ελέγχου ή «;», που τα cookies δεν μπορούν να περιέχουν."
+  },
+  "v_domain_empty": {
+    "message": "Το domain είναι κενό. Εισαγάγετε τον ιστότοπο στον οποίο ανήκει το cookie, για παράδειγμα example.com."
+  },
+  "v_domain_too_long": {
+    "message": "Το domain είναι μεγαλύτερο από $P1$ byte.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_domain_invalid": {
+    "message": "Το domain δεν είναι έγκυρο όνομα κεντρικού υπολογιστή. Χρησιμοποιήστε γράμματα, ψηφία και παύλες χωρισμένα με τελείες (τα διεθνοποιημένα ονόματα πρέπει να είναι σε punycode, όπως xn--...)."
+  },
+  "v_domain_leading_dot": {
+    "message": "Ένα cookie μόνο για κεντρικό υπολογιστή δεν μπορεί να έχει αρχική τελεία στο domain· η τελεία σημαίνει ότι το cookie ισχύει και για υποτομείς."
+  },
+  "v_domain_public_suffix": {
+    "message": "Το «$P1$» είναι δημόσια κατάληξη (domain που ελέγχεται από μητρώο, όπως .com ή .co.uk), οπότε τα προγράμματα περιήγησης αρνούνται cookies που ισχύουν για ολόκληρη την κατάληξη.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_samesite_none_insecure": {
+    "message": "Τα cookies SameSite=None πρέπει να είναι Secure — αλλιώς το Chrome τα απορρίπτει. Ενεργοποιήστε το Secure ή επιλέξτε άλλο SameSite."
+  },
+  "v_partitioned_insecure": {
+    "message": "Τα partitioned cookies πρέπει να είναι Secure — αλλιώς το Chrome τα απορρίπτει. Ενεργοποιήστε το Secure ή αφαιρέστε το διαμέρισμα."
+  },
+  "v_prefix_secure": {
+    "message": "Τα cookies με όνομα «$P1$...» πρέπει να είναι Secure. Ενεργοποιήστε το Secure ή μετονομάστε το cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_host_prefix_domain": {
+    "message": "Τα cookies με όνομα «__Host-...» πρέπει να είναι μόνο για κεντρικό υπολογιστή (χωρίς χαρακτηριστικό Domain, άρα χωρίς κοινή χρήση με υποτομείς). Ενεργοποιήστε τη λειτουργία μόνο για κεντρικό υπολογιστή ή μετονομάστε το cookie."
+  },
+  "v_host_prefix_path": {
+    "message": "Τα cookies με όνομα «__Host-...» πρέπει να έχουν διαδρομή «/»."
+  },
+  "v_bad_expiration": {
+    "message": "Η λήξη πρέπει να είναι πεπερασμένος αριθμός δευτερολέπτων από το 1970."
+  },
+  "v_expired_deletes": {
+    "message": "Η αποθήκευση με λήξη στο παρελθόν διαγράφει αυτό το cookie."
+  },
+  "v_clamped": {
+    "message": "Το Chrome περιορίζει τη διάρκεια ζωής του cookie σε $P1$ ημέρες· μεταγενέστερη λήξη συντομεύεται κατά την αποθήκευση.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_expiration_missing": {
+    "message": "Ένα cookie εκτός συνεδρίας χρειάζεται ημερομηνία λήξης. Επιλέξτε μία ή ορίστε το cookie ως cookie συνεδρίας."
+  },
+  "v_partition_type": {
+    "message": "Το κλειδί διαμερίσματος πρέπει να είναι αντικείμενο με topLevelSite."
+  },
+  "v_partition_site_type": {
+    "message": "Ο ιστότοπος ανώτερου επιπέδου του διαμερίσματος πρέπει να είναι κείμενο όπως https://example.com."
+  },
+  "v_partition_site_form": {
+    "message": "Ο ιστότοπος ανώτερου επιπέδου του διαμερίσματος πρέπει να μοιάζει με https://example.com (https, χωρίς διαδρομή ή θύρα)."
+  },
+  "v_partition_flag": {
+    "message": "Το hasCrossSiteAncestor του διαμερίσματος πρέπει να είναι true ή false."
+  },
+  "v_partition_cross_site": {
+    "message": "Το domain του cookie δεν ανήκει στον ίδιο ιστότοπο με το $P1$, οπότε το Chrome απαιτεί το hasCrossSiteAncestor να είναι true.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_other_site": {
+    "message": "Το domain αυτού του cookie ($P1$) είναι εκτός του τρέχοντος ιστότοπου ($P2$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_entry": {
+    "message": "Εγγραφή $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_entry_named": {
+    "message": "Εγγραφή $P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_bad_samesite": {
+    "message": "$P1$: το sameSite δεν είναι ένα από no_restriction, lax, strict, unspecified.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bool": {
+    "message": "$P1$: το «$P2$» πρέπει να είναι true ή false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_text": {
+    "message": "$P1$: το «$P2$» πρέπει να είναι κείμενο.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_not_object": {
+    "message": "Το $P1$ δεν είναι αντικείμενο cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_expiration_type": {
+    "message": "$P1$: το «expirationDate» πρέπει να είναι αριθμός.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_key": {
+    "message": "$P1$: το partitionKey πρέπει να είναι αντικείμενο με κείμενο topLevelSite.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_flag": {
+    "message": "$P1$: το partitionKey.hasCrossSiteAncestor πρέπει να είναι true ή false.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_line": {
+    "message": "Η γραμμή $P1$ δεν είναι εγγραφή cookies.txt (αναμένονταν 7 πεδία χωρισμένα με tab, βρέθηκαν $P2$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_line_flag_subdomains": {
+    "message": "Γραμμή $P1$: η σημαία υποτομέων πρέπει να είναι TRUE ή FALSE.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_flag_secure": {
+    "message": "Γραμμή $P1$: η σημαία secure πρέπει να είναι TRUE ή FALSE.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_expiry": {
+    "message": "Γραμμή $P1$: η λήξη πρέπει να είναι ακέραιος αριθμός δευτερολέπτων.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_not_text": {
+    "message": "Το αρχείο δεν ήταν δυνατό να διαβαστεί ως κείμενο."
+  },
+  "io_too_large": {
+    "message": "Το αρχείο είναι μεγαλύτερο από το όριο εισαγωγής των $P1$ byte.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_json": {
+    "message": "Το αρχείο μοιάζει με JSON αλλά δεν ήταν δυνατή η ανάλυσή του."
+  },
+  "io_bad_version": {
+    "message": "Αυτό το αρχείο CookieDesk έχει μη υποστηριζόμενη έκδοση."
+  },
+  "io_no_cookie_list": {
+    "message": "Το αρχείο CookieDesk δεν έχει λίστα «cookies»."
+  },
+  "io_unknown_format": {
+    "message": "Αυτό το JSON δεν είναι εξαγωγή CookieDesk ούτε λίστα cookies."
+  },
+  "io_no_cookies": {
+    "message": "Το αρχείο δεν περιέχει cookies."
+  },
+  "io_too_many": {
+    "message": "Το αρχείο έχει $P1$ cookies· το όριο είναι $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_issue": {
+    "message": "$P1$: $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_duplicate": {
+    "message": "$P1$: μια άλλη εγγραφή έχει το ίδιο όνομα, domain, διαδρομή και διαμέρισμα.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "when": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "when_passed": {
+    "message": "έχει ήδη περάσει"
+  },
+  "when_under_day": {
+    "message": "σε λιγότερο από μία ημέρα"
+  },
+  "explain_third_party": {
+    "message": "Ορίστηκε από το $P1$, διαφορετικό ιστότοπο από το $P2$: cookie τρίτου μέρους.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_third_party_partitioned": {
+    "message": "Ορίστηκε από το $P1$, διαφορετικό ιστότοπο από το $P2$: cookie τρίτου μέρους, που φυλάσσεται στο διαμέρισμα του $P2$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_host_prefix": {
+    "message": "Το πρόθεμα __Host- κάνει το Chrome να απαιτεί Secure, κανένα χαρακτηριστικό Domain και Path=/, οπότε κανένας υποτομέας δεν μπορεί να το ορίσει ή να το αντικαταστήσει."
+  },
+  "explain_secure_prefix": {
+    "message": "Το πρόθεμα __Secure- κάνει το Chrome να το δέχεται μόνο με τη σημαία Secure."
+  },
+  "explain_scope_host": {
+    "message": "Στέλνεται μόνο στο $P1$ και όχι στους υποτομείς του.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_scope_domain": {
+    "message": "Στέλνεται στο $P1$ και σε κάθε υποτομέα του (όπως το www.$P1$).",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_path_all": {
+    "message": "Στέλνεται με αιτήματα για κάθε διαδρομή σε αυτόν τον κεντρικό υπολογιστή."
+  },
+  "explain_path_under": {
+    "message": "Στέλνεται μόνο με αιτήματα για διαδρομές κάτω από $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_secure": {
+    "message": "Secure: στέλνεται μόνο μέσω HTTPS."
+  },
+  "explain_not_secure": {
+    "message": "Όχι Secure: στέλνεται και μέσω απλού HTTP, όπου οποιοσδήποτε στο δίκτυο μπορεί να το διαβάσει."
+  },
+  "explain_httponly": {
+    "message": "HttpOnly: δεν είναι ορατό στη JavaScript της σελίδας (το document.cookie δεν μπορεί να το διαβάσει), οπότε μένει μακριά από σενάρια που εισάγονται."
+  },
+  "explain_script_readable": {
+    "message": "Μπορεί να διαβαστεί και να αλλάξει από οποιοδήποτε σενάριο εκτελείται στη σελίδα."
+  },
+  "explain_samesite_none": {
+    "message": "SameSite=None: μπορεί να σταλεί και με αιτήματα μεταξύ ιστότοπων (ενσωματωμένα πλαίσια, εικόνες, αιτήματα από άλλους ιστότοπους), εκεί όπου το Chrome επιτρέπει καθόλου cookies τρίτων (η ανώνυμη περιήγηση τα αποκλείει από προεπιλογή). Γι' αυτό πρέπει να είναι Secure."
+  },
+  "explain_samesite_lax": {
+    "message": "SameSite=Lax: στέλνεται όταν μεταβαίνετε στον ιστότοπο, ακόμη και από σύνδεσμο σε άλλον ιστότοπο, αλλά όχι με αιτήματα που κάνουν στο παρασκήνιο οι σελίδες άλλων ιστότοπων."
+  },
+  "explain_samesite_strict": {
+    "message": "SameSite=Strict: στέλνεται μόνο όταν βρίσκεστε ήδη στον ίδιο ιστότοπο. Όταν φτάνετε από σύνδεσμο σε άλλον ιστότοπο, το πρώτο αίτημα φεύγει χωρίς αυτό."
+  },
+  "explain_samesite_unset": {
+    "message": "Χωρίς χαρακτηριστικό SameSite: το Chrome το αντιμετωπίζει ως Lax."
+  },
+  "explain_session": {
+    "message": "Cookie συνεδρίας: διαγράφεται όταν κλείσει το πρόγραμμα περιήγησης (εκτός αν το Chrome επαναφέρει την προηγούμενη συνεδρία κατά την εκκίνηση)."
+  },
+  "explain_expires": {
+    "message": "Λήγει $P1$. Το Chrome περιορίζει κάθε λήξη στις 400 ημέρες από την τελευταία φορά που ορίστηκε το cookie.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition": {
+    "message": "Partitioned (CHIPS): αποθηκεύεται χωριστά για κάθε ιστότοπο ανώτερου επιπέδου. Αυτό το αντίγραφο στέλνεται μόνο όταν το $P1$ είναι ο ιστότοπος στη γραμμή διευθύνσεων.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition_cross": {
+    "message": "Βρίσκεται στο τμήμα του διαμερίσματος μεταξύ ιστότοπων (χρησιμοποιείται όταν άλλος ιστότοπος μεσολαβεί ανάμεσα στη σελίδα και τον ιστότοπο αυτού του cookie), χωριστά από το τμήμα του ίδιου ιστότοπου."
+  },
+  "explain_partition_same": {
+    "message": "Βρίσκεται στο τμήμα του διαμερίσματος του ίδιου ιστότοπου, χωριστά από το τμήμα μεταξύ ιστότοπων."
+  },
+  "explain_partition_other": {
+    "message": "Το ίδιο όνομα cookie κάτω από άλλον ιστότοπο είναι διαφορετικό cookie."
+  },
+  "explain_jwt": {
+    "message": "Η τιμή μοιάζει με JSON Web Token."
+  },
+  "explain_jwt_exp": {
+    "message": "Η τιμή μοιάζει με JSON Web Token· σύμφωνα με το ίδιο το token λήγει $P1$.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_size": {
+    "message": "$P1$ από τα 4096 byte που επιτρέπει το Chrome για όνομα και τιμή μαζί.",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

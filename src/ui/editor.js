@@ -7,14 +7,20 @@ import { validateCookie } from '../core/validate.js';
 import { isPublicSuffix } from '../core/site.js';
 import { formFromCookie, draftFromForm, byteCount, defaultExpiry } from './view.js';
 import { explainCookie } from '../core/explain.js';
+import { t } from '../lib/i18n.js';
 
 const MAX_BYTES = 4096;
 
 // validate.js field -> the form control its issue sits next to.
 const ISSUE_SLOT = { name: 'name', value: 'value', domain: 'domain', path: 'path', expirationDate: 'expires', secure: 'flags', httpOnly: 'flags', sameSite: 'flags', partitionKey: 'partition' };
 
-function check(name, label, extra = {}) {
-  return h('label', { class: 'check' }, h('input', { type: 'checkbox', name, ...extra }), h('span', { text: label }));
+// Explanation topics (core/explain.js) -> their icon.
+const TOPIC_ICONS = { 'third-party': 'users', prefix: 'tag', scope: 'globe', path: 'folder', secure: 'lock', httpOnly: 'eyeOff', sameSite: 'link', expiry: 'clock', partition: 'split', jwt: 'key', size: 'ruler' };
+
+/** A checkbox drawn as a toggle chip; the real input stays in the form. */
+function check(name, label, { glyph, title, ...extra } = {}) {
+  return h('label', { class: 'check chip', title },
+    h('input', { type: 'checkbox', name, ...extra }), glyph && icon(glyph, 'icon chip-icon'), h('span', { text: label }), icon('check', 'icon chip-tick'));
 }
 
 function field(slot, label, control, ...more) {
@@ -37,44 +43,48 @@ export function createEditor({ cookie, host, site, https, feats, save, remove, c
   const nameIn = h('input', { name: 'name', id: id('name'), class: 'mono', autocomplete: 'off', spellcheck: false });
   const valueIn = h('textarea', { name: 'value', id: id('value'), class: 'mono', rows: 4, spellcheck: false, attrs: { wrap: 'soft' } });
   const bytes = h('span', { class: 'bytes', testid: 'byte-count' });
+  const meterFill = h('span', { class: 'meter-fill' });
+  const meter = h('div', { class: 'value-foot' }, h('span', { class: 'meter', attrs: { 'aria-hidden': 'true' } }, meterFill), bytes);
   const domainIn = h('input', { name: 'domain', id: id('domain'), class: 'mono', autocomplete: 'off', spellcheck: false });
   const pathIn = h('input', { name: 'path', id: id('path'), class: 'mono', autocomplete: 'off', spellcheck: false });
-  const expiresIn = h('input', { type: 'datetime-local', name: 'expires', id: id('expires'), step: 1, attrs: { 'aria-label': 'Expires' } });
+  const expiresIn = h('input', { type: 'datetime-local', name: 'expires', id: id('expires'), step: 1, attrs: { 'aria-label': t('field_expires') } });
   const sameSiteIn = h('select', { name: 'sameSite', id: id('sameSite') },
-    h('option', { value: 'unspecified', text: 'Unspecified' }), h('option', { value: 'lax', text: 'Lax' }),
+    h('option', { value: 'unspecified', text: t('samesite_unspecified') }), h('option', { value: 'lax', text: 'Lax' }),
     h('option', { value: 'strict', text: 'Strict' }), h('option', { value: 'no_restriction', text: 'None' }));
-  const topIn = h('input', { name: 'topLevelSite', id: id('topLevelSite'), class: 'mono', autocomplete: 'off', spellcheck: false, placeholder: 'https://example.com', attrs: { 'aria-label': 'Top-level site' } });
+  const topIn = h('input', { name: 'topLevelSite', id: id('topLevelSite'), class: 'mono', autocomplete: 'off', spellcheck: false, placeholder: 'https://example.com', attrs: { 'aria-label': t('top_level_site') } });
   const general = h('div', { class: 'issues general', dataset: { slot: 'general' } });
-  const saveBtn = h('button', { type: 'submit', class: 'btn primary', testid: 'editor-save', text: cookie ? 'Save' : 'Add cookie' });
+  const saveBtn = h('button', { type: 'submit', class: 'btn primary', testid: 'editor-save' }, icon(cookie ? 'check' : 'plus'), cookie ? t('btn_save') : t('add_cookie_short'));
 
-  const form = h('form', { class: 'editor', testid: 'editor', noValidate: true, attrs: { 'aria-label': cookie ? 'Edit cookie' : 'Add cookie' } },
+  const form = h('form', { class: 'editor', testid: 'editor', noValidate: true, attrs: { 'aria-label': cookie ? t('edit_cookie') : t('add_cookie_short') } },
     h('div', { class: 'editor-head' },
-      h('button', { type: 'button', class: 'icon-btn', title: 'Back (Esc)', attrs: { 'aria-label': 'Back to the list' }, onclick: () => cancel() }, icon('back')),
-      h('h2', { text: cookie ? 'Edit cookie' : 'Add cookie' }),
+      h('button', { type: 'button', class: 'icon-btn', title: t('back_esc'), attrs: { 'aria-label': t('back_to_list') }, onclick: () => cancel() }, icon('back')),
+      h('h2', { text: cookie ? t('edit_cookie') : t('add_cookie_short') }),
       cookie && h('span', { class: 'editor-sub mono', text: cookie.name })),
     h('div', { class: 'editor-body', testid: 'editor-issues' },
       general,
       // P2-3: what the cookie as stored does, in plain words. Read-only.
       cookie && h('details', { class: 'explain', testid: 'explain' },
-        h('summary', { text: 'What this cookie does' }),
-        h('ul', { class: 'bullets' }, explainCookie(cookie, { site }).map((x) => h('li', { dataset: { topic: x.topic }, text: x.text })))),
-      field('name', 'Name', nameIn),
-      field('value', 'Value', valueIn, bytes),
+        h('summary', {}, icon('info'), h('span', { text: t('explain_title') }), icon('chevron', 'icon chev')),
+        h('ul', { class: 'explain-list' }, explainCookie(cookie, { site }).map((x) => h('li', { dataset: { topic: x.topic } },
+          icon(TOPIC_ICONS[x.topic] ?? 'info', 'icon topic-icon'), h('span', { text: x.text }))))),
+      field('name', t('field_name'), nameIn),
+      field('value', t('field_value'), valueIn, meter),
       h('div', { class: 'grid2' },
-        field('domain', 'Domain', domainIn, check('hostOnly', 'Host-only (no Domain attribute)')),
-        field('path', 'Path', pathIn)),
-      field('expires', 'Expiry', h('div', { class: 'inline' }, check('session', 'Session cookie'), expiresIn)),
-      field('flags', 'Attributes', h('div', { class: 'inline' },
-        check('secure', 'Secure'), check('httpOnly', 'HttpOnly'),
-        h('label', { class: 'select-label', htmlFor: id('sameSite') }, h('span', { text: 'SameSite' }), sameSiteIn))),
-      field('partition', 'Partition',
-        check('partitioned', 'Partitioned (CHIPS)', { disabled: !feats.partitionKey }),
-        h('div', { class: 'partition-site' }, h('span', { class: 'hint', text: 'Top-level site' }), topIn),
-        !feats.partitionKey && h('p', { class: 'hint', text: 'This version of Chrome can\'t write partitioned cookies.' }))),
+        field('domain', t('field_domain'), domainIn, check('hostOnly', t('host_only'), { glyph: 'globe', title: t('host_only_title') })),
+        field('path', t('field_path'), pathIn)),
+      field('expires', t('field_expiry'), h('div', { class: 'inline' }, check('session', t('session'), { glyph: 'clock', title: t('session_title') }), expiresIn)),
+      field('flags', t('field_attributes'), h('div', { class: 'inline' },
+        check('secure', 'Secure', { glyph: 'lock', title: t('hint_secure') }),
+        check('httpOnly', 'HttpOnly', { glyph: 'eyeOff', title: t('httponly_title') }),
+        h('label', { class: 'select-label', htmlFor: id('sameSite') }, icon('link', 'icon chip-icon'), h('span', { text: 'SameSite' }), sameSiteIn))),
+      field('partition', t('field_partition'),
+        check('partitioned', t('partitioned_chips'), { glyph: 'split', disabled: !feats.partitionKey }),
+        h('div', { class: 'partition-site' }, h('span', { class: 'hint', text: t('top_level_site') }), topIn),
+        !feats.partitionKey && h('p', { class: 'hint', text: t('no_partition_write') }))),
     h('div', { class: 'editor-foot' },
-      cookie && h('button', { type: 'button', class: 'btn danger-ghost', testid: 'editor-delete', onclick: () => remove(cookie) }, icon('trash'), 'Delete'),
+      cookie && h('button', { type: 'button', class: 'icon-btn danger', testid: 'editor-delete', title: t('editor_delete_title'), attrs: { 'aria-label': t('btn_delete') }, onclick: () => remove(cookie) }, icon('trash')),
       h('span', { class: 'spacer' }),
-      h('button', { type: 'button', class: 'btn', testid: 'editor-cancel', text: 'Cancel', onclick: () => cancel() }),
+      h('button', { type: 'button', class: 'btn', testid: 'editor-cancel', text: t('btn_cancel'), onclick: () => cancel() }),
       saveBtn));
 
   const el = (n) => form.elements[n];
@@ -96,8 +106,10 @@ export function createEditor({ cookie, host, site, https, feats, save, remove, c
     expiresIn.disabled = f.session;
     form.querySelector('.partition-site').hidden = !f.partitioned;
     const n = byteCount(f.name, f.value);
-    bytes.textContent = `${n} / ${MAX_BYTES} bytes`;
+    bytes.textContent = t('bytes_of', n, MAX_BYTES);
     bytes.classList.toggle('over', n > MAX_BYTES);
+    meterFill.style.width = `${Math.min(100, (n / MAX_BYTES) * 100)}%`;
+    meter.dataset.level = n > MAX_BYTES ? 'over' : n > MAX_BYTES * 0.8 ? 'high' : 'ok';
 
     const draft = draftFromForm(f, cookie);
     const { errors, warnings } = validateCookie(draft, { now: now(), isPublicSuffix, pageSite: site });

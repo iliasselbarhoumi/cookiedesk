@@ -1,0 +1,2215 @@
+{
+  "extension_name": {
+    "message": "कुकी एडिटर — कुकीज़ देखें, बदलें और हटाएं | CookieDesk"
+  },
+  "extension_description": {
+    "message": "हर साइट की कुकीज़ देखें, बदलें, जोड़ें और हटाएं। खोज, इंपोर्ट/एक्सपोर्ट, पार्टिशन्ड कुकीज़ का सपोर्ट। कोई विज्ञापन या ट्रैकिंग नहीं।"
+  },
+  "btn_ok": {
+    "message": "ठीक है"
+  },
+  "btn_cancel": {
+    "message": "रद्द करें"
+  },
+  "btn_close": {
+    "message": "बंद करें"
+  },
+  "btn_delete": {
+    "message": "हटाएं"
+  },
+  "btn_copy": {
+    "message": "कॉपी करें"
+  },
+  "btn_save": {
+    "message": "सेव करें"
+  },
+  "btn_export": {
+    "message": "एक्सपोर्ट करें"
+  },
+  "btn_later": {
+    "message": "बाद में"
+  },
+  "dismiss": {
+    "message": "बंद करें"
+  },
+  "back": {
+    "message": "वापस"
+  },
+  "back_esc": {
+    "message": "वापस (Esc)"
+  },
+  "back_to_list": {
+    "message": "सूची पर वापस"
+  },
+  "title_count": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "empty_name": {
+    "message": "(खाली नाम)"
+  },
+  "empty_value": {
+    "message": "(खाली मान)"
+  },
+  "empty_short": {
+    "message": "(खाली)"
+  },
+  "names_more": {
+    "message": "$P1$ और $P2$ अन्य",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "done": {
+    "message": "हो गया"
+  },
+  "undo": {
+    "message": "पहले जैसा करें"
+  },
+  "undo_nothing": {
+    "message": "पहले जैसा करने के लिए कुछ नहीं"
+  },
+  "undo_entry": {
+    "message": "पहले जैसा करें: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_interrupted": {
+    "message": "पहले जैसा करना अधूरा रहा: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "redo_entry": {
+    "message": "फिर से करें: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "support_title": {
+    "message": "Ko-fi पर CookieDesk को सपोर्ट करें"
+  },
+  "supporter_title": {
+    "message": "CookieDesk को सपोर्ट करने के लिए धन्यवाद!"
+  },
+  "add_cookie": {
+    "message": "कुकी जोड़ें"
+  },
+  "add_cookie_title": {
+    "message": "कुकी जोड़ें (n)"
+  },
+  "more_actions": {
+    "message": "और विकल्प"
+  },
+  "menu_group_transfer": {
+    "message": "एक्सपोर्ट और इंपोर्ट"
+  },
+  "menu_group_sets": {
+    "message": "कुकी सेट"
+  },
+  "export_json_title": {
+    "message": "JSON के रूप में एक्सपोर्ट करें"
+  },
+  "export_txt_title": {
+    "message": "Netscape cookies.txt के रूप में एक्सपोर्ट करें"
+  },
+  "tile_snippet": {
+    "message": "स्निपेट"
+  },
+  "tile_snippet_title": {
+    "message": "document.cookie स्निपेट के रूप में कॉपी करें"
+  },
+  "tile_import": {
+    "message": "इंपोर्ट"
+  },
+  "tile_import_title": {
+    "message": "JSON या cookies.txt इंपोर्ट करें"
+  },
+  "tile_save_set": {
+    "message": "सेट सेव करें"
+  },
+  "tile_save_set_title": {
+    "message": "इन कुकीज़ को नाम वाली सेट फ़ाइल में सेव करें"
+  },
+  "tile_restore": {
+    "message": "रिस्टोर"
+  },
+  "tile_restore_title": {
+    "message": "सेव किया सेट रिस्टोर करें (पहले प्रीव्यू)"
+  },
+  "tile_compare": {
+    "message": "तुलना"
+  },
+  "tile_compare_title": {
+    "message": "सेव किए सेट की अभी से तुलना करें, या दो सेट की आपस में"
+  },
+  "tile_copy_to": {
+    "message": "यहां कॉपी करें…"
+  },
+  "tile_copy_to_title": {
+    "message": "दिख रही कुकीज़ को दूसरे स्टोर में कॉपी करें (सामान्य ↔ गुप्त)"
+  },
+  "menu_bulk_delete": {
+    "message": "दिख रही कुकीज़ हटाएं…"
+  },
+  "menu_access": {
+    "message": "एक्सेस और सेटिंग"
+  },
+  "menu_shortcuts": {
+    "message": "शॉर्टकट"
+  },
+  "menu_sidepanel": {
+    "message": "साइड पैनल में खोलें"
+  },
+  "menu_rate": {
+    "message": "CookieDesk को रेट करें"
+  },
+  "menu_support": {
+    "message": "Ko-fi पर सपोर्ट करें"
+  },
+  "search_placeholder": {
+    "message": "कुकीज़ खोजें"
+  },
+  "search_label": {
+    "message": "नाम, मान या डोमेन से कुकीज़ फ़िल्टर करें"
+  },
+  "search_title": {
+    "message": "नाम, मान या डोमेन से फ़िल्टर करें"
+  },
+  "cookie_store": {
+    "message": "कुकी स्टोर"
+  },
+  "cookies_list": {
+    "message": "कुकीज़"
+  },
+  "restricted_page": {
+    "message": "प्रतिबंधित पेज"
+  },
+  "loading": {
+    "message": "लोड हो रहा है…"
+  },
+  "state_unknown": {
+    "message": "इस टैब की कुकीज़ देखने के लिए टूलबार में CookieDesk बटन पर क्लिक करें।"
+  },
+  "state_unknown_hint": {
+    "message": "Chrome टैब का पता तभी साझा करता है जब आप क्लिक करें, या उन साइटों के लिए जिन्हें आपने अनुमति दी है।"
+  },
+  "state_error": {
+    "message": "कुछ गड़बड़ हुई: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "state_no_access": {
+    "message": "CookieDesk के पास अभी $P1$ का एक्सेस नहीं है।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "grant_site": {
+    "message": "$P1$ पर अनुमति दें",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "chrome_will_ask": {
+    "message": "Chrome पूछेगा:"
+  },
+  "prompt_site": {
+    "message": "सभी $P1$ साइटों पर आपका डेटा पढ़ें और बदलें",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "prompt_all": {
+    "message": "सभी वेबसाइटों पर आपका सारा डेटा पढ़ें और बदलें"
+  },
+  "only_this_site": {
+    "message": "सिर्फ़ इस साइट की कुकीज़, और कुछ नहीं।"
+  },
+  "allow_all_instead": {
+    "message": "इसके बजाय सभी साइटों को अनुमति दें"
+  },
+  "restricted_browser": {
+    "message": "यह Chrome का पेज है। Chrome किसी भी एक्सटेंशन को यहां कुकीज़ पढ़ने या बदलने नहीं देता।"
+  },
+  "restricted_webstore": {
+    "message": "यह Chrome Web Store है। Chrome यहां हर एक्सटेंशन को रोकता है, इसलिए इसकी कुकीज़ नहीं दिखाई जा सकतीं।"
+  },
+  "restricted_extension": {
+    "message": "यह किसी एक्सटेंशन का अपना पेज है। इसका स्टोरेज वेबसाइट की कुकीज़ नहीं है, इसलिए दिखाने को कुछ नहीं।"
+  },
+  "restricted_file": {
+    "message": "यह लोकल फ़ाइल है। डिस्क से खोली गई फ़ाइलों में कुकीज़ नहीं होतीं।"
+  },
+  "restricted_other": {
+    "message": "यह पेज वेबसाइट नहीं है (जैसे खाली या data: पेज), इसलिए इसमें कुकीज़ नहीं हैं।"
+  },
+  "live_just_now": {
+    "message": "अभी-अभी: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "note_third_party": {
+    "message": "एम्बेड की गई साइटों की कुकीज़ सिर्फ़ उन साइटों के लिए दिखती हैं जिन्हें आपने अनुमति दी है।"
+  },
+  "note_no_partitions": {
+    "message": "आपका Chrome वर्शन पार्टिशन्ड कुकीज़ नहीं दिखा सकता, इसलिए यह सूची अधूरी हो सकती है।"
+  },
+  "empty_no_match": {
+    "message": "“$P1$” से मेल खाती कोई कुकी नहीं।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "empty_none": {
+    "message": "$P1$ के लिए कोई कुकी नहीं।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clear_search": {
+    "message": "खोज साफ़ करें"
+  },
+  "change_changed": {
+    "message": "$P1$ बदली",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_added": {
+    "message": "$P1$ जोड़ी गई",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "change_removed": {
+    "message": "$P1$ हटाई गई",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_one": {
+    "message": "$P1$ कुकी",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_cookies_other": {
+    "message": "$P1$ कुकीज़",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "count_filtered_one": {
+    "message": "$P1$ कुकी में से $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_filtered_other": {
+    "message": "$P1$ कुकीज़ में से $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "count_partitioned": {
+    "message": "$P1$ पार्टिशन्ड",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "store_default": {
+    "message": "डिफ़ॉल्ट"
+  },
+  "store_incognito": {
+    "message": "गुप्त"
+  },
+  "store_n": {
+    "message": "स्टोर $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "session": {
+    "message": "सेशन"
+  },
+  "expired": {
+    "message": "समाप्त"
+  },
+  "expiry_under_minute": {
+    "message": "एक मिनट से कम में"
+  },
+  "expiry_on_close": {
+    "message": "ब्राउज़र बंद होने पर हट जाती है"
+  },
+  "expires_at": {
+    "message": "समाप्ति: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "badge_protected": {
+    "message": "सुरक्षित: बल्क डिलीट, इंपोर्ट और सेट रिस्टोर इसे नहीं छूते (p)"
+  },
+  "hint_httponly": {
+    "message": "HttpOnly: पेज के JavaScript को नहीं दिखती (document.cookie इसे नहीं पढ़ सकता)"
+  },
+  "hint_secure": {
+    "message": "Secure: सिर्फ़ HTTPS पर भेजी जाती है"
+  },
+  "hint_samesite_none": {
+    "message": "SameSite=None: क्रॉस-साइट अनुरोधों पर भी भेजी जाती है"
+  },
+  "hint_samesite_lax": {
+    "message": "SameSite=Lax: साइट पर जाते समय भेजी जाती है, क्रॉस-साइट सब-रिक्वेस्ट पर नहीं"
+  },
+  "hint_samesite_strict": {
+    "message": "SameSite=Strict: सिर्फ़ उसी साइट के अनुरोधों पर भेजी जाती है"
+  },
+  "badge_partitioned": {
+    "message": "पार्टिशन्ड"
+  },
+  "partitioned_under": {
+    "message": "$P1$ के अंतर्गत पार्टिशन्ड",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partition_this_site": {
+    "message": "यह साइट"
+  },
+  "partition_cross_site": {
+    "message": "$P1$, क्रॉस-साइट संदर्भ",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "row_protected": {
+    "message": "सुरक्षित"
+  },
+  "row_unprotect_title": {
+    "message": "सुरक्षा हटाएं (p)"
+  },
+  "row_protect_title": {
+    "message": "बल्क डिलीट, इंपोर्ट और सेट रिस्टोर से बचाएं (p)"
+  },
+  "copy_value": {
+    "message": "मान कॉपी करें"
+  },
+  "copied": {
+    "message": "कॉपी हो गया"
+  },
+  "copy_value_title": {
+    "message": "मान कॉपी करें (c)"
+  },
+  "row_delete_title": {
+    "message": "हटाएं (Del) — वापस हो सकता है"
+  },
+  "irreversible_title": {
+    "message": "इसे वापस नहीं किया जा सकता"
+  },
+  "continue_no_undo": {
+    "message": "बिना वापसी के जारी रखें"
+  },
+  "undo_anyway_title": {
+    "message": "फिर भी पहले जैसा करें?"
+  },
+  "undo_anyway": {
+    "message": "फिर भी पहले जैसा करें"
+  },
+  "undone": {
+    "message": "पहले जैसा किया: $P1$।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_skipped": {
+    "message": "कुछ कुकीज़ पहले ही समाप्त हो चुकी थीं और वापस नहीं लाई गईं: $P1$।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_refused": {
+    "message": "Chrome अब इन्हें पहले जैसा स्वीकार नहीं करता, इसलिए वापस नहीं लाई गईं: $P1$।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "clipboard_failed": {
+    "message": "कॉपी नहीं हो सका: यहां क्लिपबोर्ड उपलब्ध नहीं है।"
+  },
+  "protected_on": {
+    "message": "\"$P1$\" सुरक्षित की गई: बल्क डिलीट, इंपोर्ट और सेट रिस्टोर इसे नहीं छूएंगे।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_off": {
+    "message": "\"$P1$\" अब सुरक्षित नहीं है।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protect_limit": {
+    "message": "आप ज़्यादा से ज़्यादा $P1$ कुकीज़ सुरक्षित कर सकते हैं। पहले कुछ की सुरक्षा हटाएं।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_named": {
+    "message": "\"$P1$\" हटाएं?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "delete_protected_message": {
+    "message": "यह कुकी सुरक्षित है। फिर भी हटाएं? आप इसे वापस ला सकते हैं।"
+  },
+  "nothing_to_delete": {
+    "message": "हटाने के लिए कुछ नहीं"
+  },
+  "all_shown_protected_one": {
+    "message": "दिख रही कुकी सुरक्षित है।"
+  },
+  "all_shown_protected_other": {
+    "message": "दिख रही सभी $P1$ कुकीज़ सुरक्षित हैं।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "no_cookies_shown": {
+    "message": "कोई कुकी नहीं दिख रही।"
+  },
+  "bulk_title_one": {
+    "message": "$P1$ कुकी हटाएं?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_title_other": {
+    "message": "$P1$ कुकीज़ हटाएं?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_match": {
+    "message": "ये कुकीज़ $P2$ पर \"$P1$\" से मेल खाती हैं। आप इसे वापस ला सकते हैं।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "bulk_all": {
+    "message": "$P1$ की सूची की हर कुकी। आप इसे वापस ला सकते हैं।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_one": {
+    "message": "$P1$ सुरक्षित कुकी रखी जाएगी।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "protected_kept_other": {
+    "message": "$P1$ सुरक्षित कुकीज़ रखी जाएंगी।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_one": {
+    "message": "$P1$ कुकी हटाएं",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulk_ok_other": {
+    "message": "$P1$ कुकीज़ हटाएं",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_to": {
+    "message": "यहां कॉपी करें"
+  },
+  "copy_to_default_note": {
+    "message": "डिफ़ॉल्ट स्टोर में कॉपी की गई कुकीज़ बाकी कुकीज़ की तरह डिस्क पर रहती हैं, इस गुप्त सेशन के खत्म होने के बाद भी।"
+  },
+  "copy_to_incognito_note": {
+    "message": "गुप्त स्टोर में कॉपी की गई कुकीज़ उस गुप्त सेशन के साथ खत्म हो जाती हैं।"
+  },
+  "copy_title_one": {
+    "message": "$P1$ कुकी कॉपी करें",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_title_other": {
+    "message": "$P1$ कुकीज़ कॉपी करें",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_from": {
+    "message": "$P1$ स्टोर से यहां:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_replace_note": {
+    "message": "वहां समान नाम, डोमेन और पाथ वाली कुकीज़ बदल दी जाती हैं, सुरक्षित कुकीज़ को छोड़कर। आप कॉपी को वापस ला सकते हैं।"
+  },
+  "label_copied_one": {
+    "message": "$P1$ कुकी $P2$ में कॉपी की",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_copied_other": {
+    "message": "$P1$ कुकीज़ $P2$ में कॉपी कीं",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_kept_one": {
+    "message": "वहां की $P1$ सुरक्षित कुकी जैसी थी वैसी ही रही।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_kept_other": {
+    "message": "वहां की $P1$ सुरक्षित कुकीज़ जैसी थीं वैसी ही रहीं।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_done_one": {
+    "message": "$P1$ कुकी $P2$ में कॉपी की गई।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_done_other": {
+    "message": "$P1$ कुकीज़ $P2$ में कॉपी की गईं।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "copy_undo_hint": {
+    "message": "इसे यहीं वापस करें, या बाद में $P1$ स्टोर से।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "copy_nothing": {
+    "message": "$P1$ में ये कुकीज़ पहले से बिल्कुल वैसी ही हैं।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_cant": {
+    "message": "तुलना नहीं हो सकती"
+  },
+  "compare_now": {
+    "message": "$P1$ अभी",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_other_site": {
+    "message": "यह सेट $P1$ के लिए सेव हुआ था, $P2$ के लिए नहीं।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "compare_too_many": {
+    "message": "अभी से तुलना के लिए एक सेट चुनें, या आपस में तुलना के लिए दो सेट।"
+  },
+  "set_file_too_large": {
+    "message": "$P1$ कुकी सेट होने के लिए बहुत बड़ी है।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "compare_aria": {
+    "message": "कुकी सेट की तुलना"
+  },
+  "compare_changed_fields": {
+    "message": "बदला: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_one": {
+    "message": "कोई अंतर नहीं: $P1$ कुकी एक जैसी।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_none_other": {
+    "message": "कोई अंतर नहीं: $P1$ कुकीज़ एक जैसी।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "diff_summary": {
+    "message": "$P1$ जोड़ी गईं, $P2$ हटाई गईं, $P3$ बदलीं, $P4$ वैसी ही।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      },
+      "p4": {
+        "content": "$4"
+      }
+    }
+  },
+  "diff_added": {
+    "message": "जोड़ी गई"
+  },
+  "diff_removed": {
+    "message": "हटाई गई"
+  },
+  "diff_changed": {
+    "message": "बदली"
+  },
+  "diff_expiry_only": {
+    "message": "सिर्फ़ समाप्ति बदली ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "shortcuts_title": {
+    "message": "कीबोर्ड शॉर्टकट"
+  },
+  "key_search": {
+    "message": "खोज"
+  },
+  "key_move": {
+    "message": "सूची में चलें"
+  },
+  "key_first_last": {
+    "message": "पहली / आखिरी कुकी"
+  },
+  "key_edit": {
+    "message": "बदलें"
+  },
+  "key_copy": {
+    "message": "मान कॉपी करें"
+  },
+  "key_protect": {
+    "message": "सुरक्षित करें / सुरक्षा हटाएं"
+  },
+  "key_delete": {
+    "message": "हटाएं (वापस हो सकता है)"
+  },
+  "key_back": {
+    "message": "वापस, या खोज साफ़ करें"
+  },
+  "key_help": {
+    "message": "यह सूची"
+  },
+  "import_kept_one": {
+    "message": "$P1$ सुरक्षित कुकी जैसी थी वैसी ही रही: $P2$।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_kept_other": {
+    "message": "$P1$ सुरक्षित कुकीज़ जैसी थीं वैसी ही रहीं: $P2$।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "import_nothing": {
+    "message": "इंपोर्ट करने को कुछ नहीं: फ़ाइल की हर कुकी पहले से बिल्कुल वैसी ही सेट है।"
+  },
+  "imported_one": {
+    "message": "$P1$ कुकी इंपोर्ट की गई।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "imported_other": {
+    "message": "$P1$ कुकीज़ इंपोर्ट की गईं।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_restored": {
+    "message": "सेट \"$P1$\" रिस्टोर किया",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restored_one": {
+    "message": "\"$P2$\" रिस्टोर किया: $P1$ कुकी लिखी गई, $P3$ हटाई गईं।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "restored_other": {
+    "message": "\"$P2$\" रिस्टोर किया: $P1$ कुकीज़ लिखी गईं, $P3$ हटाई गईं।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "rate_title": {
+    "message": "CookieDesk पसंद आ रहा है?"
+  },
+  "rate_text": {
+    "message": "एक छोटी रेटिंग से दूसरों को इसे ढूंढने में मदद मिलती है।"
+  },
+  "rate_group": {
+    "message": "स्टोर पर रेट करें"
+  },
+  "rate_stars_one": {
+    "message": "$P1$ स्टार",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "rate_stars_other": {
+    "message": "$P1$ स्टार",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_confirm_title": {
+    "message": "क्या आपने मुझे कॉफ़ी पिलाई?"
+  },
+  "kofi_confirm_text": {
+    "message": "धन्यवाद, इसी से CookieDesk चलता रहता है।"
+  },
+  "kofi_yes": {
+    "message": "हां, पिलाई"
+  },
+  "kofi_not_yet": {
+    "message": "अभी नहीं"
+  },
+  "kofi_milestone_one": {
+    "message": "CookieDesk से $P1$ बदलाव किया गया!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_milestone_other": {
+    "message": "CookieDesk से $P1$ बदलाव किए गए!",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "kofi_free": {
+    "message": "यह मुफ़्त है और एक अकेले डेवलपर ने बनाया है।"
+  },
+  "buy_coffee": {
+    "message": "मुझे कॉफ़ी पिलाएं"
+  },
+  "edit_cookie": {
+    "message": "कुकी बदलें"
+  },
+  "add_cookie_short": {
+    "message": "कुकी जोड़ें"
+  },
+  "explain_title": {
+    "message": "यह कुकी क्या करती है"
+  },
+  "field_name": {
+    "message": "नाम"
+  },
+  "field_value": {
+    "message": "मान"
+  },
+  "field_domain": {
+    "message": "डोमेन"
+  },
+  "field_path": {
+    "message": "Path"
+  },
+  "field_expiry": {
+    "message": "समाप्ति"
+  },
+  "field_expires": {
+    "message": "समाप्ति"
+  },
+  "field_attributes": {
+    "message": "एट्रिब्यूट"
+  },
+  "field_partition": {
+    "message": "पार्टिशन"
+  },
+  "host_only": {
+    "message": "सिर्फ़ होस्ट"
+  },
+  "host_only_title": {
+    "message": "सिर्फ़ होस्ट: Domain एट्रिब्यूट नहीं, इसलिए सबडोमेन को यह नहीं मिलती"
+  },
+  "session_title": {
+    "message": "सेशन कुकी: ब्राउज़र बंद होने पर खत्म"
+  },
+  "httponly_title": {
+    "message": "HttpOnly: पेज के JavaScript को नहीं दिखती"
+  },
+  "samesite_unspecified": {
+    "message": "अनिर्दिष्ट"
+  },
+  "partitioned_chips": {
+    "message": "पार्टिशन्ड (CHIPS)"
+  },
+  "top_level_site": {
+    "message": "टॉप-लेवल साइट"
+  },
+  "no_partition_write": {
+    "message": "Chrome का यह वर्शन पार्टिशन्ड कुकीज़ नहीं लिख सकता।"
+  },
+  "editor_delete_title": {
+    "message": "हटाएं (वापस हो सकता है)"
+  },
+  "bytes_of": {
+    "message": "$P1$ / $P2$ बाइट",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "access_aria": {
+    "message": "एक्सेस और सेटिंग"
+  },
+  "all_sites_on": {
+    "message": "सभी साइटें: चालू"
+  },
+  "all_sites_on_text": {
+    "message": "CookieDesk हर साइट की कुकीज़ पढ़ और बदल सकता है, एम्बेड की गई साइटों की भी।"
+  },
+  "turn_off": {
+    "message": "बंद करें"
+  },
+  "all_sites": {
+    "message": "सभी साइटें"
+  },
+  "all_sites_text": {
+    "message": "वैकल्पिक। हर साइट पर अनुमति नहीं मांगी जाएगी, और एम्बेड की गई साइटों (विज्ञापन, विजेट, साइन-इन फ़्रेम) की कुकीज़ हर जगह दिखेंगी।"
+  },
+  "allow_all_sites": {
+    "message": "सभी साइटों पर अनुमति दें"
+  },
+  "remove_access": {
+    "message": "$P1$ का एक्सेस हटाएं",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "access_lead": {
+    "message": "CookieDesk किसी साइट की कुकीज़ तभी देखता है जब आप उस साइट को अनुमति दें, और कुछ नहीं: न पेज की सामग्री, न हिस्ट्री।"
+  },
+  "allowed_sites": {
+    "message": "अनुमति वाली साइटें"
+  },
+  "allowed_sites_count": {
+    "message": "अनुमति वाली साइटें · $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "all_sites_overrides": {
+    "message": "सभी साइटों का एक्सेस चालू है, इसलिए जब तक वह चालू है ये मायने नहीं रखतीं।"
+  },
+  "none_yet": {
+    "message": "अभी कोई नहीं।"
+  },
+  "toolbar_opens": {
+    "message": "टूलबार बटन खोलता है"
+  },
+  "surface_popup": {
+    "message": "पॉपअप"
+  },
+  "surface_sidepanel": {
+    "message": "साइड पैनल"
+  },
+  "support_feedback": {
+    "message": "सपोर्ट और फ़ीडबैक"
+  },
+  "thanks_supporting": {
+    "message": "सपोर्ट के लिए धन्यवाद!"
+  },
+  "report_problem": {
+    "message": "समस्या बताएं"
+  },
+  "source_code": {
+    "message": "सोर्स कोड"
+  },
+  "privacy_line": {
+    "message": "कोई नेटवर्क अनुरोध नहीं, डिस्क पर कोई कुकी मान नहीं। 10 मिनट तक पहले जैसा करना काम करता है; इसकी कॉपियां मेमोरी में रहती हैं और Chrome बंद होने या गुप्त सेशन खत्म होने पर हट जाती हैं।"
+  },
+  "export_warning": {
+    "message": "इस फ़ाइल में चालू सेशन कुकीज़ हैं। जिसके पास भी यह होगी वह इन साइटों पर आपके नाम से साइन इन कर सकता है। इसे पासवर्ड की तरह संभालें और काम होते ही हटा दें।"
+  },
+  "export_json_one": {
+    "message": "$P1$ कुकी JSON में एक्सपोर्ट करें",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_json_other": {
+    "message": "$P1$ कुकीज़ JSON में एक्सपोर्ट करें",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_one": {
+    "message": "$P1$ कुकी cookies.txt में एक्सपोर्ट करें",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_txt_other": {
+    "message": "$P1$ कुकीज़ cookies.txt में एक्सपोर्ट करें",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_all_one": {
+    "message": "$P2$ की सूची वाली कुकी फ़ाइल में जाएगी, HttpOnly हो तब भी।",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_all_other": {
+    "message": "$P2$ की सूची की सभी $P1$ कुकीज़ फ़ाइल में जाएंगी, HttpOnly वाली भी।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "export_partitioned_left_one": {
+    "message": "$P1$ पार्टिशन्ड कुकी छोड़ दी गई: cookies.txt पार्टिशन दर्ज नहीं कर सकता। इसे रखने के लिए JSON इस्तेमाल करें।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "export_partitioned_left_other": {
+    "message": "$P1$ पार्टिशन्ड कुकीज़ छोड़ दी गईं: cookies.txt पार्टिशन दर्ज नहीं कर सकता। इन्हें रखने के लिए JSON इस्तेमाल करें।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_too_big": {
+    "message": "यह फ़ाइल $P1$ MB की है। कुकी एक्सपोर्ट इससे बहुत छोटे होते हैं; CookieDesk 5 MB तक की फ़ाइलें पढ़ता है।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "cant_import_unchanged": {
+    "message": "यह फ़ाइल इंपोर्ट नहीं हो सकती। कुछ नहीं बदला।"
+  },
+  "cant_import": {
+    "message": "यह फ़ाइल इंपोर्ट नहीं हो सकती"
+  },
+  "file_unreadable": {
+    "message": "फ़ाइल पढ़ी नहीं जा सकी।"
+  },
+  "needs_access_one": {
+    "message": "ये कुकीज़ लिखने से पहले CookieDesk को $P1$ और साइट का एक्सेस चाहिए:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "needs_access_other": {
+    "message": "ये कुकीज़ लिखने से पहले CookieDesk को $P1$ और साइटों का एक्सेस चाहिए:",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_allow_all_hint": {
+    "message": "या एक्सेस और सेटिंग में सभी साइटों को अनुमति दें।"
+  },
+  "other_sites": {
+    "message": "दूसरी साइटें ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "other_sites_warning": {
+    "message": "यह फ़ाइल $P1$ के अलावा दूसरी साइटों की कुकीज़ भी लिखती है। किसी और साइट पर लगाई गई कुकी आपको वहां गलत अकाउंट में साइन इन करा सकती है। तभी आगे बढ़ें जब आप इन साइटों की उम्मीद कर रहे हों।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_one": {
+    "message": "$P1$ और साइट की कुकीज़ भी लिखें",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "also_write_other": {
+    "message": "$P1$ और साइटों की कुकीज़ भी लिखें",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "partitioned_under_list": {
+    "message": "इनके अंतर्गत पार्टिशन्ड: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "warnings_count": {
+    "message": "चेतावनियां ($P1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_title": {
+    "message": "कुकीज़ इंपोर्ट करें"
+  },
+  "import_message_one": {
+    "message": "$P1$ कुकी इंपोर्ट करें? समान नाम, डोमेन और पाथ वाली कुकीज़ बदल दी जाती हैं। आप पूरा इंपोर्ट वापस ला सकते हैं।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "import_message_other": {
+    "message": "$P1$ कुकीज़ इंपोर्ट करें? समान नाम, डोमेन और पाथ वाली कुकीज़ बदल दी जाती हैं। आप पूरा इंपोर्ट वापस ला सकते हैं।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_one": {
+    "message": "$P1$ कुकी document.cookie के रूप में कॉपी करें",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_title_other": {
+    "message": "$P1$ कुकीज़ document.cookie के रूप में कॉपी करें",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_warning": {
+    "message": "स्निपेट में चालू सेशन कुकीज़ हैं। जिसके पास भी यह होगा वह इस साइट पर आपके नाम से साइन इन कर सकता है। इसे पासवर्ड की तरह संभालें।"
+  },
+  "snippet_paste": {
+    "message": "इन कुकीज़ को वहां सेट करने के लिए इसे $P1$ के DevTools कंसोल में पेस्ट करें।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_one": {
+    "message": "$P1$ HttpOnly कुकी छोड़ दी गई: पेज का JavaScript इसे सेट नहीं कर सकता।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_httponly_left_other": {
+    "message": "$P1$ HttpOnly कुकीज़ छोड़ दी गईं: पेज का JavaScript इन्हें सेट नहीं कर सकता।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_one": {
+    "message": "$P1$ कुकी document.cookie के रूप में कॉपी की गई।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "snippet_copied_other": {
+    "message": "$P1$ कुकीज़ document.cookie के रूप में कॉपी की गईं।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_name": {
+    "message": "सेट का नाम"
+  },
+  "set_name_placeholder": {
+    "message": "जैसे एडमिन के रूप में लॉग इन"
+  },
+  "save_set_title_one": {
+    "message": "$P1$ कुकी को सेट के रूप में सेव करें",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "save_set_title_other": {
+    "message": "$P1$ कुकीज़ को सेट के रूप में सेव करें",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "set_file_note": {
+    "message": "सेट आपके कंप्यूटर पर एक फ़ाइल है; CookieDesk अपने पास कोई कॉपी नहीं रखता। बाद में $P1$ पर मेनू से इसे रिस्टोर करें।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "default_set_name": {
+    "message": "कुकी सेट"
+  },
+  "set_too_large": {
+    "message": "यह फ़ाइल कुकी सेट होने के लिए बहुत बड़ी है।"
+  },
+  "cant_restore_unchanged": {
+    "message": "यह सेट रिस्टोर नहीं हो सकता। कुछ नहीं बदला।"
+  },
+  "cant_restore": {
+    "message": "यह सेट रिस्टोर नहीं हो सकता"
+  },
+  "wrong_site_message": {
+    "message": "यह सेट $P1$ के लिए सेव हुआ था। $P1$ खोलें और वहीं रिस्टोर करें।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "wrong_site_title": {
+    "message": "गलत साइट। कुछ नहीं बदला।"
+  },
+  "foreign_cookies_one": {
+    "message": "इस फ़ाइल की $P1$ कुकी किसी और साइट ($P2$) की है। सेट रिस्टोर सिर्फ़ $P3$ को बदलता है; दूसरी साइटों के लिए इंपोर्ट इस्तेमाल करें।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "foreign_cookies_other": {
+    "message": "इस फ़ाइल की $P1$ कुकीज़ दूसरी साइटों ($P2$) की हैं। सेट रिस्टोर सिर्फ़ $P3$ को बदलता है; दूसरी साइटों के लिए इंपोर्ट इस्तेमाल करें।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      },
+      "p3": {
+        "content": "$3"
+      }
+    }
+  },
+  "plan_write": {
+    "message": "लिखें"
+  },
+  "plan_delete": {
+    "message": "हटाएं"
+  },
+  "plan_protected": {
+    "message": "सुरक्षित, जैसी हैं वैसी रहेंगी"
+  },
+  "restore_title": {
+    "message": "\"$P1$\" रिस्टोर करें",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_nothing": {
+    "message": "$P1$ पहले से इस सेट से मेल खाता है। बदलने को कुछ नहीं।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "restore_message_one": {
+    "message": "$P2$ की कुकीज़ इस सेट की $P1$ कुकी से बदल दी जाएंगी। आप पूरा रिस्टोर वापस ला सकते हैं।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "restore_message_other": {
+    "message": "$P2$ की कुकीज़ इस सेट की $P1$ कुकीज़ से बदल दी जाएंगी। आप पूरा रिस्टोर वापस ला सकते हैं।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_partition_unsupported": {
+    "message": "\"$P1$\" पार्टिशन्ड कुकी है, जिसे Chrome का यह वर्शन नहीं लिख सकता। Chrome को 119 या उसके बाद के वर्शन पर अपडेट करें।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_gone": {
+    "message": "\"$P1$\" अब मौजूद नहीं है — शायद वह समाप्त हो गई या साइट ने उसे बदल दिया। सूची फिर से लोड करें।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_stored": {
+    "message": "Chrome ने \"$P1$\" स्वीकार की लेकिन स्टोर नहीं की।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_imprecise_delete_one": {
+    "message": "Chrome \"$P2$\" को सिर्फ़ उसी नाम की $P1$ और कुकी के साथ हटा सकता है, इसलिए CookieDesk इसे नहीं हटाएगा।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_imprecise_delete_other": {
+    "message": "Chrome \"$P2$\" को सिर्फ़ उसी नाम की $P1$ और कुकीज़ के साथ हटा सकता है, इसलिए CookieDesk इसे नहीं हटाएगा।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_delete": {
+    "message": "Chrome अब \"$P1$\" को जैसी वह स्टोर है वैसी स्वीकार नहीं करता, इसलिए हटाने के बाद उसे वापस नहीं रखा जा सकेगा। बिना वापसी के हटाएं?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_not_removed": {
+    "message": "\"$P1$\" हटाई नहीं जा सकी।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_no_permission": {
+    "message": "CookieDesk के पास $P1$ का एक्सेस नहीं है। पहले इस साइट को अनुमति दें।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_secure_shadow": {
+    "message": "$P2$ के लिए \"$P1$\" नाम की Secure कुकी पहले से है। Chrome उसी नाम की गैर-Secure कुकी को उसे बदलने या उसके साथ रहने नहीं देता। Secure चालू करें, या अलग नाम रखें।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_rejected": {
+    "message": "Chrome ने बिना कारण बताए \"$P1$\" ठुकरा दी। कुछ नहीं बदला।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_irreversible_replace_one": {
+    "message": "Chrome अब $P2$ को जैसी वह स्टोर है वैसी स्वीकार नहीं करता, इसलिए बदलने के बाद उसे वापस नहीं रखा जा सकेगा। उसके लिए बिना वापसी के जारी रखें?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_irreversible_replace_other": {
+    "message": "Chrome अब $P2$ को जैसी वे स्टोर हैं वैसी स्वीकार नहीं करता, इसलिए बदलने के बाद उन्हें वापस नहीं रखा जा सकेगा। उनके लिए बिना वापसी के जारी रखें?",
+    "placeholders": {
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "err_too_large_to_undo": {
+    "message": "यह बदलाव बहुत ज़्यादा डेटा ($P1$ KB) छूता है, इसलिए वापसी की कॉपी नहीं रखी जा सकती। बिना वापसी के जारी रखें?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_duplicate_in_file": {
+    "message": "फ़ाइल में \"$P1$\" एक ही डोमेन और पाथ के लिए दो बार है।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "err_undo_expired": {
+    "message": "पहले जैसा करने को कुछ नहीं — यह 10 मिनट तक रखा जाता है।"
+  },
+  "err_undo_conflict": {
+    "message": "\"$P2$\" के बाद $P1$ बदल गई। अभी पहले जैसा करने से नया मान मिट जाएगा। फिर भी पहले जैसा करें?",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "label_incomplete": {
+    "message": "अधूरा: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_added": {
+    "message": "\"$P1$\" जोड़ी",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_edited": {
+    "message": "\"$P1$\" बदली",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted": {
+    "message": "\"$P1$\" हटाई",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_expired": {
+    "message": "\"$P1$\" हटाई (समाप्ति बीत चुकी)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_one": {
+    "message": "$P1$ कुकी हटाई",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_deleted_many_other": {
+    "message": "$P1$ कुकीज़ हटाईं",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_one": {
+    "message": "$P1$ कुकी इंपोर्ट की",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_imported_other": {
+    "message": "$P1$ कुकीज़ इंपोर्ट कीं",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_undid": {
+    "message": "पहले जैसा किया: $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "label_saved": {
+    "message": "\"$P1$\" सेव की",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_draft": {
+    "message": "कुकी एक ऑब्जेक्ट होनी चाहिए जिसमें name, value, domain और path हों।"
+  },
+  "v_name_type": {
+    "message": "कुकी का नाम टेक्स्ट होना चाहिए।"
+  },
+  "v_value_type": {
+    "message": "कुकी का मान टेक्स्ट होना चाहिए।"
+  },
+  "v_domain_type": {
+    "message": "डोमेन टेक्स्ट होना चाहिए।"
+  },
+  "v_path_type": {
+    "message": "पाथ टेक्स्ट होना चाहिए।"
+  },
+  "v_flag_type": {
+    "message": "$P1$ true या false होना चाहिए।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_bad_samesite": {
+    "message": "SameSite इनमें से एक होना चाहिए: $P1$।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_name_control": {
+    "message": "नाम में कंट्रोल कैरेक्टर हैं (जैसे नई लाइन या टैब), जो कुकी में नहीं रखे जा सकते।"
+  },
+  "v_name_semicolon": {
+    "message": "नाम में \";\" है, जो कुकी को बीच में ही खत्म कर देगा।"
+  },
+  "v_name_equals": {
+    "message": "नाम में \"=\" है, जो कुकी में नाम को मान से अलग करता है।"
+  },
+  "v_value_control": {
+    "message": "मान में कंट्रोल कैरेक्टर हैं (जैसे नई लाइन या टैब), जो कुकी में नहीं रखे जा सकते।"
+  },
+  "v_value_semicolon": {
+    "message": "मान में \";\" है, जो कुकी को बीच में ही खत्म कर देगा। इसे एनकोड करें (जैसे encodeURIComponent से)।"
+  },
+  "v_empty_cookie": {
+    "message": "कुकी में नाम या मान चाहिए; दोनों खाली हैं।"
+  },
+  "v_empty_name": {
+    "message": "इस कुकी का नाम खाली है। कुछ साइटें और टूल बिना नाम वाली कुकीज़ को ठीक से नहीं संभालते।"
+  },
+  "v_too_large": {
+    "message": "नाम और मान मिलाकर $P1$ बाइट (UTF-8) हैं; Chrome अधिकतम $P2$ की अनुमति देता है।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "v_path_slash": {
+    "message": "पाथ \"/\" से शुरू होना चाहिए।"
+  },
+  "v_path_too_long": {
+    "message": "पाथ $P1$ बाइट से लंबा है।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_path_chars": {
+    "message": "पाथ में कंट्रोल कैरेक्टर या \";\" है, जो कुकी में नहीं रखे जा सकते।"
+  },
+  "v_domain_empty": {
+    "message": "डोमेन खाली है। वह साइट डालें जिसकी यह कुकी है, जैसे example.com।"
+  },
+  "v_domain_too_long": {
+    "message": "डोमेन $P1$ बाइट से लंबा है।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_domain_invalid": {
+    "message": "डोमेन मान्य होस्ट नाम नहीं है। अक्षर, अंक और हाइफ़न बिंदुओं से अलग करके इस्तेमाल करें (अंतरराष्ट्रीय नाम punycode में होने चाहिए, जैसे xn--...)।"
+  },
+  "v_domain_leading_dot": {
+    "message": "सिर्फ़ होस्ट वाली कुकी के डोमेन की शुरुआत में बिंदु नहीं हो सकता; बिंदु का मतलब है कि कुकी सबडोमेन पर भी लागू होती है।"
+  },
+  "v_domain_public_suffix": {
+    "message": "\"$P1$\" एक पब्लिक सफ़िक्स है (रजिस्ट्री के नियंत्रण वाला डोमेन, जैसे .com या .co.uk), इसलिए ब्राउज़र ऐसी कुकीज़ ठुकरा देते हैं जो उस पूरे पर लागू हों।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_samesite_none_insecure": {
+    "message": "SameSite=None कुकीज़ Secure होनी चाहिए — वरना Chrome उन्हें ठुकरा देता है। Secure चालू करें या कोई और SameSite चुनें।"
+  },
+  "v_partitioned_insecure": {
+    "message": "पार्टिशन्ड कुकीज़ Secure होनी चाहिए — वरना Chrome उन्हें ठुकरा देता है। Secure चालू करें या पार्टिशन हटाएं।"
+  },
+  "v_prefix_secure": {
+    "message": "\"$P1$...\" नाम वाली कुकीज़ Secure होनी चाहिए। Secure चालू करें या कुकी का नाम बदलें।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_host_prefix_domain": {
+    "message": "\"__Host-...\" नाम वाली कुकीज़ सिर्फ़ होस्ट वाली होनी चाहिए (Domain एट्रिब्यूट नहीं, यानी सबडोमेन के साथ साझा नहीं)। \"सिर्फ़ होस्ट\" चालू करें या कुकी का नाम बदलें।"
+  },
+  "v_host_prefix_path": {
+    "message": "\"__Host-...\" नाम वाली कुकीज़ का पाथ \"/\" होना चाहिए।"
+  },
+  "v_bad_expiration": {
+    "message": "समाप्ति 1970 से सेकंड की सीमित संख्या होनी चाहिए।"
+  },
+  "v_expired_deletes": {
+    "message": "बीती हुई समाप्ति के साथ सेव करने से यह कुकी हट जाती है।"
+  },
+  "v_clamped": {
+    "message": "Chrome कुकी की उम्र $P1$ दिन तक सीमित रखता है; इससे आगे की समाप्ति सेव करते समय छोटी कर दी जाती है।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_expiration_missing": {
+    "message": "गैर-सेशन कुकी को समाप्ति की तारीख चाहिए। एक चुनें या कुकी को सेशन कुकी बनाएं।"
+  },
+  "v_partition_type": {
+    "message": "पार्टिशन कुंजी एक ऑब्जेक्ट होनी चाहिए जिसमें topLevelSite हो।"
+  },
+  "v_partition_site_type": {
+    "message": "पार्टिशन की टॉप-लेवल साइट https://example.com जैसा टेक्स्ट होनी चाहिए।"
+  },
+  "v_partition_site_form": {
+    "message": "पार्टिशन की टॉप-लेवल साइट https://example.com जैसी दिखनी चाहिए (https, बिना पाथ या पोर्ट के)।"
+  },
+  "v_partition_flag": {
+    "message": "पार्टिशन का hasCrossSiteAncestor true या false होना चाहिए।"
+  },
+  "v_partition_cross_site": {
+    "message": "कुकी का डोमेन $P1$ की ही साइट पर नहीं है, इसलिए Chrome इसके लिए hasCrossSiteAncestor का true होना ज़रूरी मानता है।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "v_other_site": {
+    "message": "इस कुकी का डोमेन ($P1$) मौजूदा साइट ($P2$) से बाहर है।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_entry": {
+    "message": "एंट्री $P1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_entry_named": {
+    "message": "एंट्री $P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_bad_samesite": {
+    "message": "$P1$: sameSite no_restriction, lax, strict, unspecified में से कोई नहीं है।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bool": {
+    "message": "$P1$: \"$P2$\" true या false होना चाहिए।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_text": {
+    "message": "$P1$: \"$P2$\" टेक्स्ट होना चाहिए।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_not_object": {
+    "message": "$P1$ कुकी ऑब्जेक्ट नहीं है।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_expiration_type": {
+    "message": "$P1$: \"expirationDate\" संख्या होनी चाहिए।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_key": {
+    "message": "$P1$: partitionKey एक ऑब्जेक्ट होनी चाहिए जिसमें टेक्स्ट वाला topLevelSite हो।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_partition_flag": {
+    "message": "$P1$: partitionKey.hasCrossSiteAncestor true या false होना चाहिए।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_line": {
+    "message": "लाइन $P1$ cookies.txt की एंट्री नहीं है (टैब से अलग 7 फ़ील्ड चाहिए थे, $P2$ मिले)।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_line_flag_subdomains": {
+    "message": "लाइन $P1$: सबडोमेन फ़्लैग TRUE या FALSE होना चाहिए।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_flag_secure": {
+    "message": "लाइन $P1$: secure फ़्लैग TRUE या FALSE होना चाहिए।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_line_expiry": {
+    "message": "लाइन $P1$: समाप्ति सेकंड की पूर्ण संख्या होनी चाहिए।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_not_text": {
+    "message": "फ़ाइल टेक्स्ट के रूप में पढ़ी नहीं जा सकी।"
+  },
+  "io_too_large": {
+    "message": "फ़ाइल $P1$ बाइट की इंपोर्ट सीमा से बड़ी है।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "io_bad_json": {
+    "message": "फ़ाइल JSON जैसी लगती है लेकिन पार्स नहीं हो सकी।"
+  },
+  "io_bad_version": {
+    "message": "इस CookieDesk फ़ाइल का वर्शन समर्थित नहीं है।"
+  },
+  "io_no_cookie_list": {
+    "message": "CookieDesk फ़ाइल में \"cookies\" सूची नहीं है।"
+  },
+  "io_unknown_format": {
+    "message": "यह JSON न CookieDesk एक्सपोर्ट है, न कुकीज़ की सूची।"
+  },
+  "io_no_cookies": {
+    "message": "फ़ाइल में कोई कुकी नहीं है।"
+  },
+  "io_too_many": {
+    "message": "फ़ाइल में $P1$ कुकीज़ हैं; सीमा $P2$ है।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_issue": {
+    "message": "$P1$: $P2$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "io_duplicate": {
+    "message": "$P1$: किसी और एंट्री का नाम, डोमेन, पाथ और पार्टिशन यही है।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "when": {
+    "message": "$P1$ ($P2$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "when_passed": {
+    "message": "बीत चुकी"
+  },
+  "when_under_day": {
+    "message": "एक दिन से कम में"
+  },
+  "explain_third_party": {
+    "message": "$P1$ ने सेट की, जो $P2$ से अलग साइट है: थर्ड-पार्टी कुकी।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_third_party_partitioned": {
+    "message": "$P1$ ने सेट की, जो $P2$ से अलग साइट है: थर्ड-पार्टी कुकी, $P2$ के पार्टिशन में रखी गई।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "explain_host_prefix": {
+    "message": "__Host- प्रीफ़िक्स से Chrome Secure, बिना Domain एट्रिब्यूट और Path=/ ज़रूरी कर देता है, इसलिए कोई सबडोमेन इसे सेट या बदल नहीं सकता।"
+  },
+  "explain_secure_prefix": {
+    "message": "__Secure- प्रीफ़िक्स से Chrome इसे सिर्फ़ Secure फ़्लैग के साथ स्वीकार करता है।"
+  },
+  "explain_scope_host": {
+    "message": "सिर्फ़ $P1$ को भेजी जाती है, उसके सबडोमेन को नहीं।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_scope_domain": {
+    "message": "$P1$ और उसके हर सबडोमेन (जैसे www.$P1$) को भेजी जाती है।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_path_all": {
+    "message": "उस होस्ट के हर पाथ के अनुरोध के साथ भेजी जाती है।"
+  },
+  "explain_path_under": {
+    "message": "सिर्फ़ $P1$ के अंतर्गत आने वाले पाथ के अनुरोधों के साथ भेजी जाती है।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_secure": {
+    "message": "Secure: सिर्फ़ HTTPS पर भेजी जाती है।"
+  },
+  "explain_not_secure": {
+    "message": "Secure नहीं: सादे HTTP पर भी भेजी जाती है, जहां नेटवर्क पर कोई भी इसे पढ़ सकता है।"
+  },
+  "explain_httponly": {
+    "message": "HttpOnly: पेज के JavaScript को नहीं दिखती (document.cookie इसे नहीं पढ़ सकता), जिससे यह डाली गई स्क्रिप्टों से दूर रहती है।"
+  },
+  "explain_script_readable": {
+    "message": "पेज पर चलने वाली कोई भी स्क्रिप्ट इसे पढ़ और बदल सकती है।"
+  },
+  "explain_samesite_none": {
+    "message": "SameSite=None: क्रॉस-साइट अनुरोधों (एम्बेड फ़्रेम, इमेज, दूसरी साइटों के अनुरोध) के साथ भी भेजी जा सकती है, जहां Chrome थर्ड-पार्टी कुकीज़ की अनुमति देता है (गुप्त मोड में ये डिफ़ॉल्ट रूप से ब्लॉक हैं)। इसीलिए इसका Secure होना ज़रूरी है।"
+  },
+  "explain_samesite_lax": {
+    "message": "SameSite=Lax: साइट पर जाते समय भेजी जाती है, दूसरी साइट के लिंक से आने पर भी, लेकिन दूसरी साइटों के पेज जो अनुरोध बैकग्राउंड में करते हैं उनके साथ नहीं।"
+  },
+  "explain_samesite_strict": {
+    "message": "SameSite=Strict: सिर्फ़ तब भेजी जाती है जब आप पहले से उसी साइट पर हों। दूसरी साइट के लिंक से आने पर पहला अनुरोध इसके बिना जाता है।"
+  },
+  "explain_samesite_unset": {
+    "message": "SameSite एट्रिब्यूट नहीं: Chrome इसे Lax मानता है।"
+  },
+  "explain_session": {
+    "message": "सेशन कुकी: ब्राउज़र बंद होने पर हट जाती है (जब तक Chrome शुरू होने पर आपका पिछला सेशन वापस न लाए)।"
+  },
+  "explain_expires": {
+    "message": "समाप्ति: $P1$। Chrome हर समाप्ति को कुकी के आखिरी बार सेट होने से 400 दिन तक सीमित करता है।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition": {
+    "message": "पार्टिशन्ड (CHIPS): हर टॉप-लेवल साइट के लिए अलग स्टोर होती है। यह कॉपी तभी भेजी जाती है जब पता बार में $P1$ हो।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_partition_cross": {
+    "message": "यह उस पार्टिशन के क्रॉस-साइट हिस्से में है (जहां पेज और इस कुकी की साइट के बीच कोई और साइट हो), जो उसी-साइट वाले हिस्से से अलग रखा जाता है।"
+  },
+  "explain_partition_same": {
+    "message": "यह उस पार्टिशन के उसी-साइट वाले हिस्से में है, जो क्रॉस-साइट हिस्से से अलग रखा जाता है।"
+  },
+  "explain_partition_other": {
+    "message": "किसी और साइट के अंतर्गत उसी नाम की कुकी एक अलग कुकी है।"
+  },
+  "explain_jwt": {
+    "message": "मान JSON Web Token जैसा लगता है।"
+  },
+  "explain_jwt_exp": {
+    "message": "मान JSON Web Token जैसा लगता है; टोकन खुद बताता है कि वह $P1$ को समाप्त होगा।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "explain_size": {
+    "message": "नाम और मान मिलाकर Chrome जितने 4096 बाइट की अनुमति देता है, उनमें से $P1$।",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  }
+}

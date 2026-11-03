@@ -18,5 +18,5 @@
     "paste-helper": "python3 scripts/build_paste_helper.py"
   },
   "license": "MIT",
-  "version": "1.1.0"
+  "version": "1.1.1"
 }

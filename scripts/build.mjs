@@ -11,6 +11,9 @@ const { version } = JSON.parse(readFileSync(join(root, 'manifest.json'), 'utf8')
 for (const p of ['icons/icon-16.png', 'icons/icon-48.png', 'icons/icon-128.png']) {
   if (!existsSync(join(root, p))) throw new Error(`${p} missing: run npm run icons`);
 }
+if (/const UNINSTALL_FORM = '';/.test(readFileSync(join(root, 'src/background/sw.js'), 'utf8'))) {
+  throw new Error('src/background/sw.js: set UNINSTALL_FORM to the Tally form (uninstall-forms/cookiedesk.md)');
+}
 execFileSync('python3', ['i18n/build_locales.py'], { cwd: root, stdio: 'inherit' });
 execFileSync('python3', ['scripts/build_paste_helper.py'], { cwd: root, stdio: 'inherit' });
 mkdirSync(join(root, 'dist'), { recursive: true });

@@ -26,6 +26,10 @@ Nothing else is stored.
 
 The heart and "Buy me a coffee" open https://ko-fi.com/buildwithiliass, and "Rate CookieDesk" opens CookieDesk's page on the Chrome Web Store, each in a new tab, only when you click them. CookieDesk sends nothing to these sites; what they receive is what any visit sends.
 
+## If you uninstall
+
+Chrome opens a short, optional feedback form hosted on Tally (tally.so). CookieDesk sends nothing to it, and nothing is added to its address. Answering is up to you.
+
 ## Exports
 
 Export, "Save cookie set" and "Copy as document.cookie" write a file to your computer, or text to your clipboard, only when you ask. "Copy shown cookies to another store" writes cookies into the store you choose, only when you ask; cookies copied from an incognito window into your normal store are then kept by Chrome like any other cookie. The file contains live cookie values, so treat it like a password. CookieDesk warns you before exporting. It never uploads the file.

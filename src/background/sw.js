@@ -5,6 +5,12 @@
 import { createEngine } from '../core/cookies.js';
 import { noteInstalled } from '../ui/rating.js';
 
+// When CookieDesk is removed, Chrome opens a short, optional feedback form
+// (uninstall-forms/cookiedesk.md in the studio folder). Nothing is added to its
+// address. Empty until the form exists; scripts/build.mjs refuses to package it empty.
+const UNINSTALL_FORM = '';
+if (UNINSTALL_FORM) chrome.runtime.setUninstallURL(UNINSTALL_FORM).catch(() => {});
+
 // The user chooses what the toolbar button opens (P-5: never force the side panel).
 const SURFACE_KEY = 'surface'; // 'popup' (default) | 'sidepanel'
 
